@@ -14,7 +14,7 @@ jobs:
       - name: Nuclei - Vulnerability Scan
         uses: projectdiscovery/nuclei-action@main
         with:
-          urls: bug.txt
+          target: https://csrinepal.org
           flags: "-severity critical,high,medium -stats"
           github-report: true
           github-token: ${{ secrets.GITHUB_TOKEN }}
