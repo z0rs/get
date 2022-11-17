@@ -16,6 +16,8 @@ jobs:
         with:
           urls: bug.txt
           flags: "-severity critical,high,medium -stats"
+          github-report: true
+          github-token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: GitHub Workflow artifacts
         uses: actions/upload-artifact@v2
