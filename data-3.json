@@ -52,3 +52,65 @@
     ]
   }
 }
+
+{
+  "status_code": 200,
+  "error": null,
+  "response": {
+    "records": [
+      {
+        "dangling": [
+          {
+            "answer": "orbitzforbusiness-faq.custhelp.com",
+            "query": "businessfaq.orbitz.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "bigip-ebusiness-orbitz.oracle.com",
+            "query": "ebusiness.orbitz.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "bigip-ebusiness12i-orbitz.oracle.com",
+            "query": "ebusiness12i.orbitz.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "orbz.client.shareholder.com",
+            "query": "ir.orbitz.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "bigip-r12appsvision-orbitz.oracle.com",
+            "query": "r12appsvision.orbitz.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "www1.orbitz.com.edgekey.net",
+            "query": "www1.orbitz.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "e156.g.akamaiedge.net",
+            "query": "www1.orbitz.com.edgekey.net",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          }
+        ]
+      }
+    ]
+  }
+}
