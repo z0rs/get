@@ -1,0 +1,53 @@
+{
+  "status_code": 200,
+  "error": null,
+  "response": {
+    "records": [
+      {
+        "dangling": [
+          {
+            "answer": "a13223682bbf9440f9c7fd359ae2e8ec-b9364d26d72b846b.elb.ap-southeast-1.amazonaws.com",
+            "query": "devhub.emailtarget.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "a9875d1d1d2154e6792d3ab649ec2ca1-d489e81db22892cb.elb.ap-southeast-1.amazonaws.com",
+            "query": "go-grpc-kong.superapp.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "infra-nlb-2d500372004fd734.elb.ap-southeast-1.amazonaws.com",
+            "query": "infra-nlb.logique.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "a8e3eec8f234f43d596cd47d5d46f2c5-021e998ff5f80841.elb.ap-southeast-1.amazonaws.com",
+            "query": "staging-superapp.eks.superapp.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "a84f00fa32a644225aaf414cf6467a4e-d1a8abbea8362702.elb.ap-southeast-1.amazonaws.com",
+            "query": "txswitch-dev.ihsansolusi.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "balancer-speech-api-beac87fa4e3933f5.elb.ap-southeast-1.amazonaws.com",
+            "query": "www.stt.bahasakita.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          }
+        ]
+      }
+    ]
+  }
