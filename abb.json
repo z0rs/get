@@ -1,0 +1,131 @@
+{
+  "status_code": 200,
+  "error": null,
+  "response": {
+    "records": [
+      {
+        "dangling": [
+          {
+            "answer": "d12ctrsupo4qpr.cloudfront.net",
+            "query": "abblibrary.abb.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "api.qrcode.motion.waf.abb",
+            "query": "api.qrcode.motion.abb.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "shallow-dingo-fx6twu105pxyj2e6t1hibt7c.herokudns.com",
+            "query": "cobotlaunch.robotics.abb.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "dev.api.qrcode.motion.waf.abb",
+            "query": "dev.api.qrcode.motion.abb.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "xc-elb-library-prod-1319924227.eu-west-1.elb.amazonaws.com",
+            "query": "elb.publish.library.e.abb.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "xc-elb-library-pui-stage-1255228128.eu-west-1.elb.amazonaws.com",
+            "query": "elb.publish.library.stage.e.abb.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "xc-elb-library-pui-test-913012276.eu-west-1.elb.amazonaws.com",
+            "query": "elb.publish.library.test.e.abb.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "xc-alb-mdms-p-117303246.eu-west-1.elb.amazonaws.com",
+            "query": "mdm.abb.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "cn553.awmdm.com",
+            "query": "mymobile-admin.abb.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "ds553.awmdm.com",
+            "query": "mymobile.abb.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "xc-elb-opinions-stage-ext-596479826.eu-west-1.elb.amazonaws.com",
+            "query": "opinions.inside.stage.abb.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "qrcode.motion.waf.abb",
+            "query": "qrcode.motion.abb.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "stage.api.qrcode.motion.waf.abb",
+            "query": "stage.api.qrcode.motion.abb.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "i3-d-emis-cpqindsol-580262711.us-east-1.elb.amazonaws.com",
+            "query": "stage.powersource-configurator.abb.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "stage.qrcode.motion.waf.abb",
+            "query": "stage.qrcode.motion.abb.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "i3-p-abb-empower-prod-1586489277.us-east-1.elb.amazonaws.com",
+            "query": "www.empower.abb.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "www138.abb.com.cdngc.net",
+            "query": "www138.abb.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          }
+        ]
+      }
+    ]
+  }
+}
