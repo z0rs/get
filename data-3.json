@@ -6,6 +6,288 @@
       {
         "dangling": [
           {
+            "answer": "mstage1.flights.thomson.co.uk.moovdns.net",
+            "query": "mstage1.flights.thomson.co.uk",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "mstage1.flights.thomsonprjuat.co.uk.moovdns.net",
+            "query": "mstage1.flights.thomsonprjuat.co.uk",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "mstage1.pay.flights.thomson.co.uk.moovdns.net",
+            "query": "mstage1.pay.flights.thomson.co.uk",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "mstage1.pay.flights.thomsonprjuat.co.uk.moovdns.net",
+            "query": "mstage1.pay.flights.thomsonprjuat.co.uk",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "mstage2.flights.thomsonprjuat.co.uk.moovdns.net",
+            "query": "mstage2.flights.thomsonprjuat.co.uk",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "mstage2.pay.flights.thomsonprjuat.co.uk.moovdns.net",
+            "query": "mstage2.pay.flights.thomsonprjuat.co.uk",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "flightscom-web-1244105037.us-east-1.elb.amazonaws.com",
+            "query": "www.flights.eu",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "whitelabel.dohop.com/w/ihatetaxis/",
+            "query": "www.flights.ihatetaxis.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+{
+  "status_code": 200,
+  "error": null,
+  "response": {
+    "records": [
+      {
+        "dangling": [
+          {
+            "answer": "d1oe0mfgxzy648.cloudfront.net",
+            "query": "auth.travelconnect-lab.expediagroup.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "dnxixuh0kql0h.cloudfront.net",
+            "query": "auth.travelconnect.expediagroup.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "d3cxv7qxp31dy3.cloudfront.net",
+            "query": "travelconnect-lab.auth.expediagroup.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "d109w39czqmx7c.cloudfront.net",
+            "query": "travelconnect-lab.expediagroup.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "m40xg2pdq4.execute-api.us-west-2.amazonaws.com",
+            "query": "travelconnect.apis.expediagroup.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "d17ixan1xlhde.cloudfront.net",
+            "query": "travelconnect.expediagroup.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
+
+{
+  "status_code": 200,
+  "error": null,
+  "response": {
+    "records": [
+      {
+        "dangling": [
+          {
+            "answer": "expedia.aide.abritel.fr.00d1a000000zzrreak.live.siteforce.com",
+            "query": "expedia.aide.abritel.fr",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "capo-landing-1615532193.us-east-1.elb.amazonaws.com",
+            "query": "landing.abritel.fr",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "mail.homeaway.com",
+            "query": "mail1.abritel.fr",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "smtp.homeaway.com",
+            "query": "mail2.abritel.fr",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+{
+  "status_code": 200,
+  "error": null,
+  "response": {
+    "records": [
+      {
+        "dangling": [
+          {
+            "answer": "tvly-shop-test-trunk-1869863219.us-east-1.elb.amazonaws.com",
+            "query": "shop.test.travelocity.expedia.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "travelocity.prod.expedia.com",
+            "query": "www.travelocity.com.mx",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+{
+  "status_code": 200,
+  "error": null,
+  "response": {
+    "records": [
+      {
+        "dangling": [
+          {
+            "answer": "beeliked-loadbalancer-1796555414.eu-west-1.elb.amazonaws.com",
+            "query": "social.lastminute.com.au",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+{
+  "status_code": 200,
+  "error": null,
+  "response": {
+    "records": [
+      {
+        "dangling": [
+          {
+            "answer": "amptracking.prod.expedia.com",
+            "query": "amptracking.wotif.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "expedia-conversations-web.us-west-1.prod-p.expedia.com",
+            "query": "messageconnect.wotif.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+{
+  "status_code": 200,
+  "error": null,
+  "response": {
+    "records": [
+      {
+        "dangling": [
+          {
+            "answer": "prodpci-tarsierpub-877336199.us-east-1.elb.amazonaws.com",
+            "query": "apicr.carrentals.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "messagegear-poc-470879404.us-west-2.elb.amazonaws.com",
+            "query": "mg-dev.carrentals.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "utility-lb-svn-406357089.us-east-1.elb.amazonaws.com",
+            "query": "svn.aws.carrentals.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "usae-tec.sea.corp.expecn.com",
+            "query": "tableau.carrentals.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+{
+  "status_code": 200,
+  "error": null,
+  "response": {
+    "records": [
+      {
+        "dangling": [
+          {
             "answer": "orbitzforbusiness-faq.custhelp.com",
             "query": "businessfaq.orbitz.com",
             "target": "dangler",
