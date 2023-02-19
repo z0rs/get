@@ -114,3 +114,23 @@
     ]
   }
 }
+
+{
+  "status_code": 200,
+  "error": null,
+  "response": {
+    "records": [
+      {
+        "dangling": [
+          {
+            "answer": "travelweb-02-p-32b2-89d17624fb11-921342612.us-east-1.elb.amazonaws.com",
+            "query": "partners.ebookers.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          }
+        ]
+      }
+    ]
+  }
+}
