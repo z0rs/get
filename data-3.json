@@ -6,6 +6,27 @@
       {
         "dangling": [
           {
+            "answer": "d8f0f2941286d54b72dd18db8cf7bf4c-d1b1f11ad4cf5754.elb.us-east-1.amazonaws.com",
+            "query": "sirleeroyjenkins.album-recommendation.hackerone.aws-us-east-1c.dev.z.vespa-app.cloud",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          }
+        ]
+      }
+    ]
+  }
+}
+
+
+{
+  "status_code": 200,
+  "error": null,
+  "response": {
+    "records": [
+      {
+        "dangling": [
+          {
             "answer": "mstage1.flights.thomson.co.uk.moovdns.net",
             "query": "mstage1.flights.thomson.co.uk",
             "target": "dangler",
