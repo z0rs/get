@@ -1,0 +1,557 @@
+{
+  "status_code": 200,
+  "error": null,
+  "response": {
+    "records": [
+      {
+        "dangling": [
+          {
+            "answer": "hello-world-ecb8deb823156559.elb.eu-west-1.amazonaws.com",
+            "query": "2d0305d8e5b2f16c.aws.convox.site",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "ext-euwe1-tnew-test-732ef62097b91be4.elb.eu-west-1.amazonaws.com",
+            "query": "57nlsbt.x.incapdns.net",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "peuw11-connectivity-12b53a1487e74cba.elb.eu-west-1.amazonaws.com",
+            "query": "585225e8435cfad649b3d32e96777e10.peuwone.luminatesec.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "snowplow-cfe315cbdbe7e139.elb.eu-west-1.amazonaws.com",
+            "query": "6af77980-ab0c-48cd-86e1-fa38d527618e.try-snowplow.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "a35492cf1596c4c8f8f759a0dbe6da8c-71e7ee71170eeeae.elb.eu-west-1.amazonaws.com",
+            "query": "71e7ee71170eeeae.elb.stage.mspbackups.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "snowplow-a469cf0127221505.elb.eu-west-1.amazonaws.com",
+            "query": "75348d02-17e7-4656-95aa-d6062f801c3f.try-snowplow.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "snowplow-2c9dbc8fcc20368e.elb.us-west-1.amazonaws.com",
+            "query": "7aa036ba-00cd-48a8-9e05-f2b76b0f104b.try-snowplow.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "snowplow-9c8dcbc829a5091c.elb.eu-west-1.amazonaws.com",
+            "query": "8141b1ef-f7d9-47a4-ab50-a0a77f4a83f6.try-snowplow.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "snowplow-90aa2cfad4941dd1.elb.eu-west-1.amazonaws.com",
+            "query": "821e3739-60b7-46de-828e-da916c8780ba.try-snowplow.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "snowplow-test-b2047aa3c83f4cdb.elb.eu-west-1.amazonaws.com",
+            "query": "8bdf85de-7391-461c-82d3-8432310f4b48.try-snowplow.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "snowplow-tryout-5f62e6438d46c0e3.elb.eu-west-1.amazonaws.com",
+            "query": "957a1e06-5a4d-4b49-9f95-06014069cd5e.try-snowplow.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "snowplow-fc463e15fa307c79.elb.eu-west-1.amazonaws.com",
+            "query": "9bdda64b-601f-4224-8417-ef0fb1bdcc31.try-snowplow.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "a3f535695889f4e3ab2a54c82b7ec3b2-1423685f6ddda06d.elb.eu-west-1.amazonaws.com",
+            "query": "9e64e4d8bb7f1b45.elb.stage.mspbackups.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "backendprod-1-ceaa9a65d331b259.elb.eu-west-1.amazonaws.com",
+            "query": "_dc-mx.42c8b322fbdc.dashboard.mensakas.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "d-n8anhpfj1d.execute-api.eu-west-1.amazonaws.com",
+            "query": "a206181-dnb-ftp.qa.edd-ca.refinitiv.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "a2602-splun-1nit4igx14zxk-3a2dbdd5bc875290.elb.us-gov-west-1.amazonaws.com",
+            "query": "a260293.workforce-solutions.net",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "a3fb1-splun-1lepz4tze4lnj-9c09d79491b3bb73.elb.us-gov-west-1.amazonaws.com",
+            "query": "a3fb1a3.workforce-solutions.net",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "a400a-splun-1jacwm5d8opop-1932a7ae4eee6b49.elb.us-gov-west-1.amazonaws.com",
+            "query": "a400a03.workforce-solutions.net",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "a7407-endga-l1us0e25sdma-6579fe6c376709d6.elb.us-gov-west-1.amazonaws.com",
+            "query": "a740742.workforce-solutions.net",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "a7407-splun-hb50rm1kkgpk-6010684c23967f98.elb.us-gov-west-1.amazonaws.com",
+            "query": "a740743.workforce-solutions.net",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "atlas-dev-atlas-dev-079704c8c50240b8.elb.us-west-1.amazonaws.com",
+            "query": "a8.tecorama.dataknack.pl",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "aa15b-endga-iqr5ns76og3d-65a3e285cfe288d3.elb.us-gov-west-1.amazonaws.com",
+            "query": "aa15b32.workforce-solutions.net",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "aa15b-splun-ayzzm7t0weu8-8bac92cb0de9aff3.elb.us-gov-west-1.amazonaws.com",
+            "query": "aa15b33.workforce-solutions.net",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "aae1b-splun-qb195tzgxaeb-540123c62355aa26.elb.us-gov-west-1.amazonaws.com",
+            "query": "aae1bc3.workforce-solutions.net",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "a7daf99b3d55f4601a2f3afb5f3b90d6-9dc648271ee0ddba.elb.eu-west-1.amazonaws.com",
+            "query": "abnamro-acc.avisi.net",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "aece09a83ccb64843b374d3c31750803-eaf18e2e825f1cd4.elb.eu-west-1.amazonaws.com",
+            "query": "about.wefarm.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "ac123-management-3db889f7cdbdc82c.elb.eu-west-1.amazonaws.com",
+            "query": "ac21345.luminate-development.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "acac7-endga-1e9og0yfion8b-be197b0f703bef33.elb.us-gov-west-1.amazonaws.com",
+            "query": "acac772.workforce-solutions.net",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "d-v17qfkib67.execute-api.eu-west-1.amazonaws.com",
+            "query": "acc.api.rehaul.nl",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "hostedgartner-haproxy-nlb-b8154b4177e0648b.elb.us-west-1.amazonaws.com",
+            "query": "access-d1.mobileiron.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "peuw14-mgmt-account-api-eip-a2e8ba885da21c1a.elb.eu-west-1.amazonaws.com",
+            "query": "account-api-k8s.production.eu-west-1.luminatesec.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "sap-management-account-api-dip-0b6bb761e774aa47.elb.eu-west-1.amazonaws.com",
+            "query": "account-api-k8s.staging.eu-west-1.luminatesite.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "k8s-default-ingressn-dbd48879ac-ba8afcb6ae063dfc.elb.eu-west-1.amazonaws.com",
+            "query": "accounting-service-public2.sand.worksome.net",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "d-rajtjqc9v8.execute-api.us-west-1.amazonaws.com",
+            "query": "actingwebdemo.greger.io",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "beta-acs-1-0-b168-59b7c44e9799981a.elb.eu-west-1.amazonaws.com",
+            "query": "activation.beta.bgchprod.info",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "d-zmn230zg2g.execute-api.eu-west-1.amazonaws.com",
+            "query": "adfinito-rest.beauty-de-la-zouch.co.uk",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "adm-ew1-dev-elb-09202d6ad69cb727.elb.eu-west-1.amazonaws.com",
+            "query": "adm-adm-ew1-dev.adm.fp.corp.lego.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "aoe-ew1-dev-elb-fb2ecd842bafbe64.elb.eu-west-1.amazonaws.com",
+            "query": "adm-aoe-ew1-dev.aoe.fp.corp.lego.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "bsk-ew1-prod-elb-47b856937d2b76c2.elb.eu-west-1.amazonaws.com",
+            "query": "adm-bsk-ew1-prod.bsk.fp.corp.lego.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "carya-eks-cluster-nlb-ad038548c4c11792.elb.eu-west-1.amazonaws.com",
+            "query": "adm-carya-ew1-dev.dev.fp.corp.lego.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "crt-ew1-dev-elb-47aefded2023ad04.elb.eu-west-1.amazonaws.com",
+            "query": "adm-crt-ew1-dev.crt.fp.corp.lego.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "edg-ew1-dev-elb-41a5ea335c525677.elb.eu-west-1.amazonaws.com",
+            "query": "adm-edg-ew1-dev.edg.fp.corp.lego.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "edp-ew1-dev-elb-e500d8840a52ee6a.elb.eu-west-1.amazonaws.com",
+            "query": "adm-edp-ew1-dev.edp.fp.corp.lego.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "hjr-ew1-dev-elb-5b42045711bb57cb.elb.eu-west-1.amazonaws.com",
+            "query": "adm-hjr-ew1-dev.hjr.fp.corp.lego.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "la9-ew1-dev-elb-ffe3031851033de1.elb.eu-west-1.amazonaws.com",
+            "query": "adm-la9-ew1-dev.la9.fp.corp.lego.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "tor-ew1-dev-elb-898beed11e13fb14.elb.eu-west-1.amazonaws.com",
+            "query": "adm-tor-ew1-dev.tor.fp.corp.lego.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "trk-ew1-dev-elb-806372d772fdb61f.elb.eu-west-1.amazonaws.com",
+            "query": "adm-trk-ew1-dev.trk.fp.corp.lego.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "trt-ew1-dev-elb-02cdc59b3e06469d.elb.eu-west-1.amazonaws.com",
+            "query": "adm-trt-ew1-dev.trt.fp.corp.lego.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "vas-eks-nlb-ed771df6367c6dd7.elb.eu-west-1.amazonaws.com",
+            "query": "adm-vas-eks.vas.fp.corp.lego.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "vas-management-nlb-80faee368a40ee7b.elb.eu-west-1.amazonaws.com",
+            "query": "adm-vas-management.fp.corp.lego.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "w21-ew1-dev-elb-b0f6d2f8945bce09.elb.eu-west-1.amazonaws.com",
+            "query": "adm-w21-ew1-dev.w21.fp.corp.lego.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "a753276beeb6611e990db06fee1f72c4-050431f4b6056482.elb.eu-west-1.amazonaws.com",
+            "query": "admin-panel.test.fireapp.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "accloadbalancer-bb7585cd28c539c7.elb.eu-west-1.amazonaws.com",
+            "query": "admin-test.bluehorizon.art",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "prodloadbalancer-68b28cea2c55f213.elb.eu-west-1.amazonaws.com",
+            "query": "admin.bluehorizon.art",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "xh7vhte7z2.execute-api.us-west-1.amazonaws.com",
+            "query": "admin.cocoin.alpha.movilest.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "d-gspgsluirf.execute-api.eu-west-1.amazonaws.com",
+            "query": "admin.hanhai.contribution-model.support.aws.dev",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "acd7d6869153042abaee6c43f853fa8b-07d4397d28323236.elb.eu-west-1.amazonaws.com",
+            "query": "admin.navblue-eu-prod-1-euw1-26.space.prod.a0core.net",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "a39700c1e2ab843858029a096fc2e363-8029777e62486787.elb.eu-west-1.amazonaws.com",
+            "query": "admin.octopus3.cop.d01.euw1.asgardmap.net",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "prod-adminsolutions-n-813935ee5804465a.elb.eu-west-1.amazonaws.com",
+            "query": "admin.solutions.borderlinx.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "ab387bd0f64054ba68305e4aaf77a9ae-2c868accbc997483.elb.eu-west-1.amazonaws.com",
+            "query": "admin.talend-eu-tst-1-euw1-3.space.prod.a0core.net",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "gsqa-stg-trng-web-elb-2a41b3b3a20e9e53.elb.eu-west-1.amazonaws.com",
+            "query": "admin.traininggsqa.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "d-ycf9vle2th.execute-api.eu-west-1.amazonaws.com",
+            "query": "admin.visitkoli.fi",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "snowplow-31ffcdbc1bf91658.elb.eu-west-1.amazonaws.com",
+            "query": "af6b2f3d-31b8-4354-82b6-c767f782fc2f.try-snowplow.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "d-h0gav28x9f.execute-api.us-west-1.amazonaws.com",
+            "query": "ai.exploretalent.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "ac5b3045b3cfb417994addc44a808283-d73db1171a2a73c5.elb.eu-west-1.amazonaws.com",
+            "query": "ai.traiv.de",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "aiml-app-lb-c7e5116c80ec147d.elb.us-gov-west-1.amazonaws.com",
+            "query": "aiml.nasiccloud.io",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "k8s-ingressn-ingressn-91ce9314dc-c90ffcc3c3ae6c09.elb.eu-west-1.amazonaws.com",
+            "query": "airbyte.unwind.onplural.sh",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "k8s-ingressn-internal-86e1dd358d-1b78316916904a82.elb.eu-west-1.amazonaws.com",
+            "query": "airbyteapi.unwind.onplural.sh",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "d-ophtoj3guk.execute-api.eu-west-1.amazonaws.com",
+            "query": "airpaypreprod.partners.instarem.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "d-va6fq9oh31.execute-api.eu-west-1.amazonaws.com",
+            "query": "alanapi.shouston.net",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "7hkohew1wl.execute-api.eu-west-1.amazonaws.com",
+            "query": "alando.atlantisonline.nl",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "c56256e4559f2f0ec95eb9cdf05354ca-450b7d5e174ae799.elb.eu-west-1.amazonaws.com",
+            "query": "albums.scoober.aws-eu-west-1a.z.vespa-app.cloud",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "d-7tnxtvzoq4.execute-api.eu-west-1.amazonaws.com",
+            "query": "alexa.fahrplan.pw",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "d-0dnhxpqu69.execute-api.eu-west-1.amazonaws.com",
+            "query": "alliantie-portal-backend.mijnida.nl",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "d-uo18xer3wa.execute-api.us-gov-west-1.amazonaws.com",
+            "query": "alpha.asis-gov.quarry.security.aws.dev",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "d-d82eqewx90.execute-api.eu-west-1.amazonaws.com",
+            "query": "alstria-eec-activity.dashboard.square-sense.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "d-sctmqvf6wc.execute-api.eu-west-1.amazonaws.com",
+            "query": "analysis-landing-shiseido-dev.revieve.com",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "rv16xe6szk.execute-api.eu-west-1.amazonaws.com",
+            "query": "analytics.aba.land",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          }
+        ]
+      }
+    ]
+  }
