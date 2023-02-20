@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Subdomain Takeover</title>
+	<style>
+		body {
+			background-color: #2b3137;
+			color: #ffffff;
+			font-family: Arial, sans-serif;
+			text-align: center;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+		}
+		.center {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			height: 100vh;
+		}
+		#siteUrl {
+			font-size: 14px;
+			color: #ccc;
+			margin-top: 10px;
+		}
+	</style>
+</head>
+<body>
+	<div class="center">
+		<h1>Subdomain takeover by Eno</h1>
+		<div id="siteUrl"></div>
+		</div>
+
+	<script>
+		// Tambahkan alamat situs pada elemen h2
+		// document.getElementById("demoPurposes").textContent = "This is a PoC for subdomain takeover.";
+		document.getElementById("siteUrl").textContent = "This is the URL of the site: " + window.location.href;
+		
+		// Tambahkan listener pada window
+		window.addEventListener("load", function() {
+			alert(document.cookie);
+		});
+	</script>
+</body>
+</html>
