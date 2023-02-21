@@ -1,0 +1,621 @@
+{
+  "status_code": 200,
+  "error": null,
+  "response": {
+    "records": [
+      {
+        "dangling": [
+          {
+            "answer": "alb-moodleapp-1224944818.ap-southeast-3.elb.amazonaws.com",
+            "query": "elearning.bldk.mahkamahagung.go.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "ppdbalb-467814295.ap-southeast-3.elb.amazonaws.com",
+            "query": "ppdb.dikbud.kalbarprov.go.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "sayangwarga-new-balancer-1140041255.ap-southeast-3.elb.amazonaws.com",
+            "query": "sayangaws.surabaya.go.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "adm-lb-1016432159.ap-southeast-1.elb.amazonaws.com",
+            "query": "admin.oshop.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "kk-kad-devel-elb-150977440.ap-southeast-1.elb.amazonaws.com",
+            "query": "ads-branches.kaskus.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "ajakteman-1301762368.ap-southeast-1.elb.amazonaws.com",
+            "query": "ajakteman.olx.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "alb-acn-mst-prod-awmstplapp002-1124032786.ap-southeast-1.elb.amazonaws.com",
+            "query": "api.mst.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "digipayprd-1635765066.ap-southeast-1.elb.amazonaws.com",
+            "query": "benderapaydta.frisianflag.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "uiux-91630082.ap-southeast-1.elb.amazonaws.com",
+            "query": "beta.mothercare.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "wse-wp-lb-1494309933.ap-southeast-3.elb.amazonaws.com",
+            "query": "beta.wallstreetenglish.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "prod-syne-elbworke-1ropzt01vnu6i-1845841282.us-west-2.elb.amazonaws.com",
+            "query": "break.coca-cola.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "kk-car-staging-elb-471725437.ap-southeast-1.elb.amazonaws.com",
+            "query": "cardev.kaskus.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "cc-lb-1215826088.ap-southeast-1.elb.amazonaws.com",
+            "query": "cc.oshop.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "alb-acn-pck-prod-awpckpwcap001-847637434.ap-southeast-1.elb.amazonaws.com",
+            "query": "ckapi.ciptakridatama.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "cms-indonesia-762397060.ap-southeast-1.elb.amazonaws.com",
+            "query": "cms.nissan.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "a05a4882e206c11ea93b706ff97ef0ca-40157766.ap-southeast-1.elb.amazonaws.com",
+            "query": "console-aws.fwd.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "kk-smallapps-staging-elb-1927815364.ap-southeast-1.elb.amazonaws.com",
+            "query": "csstaging.kaskus.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "internal-public-otten-delivery-1396513696.ap-southeast-1.elb.amazonaws.com",
+            "query": "delivery.ottencoffee.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "alb-ranosys-dev-ecomm-1908707839.ap-southeast-1.elb.amazonaws.com",
+            "query": "dev-ecomm.tbsgroup.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "ecomm-varnish-alb-440407447.ap-southeast-1.elb.amazonaws.com",
+            "query": "dev-varnish.thebodyshop.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "a13223682bbf9440f9c7fd359ae2e8ec-b9364d26d72b846b.elb.ap-southeast-1.amazonaws.com",
+            "query": "devhub.emailtarget.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "ae2eb11b61caa440c9dab31c2251154b-526945403.ap-southeast-1.elb.amazonaws.com",
+            "query": "digital3.paybill.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "kk-smallapps-production-lb-2099310397.ap-southeast-1.elb.amazonaws.com",
+            "query": "donatur.kaskus.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "ecomm-upgrade-alb-1669028244.ap-southeast-1.elb.amazonaws.com",
+            "query": "ecomm-upgrade.tbsgroup.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "ab1d21a8d47c911eabc880a96315a5ed-1815593110.ap-southeast-1.elb.amazonaws.com",
+            "query": "eks-pp-elb.propertypro.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "dmi-elb-escrow-stag-2124560134.ap-southeast-1.elb.amazonaws.com",
+            "query": "escrow-staging.kaskus.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "dmi-elb-escrow-1236631664.ap-southeast-1.elb.amazonaws.com",
+            "query": "escrow-testing.kaskus.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "alb-poc-s4hana-294659577.ap-southeast-1.elb.amazonaws.com",
+            "query": "fiori-poc.pyfa.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "garagesale-720170817.ap-southeast-1.elb.amazonaws.com",
+            "query": "garagesale.olx.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "container-loadbalance-514160146.ap-southeast-1.elb.amazonaws.com",
+            "query": "gate.sampingan.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "prod-fant-dmzelast-176su9hthb8l6-2035905664.us-west-2.elb.amazonaws.com",
+            "query": "genkoffun.fanta.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "a9875d1d1d2154e6792d3ab649ec2ca1-d489e81db22892cb.elb.ap-southeast-1.amazonaws.com",
+            "query": "go-grpc-kong.superapp.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "kk-kgroup-production-lb-2040713189.ap-southeast-1.elb.amazonaws.com",
+            "query": "groups.kaskus.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "hcms-executive-1062597144.ap-southeast-1.elb.amazonaws.com",
+            "query": "hce.abm-investama.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "driverid-prod-1149263837.ap-southeast-1.elb.amazonaws.com",
+            "query": "i-drive.ilcs.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "alb-pss-infor-inforos-168663195.ap-southeast-1.elb.amazonaws.com",
+            "query": "inforos.ptpss.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "infra-elb-633390711.ap-southeast-1.elb.amazonaws.com",
+            "query": "infra-elb.logique.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "infra-nlb-2d500372004fd734.elb.ap-southeast-1.amazonaws.com",
+            "query": "infra-nlb.logique.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "aa7d4170df0c911e99c5a06b76e833a3-1046234225.ap-southeast-1.elb.amazonaws.com",
+            "query": "istio.logan.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "farma-alb-prod-1000146337.ap-southeast-1.elb.amazonaws.com",
+            "query": "kf-covid-med-search.kimiafarmaapotek.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "load-balancer-trial-1-1306030921.ap-southeast-1.elb.amazonaws.com",
+            "query": "lbssl.autopilotstore.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "ecomm-magento-03-alb-674903912.ap-southeast-1.elb.amazonaws.com",
+            "query": "magento-3.tbsgroup.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "ecomm-magento-04-alb-338786085.ap-southeast-1.elb.amazonaws.com",
+            "query": "magento-4.tbsgroup.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "ecomm-magento-06-alb-1691822458.ap-southeast-1.elb.amazonaws.com",
+            "query": "magento-6.tbsgroup.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "ecomm-magento-07-alb-1570831824.ap-southeast-1.elb.amazonaws.com",
+            "query": "magento-7.tbsgroup.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "mart-citibank-co-id-1080241315.ap-southeast-1.elb.amazonaws.com",
+            "query": "mart.citibank.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "elb-epayment-ipay88id-1796318006.ap-southeast-1.elb.amazonaws.com",
+            "query": "merchant.ipay88.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "a92ebd9f6ca6f4ed194e3c9bb34f9a7e-1904920134.ap-southeast-1.elb.amazonaws.com",
+            "query": "metabase.commercial.panthera.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "mobil-driverid-2044098390.ap-southeast-1.elb.amazonaws.com",
+            "query": "mobile.ilcs.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "newdrivingpleasure-1470701243.ap-southeast-1.elb.amazonaws.com",
+            "query": "newdrivingpleasure.olx.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "oasis-id-lb-1145079973.ap-southeast-1.elb.amazonaws.com",
+            "query": "oasis.merck.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "kk-hercules-production-elb-1296360674.ap-southeast-1.elb.amazonaws.com",
+            "query": "pay.kaskus.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "phinisi-qa-1974643899.ap-southeast-1.elb.amazonaws.com",
+            "query": "phinnisi-qa.ilcs.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "stage-011-elasticl-1dyjpd9sm05a0-983291794.ap-southeast-1.elb.amazonaws.com",
+            "query": "pialaduniafifareg.coca-cola.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "pile-citibank-co-id-137746591.ap-southeast-1.elb.amazonaws.com",
+            "query": "pile.citibank.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "genc-loadbalancer-493524915.ap-southeast-1.elb.amazonaws.com",
+            "query": "plontos-dev.ilcs.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "af9b058ccb19d47eb9a5b9700571af95-1689334039.ap-southeast-1.elb.amazonaws.com",
+            "query": "prometheus.flashmobile.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "whitelabel-live-839380737.ap-southeast-1.elb.amazonaws.com",
+            "query": "ptrumahsyariahindonesia.agencies.lamudi.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "prod-ramadan-elbworker-1307205201.us-west-2.elb.amazonaws.com",
+            "query": "ramadan.coca-cola.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "alb-ruparupa-1357102813.ap-southeast-1.elb.amazonaws.com",
+            "query": "realdeal.informa.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "ecomm-revamp-327607938.ap-southeast-1.elb.amazonaws.com",
+            "query": "redemption-revamp.tbsgroup.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "live-test-lb-144936013.ap-southeast-1.elb.amazonaws.com",
+            "query": "replica.shopjustice.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "secure-7dayschallenge-dove-co-id-1232955726.ap-southeast-1.elb.amazonaws.com",
+            "query": "secure.7dayschallenge.dove.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "secure-warisankuliner-com-437044315.ap-southeast-1.elb.amazonaws.com",
+            "query": "secure.bango.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "secure-stage-lovesongprize-ponds-1455307162.ap-southeast-1.elb.amazonaws.com",
+            "query": "secure.stage.lovesongprize.ponds.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "sh-lb-907875352.ap-southeast-1.elb.amazonaws.com",
+            "query": "sh.oshop.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "prod-shareacoke-elbworker-984428017.us-west-2.elb.amazonaws.com",
+            "query": "shareacoke.coca-cola.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "ecomm-sit-alb-390355551.ap-southeast-1.elb.amazonaws.com",
+            "query": "sit-ecomm.tbsgroup.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "stage-ayomoger-rexona-co-id-256722437.ap-southeast-1.elb.amazonaws.com",
+            "query": "stage.ayomoger.rexona.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "stage-sekolahhebat-lifebuoy-2141890253.ap-southeast-1.elb.amazonaws.com",
+            "query": "stage.sekolahhebat.lifebuoy.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "a8e3eec8f234f43d596cd47d5d46f2c5-021e998ff5f80841.elb.ap-southeast-1.amazonaws.com",
+            "query": "staging-superapp.eks.superapp.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "alb-acn-pck-prod-awabmpwtbl004-619201655.ap-southeast-1.elb.amazonaws.com",
+            "query": "tableau.ciptakridatama.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "tent-citibank-co-id-833988102.ap-southeast-1.elb.amazonaws.com",
+            "query": "tent.citibank.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "test-0082-elasticl-98jqd9wu566p-1354890355.us-west-2.elb.amazonaws.com",
+            "query": "testwaktunyacokebreak.coca-cola.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "trust-bni-co-id-1755786064.ap-southeast-1.elb.amazonaws.com",
+            "query": "trust.bni.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "tsugumi-1953707130.ap-southeast-1.elb.amazonaws.com",
+            "query": "tsugumi.orami.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "a84f00fa32a644225aaf414cf6467a4e-d1a8abbea8362702.elb.ap-southeast-1.amazonaws.com",
+            "query": "txswitch-dev.ihsansolusi.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "ac5c6ef9efba14075897b550683e0d91-970092d2bff7167e.elb.ap-southeast-3.amazonaws.com",
+            "query": "user-auth.ilcs.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "prod-0082-elasticl-1i23sys4nt47g-1290794105.us-west-2.elb.amazonaws.com",
+            "query": "waktunyacokebreak.coca-cola.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "ecomm-revamp-webadmin-1045312530.ap-southeast-1.elb.amazonaws.com",
+            "query": "webadmin-revamp.tbsgroup.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "west-citibank-co-id-70873012.ap-southeast-1.elb.amazonaws.com",
+            "query": "west.citibank.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "k8s-eduprime-eduprime-119892f332-1962656461.ap-southeast-1.elb.amazonaws.com",
+            "query": "www.eduprime.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "balancer-speech-api-beac87fa4e3933f5.elb.ap-southeast-1.amazonaws.com",
+            "query": "www.stt.bahasakita.co.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "a541b978d1eb5412c834c26fd117d668-b86db9b7556f3e2d.elb.ap-southeast-1.amazonaws.com",
+            "query": "api.pmbunjani.dev.btp.or.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "d-lywwkz01i2.execute-api.ap-southeast-1.amazonaws.com",
+            "query": "cms-virtual.jointconvex.or.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "ac23cd891e6cf428f865d7f603fa1a58-4d146bbdee1ac613.elb.ap-southeast-1.amazonaws.com",
+            "query": "monitor.unjani.dev.btp.or.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          },
+          {
+            "answer": "telkomcorpu-loadbalancer-634654856.ap-southeast-1.elb.amazonaws.com",
+            "query": "www.telkomcorpu.btp.or.id",
+            "target": "dangler",
+            "target_domain_is_nxdomain": false,
+            "type": "CNAME"
+          }
+        ]
+      }
+    ]
+  }
+}
