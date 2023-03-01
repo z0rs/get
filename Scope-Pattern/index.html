@@ -12,49 +12,43 @@
 			margin: 0;
 			padding: 0;
 		}
-
 		.center {
 			display: flex;
-			flex-direction: column;
 			justify-content: center;
 			align-items: center;
+			flex-direction: column;
 			height: 100vh;
 		}
-
-		form {
+		#result {
 			margin-top: 20px;
+			text-align: left;
+			font-size: 14px;
+			color: #ccc;
+			max-width: 800px;
+			margin-left: auto;
+			margin-right: auto;
 		}
-
-		#regex {
-			margin-top: 20px;
+		input[type=text] {
+			width: 400px;
+			padding: 12px 20px;
+			margin: 8px 0;
+			box-sizing: border-box;
+			border: 2px solid #ccc;
+			border-radius: 4px;
+			background-color: #1e2328;
+			color: #fff;
+		}
+		input[type=button] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 12px 20px;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
 			font-size: 16px;
 		}
-
-		label {
-			font-size: 18px;
-		}
-
-		input[type="text"] {
-			padding: 8px;
-			font-size: 18px;
-			border-radius: 8px;
-			border: none;
-			margin-right: 10px;
-		}
-
-		input[type="button"] {
-			padding: 8px;
-			font-size: 18px;
-			border-radius: 8px;
-			border: none;
-			background-color: #e74c3c;
-			color: #ffffff;
-			cursor: pointer;
-			transition: background-color 0.3s ease;
-		}
-
-		input[type="button"]:hover {
-			background-color: #c0392b;
+		input[type=button]:hover {
+			background-color: #45a049;
 		}
 	</style>
 </head>
@@ -62,19 +56,29 @@
 	<div class="center">
 		<h1>Scope Pattern Generator</h1>
 		<form>
-			<label for="domain">Enter target domain:</label>
-			<input type="text" id="domain" name="domain">
-			<input type="button" value="Generate Scope Pattern" onclick="generateRegex()">
+			<label for="domains">Enter target domains (one per line):</label>
+			<br>
+			<textarea id="domains" name="domains" rows="1"></textarea>
+			<br>
+			<input type="button" value="Generate Scope Patterns" onclick="generateRegex()">
 		</form>
-		<p>Regular expression pattern:</p>
-		<p id="regex"></p>
+		<div id="result"></div>
 	</div>
 
 	<script type="text/javascript">
 		function generateRegex() {
-			var domain = document.getElementById("domain").value;
-			var regex = "(^|^[^:]+://|[^.]+\\.)" + domain + ".*";
-			document.getElementById("regex").innerHTML = regex;
+			var domains = document.getElementById("domains").value.split('\n');
+			var resultDiv = document.getElementById("result");
+			resultDiv.innerHTML = "";
+			for (var i = 0; i < domains.length; i++) {
+				var domain = domains[i].trim();
+				if (domain != "") {
+					var regex = "(^|^[^:]+://|[^.]+\\.)" + domain + ".*";
+					var p = document.createElement("p");
+					p.innerHTML = "<strong>" + domain + ":</strong> " + regex;
+					resultDiv.appendChild(p);
+				}
+			}
 		}
 	</script>
 </body>
