@@ -29,11 +29,9 @@ jobs:
           sudo chmod +x /usr/bin/nuclei
 
       - name: Run Assetfinder, Httpx, and Nuclei
-        env:
-          DOMAIN_NAME: ${{ secrets.DOMAIN_NAME }}
         run: |
           mkdir -p _data
-          nuclei -silent -l "$DOMAIN_NAME" -output _data/nuclei-results.txt
+          nuclei -silent -l "${{ secrets.DOMAIN_NAME }}" -output _data/nuclei-results.txt
 
       - name: Commit scanning results
         run: |
