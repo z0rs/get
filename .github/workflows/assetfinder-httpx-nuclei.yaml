@@ -29,15 +29,17 @@ jobs:
           sudo chmod +x /usr/bin/nuclei
 
       - name: Run Assetfinder, Httpx, and Nuclei
+        env:
+          DOMAIN_NAME: ${{ secrets.DOMAIN_NAME }}
         run: |
           mkdir -p _data
-          assetfinder kominfo.go.id | httpx -silent -threads 100 | nuclei -silent -t ~/nuclei-templates -o _data/kominfo-results.txt
+          nuclei -silent -l "$DOMAIN_NAME" -output _data/nuclei-results.txt
 
       - name: Commit scanning results
         run: |
           git config --global user.email "${{ secrets.EMAIL_ADDRESS }}"
           git config --global user.name "z0rs"
-          git add _data/results.txt
+          git add _data/nuclei-results.txt
           git commit -m "Add scanning results" --no-verify
 
       - name: Push scanning results
