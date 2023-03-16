@@ -43,3 +43,4 @@ jobs:
         run: |
           mkdir -p _data
           cp results.txt _data/
+        working-directory: ${{ github.workspace }}
