@@ -30,17 +30,22 @@ jobs:
 
       - name: Run Assetfinder, Httpx, and Nuclei
         run: |
-          assetfinder bssn.go.id | httpx -threads 100 -output results.txt
+          mkdir -p _data
+          assetfinder bssn.go.id | httpx -threads 100 -output _data/results.txt
 
       - name: Commit scanning results
         run: |
           git config --global user.email "enoleriand1@gmail.com"
           git config --global user.name "z0rs"
-          git add results.txt
+          git add _data/results.txt
           git commit -m "Add scanning results" --no-verify
 
       - name: Copy scanning results to Jekyll data folder
         run: |
-          mkdir -p _data
-          cp results.txt _data/
-        working-directory: ${{ github.workspace }}
+          cp _data/results.txt z0rs.github.io/_data/
+          cd z0rs.github.io
+          git config --global user.email "enoleriand1@gmail.com"
+          git config --global user.name "z0rs"
+          git add _data/results.txt
+          git commit -m "Add scanning results" --no-verify
+          git push
