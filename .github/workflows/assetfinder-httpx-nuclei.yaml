@@ -15,23 +15,15 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y wget unzip
-          wget https://github.com/tomnomnom/assetfinder/releases/download/v0.1.1/assetfinder-linux-amd64-0.1.1.tgz
-          tar -xzf assetfinder-linux-amd64-0.1.1.tgz
-          sudo mv assetfinder /usr/bin/
-          sudo chmod +x /usr/bin/assetfinder
-          wget https://github.com/projectdiscovery/httpx/releases/download/v1.2.9/httpx_1.2.9_linux_amd64.zip
-          unzip -o httpx_1.2.9_linux_amd64.zip
-          sudo mv httpx /usr/bin/
-          sudo chmod +x /usr/bin/httpx
           wget https://github.com/projectdiscovery/nuclei/releases/download/v2.8.9/nuclei_2.8.9_linux_amd64.zip
           unzip -o nuclei_2.8.9_linux_amd64.zip
           sudo mv nuclei /usr/bin/
           sudo chmod +x /usr/bin/nuclei
 
-      - name: Run Assetfinder, Httpx, and Nuclei
+      - name: Run nuclei
         run: |
           mkdir -p _data
-          nuclei -silent -l "${{ secrets.DOMAIN_NAME }}" -output _data/nuclei-results.txt
+          echo "${{ secrets.DOMAIN_NAME }}" | nuclei -silent -output _data/nuclei-results.txt
 
       - name: Commit scanning results
         run: |
