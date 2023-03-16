@@ -1,0 +1,57 @@
+name: Assetfinder-Httpx-Nuclei
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  scan-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wget unzip
+          wget https://github.com/tomnomnom/assetfinder/releases/download/v0.1.1/assetfinder-linux-amd64-0.1.1.tgz
+          tar -xzf assetfinder-linux-amd64-0.1.1.tgz
+          sudo mv assetfinder /usr/bin/
+          sudo chmod +x /usr/bin/assetfinder
+          wget https://github.com/projectdiscovery/httpx/releases/download/v1.2.9/httpx_1.2.9_linux_amd64.zip
+          unzip -o httpx_1.2.9_linux_amd64.zip
+          sudo mv httpx /usr/bin/
+          sudo chmod +x /usr/bin/httpx
+          wget https://github.com/projectdiscovery/nuclei/releases/download/v2.8.9/nuclei_2.8.9_linux_amd64.zip
+          unzip -o nuclei_2.8.9_linux_amd64.zip
+          sudo mv nuclei /usr/bin/
+          sudo chmod +x /usr/bin/nuclei
+
+      - name: Run Assetfinder, Httpx, and Nuclei
+        run: |
+          assetfinder bssn.go.id | httpx -threads 100 | tee results.txt
+
+      - name: Commit scanning results
+        run: |
+          git config --global user.email "enoleriand1@gmail.com"
+          git config --global user.name "z0rs"
+          git add results.txt
+          git commit -m "Add scanning results" --no-verify
+
+      - name: Copy scanning results to Jekyll data folder
+        run: |
+          mkdir -p _data
+          cp results.txt _data/
+
+      - name: Deploy Jekyll site to hosting
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: ${{ secrets.PORT }}
+          script: |
+            cd /var/www/html
+            rm -rf *
+            rsync -avz -e 'ssh -o StrictHostKeyChecking=no' ${{ github.workspace }}/_site/* ./
