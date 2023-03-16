@@ -30,7 +30,7 @@ jobs:
 
       - name: Run Assetfinder, Httpx, and Nuclei
         run: |
-          assetfinder bssn.go.id | httpx -threads 100 | tee results.txt
+          assetfinder bssn.go.id | httpx -threads 100 -output results.txt
 
       - name: Commit scanning results
         run: |
