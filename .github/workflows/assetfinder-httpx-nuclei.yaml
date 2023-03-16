@@ -43,15 +43,3 @@ jobs:
         run: |
           mkdir -p _data
           cp results.txt _data/
-
-      - name: Deploy Jekyll site to hosting
-        uses: appleboy/ssh-action@master
-        with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USERNAME }}
-          password: ${{ secrets.PASSWORD }}
-          port: ${{ secrets.PORT }}
-          script: |
-            cd /var/www/html
-            rm -rf *
-            rsync -avz -e 'ssh -o StrictHostKeyChecking=no' ${{ github.workspace }}/_site/* ./
