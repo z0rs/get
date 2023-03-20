@@ -23,7 +23,7 @@ jobs:
       - name: Run nuclei
         run: |
           mkdir -p _data
-          echo "${{ secrets.DOMAIN_NAME }}" | nuclei -silent -severity low, medium, high, critical, unknown -exclude-severity low, medium, high, critical, unknown -output _data/stanford-results.txt
+          echo "${{ secrets.DOMAIN_NAME }}" | nuclei -silent -severity low, medium, high, critical, unknown -exclude-severity low, medium, high, critical, unknown -o _data/stanford-results.txt
 
       - name: Commit scanning results
         run: |
