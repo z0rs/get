@@ -27,14 +27,14 @@ jobs:
 
       - name: Run nuclei
         run: |
-          mkdir -p nuclei
-          echo "${{ secrets.DOMAIN_NAME }}" | nuclei -silent -severity low, medium, high, critical, unknown -exclude-severity low, medium, high, critical, unknown -output nuclei/stanford.txt
+          mkdir -p _data
+          echo "${{ secrets.DOMAIN_NAME }}" | nuclei -silent -severity low, medium, high, critical, unknown -exclude-severity low, medium, high, critical, unknown -output _data/stanford.txt
 
       - name: Commit scanning results
         run: |
           git config --global user.email "${{ secrets.EMAIL_ADDRESS }}"
           git config --global user.name "z0rs"
-          git add nuclei/stanford.txt
+          git add _data/stanford.txt
           git commit -m "Add scanning results" --no-verify
 
       - name: Push scanning results
