@@ -11,8 +11,21 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wget unzip golang
+          wget https://github.com/projectdiscovery/nuclei/releases/download/v2.8.9/nuclei_2.8.9_linux_amd64.zip
+          unzip -o nuclei_2.8.9_linux_amd64.zip
+          sudo rm -rf nuclei*.zip
+          sudo rm -rf /usr/bin/nuclei
+          sudo rm -rf _data/stanford-results.txt
+          sudo mv nuclei /usr/bin/
+          sudo chmod +x /usr/bin/nuclei
+
       - name: Run nuclei
         run: |
+          mkdir _data
           echo "${{ secrets.DOMAIN_NAME }}" | nuclei -silent -output _data/stanford-results.txt
 
       - name: Commit scanning results
