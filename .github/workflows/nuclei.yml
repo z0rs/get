@@ -17,20 +17,21 @@ jobs:
           sudo apt-get install -y wget unzip
           wget https://github.com/projectdiscovery/nuclei/releases/download/v2.8.9/nuclei_2.8.9_linux_amd64.zip
           unzip -o nuclei_2.8.9_linux_amd64.zip
+          sudo rm -rf nuclei_2.8.9_linux_amd64.zip
+          sudo rm -rf /usr/bin/nuclei
           sudo mv nuclei /usr/bin/
           sudo chmod +x /usr/bin/nuclei
 
       - name: Run nuclei
         run: |
-          mkdir -p nuclei
-          rm -rf nuclei/*
-          echo "${{ secrets.DOMAIN_NAME }}" | nuclei -silent -severity low, medium, high, critical, unknown -exclude-severity low, medium, high, critical, unknown -o nuclei/stanford-results.txt
+          mkdir _data
+          echo "${{ secrets.DOMAIN_NAME }}" | nuclei -silent -output _data/stanford-results.txt
 
       - name: Commit scanning results
         run: |
           git config --global user.email "${{ secrets.EMAIL_ADDRESS }}"
           git config --global user.name "z0rs"
-          git add nuclei/stanford-results.txt
+          git add _data/stanford-results.txt
           git commit -m "Add scanning results" --no-verify
 
       - name: Push scanning results
