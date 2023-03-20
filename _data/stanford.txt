@@ -1,0 +1,1084 @@
+[xss-deprecated-header] [http] [info] https://code.stanford.edu [1; mode=block]
+[google-floc-disabled] [http] [info] https://code.stanford.edu
+[xss-deprecated-header] [http] [info] https://authority.stanford.edu [1; mode=block]
+[xss-deprecated-header] [http] [info] https://accounts.stanford.edu [1; mode=block]
+[apache-detect] [http] [info] https://accounts.stanford.edu [Apache]
+[keycloak-openid-config] [http] [info] https://code.stanford.edu/.well-known/openid-configuration
+[apache-detect] [http] [info] https://login.stanford.edu [Apache]
+[apache-detect] [http] [info] https://idp.stanford.edu [Apache]
+[xss-deprecated-header] [http] [info] https://sponsorship.stanford.edu [1; mode=block]
+[apache-detect] [http] [info] https://secureportal.stanford.edu [Apache]
+[xss-deprecated-header] [http] [info] https://stanfordyou.stanford.edu [1; mode=block]
+[xss-deprecated-header] [http] [info] https://stanfordwho.stanford.edu [1; mode=block]
+[xss-deprecated-header] [http] [info] https://mydevices.stanford.edu [1; mode=block]
+[apache-detect] [http] [info] https://regadmin.stanford.edu [Apache]
+[xss-deprecated-header] [http] [info] https://workgroup.stanford.edu [1; mode=block]
+[keycloak-openid-config] [http] [info] https://idp.stanford.edu/.well-known/openid-configuration
+[HTTP-TRACE:trace-request] [http] [info] https://login.stanford.edu
+[HTTP-TRACE:trace-request] [http] [info] https://idp.stanford.edu
+[keycloak-openid-config] [http] [info] https://login.stanford.edu/.well-known/openid-configuration
+[HTTP-TRACE:options-request] [http] [info] https://login.stanford.edu
+[HTTP-TRACE:options-request] [http] [info] https://idp.stanford.edu
+[wordpress-classic-widgets:detected_version] [http] [info] https://www.stanford.edu/wp-content/plugins/classic-widgets/readme.txt [0.3] [last_version="0.3"]
+[tech-detect:nginx] [http] [info] https://campusmap.stanford.edu
+[fingerprinthub-web-fingerprints:weblogic] [http] [info] https://pshrdev.sahr.stanford.edu
+[fingerprinthub-web-fingerprints:weblogic] [http] [info] https://csprd.sahr.stanford.edu
+[fingerprinthub-web-fingerprints:weblogic] [http] [info] https://csperf.sahr.stanford.edu
+[fingerprinthub-web-fingerprints:weblogic] [http] [info] https://csfix.sahr.stanford.edu
+[tech-detect:ms-iis] [http] [info] https://cardinalprintcenter.stanford.edu/myprintcenter/
+[fingerprinthub-web-fingerprints:weblogic] [http] [info] https://pselprd.sahr.stanford.edu
+[fingerprinthub-web-fingerprints:weblogic] [http] [info] https://pselperf.sahr.stanford.edu
+[fingerprinthub-web-fingerprints:weblogic] [http] [info] https://psrep.sahr.stanford.edu
+[fingerprinthub-web-fingerprints:weblogic] [http] [info] https://csuat.sahr.stanford.edu
+[fingerprinthub-web-fingerprints:weblogic] [http] [info] https://psrepdev.sahr.stanford.edu
+[fingerprinthub-web-fingerprints:weblogic] [http] [info] https://psrephrdev.sahr.stanford.edu
+[fingerprinthub-web-fingerprints:weblogic] [http] [info] https://pselfix.sahr.stanford.edu
+[fingerprinthub-web-fingerprints:weblogic] [http] [info] https://pshruat.sahr.stanford.edu
+[fingerprinthub-web-fingerprints:weblogic] [http] [info] https://pshrprd.sahr.stanford.edu
+[fingerprinthub-web-fingerprints:weblogic] [http] [info] https://pshrdmo.sahr.stanford.edu
+[fingerprinthub-web-fingerprints:weblogic] [http] [info] https://pshrperf.sahr.stanford.edu
+[tech-detect:nginx] [http] [info] https://code.stanford.edu/SiteDocs/faq
+[fingerprinthub-web-fingerprints:weblogic] [http] [info] https://psrephrperf.sahr.stanford.edu
+[tech-detect:ms-iis] [http] [info] https://cardinalprintcenter.stanford.edu
+[fingerprinthub-web-fingerprints:weblogic] [http] [info] https://psrephrsit.sahr.stanford.edu
+[fingerprinthub-web-fingerprints:weblogic] [http] [info] https://psrepperf.sahr.stanford.edu
+[tech-detect:microsoft-asp.net] [http] [info] https://stanfordwho.stanford.edu
+[tech-detect:font-awesome] [http] [info] https://stanfordwho.stanford.edu
+[tech-detect:google-tag-manager] [http] [info] https://www.stanford.edu
+[tech-detect:google-font-api] [http] [info] https://www.stanford.edu
+[tech-detect:nginx] [http] [info] https://www.stanford.edu
+[tech-detect:nginx] [http] [info] https://code.stanford.edu
+[unauthenticated-varnish-cache-purge] [http] [low] https://www.stanford.edu
+[tls-version] [ssl] [info] campusmap.stanford.edu [tls12]
+[tls-version] [ssl] [info] cardinalprintcenter.stanford.edu [tls10]
+[tls-version] [ssl] [info] campusmap.stanford.edu [tls12]
+[tls-version] [ssl] [info] campusmap.stanford.edu [tls12]
+[tls-version] [ssl] [info] cardinalprintcenter.stanford.edu [tls11]
+[tls-version] [ssl] [info] code.stanford.edu [tls12]
+[tls-version] [ssl] [info] fasa.stanford.edu [tls12]
+[tls-version] [ssl] [info] pshruat.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] pshrdmo.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] csprd.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] csuat.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] campusmap.stanford.edu [tls12]
+[tls-version] [ssl] [info] pshrprd.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] pselprd.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] enrollmentuat.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] csperf.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] pselfix.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] pshrdev.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] pselperf.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] csfix.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] psrephrdev.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] psrepdev.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] pshrperf.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] psrep.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] authority.stanford.edu [tls12]
+[tls-version] [ssl] [info] accounts.stanford.edu [tls12]
+[tls-version] [ssl] [info] bi.stanford.edu [tls12]
+[tls-version] [ssl] [info] cardinalprintcenter.stanford.edu [tls12]
+[tls-version] [ssl] [info] accessories.stanford.edu [tls12]
+[tls-version] [ssl] [info] axess.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] bi.stanford.edu [tls11]
+[tls-version] [ssl] [info] code.stanford.edu [tls12]
+[tls-version] [ssl] [info] axess.sahr.stanford.edu [tls11]
+[tls-version] [ssl] [info] bi.stanford.edu [tls12]
+[tls-version] [ssl] [info] pshrdmo.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] fasa.stanford.edu [tls12]
+[tls-version] [ssl] [info] pselprd.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] pshrprd.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] pshruat.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] csprd.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] psrephrperf.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] pselperf.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] pshrdev.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] cardinalprintcenter.stanford.edu [tls12]
+[tls-version] [ssl] [info] csfix.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] code.stanford.edu [tls12]
+[tls-version] [ssl] [info] enrollmentuat.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] psrephrdev.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] csperf.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] pshrperf.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] csuat.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] pselfix.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] psrepdev.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] authority.stanford.edu [tls12]
+[tls-version] [ssl] [info] psrep.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] fasa.stanford.edu [tls12]
+[tls-version] [ssl] [info] accounts.stanford.edu [tls12]
+[tls-version] [ssl] [info] code.stanford.edu [tls13]
+[tls-version] [ssl] [info] axess.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] pshrdmo.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] pselprd.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] pshruat.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] pshrprd.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] csprd.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] pshrdev.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] pselperf.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] csfix.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] enrollmentuat.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] pshrperf.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] psrephrdev.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] csuat.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] csperf.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] psrepdev.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] accessories.stanford.edu [tls12]
+[tls-version] [ssl] [info] pselfix.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] authority.stanford.edu [tls12]
+[tls-version] [ssl] [info] psrep.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] accounts.stanford.edu [tls12]
+[tls-version] [ssl] [info] pshrdmo.sahr.stanford.edu [tls13]
+[tls-version] [ssl] [info] bi.stanford.edu [tls12]
+[tls-version] [ssl] [info] csfix.sahr.stanford.edu [tls13]
+[tls-version] [ssl] [info] pselfix.sahr.stanford.edu [tls13]
+[tls-version] [ssl] [info] accessories.stanford.edu [tls12]
+[tls-version] [ssl] [info] fasa.stanford.edu [tls12]
+[tls-version] [ssl] [info] psrephrperf.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] psrephrsit.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] pshruat.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] pselprd.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] csprd.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] pshrprd.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] psrephrdev.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] pshrdev.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] csperf.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] pselperf.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] enrollmentuat.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] psrepdev.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] csuat.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] psrep.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] authority.stanford.edu [tls12]
+[tls-version] [ssl] [info] pshrperf.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] psrepperf.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] psrephrperf.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] accounts.stanford.edu [tls12]
+[tls-version] [ssl] [info] axess.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] stanfordwho.stanford.edu [tls12]
+[tls-version] [ssl] [info] www.stanford.edu [tls12]
+[tls-version] [ssl] [info] idp.stanford.edu [tls12]
+[tls-version] [ssl] [info] accessories.stanford.edu [tls12]
+[tls-version] [ssl] [info] login.stanford.edu [tls12]
+[tls-version] [ssl] [info] www.stanford.edu [tls12]
+[tls-version] [ssl] [info] stanfordwho.stanford.edu [tls12]
+[tls-version] [ssl] [info] www.stanford.edu [tls12]
+[tls-version] [ssl] [info] stanfordwho.stanford.edu [tls12]
+[tls-version] [ssl] [info] mailman.stanford.edu [tls12]
+[tls-version] [ssl] [info] psrephrsit.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] stanfordwho.stanford.edu [tls12]
+[tls-version] [ssl] [info] www.stanford.edu [tls12]
+[tls-version] [ssl] [info] psrephrperf.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] secureportal.stanford.edu [tls12]
+[tls-version] [ssl] [info] vault.stanford.edu [tls12]
+[tls-version] [ssl] [info] netdb.stanford.edu [tls12]
+[tls-version] [ssl] [info] spdb.stanford.edu [tls12]
+[tls-version] [ssl] [info] mydevices.stanford.edu [tls12]
+[tls-version] [ssl] [info] regadmin.stanford.edu [tls12]
+[tls-version] [ssl] [info] stanfordyou.stanford.edu [tls12]
+[tls-version] [ssl] [info] sponsorship.stanford.edu [tls12]
+[tls-version] [ssl] [info] psrephrsit.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] psrepperf.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] workgroup.stanford.edu [tls12]
+[tls-version] [ssl] [info] idp.stanford.edu [tls12]
+[tls-version] [ssl] [info] login.stanford.edu [tls12]
+[tls-version] [ssl] [info] idp.stanford.edu [tls12]
+[tls-version] [ssl] [info] psrepperf.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] mailman.stanford.edu [tls12]
+[tls-version] [ssl] [info] idp.stanford.edu [tls13]
+[tls-version] [ssl] [info] login.stanford.edu [tls12]
+[tls-version] [ssl] [info] vault.stanford.edu [tls12]
+[tls-version] [ssl] [info] psrephrsit.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] mailman.stanford.edu [tls12]
+[tls-version] [ssl] [info] login.stanford.edu [tls13]
+[tls-version] [ssl] [info] secureportal.stanford.edu [tls12]
+[tls-version] [ssl] [info] regadmin.stanford.edu [tls12]
+[tls-version] [ssl] [info] netdb.stanford.edu [tls12]
+[tls-version] [ssl] [info] spdb.stanford.edu [tls12]
+[tls-version] [ssl] [info] mydevices.stanford.edu [tls12]
+[tls-version] [ssl] [info] stanfordyou.stanford.edu [tls12]
+[tls-version] [ssl] [info] sponsorship.stanford.edu [tls12]
+[tls-version] [ssl] [info] vault.stanford.edu [tls12]
+[tls-version] [ssl] [info] secureportal.stanford.edu [tls12]
+[tls-version] [ssl] [info] psrepperf.sahr.stanford.edu [tls12]
+[tls-version] [ssl] [info] spdb.stanford.edu [tls12]
+[tls-version] [ssl] [info] workgroup.stanford.edu [tls12]
+[tls-version] [ssl] [info] regadmin.stanford.edu [tls12]
+[tls-version] [ssl] [info] netdb.stanford.edu [tls12]
+[tls-version] [ssl] [info] vault.stanford.edu [tls13]
+[tls-version] [ssl] [info] mydevices.stanford.edu [tls12]
+[tls-version] [ssl] [info] stanfordyou.stanford.edu [tls12]
+[tls-version] [ssl] [info] sponsorship.stanford.edu [tls12]
+[tls-version] [ssl] [info] spdb.stanford.edu [tls13]
+[tls-version] [ssl] [info] mailman.stanford.edu [tls12]
+[tls-version] [ssl] [info] workgroup.stanford.edu [tls12]
+[tls-version] [ssl] [info] secureportal.stanford.edu [tls12]
+[tls-version] [ssl] [info] regadmin.stanford.edu [tls12]
+[tls-version] [ssl] [info] netdb.stanford.edu [tls12]
+[tls-version] [ssl] [info] mydevices.stanford.edu [tls12]
+[tls-version] [ssl] [info] sponsorship.stanford.edu [tls12]
+[tls-version] [ssl] [info] stanfordyou.stanford.edu [tls12]
+[tls-version] [ssl] [info] workgroup.stanford.edu [tls12]
+[metatag-cms] [http] [info] https://www.stanford.edu [WordPress 6.0.3]
+[robots-txt-endpoint] [http] [info] https://code.stanford.edu/robots.txt
+[robots-txt-endpoint] [http] [info] https://axess.sahr.stanford.edu/robots.txt
+[weblogic-login] [http] [info] https://csfix.sahr.stanford.edu/console/login/LoginForm.jsp [14.1.1.0.0]
+[weblogic-login] [http] [info] https://pshrdev.sahr.stanford.edu/console/login/LoginForm.jsp [14.1.1.0.0]
+[weblogic-login] [http] [info] https://csperf.sahr.stanford.edu/console/login/LoginForm.jsp [14.1.1.0.0]
+[weblogic-login] [http] [info] https://psrepdev.sahr.stanford.edu/console/login/LoginForm.jsp [14.1.1.0.0]
+[weblogic-login] [http] [info] https://psrephrdev.sahr.stanford.edu/console/login/LoginForm.jsp [14.1.1.0.0]
+[weblogic-login] [http] [info] https://pshrperf.sahr.stanford.edu/console/login/LoginForm.jsp [14.1.1.0.0]
+[weblogic-login] [http] [info] https://psrep.sahr.stanford.edu/console/login/LoginForm.jsp [14.1.1.0.0]
+[weblogic-login] [http] [info] https://pshrdmo.sahr.stanford.edu/console/login/LoginForm.jsp [14.1.1.0.0]
+[weblogic-login] [http] [info] https://pselperf.sahr.stanford.edu/console/login/LoginForm.jsp [14.1.1.0.0]
+[weblogic-login] [http] [info] https://pselprd.sahr.stanford.edu/console/login/LoginForm.jsp [14.1.1.0.0]
+[weblogic-login] [http] [info] https://pselfix.sahr.stanford.edu/console/login/LoginForm.jsp [14.1.1.0.0]
+[weblogic-login] [http] [info] https://csuat.sahr.stanford.edu/console/login/LoginForm.jsp [14.1.1.0.0]
+[weblogic-login] [http] [info] https://pshrprd.sahr.stanford.edu/console/login/LoginForm.jsp [14.1.1.0.0]
+[weblogic-login] [http] [info] https://csprd.sahr.stanford.edu/console/login/LoginForm.jsp [14.1.1.0.0]
+[weblogic-login] [http] [info] https://pshruat.sahr.stanford.edu/console/login/LoginForm.jsp [14.1.1.0.0]
+[weblogic-login] [http] [info] https://psrephrsit.sahr.stanford.edu/console/login/LoginForm.jsp [14.1.1.0.0]
+[weblogic-login] [http] [info] https://psrepperf.sahr.stanford.edu/console/login/LoginForm.jsp [14.1.1.0.0]
+[weblogic-login] [http] [info] https://psrephrperf.sahr.stanford.edu/console/login/LoginForm.jsp [14.1.1.0.0]
+[robots-txt-endpoint] [http] [info] https://stanfordwho.stanford.edu/robots.txt
+[robots-txt-endpoint] [http] [info] https://www.stanford.edu/robots.txt
+[robots-txt-endpoint] [http] [info] https://vault.stanford.edu/robots.txt
+[robots-txt-endpoint] [http] [info] https://mailman.stanford.edu/robots.txt
+[robots-txt-endpoint] [http] [info] https://regadmin.stanford.edu/robots.txt
+[robots-txt-endpoint] [http] [info] https://code.stanford.edu/help
+[robots-txt-endpoint] [http] [info] https://code.stanford.edu/users/sign_up
+[robots-txt-endpoint] [http] [info] https://code.stanford.edu/search
+[graphql-alias-batching] [http] [info] https://code.stanford.edu/api/graphql
+[CVE-2017-5487:usernames] [http] [medium] https://www.stanford.edu/wp-json/wp/v2/users/ [John Bickar,ytang2,Alex Harvison,Dena DeBry,Heidi Beck,JB Christy,Yvonne Tang,daveku,jbickar,Dave Kuhar,hbeck,jbchrsty,robertde,stanfordhs17,Robert DeArmond,harvi,denas]
+[ssl-dns-names] [ssl] [info] campusmap.stanford.edu [campusmap.stanford.edu]
+[ssl-issuer] [ssl] [info] campusmap.stanford.edu [Let's Encrypt]
+[ssl-dns-names] [ssl] [info] code.stanford.edu [scr-prod.stanford.edu,scr-prod.svc.stanford.edu,scr-stage.stanford.edu,scr.stanford.edu,scr.svc.stanford.edu,code-dev.stanford.edu,code-prod.stanford.edu,code-stage.stanford.edu,scr-stage.svc.stanford.edu,code.stanford.edu]
+[ssl-issuer] [ssl] [info] code.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] accessories.stanford.edu [accessories.stanford.edu]
+[ssl-issuer] [ssl] [info] accessories.stanford.edu [Let's Encrypt]
+[ssl-dns-names] [ssl] [info] axess.sahr.stanford.edu [axess.sahr.stanford.edu]
+[ssl-issuer] [ssl] [info] axess.sahr.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] bi.stanford.edu [bi.stanford.edu]
+[ssl-issuer] [ssl] [info] bi.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] enrollmentuat.sahr.stanford.edu [enrollmentuat.sahr.stanford.edu]
+[ssl-issuer] [ssl] [info] enrollmentuat.sahr.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] authority.stanford.edu [authority.stanford.edu]
+[ssl-issuer] [ssl] [info] authority.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] fasa.stanford.edu [fasa.stanford.edu]
+[ssl-issuer] [ssl] [info] fasa.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] pselprd.sahr.stanford.edu [pselprd.sahr.stanford.edu]
+[ssl-issuer] [ssl] [info] pselprd.sahr.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] pshrprd.sahr.stanford.edu [pshrprd.sahr.stanford.edu]
+[ssl-issuer] [ssl] [info] pshrprd.sahr.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] pshruat.sahr.stanford.edu [pshruat.sahr.stanford.edu]
+[ssl-issuer] [ssl] [info] pshruat.sahr.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] csperf.sahr.stanford.edu [csperf.sahr.stanford.edu]
+[ssl-issuer] [ssl] [info] csperf.sahr.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] pshrdmo.sahr.stanford.edu [pshrdmo.sahr.stanford.edu]
+[ssl-issuer] [ssl] [info] pshrdmo.sahr.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] csfix.sahr.stanford.edu [csfix.sahr.stanford.edu]
+[ssl-issuer] [ssl] [info] csfix.sahr.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] pselperf.sahr.stanford.edu [pselperf.sahr.stanford.edu]
+[ssl-issuer] [ssl] [info] pselperf.sahr.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] psrepdev.sahr.stanford.edu [psrepdev.sahr.stanford.edu]
+[ssl-issuer] [ssl] [info] psrepdev.sahr.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] psrephrdev.sahr.stanford.edu [psrephrdev.sahr.stanford.edu]
+[ssl-issuer] [ssl] [info] psrephrdev.sahr.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] pshrdev.sahr.stanford.edu [pshrdev.sahr.stanford.edu]
+[ssl-issuer] [ssl] [info] pshrdev.sahr.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] accounts.stanford.edu [accounts.stanford.edu]
+[ssl-issuer] [ssl] [info] accounts.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] psrephrperf.sahr.stanford.edu [psrephrperf.sahr.stanford.edu]
+[ssl-issuer] [ssl] [info] psrephrperf.sahr.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] cardinalprintcenter.stanford.edu [cardinalprintcenter.stanford.edu]
+[ssl-issuer] [ssl] [info] cardinalprintcenter.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] pselfix.sahr.stanford.edu [pselfix.sahr.stanford.edu]
+[ssl-issuer] [ssl] [info] pselfix.sahr.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] csprd.sahr.stanford.edu [csprd.sahr.stanford.edu]
+[ssl-issuer] [ssl] [info] csprd.sahr.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] stanfordwho.stanford.edu [stanfordwho.stanford.edu]
+[ssl-issuer] [ssl] [info] stanfordwho.stanford.edu [Amazon]
+[ssl-dns-names] [ssl] [info] psrep.sahr.stanford.edu [psrep.sahr.stanford.edu]
+[ssl-issuer] [ssl] [info] psrep.sahr.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] csuat.sahr.stanford.edu [csuat.sahr.stanford.edu]
+[ssl-issuer] [ssl] [info] csuat.sahr.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] pshrperf.sahr.stanford.edu [pshrperf.sahr.stanford.edu]
+[ssl-issuer] [ssl] [info] pshrperf.sahr.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] www.stanford.edu [www.stanford.edu]
+[ssl-issuer] [ssl] [info] www.stanford.edu [Let's Encrypt]
+[ssl-dns-names] [ssl] [info] idp.stanford.edu [login.stanford.edu,idp-google.stanford.edu,idp.iam.stanford.edu,idp.stanford.edu,login-assets.stanford.edu,login.iam.stanford.edu,weblogin.stanford.edu]
+[ssl-issuer] [ssl] [info] idp.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] login.stanford.edu [login-assets.stanford.edu,login.iam.stanford.edu,weblogin.stanford.edu,login.stanford.edu,idp-google.stanford.edu,idp.iam.stanford.edu,idp.stanford.edu]
+[ssl-issuer] [ssl] [info] login.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] vault.stanford.edu [vault.stanford.edu,vault-dev.stanford.edu,vault-dev.svc.stanford.edu,vault-prod.stanford.edu,vault-prod.svc.stanford.edu,vault-stage.stanford.edu,vault-stage.svc.stanford.edu]
+[ssl-issuer] [ssl] [info] vault.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] psrephrsit.sahr.stanford.edu [psrephrsit.sahr.stanford.edu]
+[ssl-issuer] [ssl] [info] psrephrsit.sahr.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] spdb.stanford.edu [idpmetadata.stanford.edu,samlmetadata.stanford.edu,spdb.stanford.edu]
+[ssl-issuer] [ssl] [info] spdb.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] mailman.stanford.edu [clist.stanford.edu,clists.stanford.edu,list.stanford.edu,mailman-dev.stanford.edu,mailman-pre.stanford.edu,mailman.stanford.edu,lists.stanford.edu,mailman-master.stanford.edu,cmailman.stanford.edu]
+[ssl-issuer] [ssl] [info] mailman.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] psrepperf.sahr.stanford.edu [psrepperf.sahr.stanford.edu]
+[ssl-issuer] [ssl] [info] psrepperf.sahr.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] regadmin.stanford.edu [regadmin.stanford.edu]
+[ssl-issuer] [ssl] [info] regadmin.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] secureportal.stanford.edu [secureportal.stanford.edu]
+[ssl-issuer] [ssl] [info] secureportal.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] mydevices.stanford.edu [mydevices.stanford.edu]
+[ssl-issuer] [ssl] [info] mydevices.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] sponsorship.stanford.edu [sponsorship.stanford.edu]
+[ssl-issuer] [ssl] [info] sponsorship.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] netdb.stanford.edu [netdb-backup.stanford.edu,whatisnetdb.stanford.edu,yin.stanford.edu,yoyo.stanford.edu,yoyodyne.stanford.edu,netdb-node-roles-rc.stanford.edu,netdb-tertiary.stanford.edu,netdb.stanford.edu,netdb-api.stanford.edu,wirelessguest-rc.stanford.edu,netdb-campus.stanford.edu,netdb-firewall-rc.stanford.edu,netdb-ipm-rc.stanford.edu,netdb-leasequery-rc.stanford.edu,networking-directory-workgroups-rc.stanford.edu,whoisnetdb.stanford.edu,yang.stanford.edu]
+[ssl-issuer] [ssl] [info] netdb.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] stanfordyou.stanford.edu [stanfordyou.stanford.edu]
+[ssl-issuer] [ssl] [info] stanfordyou.stanford.edu [Internet2]
+[ssl-dns-names] [ssl] [info] workgroup.stanford.edu [workgroup.stanford.edu]
+[ssl-issuer] [ssl] [info] workgroup.stanford.edu [Internet2]
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://psrephrdev.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://psrephrdev.sahr.stanford.edu
+[http-missing-security-headers:x-frame-options] [http] [info] https://psrephrdev.sahr.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://psrephrdev.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://psrephrdev.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://psrephrdev.sahr.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://psrephrdev.sahr.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://psrephrdev.sahr.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://psrephrdev.sahr.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://psrephrdev.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://psrephrdev.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://psrephrdev.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://psrephrdev.sahr.stanford.edu
+[http-missing-security-headers:strict-transport-security] [http] [info] https://psrephrdev.sahr.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://psrephrdev.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://psrephrdev.sahr.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://psrephrdev.sahr.stanford.edu
+[http-missing-security-headers:x-frame-options] [http] [info] https://campusmap.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://campusmap.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://campusmap.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://campusmap.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://campusmap.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://campusmap.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://campusmap.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://campusmap.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://campusmap.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://campusmap.stanford.edu
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://campusmap.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://campusmap.stanford.edu
+[http-missing-security-headers:strict-transport-security] [http] [info] https://campusmap.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://campusmap.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://campusmap.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://campusmap.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://campusmap.stanford.edu
+[http-missing-security-headers:strict-transport-security] [http] [info] https://csprd.sahr.stanford.edu
+[http-missing-security-headers:x-frame-options] [http] [info] https://csprd.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://csprd.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://csprd.sahr.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://csprd.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://csprd.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://csprd.sahr.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://csprd.sahr.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://csprd.sahr.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://csprd.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://csprd.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://csprd.sahr.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://csprd.sahr.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://csprd.sahr.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://csprd.sahr.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://csprd.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://csprd.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://csfix.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://csfix.sahr.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://csfix.sahr.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://csfix.sahr.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://csfix.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://csfix.sahr.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://csfix.sahr.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://csfix.sahr.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://csfix.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://csfix.sahr.stanford.edu
+[http-missing-security-headers:x-frame-options] [http] [info] https://csfix.sahr.stanford.edu
+[http-missing-security-headers:x-frame-options] [http] [info] https://csperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://pshrprd.sahr.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://pshrprd.sahr.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://pshrprd.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://pshrprd.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://pshrprd.sahr.stanford.edu
+[http-missing-security-headers:strict-transport-security] [http] [info] https://pshrprd.sahr.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://pshrprd.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://pshrprd.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://csperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://csperf.sahr.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://csperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://csuat.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://pshrprd.sahr.stanford.edu
+[http-missing-security-headers:x-frame-options] [http] [info] https://pshrperf.sahr.stanford.edu
+[http-missing-security-headers:strict-transport-security] [http] [info] https://pselperf.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://pselprd.sahr.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://csfix.sahr.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://csfix.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://csfix.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://csfix.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://csfix.sahr.stanford.edu
+[http-missing-security-headers:strict-transport-security] [http] [info] https://csfix.sahr.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://csperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://csperf.sahr.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://csperf.sahr.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://csperf.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://csperf.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://csperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://csperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://csperf.sahr.stanford.edu
+[http-missing-security-headers:strict-transport-security] [http] [info] https://csperf.sahr.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://csperf.sahr.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://csperf.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://csperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://csperf.sahr.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://csuat.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://csuat.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://csuat.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://csuat.sahr.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://csuat.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://csuat.sahr.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://csuat.sahr.stanford.edu
+[http-missing-security-headers:x-frame-options] [http] [info] https://csuat.sahr.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://csuat.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://csuat.sahr.stanford.edu
+[http-missing-security-headers:strict-transport-security] [http] [info] https://csuat.sahr.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://csuat.sahr.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://csuat.sahr.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://csuat.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://csuat.sahr.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://csuat.sahr.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://pshrprd.sahr.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://pshrprd.sahr.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://pshrprd.sahr.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://pshrprd.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://pshrprd.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://pshrprd.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://pshrprd.sahr.stanford.edu
+[http-missing-security-headers:x-frame-options] [http] [info] https://pshrprd.sahr.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://pselperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://pselprd.sahr.stanford.edu
+[http-missing-security-headers:strict-transport-security] [http] [info] https://pselprd.sahr.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://pselprd.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://pselprd.sahr.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://pselprd.sahr.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://pselprd.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://pselprd.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://pselprd.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://pselprd.sahr.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://pselprd.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://pselprd.sahr.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://pselprd.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://pselprd.sahr.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://pselprd.sahr.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://pselprd.sahr.stanford.edu
+[http-missing-security-headers:x-frame-options] [http] [info] https://pselprd.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://pshrperf.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://pshrperf.sahr.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://pshrperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://pshrperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://pshrperf.sahr.stanford.edu
+[http-missing-security-headers:strict-transport-security] [http] [info] https://pshrperf.sahr.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://pshrperf.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://pshrperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://pshrperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://pshrperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://pshrperf.sahr.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://pshrperf.sahr.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://pshrperf.sahr.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://pshrperf.sahr.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://pshrperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://pshrperf.sahr.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://pselperf.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://pselperf.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://pselperf.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://pselperf.sahr.stanford.edu
+[http-missing-security-headers:x-frame-options] [http] [info] https://pselperf.sahr.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://pselperf.sahr.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://pselperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://pselperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://pselperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://pselperf.sahr.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://pselperf.sahr.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://pselperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://pselperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://pselperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://pselperf.sahr.stanford.edu
+[http-missing-security-headers:strict-transport-security] [http] [info] https://pshrdev.sahr.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://pshrdev.sahr.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://pshrdev.sahr.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://pshrdev.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://pshrdev.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://pshrdev.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://pshrdev.sahr.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://pshrdev.sahr.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://pshrdev.sahr.stanford.edu
+[http-missing-security-headers:x-frame-options] [http] [info] https://pshrdev.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://pshrdev.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://pshrdev.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://pshrdev.sahr.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://pshrdev.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://pshrdev.sahr.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://pshrdev.sahr.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://pshrdev.sahr.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://pshrdmo.sahr.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://pshrdmo.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://pshrdmo.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://pshrdmo.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://pshrdmo.sahr.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://pshrdmo.sahr.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://pshrdmo.sahr.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://pshrdmo.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://pshrdmo.sahr.stanford.edu
+[http-missing-security-headers:strict-transport-security] [http] [info] https://pshrdmo.sahr.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://pshrdmo.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://pshrdmo.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://pshrdmo.sahr.stanford.edu
+[http-missing-security-headers:x-frame-options] [http] [info] https://pshrdmo.sahr.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://pshrdmo.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://pshrdmo.sahr.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://pshrdmo.sahr.stanford.edu
+[http-missing-security-headers:x-frame-options] [http] [info] https://pselfix.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://pselfix.sahr.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://pselfix.sahr.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://pselfix.sahr.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://pselfix.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://pselfix.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://pselfix.sahr.stanford.edu
+[http-missing-security-headers:strict-transport-security] [http] [info] https://pselfix.sahr.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://pselfix.sahr.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://pselfix.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://pselfix.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://pselfix.sahr.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://pselfix.sahr.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://pselfix.sahr.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://pselfix.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://pselfix.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://pselfix.sahr.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://accounts.stanford.edu
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://accounts.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://accounts.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://accounts.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://accounts.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://accounts.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://accounts.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://accounts.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://accounts.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://accounts.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://accounts.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://accounts.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://accounts.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://accounts.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://pshruat.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://pshruat.sahr.stanford.edu
+[http-missing-security-headers:strict-transport-security] [http] [info] https://pshruat.sahr.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://pshruat.sahr.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://pshruat.sahr.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://pshruat.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://pshruat.sahr.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://pshruat.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://pshruat.sahr.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://pshruat.sahr.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://pshruat.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://pshruat.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://pshruat.sahr.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://pshruat.sahr.stanford.edu
+[http-missing-security-headers:x-frame-options] [http] [info] https://pshruat.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://pshruat.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://pshruat.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://psrep.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://psrep.sahr.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://psrep.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://psrep.sahr.stanford.edu
+[http-missing-security-headers:x-frame-options] [http] [info] https://psrep.sahr.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://psrep.sahr.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://psrep.sahr.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://psrep.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://psrep.sahr.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://psrep.sahr.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://psrep.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://psrep.sahr.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://psrep.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://psrep.sahr.stanford.edu
+[http-missing-security-headers:strict-transport-security] [http] [info] https://psrep.sahr.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://psrep.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://psrep.sahr.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://psrepdev.sahr.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://psrepdev.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://psrepdev.sahr.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://psrepdev.sahr.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://psrepdev.sahr.stanford.edu
+[http-missing-security-headers:strict-transport-security] [http] [info] https://psrepdev.sahr.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://psrepdev.sahr.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://psrepdev.sahr.stanford.edu
+[http-missing-security-headers:x-frame-options] [http] [info] https://psrepdev.sahr.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://psrepdev.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://psrepdev.sahr.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://psrepdev.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://psrepdev.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://psrepdev.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://psrepdev.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://psrepdev.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://psrepdev.sahr.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://cardinalprintcenter.stanford.edu/myprintcenter/
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://cardinalprintcenter.stanford.edu/myprintcenter/
+[http-missing-security-headers:access-control-max-age] [http] [info] https://cardinalprintcenter.stanford.edu/myprintcenter/
+[http-missing-security-headers:permissions-policy] [http] [info] https://cardinalprintcenter.stanford.edu/myprintcenter/
+[http-missing-security-headers:clear-site-data] [http] [info] https://cardinalprintcenter.stanford.edu/myprintcenter/
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://cardinalprintcenter.stanford.edu/myprintcenter/
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://cardinalprintcenter.stanford.edu/myprintcenter/
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://cardinalprintcenter.stanford.edu/myprintcenter/
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://cardinalprintcenter.stanford.edu/myprintcenter/
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://cardinalprintcenter.stanford.edu/myprintcenter/
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://cardinalprintcenter.stanford.edu/myprintcenter/
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://cardinalprintcenter.stanford.edu/myprintcenter/
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://code.stanford.edu/SiteDocs/faq
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://code.stanford.edu/SiteDocs/faq
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://code.stanford.edu/SiteDocs/faq
+[http-missing-security-headers:clear-site-data] [http] [info] https://code.stanford.edu/SiteDocs/faq
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://code.stanford.edu/SiteDocs/faq
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://code.stanford.edu/SiteDocs/faq
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://code.stanford.edu/SiteDocs/faq
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://code.stanford.edu/SiteDocs/faq
+[http-missing-security-headers:access-control-max-age] [http] [info] https://code.stanford.edu/SiteDocs/faq
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://code.stanford.edu/SiteDocs/faq
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://psrephrperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://psrephrperf.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://psrephrperf.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://psrephrperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://psrephrperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://psrephrperf.sahr.stanford.edu
+[http-missing-security-headers:strict-transport-security] [http] [info] https://psrephrperf.sahr.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://psrephrperf.sahr.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://psrephrperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://psrephrperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://psrephrperf.sahr.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://psrephrperf.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://psrephrperf.sahr.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://psrephrperf.sahr.stanford.edu
+[http-missing-security-headers:x-frame-options] [http] [info] https://psrephrperf.sahr.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://psrephrperf.sahr.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://psrephrperf.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://stanfordwho.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://stanfordwho.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://stanfordwho.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://stanfordwho.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://stanfordwho.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://stanfordwho.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://stanfordwho.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://stanfordwho.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://stanfordwho.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://stanfordwho.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://stanfordwho.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://stanfordwho.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://stanfordwho.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://stanfordwho.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://www.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://www.stanford.edu
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://www.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://www.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://www.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://www.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://www.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://www.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://www.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://www.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://www.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://www.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://www.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://www.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://www.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://idp.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://idp.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://idp.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://idp.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://idp.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://idp.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://idp.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://idp.stanford.edu
+[http-missing-security-headers:x-frame-options] [http] [info] https://idp.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://idp.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://idp.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://idp.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://idp.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://idp.stanford.edu
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://idp.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://idp.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://login.stanford.edu
+[http-missing-security-headers:x-frame-options] [http] [info] https://login.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://login.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://login.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://login.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://login.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://login.stanford.edu
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://login.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://login.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://login.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://login.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://login.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://login.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://login.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://login.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://login.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://secureportal.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://secureportal.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://secureportal.stanford.edu
+[http-missing-security-headers:x-frame-options] [http] [info] https://secureportal.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://secureportal.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://secureportal.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://secureportal.stanford.edu
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://secureportal.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://secureportal.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://secureportal.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://secureportal.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://secureportal.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://secureportal.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://secureportal.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://secureportal.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://secureportal.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://psrephrsit.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://psrephrsit.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://psrephrsit.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://psrephrsit.sahr.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://psrephrsit.sahr.stanford.edu
+[http-missing-security-headers:x-frame-options] [http] [info] https://psrephrsit.sahr.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://psrephrsit.sahr.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://psrephrsit.sahr.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://psrephrsit.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://psrephrsit.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://psrephrsit.sahr.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://psrephrsit.sahr.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://psrephrsit.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://psrephrsit.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://psrephrsit.sahr.stanford.edu
+[http-missing-security-headers:strict-transport-security] [http] [info] https://psrephrsit.sahr.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://psrephrsit.sahr.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://regadmin.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://regadmin.stanford.edu
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://regadmin.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://regadmin.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://regadmin.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://regadmin.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://regadmin.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://regadmin.stanford.edu
+[http-missing-security-headers:x-frame-options] [http] [info] https://regadmin.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://regadmin.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://regadmin.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://regadmin.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://regadmin.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://regadmin.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://regadmin.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://regadmin.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://psrepperf.sahr.stanford.edu
+[http-missing-security-headers:strict-transport-security] [http] [info] https://psrepperf.sahr.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://psrepperf.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://psrepperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://psrepperf.sahr.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://psrepperf.sahr.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://psrepperf.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://psrepperf.sahr.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://psrepperf.sahr.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://psrepperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://psrepperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://psrepperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://psrepperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://psrepperf.sahr.stanford.edu
+[http-missing-security-headers:x-frame-options] [http] [info] https://psrepperf.sahr.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://psrepperf.sahr.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://psrepperf.sahr.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://vault.stanford.edu/ui/
+[http-missing-security-headers:permissions-policy] [http] [info] https://vault.stanford.edu/ui/
+[http-missing-security-headers:referrer-policy] [http] [info] https://vault.stanford.edu/ui/
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://vault.stanford.edu/ui/
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://vault.stanford.edu/ui/
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://vault.stanford.edu/ui/
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://vault.stanford.edu/ui/
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://vault.stanford.edu/ui/
+[http-missing-security-headers:x-frame-options] [http] [info] https://vault.stanford.edu/ui/
+[http-missing-security-headers:clear-site-data] [http] [info] https://vault.stanford.edu/ui/
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://vault.stanford.edu/ui/
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://vault.stanford.edu/ui/
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://vault.stanford.edu/ui/
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://vault.stanford.edu/ui/
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://vault.stanford.edu
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://vault.stanford.edu
+[http-missing-security-headers:x-frame-options] [http] [info] https://vault.stanford.edu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://vault.stanford.edu
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://vault.stanford.edu
+[http-missing-security-headers:access-control-max-age] [http] [info] https://vault.stanford.edu
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://vault.stanford.edu
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://vault.stanford.edu
+[http-missing-security-headers:content-security-policy] [http] [info] https://vault.stanford.edu
+[http-missing-security-headers:permissions-policy] [http] [info] https://vault.stanford.edu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://vault.stanford.edu
+[http-missing-security-headers:referrer-policy] [http] [info] https://vault.stanford.edu
+[http-missing-security-headers:clear-site-data] [http] [info] https://vault.stanford.edu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://vault.stanford.edu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://vault.stanford.edu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://vault.stanford.edu
+[front-page-misconfig] [http] [info] https://axess.sahr.stanford.edu/_vti_inf.html
+[front-page-misconfig] [http] [info] https://regadmin.stanford.edu/_vti_inf.html
+[options-method] [http] [info] https://pselprd.sahr.stanford.edu [GET, HEAD, OPTIONS, POST]
+[options-method] [http] [info] https://csperf.sahr.stanford.edu [GET, HEAD, OPTIONS, POST]
+[options-method] [http] [info] https://pselperf.sahr.stanford.edu [GET, HEAD, OPTIONS, POST]
+[options-method] [http] [info] https://pshrperf.sahr.stanford.edu [GET, HEAD, OPTIONS, POST]
+[options-method] [http] [info] https://psrep.sahr.stanford.edu [GET, HEAD, OPTIONS, POST]
+[options-method] [http] [info] https://csuat.sahr.stanford.edu [GET, HEAD, OPTIONS, POST]
+[options-method] [http] [info] https://csfix.sahr.stanford.edu [GET, HEAD, OPTIONS, POST]
+[options-method] [http] [info] https://pselfix.sahr.stanford.edu [GET, HEAD, OPTIONS, POST]
+[options-method] [http] [info] https://psrepdev.sahr.stanford.edu [GET, HEAD, OPTIONS, POST]
+[options-method] [http] [info] https://pshruat.sahr.stanford.edu [GET, HEAD, OPTIONS, POST]
+[options-method] [http] [info] https://pshrprd.sahr.stanford.edu [GET, HEAD, OPTIONS, POST]
+[options-method] [http] [info] https://pshrdmo.sahr.stanford.edu [GET, HEAD, OPTIONS, POST]
+[options-method] [http] [info] https://pshrdev.sahr.stanford.edu [GET, HEAD, OPTIONS, POST]
+[options-method] [http] [info] https://csprd.sahr.stanford.edu [GET, HEAD, OPTIONS, POST]
+[options-method] [http] [info] https://psrephrdev.sahr.stanford.edu [GET, HEAD, OPTIONS, POST]
+[options-method] [http] [info] https://accounts.stanford.edu [GET,HEAD,POST,PUT,PATCH,DELETE,OPTIONS]
+[options-method] [http] [info] https://idp.stanford.edu [GET,POST,OPTIONS,HEAD,TRACE]
+[options-method] [http] [info] https://login.stanford.edu [GET,POST,OPTIONS,HEAD,TRACE]
+[options-method] [http] [info] https://regadmin.stanford.edu [OPTIONS,HEAD,GET,POST]
+[options-method] [http] [info] https://secureportal.stanford.edu [POST,OPTIONS,HEAD,GET]
+[options-method] [http] [info] https://psrephrsit.sahr.stanford.edu [GET, HEAD, OPTIONS, POST]
+[options-method] [http] [info] https://psrephrperf.sahr.stanford.edu [GET, HEAD, OPTIONS, POST]
+[options-method] [http] [info] https://psrepperf.sahr.stanford.edu [GET, HEAD, OPTIONS, POST]
+[weblogic-t3-detect] [network] [info] psrephrperf.sahr.stanford.edu:443 [14.1.1.0.0]
+[weblogic-t3-detect] [network] [info] psrepperf.sahr.stanford.edu:443 [14.1.1.0.0]
+[weblogic-t3-detect] [network] [info] psrephrsit.sahr.stanford.edu:443 [14.1.1.0.0]
+[weblogic-t3-detect] [network] [info] csperf.sahr.stanford.edu:443 [14.1.1.0.0]
+[weblogic-t3-detect] [network] [info] pshrdmo.sahr.stanford.edu:443 [14.1.1.0.0]
+[weblogic-t3-detect] [network] [info] pselprd.sahr.stanford.edu:443 [14.1.1.0.0]
+[weblogic-t3-detect] [network] [info] csfix.sahr.stanford.edu:443 [14.1.1.0.0]
+[weblogic-t3-detect] [network] [info] psrep.sahr.stanford.edu:443 [14.1.1.0.0]
+[weblogic-t3-detect] [network] [info] csprd.sahr.stanford.edu:443 [14.1.1.0.0]
+[weblogic-t3-detect] [network] [info] pshrdev.sahr.stanford.edu:443 [14.1.1.0.0]
+[weblogic-t3-detect] [network] [info] csuat.sahr.stanford.edu:443 [14.1.1.0.0]
+[weblogic-t3-detect] [network] [info] psrephrdev.sahr.stanford.edu:443 [14.1.1.0.0]
+[weblogic-t3-detect] [network] [info] pshrperf.sahr.stanford.edu:443 [14.1.1.0.0]
+[weblogic-t3-detect] [network] [info] pshrprd.sahr.stanford.edu:443 [14.1.1.0.0]
+[weblogic-t3-detect] [network] [info] psrepdev.sahr.stanford.edu:443 [14.1.1.0.0]
+[weblogic-t3-detect] [network] [info] pshruat.sahr.stanford.edu:443 [14.1.1.0.0]
+[weblogic-t3-detect] [network] [info] pselfix.sahr.stanford.edu:443 [14.1.1.0.0]
+[weblogic-t3-detect] [network] [info] pselperf.sahr.stanford.edu:443 [14.1.1.0.0]
+[wp-license-file] [http] [info] https://www.stanford.edu/license.txt
+[apple-app-site-association] [http] [info] https://stanfordwho.stanford.edu/.well-known/apple-app-site-association
+[wordpress-force-regenerate-thumbnails:detected_version] [http] [info] https://www.stanford.edu/wp-content/plugins/force-regenerate-thumbnails/readme.txt [trunk] [last_version="2.1.1"]
+[favicon-detect:Liferay] [http] [info] https://regadmin.stanford.edu/o/mais-stanford-theme/images/favicon.ico
+[vault-panel] [http] [info] https://vault.stanford.edu/ui/vault/auth?with=oidc%2F
+[cname-fingerprint] [dns] [info] cardinalprintcenter.stanford.edu [printcenter.prd.winfra.stanford.edu.]
+[cname-fingerprint] [dns] [info] authority.stanford.edu [alb-accounts-1399626521.us-west-2.elb.amazonaws.com.]
+[cname-fingerprint] [dns] [info] accounts.stanford.edu [alb-accounts-1399626521.us-west-2.elb.amazonaws.com.]
+[cname-fingerprint] [dns] [info] campusmap.stanford.edu [stanford.dns.bl.ink.]
+[cname-fingerprint] [dns] [info] code.stanford.edu [code-prod.svc.stanford.edu.]
+[cname-fingerprint] [dns] [info] idp.stanford.edu [login.stanford.edu.]
+[cname-fingerprint] [dns] [info] workgroup.stanford.edu [alb-accounts-1399626521.us-west-2.elb.amazonaws.com.]
+[cname-fingerprint] [dns] [info] stanfordyou.stanford.edu [alb-accounts-1399626521.us-west-2.elb.amazonaws.com.]
+[cname-fingerprint] [dns] [info] sponsorship.stanford.edu [alb-accounts-1399626521.us-west-2.elb.amazonaws.com.]
+[cname-fingerprint] [dns] [info] spdb.stanford.edu [lemon-lb.stanford.edu.]
+[cname-fingerprint] [dns] [info] stanfordwho.stanford.edu [axero-new-alb-1517955061.us-east-1.elb.amazonaws.com.]
+[cname-fingerprint] [dns] [info] mydevices.stanford.edu [alb-susurvey-808577958.us-west-2.elb.amazonaws.com.]
+[cname-fingerprint] [dns] [info] netdb.stanford.edu [netdb-frontend-936311734.us-west-2.elb.amazonaws.com.]
+[cname-fingerprint] [dns] [info] vault.stanford.edu [vault-prod.svc.stanford.edu.]
+[cname-fingerprint] [dns] [info] www.stanford.edu [pantheon-systems.map.fastly.net.]
+[cname-fingerprint] [dns] [info] who.stanford.edu [who.itlab.stanford.edu.]
+[openssh-detect] [network] [info] code.stanford.edu:22 [SSH-2.0-OpenSSH_8.2p1 Ubuntu-4ubuntu0.5]
+[openssh-detect] [network] [info] who.stanford.edu:22 [SSH-2.0-OpenSSH_9.2]
+[robots-txt] [http] [info] https://code.stanford.edu/robots.txt
+[readme-md] [http] [info] https://www.stanford.edu/README.md
+[wordpress-wordpress-importer:outdated_version] [http] [info] https://www.stanford.edu/wp-content/plugins/wordpress-importer/readme.txt [0.7] [last_version="0.8"]
+[txt-fingerprint] [dns] [info] code.stanford.edu ["heritage=external-dns,external-dns/owner=prod-us-west1,external-dns/resource=service/gitlab/gitlab-svc"]
+[txt-fingerprint] [dns] [info] mailman.stanford.edu ["google-site-verification=ygUg8JxT6LogA56RuJQ9cfNhKfqB8aLeK6LieJQt048","v=spf1 ip4:171.67.219.64/27 ip4:171.67.216.245 include:spf.mandrillapp.com include:everbridge.net ?all"]
+[deprecated-tls] [ssl] [info] campusmap.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] campusmap.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] campusmap.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] accessories.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] bi.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] pshrprd.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] csfix.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] csprd.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] pshrdmo.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] pselperf.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] csuat.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] pshrdev.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] psrepdev.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] code.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] pshrperf.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] pselprd.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] csperf.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] enrollmentuat.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] pshruat.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] pselfix.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] fasa.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] psrep.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] authority.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] psrephrdev.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] cardinalprintcenter.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] accounts.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] cardinalprintcenter.stanford.edu [tls10]
+[deprecated-tls] [ssl] [info] axess.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] psrephrperf.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] cardinalprintcenter.stanford.edu [tls11]
+[deprecated-tls] [ssl] [info] code.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] accessories.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] pshrprd.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] bi.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] csprd.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] pshrperf.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] pselperf.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] enrollmentuat.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] pshrdmo.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] csuat.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] csfix.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] psrepdev.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] pselprd.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] pshrdev.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] pselfix.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] pshruat.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] psrep.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] csperf.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] authority.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] accounts.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] fasa.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] psrephrdev.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] bi.stanford.edu [tls11]
+[deprecated-tls] [ssl] [info] psrephrsit.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] psrephrperf.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] code.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] accessories.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] pshrprd.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] csprd.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] pselperf.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] pshrdmo.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] axess.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] pselprd.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] pshrperf.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] pselfix.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] enrollmentuat.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] pshruat.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] csuat.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] pshrdev.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] psrepperf.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] psrep.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] csfix.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] stanfordwho.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] psrepdev.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] csperf.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] stanfordwho.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] fasa.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] psrephrdev.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] stanfordwho.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] accounts.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] authority.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] axess.sahr.stanford.edu [tls11]
+[deprecated-tls] [ssl] [info] www.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] www.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] www.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] idp.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] login.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] psrephrsit.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] psrephrperf.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] mailman.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] vault.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] regadmin.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] secureportal.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] spdb.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] mydevices.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] netdb.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] sponsorship.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] stanfordyou.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] psrepperf.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] workgroup.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] idp.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] login.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] psrephrsit.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] vault.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] mailman.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] secureportal.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] regadmin.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] spdb.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] sponsorship.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] netdb.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] mydevices.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] stanfordyou.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] idp.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] psrepperf.sahr.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] workgroup.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] login.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] vault.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] mailman.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] regadmin.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] secureportal.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] spdb.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] sponsorship.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] netdb.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] mydevices.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] stanfordyou.stanford.edu [tls12]
+[deprecated-tls] [ssl] [info] workgroup.stanford.edu [tls12]
+[wordpress-worker:detected_version] [http] [info] https://www.stanford.edu/wp-content/plugins/worker/readme.txt [trunk] [last_version="trunk"]
+[graphql-get-method] [http] [info] https://code.stanford.edu/api/graphql?query={__typename}
+[wordpress-duracelltomi-google-tag-manager:outdated_version] [http] [info] https://www.stanford.edu/wp-content/plugins/duracelltomi-google-tag-manager/readme.txt [1.16.1] [last_version="1.16.2"]
+[weak-cipher-suites] [ssl] [medium] cardinalprintcenter.stanford.edu [[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]]
+[weak-cipher-suites] [ssl] [medium] cardinalprintcenter.stanford.edu [[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]]
+[weak-cipher-suites] [ssl] [medium] bi.stanford.edu [[tls11 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA]]
+[weak-cipher-suites] [ssl] [medium] axess.sahr.stanford.edu [[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]]
+[mx-fingerprint] [dns] [info] mailman.stanford.edu [10 mxb-00000d03.gslb.pphosted.com.,10 mxa-00000d03.gslb.pphosted.com.]
+[oauth2-detect] [http] [info] https://code.stanford.edu/oauth/token
+[wordpress-login] [http] [info] https://www.stanford.edu/wp-login.php
+[CVE-2022-1595] [http] [medium] https://www.stanford.edu/wp-login.php
+[oidc-detect] [http] [info] https://code.stanford.edu/.well-known/openid-configuration
+[oidc-detect] [http] [info] https://idp.stanford.edu/.well-known/openid-configuration
+[oidc-detect] [http] [info] https://login.stanford.edu/.well-known/openid-configuration
+[waf-detect:shadowd] [http] [info] https://campusmap.stanford.edu/
+[waf-detect:apachegeneric] [http] [info] https://campusmap.stanford.edu/
+[waf-detect:nginxgeneric] [http] [info] https://campusmap.stanford.edu/
+[waf-detect:nginxgeneric] [http] [info] https://code.stanford.edu/
+[waf-detect:apachegeneric] [http] [info] https://enrollmentuat.sahr.stanford.edu/
+[waf-detect:apachegeneric] [http] [info] https://fasa.stanford.edu/
+[waf-detect:apachegeneric] [http] [info] https://bi.stanford.edu/
+[waf-detect:aspgeneric] [http] [info] https://cardinalprintcenter.stanford.edu/
+[waf-detect:bigip] [http] [info] https://axess.sahr.stanford.edu/
+[waf-detect:apachegeneric] [http] [info] https://accounts.stanford.edu/
+[waf-detect:apachegeneric] [http] [info] https://authority.stanford.edu/
+[waf-detect:apachegeneric] [http] [info] https://accessories.stanford.edu/
+[waf-detect:apachegeneric] [http] [info] https://login.stanford.edu/
+[waf-detect:apachegeneric] [http] [info] https://idp.stanford.edu/
+[waf-detect:apachegeneric] [http] [info] https://mailman.stanford.edu/
+[waf-detect:apachegeneric] [http] [info] https://mydevices.stanford.edu/
+[waf-detect:apachegeneric] [http] [info] https://netdb.stanford.edu/
+[waf-detect:apachegeneric] [http] [info] https://spdb.stanford.edu/
+[waf-detect:apachegeneric] [http] [info] https://regadmin.stanford.edu/
+[waf-detect:apachegeneric] [http] [info] https://secureportal.stanford.edu/
+[waf-detect:apachegeneric] [http] [info] https://stanfordyou.stanford.edu/
+[waf-detect:apachegeneric] [http] [info] https://workgroup.stanford.edu/
+[waf-detect:apachegeneric] [http] [info] https://sponsorship.stanford.edu/
+[waf-detect:ats] [http] [info] https://stanfordwho.stanford.edu/
+[waf-detect:varnish] [http] [info] https://www.stanford.edu/
+[waf-detect:ats] [http] [info] https://www.stanford.edu/
+[waf-detect:nginxgeneric] [http] [info] https://www.stanford.edu/
+[graphql-detect] [http] [info] https://code.stanford.edu/api/graphql
+[gitlab-public-snippets] [http] [info] https://code.stanford.edu/explore/snippets
+[wordpress-detect] [http] [info] https://www.stanford.edu
+[CVE-2000-0114] [http] [low] https://axess.sahr.stanford.edu/_vti_inf.html
+[CVE-2000-0114] [http] [low] https://regadmin.stanford.edu/_vti_inf.html
+[weblogic-detect] [http] [info] https://psrephrdev.sahr.stanford.edu/2NHBiQDGqvNpmrisc7agr0sZaSY
+[weblogic-detect] [http] [info] https://pselprd.sahr.stanford.edu/2NHBiQDGqvNpmrisc7agr0sZaSY
+[weblogic-detect] [http] [info] https://csprd.sahr.stanford.edu/2NHBiQDGqvNpmrisc7agr0sZaSY
+[weblogic-detect] [http] [info] https://csfix.sahr.stanford.edu/2NHBiQDGqvNpmrisc7agr0sZaSY
+[weblogic-detect] [http] [info] https://pshrprd.sahr.stanford.edu/2NHBiQDGqvNpmrisc7agr0sZaSY
+[weblogic-detect] [http] [info] https://csuat.sahr.stanford.edu/2NHBiQDGqvNpmrisc7agr0sZaSY
+[weblogic-detect] [http] [info] https://pselfix.sahr.stanford.edu/2NHBiQDGqvNpmrisc7agr0sZaSY
+[weblogic-detect] [http] [info] https://psrepdev.sahr.stanford.edu/2NHBiQDGqvNpmrisc7agr0sZaSY
+[weblogic-detect] [http] [info] https://pselperf.sahr.stanford.edu/2NHBiQDGqvNpmrisc7agr0sZaSY
+[weblogic-detect] [http] [info] https://pshruat.sahr.stanford.edu/2NHBiQDGqvNpmrisc7agr0sZaSY
+[weblogic-detect] [http] [info] https://csperf.sahr.stanford.edu/2NHBiQDGqvNpmrisc7agr0sZaSY
+[weblogic-detect] [http] [info] https://psrep.sahr.stanford.edu/2NHBiQDGqvNpmrisc7agr0sZaSY
+[weblogic-detect] [http] [info] https://pshrdmo.sahr.stanford.edu/2NHBiQDGqvNpmrisc7agr0sZaSY
+[weblogic-detect] [http] [info] https://pshrperf.sahr.stanford.edu/2NHBiQDGqvNpmrisc7agr0sZaSY
+[weblogic-detect] [http] [info] https://pshrdev.sahr.stanford.edu/2NHBiQDGqvNpmrisc7agr0sZaSY
+[weblogic-detect] [http] [info] https://psrephrperf.sahr.stanford.edu/2NHBiQDGqvNpmrisc7agr0sZaSY
+[weblogic-detect] [http] [info] https://psrepperf.sahr.stanford.edu/2NHBiQDGqvNpmrisc7agr0sZaSY
+[weblogic-detect] [http] [info] https://psrephrsit.sahr.stanford.edu/2NHBiQDGqvNpmrisc7agr0sZaSY
+[nameserver-fingerprint] [dns] [info] win.stanford.edu [varan.win.stanford.edu.,mothra.win.stanford.edu.,winkdc0.win.stanford.edu.,winkdca.win.stanford.edu.,godzilla.win.stanford.edu.,rodan.win.stanford.edu.]
+[wordpress-readme-file] [http] [info] https://www.stanford.edu/readme.html
+[liferay-portal] [http] [info] https://axess.sahr.stanford.edu/api/jsonws
+[liferay-jsonws] [http] [low] https://axess.sahr.stanford.edu/api/jsonws
+[wordpress-classic-editor:detected_version] [http] [info] https://www.stanford.edu/wp-content/plugins/classic-editor/readme.txt [1.6.2] [last_version="1.6.2"]
+[hashicorp-vault-detect] [http] [info] https://vault.stanford.edu/ui/vault/auth
+[gitlab-public-repos] [http] [info] https://code.stanford.edu/api/v4/projects
