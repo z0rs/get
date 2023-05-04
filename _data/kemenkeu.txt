@@ -1,0 +1,565 @@
+[tech-detect:ms-httpapi] [http] [info] http://103.93.188.16
+[tech-detect:express] [http] [info] https://116.66.206.135
+[tech-detect:nginx] [http] [info] https://116.66.206.135
+[fingerprinthub-web-fingerprints:fortinet-fortigate] [http] [info] https://103.93.188.5
+[tech-detect:nginx] [http] [info] https://202.61.126.30
+[tech-detect:angularjs] [http] [info] https://202.137.230.186
+[tech-detect:font-awesome] [http] [info] https://202.137.230.186
+[tech-detect:bootstrap] [http] [info] https://202.137.230.186
+[tech-detect:angular] [http] [info] https://202.137.230.186
+[tech-detect:ms-iis] [http] [info] https://202.137.230.186
+[tech-detect:nginx] [http] [info] https://103.93.188.92
+[tech-detect:angularjs] [http] [info] https://202.61.126.27
+[tech-detect:font-awesome] [http] [info] https://202.61.126.27
+[tech-detect:bootstrap] [http] [info] https://202.61.126.27
+[tech-detect:angular] [http] [info] https://202.61.126.27
+[tech-detect:ms-iis] [http] [info] https://202.61.126.27
+[tech-detect:google-font-api] [http] [info] https://103.12.80.39
+[fingerprinthub-web-fingerprints:laravel] [http] [info] https://202.137.230.77/login
+[fingerprinthub-web-fingerprints:laravel-framework] [http] [info] https://202.137.230.77/login
+[tech-detect:owl-carousel] [http] [info] https://202.61.126.100
+[tech-detect:font-awesome] [http] [info] https://202.61.126.100
+[tech-detect:bootstrap] [http] [info] https://202.61.126.100
+[tech-detect:google-font-api] [http] [info] https://202.61.126.100
+[tech-detect:ms-iis] [http] [info] https://202.61.126.100
+[tech-detect:angular] [http] [info] https://202.61.126.43
+[tech-detect:ms-iis] [http] [info] https://202.61.126.43
+[tech-detect:materialize-css] [http] [info] https://202.61.126.43
+[tech-detect:angularjs] [http] [info] https://202.61.126.43
+[tech-detect:nginx] [http] [info] https://202.137.230.77/login
+[tech-detect:php] [http] [info] https://202.137.230.77/login
+[tech-detect:google-font-api] [http] [info] https://202.137.230.77/login
+[tech-detect:laravel] [http] [info] https://202.137.230.77/login
+[fingerprinthub-web-fingerprints:laravel] [http] [info] https://202.137.230.77
+[fingerprinthub-web-fingerprints:laravel-framework] [http] [info] https://202.137.230.77
+[tech-detect:php] [http] [info] https://202.137.230.77
+[tech-detect:laravel] [http] [info] https://202.137.230.77
+[tech-detect:nginx] [http] [info] https://202.137.230.77
+[credentials-disclosure] [http] [unknown] https://103.93.189.119 [AccessToken":"NONE"]
+[tech-detect:bootstrap] [http] [info] https://103.93.189.119
+[credentials-disclosure] [http] [unknown] https://103.12.80.73 [AccessToken":"NONE"]
+[tech-detect:bootstrap] [http] [info] https://103.12.80.73
+[tech-detect:ms-iis] [http] [info] https://40.79.197.66
+[apache-detect] [http] [info] https://103.107.100.98 [Apache]
+[dir-listing] [http] [info] https://103.107.100.98
+[nginx-version] [http] [info] https://116.66.206.135 [nginx/1.18.0]
+[microsoft-iis-version] [http] [info] https://202.61.126.100 [Microsoft-IIS/10.0]
+[httponly-cookie-detect] [http] [info] https://202.61.126.191
+[microsoft-iis-version] [http] [info] https://202.61.126.27 [Microsoft-IIS/10.0]
+[nginx-version] [http] [info] https://202.61.126.30 [nginx/1.12.2]
+[httponly-cookie-detect] [http] [info] https://103.12.80.51
+[basic-auth-detect] [http] [info] https://103.12.80.51
+[microsoft-iis-version] [http] [info] https://202.137.230.186 [Microsoft-IIS/10.0]
+[microsoft-iis-version] [http] [info] https://202.61.126.43 [Microsoft-IIS/8.5]
+[httponly-cookie-detect] [http] [info] https://202.137.230.186
+[httponly-cookie-detect] [http] [info] https://202.61.126.43
+[httponly-cookie-detect] [http] [info] https://202.61.126.27
+[xss-deprecated-header] [http] [info] https://103.93.188.5 [1; mode=block]
+[httponly-cookie-detect] [http] [info] https://103.12.80.39
+[nginx-version] [http] [info] https://103.93.188.92 [nginx/1.12.2]
+[apache-detect] [http] [info] https://103.93.189.119 [Apache]
+[httponly-cookie-detect] [http] [info] https://202.137.230.77
+[xss-deprecated-header] [http] [info] https://103.93.189.119 [1; mode=block]
+[httponly-cookie-detect] [http] [info] https://103.93.189.119
+[xss-deprecated-header] [http] [info] https://103.12.80.73 [1; mode=block]
+[httponly-cookie-detect] [http] [info] https://103.12.80.73
+[ssl-dns-names] [ssl] [info] 116.66.206.135 [baktiai-nms.id,*.baktiai-nms.id]
+[ssl-issuer] [ssl] [info] 116.66.206.135 [GlobalSign nv-sa]
+[expired-ssl] [ssl] [low] 103.107.100.98 [2020-12-29 10:57:57 +0000 UTC]
+[ssl-dns-names] [ssl] [info] 103.107.100.98 [cpanel.spamdbxyz.id,webmail.spamdbxyz.id,webdisk.spamdbxyz.id,spamdbxyz.id,mail.spamdbxyz.id,www.spamdbxyz.id]
+[self-signed-ssl] [ssl] [low] 103.107.100.98
+[revoked-ssl-certificate] [ssl] [low] 103.107.100.98
+[ssl-dns-names] [ssl] [info] 180.250.127.50 [*.secureswiftcontent.com,secureswiftcontent.com]
+[ssl-issuer] [ssl] [info] 180.250.127.50 [Sectigo Limited]
+[ssl-dns-names] [ssl] [info] 20.190.140.104 [*.enterpriseregistration.windows.net,enterpriseregistration.windows.net]
+[ssl-issuer] [ssl] [info] 20.190.140.104 [Microsoft Corporation]
+[ssl-dns-names] [ssl] [info] 103.12.80.51 [*.kemenkeu.go.id,www.kemenkeu.go.id]
+[ssl-issuer] [ssl] [info] 103.12.80.51 [DigiCert Inc]
+[ssl-dns-names] [ssl] [info] 202.137.230.77 [*.kemenkeu.go.id,www.kemenkeu.go.id]
+[ssl-issuer] [ssl] [info] 202.137.230.77 [DigiCert Inc]
+[ssl-dns-names] [ssl] [info] 202.61.126.27 [*.kemenkeu.go.id,www.kemenkeu.go.id]
+[ssl-issuer] [ssl] [info] 202.61.126.27 [DigiCert Inc]
+[ssl-dns-names] [ssl] [info] 202.61.126.43 [*.kemenkeu.go.id,www.kemenkeu.go.id]
+[ssl-issuer] [ssl] [info] 202.61.126.43 [DigiCert Inc]
+[ssl-dns-names] [ssl] [info] 202.61.126.30 [*.kemenkeu.go.id,www.kemenkeu.go.id]
+[ssl-dns-names] [ssl] [info] 103.12.80.39 [*.kemenkeu.go.id,www.kemenkeu.go.id]
+[ssl-issuer] [ssl] [info] 103.12.80.39 [DigiCert Inc]
+[ssl-issuer] [ssl] [info] 202.61.126.30 [DigiCert Inc]
+[ssl-dns-names] [ssl] [info] 202.61.126.191 [*.kemenkeu.go.id,www.kemenkeu.go.id]
+[ssl-issuer] [ssl] [info] 202.61.126.191 [DigiCert Inc]
+[expired-ssl] [ssl] [low] 202.61.126.100 [2023-04-15 23:59:59 +0000 UTC]
+[ssl-dns-names] [ssl] [info] 202.61.126.100 [*.kemenkeu.go.id,www.kemenkeu.go.id]
+[ssl-issuer] [ssl] [info] 202.61.126.100 [DigiCert Inc]
+[revoked-ssl-certificate] [ssl] [low] 202.61.126.100
+[ssl-dns-names] [ssl] [info] 202.137.230.186 [www.kemenkeu.go.id,*.kemenkeu.go.id]
+[ssl-issuer] [ssl] [info] 202.137.230.186 [DigiCert Inc]
+[ssl-dns-names] [ssl] [info] 103.12.80.72 [*.kemenkeu.go.id,www.kemenkeu.go.id]
+[ssl-issuer] [ssl] [info] 103.12.80.72 [DigiCert Inc]
+[ssl-dns-names] [ssl] [info] 103.93.189.119 [*.kemenkeu.go.id,www.kemenkeu.go.id]
+[ssl-issuer] [ssl] [info] 103.93.189.119 [DigiCert Inc]
+[ssl-dns-names] [ssl] [info] 103.12.80.73 [*.kemenkeu.go.id,www.kemenkeu.go.id]
+[ssl-issuer] [ssl] [info] 103.12.80.73 [DigiCert Inc]
+[expired-ssl] [ssl] [low] 103.93.188.92 [2023-04-15 23:59:59 +0000 UTC]
+[ssl-dns-names] [ssl] [info] 103.93.188.92 [*.kemenkeu.go.id,www.kemenkeu.go.id]
+[ssl-issuer] [ssl] [info] 103.93.188.92 [DigiCert Inc]
+[revoked-ssl-certificate] [ssl] [low] 103.93.188.92
+[ssl-dns-names] [ssl] [info] 103.93.188.5 [*.kemenkeu.go.id,www.kemenkeu.go.id]
+[ssl-issuer] [ssl] [info] 103.93.188.5 [DigiCert Inc]
+[ssl-dns-names] [ssl] [info] 40.79.197.66 [a.manage.microsoft.com,AP02.manage.microsoft.com,manage.microsoft.com,admin.manage.microsoft.com,EnterpriseEnrollment-s.manage.microsoft.com,r.manage.microsoft.com,p.manage.microsoft.com,i.manage.microsoft.com]
+[ssl-issuer] [ssl] [info] 40.79.197.66 [Microsoft Corporation]
+[ssl-dns-names] [ssl] [info] 103.12.80.71 [*.kemenkeu.go.id,www.kemenkeu.go.id]
+[ssl-issuer] [ssl] [info] 103.12.80.71 [DigiCert Inc]
+[deprecated-tls] [ssl] [info] 20.190.140.104 [tls12]
+[deprecated-tls] [ssl] [info] 116.66.206.135 [tls12]
+[deprecated-tls] [ssl] [info] 202.137.230.186 [tls12]
+[deprecated-tls] [ssl] [info] 202.61.126.43 [tls12]
+[deprecated-tls] [ssl] [info] 202.61.126.27 [tls12]
+[deprecated-tls] [ssl] [info] 202.61.126.100 [tls12]
+[deprecated-tls] [ssl] [info] 103.107.100.98 [tls12]
+[deprecated-tls] [ssl] [info] 202.137.230.77 [tls12]
+[deprecated-tls] [ssl] [info] 202.61.126.191 [tls12]
+[deprecated-tls] [ssl] [info] 202.61.126.30 [tls12]
+[deprecated-tls] [ssl] [info] 103.12.80.71 [tls12]
+[deprecated-tls] [ssl] [info] 103.12.80.73 [tls12]
+[deprecated-tls] [ssl] [info] 103.12.80.39 [tls12]
+[deprecated-tls] [ssl] [info] 103.93.189.119 [tls12]
+[deprecated-tls] [ssl] [info] 103.93.188.5 [tls12]
+[deprecated-tls] [ssl] [info] 103.93.188.92 [tls12]
+[deprecated-tls] [ssl] [info] 180.250.127.50 [tls12]
+[deprecated-tls] [ssl] [info] 202.61.126.191 [tls10]
+[deprecated-tls] [ssl] [info] 202.137.230.77 [tls10]
+[deprecated-tls] [ssl] [info] 103.93.188.92 [tls10]
+[deprecated-tls] [ssl] [info] 180.250.127.50 [tls10]
+[deprecated-tls] [ssl] [info] 103.12.80.72 [tls12]
+[deprecated-tls] [ssl] [info] 202.61.126.191 [tls11]
+[deprecated-tls] [ssl] [info] 202.137.230.77 [tls11]
+[deprecated-tls] [ssl] [info] 103.12.80.51 [tls12]
+[deprecated-tls] [ssl] [info] 116.66.206.135 [tls12]
+[deprecated-tls] [ssl] [info] 202.61.126.27 [tls12]
+[deprecated-tls] [ssl] [info] 202.137.230.186 [tls12]
+[deprecated-tls] [ssl] [info] 103.93.188.92 [tls11]
+[deprecated-tls] [ssl] [info] 202.61.126.43 [tls12]
+[deprecated-tls] [ssl] [info] 103.107.100.98 [tls12]
+[deprecated-tls] [ssl] [info] 103.12.80.73 [tls12]
+[deprecated-tls] [ssl] [info] 180.250.127.50 [tls11]
+[deprecated-tls] [ssl] [info] 103.93.189.119 [tls12]
+[deprecated-tls] [ssl] [info] 202.61.126.30 [tls12]
+[deprecated-tls] [ssl] [info] 103.93.188.5 [tls12]
+[deprecated-tls] [ssl] [info] 40.79.197.66 [tls12]
+[deprecated-tls] [ssl] [info] 103.12.80.72 [tls12]
+[deprecated-tls] [ssl] [info] 103.12.80.39 [tls12]
+[deprecated-tls] [ssl] [info] 103.93.188.5 [tls11]
+[deprecated-tls] [ssl] [info] 103.12.80.51 [tls12]
+[deprecated-tls] [ssl] [info] 103.12.80.71 [tls12]
+[deprecated-tls] [ssl] [info] 116.66.206.135 [tls12]
+[deprecated-tls] [ssl] [info] 202.61.126.27 [tls12]
+[deprecated-tls] [ssl] [info] 202.61.126.43 [tls12]
+[deprecated-tls] [ssl] [info] 103.107.100.98 [tls12]
+[deprecated-tls] [ssl] [info] 40.79.197.66 [tls12]
+[deprecated-tls] [ssl] [info] 103.12.80.73 [tls12]
+[deprecated-tls] [ssl] [info] 202.61.126.100 [tls12]
+[deprecated-tls] [ssl] [info] 202.137.230.186 [tls12]
+[deprecated-tls] [ssl] [info] 202.61.126.30 [tls12]
+[deprecated-tls] [ssl] [info] 103.93.189.119 [tls12]
+[deprecated-tls] [ssl] [info] 20.190.140.104 [tls12]
+[deprecated-tls] [ssl] [info] 40.79.197.66 [tls12]
+[deprecated-tls] [ssl] [info] 103.12.80.72 [tls12]
+[deprecated-tls] [ssl] [info] 103.12.80.39 [tls12]
+[deprecated-tls] [ssl] [info] 103.12.80.51 [tls12]
+[deprecated-tls] [ssl] [info] 103.12.80.71 [tls12]
+[deprecated-tls] [ssl] [info] 202.61.126.100 [tls12]
+[deprecated-tls] [ssl] [info] 20.190.140.104 [tls12]
+[imap-detect] [network] [info] 103.107.100.98:143
+[waf-detect:aspgeneric] [http] [info] https://40.79.197.66/
+[waf-detect:apachegeneric] [http] [info] https://103.107.100.98/
+[waf-detect:aspgeneric] [http] [info] https://103.107.100.98/
+[waf-detect:nginxgeneric] [http] [info] https://116.66.206.135/
+[waf-detect:shadowd] [http] [info] https://180.250.127.50/
+[waf-detect:apachegeneric] [http] [info] https://180.250.127.50/
+[waf-detect:nginxgeneric] [http] [info] https://202.61.126.30/
+[waf-detect:securesphere] [http] [info] https://103.12.80.39/
+[waf-detect:akamai] [http] [info] https://103.12.80.51/
+[waf-detect:nginxgeneric] [http] [info] https://202.137.230.77/
+[waf-detect:nginxgeneric] [http] [info] https://103.93.188.92/
+[waf-detect:bigip] [http] [info] https://202.61.126.43/
+[waf-detect:ats] [http] [info] https://202.61.126.100/
+[waf-detect:apachegeneric] [http] [info] https://103.93.189.119/
+[waf-detect:fortigate] [http] [info] https://202.137.230.186/
+[waf-detect:ats] [http] [info] https://202.137.230.186/
+[waf-detect:securesphere] [http] [info] https://202.137.230.186/
+[waf-detect:bigip] [http] [info] http://36.86.63.182/
+[weak-cipher-suites] [ssl] [medium] 202.137.230.77 [[tls10 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA]]
+[weak-cipher-suites] [ssl] [medium] 202.61.126.191 [[tls10 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA]]
+[weak-cipher-suites] [ssl] [medium] 103.93.188.92 [[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]]
+[weak-cipher-suites] [ssl] [medium] 180.250.127.50 [[tls10 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA]]
+[weak-cipher-suites] [ssl] [medium] 202.61.126.191 [[tls11 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA]]
+[weak-cipher-suites] [ssl] [medium] 202.137.230.77 [[tls11 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA]]
+[weak-cipher-suites] [ssl] [medium] 103.93.188.92 [[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]]
+[weak-cipher-suites] [ssl] [medium] 180.250.127.50 [[tls11 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA]]
+[weak-cipher-suites] [ssl] [medium] 103.93.188.5 [[tls11 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA]]
+[http-missing-security-headers:content-security-policy] [http] [info] http://103.93.188.16
+[http-missing-security-headers:permissions-policy] [http] [info] http://103.93.188.16
+[http-missing-security-headers:x-frame-options] [http] [info] http://103.93.188.16
+[http-missing-security-headers:x-content-type-options] [http] [info] http://103.93.188.16
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] http://103.93.188.16
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] http://103.93.188.16
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] http://103.93.188.16
+[http-missing-security-headers:referrer-policy] [http] [info] http://103.93.188.16
+[http-missing-security-headers:access-control-expose-headers] [http] [info] http://103.93.188.16
+[http-missing-security-headers:access-control-max-age] [http] [info] http://103.93.188.16
+[http-missing-security-headers:access-control-allow-methods] [http] [info] http://103.93.188.16
+[http-missing-security-headers:access-control-allow-headers] [http] [info] http://103.93.188.16
+[http-missing-security-headers:strict-transport-security] [http] [info] http://103.93.188.16
+[http-missing-security-headers:clear-site-data] [http] [info] http://103.93.188.16
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] http://103.93.188.16
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] http://103.93.188.16
+[http-missing-security-headers:access-control-allow-origin] [http] [info] http://103.93.188.16
+[http-missing-security-headers:access-control-max-age] [http] [info] https://116.66.206.135
+[http-missing-security-headers:content-security-policy] [http] [info] https://116.66.206.135
+[http-missing-security-headers:permissions-policy] [http] [info] https://116.66.206.135
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://116.66.206.135
+[http-missing-security-headers:clear-site-data] [http] [info] https://116.66.206.135
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://116.66.206.135
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://116.66.206.135
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://116.66.206.135
+[http-missing-security-headers:strict-transport-security] [http] [info] https://116.66.206.135
+[http-missing-security-headers:x-frame-options] [http] [info] https://116.66.206.135
+[http-missing-security-headers:x-content-type-options] [http] [info] https://116.66.206.135
+[http-missing-security-headers:referrer-policy] [http] [info] https://116.66.206.135
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://116.66.206.135
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://116.66.206.135
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://116.66.206.135
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://103.107.100.98
+[http-missing-security-headers:content-security-policy] [http] [info] https://103.107.100.98
+[http-missing-security-headers:x-frame-options] [http] [info] https://103.107.100.98
+[http-missing-security-headers:clear-site-data] [http] [info] https://103.107.100.98
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://103.107.100.98
+[http-missing-security-headers:access-control-max-age] [http] [info] https://103.107.100.98
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://103.107.100.98
+[http-missing-security-headers:strict-transport-security] [http] [info] https://103.107.100.98
+[http-missing-security-headers:permissions-policy] [http] [info] https://103.107.100.98
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://103.107.100.98
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://103.107.100.98
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://103.107.100.98
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://103.107.100.98
+[http-missing-security-headers:x-content-type-options] [http] [info] https://103.107.100.98
+[http-missing-security-headers:referrer-policy] [http] [info] https://103.107.100.98
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://103.107.100.98
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://103.107.100.98
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://20.190.140.104
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://20.190.140.104
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://20.190.140.104
+[http-missing-security-headers:clear-site-data] [http] [info] https://20.190.140.104
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://20.190.140.104
+[http-missing-security-headers:permissions-policy] [http] [info] https://20.190.140.104
+[http-missing-security-headers:referrer-policy] [http] [info] https://20.190.140.104
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://20.190.140.104
+[http-missing-security-headers:access-control-max-age] [http] [info] https://20.190.140.104
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://20.190.140.104
+[http-missing-security-headers:content-security-policy] [http] [info] https://20.190.140.104
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://20.190.140.104
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://20.190.140.104
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://20.190.140.104
+[http-missing-security-headers:x-frame-options] [http] [info] https://20.190.140.104
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://180.250.127.50
+[http-missing-security-headers:strict-transport-security] [http] [info] https://180.250.127.50
+[http-missing-security-headers:permissions-policy] [http] [info] https://180.250.127.50
+[http-missing-security-headers:x-content-type-options] [http] [info] https://180.250.127.50
+[http-missing-security-headers:clear-site-data] [http] [info] https://180.250.127.50
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://180.250.127.50
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://180.250.127.50
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://180.250.127.50
+[http-missing-security-headers:x-frame-options] [http] [info] https://180.250.127.50
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://180.250.127.50
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://180.250.127.50
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://180.250.127.50
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://180.250.127.50
+[http-missing-security-headers:content-security-policy] [http] [info] https://180.250.127.50
+[http-missing-security-headers:referrer-policy] [http] [info] https://180.250.127.50
+[http-missing-security-headers:access-control-max-age] [http] [info] https://180.250.127.50
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://180.250.127.50
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://202.61.126.30
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://202.61.126.30
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://202.61.126.30
+[http-missing-security-headers:access-control-max-age] [http] [info] https://202.61.126.30
+[http-missing-security-headers:content-security-policy] [http] [info] https://202.61.126.30
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://202.61.126.30
+[http-missing-security-headers:clear-site-data] [http] [info] https://202.61.126.30
+[http-missing-security-headers:x-content-type-options] [http] [info] https://202.61.126.30
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://202.61.126.30
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://202.61.126.30
+[http-missing-security-headers:permissions-policy] [http] [info] https://202.61.126.30
+[http-missing-security-headers:x-frame-options] [http] [info] https://202.61.126.30
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://202.61.126.30
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://202.61.126.30
+[http-missing-security-headers:strict-transport-security] [http] [info] https://202.61.126.30
+[http-missing-security-headers:referrer-policy] [http] [info] https://202.61.126.30
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://202.61.126.30
+[http-missing-security-headers:content-security-policy] [http] [info] https://202.61.126.27
+[http-missing-security-headers:clear-site-data] [http] [info] https://202.61.126.27
+[http-missing-security-headers:referrer-policy] [http] [info] https://202.61.126.27
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://202.61.126.27
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://202.61.126.27
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://202.61.126.27
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://202.61.126.27
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://202.61.126.27
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://202.61.126.27
+[http-missing-security-headers:access-control-max-age] [http] [info] https://202.61.126.27
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://202.61.126.27
+[http-missing-security-headers:strict-transport-security] [http] [info] https://202.61.126.27
+[http-missing-security-headers:permissions-policy] [http] [info] https://202.61.126.27
+[http-missing-security-headers:x-content-type-options] [http] [info] https://202.61.126.27
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://202.61.126.27
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://202.61.126.27
+[http-missing-security-headers:permissions-policy] [http] [info] https://103.12.80.51
+[http-missing-security-headers:clear-site-data] [http] [info] https://103.12.80.51
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://103.12.80.51
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://103.12.80.51
+[http-missing-security-headers:strict-transport-security] [http] [info] https://103.12.80.51
+[http-missing-security-headers:content-security-policy] [http] [info] https://103.12.80.51
+[http-missing-security-headers:x-frame-options] [http] [info] https://103.12.80.51
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://103.12.80.51
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://103.12.80.51
+[http-missing-security-headers:x-content-type-options] [http] [info] https://103.12.80.51
+[http-missing-security-headers:referrer-policy] [http] [info] https://103.12.80.51
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://103.12.80.51
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://103.12.80.51
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://103.12.80.51
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://103.12.80.51
+[http-missing-security-headers:access-control-max-age] [http] [info] https://103.12.80.51
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://103.12.80.51
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://103.93.189.119
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://103.93.189.119
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://103.93.189.119
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://103.93.189.119
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://103.93.189.119
+[http-missing-security-headers:access-control-max-age] [http] [info] https://103.93.189.119
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://103.93.189.119
+[http-missing-security-headers:permissions-policy] [http] [info] https://103.93.189.119
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://103.93.189.119
+[http-missing-security-headers:clear-site-data] [http] [info] https://103.93.189.119
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://103.93.189.119
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://103.93.189.119
+[http-missing-security-headers:strict-transport-security] [http] [info] https://202.61.126.100
+[http-missing-security-headers:access-control-max-age] [http] [info] https://202.61.126.100
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://202.61.126.100
+[http-missing-security-headers:content-security-policy] [http] [info] https://202.61.126.100
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://202.61.126.100
+[http-missing-security-headers:referrer-policy] [http] [info] https://202.61.126.100
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://202.61.126.100
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://202.61.126.100
+[http-missing-security-headers:permissions-policy] [http] [info] https://202.61.126.100
+[http-missing-security-headers:x-content-type-options] [http] [info] https://202.61.126.100
+[http-missing-security-headers:clear-site-data] [http] [info] https://202.61.126.100
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://202.61.126.100
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://202.61.126.100
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://202.61.126.100
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://202.61.126.100
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://202.61.126.100
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://202.61.126.43
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://202.61.126.43
+[http-missing-security-headers:access-control-max-age] [http] [info] https://202.61.126.43
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://202.61.126.43
+[http-missing-security-headers:strict-transport-security] [http] [info] https://202.61.126.43
+[http-missing-security-headers:x-content-type-options] [http] [info] https://202.61.126.43
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://202.61.126.43
+[http-missing-security-headers:clear-site-data] [http] [info] https://202.61.126.43
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://202.61.126.43
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://202.61.126.43
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://202.61.126.43
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://202.61.126.43
+[http-missing-security-headers:content-security-policy] [http] [info] https://202.61.126.43
+[http-missing-security-headers:permissions-policy] [http] [info] https://202.61.126.43
+[http-missing-security-headers:referrer-policy] [http] [info] https://202.61.126.43
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://202.61.126.43
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://202.137.230.186
+[http-missing-security-headers:clear-site-data] [http] [info] https://202.137.230.186
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://202.137.230.186
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://202.137.230.186
+[http-missing-security-headers:access-control-max-age] [http] [info] https://202.137.230.186
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://202.137.230.186
+[http-missing-security-headers:x-frame-options] [http] [info] https://202.137.230.186
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://202.137.230.186
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://202.137.230.186
+[http-missing-security-headers:permissions-policy] [http] [info] https://202.137.230.186
+[http-missing-security-headers:x-content-type-options] [http] [info] https://202.137.230.186
+[http-missing-security-headers:referrer-policy] [http] [info] https://202.137.230.186
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://202.137.230.186
+[http-missing-security-headers:strict-transport-security] [http] [info] https://202.137.230.186
+[http-missing-security-headers:content-security-policy] [http] [info] https://202.137.230.186
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://202.137.230.186
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://202.137.230.186
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://103.12.80.39
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://103.12.80.39
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://103.12.80.39
+[http-missing-security-headers:x-frame-options] [http] [info] https://103.12.80.39
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://103.12.80.39
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://103.12.80.39
+[http-missing-security-headers:clear-site-data] [http] [info] https://103.12.80.39
+[http-missing-security-headers:access-control-max-age] [http] [info] https://103.12.80.39
+[http-missing-security-headers:x-content-type-options] [http] [info] https://103.12.80.39
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://103.12.80.39
+[http-missing-security-headers:strict-transport-security] [http] [info] https://103.12.80.39
+[http-missing-security-headers:content-security-policy] [http] [info] https://103.12.80.39
+[http-missing-security-headers:referrer-policy] [http] [info] https://103.12.80.39
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://103.12.80.39
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://103.12.80.39
+[http-missing-security-headers:permissions-policy] [http] [info] https://103.12.80.39
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://103.12.80.39
+[http-missing-security-headers:x-content-type-options] [http] [info] https://103.93.188.92
+[http-missing-security-headers:referrer-policy] [http] [info] https://103.93.188.92
+[http-missing-security-headers:clear-site-data] [http] [info] https://103.93.188.92
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://103.93.188.92
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://103.93.188.92
+[http-missing-security-headers:strict-transport-security] [http] [info] https://103.93.188.92
+[http-missing-security-headers:permissions-policy] [http] [info] https://103.93.188.92
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://103.93.188.92
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://103.93.188.92
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://103.93.188.92
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://103.93.188.92
+[http-missing-security-headers:content-security-policy] [http] [info] https://103.93.188.92
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://103.93.188.92
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://103.93.188.92
+[http-missing-security-headers:access-control-max-age] [http] [info] https://103.93.188.92
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://103.93.188.92
+[http-missing-security-headers:x-frame-options] [http] [info] https://103.93.188.92
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://103.93.188.5
+[http-missing-security-headers:referrer-policy] [http] [info] https://103.93.188.5
+[http-missing-security-headers:clear-site-data] [http] [info] https://103.93.188.5
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://103.93.188.5
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://103.93.188.5
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://103.93.188.5
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://103.93.188.5
+[http-missing-security-headers:permissions-policy] [http] [info] https://103.93.188.5
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://103.93.188.5
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://103.93.188.5
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://103.93.188.5
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://103.93.188.5
+[http-missing-security-headers:access-control-max-age] [http] [info] https://103.93.188.5
+[http-missing-security-headers:permissions-policy] [http] [info] https://103.12.80.73
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://103.12.80.73
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://103.12.80.73
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://103.12.80.73
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://103.12.80.73
+[http-missing-security-headers:access-control-max-age] [http] [info] https://103.12.80.73
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://103.12.80.73
+[http-missing-security-headers:strict-transport-security] [http] [info] https://103.12.80.73
+[http-missing-security-headers:clear-site-data] [http] [info] https://103.12.80.73
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://103.12.80.73
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://103.12.80.73
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://103.12.80.73
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://103.12.80.73
+[http-missing-security-headers:strict-transport-security] [http] [info] https://202.137.230.77/login
+[http-missing-security-headers:x-content-type-options] [http] [info] https://202.137.230.77/login
+[http-missing-security-headers:clear-site-data] [http] [info] https://202.137.230.77/login
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://202.137.230.77/login
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://202.137.230.77/login
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://202.137.230.77/login
+[http-missing-security-headers:referrer-policy] [http] [info] https://202.137.230.77/login
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://202.137.230.77/login
+[http-missing-security-headers:access-control-max-age] [http] [info] https://202.137.230.77/login
+[http-missing-security-headers:content-security-policy] [http] [info] https://202.137.230.77/login
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://202.137.230.77/login
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://202.137.230.77/login
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://202.137.230.77/login
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://202.137.230.77/login
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://202.137.230.77/login
+[http-missing-security-headers:permissions-policy] [http] [info] https://202.137.230.77/login
+[http-missing-security-headers:strict-transport-security] [http] [info] https://202.61.126.191/portal/home/
+[http-missing-security-headers:x-content-type-options] [http] [info] https://202.61.126.191/portal/home/
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://202.61.126.191/portal/home/
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://202.61.126.191/portal/home/
+[http-missing-security-headers:access-control-allow-credentials] [http] [info] https://202.61.126.191/portal/home/
+[http-missing-security-headers:access-control-expose-headers] [http] [info] https://202.61.126.191/portal/home/
+[http-missing-security-headers:access-control-allow-methods] [http] [info] https://202.61.126.191/portal/home/
+[http-missing-security-headers:content-security-policy] [http] [info] https://202.61.126.191/portal/home/
+[http-missing-security-headers:access-control-allow-origin] [http] [info] https://202.61.126.191/portal/home/
+[http-missing-security-headers:access-control-max-age] [http] [info] https://202.61.126.191/portal/home/
+[http-missing-security-headers:referrer-policy] [http] [info] https://202.61.126.191/portal/home/
+[http-missing-security-headers:clear-site-data] [http] [info] https://202.61.126.191/portal/home/
+[http-missing-security-headers:access-control-allow-headers] [http] [info] https://202.61.126.191/portal/home/
+[http-missing-security-headers:permissions-policy] [http] [info] https://202.61.126.191/portal/home/
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://202.61.126.191/portal/home/
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://202.61.126.191/portal/home/
+[swagger-api] [http] [info] https://202.137.230.186/swagger/ui/index
+[ptr-fingerprint] [dns] [info] 103.93.189.72 [mail6.kemenkeu.go.id.]
+[ptr-fingerprint] [dns] [info] 103.107.100.98 [scphost3.telkomhosting.com.]
+[ptr-fingerprint] [dns] [info] 103.93.188.5 [vpn-drc.kemenkeu.go.id.]
+[ptr-fingerprint] [dns] [info] 116.66.206.135 [135.206.66.116.cni.net.id.]
+[ptr-fingerprint] [dns] [info] 202.61.126.30 [www.rispro.lpdp.kemenkeu.go.id.]
+[ptr-fingerprint] [dns] [info] 202.61.126.100 [nadine-public.kemenkeu.go.id.]
+[ptr-fingerprint] [dns] [info] 202.61.126.191 [sipkn.kemenkeu.go.id.]
+[fortinet-fortigate-panel] [http] [info] https://103.93.188.5/remote/login?lang=en
+[options-method] [http] [info] https://40.79.197.66 [GET]
+[options-method] [http] [info] https://103.107.100.98 [HEAD,GET,POST,OPTIONS]
+[options-method] [http] [info] https://103.93.189.119 [GET, HEAD, POST, TRACE, OPTIONS]
+[options-method] [http] [info] https://103.12.80.51 [DELETE, GET, HEAD, OPTIONS, POST, PUT]
+[options-method] [http] [info] https://202.61.126.191 [GET, HEAD, POST, OPTIONS]
+[options-method] [http] [info] https://103.12.80.39 [GET,HEAD]
+[options-method] [http] [info] https://103.12.80.73 [GET, HEAD, POST, TRACE, OPTIONS]
+[request-based-interaction:dns] [http] [info] https://40.79.197.66
+[smtp-service-detect] [network] [info] 103.107.100.98:25
+[robots-txt-endpoint] [http] [info] https://202.61.126.100/robots.txt
+[robots-txt-endpoint] [http] [info] https://103.12.80.39/robots.txt
+[aspx-debug-mode] [http] [info] https://40.79.197.66/Foobar-debug.aspx
+[favicon-detect:asp.net-favicon] [http] [info] https://202.61.126.27/favicon.ico
+[favicon-detect:asp.net-favicon] [http] [info] https://202.61.126.43/favicon.ico
+[favicon-detect:asp.net-favicon] [http] [info] https://202.137.230.186/favicon.ico
+[CVE-2021-43798] [http] [high] https://103.12.80.39/public/plugins/alertlist/../../../../../../../../../../../../../../../../../../../etc/passwd
+[pop3-detect] [network] [info] 103.107.100.98:110
+[tls-version] [ssl] [info] 103.93.188.92 [tls10]
+[tls-version] [ssl] [info] 180.250.127.50 [tls10]
+[tls-version] [ssl] [info] 103.93.188.92 [tls11]
+[tls-version] [ssl] [info] 180.250.127.50 [tls11]
+[tls-version] [ssl] [info] 20.190.140.104 [tls12]
+[tls-version] [ssl] [info] 116.66.206.135 [tls12]
+[tls-version] [ssl] [info] 103.12.80.72 [tls12]
+[tls-version] [ssl] [info] 103.107.100.98 [tls12]
+[tls-version] [ssl] [info] 202.137.230.186 [tls12]
+[tls-version] [ssl] [info] 202.61.126.100 [tls12]
+[tls-version] [ssl] [info] 103.12.80.73 [tls12]
+[tls-version] [ssl] [info] 103.12.80.51 [tls12]
+[tls-version] [ssl] [info] 103.12.80.71 [tls12]
+[tls-version] [ssl] [info] 103.12.80.39 [tls12]
+[tls-version] [ssl] [info] 103.93.188.5 [tls12]
+[tls-version] [ssl] [info] 103.93.188.92 [tls12]
+[tls-version] [ssl] [info] 180.250.127.50 [tls12]
+[tls-version] [ssl] [info] 180.250.127.50 [tls13]
+[tls-version] [ssl] [info] 103.93.188.5 [tls11]
+[tls-version] [ssl] [info] 20.190.140.104 [tls12]
+[tls-version] [ssl] [info] 116.66.206.135 [tls12]
+[tls-version] [ssl] [info] 202.137.230.186 [tls12]
+[tls-version] [ssl] [info] 202.61.126.100 [tls12]
+[tls-version] [ssl] [info] 103.93.188.5 [tls12]
+[tls-version] [ssl] [info] 103.12.80.73 [tls12]
+[tls-version] [ssl] [info] 20.190.140.104 [tls12]
+[tls-version] [ssl] [info] 103.107.100.98 [tls12]
+[tls-version] [ssl] [info] 103.12.80.72 [tls12]
+[tls-version] [ssl] [info] 103.93.188.92 [tls12]
+[tls-version] [ssl] [info] 103.12.80.51 [tls12]
+[tls-version] [ssl] [info] 116.66.206.135 [tls12]
+[tls-version] [ssl] [info] 103.12.80.39 [tls12]
+[tls-version] [ssl] [info] 202.137.230.186 [tls12]
+[tls-version] [ssl] [info] 202.61.126.100 [tls12]
+[tls-version] [ssl] [info] 103.12.80.71 [tls12]
+[tls-version] [ssl] [info] 103.12.80.73 [tls12]
+[tls-version] [ssl] [info] 103.93.188.5 [tls13]
+[tls-version] [ssl] [info] 103.107.100.98 [tls12]
+[tls-version] [ssl] [info] 116.66.206.135 [tls13]
+[tls-version] [ssl] [info] 103.12.80.72 [tls12]
+[tls-version] [ssl] [info] 103.12.80.51 [tls12]
+[tls-version] [ssl] [info] 103.12.80.39 [tls12]
+[tls-version] [ssl] [info] 103.107.100.98 [tls13]
+[tls-version] [ssl] [info] 20.190.140.104 [tls12]
+[tls-version] [ssl] [info] 40.79.197.66 [tls12]
+[tls-version] [ssl] [info] 202.137.230.186 [tls12]
+[tls-version] [ssl] [info] 103.12.80.73 [tls12]
+[tls-version] [ssl] [info] 103.12.80.51 [tls12]
+[tls-version] [ssl] [info] 103.12.80.71 [tls12]
+[tls-version] [ssl] [info] 103.12.80.39 [tls12]
+[tls-version] [ssl] [info] 40.79.197.66 [tls12]
+[tls-version] [ssl] [info] 40.79.197.66 [tls12]
+[tls-version] [ssl] [info] 103.12.80.72 [tls12]
+[tls-version] [ssl] [info] 40.79.197.66 [tls12]
+[tls-version] [ssl] [info] 103.12.80.71 [tls12]
+[fortios-panel] [http] [info] https://103.93.188.5/api/v2/cmdb/system/admin/admin
