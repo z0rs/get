@@ -20,7 +20,7 @@ jobs:
           sudo mv nuclei /usr/bin/ 
           sudo chmod +x /usr/bin/nuclei
           sudo rm -rf nuclei_2.9.4_linux_amd64.zip
-          sudo rm -rf nuclei
+          sudo rm -rf nuclei/
         
       - name: Run nuclei
         run: |
