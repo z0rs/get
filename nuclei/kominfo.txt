@@ -1,0 +1,14 @@
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/kominfo.go.id/v2.0/.well-known/openid-configuration [1e243891-204f-40f4-be9a-c590237b116c]
+[ssl-dns-names] [ssl] [info] kominfo.go.id:443 [imperva.com,kominfo.go.id,infopublik.id,*.infopublik.id,*.kominfo.go.id,*.dev.kominfo.go.id,*.asean2023.id,*.bp2mi.go.id,*.g20-indonesia.id,asean2023.id]
+[ssl-issuer] [ssl] [info] kominfo.go.id:443 [GlobalSign nv-sa]
+[request-based-interaction:dns] [http] [info] https://kominfo.go.id
+[request-based-interaction:dns] [http] [info] https://kominfo.go.id
+[tls-version] [ssl] [info] kominfo.go.id:443 [tls12]
+[tls-version] [ssl] [info] kominfo.go.id:443 [tls13]
+[nameserver-fingerprint] [dns] [info] kominfo.go.id [ns3.kominfo.go.id.,ns4.kominfo.go.id.,ns5.kominfo.go.id.,ns6.kominfo.go.id.,ns1.kominfo.go.id.,ns2.kominfo.go.id.]
+[dmarc-detect] [dns] [info] kominfo.go.id ["v=DMARC1; p=quarantine; rua=mailto:rua@kominfo.go.id; ruf=mailto:ruf@kominfo.go.id; fo=1; adkim=r; aspf=s; sp=quarantine"]
+[mx-fingerprint] [dns] [info] kominfo.go.id [10 pwmail.kominfo.go.id.]
+[tls-sni-proxy] [http] [info] https://kominfo.go.id
+[tls-sni-proxy] [http] [info] https://kominfo.go.id
+[txt-fingerprint] [dns] [info] kominfo.go.id ["v=spf1 a:mail.kominfo.go.id mx ip4:202.89.117.0/27 ip6:2001:df2:a600::/64 ip4:180.250.112.0/26 ~all","globalsign-domain-verification=49E8B6B24B04FA2C276D6F356BE6ACD3"]
+[dnssec-detection] [dns] [info] kominfo.go.id
