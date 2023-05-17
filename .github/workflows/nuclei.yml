@@ -19,12 +19,13 @@ jobs:
           unzip -o nuclei_2.9.4_linux_amd64.zip 
           sudo mv nuclei /usr/bin/ 
           sudo chmod +x /usr/bin/nuclei
-          sudo rm -rf nuclei_2.9.4_linux_amd64.zip nuclei/*
+          sudo rm -rf nuclei_2.9.4_linux_amd64.zip
+          sudo rm -rf nuclei
         
       - name: Run nuclei
         run: |
           mkdir -p nuclei
-          curl "https://raw.githubusercontent.com/projectdiscovery/public-bugbounty-programs/master/chaos-bugbounty-list.json" | jq -r '.programs[] | select(.bounty==true) | .domains[]' | grep ".com$" | nuclei -silent -uc -ue shodan,shodan-idb,fofa,censys,quake,hunter,zoomeye,netlas -uf ip,port,host -attack-type pitchfork -severity medium, high, critical, unknown -output nuclei/result.txt
+          echo "${{ secrets.DOMAIN_NAME }}" | nuclei -silent -uc -ue shodan, shodan-idb, fofa, censys, quake, hunter, zoomeye, netlas -uf ip,port,host -attack-type pitchfork -severity medium, high, critical, unknown -output nuclei/result.txt
 
       - name: Set up Git user
         run: |
