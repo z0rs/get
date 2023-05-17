@@ -10,12 +10,16 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+        
+      - name: Run nuclei
+        run: |
+          mkdir -p nuclei
 
       - name: Commit scanning results
         run: |
           git config --global user.email "${{ secrets.EMAIL_ADDRESS }}"
           git config --global user.name "z0rs"
-          git add nuclei/riau.json
+          git add .
           git commit -m "Add scanning results" --no-verify
 
       - name: Push scanning results
