@@ -15,15 +15,18 @@ jobs:
         run: |
           mkdir -p nuclei
 
-      - name: Commit scanning results
+      - name: Set up Git user
         run: |
           git config --global user.email "${{ secrets.EMAIL_ADDRESS }}"
           git config --global user.name "z0rs"
+          
+      - name: Commit changes
+        run: |
           git add .
-          git commit -m "Add scanning results" --no-verify
+          git commit -m "Auto commit $(date -u)" --no-verify
 
-      - name: Push scanning results
-        uses: ad-m/github-push-action@v0.6.0
+      - name: Push changes
+        uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           branch: master
