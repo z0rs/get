@@ -13,18 +13,18 @@ jobs:
         
       - name: Install dependencies
         run: |
-          sudo apt-get update && sudo apt-get install -y wget unzip
-          sudo rm -rf nuclei && sudo rm -rf /usr/bin/nuclei && sudo rm -rf nuclei/*
+          sudo apt-get update && sudo apt-get install -y wget unzip jq
+          sudo rm -rf nuclei && sudo rm -rf /usr/bin/nuclei
           wget https://github.com/projectdiscovery/nuclei/releases/download/v2.9.4/nuclei_2.9.4_linux_amd64.zip
           unzip -o nuclei_2.9.4_linux_amd64.zip 
           sudo mv nuclei /usr/bin/ 
           sudo chmod +x /usr/bin/nuclei
-          sudo rm -rf nuclei_2.9.4_linux_amd64.zip
+          sudo rm -rf nuclei_2.9.4_linux_amd64.zip nuclei/*
         
       - name: Run nuclei
         run: |
           mkdir -p nuclei
-          echo "${{ secrets.DOMAIN_NAME }}" | nuclei -silent -uc -ue shodan,shodan-idb,fofa,censys,quake,hunter,zoomeye,netlas -uf ip,port,host -attack-type pitchfork -o nuclei/kominfo.txt
+          curl "https://raw.githubusercontent.com/projectdiscovery/public-bugbounty-programs/master/chaos-bugbounty-list.json" | jq -r '.programs[] | select(.bounty==true) | .domains[]' | grep ".com$" | nuclei -silent -uc -ue shodan,shodan-idb,fofa,censys,quake,hunter,zoomeye,netlas -uf ip,port,host -attack-type pitchfork -severity medium, high, critical, unknown -output nuclei/result.txt
 
       - name: Set up Git user
         run: |
@@ -33,7 +33,7 @@ jobs:
           
       - name: Commit changes
         run: |
-          git add nuclei/kominfo.txt
+          git add nuclei/result.txt
           git commit -m "Result scan $(date -u)" --no-verify
 
       - name: Push changes
