@@ -22,6 +22,7 @@ jobs:
           
       - name: Commit changes
         run: |
+          touch nuclei/result.json
           git add .
           git commit -m "Auto commit $(date -u)" --no-verify
 
