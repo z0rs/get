@@ -24,7 +24,7 @@ jobs:
       - name: Run nuclei
         run: |
           mkdir -p nuclei
-          echo "${{ secrets.DOMAIN_NAME }}" | nuclei -silent -severity -o nuclei/kominfo.txt
+          echo "${{ secrets.DOMAIN_NAME }}" | nuclei -silent -o nuclei/kominfo.txt
 
       - name: Set up Git user
         run: |
