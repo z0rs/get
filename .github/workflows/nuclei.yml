@@ -14,7 +14,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update && sudo apt-get install -y wget unzip
-          sudo rm -rf nuclei && sudo rm -rf /usr/bin/nuclei
+          sudo rm -rf nuclei && sudo rm -rf /usr/bin/nuclei && sudo rm -rf nuclei/kominfo.json
           wget https://github.com/projectdiscovery/nuclei/releases/download/v2.9.4/nuclei_2.9.4_linux_amd64.zip
           unzip -o nuclei_2.9.4_linux_amd64.zip 
           sudo mv nuclei /usr/bin/ 
@@ -24,7 +24,7 @@ jobs:
       - name: Run nuclei
         run: |
           mkdir -p nuclei
-          echo "${{ secrets.DOMAIN_NAME }}" | nuclei -silent -severity medium, high, critical, unknown -json nuclei/kominfo.json
+          echo "${{ secrets.DOMAIN_NAME }}" | nuclei -silent -severity -o nuclei/kominfo.txt
 
       - name: Set up Git user
         run: |
@@ -33,7 +33,7 @@ jobs:
           
       - name: Commit changes
         run: |
-          git add nuclei/kominfo.json
+          git add nuclei/kominfo.txt
           git commit -m "Result scan $(date -u)" --no-verify
 
       - name: Push changes
