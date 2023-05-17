@@ -22,7 +22,7 @@ jobs:
 
       - name: Run nuclei
         run: |
-          mkdir -p _data
+          mkdir -p nuclei
           echo "${{ secrets.DOMAIN_NAME }}" | nuclei -silent -severity medium, high, critical, unknown -json _data/riau.json
 
       - name: Commit scanning results
