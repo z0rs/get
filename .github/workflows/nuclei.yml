@@ -14,18 +14,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update && sudo apt-get install -y wget unzip jq
-          sudo rm -rf nuclei && sudo rm -rf /usr/bin/nuclei
-          wget https://github.com/projectdiscovery/nuclei/releases/download/v2.9.4/nuclei_2.9.4_linux_amd64.zip
-          unzip -o nuclei_2.9.4_linux_amd64.zip 
-          sudo mv nuclei /usr/bin/ 
-          sudo chmod +x /usr/bin/nuclei
-          sudo rm -rf nuclei_2.9.4_linux_amd64.zip
           sudo rm -rf nuclei/
-        
-      - name: Run nuclei
-        run: |
-          mkdir -p nuclei
-          echo "${{ secrets.DOMAIN_NAME }}" | nuclei -silent -uc -ue shodan, shodan-idb, fofa, censys, quake, hunter, zoomeye, netlas -uf ip,port,host -attack-type pitchfork -severity medium, high, critical, unknown -output nuclei/result.txt
 
       - name: Set up Git user
         run: |
@@ -34,6 +23,7 @@ jobs:
           
       - name: Commit changes
         run: |
+          touch nuclei/result.txt
           git add nuclei/result.txt
           git commit -m "Result scan $(date -u)" --no-verify
 
