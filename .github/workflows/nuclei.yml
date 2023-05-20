@@ -22,12 +22,14 @@ jobs:
         run: |
           echo "${{ secrets.DOMAIN_NAME }}" | nuclei -silent -attack-type pitchfork | tee Nuclei/result.txt
           
-      - name: Push
+      - name: Set up Git user
         run: |
           git config --global user.email "${{ secrets.EMAIL_ADDRESS }}"
           git config --global user.name "${{ secrets.USER_NAME }}"
-          git init
-          git add Nuclei/result.txt
+          
+      - name: Commit changes
+        run: |
+          git add nuclei/result.txt
           git commit -m "Result scan $(date -u)" --no-verify
 
       - name: Push changes
