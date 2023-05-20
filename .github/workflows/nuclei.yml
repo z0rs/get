@@ -20,15 +20,13 @@ jobs:
           
       - name: Run nuclei
         run: |
-          echo "${{ secrets.DOMAIN_NAME }}" | nuclei -silent -uc -ue shodan, shodan-idb, fofa, censys, quake, hunter, zoomeye, netlas -uf ip,port,host -attack-type pitchfork -severity medium, high, critical, unknown -output Nuclei/result.txt
+          echo "${{ secrets.DOMAIN_NAME }}" | nuclei -silent -attack-type pitchfork | tee Nuclei/result.txt
           
-      - name: Set up Git user
+      - name: Push
         run: |
           git config --global user.email "${{ secrets.EMAIL_ADDRESS }}"
           git config --global user.name "${{ secrets.USER_NAME }}"
-          
-      - name: Commit changes
-        run: |
+          git init
           git add Nuclei/result.txt
           git commit -m "Result scan $(date -u)" --no-verify
 
