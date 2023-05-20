@@ -20,7 +20,7 @@ jobs:
           
       - name: Run nuclei
         run: |
-          echo "${{ secrets.DOMAIN_NAME }}" | nuclei -silent -attack-type pitchfork | tee Nuclei/result.txt
+          curl "https://raw.githubusercontent.com/projectdiscovery/public-bugbounty-programs/master/chaos-bugbounty-list.json" | jq -r '.programs[] | select(.bounty==true) | .domains[]' | grep ".com$" | nuclei -silent -nc -attack-type pitchfork -severity medium, high, critical, unknown | tee Nuclei/result.txt
           
       - name: Set up Git user
         run: |
