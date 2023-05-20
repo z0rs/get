@@ -1,13 +1,18 @@
-[[92mssl-issuer[0m] [[94mssl[0m] [[34minfo[0m] kominfo.go.id:443 [[96mGlobalSign nv-sa[0m]
-[[92mssl-dns-names[0m] [[94mssl[0m] [[34minfo[0m] kominfo.go.id:443 [[96m*.bp2mi.go.id[0m,[96m*.infopublik.id[0m,[96m*.kominfo.go.id[0m,[96m*.asean2023.id[0m,[96masean2023.id[0m,[96mimperva.com[0m,[96mkominfo.go.id[0m,[96minfopublik.id[0m,[96m*.dev.kominfo.go.id[0m,[96m*.g20-indonesia.id[0m]
-[[92mtxt-fingerprint[0m] [[94mdns[0m] [[34minfo[0m] kominfo.go.id [[96m"v=spf1 a:mail.kominfo.go.id mx ip4:202.89.117.0/27 ip6:2001:df2:a600::/64 ip4:180.250.112.0/26 ~all"[0m,[96m"globalsign-domain-verification=49E8B6B24B04FA2C276D6F356BE6ACD3"[0m]
-[[92mmx-fingerprint[0m] [[94mdns[0m] [[34minfo[0m] kominfo.go.id [[96m10 pwmail.kominfo.go.id.[0m]
-[[92mazure-domain-tenant[0m] [[94mhttp[0m] [[34minfo[0m] https://login.microsoftonline.com:443/kominfo.go.id/v2.0/.well-known/openid-configuration [[96m1e243891-204f-40f4-be9a-c590237b116c[0m]
-[[92mtls-sni-proxy[0m] [[94mhttp[0m] [[34minfo[0m] https://kominfo.go.id
-[[92mdmarc-detect[0m] [[94mdns[0m] [[34minfo[0m] kominfo.go.id [[96m"v=DMARC1; p=quarantine; rua=mailto:rua@kominfo.go.id; ruf=mailto:ruf@kominfo.go.id; fo=1; adkim=r; aspf=s; sp=quarantine"[0m]
-[[92mdnssec-detection[0m] [[94mdns[0m] [[34minfo[0m] kominfo.go.id
-[[92mnameserver-fingerprint[0m] [[94mdns[0m] [[34minfo[0m] kominfo.go.id [[96mns3.kominfo.go.id.[0m,[96mns4.kominfo.go.id.[0m,[96mns5.kominfo.go.id.[0m,[96mns6.kominfo.go.id.[0m,[96mns1.kominfo.go.id.[0m,[96mns2.kominfo.go.id.[0m]
-[[92mrequest-based-interaction[0m:[1;92mdns[0m] [[94mhttp[0m] [[34minfo[0m] https://kominfo.go.id
-[[92mrequest-based-interaction[0m:[1;92mdns[0m] [[94mhttp[0m] [[34minfo[0m] https://kominfo.go.id
-[[92mtls-version[0m] [[94mssl[0m] [[34minfo[0m] kominfo.go.id:443 [[96mtls12[0m]
-[[92mtls-version[0m] [[94mssl[0m] [[34minfo[0m] kominfo.go.id:443 [[96mtls13[0m]
+[[92mswitch-protocol[0m] [[94mhttp[0m] [[34minfo[0m] https://riau.go.id [[96mh2[0m]
+[[92mssl-dns-names[0m] [[94mssl[0m] [[34minfo[0m] riau.go.id:443 [[96mtes3.riau.go.id[0m,[96mwebmail.riau.go.id[0m,[96mmail.old.riau.go.id[0m,[96mprov.riau.go.id[0m,[96mprovinsi.riau.go.id[0m,[96mriau.go.id[0m]
+[[92mssl-issuer[0m] [[94mssl[0m] [[34minfo[0m] riau.go.id:443 [[96mLet's Encrypt[0m]
+[[92mtech-detect[0m:[1;92mphp[0m] [[94mhttp[0m] [[34minfo[0m] https://riau.go.id
+[[92mopenssh-detect[0m] [[94mtcp[0m] [[34minfo[0m] riau.go.id:22 [[96mSSH-2.0-OpenSSH_9.0[0m]
+[[92mmx-fingerprint[0m] [[94mdns[0m] [[34minfo[0m] riau.go.id [[96m10 mail.riau.go.id.[0m]
+[[92mpop3-detect[0m] [[94mtcp[0m] [[34minfo[0m] riau.go.id:110
+[[92mHTTP-TRACE[0m:[1;92mtrace-request[0m] [[94mhttp[0m] [[34minfo[0m] https://riau.go.id
+[[92mmysql-native-password[0m] [[94mtcp[0m] [[34minfo[0m] riau.go.id:3306
+[[92mmysql-detect[0m] [[94mtcp[0m] [[34minfo[0m] riau.go.id:3306
+[[92mnameserver-fingerprint[0m] [[94mdns[0m] [[34minfo[0m] riau.go.id [[96mcanopus.idgx.net.[0m]
+[[92mtxt-fingerprint[0m] [[94mdns[0m] [[34minfo[0m] riau.go.id [[96m"google-site-verification=RBlgtQ_ymvOKKZMLzY-yUYrpXb-zGiYTN5n1SstH7C8"[0m,[96m"v=spf1  ip4:103.108.9.7 mx ~all"[0m]
+[[92mazure-domain-tenant[0m] [[94mhttp[0m] [[34minfo[0m] https://login.microsoftonline.com:443/riau.go.id/v2.0/.well-known/openid-configuration [[96m0a859d10-d4bf-46e0-a6b1-017e74e9d491[0m]
+[[92mwaf-detect[0m:[1;92mapachegeneric[0m] [[94mhttp[0m] [[34minfo[0m] https://riau.go.id/
+[[92mpgsql-detect[0m] [[94mtcp[0m] [[34minfo[0m] riau.go.id:5432
+[[92msmtp-service-detect[0m] [[94mtcp[0m] [[34minfo[0m] riau.go.id:25
+[[92mdmarc-detect[0m] [[94mdns[0m] [[34minfo[0m] riau.go.id [[96m"v=DMARC1; p=quarantine; "[0m]
+[[92mimap-detect[0m] [[94mtcp[0m] [[34minfo[0m] riau.go.id:143
