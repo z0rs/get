@@ -14,9 +14,9 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update && sudo apt-get install -y wget unzip jq
-          wget https://github.com/projectdiscovery/nuclei/releases/download/v2.9.4/nuclei_2.9.4_linux_amd64.zip
-          unzip -o nuclei_2.9.4_linux_amd64.zip && sudo mv nuclei /usr/bin/
-          sudo chmod +x /usr/bin/nuclei && sudo rm -rf nuclei_2.9.4_linux_amd64.zip
+          wget https://github.com/projectdiscovery/nuclei/releases/download/v2.9.14/nuclei_2.9.14_linux_amd64.zip
+          unzip -o nuclei_2.9.14_linux_amd64.zip && sudo mv nuclei /usr/bin/
+          sudo chmod +x /usr/bin/nuclei && sudo rm -rf nuclei_2.9.14_linux_amd64.zip
           
       - name: Run nuclei
         run: |
