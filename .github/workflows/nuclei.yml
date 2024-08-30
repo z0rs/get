@@ -14,13 +14,14 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt-get update && sudo apt-get install -y wget unzip jq
-          wget https://github.com/projectdiscovery/nuclei/releases/download/v2.9.14/nuclei_2.9.14_linux_amd64.zip
-          unzip -o nuclei_2.9.14_linux_amd64.zip && sudo mv nuclei /usr/bin/
-          sudo chmod +x /usr/bin/nuclei && sudo rm -rf nuclei_2.9.14_linux_amd64.zip
+          wget https://github.com/projectdiscovery/nuclei/releases/download/v3.3.1/nuclei_3.3.1_linux_amd64.zip
+          unzip -o nuclei_3.3.1_linux_amd64.zip && sudo mv nuclei /usr/bin/
+          sudo chmod +x /usr/bin/nuclei && sudo rm -rf nuclei_3.3.1_linux_amd64.zip
           
       - name: Run nuclei
         run: |
-          curl "https://raw.githubusercontent.com/projectdiscovery/public-bugbounty-programs/master/chaos-bugbounty-list.json" | jq -r '.programs[] | select(.bounty==true) | .domains[]' | grep ".com$" | nuclei -silent -nc -attack-type pitchfork -severity medium, high, critical, unknown | tee Nuclei/result.txt
+          # curl "https://raw.githubusercontent.com/projectdiscovery/public-bugbounty-programs/master/chaos-bugbounty-list.json" | jq -r '.programs[] | select(.bounty==true) | .domains[]' | grep ".com$" | nuclei -silent -nc -attack-type pitchfork -severity medium, high, critical, unknown | tee Nuclei/result.txt
+          curl "https://gist.githubusercontent.com/z0rs/d0f9eddf5d179beed03397b906fdc95d/raw/306d4d6fb0dbdf30d3a87fb111e7b22e77d7c76f/host-domain" | nuclei -silent -nc -attack-type pitchfork -severity medium, high, critical, unknown | tee Nuclei/result.txt
           
       - name: Set up Git user
         run: |
