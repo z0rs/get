@@ -21,7 +21,7 @@ jobs:
       - name: Run nuclei
         run: |
           # curl "https://raw.githubusercontent.com/projectdiscovery/public-bugbounty-programs/master/chaos-bugbounty-list.json" | jq -r '.programs[] | select(.bounty==true) | .domains[]' | grep ".com$" | nuclei -silent -nc -attack-type pitchfork -severity medium, high, critical, unknown | tee Nuclei/result.txt
-          curl "https://gist.githubusercontent.com/z0rs/d0f9eddf5d179beed03397b906fdc95d/raw/306d4d6fb0dbdf30d3a87fb111e7b22e77d7c76f/host-domain" | nuclei -silent -nc -attack-type pitchfork -severity medium, high, critical, unknown | tee Nuclei/result.txt
+          curl -s "https://raw.githubusercontent.com/z0rs/Recon/refs/heads/master/Domain.2024-10-28.txt" | sort -u | nuclei -silent -nc -attack-type pitchfork -severity medium, high, critical, unknown | tee Nuclei/result.$(date +%Y-%m-%d).txt
           
       - name: Set up Git user
         run: |
@@ -30,7 +30,7 @@ jobs:
           
       - name: Commit changes
         run: |
-          git add Nuclei/result.txt
+          git add Nuclei/result.$(date +%Y-%m-%d).txt
           git commit -m "Result scan $(date -u)" --no-verify
 
       - name: Push changes
