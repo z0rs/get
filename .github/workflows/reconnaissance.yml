@@ -20,7 +20,7 @@ jobs:
           
       - name: Running 
         run: |
-          curl -s "https://raw.githubusercontent.com/z0rs/Recon/refs/heads/master/SubDomain.2024-10-28.txt" | nuclei -silent -nc -attack-type pitchfork -severity medium, high, critical, unknown | tee Nuclei/result.$(date +%Y-%m-%d).txt
+          curl -s "https://raw.githubusercontent.com/z0rs/Recon/refs/heads/master/SubDomain.2024-10-29.txt" | nuclei -silent -nc -attack-type pitchfork -severity medium, high, critical, unknown | tee Nuclei/result.$(date +%Y-%m-%d).txt
           
       - name: Set up Git user
         run: |
