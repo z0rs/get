@@ -1,0 +1,800 @@
+[dns-waf-detect:cloudflare] [dns] [info] kaltaraprov.go.id
+[dns-waf-detect:cloudflare] [dns] [info] jatimprov.go.id
+[dns-waf-detect:cloudflare] [dns] [info] kepriprov.go.id
+[dns-waf-detect:cloudflare] [dns] [info] papuapegunungan.go.id
+[dns-waf-detect:cloudflare] [dns] [info] sulutprov.go.id
+[dns-waf-detect:cloudflare] [dns] [info] sulselprov.go.id
+[dns-waf-detect:cloudflare] [dns] [info] sumbarprov.go.id
+[phpmyadmin-panel] [http] [info] https://jatengprov.go.id/phpmyadmin/ ["4.6.6deb4"] [paths="/phpmyadmin/"]
+[swagger-api] [http] [info] https://jogjaprov.go.id/api/swagger/index.html [paths="/api/swagger/index.html"]
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/kalbarprov.go.id/v2.0/.well-known/openid-configuration ["7de0909b-5b85-44c4-b1fe-e2322af6fac1"]
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/jatimprov.go.id/v2.0/.well-known/openid-configuration ["8043d803-9753-4290-96b4-27f872cc9a74"]
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/lampungprov.go.id/v2.0/.well-known/openid-configuration ["630ff7c9-7ec5-4c8d-945a-0d24a7fef518"]
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/bantenprov.go.id/v2.0/.well-known/openid-configuration ["999dc6d3-aa51-4097-bcf8-4e68045fd5c2"]
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/kaltimprov.go.id/v2.0/.well-known/openid-configuration ["5a9e3dab-d5bb-47ee-87a3-e3327aa844b8"]
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/acehprov.go.id/v2.0/.well-known/openid-configuration ["5d942f36-e8d0-4b76-9f3a-a6307aaba087"]
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/jabarprov.go.id/v2.0/.well-known/openid-configuration ["d3e9c8ef-b307-44ce-b7a4-cc5c4d99f9d0"]
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/jogjaprov.go.id/v2.0/.well-known/openid-configuration ["944bde2e-3f77-4d47-a203-aafd407e261c"]
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/riau.go.id/v2.0/.well-known/openid-configuration ["0a859d10-d4bf-46e0-a6b1-017e74e9d491"]
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/jatengprov.go.id/v2.0/.well-known/openid-configuration ["9dfbdb11-18c6-4e60-afdf-995272f41aac"]
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/sulselprov.go.id/v2.0/.well-known/openid-configuration ["0c50e514-b428-4eb1-b1a7-2e79b9619741"]
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/jakarta.go.id/v2.0/.well-known/openid-configuration ["9b4b9ecd-cadf-45b6-9ba0-f964de81edc0"]
+[phpinfo-files] [http] [low] https://malutprov.go.id/phpinfo.php ["7.4.33"] [paths="/phpinfo.php"]
+[azure-domain-tenant] [http] [info] https://login.microsoftonline.com:443/sumselprov.go.id/v2.0/.well-known/openid-configuration ["9aebc894-81c3-49ca-85d9-4ad425b6ddc8"]
+[roundcube-log-disclosure] [http] [medium] https://sulbarprov.go.id/webmail/logs/errors.log ["193487"] [roundcube_path="webmail/logs/errors.log"]
+[http-trace:trace-request] [http] [info] https://riau.go.id
+[http-trace:options-request] [http] [info] https://gorontaloprov.go.id
+[missing-sri] [http] [info] https://lampungprov.go.id ["https://lampungprov.go.id/portal/js/landingpage/jquery-1.11.2.min.js","https://lampungprov.go.id/portal/js/landingpage/bootstrap.min.js","https://lampungprov.go.id/portal/js/landingpage/script.js","https://www.googletagmanager.com/gtag/js?id=UA-199120865-2"]
+[missing-sri] [http] [info] https://jogjaprov.go.id ["https://www.google.com/recaptcha/api.js","https://code.responsivevoice.org/responsivevoice.js?key=Slnht28N","https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js","https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/CSSRulePlugin3.min.js","https://vjs.zencdn.net/8.10.0/video.min.js","https://app3.weatherwidget.org/js/?id=ww_bc0d5d38d46c6"]
+[missing-sri] [http] [info] https://malutprov.go.id ["https://malutprov.go.id/assets/portal/js/jquery.mobilemenu.js","https://malutprov.go.id/assets/portal/js/tweetable.jquery.min.js","https://malutprov.go.id/assets/portal/js/main.js","https://malutprov.go.id/assets/portal/js/jquery.nicescroll.min.js","https://malutprov.go.id/assets/portal/js/jquery-1.10.1.min.js","https://malutprov.go.id/assets/portal/js/bootstrap.min.js","https://malutprov.go.id/assets/portal/js/jquery.easing-1.3.pack.js","https://malutprov.go.id/assets/portal/js/jquery.flexslider-min.js"]
+[missing-sri] [http] [info] https://gorontaloprov.go.id ["https://www.googletagmanager.com/gtag/js?id=G-FLGPCLS6TE","https://widget.kominfo.go.id/gpr-widget-kominfo.min.js","https://cdn.gtranslate.net/widgets/latest/float.js"]
+[missing-sri] [http] [info] https://sumbarprov.go.id ["https://sumbarprov.go.id/assets/homepage/js/popper.min.js","https://sumbarprov.go.id/assets/homepage/js/bootstrap.min.js","https://sumbarprov.go.id/assets/homepage/js/mdb.min.js","https://sumbarprov.go.id/assets/homepage/kalender/js/calendar.js","https://sumbarprov.go.id/assets/homepage/bundle.js","https://hitstats.sumbarprov.go.id/track.js","https://sumbarprov.go.id/assets/homepage/js/jquery.min.js","https://sumbarprov.go.id/assets/homepage/js/custom.js","https://sumbarprov.go.id/assets/homepage/owl/owl.carousel.js","https://widget.kominfo.go.id/gpr-widget-kominfo.min.js","https://sumbarprov.go.id/assets/homepage/kalender/js/events.js"]
+[missing-sri] [http] [info] https://nttprov.go.id ["https://nttprov.go.id/client/include/rs-plugin/js/jquery.themepunch.tools.min.js","https://nttprov.go.id/client/include/rs-plugin/js/extensions/revolution.extension.video.min.js","https://nttprov.go.id/client/include/rs-plugin/js/extensions/revolution.extension.migration.min.js","https://nttprov.go.id/assets/owl/owl.carousel.min.js","https://vjs.zencdn.net/7.15.4/video.min.js","https://nttprov.go.id/client/js/plugins.min.js","https://nttprov.go.id/client/include/rs-plugin/js/extensions/revolution.extension.actions.min.js","https://nttprov.go.id/client/js/jquery.js","https://nttprov.go.id/client/js/functions.js","https://nttprov.go.id/client/include/rs-plugin/js/extensions/revolution.extension.navigation.min.js","https://nttprov.go.id/client/include/rs-plugin/js/extensions/revolution.extension.parallax.min.js","https://nttprov.go.id/client/include/rs-plugin/js/jquery.themepunch.revolution.min.js","https://nttprov.go.id/client/include/rs-plugin/js/extensions/revolution.extension.slideanims.min.js","https://nttprov.go.id/client/include/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js","https://nttprov.go.id/client/include/rs-plugin/js/extensions/revolution.extension.kenburn.min.js","https://nttprov.go.id/js/video.min.js","https://nttprov.go.id/assets/validator/bootstrapValidator.min.js"]
+[missing-sri] [http] [info] https://kalbarprov.go.id ["https://widget.kominfo.go.id/gpr-widget-kominfo.min.js","//www.instagram.com/embed.js","https://www.googletagmanager.com/gtag/js?id=G-47HNM6XZMY","https://code.responsivevoice.org/responsivevoice.js?key=przYp5x6","https://www.tiktok.com/embed.js","https://platform.twitter.com/widgets.js"]
+[missing-sri] [http] [info] https://papua.go.id ["https://papua.go.id/whitehall/js/bootstrap.min.js","https://papua.go.id/whitehall/js/validation.js","https://papua.go.id/whitehall/js/jquery.nice-select.min.js","https://papua.go.id/whitehall/js/wow.js","https://papua.go.id/whitehall/js/script.js","https://papua.go.id/whitehall/js/scrollbar.js","https://papua.go.id/whitehall/js/bxslider.js","https://papua.go.id/whitehall/js/gpr-widget-kominfo.min.js","https://code.responsivevoice.org/responsivevoice.js?key=hyPjEvhm","https://papua.go.id/whitehall/js/jquery.js","https://papua.go.id/whitehall/js/popper.min.js","https://papua.go.id/whitehall/js/owl.js","https://papua.go.id/whitehall/js/jquery.fancybox.js","https://papua.go.id/whitehall/js/appear.js","https://papua.go.id/whitehall/js/nav-tool.js","https://web.animemusic.us/widget_disabilitas.js"]
+[missing-sri] [http] [info] https://www.riau.go.id ["https://www.google.com/recaptcha/api.js"]
+[missing-sri] [http] [info] https://ntbprov.go.id ["https://code.responsivevoice.org/responsivevoice.js?key=KnY1UhHs","https://ntbprov.go.id/assets/node_modules/jquery/dist/jquery.min.js.pagespeed.jm.1ATwyMefOq.js","https://ntbprov.go.id/assets/node_modules/popper/dist/popper.min.js.pagespeed.jm.ZciACMmbEC.js","https://ntbprov.go.id/assets/node_modules/bootstrap/js/bootstrap.min.js.pagespeed.jm.Rd0OyYl9HU.js","https://ntbprov.go.id/assets/node_modules/aos/dist/aos.js.pagespeed.jm._kYa0eHnru.js","https://ntbprov.go.id/js/jquery.waypoints.min.js.pagespeed.jm.i976lpkNR9.js","https://ntbprov.go.id/assets/node_modules/owl.carousel/dist/owl.carousel.min.js.pagespeed.jm.CUaR_y7pym.js","https://widget.kominfo.go.id/gpr-widget-kominfo.min.js","https://ntbprov.go.id/js/jquery.touchSwipe.min.js.pagespeed.jm.hD-1oJXMw0.js","https://ntbprov.go.id/js,_type.js+assets,_node_modules,_owl.carousel,_dist,_owl.carousel.min.js.pagespeed.jc.S7rmHbqh2o.js"]
+[missing-sri] [http] [info] https://sulselprov.go.id ["https://sulselprov.go.id/js/dis.js","https://sulselprov.go.id/plugins/datatables/datatables.min.js","https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js","https://code.responsivevoice.org/responsivevoice.js?key=vdOvvmTB"]
+[missing-sri] [http] [info] https://jatengprov.go.id ["https://static.addtoany.com/menu/page.js","https://jatengprov.go.id/wp-content/plugins/pojo-accessibility/assets/js/app.min.js?ver=1.0.0","https://jatengprov.go.id/wp-content/themes/jatengprov/js/owl.carousel.min.js?ver=6.6.2","https://jatengprov.go.id/wp-includes/js/jquery/jquery.min.js?ver=3.7.1","https://jatengprov.go.id/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1","https://code.responsivevoice.org/responsivevoice.js?key=9h1YeeNn","https://www.googletagmanager.com/gtag/js?id=G-7K18H046NZ","https://jatengprov.go.id/wp-content/plugins/data-tables-generator-by-supsystic/app/assets/js/dtgsnonce.js?ver=0.01","https://jatengprov.go.id/wp-content/themes/jatengprov/js/bootstrap.min.js?ver=6.6.2","https://jatengprov.go.id/wp-content/themes/jatengprov/js/jquery.flexslider-min.js?ver=6.6.2","https://jatengprov.go.id/wp-content/plugins/add-to-any/addtoany.min.js?ver=1.1","https://unpkg.com/masonry-layout@4.2.0/dist/masonry.pkgd.min.js","https://jatengprov.go.id/wp-content/themes/jatengprov/js/jquery.min.js?ver=6.6.2"]
+[missing-sri] [http] [info] https://sumselprov.go.id ["https://sumselprov.go.id/assets/js/script-3.js","https://sumselprov.go.id/assets/js/modernizr.custom.86080.js","https://sumselprov.go.id/assets/vendors/jquery.min.js","https://sumselprov.go.id/assets/owlcarousel/owl.carousel.js","https://sumselprov.go.id/assets/js/highslide.js","https://sumselprov.go.id/assets/js/fancybox/jquery.fancybox.js?v=2.1.5","https://code.responsivevoice.org/responsivevoice.js?key=A9P7t0MC"]
+[missing-sri] [http] [info] https://papuabaratprov.go.id/web/ ["https://code.jquery.com/jquery-1.7.1.min.js"]
+[missing-sri] [http] [info] https://www.jakarta.go.id/ ["https://unpkg.com/jquery@3.5.1/dist/jquery.min.js","https://unpkg.com/bootstrap@4.5.0/dist/js/bootstrap.bundle.min.js","https://widget.kominfo.go.id/gpr-widget-kominfo.min.js","https://www.jakarta.go.id/assets/plugins/jquery-lazy/jquery.lazy.min.js","https://www.googletagmanager.com/gtag/js?id=G-91WL3TBX6V","https://www.jakarta.go.id/assets/js/pojo.js?version=1.0.0","https://www.jakarta.go.id/assets/js/widget_disabilitas.js?v=1.0.1","https://unpkg.com/slick-carousel@1.8.1/slick/slick.min.js","https://www.jakarta.go.id/assets/js/geojson.js?version=1.0.2","https://www.zabuto.com/dev/calendar/dist/zabuto_calendar.min.js","https://unpkg.com/@popperjs/core@2"]
+[ssrf-via-oauth-misconfig] [http] [medium] https://ntbprov.go.id/connect/register
+[tls-sni-proxy] [http] [info] jambiprov.go.id
+[waf-detect:cloudfront] [http] [info] https://jabarprov.go.id
+[waf-detect:cloudflare] [http] [info] https://jatimprov.go.id
+[waf-detect:cloudflare] [http] [info] https://sulutprov.go.id
+[waf-detect:cloudflare] [http] [info] https://lampungprov.go.id
+[waf-detect:apachegeneric] [http] [info] https://riau.go.id
+[waf-detect:nginxgeneric] [http] [info] https://jogjaprov.go.id
+[waf-detect:nginxgeneric] [http] [info] https://nttprov.go.id
+[waf-detect:nginxgeneric] [http] [info] https://kaltimprov.go.id
+[waf-detect:nginxgeneric] [http] [info] https://papua.go.id
+[waf-detect:nginxgeneric] [http] [info] https://acehprov.go.id
+[waf-detect:nginxgeneric] [http] [info] https://ntbprov.go.id
+[waf-detect:nginxgeneric] [http] [info] https://gorontaloprov.go.id
+[waf-detect:nginxgeneric] [http] [info] https://sulselprov.go.id
+[waf-detect:apachegeneric] [http] [info] https://papuabaratprov.go.id
+[waf-detect:apachegeneric] [http] [info] https://malutprov.go.id
+[waf-detect:asm] [http] [info] https://jatengprov.go.id
+[waf-detect:nginxgeneric] [http] [info] https://sumbarprov.go.id
+[waf-detect:nginxgeneric] [http] [info] https://sulbarprov.go.id
+[waf-detect:nginxgeneric] [http] [info] https://sumselprov.go.id
+[fastjson-1-2-62-rce] [http] [critical] https://ntbprov.go.id
+[wordpress-xmlrpc-listmethods] [http] [info] https://jatengprov.go.id/xmlrpc.php
+[imap-detect] [tcp] [info] jakarta.go.id:143
+[imap-detect] [tcp] [info] malutprov.go.id:143
+[imap-detect] [tcp] [info] riau.go.id:143
+[exim-detect:version] [tcp] [info] malutprov.go.id:587 ["4.98"]
+[exim-detect:version] [tcp] [info] papuabaratprov.go.id:587 ["4.98"]
+[mysql-detect] [tcp] [info] riau.go.id:3306
+[mysql-detect] [tcp] [info] sumutprov.go.id:3306
+[mysql-detect] [tcp] [info] papuabaratprov.go.id:3306
+[mysql-detect] [tcp] [info] sulselprov.go.id:3306
+[openssh-detect] [tcp] [info] sumselprov.go.id:22 ["SSH-2.0-OpenSSH_8.4p1 Ubuntu-5ubuntu1.2"]
+[openssh-detect] [tcp] [info] riau.go.id:22 ["SSH-2.0-OpenSSH_9.8"]
+[openssh-detect] [tcp] [info] sumutprov.go.id:22 ["SSH-2.0-OpenSSH_7.4"]
+[openssh-detect] [tcp] [info] malutprov.go.id:22 ["SSH-2.0-OpenSSH_8.0"]
+[openssh-detect] [tcp] [info] papuabaratprov.go.id:22 ["SSH-2.0-OpenSSH_8.0"]
+[openssh-detect] [tcp] [info] papua.go.id:22 ["SSH-2.0-OpenSSH_7.6p1 Ubuntu-4ubuntu0.5"]
+[pgsql-detect] [tcp] [info] riau.go.id:5432
+[pop3-detect] [tcp] [info] malutprov.go.id:110
+[pop3-detect] [tcp] [info] riau.go.id:110
+[pop3-detect] [tcp] [info] papuabaratprov.go.id:110
+[esmtp-detect] [tcp] [info] papua.go.id:25
+[rpcbind-portmapper-detect] [tcp] [info] malutprov.go.id:111
+[smtp-service-detect] [tcp] [info] papua.go.id:25
+[smtp-service-detect] [tcp] [info] riau.go.id:25
+[smtp-service-detect] [tcp] [info] riau.go.id:587
+[starttls-mail-detect] [tcp] [info] malutprov.go.id:587
+[starttls-mail-detect] [tcp] [info] papuabaratprov.go.id:587
+[smtp-service-detect] [tcp] [info] malutprov.go.id:587
+[smtp-service-detect] [tcp] [info] papuabaratprov.go.id:587
+[mysql-native-password] [tcp] [info] sumutprov.go.id:3306
+[mysql-native-password] [tcp] [info] riau.go.id:3306
+[mysql-native-password] [tcp] [info] sulselprov.go.id:3306
+[deprecated-tls:tls_1.1] [ssl] [info] lampungprov.go.id:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] sulutprov.go.id:443 ["tls11"]
+[deprecated-tls:tls_1.0] [ssl] [info] lampungprov.go.id:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] sulutprov.go.id:443 ["tls10"]
+[deprecated-tls:tls_1.1] [ssl] [info] jatimprov.go.id:443 ["tls11"]
+[deprecated-tls:tls_1.0] [ssl] [info] jatimprov.go.id:443 ["tls10"]
+[deprecated-tls:tls_1.1] [ssl] [info] jakarta.go.id:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] jambiprov.go.id:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] sumutprov.go.id:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] sulselprov.go.id:443 ["tls11"]
+[deprecated-tls:tls_1.1] [ssl] [info] ntbprov.go.id:443 ["tls11"]
+[deprecated-tls:tls_1.0] [ssl] [info] jakarta.go.id:443 ["tls10"]
+[tls-version] [ssl] [info] jatimprov.go.id:443 ["tls10"]
+[tls-version] [ssl] [info] lampungprov.go.id:443 ["tls10"]
+[deprecated-tls:tls_1.0] [ssl] [info] sumutprov.go.id:443 ["tls10"]
+[tls-version] [ssl] [info] sulutprov.go.id:443 ["tls10"]
+[tls-version] [ssl] [info] jatimprov.go.id:443 ["tls11"]
+[tls-version] [ssl] [info] lampungprov.go.id:443 ["tls11"]
+[tls-version] [ssl] [info] jatimprov.go.id:443 ["tls12"]
+[tls-version] [ssl] [info] sulutprov.go.id:443 ["tls11"]
+[tls-version] [ssl] [info] jatimprov.go.id:443 ["tls13"]
+[tls-version] [ssl] [info] lampungprov.go.id:443 ["tls12"]
+[tls-version] [ssl] [info] sulutprov.go.id:443 ["tls12"]
+[tls-version] [ssl] [info] lampungprov.go.id:443 ["tls13"]
+[tls-version] [ssl] [info] sulutprov.go.id:443 ["tls13"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] jatimprov.go.id:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] lampungprov.go.id:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] sulutprov.go.id:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[deprecated-tls:tls_1.0] [ssl] [info] ntbprov.go.id:443 ["tls10"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] jatimprov.go.id:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] lampungprov.go.id:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] sulutprov.go.id:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[deprecated-tls:tls_1.0] [ssl] [info] sulselprov.go.id:443 ["tls10"]
+[tls-version] [ssl] [info] jabarprov.go.id:443 ["tls12"]
+[tls-version] [ssl] [info] jabarprov.go.id:443 ["tls13"]
+[tls-version] [ssl] [info] jakarta.go.id:443 ["tls10"]
+[tls-version] [ssl] [info] ntbprov.go.id:443 ["tls10"]
+[tls-version] [ssl] [info] sumutprov.go.id:443 ["tls10"]
+[tls-version] [ssl] [info] sulselprov.go.id:443 ["tls10"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] jakarta.go.id:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] ntbprov.go.id:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] sumutprov.go.id:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] sulselprov.go.id:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA]"]
+[deprecated-tls:tls_1.1] [ssl] [info] bantenprov.go.id:443 ["tls11"]
+[tls-version] [ssl] [info] jakarta.go.id:443 ["tls11"]
+[tls-version] [ssl] [info] sumutprov.go.id:443 ["tls11"]
+[tls-version] [ssl] [info] ntbprov.go.id:443 ["tls11"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] jakarta.go.id:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] sulselprov.go.id:443 ["tls11"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] sumutprov.go.id:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] ntbprov.go.id:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] sulselprov.go.id:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA]"]
+[tls-version] [ssl] [info] jakarta.go.id:443 ["tls12"]
+[tls-version] [ssl] [info] sumutprov.go.id:443 ["tls12"]
+[tls-version] [ssl] [info] ntbprov.go.id:443 ["tls12"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] jambiprov.go.id:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[tls-version] [ssl] [info] jambiprov.go.id:443 ["tls11"]
+[tls-version] [ssl] [info] jambiprov.go.id:443 ["tls12"]
+[tls-version] [ssl] [info] nttprov.go.id:443 ["tls12"]
+[tls-version] [ssl] [info] jambiprov.go.id:443 ["tls13"]
+[tls-version] [ssl] [info] sumselprov.go.id:443 ["tls12"]
+[tls-version] [ssl] [info] nttprov.go.id:443 ["tls13"]
+[tls-version] [ssl] [info] jogjaprov.go.id:443 ["tls12"]
+[tls-version] [ssl] [info] riau.go.id:443 ["tls12"]
+[tls-version] [ssl] [info] sulselprov.go.id:443 ["tls13"]
+[tls-version] [ssl] [info] sulbarprov.go.id:443 ["tls12"]
+[tls-version] [ssl] [info] sumselprov.go.id:443 ["tls13"]
+[tls-version] [ssl] [info] sumbarprov.go.id:443 ["tls12"]
+[tls-version] [ssl] [info] papuabaratprov.go.id:443 ["tls12"]
+[tls-version] [ssl] [info] acehprov.go.id:443 ["tls12"]
+[tls-version] [ssl] [info] riau.go.id:443 ["tls13"]
+[tls-version] [ssl] [info] jogjaprov.go.id:443 ["tls13"]
+[tls-version] [ssl] [info] malutprov.go.id:443 ["tls12"]
+[tls-version] [ssl] [info] papua.go.id:443 ["tls12"]
+[tls-version] [ssl] [info] papuabaratprov.go.id:443 ["tls13"]
+[tls-version] [ssl] [info] sumbarprov.go.id:443 ["tls13"]
+[tls-version] [ssl] [info] malutprov.go.id:443 ["tls13"]
+[tls-version] [ssl] [info] papua.go.id:443 ["tls13"]
+[prometheus-metrics] [http] [medium] https://jabarprov.go.id/metrics
+[tls-version] [ssl] [info] jatengprov.go.id:443 ["tls12"]
+[tls-version] [ssl] [info] kalbarprov.go.id:443 ["tls12"]
+[tls-version] [ssl] [info] kalbarprov.go.id:443 ["tls13"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.pandi.id/rdap/domain/jogjaprov.go.id ["2025-01-31 23:59:59"]
+[rdap-whois:nameServers] [http] [info] https://rdap.pandi.id/rdap/domain/jogjaprov.go.id ["ns1.jogjaprov.go.id","ns3.jogjaprov.go.id"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.pandi.id/rdap/domain/jogjaprov.go.id ["false"]
+[rdap-whois:status] [http] [info] https://rdap.pandi.id/rdap/domain/jogjaprov.go.id ["active"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.pandi.id/rdap/domain/jogjaprov.go.id ["2007-02-20 13:23:32"]
+[rdap-whois:status] [http] [info] https://rdap.pandi.id/rdap/domain/jatengprov.go.id ["active"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.pandi.id/rdap/domain/jatengprov.go.id ["2009-07-01 13:29:30"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.pandi.id/rdap/domain/jatengprov.go.id ["2025-07-14 23:59:59"]
+[rdap-whois:nameServers] [http] [info] https://rdap.pandi.id/rdap/domain/jatengprov.go.id ["ns1.jatengprov.go.id","ns2.jatengprov.go.id","ns3.jatengprov.go.id","ns4.jatengprov.go.id"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.pandi.id/rdap/domain/jatengprov.go.id ["false"]
+[rdap-whois:status] [http] [info] https://rdap.pandi.id/rdap/domain/lampungprov.go.id ["active"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.pandi.id/rdap/domain/lampungprov.go.id ["2008-12-10 13:29:32"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.pandi.id/rdap/domain/lampungprov.go.id ["2024-12-16 23:59:59"]
+[rdap-whois:nameServers] [http] [info] https://rdap.pandi.id/rdap/domain/lampungprov.go.id ["tabikpun.ns1.lampungprov.go.id","tanohlado.ns2.lampungprov.go.id"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.pandi.id/rdap/domain/lampungprov.go.id ["false"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.pandi.id/rdap/domain/jatimprov.go.id ["2007-05-04 13:35:14"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.pandi.id/rdap/domain/jatimprov.go.id ["2025-01-31 23:59:59"]
+[rdap-whois:nameServers] [http] [info] https://rdap.pandi.id/rdap/domain/jatimprov.go.id ["jewel.ns.cloudflare.com","zac.ns.cloudflare.com"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.pandi.id/rdap/domain/jatimprov.go.id ["false"]
+[rdap-whois:status] [http] [info] https://rdap.pandi.id/rdap/domain/jatimprov.go.id ["active"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.pandi.id/rdap/domain/jabarprov.go.id ["false"]
+[rdap-whois:status] [http] [info] https://rdap.pandi.id/rdap/domain/jabarprov.go.id ["active"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.pandi.id/rdap/domain/jabarprov.go.id ["2006-02-09 13:23:32"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.pandi.id/rdap/domain/jabarprov.go.id ["2025-01-31 23:59:59"]
+[rdap-whois:nameServers] [http] [info] https://rdap.pandi.id/rdap/domain/jabarprov.go.id ["ns-1914.awsdns-47.co.uk","ns-239.awsdns-29.com","ns-867.awsdns-44.net","ns-1361.awsdns-42.org"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.pandi.id/rdap/domain/acehprov.go.id ["2024-12-10 23:59:59"]
+[rdap-whois:nameServers] [http] [info] https://rdap.pandi.id/rdap/domain/acehprov.go.id ["ns1.acehprov.go.id","ns5.acehprov.go.id"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.pandi.id/rdap/domain/acehprov.go.id ["false"]
+[rdap-whois:status] [http] [info] https://rdap.pandi.id/rdap/domain/acehprov.go.id ["active"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.pandi.id/rdap/domain/acehprov.go.id ["2008-12-05 13:23:29"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.pandi.id/rdap/domain/bantenprov.go.id ["2005-12-30 13:23:29"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.pandi.id/rdap/domain/bantenprov.go.id ["2025-01-31 23:59:59"]
+[rdap-whois:nameServers] [http] [info] https://rdap.pandi.id/rdap/domain/bantenprov.go.id ["ns1.bantenprov.go.id","ns2.bantenprov.go.id","owa1.bantenprov.go.id"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.pandi.id/rdap/domain/bantenprov.go.id ["false"]
+[rdap-whois:status] [http] [info] https://rdap.pandi.id/rdap/domain/bantenprov.go.id ["active"]
+[favicon-detect:Vue] [http] [info] https://gorontaloprov.go.id/favicon.ico ["-1252041730"]
+[tls-version] [ssl] [info] gorontaloprov.go.id:443 ["tls12"]
+[rdap-whois:status] [http] [info] https://rdap.pandi.id/rdap/domain/sumbarprov.go.id ["active"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.pandi.id/rdap/domain/sumbarprov.go.id ["2000-05-10 13:35:21"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.pandi.id/rdap/domain/sumbarprov.go.id ["2025-01-31 23:59:59"]
+[rdap-whois:nameServers] [http] [info] https://rdap.pandi.id/rdap/domain/sumbarprov.go.id ["amit.ns.cloudflare.com","lorna.ns.cloudflare.com"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.pandi.id/rdap/domain/sumbarprov.go.id ["false"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.pandi.id/rdap/domain/nttprov.go.id ["false"]
+[rdap-whois:status] [http] [info] https://rdap.pandi.id/rdap/domain/nttprov.go.id ["active"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.pandi.id/rdap/domain/nttprov.go.id ["2007-02-17 13:23:35"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.pandi.id/rdap/domain/nttprov.go.id ["2025-01-31 23:59:59"]
+[rdap-whois:nameServers] [http] [info] https://rdap.pandi.id/rdap/domain/nttprov.go.id ["ns6.idwebhost.com","ns7.idwebhost.com"]
+[rdap-whois:status] [http] [info] https://rdap.pandi.id/rdap/domain/jakarta.go.id ["active"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.pandi.id/rdap/domain/jakarta.go.id ["2000-05-10 13:35:13"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.pandi.id/rdap/domain/jakarta.go.id ["2025-01-31 23:59:59"]
+[rdap-whois:nameServers] [http] [info] https://rdap.pandi.id/rdap/domain/jakarta.go.id ["ns10.jakarta.go.id","ns5.jakarta.go.id"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.pandi.id/rdap/domain/jakarta.go.id ["false"]
+[rdap-whois:status] [http] [info] https://rdap.pandi.id/rdap/domain/sulbarprov.go.id ["active"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.pandi.id/rdap/domain/sulbarprov.go.id ["2007-08-07 13:35:21"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.pandi.id/rdap/domain/sulbarprov.go.id ["2025-08-15 23:59:59"]
+[rdap-whois:nameServers] [http] [info] https://rdap.pandi.id/rdap/domain/sulbarprov.go.id ["ns1.sulbarprov.go.id","ns2.sulbarprov.go.id"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.pandi.id/rdap/domain/sulbarprov.go.id ["false"]
+[rdap-whois:status] [http] [info] https://rdap.pandi.id/rdap/domain/sulutprov.go.id ["active"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.pandi.id/rdap/domain/sulutprov.go.id ["2011-02-16 13:35:21"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.pandi.id/rdap/domain/sulutprov.go.id ["2025-02-18 23:59:59"]
+[rdap-whois:nameServers] [http] [info] https://rdap.pandi.id/rdap/domain/sulutprov.go.id ["charles.ns.cloudflare.com","summer.ns.cloudflare.com"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.pandi.id/rdap/domain/sulutprov.go.id ["true"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.pandi.id/rdap/domain/sulselprov.go.id ["2008-09-04 13:35:21"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.pandi.id/rdap/domain/sulselprov.go.id ["2025-09-09 23:59:59"]
+[rdap-whois:nameServers] [http] [info] https://rdap.pandi.id/rdap/domain/sulselprov.go.id ["cortney.ns.cloudflare.com","roan.ns.cloudflare.com"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.pandi.id/rdap/domain/sulselprov.go.id ["false"]
+[rdap-whois:status] [http] [info] https://rdap.pandi.id/rdap/domain/sulselprov.go.id ["active"]
+[rdap-whois:nameServers] [http] [info] https://rdap.pandi.id/rdap/domain/papuabaratprov.go.id ["ns1.papuabaratprov.go.id","ns2.papuabaratprov.go.id"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.pandi.id/rdap/domain/papuabaratprov.go.id ["false"]
+[rdap-whois:status] [http] [info] https://rdap.pandi.id/rdap/domain/papuabaratprov.go.id ["active"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.pandi.id/rdap/domain/papuabaratprov.go.id ["2007-09-17 13:35:18"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.pandi.id/rdap/domain/papuabaratprov.go.id ["2025-09-20 23:59:59"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.pandi.id/rdap/domain/gorontaloprov.go.id ["2006-09-13 13:35:13"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.pandi.id/rdap/domain/gorontaloprov.go.id ["2025-02-01 23:59:59"]
+[rdap-whois:nameServers] [http] [info] https://rdap.pandi.id/rdap/domain/gorontaloprov.go.id ["nx1.gorontaloprov.go.id","nx2.gorontaloprov.go.id"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.pandi.id/rdap/domain/gorontaloprov.go.id ["true"]
+[rdap-whois:status] [http] [info] https://rdap.pandi.id/rdap/domain/gorontaloprov.go.id ["active"]
+[rdap-whois:status] [http] [info] https://rdap.pandi.id/rdap/domain/sumselprov.go.id ["active"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.pandi.id/rdap/domain/sumselprov.go.id ["2007-02-20 13:23:39"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.pandi.id/rdap/domain/sumselprov.go.id ["2025-01-31 23:59:59"]
+[rdap-whois:nameServers] [http] [info] https://rdap.pandi.id/rdap/domain/sumselprov.go.id ["ns2.sumselprov.go.id","ns3.sumselprov.go.id"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.pandi.id/rdap/domain/sumselprov.go.id ["false"]
+[rdap-whois:status] [http] [info] https://rdap.pandi.id/rdap/domain/riau.go.id ["active"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.pandi.id/rdap/domain/riau.go.id ["2000-05-10 13:29:36"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.pandi.id/rdap/domain/riau.go.id ["2025-01-31 23:59:59"]
+[rdap-whois:nameServers] [http] [info] https://rdap.pandi.id/rdap/domain/riau.go.id ["dns1.canopus.idgx.my.id","dns2.canopus.idgx.my.id"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.pandi.id/rdap/domain/riau.go.id ["false"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.pandi.id/rdap/domain/jambiprov.go.id ["false"]
+[rdap-whois:status] [http] [info] https://rdap.pandi.id/rdap/domain/jambiprov.go.id ["active"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.pandi.id/rdap/domain/jambiprov.go.id ["2006-04-27 13:29:30"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.pandi.id/rdap/domain/jambiprov.go.id ["2025-02-01 23:59:59"]
+[rdap-whois:nameServers] [http] [info] https://rdap.pandi.id/rdap/domain/jambiprov.go.id ["ns1.jambiprov.go.id","ns2.jambiprov.go.id"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.pandi.id/rdap/domain/malutprov.go.id ["false"]
+[rdap-whois:status] [http] [info] https://rdap.pandi.id/rdap/domain/malutprov.go.id ["active"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.pandi.id/rdap/domain/malutprov.go.id ["2007-08-30 13:35:16"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.pandi.id/rdap/domain/malutprov.go.id ["2025-09-04 23:59:59"]
+[rdap-whois:nameServers] [http] [info] https://rdap.pandi.id/rdap/domain/malutprov.go.id ["ns1.malutprov.net","ns2.malutprov.net","ns3.malutprov.net","ns4.malutprov.net"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.pandi.id/rdap/domain/ntbprov.go.id ["2024-12-05 23:59:59"]
+[rdap-whois:nameServers] [http] [info] https://rdap.pandi.id/rdap/domain/ntbprov.go.id ["dns41.cloudns.net","dns42.cloudns.net","dns43.cloudns.net","dns44.cloudns.net"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.pandi.id/rdap/domain/ntbprov.go.id ["true"]
+[rdap-whois:status] [http] [info] https://rdap.pandi.id/rdap/domain/ntbprov.go.id ["active"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.pandi.id/rdap/domain/ntbprov.go.id ["2007-11-20 13:35:17"]
+[rdap-whois:status] [http] [info] https://rdap.pandi.id/rdap/domain/kalbarprov.go.id ["active"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.pandi.id/rdap/domain/kalbarprov.go.id ["2008-06-10 13:29:31"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.pandi.id/rdap/domain/kalbarprov.go.id ["2028-06-18 23:59:59"]
+[rdap-whois:nameServers] [http] [info] https://rdap.pandi.id/rdap/domain/kalbarprov.go.id ["ns1.irza.net","ns2.irza.net","ns3.irza.net","pde.kalbarprov.go.id"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.pandi.id/rdap/domain/kalbarprov.go.id ["false"]
+[rdap-whois:status] [http] [info] https://rdap.pandi.id/rdap/domain/papua.go.id ["active"]
+[rdap-whois:registrationDate] [http] [info] https://rdap.pandi.id/rdap/domain/papua.go.id ["2000-05-10 13:29:34"]
+[rdap-whois:expirationDate] [http] [info] https://rdap.pandi.id/rdap/domain/papua.go.id ["2025-02-01 23:59:59"]
+[rdap-whois:nameServers] [http] [info] https://rdap.pandi.id/rdap/domain/papua.go.id ["ns1.papua.go.id","ns2.papua.go.id","ns5.papua.go.id","ns6.papua.go.id","ns7.papua.go.id"]
+[rdap-whois:secureDNS] [http] [info] https://rdap.pandi.id/rdap/domain/papua.go.id ["false"]
+[exposed-gitignore] [http] [info] https://lampungprov.go.id/.gitignore
+[exposed-gitignore] [http] [info] https://papuabaratprov.go.id/.gitignore
+[wordpress-user-enum] [http] [info] https://jatengprov.go.id/?author=1 ["author/diskominfo"]
+[wordpress-login] [http] [info] https://jatengprov.go.id/wp-login.php
+[roundcube-webmail-portal] [http] [info] https://sulbarprov.go.id/webmail/
+[roundcube-webmail-portal] [http] [info] https://jatengprov.go.id/webmail/
+[ds-store-file] [http] [info] https://sulselprov.go.id/.DS_Store
+[ds-store-file] [http] [info] https://malutprov.go.id/.DS_Store
+[ds-store-file] [http] [info] https://papuabaratprov.go.id/.DS_Store
+[docker-compose-config] [http] [medium] https://papuabaratprov.go.id/docker-compose.yml
+[wordpress-detect] [http] [info] https://papuabaratprov.go.id/web/
+[wordpress-detect:version_by_js] [http] [info] https://jatengprov.go.id ["6.6.2"]
+[wordpress-readme-file] [http] [info] https://papuabaratprov.go.id/readme.html
+[addeventlistener-detect] [http] [info] https://jatimprov.go.id
+[aws-cloudfront-service] [http] [info] https://jabarprov.go.id
+[google-floc-disabled] [http] [info] https://sulutprov.go.id
+[switch-protocol] [http] [info] https://riau.go.id ["h2"]
+[addeventlistener-detect] [http] [info] https://jogjaprov.go.id
+[nginx-version] [http] [info] https://jogjaprov.go.id ["nginx/1.25.3"]
+[apache-detect] [http] [info] https://malutprov.go.id ["Apache"]
+[email-extractor] [http] [info] https://gorontaloprov.go.id ["brayandyi@gmail.com"]
+[nginx-version] [http] [info] https://gorontaloprov.go.id ["nginx/1.12.2"]
+[addeventlistener-detect] [http] [info] https://lampungprov.go.id
+[google-floc-disabled] [http] [info] https://lampungprov.go.id
+[xss-deprecated-header] [http] [info] https://lampungprov.go.id ["1;mode=block"]
+[pagespeed-detect] [http] [info] https://lampungprov.go.id
+[addeventlistener-detect] [http] [info] https://ntbprov.go.id
+[pagespeed-detect] [http] [info] https://ntbprov.go.id
+[addeventlistener-detect] [http] [info] https://nttprov.go.id
+[xss-deprecated-header] [http] [info] https://nttprov.go.id ["1; mode=block"]
+[nginx-version] [http] [info] https://sumbarprov.go.id ["nginx/1.14.1"]
+[addeventlistener-detect] [http] [info] https://kalbarprov.go.id
+[addeventlistener-detect] [http] [info] https://sulselprov.go.id
+[addeventlistener-detect] [http] [info] https://jatengprov.go.id
+[htaccess-config] [http] [info] https://nttprov.go.id/.htaccess
+[htaccess-config] [http] [info] https://sulselprov.go.id/.htaccess
+[http-missing-security-headers:strict-transport-security] [http] [info] https://jatimprov.go.id
+[http-missing-security-headers:x-content-type-options] [http] [info] https://jatimprov.go.id
+[http-missing-security-headers:clear-site-data] [http] [info] https://jatimprov.go.id
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://jatimprov.go.id
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://jatimprov.go.id
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://jatimprov.go.id
+[http-missing-security-headers:content-security-policy] [http] [info] https://jatimprov.go.id
+[http-missing-security-headers:permissions-policy] [http] [info] https://jatimprov.go.id
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://jatimprov.go.id
+[http-missing-security-headers:strict-transport-security] [http] [info] https://sulutprov.go.id
+[http-missing-security-headers:content-security-policy] [http] [info] https://sulutprov.go.id
+[http-missing-security-headers:x-content-type-options] [http] [info] https://sulutprov.go.id
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://sulutprov.go.id
+[http-missing-security-headers:clear-site-data] [http] [info] https://sulutprov.go.id
+[http-missing-security-headers:strict-transport-security] [http] [info] https://jabarprov.go.id
+[http-missing-security-headers:permissions-policy] [http] [info] https://jabarprov.go.id
+[http-missing-security-headers:referrer-policy] [http] [info] https://jabarprov.go.id
+[http-missing-security-headers:clear-site-data] [http] [info] https://jabarprov.go.id
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://jabarprov.go.id
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://jabarprov.go.id
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://jabarprov.go.id
+[http-missing-security-headers:content-security-policy] [http] [info] https://jabarprov.go.id
+[http-missing-security-headers:x-frame-options] [http] [info] https://jabarprov.go.id
+[http-missing-security-headers:x-content-type-options] [http] [info] https://jabarprov.go.id
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://jabarprov.go.id
+[aws-detect:aws-cloudfront] [http] [info] https://jabarprov.go.id
+[http-missing-security-headers:content-security-policy] [http] [info] https://lampungprov.go.id
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://lampungprov.go.id
+[http-missing-security-headers:clear-site-data] [http] [info] https://lampungprov.go.id
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://lampungprov.go.id
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://lampungprov.go.id
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://lampungprov.go.id
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://jogjaprov.go.id
+[http-missing-security-headers:clear-site-data] [http] [info] https://jogjaprov.go.id
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://jogjaprov.go.id
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://jogjaprov.go.id
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://jogjaprov.go.id
+[http-missing-security-headers:clear-site-data] [http] [info] https://malutprov.go.id
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://malutprov.go.id
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://malutprov.go.id
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://malutprov.go.id
+[http-missing-security-headers:strict-transport-security] [http] [info] https://malutprov.go.id
+[http-missing-security-headers:content-security-policy] [http] [info] https://malutprov.go.id
+[http-missing-security-headers:x-content-type-options] [http] [info] https://malutprov.go.id
+[http-missing-security-headers:referrer-policy] [http] [info] https://malutprov.go.id
+[http-missing-security-headers:permissions-policy] [http] [info] https://malutprov.go.id
+[http-missing-security-headers:x-frame-options] [http] [info] https://malutprov.go.id
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://malutprov.go.id
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://acehprov.go.id
+[http-missing-security-headers:referrer-policy] [http] [info] https://acehprov.go.id
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://acehprov.go.id
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://acehprov.go.id
+[http-missing-security-headers:x-frame-options] [http] [info] https://acehprov.go.id
+[http-missing-security-headers:permissions-policy] [http] [info] https://acehprov.go.id
+[http-missing-security-headers:x-content-type-options] [http] [info] https://acehprov.go.id
+[http-missing-security-headers:clear-site-data] [http] [info] https://acehprov.go.id
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://acehprov.go.id
+[http-missing-security-headers:content-security-policy] [http] [info] https://acehprov.go.id
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://gorontaloprov.go.id
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://gorontaloprov.go.id
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://gorontaloprov.go.id
+[http-missing-security-headers:x-frame-options] [http] [info] https://gorontaloprov.go.id
+[http-missing-security-headers:x-content-type-options] [http] [info] https://gorontaloprov.go.id
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://gorontaloprov.go.id
+[http-missing-security-headers:clear-site-data] [http] [info] https://gorontaloprov.go.id
+[http-missing-security-headers:clear-site-data] [http] [info] https://ntbprov.go.id
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://ntbprov.go.id
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://ntbprov.go.id
+[http-missing-security-headers:permissions-policy] [http] [info] https://ntbprov.go.id
+[http-missing-security-headers:x-content-type-options] [http] [info] https://ntbprov.go.id
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://ntbprov.go.id
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://ntbprov.go.id
+[http-missing-security-headers:content-security-policy] [http] [info] https://ntbprov.go.id
+[http-missing-security-headers:x-frame-options] [http] [info] https://ntbprov.go.id
+[http-missing-security-headers:referrer-policy] [http] [info] https://ntbprov.go.id
+[http-missing-security-headers:permissions-policy] [http] [info] https://papua.go.id
+[http-missing-security-headers:clear-site-data] [http] [info] https://papua.go.id
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://papua.go.id
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://papua.go.id
+[http-missing-security-headers:referrer-policy] [http] [info] https://papua.go.id
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://papua.go.id
+[http-missing-security-headers:content-security-policy] [http] [info] https://papua.go.id
+[http-missing-security-headers:x-frame-options] [http] [info] https://papua.go.id
+[http-missing-security-headers:x-content-type-options] [http] [info] https://papua.go.id
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://papua.go.id
+[http-missing-security-headers:x-content-type-options] [http] [info] https://sumbarprov.go.id
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://sumbarprov.go.id
+[http-missing-security-headers:referrer-policy] [http] [info] https://sumbarprov.go.id
+[http-missing-security-headers:content-security-policy] [http] [info] https://sumbarprov.go.id
+[http-missing-security-headers:permissions-policy] [http] [info] https://sumbarprov.go.id
+[http-missing-security-headers:clear-site-data] [http] [info] https://sumbarprov.go.id
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://sumbarprov.go.id
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://sumbarprov.go.id
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://sumbarprov.go.id
+[http-missing-security-headers:strict-transport-security] [http] [info] https://sumbarprov.go.id
+[http-missing-security-headers:x-frame-options] [http] [info] https://sumbarprov.go.id
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://nttprov.go.id
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://nttprov.go.id
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://nttprov.go.id
+[http-missing-security-headers:content-security-policy] [http] [info] https://nttprov.go.id
+[http-missing-security-headers:permissions-policy] [http] [info] https://nttprov.go.id
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://nttprov.go.id
+[http-missing-security-headers:referrer-policy] [http] [info] https://nttprov.go.id
+[http-missing-security-headers:clear-site-data] [http] [info] https://nttprov.go.id
+[http-missing-security-headers:x-frame-options] [http] [info] https://kalbarprov.go.id
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://kalbarprov.go.id
+[http-missing-security-headers:referrer-policy] [http] [info] https://kalbarprov.go.id
+[http-missing-security-headers:clear-site-data] [http] [info] https://kalbarprov.go.id
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://kalbarprov.go.id
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://kalbarprov.go.id
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://kalbarprov.go.id
+[http-missing-security-headers:permissions-policy] [http] [info] https://kalbarprov.go.id
+[http-missing-security-headers:clear-site-data] [http] [info] https://sumselprov.go.id
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://sumselprov.go.id
+[http-missing-security-headers:strict-transport-security] [http] [info] https://sumselprov.go.id
+[http-missing-security-headers:content-security-policy] [http] [info] https://sumselprov.go.id
+[http-missing-security-headers:permissions-policy] [http] [info] https://sumselprov.go.id
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://sumselprov.go.id
+[http-missing-security-headers:referrer-policy] [http] [info] https://sumselprov.go.id
+[http-missing-security-headers:x-frame-options] [http] [info] https://sumselprov.go.id
+[http-missing-security-headers:x-content-type-options] [http] [info] https://sumselprov.go.id
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://sumselprov.go.id
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://sumselprov.go.id
+[http-missing-security-headers:x-content-type-options] [http] [info] https://sulselprov.go.id
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://sulselprov.go.id
+[http-missing-security-headers:referrer-policy] [http] [info] https://sulselprov.go.id
+[http-missing-security-headers:clear-site-data] [http] [info] https://sulselprov.go.id
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://sulselprov.go.id
+[http-missing-security-headers:permissions-policy] [http] [info] https://sulselprov.go.id
+[http-missing-security-headers:x-frame-options] [http] [info] https://sulselprov.go.id
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://sulselprov.go.id
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://sulselprov.go.id
+[http-missing-security-headers:strict-transport-security] [http] [info] https://sulselprov.go.id
+[http-missing-security-headers:content-security-policy] [http] [info] https://sulselprov.go.id
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://jatengprov.go.id
+[http-missing-security-headers:strict-transport-security] [http] [info] https://jatengprov.go.id
+[http-missing-security-headers:x-frame-options] [http] [info] https://jatengprov.go.id
+[http-missing-security-headers:referrer-policy] [http] [info] https://jatengprov.go.id
+[http-missing-security-headers:clear-site-data] [http] [info] https://jatengprov.go.id
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://jatengprov.go.id
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://jatengprov.go.id
+[http-missing-security-headers:content-security-policy] [http] [info] https://jatengprov.go.id
+[http-missing-security-headers:permissions-policy] [http] [info] https://jatengprov.go.id
+[http-missing-security-headers:x-content-type-options] [http] [info] https://jatengprov.go.id
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://jatengprov.go.id
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://papuabaratprov.go.id/web/
+[http-missing-security-headers:strict-transport-security] [http] [info] https://papuabaratprov.go.id/web/
+[http-missing-security-headers:permissions-policy] [http] [info] https://papuabaratprov.go.id/web/
+[http-missing-security-headers:x-content-type-options] [http] [info] https://papuabaratprov.go.id/web/
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://papuabaratprov.go.id/web/
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://papuabaratprov.go.id/web/
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://papuabaratprov.go.id/web/
+[http-missing-security-headers:content-security-policy] [http] [info] https://papuabaratprov.go.id/web/
+[http-missing-security-headers:x-frame-options] [http] [info] https://papuabaratprov.go.id/web/
+[http-missing-security-headers:referrer-policy] [http] [info] https://papuabaratprov.go.id/web/
+[http-missing-security-headers:clear-site-data] [http] [info] https://papuabaratprov.go.id/web/
+[build-properties] [http] [info] https://papua.go.id/manual/style/build.properties
+[host-header-injection] [http] [info] https://sumbarprov.go.id
+[sitemap-detect] [http] [info] https://acehprov.go.id/sitemap.xml
+[robots-txt-endpoint] [http] [info] https://lampungprov.go.id/robots.txt
+[robots-txt-endpoint] [http] [info] https://sulselprov.go.id/robots.txt
+[robots-txt-endpoint] [http] [info] https://acehprov.go.id/robots.txt
+[robots-txt-endpoint] [http] [info] https://ntbprov.go.id/robots.txt
+[robots-txt-endpoint] [http] [info] https://gorontaloprov.go.id/robots.txt
+[robots-txt-endpoint] [http] [info] https://sumselprov.go.id/robots.txt
+[robots-txt-endpoint] [http] [info] https://jatengprov.go.id/robots.txt
+[robots-txt-endpoint] [http] [info] https://papua.go.id/robots.txt
+[options-method] [http] [info] https://lampungprov.go.id ["GET,HEAD"]
+[options-method] [http] [info] https://papua.go.id ["GET,HEAD"]
+[options-method] [http] [info] https://gorontaloprov.go.id ["HEAD,GET,POST,OPTIONS,TRACE"]
+[options-method] [http] [info] https://ntbprov.go.id ["GET,HEAD"]
+[composer-config:composer.json] [http] [info] https://papuabaratprov.go.id/composer.json
+[composer-config:composer.json] [http] [info] https://papuabaratprov.go.id/vendor/composer/installed.json
+[form-detection] [http] [info] https://lampungprov.go.id
+[form-detection] [http] [info] https://sumbarprov.go.id
+[form-detection] [http] [info] https://papua.go.id
+[form-detection] [http] [info] https://www.riau.go.id
+[form-detection] [http] [info] https://jatengprov.go.id
+[form-detection] [http] [info] https://sulselprov.go.id
+[form-detection] [http] [info] https://papuabaratprov.go.id/web/
+[form-detection] [http] [info] https://www.jakarta.go.id/
+[web-config] [http] [info] https://lampungprov.go.id/web.config
+[web-config] [http] [info] https://nttprov.go.id/web.config
+[web-config] [http] [info] https://sumselprov.go.id/web.config
+[web-config] [http] [info] https://sulselprov.go.id/web.config
+[bower-json] [http] [info] https://sulselprov.go.id/bower.json
+[wp-license-file] [http] [info] https://jatengprov.go.id/license.txt
+[tech-detect:cloudflare] [http] [info] https://jatimprov.go.id
+[tech-detect:cloudflare] [http] [info] https://sulutprov.go.id
+[tech-detect:php] [http] [info] https://riau.go.id
+[cookies-without-httponly] [http] [info] https://jakarta.go.id
+[cookies-without-secure] [http] [info] https://jakarta.go.id
+[tech-detect:bootstrap] [http] [info] https://jogjaprov.go.id
+[tech-detect:google-font-api] [http] [info] https://jogjaprov.go.id
+[tech-detect:nginx] [http] [info] https://jogjaprov.go.id
+[tech-detect:cloudflare] [http] [info] https://jogjaprov.go.id
+[tech-detect:jsdelivr] [http] [info] https://jogjaprov.go.id
+[tech-detect:font-awesome] [http] [info] https://jogjaprov.go.id
+[tech-detect:google-font-api] [http] [info] https://acehprov.go.id
+[tech-detect:nginx] [http] [info] https://acehprov.go.id
+[tech-detect:nginx] [http] [info] https://gorontaloprov.go.id
+[cookies-without-secure] [http] [info] https://malutprov.go.id
+[tech-detect:font-awesome] [http] [info] https://malutprov.go.id
+[tech-detect:bootstrap] [http] [info] https://malutprov.go.id
+[tech-detect:google-font-api] [http] [info] https://malutprov.go.id
+[cookies-without-httponly] [http] [info] https://lampungprov.go.id
+[cookies-without-secure] [http] [info] https://lampungprov.go.id
+[tech-detect:font-awesome] [http] [info] https://lampungprov.go.id
+[tech-detect:bootstrap] [http] [info] https://lampungprov.go.id
+[tech-detect:new_laravel] [http] [info] https://lampungprov.go.id
+[tech-detect:cloudflare] [http] [info] https://lampungprov.go.id
+[cookies-without-httponly] [http] [info] https://nttprov.go.id
+[tech-detect:owl-carousel] [http] [info] https://nttprov.go.id
+[tech-detect:font-awesome] [http] [info] https://nttprov.go.id
+[tech-detect:google-font-api] [http] [info] https://nttprov.go.id
+[tech-detect:new_laravel] [http] [info] https://nttprov.go.id
+[tech-detect:nginx] [http] [info] https://nttprov.go.id
+[cookies-without-httponly] [http] [info] https://jatengprov.go.id
+[cookies-without-secure] [http] [info] https://jatengprov.go.id
+[metatag-cms] [http] [info] https://jatengprov.go.id ["WordPress 6.6.2"]
+[tech-detect:google-font-api] [http] [info] https://sumbarprov.go.id
+[tech-detect:nginx] [http] [info] https://sumbarprov.go.id
+[tech-detect:youtube] [http] [info] https://sumbarprov.go.id
+[tech-detect:owl-carousel] [http] [info] https://sumbarprov.go.id
+[tech-detect:font-awesome] [http] [info] https://sumbarprov.go.id
+[tech-detect:bootstrap] [http] [info] https://sumbarprov.go.id
+[cookies-without-secure] [http] [info] https://sulselprov.go.id
+[tech-detect:google-font-api] [http] [info] https://jatengprov.go.id
+[fingerprinthub-web-fingerprints:laravel] [http] [info] https://sulselprov.go.id
+[fingerprinthub-web-fingerprints:laravel-framework] [http] [info] https://sulselprov.go.id
+[fingerprinthub-web-fingerprints:apilayer-caddy] [http] [info] https://kalbarprov.go.id
+[metatag-cms] [http] [info] https://kalbarprov.go.id ["Hugo 0.68.3"]
+[tech-detect:jsdelivr] [http] [info] https://sulselprov.go.id
+[tech-detect:bootstrap] [http] [info] https://sulselprov.go.id
+[tech-detect:google-font-api] [http] [info] https://sulselprov.go.id
+[tech-detect:laravel] [http] [info] https://sulselprov.go.id
+[tech-detect:nginx] [http] [info] https://sulselprov.go.id
+[tech-detect:youtube] [http] [info] https://kalbarprov.go.id
+[tech-detect:font-awesome] [http] [info] https://kalbarprov.go.id
+[tech-detect:caddy] [http] [info] https://kalbarprov.go.id
+[cookies-without-httponly] [http] [info] https://sumselprov.go.id
+[cookies-without-secure] [http] [info] https://sumselprov.go.id
+[credentials-disclosure] [http] [unknown] https://papuabaratprov.go.id/web/ ["access_token={accessToken","accessToken: 'pk"]
+[cookies-without-secure] [http] [info] https://papuabaratprov.go.id/web/
+[tech-detect:nginx] [http] [info] https://sumselprov.go.id
+[tech-detect:jsdelivr] [http] [info] https://sumselprov.go.id
+[tech-detect:google-tag-manager] [http] [info] https://sumselprov.go.id
+[tech-detect:owl-carousel] [http] [info] https://sumselprov.go.id
+[tech-detect:bootstrap] [http] [info] https://sumselprov.go.id
+[tech-detect:google-font-api] [http] [info] https://sumselprov.go.id
+[tech-detect:new_laravel] [http] [info] https://sumselprov.go.id
+[tech-detect:sweetalert2] [http] [info] https://papuabaratprov.go.id/web/
+[tech-detect:google-font-api] [http] [info] https://papuabaratprov.go.id/web/
+[tech-detect:php] [http] [info] https://papuabaratprov.go.id/web/
+[tech-detect:font-awesome] [http] [info] https://papuabaratprov.go.id/web/
+[tech-detect:php] [http] [info] https://papuabaratprov.go.id
+[cookies-without-httponly] [http] [info] https://papua.go.id
+[cookies-without-secure] [http] [info] https://papua.go.id
+[fingerprinthub-web-fingerprints:laravel-framework] [http] [info] https://papua.go.id
+[fingerprinthub-web-fingerprints:laravel] [http] [info] https://papua.go.id
+[tech-detect:youtube] [http] [info] https://papua.go.id
+[tech-detect:font-awesome] [http] [info] https://papua.go.id
+[tech-detect:animate.css] [http] [info] https://papua.go.id
+[tech-detect:bootstrap] [http] [info] https://papua.go.id
+[tech-detect:laravel] [http] [info] https://papua.go.id
+[tech-detect:nginx] [http] [info] https://papua.go.id
+[mx-fingerprint] [dns] [info] acehprov.go.id ["20 smtpjkt.acehprov.go.id.","10 smtpgw.acehprov.go.id."]
+[mx-fingerprint] [dns] [info] sumbarprov.go.id ["10 yamadipati.mail.go.id.","10 narada.mail.go.id."]
+[mx-fingerprint] [dns] [info] papua.go.id ["10 mail-jog.papua.go.id.","1 mail.papua.go.id."]
+[spf-record-detect] [dns] [info] papua.go.id ["v=spf1 mx ip4:103.100.246.0/23 ip6:2405:bc0::/32 include:amazonses.com include:_spf.google.com ~all""]
+[txt-fingerprint] [dns] [info] papua.go.id [""google-site-verification=5MWt3fC6nEBcQhTAPOHgN0jLRydc6YcyEnhjTJOzxY4"",""v=spf1 mx ip4:103.100.246.0/23 ip6:2405:bc0::/32 include:amazonses.com include:_spf.google.com ~all""]
+[spf-record-detect] [dns] [info] jabarprov.go.id ["v=spf1 mx ip4:103.122.5.168 ip4:103.125.88.97 include:_spf.infokreasindo.net -all""]
+[txt-fingerprint] [dns] [info] jabarprov.go.id [""google-site-verification=Gx_177UITPyWqGyLQEXWLuMBdmZlai3G-1VYzotoVXO"",""v=spf1 mx ip4:103.122.5.168 ip4:103.125.88.97 include:_spf.infokreasindo.net -all"",""google-site-verification=6qrskp3e1coOQq_WkhNDWH8Xdrfrnl5pwj4kcJKr4FQ"",""google-site-verification=5x_EnZMnmuf-ZrUT0RaJkidrIBs4rf6jwqtYOy9xMrk"",""loaderio=824004ac8e20d28f184d321b9c0613de"",""apple-domain=0QISYV5fxmExPKt8"",""google-gws-recovery-domain-verification=50006382""]
+[spf-record-detect] [dns] [info] kepriprov.go.id ["v=spf1 +mx +a +a:mail.kepriprov.go.id +ip4:172.80.1.225 +ip4:103.130.206.35 +ip4:223.130.20.198 include:_spf.google.com ~all""]
+[txt-fingerprint] [dns] [info] kepriprov.go.id [""google-site-verification=TsY0EmQZTw3G43Q1ifLPO46FuD8754f8oAawy0RJybU"",""v=spf1 +mx +a +a:mail.kepriprov.go.id +ip4:172.80.1.225 +ip4:103.130.206.35 +ip4:223.130.20.198 include:_spf.google.com ~all""]
+[spf-record-detect] [dns] [info] lampungprov.go.id ["v=spf1 ip4:103.170.104.236 +a +mx +ip4:103.145.46.84 +include:_spf.excellent.co.id ~all""]
+[txt-fingerprint] [dns] [info] lampungprov.go.id [""Dinas Komunikasi Informatika dan Statistik Provinsi Lampung"",""attan@lampungprov.go.id"",""google-site-verification=2fVo7NVq5jCalnfD3bK9meN0hK6qQ8mW-xbv33ZKlFQ"",""Data Center Provinsi Lampung"",""v=spf1 ip4:103.170.104.236 +a +mx +ip4:103.145.46.84 +include:_spf.excellent.co.id ~all"",""google-site-verification=qubT8NPWUV2iQDavloUFC_o-BmW--0RxALEekY_brB4""]
+[mx-fingerprint] [dns] [info] sulutprov.go.id ["10 mail.sulutprov.go.id."]
+[spf-record-detect] [dns] [info] sulselprov.go.id ["v=spf1 mx ip4:180.250.214.5 ip4:114.7.201.251 ip4:36.66.240.77 ip4:103.151.191.14 ip4:103.151.191.213 include:_spf.excellent.co.id include:spf.saad.biz.id -all""]
+[txt-fingerprint] [dns] [info] sulselprov.go.id [""google-site-verification=-E8vyqFPFoBj7k8RsHfmkoDmUPxOTEPixKdwh7NgwdU"",""v=spf1 mx ip4:180.250.214.5 ip4:114.7.201.251 ip4:36.66.240.77 ip4:103.151.191.14 ip4:103.151.191.213 include:_spf.excellent.co.id include:spf.saad.biz.id -all""]
+[mx-fingerprint] [dns] [info] kepriprov.go.id ["0 mail.kepriprov.go.id."]
+[mx-fingerprint] [dns] [info] sulselprov.go.id ["20 sulselprov-go-id.p20.mxthunder.net.","10 sulselprov-go-id.p10.mxthunder.com.","40 sulselprov-go-id.p40.mxthunder.net.","30 sulselprov-go-id.p30.mxthunder.net."]
+[spf-record-detect] [dns] [info] kalbarprov.go.id ["v=spf1 include:_spf2.aktiva.co.id ~all""]
+[txt-fingerprint] [dns] [info] kalbarprov.go.id [""v=DKIM1; d=*.gappssmtp.com; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA91Glu5NFfsT08tWS6i2MMvAyjvQ7gnEj4SXc5AgAHvwhqAikyBIL8ypl2LRpYZnqLN/z5u77qcJ" "SA6AYyLxHujkdI8Dbnn4OK9g98N08Pz0nA0I2Chw/IcPXc6Nnieu3mSn394MV2JDXewpnZhuuR4C26LNxOR8Mlg6DZpgeOe4U9dHnAmio9GyN/cHy1wg+CDvd2oxmVOHRFmZQpztkfko2QA3fJJFlK" "RUPa7+OgF04//Ynm/uFWXa5BI0OO73GX328fhASDu+mnENOS2SpULCVEfAcQ0WffjHcqrggT6q3IPACP4gJifIK3EgGEpJ+/LEC8NGwYVZQHQpeta9yPQIDAQAB"",""google-site-verification=xyXtfSpWSB-bK-0m762jOdkVqa2alVrZk4PWGXo8-pM"",""v=spf1 include:_spf2.aktiva.co.id ~all""]
+[mx-fingerprint] [dns] [info] jatimprov.go.id ["10 filter10.antispamcloud.com.","30 filter30.antispamcloud.com.","40 filter40.antispamcloud.com.","20 filter20.antispamcloud.com."]
+[spf-record-detect] [dns] [info] sumbarprov.go.id ["v=spf1 include:spf.mailtarget.co ~all""]
+[txt-fingerprint] [dns] [info] sumbarprov.go.id [""v=spf1 include:spf.mailtarget.co ~all""]
+[spf-record-detect] [dns] [info] jambiprov.go.id ["v=spf1" "include:spf.mailtarget.co" "-all""]
+[txt-fingerprint] [dns] [info] jambiprov.go.id [""v=spf1" "include:spf.mailtarget.co" "-all"",""globalsign-domain-verification=SMz_ooOXjLc3xfpUsSRwZLQVzZRrhwirAMnVywrRsv""]
+[spf-record-detect] [dns] [info] riau.go.id ["v=spf1  ip4:103.108.9.5 mx -all""]
+[txt-fingerprint] [dns] [info] riau.go.id [""google-site-verification=RBlgtQ_ymvOKKZMLzY-yUYrpXb-zGiYTN5n1SstH7C8"",""v=spf1  ip4:103.108.9.5 mx -all""]
+[mx-fingerprint] [dns] [info] babelprov.go.id ["0 mail.babelprov.go.id."]
+[spf-record-detect] [dns] [info] babelprov.go.id ["v=spf1 +a +mx +a:mail.babelprov.go.id +ip4:103.205.56.37/32 -all""]
+[txt-fingerprint] [dns] [info] babelprov.go.id [""2djfsrqvyj2fnhdyr227w8p4tv4nmxny"",""MS=705F590284C93EAA596F4C0DD77DFD75A651A0E3"",""google-site-verification=YTgIPHDhBDwJRDDuAnuCKb8fbvATPkLtu4_jOcQgDSA"",""v=spf1 +a +mx +a:mail.babelprov.go.id +ip4:103.205.56.37/32 -all""]
+[mx-fingerprint] [dns] [info] jakarta.go.id ["10 mail3.jakarta.go.id.","20 mail2.jakarta.go.id."]
+[spf-record-detect] [dns] [info] jogjaprov.go.id ["v=spf1 mx ip4:103.255.15.99 ip4:103.255.15.100 include:_spf.infokreasindo.net -all""]
+[txt-fingerprint] [dns] [info] jogjaprov.go.id [""v=spf1 mx ip4:103.255.15.99 ip4:103.255.15.100 include:_spf.infokreasindo.net -all"",""apple-domain-verification=KibwEBjOMpvQ75Lw"",""google-site-verification=Pv7zGHaxue851B7bZNde9mgBgIEJCD2IomOjJVQzvcY""]
+[mx-fingerprint] [dns] [info] jatengprov.go.id ["20 mx2.jatengprov.go.id.","10 mx1.jatengprov.go.id."]
+[spf-record-detect] [dns] [info] sulbarprov.go.id ["v=spf1 include:_spf.google.com +a +mx +ip4:36.88.112.235 ~all""]
+[txt-fingerprint] [dns] [info] sulbarprov.go.id [""v=spf1 include:_spf.google.com +a +mx +ip4:36.88.112.235 ~all"",""google-site-verification=sC0NwnhRCtKY2X-3cEG1Qf7w9CiFHTRiR2uQOVzrBZ8""]
+[mx-fingerprint] [dns] [info] sumselprov.go.id ["0 mail.sumselprov.go.id."]
+[mx-fingerprint] [dns] [info] bantenprov.go.id ["10 mxgate-2.bantenprov.go.id.","1 mxgate-1.bantenprov.go.id."]
+[spf-record-detect] [dns] [info] jakarta.go.id ["v=spf1 a mx ip4:103.209.7.73 ip4:103.209.7.68 include:_spf.google.com include:spf.smtpid.jakarta.go.id ~all""]
+[txt-fingerprint] [dns] [info] jakarta.go.id [""google-site-verification=MO2yS2BxiCtvPFaWmJfkeIZjNDyUtxcJAj6N9mi8PaQ"",""v=spf1 a mx ip4:103.209.7.73 ip4:103.209.7.68 include:_spf.google.com include:spf.smtpid.jakarta.go.id ~all""]
+[mx-fingerprint] [dns] [info] malukuprov.go.id ["0 malukuprov.go.id."]
+[spf-record-detect] [dns] [info] kaltimprov.go.id ["v=spf1 ip4:103.141.104.92 ip4:103.144.170.203 mx ip4:103.210.105.60 ip4:103.210.105.172 ip4:103.210.105.174 include:_spf.google.com -all""]
+[txt-fingerprint] [dns] [info] kaltimprov.go.id [""6s2jcZROFdrKcJEa0DRs3bkS278PmY3g0zTnwLca4ys="",""facebook-domain-verification=vtstaqh18epdfef15wlwovldw833qy"",""v=spf1 ip4:103.141.104.92 ip4:103.144.170.203 mx ip4:103.210.105.60 ip4:103.210.105.172 ip4:103.210.105.174 include:_spf.google.com -all"",""google-site-verification=rwZrtIBmX0GDUaB0SP1-LedwY6f5Kw4wYr1KCM-1_ts""]
+[spf-record-detect] [dns] [info] malukuprov.go.id ["v=spf1 +a +mx +ip4:45.130.230.101 include:relay.mailchannels.net +ip4:45.13.133.151 ~all""]
+[txt-fingerprint] [dns] [info] malukuprov.go.id [""v=spf1 +a +mx +ip4:45.130.230.101 include:relay.mailchannels.net +ip4:45.13.133.151 ~all""]
+[spf-record-detect] [dns] [info] papuabaratprov.go.id ["v=spf1 +a +mx +ip4:103.111.219.114 ~all"","v=spf1 +a +mx +ip4:103.100.27.121 ~all""]
+[txt-fingerprint] [dns] [info] papuabaratprov.go.id [""v=spf1 +a +mx +ip4:103.111.219.114 ~all"",""v=spf1 +a +mx +ip4:103.100.27.121 ~all"",""google-site-verification=0D-3agZCk6A6CkuqrnV3v0nD2-iBZIyxljrmBaGgp3s""]
+[ssl-issuer] [ssl] [info] jatimprov.go.id:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] jatimprov.go.id:443 ["*.jatimprov.go.id","jatimprov.go.id"]
+[wildcard-tls] [ssl] [info] jatimprov.go.id:443 ["SAN: [*.jatimprov.go.id jatimprov.go.id]","CN: jatimprov.go.id"]
+[ssl-issuer] [ssl] [info] sulutprov.go.id:443 ["Google Trust Services"]
+[ssl-dns-names] [ssl] [info] sulutprov.go.id:443 ["sulutprov.go.id","*.sulutprov.go.id"]
+[wildcard-tls] [ssl] [info] sulutprov.go.id:443 ["CN: sulutprov.go.id","SAN: [sulutprov.go.id *.sulutprov.go.id]"]
+[ssl-issuer] [ssl] [info] lampungprov.go.id:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] lampungprov.go.id:443 ["*.lampungprov.go.id","lampungprov.go.id"]
+[wildcard-tls] [ssl] [info] lampungprov.go.id:443 ["CN: *.lampungprov.go.id","SAN: [*.lampungprov.go.id lampungprov.go.id]"]
+[ssl-issuer] [ssl] [info] jabarprov.go.id:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] jabarprov.go.id:443 ["*.jabarprov.go.id","jabarprov.go.id"]
+[wildcard-tls] [ssl] [info] jabarprov.go.id:443 ["CN: *.jabarprov.go.id","SAN: [*.jabarprov.go.id jabarprov.go.id]"]
+[mx-fingerprint] [dns] [info] papuabaratprov.go.id ["10 mx-idc.simda.net.","0 mail.papuabaratprov.go.id."]
+[mx-fingerprint] [dns] [info] nttprov.go.id ["0 webmail.nttprov.go.id."]
+[mx-fingerprint] [dns] [info] kaltimprov.go.id ["10 smtp.kaltimprov.go.id.","5 gate.kaltimprov.go.id."]
+[mx-fingerprint] [dns] [info] lampungprov.go.id ["9 pesanku.lampungprov.go.id."]
+[spf-record-detect] [dns] [info] jatimprov.go.id ["v=spf1 ip4:3.110.106.124 include:_spf.google.com include:spf.antispamcloud.com ~all""]
+[txt-fingerprint] [dns] [info] jatimprov.go.id [""google-site-verification=4rthfBvPxHXl_ou9USEFcHeyAhXG5xPH9DPWTEJZ47w"",""google-site-verification=lWTiYA1_LkkArZp7crAFvLNO8oc4g-yXyTKjdYPQIV8"",""google-site-verification=oHqvJAYotUbh1KfjpgTRDDvXnM0yqaRhzpzDgdrTP20"",""v=spf1 ip4:3.110.106.124 include:_spf.google.com include:spf.antispamcloud.com ~all"",""_dnsauth=w5w8208jdmjfk8zhdr87vw77pjxxy72x"",""f07xg6231hvw2w3q46x3g5qznm686pbk""]
+[mx-fingerprint] [dns] [info] gorontaloprov.go.id ["10 kolombengi.gorontaloprov.go.id."]
+[spf-record-detect] [dns] [info] gorontaloprov.go.id ["v=spf1 mx a ip4:103.210.34.133 ip4:103.210.34.140 ip4:103.210.34.144 ip4:103.210.34.155 ip4:103.210.34.156 include:_spf.google.com ~all""]
+[txt-fingerprint] [dns] [info] gorontaloprov.go.id [""google-site-verification=BwZiNOlDC0GKY87LH4D4UG2zj6LyXdYYj2ik9p0CTfI"",""v=spf1 mx a ip4:103.210.34.133 ip4:103.210.34.140 ip4:103.210.34.144 ip4:103.210.34.155 ip4:103.210.34.156 include:_spf.google.com ~all""]
+[spf-record-detect] [dns] [info] jatengprov.go.id ["v=spf1 +a +mx +ip4:103.9.227.34 +ip4:103.107.245.70 include:_spf.jatengprov.go.id include:_spf2.aktiva.co.id ~all""]
+[txt-fingerprint] [dns] [info] jatengprov.go.id [""v=spf1 +a +mx +ip4:103.9.227.34 +ip4:103.107.245.70 include:_spf.jatengprov.go.id include:_spf2.aktiva.co.id ~all"",""MS=ms49423747"",""google-site-verification=RJKSWlh0QlOBWFzOlxn5E3xbLunbnesSIZbz31Iw6aQ"",""google-site-verification=gVynJ2OiPI3ArsPF-HzQ7KUstAKcGv2hq7dB8A_2bSk"",""facebook-domain-verification=eb0zdxvn9ld8rvjvfbnfg73vq8mzd5"",""google-site-verification=_V0asCBnqmm9MTgxj42oRgBhFtv9caX4elP5kcOMZFA"",""google-site-verification=z1gRXl8OV7ZBxBP7jEfNbsF0rHOmORCruXUdLdC_Ugo""]
+[ssl-issuer] [ssl] [info] nttprov.go.id:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] nttprov.go.id:443 ["nttprov.go.id"]
+[mx-fingerprint] [dns] [info] sulbarprov.go.id ["10 srv-email.sulbarprov.go.id."]
+[ssl-issuer] [ssl] [info] papua.go.id:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] papua.go.id:443 ["papua.go.id","www.papua.go.id"]
+[ssl-issuer] [ssl] [info] malutprov.go.id:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] malutprov.go.id:443 ["*.malutprov.go.id","malutprov.go.id","www.gis-morotai.malutprov.go.id","www.webmail.malutprov.go.id"]
+[wildcard-tls] [ssl] [info] malutprov.go.id:443 ["CN: www.webmail.malutprov.go.id","SAN: [*.malutprov.go.id malutprov.go.id www.gis-morotai.malutprov.go.id www.webmail.malutprov.go.id]"]
+[ssl-issuer] [ssl] [info] riau.go.id:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] riau.go.id:443 ["mail.old.riau.go.id","prov.riau.go.id","provinsi.riau.go.id","riau.go.id","tes3.riau.go.id","webmail.riau.go.id"]
+[ssl-issuer] [ssl] [info] papuabaratprov.go.id:443 ["Let's Encrypt"]
+[ssl-dns-names] [ssl] [info] papuabaratprov.go.id:443 ["*.papuabaratprov.go.id","papuabaratprov.go.id"]
+[wildcard-tls] [ssl] [info] papuabaratprov.go.id:443 ["CN: *.papuabaratprov.go.id","SAN: [*.papuabaratprov.go.id papuabaratprov.go.id]"]
+[ssl-issuer] [ssl] [info] sumselprov.go.id:443 ["Sectigo Limited"]
+[ssl-dns-names] [ssl] [info] sumselprov.go.id:443 ["*.sumselprov.go.id","sumselprov.go.id"]
+[wildcard-tls] [ssl] [info] sumselprov.go.id:443 ["CN: *.sumselprov.go.id","SAN: [*.sumselprov.go.id sumselprov.go.id]"]
+[ssl-issuer] [ssl] [info] jogjaprov.go.id:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] jogjaprov.go.id:443 ["jogjaprov.go.id","*.jogjaprov.go.id"]
+[wildcard-tls] [ssl] [info] jogjaprov.go.id:443 ["CN: *.jogjaprov.go.id","SAN: [*.jogjaprov.go.id jogjaprov.go.id]"]
+[ssl-issuer] [ssl] [info] jambiprov.go.id:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] jambiprov.go.id:443 ["*.jambiprov.go.id","jambiprov.go.id"]
+[wildcard-tls] [ssl] [info] jambiprov.go.id:443 ["CN: *.jambiprov.go.id","SAN: [*.jambiprov.go.id jambiprov.go.id]"]
+[ssl-issuer] [ssl] [info] kalbarprov.go.id:443 ["GlobalSign nv-sa"]
+[ssl-dns-names] [ssl] [info] kalbarprov.go.id:443 ["*.kalbarprov.go.id","kalbarprov.go.id"]
+[wildcard-tls] [ssl] [info] kalbarprov.go.id:443 ["CN: *.kalbarprov.go.id","SAN: [*.kalbarprov.go.id kalbarprov.go.id]"]
+[ssl-issuer] [ssl] [info] sumbarprov.go.id:443 ["Sectigo Limited"]
+[ssl-dns-names] [ssl] [info] sumbarprov.go.id:443 ["*.sumbarprov.go.id","sumbarprov.go.id"]
+[wildcard-tls] [ssl] [info] sumbarprov.go.id:443 ["CN: *.sumbarprov.go.id","SAN: [*.sumbarprov.go.id sumbarprov.go.id]"]
+[ssl-issuer] [ssl] [info] kaltimprov.go.id:443 ["Sectigo Limited"]
+[ssl-dns-names] [ssl] [info] kaltimprov.go.id:443 ["*.kaltimprov.go.id","kaltimprov.go.id"]
+[wildcard-tls] [ssl] [info] kaltimprov.go.id:443 ["SAN: [*.kaltimprov.go.id kaltimprov.go.id]","CN: *.kaltimprov.go.id"]
+[ssl-issuer] [ssl] [info] sulselprov.go.id:443 ["Sectigo Limited"]
+[ssl-dns-names] [ssl] [info] sulselprov.go.id:443 ["*.sulselprov.go.id","sulselprov.go.id"]
+[wildcard-tls] [ssl] [info] sulselprov.go.id:443 ["CN: *.sulselprov.go.id","SAN: [*.sulselprov.go.id sulselprov.go.id]"]
+[caa-fingerprint] [dns] [info] sulselprov.go.id
+[dnssec-detection] [dns] [info] sulutprov.go.id
+[spf-record-detect] [dns] [info] sulutprov.go.id ["v=spf1 mx a ip4:103.161.109.15/32 a:mail.sulutprov.go.id""]
+[txt-fingerprint] [dns] [info] sulutprov.go.id [""google-site-verification=z3qk8jhTkgoMGVcVSpqlAt7D99q9uM8qfObm9xJ2XUI"",""ahrefs-site-verification_df37feffcaa77a7162a4639a6d1d4d327c7492b74b7412608d0fb9d6bb7424e1"",""13212231"",""v=spf1 mx a ip4:103.161.109.15/32 a:mail.sulutprov.go.id"",""google-site-verification=0wgf_5HSH3NP7oXoBJtntjHxvvs2oGymnlxwi8ZKlBg"",""google-site-verification=8IvtFiOURVEmnOE-4dpwmCqUitjdX3sQtKHVN8FvC5o"",""google-site-verification=EZoCZGSO_bWqu_IXYOx4EOLEiO4w0vBkzy1byeGH5h8"",""google-site-verification=GOIyBdOOzox129UfwpF0XD8BqHuAdGkiXAqs4mI0I74"",""Pemerintah Provinsi Sulawesi Utara""]
+[caa-fingerprint] [dns] [info] kepriprov.go.id
+[nameserver-fingerprint] [dns] [info] nttprov.go.id ["ns7.idwebhost.com.","ns6.idwebhost.com."]
+[nameserver-fingerprint] [dns] [info] kaltimprov.go.id ["ns1.kaltimprov.go.id.","ns1.kaltimprov.net.","ns2.kaltimprov.go.id.","ns2.kaltimprov.net."]
+[caa-fingerprint] [dns] [info] lampungprov.go.id
+[nameserver-fingerprint] [dns] [info] lampungprov.go.id ["tabikpun.ns1.lampungprov.go.id.","tanohlado.ns2.lampungprov.go.id."]
+[nameserver-fingerprint] [dns] [info] sumbarprov.go.id ["amit.ns.cloudflare.com.","lorna.ns.cloudflare.com."]
+[caa-fingerprint] [dns] [info] papua.go.id
+[nameserver-fingerprint] [dns] [info] kepriprov.go.id ["meg.ns.cloudflare.com.","adam.ns.cloudflare.com."]
+[nameserver-fingerprint] [dns] [info] jatimprov.go.id ["jewel.ns.cloudflare.com.","zac.ns.cloudflare.com."]
+[nameserver-fingerprint] [dns] [info] sulutprov.go.id ["summer.ns.cloudflare.com.","charles.ns.cloudflare.com."]
+[dnssec-detection] [dns] [info] gorontaloprov.go.id
+[caa-fingerprint] [dns] [info] sumbarprov.go.id
+[caa-fingerprint] [dns] [info] jabarprov.go.id
+[nameserver-fingerprint] [dns] [info] jabarprov.go.id ["ns-1914.awsdns-47.co.uk.","ns-867.awsdns-44.net.","ns-1361.awsdns-42.org.","ns-239.awsdns-29.com."]
+[ssl-issuer] [ssl] [info] jakarta.go.id:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] jakarta.go.id:443 ["jakarta.go.id","*.jakarta.go.id"]
+[wildcard-tls] [ssl] [info] jakarta.go.id:443 ["CN: *.jakarta.go.id","SAN: [*.jakarta.go.id jakarta.go.id]"]
+[ssl-issuer] [ssl] [info] sumutprov.go.id:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] sumutprov.go.id:443 ["*.sumutprov.go.id","sumutprov.go.id"]
+[wildcard-tls] [ssl] [info] sumutprov.go.id:443 ["CN: *.sumutprov.go.id","SAN: [*.sumutprov.go.id sumutprov.go.id]"]
+[caa-fingerprint] [dns] [info] jatimprov.go.id
+[ssl-issuer] [ssl] [info] acehprov.go.id:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] acehprov.go.id:443 ["*.acehprov.go.id","acehprov.go.id"]
+[wildcard-tls] [ssl] [info] acehprov.go.id:443 ["CN: *.acehprov.go.id","SAN: [*.acehprov.go.id acehprov.go.id]"]
+[mx-fingerprint] [dns] [info] malutprov.go.id ["0 mail.malutprov.go.id."]
+[caa-fingerprint] [dns] [info] kalbarprov.go.id
+[nameserver-fingerprint] [dns] [info] jambiprov.go.id ["ns1.jambiprov.go.id."]
+[ssl-issuer] [ssl] [info] gorontaloprov.go.id:443 ["Sectigo Limited"]
+[ssl-dns-names] [ssl] [info] gorontaloprov.go.id:443 ["*.gorontaloprov.go.id","gorontaloprov.go.id"]
+[wildcard-tls] [ssl] [info] gorontaloprov.go.id:443 ["CN: *.gorontaloprov.go.id","SAN: [*.gorontaloprov.go.id gorontaloprov.go.id]"]
+[caa-fingerprint] [dns] [info] bantenprov.go.id
+[caa-fingerprint] [dns] [info] acehprov.go.id
+[nameserver-fingerprint] [dns] [info] babelprov.go.id ["whm2.babelprov.go.id.","whm.babelprov.go.id.","whm3.babelprov.go.id."]
+[caa-fingerprint] [dns] [info] malutprov.go.id
+[nameserver-fingerprint] [dns] [info] sumselprov.go.id ["ns1.sumselprov.go.id.","ns3.sumselprov.go.id.","ns2.sumselprov.go.id."]
+[caa-fingerprint] [dns] [info] riau.go.id
+[caa-fingerprint] [dns] [info] jogjaprov.go.id
+[caa-fingerprint] [dns] [info] jambiprov.go.id
+[nameserver-fingerprint] [dns] [info] jakarta.go.id ["ns10.jakarta.go.id.","ns5.jakarta.go.id."]
+[caa-fingerprint] [dns] [info] jatengprov.go.id
+[caa-fingerprint] [dns] [info] nttprov.go.id
+[caa-fingerprint] [dns] [info] sulbarprov.go.id
+[nameserver-fingerprint] [dns] [info] sulbarprov.go.id ["ns2.sulbarprov.go.id.","ns1.sulbarprov.go.id."]
+[caa-fingerprint] [dns] [info] babelprov.go.id
+[caa-fingerprint] [dns] [info] kaltimprov.go.id
+[nameserver-fingerprint] [dns] [info] malukuprov.go.id ["ns1.niagahoster.com.","ns2.niagahoster.com."]
+[nameserver-fingerprint] [dns] [info] papuabaratprov.go.id ["ns1.papuabaratprov.go.id.","ns2.papuabaratprov.go.id."]
+[spf-record-detect] [dns] [info] sumutprov.go.id ["v=spf1 mx ip4:103.248.25.177 include:_spf.excellent.co.id -all""]
+[txt-fingerprint] [dns] [info] sumutprov.go.id [""google-site-verification=O4yNV-HDPew8l7lLZgD9XljHcSWebGQJww7Lciq4OHE"",""v=spf1 mx ip4:103.248.25.177 include:_spf.excellent.co.id -all""]
+[caa-fingerprint] [dns] [info] papuabaratprov.go.id
+[spf-record-detect] [dns] [info] acehprov.go.id ["v=spf1 include:_spf.acehprov.go.id -all""]
+[txt-fingerprint] [dns] [info] acehprov.go.id [""google-site-verification=8FeFwVwSR9_Y9BTU9efeoPPjVk-1J_qc5LM6NBBowWE"",""v=spf1 include:_spf.acehprov.go.id -all"",""globalsign-domain-verification=ff13d0947479fcc6e124fabfe5840a0b"",""_sitelock-domain-validation=e154c583efceed03""]
+[nameserver-fingerprint] [dns] [info] bantenprov.go.id ["ns1.bantenprov.go.id.","owa1.bantenprov.go.id.","ns2.bantenprov.go.id."]
+[caa-fingerprint] [dns] [info] malukuprov.go.id
+[nameserver-fingerprint] [dns] [info] sulselprov.go.id ["cortney.ns.cloudflare.com.","roan.ns.cloudflare.com."]
+[mx-fingerprint] [dns] [info] sumutprov.go.id ["20 sumutprov-go-id.p20.mxthunder.net.","40 sumutprov-go-id.p40.mxthunder.net.","30 sumutprov-go-id.p30.mxthunder.net.","10 sumutprov-go-id.p10.mxthunder.com."]
+[caa-fingerprint] [dns] [info] sulutprov.go.id
+[caa-fingerprint] [dns] [info] gorontaloprov.go.id ["letsencrypt.org","sectigo.com","pki.goog"]
+[ssl-issuer] [ssl] [info] jatengprov.go.id:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] jatengprov.go.id:443 ["*.jatengprov.go.id","jatengprov.go.id"]
+[wildcard-tls] [ssl] [info] jatengprov.go.id:443 ["CN: *.jatengprov.go.id","SAN: [*.jatengprov.go.id jatengprov.go.id]"]
+[spf-record-detect] [dns] [info] bantenprov.go.id ["v=spf1 include:_spf.bantenprov.go.id ip4:35.190.247.0/24 ip4:64.233.160.0/19 ip4:66.102.0.0/20 ip4:66.249.80.0/20 ip4:72.14.192.0/18 ip4:74.125.0.0/16 ip4:108.177.8.0/21 ip4:173.194.0.0/16 ip4:209.85.128.0/17 ip4:216.58.192.0/19 ip4:216.239.32.0/19 ~all""]
+[txt-fingerprint] [dns] [info] bantenprov.go.id [""v=spf1 include:_spf.bantenprov.go.id ip4:35.190.247.0/24 ip4:64.233.160.0/19 ip4:66.102.0.0/20 ip4:66.249.80.0/20 ip4:72.14.192.0/18 ip4:74.125.0.0/16 ip4:108.177.8.0/21 ip4:173.194.0.0/16 ip4:209.85.128.0/17 ip4:216.58.192.0/19 ip4:216.239.32.0/19 ~all"",""google-site-verification=n0Fv2SqGwG8TYPJV2AWeJiAqcw3jlSIbmKi-kBNR8w8"",""ZOOM_verify_yrZoZztI2bgWjVPH7oDPqo""]
+[nameserver-fingerprint] [dns] [info] jatengprov.go.id ["ns2.jatengprov.go.id.","ns4.jatengprov.go.id.","ns1.jatengprov.go.id.","ns3.jatengprov.go.id."]
+[nameserver-fingerprint] [dns] [info] papua.go.id ["ns1.papua.go.id.","ns2.papua.go.id.","ns5.papua.go.id.","ns6.papua.go.id.","ns7.papua.go.id."]
+[dmarc-detect] [dns] [info] _dmarc.sumbarprov.go.id [""v=DMARC1; p=none;rua=mailto:mailpemerintahan@mail.go.id;""]
+[dmarc-detect] [dns] [info] _dmarc.jabarprov.go.id [""v=DMARC1; p=none; rua=mailto:dmarcreports@mxtoolbox.com"",""v=DMARC1; p=reject; rua=mailto:admin@jabarprov.go.id; adkim=s; aspf=s;""]
+[dmarc-detect] [dns] [info] _dmarc.kepriprov.go.id [""v=DMARC1;p=quarantine;sp=none;adkim=r;aspf=r;pct=100;fo=0;rf=afrf;ri=86400;rua=mailto:admin@kepriprov.go.id;ruf=mailto:admin@kepriprov.go.id""]
+[dmarc-detect] [dns] [info] _dmarc.jatimprov.go.id [""v=DMARC1; p=quarantine; rua=mailto:dmarc@jatimprov.go.id; ruf=mailto:dmarc@jatimprov.go.id; sp=quarantine""]
+[dmarc-detect] [dns] [info] _dmarc.sulselprov.go.id [""v=DMARC1; p=none; rua=mailto:admin@sulselprov.go.id""]
+[mx-fingerprint] [dns] [info] jabarprov.go.id ["5 mxrelay.jabarprov.go.id."]
+[dmarc-detect] [dns] [info] _dmarc.sulutprov.go.id [""v=DMARC1; p=quarantine; rua=mailto:20a82da0f5fe4b50ab982c3c18333140@dmarc-reports.cloudflare.net,mailto:postmaster@sulutprov.go.id; ruf=mailto:postmaster@sulutprov.go.id; pct=100; rf=afrf; ri=86400; sp=none""]
+[caa-fingerprint] [dns] [info] sumselprov.go.id
+[dmarc-detect] [dns] [info] _dmarc.lampungprov.go.id [""v=DMARC1; p=quarantine; rua=mailto:dmarc@lampungprov.go.id; ruf=mailto:dmarc@lampungprov.go.id; sp=quarantine""]
+[dmarc-detect] [dns] [info] _dmarc.kalbarprov.go.id [""v=DMARC1; p=none; rua=mailto:admin@kalbarprov.go.id""]
+[mx-fingerprint] [dns] [info] kalbarprov.go.id ["10 mail.kalbarprov.go.id."]
+[nameserver-fingerprint] [dns] [info] gorontaloprov.go.id ["nx1.gorontaloprov.go.id.","nx2.gorontaloprov.go.id."]
+[mx-fingerprint] [dns] [info] jambiprov.go.id ["10 narada.mail.go.id.","10 yamadipati.mail.go.id."]
+[dmarc-detect] [dns] [info] _dmarc.babelprov.go.id [""v=DMARC1;p=quarantine;sp=none;adkim=r;aspf=r;pct=100;fo=0;rf=afrf;ri=86400;rua=mailto:admin@babelprov.go.id""]
+[spf-record-detect] [dns] [info] nttprov.go.id ["v=spf1 +a +mx +ip4:202.52.146.73 +ip4:45.77.101.34 +include:idweb.host ~all""]
+[txt-fingerprint] [dns] [info] nttprov.go.id [""v=spf1 +a +mx +ip4:202.52.146.73 +ip4:45.77.101.34 +include:idweb.host ~all""]
+[dmarc-detect] [dns] [info] _dmarc.jogjaprov.go.id [""v=DMARC1; p=quarantine; rua=mailto:admin@jogjaprov.go.id""]
+[dmarc-detect] [dns] [info] _dmarc.jambiprov.go.id [""v=DMARC1""]
+[nameserver-fingerprint] [dns] [info] sumutprov.go.id ["ns3.sumutprov.go.id.","ns1.sumutprov.go.id.","ns4.sumutprov.go.id.","ns2.sumutprov.go.id."]
+[dmarc-detect] [dns] [info] _dmarc.sulbarprov.go.id [""v=DMARC1; p=none""]
+[dmarc-detect] [dns] [info] _dmarc.bantenprov.go.id [""v=DMARC1; p=reject; sp=quarantine; rua=mailto:postmaster@bantenprov.go.id; pct=100;""]
+[dmarc-detect] [dns] [info] _dmarc.acehprov.go.id [""v=DMARC1; p=none; sp=none; rua=mailto:admin@acehprov.go.id; ruf=mailto:admin@acehprov.go.id; rf=afrf; pct=100; ri=86400""]
+[spf-record-detect] [dns] [info] sumselprov.go.id ["v=spf1 a mx ip4:103.239.165.138 ~all""]
+[txt-fingerprint] [dns] [info] sumselprov.go.id [""v=spf1 a mx ip4:103.239.165.138 ~all"",""google-site-verification=2hHwc0evrycLjZFiM22gOc3wXYlzbZjkeQ54ZL3zurw""]
+[dmarc-detect] [dns] [info] _dmarc.kaltimprov.go.id [""v=DMARC1; p=reject; rua=mailto:admin@kaltimprov.go.id; ruf=mailto:admin@kaltimprov.go.id; sp=reject; adkim=s; aspf=s""]
+[dmarc-detect] [dns] [info] _dmarc.riau.go.id [""v=DMARC1; p=quarantine; ""]
+[dmarc-detect] [dns] [info] _dmarc.gorontaloprov.go.id [""v=DMARC1; p=reject; sp=reject; rua=mailto:dmarc@gorontaloprov.go.id;""]
+[nameserver-fingerprint] [dns] [info] malutprov.go.id ["ns1.malutprov.net.","ns2.malutprov.net."]
+[mx-fingerprint] [dns] [info] riau.go.id ["10 mail.riau.go.id."]
+[caa-fingerprint] [dns] [info] jakarta.go.id
+[nameserver-fingerprint] [dns] [info] jogjaprov.go.id ["ns2.jogjaprov.go.id.","ns3.jogjaprov.go.id.","ns1.jogjaprov.go.id."]
+[dmarc-detect] [dns] [info] _dmarc.jakarta.go.id [""v=DMARC1;p=quarantine;rua=mailto:admin@jakarta.go.id;ruf=mailto:postmaster@jakarta.go.id,mailto:f2cbb016@forensics.dmarc-report.com;sp=quarantine;pct=0;adkim=r;aspf=r""]
+[nameserver-fingerprint] [dns] [info] acehprov.go.id ["ns5.acehprov.go.id.","ns1.acehprov.go.id."]
+[nameserver-fingerprint] [dns] [info] riau.go.id ["canopus.idgx.net."]
+[caa-fingerprint] [dns] [info] sumutprov.go.id
+[dmarc-detect] [dns] [info] _dmarc.sumselprov.go.id [""v=DMARC1;p=reject;pct=100;rua=mailto:postmaster@sumselprov.go.id""]
+[dmarc-detect] [dns] [info] _dmarc.sumutprov.go.id [""v=DMARC1; p=none; rua=mailto:admin@sumutprov.go.id""]
+[nameserver-fingerprint] [dns] [info] kalbarprov.go.id ["ns3.irza.net.","ns1.irza.net.","ns2.irza.net."]
