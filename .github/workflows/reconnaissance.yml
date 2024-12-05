@@ -20,7 +20,7 @@ jobs:
           
       - name: Running 
         run: |
-          curl -s "https://gist.githubusercontent.com/z0rs/4d7315dd42336e8dcbcaef7ec6e05f2b/raw/20c86b555382cd4280fb4d0c4e9e474df04e773a/province.md" | nuclei -silent -nc -attack-type pitchfork | tee Nuclei/result.$(date +%Y-%m-%d).txt
+          curl -s "https://gist.githubusercontent.com/0x3n0/15c107e1d4bbe09acd2a4b68f08bcbac/raw/ee3633c4c33a79a3f265a9cc3e1d1ec5af643ec9/host.txt" | nuclei -silent -nc -attack-type pitchfork | tee Nuclei/result.$(date +%Y-%m-%d).txt
           
       - name: Set up Git user
         run: |
