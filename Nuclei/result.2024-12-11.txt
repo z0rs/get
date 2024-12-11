@@ -1,0 +1,83 @@
+[waf-detect:cloudfront] [http] [info] https://www.argenta.eu
+[waf-detect:apachegeneric] [http] [info] https://www.argenta.eu
+[waf-detect:apachegeneric] [http] [info] https://argenta.eu
+[tls-version] [ssl] [info] www.argenta.eu:443 ["tls12"]
+[tls-version] [ssl] [info] www.argenta.eu:443 ["tls13"]
+[tls-version] [ssl] [info] smetrics.argenta.eu:443 ["tls12"]
+[tls-version] [ssl] [info] smetrics.argenta.eu:443 ["tls13"]
+[tls-version] [ssl] [info] metrics.argenta.eu:443 ["tls12"]
+[tls-version] [ssl] [info] metrics.argenta.eu:443 ["tls13"]
+[tls-version] [ssl] [info] argenta.eu:443 ["tls12"]
+[http-missing-security-headers:x-frame-options] [http] [info] https://smetrics.argenta.eu
+[http-missing-security-headers:referrer-policy] [http] [info] https://smetrics.argenta.eu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://smetrics.argenta.eu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://smetrics.argenta.eu
+[http-missing-security-headers:content-security-policy] [http] [info] https://smetrics.argenta.eu
+[http-missing-security-headers:permissions-policy] [http] [info] https://smetrics.argenta.eu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://smetrics.argenta.eu
+[http-missing-security-headers:clear-site-data] [http] [info] https://smetrics.argenta.eu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://smetrics.argenta.eu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://metrics.argenta.eu
+[http-missing-security-headers:permissions-policy] [http] [info] https://metrics.argenta.eu
+[http-missing-security-headers:x-frame-options] [http] [info] https://metrics.argenta.eu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://metrics.argenta.eu
+[http-missing-security-headers:referrer-policy] [http] [info] https://metrics.argenta.eu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://metrics.argenta.eu
+[http-missing-security-headers:strict-transport-security] [http] [info] https://metrics.argenta.eu
+[http-missing-security-headers:content-security-policy] [http] [info] https://metrics.argenta.eu
+[http-missing-security-headers:clear-site-data] [http] [info] https://metrics.argenta.eu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://metrics.argenta.eu
+[http-missing-security-headers:strict-transport-security] [http] [info] https://www.argenta.eu
+[http-missing-security-headers:content-security-policy] [http] [info] https://www.argenta.eu
+[http-missing-security-headers:permissions-policy] [http] [info] https://www.argenta.eu
+[http-missing-security-headers:x-frame-options] [http] [info] https://www.argenta.eu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://www.argenta.eu
+[http-missing-security-headers:clear-site-data] [http] [info] https://www.argenta.eu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://www.argenta.eu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://www.argenta.eu
+[http-missing-security-headers:referrer-policy] [http] [info] https://www.argenta.eu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://www.argenta.eu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://www.argenta.eu
+[aws-detect:aws-cloudfront] [http] [info] https://www.argenta.eu
+[http-missing-security-headers:x-content-type-options] [http] [info] https://argenta.eu
+[http-missing-security-headers:x-permitted-cross-domain-policies] [http] [info] https://argenta.eu
+[http-missing-security-headers:clear-site-data] [http] [info] https://argenta.eu
+[http-missing-security-headers:cross-origin-opener-policy] [http] [info] https://argenta.eu
+[http-missing-security-headers:cross-origin-resource-policy] [http] [info] https://argenta.eu
+[http-missing-security-headers:strict-transport-security] [http] [info] https://argenta.eu
+[http-missing-security-headers:content-security-policy] [http] [info] https://argenta.eu
+[http-missing-security-headers:permissions-policy] [http] [info] https://argenta.eu
+[http-missing-security-headers:x-frame-options] [http] [info] https://argenta.eu
+[http-missing-security-headers:referrer-policy] [http] [info] https://argenta.eu
+[http-missing-security-headers:cross-origin-embedder-policy] [http] [info] https://argenta.eu
+[aws-detect:aws-alb] [http] [info] https://argenta.eu
+[s3-detect] [http] [info] https://www.argenta.eu/%c0
+[tech-detect:awselb] [http] [info] https://argenta.eu
+[xss-deprecated-header] [http] [info] https://smetrics.argenta.eu ["1; mode=block"]
+[xss-deprecated-header] [http] [info] https://metrics.argenta.eu ["1; mode=block"]
+[aws-bucket-service] [http] [info] https://www.argenta.eu
+[aws-cloudfront-service] [http] [info] https://www.argenta.eu
+[robots-txt-endpoint] [http] [info] https://smetrics.argenta.eu/robots.txt
+[robots-txt-endpoint] [http] [info] https://metrics.argenta.eu/robots.txt
+[dnssec-detection] [dns] [info] argenta.eu
+[dns-saas-service-detection] [dns] [info] metrics.argenta.eu ["argenta.eu.sc.omtrdc.net"]
+[nameserver-fingerprint] [dns] [info] www.argenta.eu ["ns-375.awsdns-46.com.","ns-528.awsdns-02.net.","ns-1986.awsdns-56.co.uk.","ns-1128.awsdns-13.org."]
+[ssl-issuer] [ssl] [info] www.argenta.eu:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] www.argenta.eu:443 ["argenta.eu","www.argenta.eu"]
+[caa-fingerprint] [dns] [info] argenta.eu
+[dns-saas-service-detection] [dns] [info] smetrics.argenta.eu ["argenta.eu.ssl.sc.omtrdc.net"]
+[caa-fingerprint] [dns] [info] metrics.argenta.eu
+[nameserver-fingerprint] [dns] [info] argenta.eu ["a28-67.akam.net.","a7-64.akam.net.","a1-220.akam.net.","a11-67.akam.net.","a12-66.akam.net.","a18-64.akam.net."]
+[dns-saas-service-detection:amazon-cloudfront] [dns] [info] www.argenta.eu ["dhisjjhj2tx6n.cloudfront.net"]
+[spf-record-detect] [dns] [info] argenta.eu ["v=spf1 mx a -all""]
+[txt-fingerprint] [dns] [info] argenta.eu [""v=spf1 mx a -all"",""5e022c1855f2487fa4168a9b1b352576"",""_kafh8mxnazmi0m08ro1zflbj0mcawm2"",""jlmgcwybl4ygnjc3j8dlgvtdtk11j055"",""m51lg3kz37ssz6trwkxfc9t8mljb069s""]
+[caa-fingerprint] [dns] [info] smetrics.argenta.eu
+[ssl-issuer] [ssl] [info] metrics.argenta.eu:443 ["DigiCert Inc"]
+[mismatched-ssl-certificate] [ssl] [low] metrics.argenta.eu:443 ["CN: *.sc.omtrdc.net"]
+[ssl-dns-names] [ssl] [info] metrics.argenta.eu:443 ["*.sc.omtrdc.net"]
+[wildcard-tls] [ssl] [info] metrics.argenta.eu:443 ["SAN: [*.sc.omtrdc.net]","CN: *.sc.omtrdc.net"]
+[ssl-issuer] [ssl] [info] smetrics.argenta.eu:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] smetrics.argenta.eu:443 ["smetrics.argenta.eu"]
+[caa-fingerprint] [dns] [info] www.argenta.eu
+[ssl-issuer] [ssl] [info] argenta.eu:443 ["DigiCert Inc"]
+[ssl-dns-names] [ssl] [info] argenta.eu:443 ["argenta.eu","www.argenta.eu"]
