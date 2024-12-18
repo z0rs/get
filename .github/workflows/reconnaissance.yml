@@ -20,7 +20,7 @@ jobs:
           
       - name: Running 
         run: |
-          curl -s "https://gist.githubusercontent.com/z0rs/5371acc1ba5e552f7bd6f3877f8b3ed9/raw/b6b24c2b50f46b1d3115040ccb368a23b426cf6e/argenta.txt" | nuclei -silent -nc -attack-type pitchfork | tee Nuclei/result.$(date +%Y-%m-%d).txt
+          curl -s "https://gist.githubusercontent.com/z0rs/896454e2804ea5cb8294efbef6b73bde/raw/b44cde84b6966547391e904b593e4799aaea3db2/portofantwerpbruges.txt" | nuclei -silent -nc -attack-type pitchfork | tee Nuclei/result.$(date +%Y-%m-%d).txt
           
       - name: Set up Git user
         run: |
