@@ -13,6 +13,11 @@ jobs:
         
       - name: Dependencies
         run: |
+          LATEST_VERSION=$(curl -s https://api.github.com/repos/projectdiscovery/nuclei/releases/latest | jq -r '.tag_name')
+          CLEAN_VERSION=${LATEST_VERSION#v}
+          wget https://github.com/projectdiscovery/nuclei/releases/download/${LATEST_VERSION}/nuclei_${CLEAN_VERSION}_linux_amd64.zip
+          unzip -o nuclei_${CLEAN_VERSION}_linux_amd64.zip
+          sudo mv nuclei /usr/bin/
           sudo apt-get update && sudo apt-get install -y wget unzip jq
           wget https://github.com/projectdiscovery/nuclei/releases/download/v3.3.5/nuclei_3.3.5_linux_amd64.zip
           unzip -o nuclei_3.3.5_linux_amd64.zip && sudo mv nuclei /usr/bin/
@@ -20,7 +25,7 @@ jobs:
           
       - name: Running 
         run: |
-          curl -s "https://gist.githubusercontent.com/z0rs/896454e2804ea5cb8294efbef6b73bde/raw/b44cde84b6966547391e904b593e4799aaea3db2/portofantwerpbruges.txt" | nuclei -silent -nc -attack-type pitchfork | tee Nuclei/result.$(date +%Y-%m-%d).txt
+          curl -s "https://raw.githubusercontent.com/z0rs/Recon/refs/heads/master/Domain.2024-10-28.txt" | nuclei -silent -attack-type pitchfork -rl 3 -bs 3 -timeout 20 -retries 2 -severity low,medium,high,critical,unknown | tee Nuclei/result.$(date +%Y-%m-%d).txt
           
       - name: Set up Git user
         run: |
