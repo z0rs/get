@@ -25,7 +25,7 @@ jobs:
           
       - name: Running 
         run: |
-          curl -s "https://raw.githubusercontent.com/z0rs/Recon/refs/heads/master/Domain.2024-10-28.txt" | nuclei -silent -attack-type pitchfork -rl 3 -bs 3 -timeout 20 -retries 2 -severity low,medium,high,critical,unknown | tee Nuclei/result.$(date +%Y-%m-%d).txt
+          curl -s "https://gist.githubusercontent.com/z0rs/4d7315dd42336e8dcbcaef7ec6e05f2b/raw/20c86b555382cd4280fb4d0c4e9e474df04e773a/province.md" | nuclei -silent -attack-type pitchfork -rl 3 -bs 3 -timeout 20 -retries 2 -severity low,medium,high,critical,unknown -o Nuclei/result.$(date +%Y-%m-%d).txt
           
       - name: Set up Git user
         run: |
