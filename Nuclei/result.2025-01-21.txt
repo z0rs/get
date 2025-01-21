@@ -1,0 +1,17 @@
+[phpinfo-files] [http] [low] https://malutprov.go.id/phpinfo.php ["7.4.33"] [paths="/phpinfo.php"]
+[roundcube-log-disclosure] [http] [medium] https://sulbarprov.go.id/webmail/logs/errors.log ["196028"] [roundcube_path="webmail/logs/errors.log"]
+[ssrf-via-oauth-misconfig] [http] [medium] https://ntbprov.go.id/connect/register
+[fastjson-1-2-62-rce] [http] [critical] https://ntbprov.go.id
+[weak-cipher-suites:tls-1.0] [ssl] [low] jatimprov.go.id:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] jatimprov.go.id:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] lampungprov.go.id:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] lampungprov.go.id:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] sulutprov.go.id:443 ["[tls10 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] sulutprov.go.id:443 ["[tls11 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] ntbprov.go.id:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] ntbprov.go.id:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] jakarta.go.id:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] jambiprov.go.id:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] jakarta.go.id:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[plesk-stat] [http] [medium] https://ntbprov.go.id/plesk-stat/
+[credentials-disclosure] [http] [unknown] https://papuabaratprov.go.id ["access_token={accessToken","accessToken: 'pk"]
