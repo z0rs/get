@@ -23,7 +23,7 @@ jobs:
           
       - name: Running 
         run: |
-          curl -s "https://gist.githubusercontent.com/z0rs/4d7315dd42336e8dcbcaef7ec6e05f2b/raw/20c86b555382cd4280fb4d0c4e9e474df04e773a/province.md" | nuclei -silent -attack-type pitchfork -severity low,medium,high,critical,unknown -o Nuclei/result.$(date +%Y-%m-%d).txt
+          curl -s "https://gist.githubusercontent.com/z0rs/044ec5eab22f1ee26a956b9ffe61c8bd/raw/e29e6d883ae6e97be72550749752352326624e92/xvideos.com" | nuclei -silent -attack-type pitchfork -severity low,medium,high,critical,unknown -o Nuclei/xvideos.$(date +%Y-%m-%d).txt
           
       - name: Set up Git user
         run: |
@@ -32,7 +32,7 @@ jobs:
           
       - name: Commit changes
         run: |
-          git add Nuclei/result.$(date +%Y-%m-%d).txt
+          git add Nuclei/xvideos.$(date +%Y-%m-%d).txt
           git commit -m "Result scan $(date -u)" --no-verify
 
       - name: Push changes
