@@ -23,7 +23,7 @@ jobs:
           
       - name: Running 
         run: |
-          curl -s "https://gist.githubusercontent.com/z0rs/5e3e2a08a0a9d0fa432b028e18f5d304/raw/c4be0799eefab299dee56762e9893c46fc3e4143/detrip" | nuclei -silent -attack-type pitchfork -severity medium,high,critical,unknown -o Nuclei/detrip.$(date +%Y-%m-%d).txt
+          curl -s "https://gist.githubusercontent.com/z0rs/4b4fc42d330606ac92bc354f99e9dcd1/raw/1140b4cebe0e84b198a9734737a525e066d51ea7/kominfo" | nuclei -silent -attack-type pitchfork -severity medium,high,critical,unknown -o Nuclei/kominfo.$(date +%Y-%m-%d).txt
           
       - name: Set up Git user
         run: |
@@ -32,7 +32,7 @@ jobs:
           
       - name: Commit changes
         run: |
-          git add Nuclei/detrip.$(date +%Y-%m-%d).txt
+          git add Nuclei/kominfo.$(date +%Y-%m-%d).txt
           git commit -m "Result scan $(date -u)" --no-verify
 
       - name: Push changes
