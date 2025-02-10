@@ -23,7 +23,7 @@ jobs:
           
       - name: Running 
         run: |
-          curl -s "shop-apotheke.com" | nuclei -silent -attack-type pitchfork -severity medium,high,critical,unknown -o Nuclei/shop-apotheke.com.$(date +%Y-%m-%d).txt
+          nuclei -u shop-apotheke.com -silent -attack-type pitchfork -severity medium,high,critical,unknown -o Nuclei/shop-apotheke.com.$(date +%Y-%m-%d).txt
           
       - name: Set up Git user
         run: |
