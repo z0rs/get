@@ -23,7 +23,7 @@ jobs:
           
       - name: Running 
         run: |
-          nuclei -u shop-apotheke.com -silent -attack-type pitchfork -severity medium,high,critical,unknown -o Nuclei/shop-apotheke.com.$(date +%Y-%m-%d).txt
+          curl -s "https://gist.githubusercontent.com/z0rs/b01a8e1caf8a40af017bf9970fc4206f/raw/eaaae2eaa61eadd4acc2bf3ffc8a728dc4f6fc9f/hilton.com" | nuclei -silent -attack-type pitchfork -severity medium,high,critical,unknown -o Nuclei/hilton.com.$(date +%Y-%m-%d).txt
           
       - name: Set up Git user
         run: |
@@ -32,7 +32,7 @@ jobs:
           
       - name: Commit changes
         run: |
-          git add Nuclei/shop-apotheke.com.$(date +%Y-%m-%d).txt
+          git add Nuclei/hilton.com.$(date +%Y-%m-%d).txt
           git commit -m "Result scan $(date -u)" --no-verify
 
       - name: Push changes
