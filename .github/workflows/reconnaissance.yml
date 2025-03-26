@@ -34,7 +34,6 @@ jobs:
         run: |
           git add Nuclei/hilton.com.$(date +%Y-%m-%d).txt
           git commit -m "Result scan $(date -u)" --no-verify
-
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
