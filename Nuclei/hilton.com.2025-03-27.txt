@@ -1,0 +1,23 @@
+[weak-cipher-suites:tls-1.1] [ssl] [low] gds-pcd.hilton.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] gds-pcdstage.hilton.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] scout.hilton.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] scout.hilton.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] www.scout.hilton.com:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] www.scout.hilton.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] designinformation.hilton.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] rapid.hilton.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA]"]
+[weak-cipher-suites:tls-1.2] [ssl] [low] alohaapac-1.hilton.com:443 ["[tls12 TLS_RSA_WITH_AES_256_CBC_SHA]"]
+[weak-cipher-suites:tls-1.2] [ssl] [low] alohaemea.hilton.com:443 ["[tls12 TLS_RSA_WITH_AES_256_CBC_SHA]"]
+[weak-cipher-suites:tls-1.2] [ssl] [low] alohaapac.hilton.com:443 ["[tls12 TLS_RSA_WITH_AES_256_CBC_SHA]"]
+[weak-cipher-suites:tls-1.2] [ssl] [low] alohaemea-1.hilton.com:443 ["[tls12 TLS_RSA_WITH_AES_256_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] hiltonnet.hilton.com:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[polyfill-backdoor] [http] [low] https://luxurysuites.hilton.com
+[polyfill-backdoor] [http] [low] https://emea.hilton.com
+[polyfill-backdoor] [http] [low] https://www.luxurysuites.hilton.com
+[mismatched-ssl-certificate] [ssl] [low] mstr3000.hilton.com:443 ["CN: *.cloud.microstrategy.com"]
+[expired-ssl] [ssl] [low] gds-pcdstage.hilton.com:443 ["2025-01-19 21:56:15 +0000 UTC"]
+[revoked-ssl-certificate] [ssl] [low] gds-pcdstage.hilton.com:443
+[expired-ssl] [ssl] [low] gds-pcd.hilton.com:443 ["2025-01-14 23:59:59 +0000 UTC"]
+[revoked-ssl-certificate] [ssl] [low] gds-pcd.hilton.com:443
+[mismatched-ssl-certificate] [ssl] [low] hiltonnet.hilton.com:443 ["CN: onqinsider.hilton.com"]
+[mismatched-ssl-certificate] [ssl] [low] mahalo.hilton.com:443 ["CN: aloha.hilton.com"]
