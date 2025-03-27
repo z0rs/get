@@ -23,7 +23,7 @@ jobs:
           
       - name: Running 
         run: |
-          curl -s "https://gist.githubusercontent.com/z0rs/b01a8e1caf8a40af017bf9970fc4206f/raw/eaaae2eaa61eadd4acc2bf3ffc8a728dc4f6fc9f/hilton.com" | nuclei -silent -attack-type pitchfork -severity low,medium,high,critical,unknown -o Nuclei/hilton.com.$(date +%Y-%m-%d).txt
+          curl -s "https://gist.githubusercontent.com/z0rs/5006c4a14e531aee3250556aadb7c955/raw/7a59d3b90aca3353c1054d22bc1c3d335e02d375/all-hilton.com" | nuclei -silent -attack-type pitchfork -severity low,medium,high,critical,unknown -o Nuclei/result-hilton.com.$(date +%Y-%m-%d).txt
           
       - name: Set up Git user
         run: |
@@ -32,7 +32,7 @@ jobs:
           
       - name: Commit changes
         run: |
-          git add Nuclei/hilton.com.$(date +%Y-%m-%d).txt
+          git add Nuclei/result-hilton.$(date +%Y-%m-%d).txt
           git commit -m "Result scan $(date -u)" --no-verify
       - name: Push changes
         uses: ad-m/github-push-action@master
