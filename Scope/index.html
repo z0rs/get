@@ -1,44 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Scope Pattern Generator</title>
 	<style>
 		body {
 			background-color: #2b3137;
 			color: #ffffff;
 			font-family: Arial, sans-serif;
-			text-align: center;
-			height: 100%;
 			margin: 0;
 			padding: 0;
-		}
-		.center {
+			height: 100vh;
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			flex-direction: column;
-			height: 100vh;
 		}
-		#result {
-			margin-top: 20px;
-			text-align: left;
-			font-size: 14px;
-			color: #ccc;
-			max-width: 800px;
-			margin-left: auto;
-			margin-right: auto;
+		.container {
+			width: 90%;
+			max-width: 600px;
+			text-align: center;
 		}
-		input[type=text] {
-			width: 400px;
-			padding: 12px 20px;
-			margin: 8px 0;
-			box-sizing: border-box;
+		textarea {
+			width: 100%;
+			padding: 12px;
+			margin-top: 10px;
 			border: 2px solid #ccc;
 			border-radius: 4px;
 			background-color: #1e2328;
 			color: #fff;
+			resize: vertical;
 		}
-		input[type=button] {
+		button {
 			background-color: #4CAF50;
 			color: white;
 			padding: 12px 20px;
@@ -46,38 +39,78 @@
 			border-radius: 4px;
 			cursor: pointer;
 			font-size: 16px;
+			margin-top: 10px;
 		}
-		input[type=button]:hover {
+		button:hover {
 			background-color: #45a049;
+		}
+		.output {
+			margin-top: 20px;
+			text-align: left;
+			background-color: #1e2328;
+			padding: 10px;
+			border-radius: 4px;
+			white-space: pre-wrap;
+			position: relative;
+		}
+		.copy-btn {
+			position: absolute;
+			top: 10px;
+			right: 10px;
+			background-color: #555;
+			border: none;
+			color: white;
+			padding: 5px 10px;
+			cursor: pointer;
+			border-radius: 4px;
+		}
+		.copy-btn:hover {
+			background-color: #777;
 		}
 	</style>
 </head>
 <body>
-	<div class="center">
+	<div class="container">
 		<h1>Scope Pattern Generator</h1>
-		<form>
-			<label for="domains">Enter target domains (one per line):</label>
-			<br>
-			<textarea id="domains" name="domains" rows="1"></textarea>
-			<br>
-			<input type="button" value="Generate Scope Patterns" onclick="generateRegex()">
-		</form>
+		<label for="domains">Enter target domains (one per line):</label>
+		<textarea id="domains" rows="5"></textarea>
+		<br>
+		<button onclick="generateRegex()">Generate Scope Patterns</button>
 		<div id="result"></div>
 	</div>
 
-	<script type="text/javascript">
+	<script>
 		function generateRegex() {
-			var domains = document.getElementById("domains").value.split('\n');
-			var resultDiv = document.getElementById("result");
+			const input = document.getElementById("domains").value.trim();
+			const domains = input.split('\n');
+			const resultDiv = document.getElementById("result");
 			resultDiv.innerHTML = "";
-			for (var i = 0; i < domains.length; i++) {
-				var domain = domains[i].trim();
-				if (domain != "") {
-					var regex = "(^|^[^:]+://|[^.]+\\.)" + domain + ".*";
-					var p = document.createElement("p");
-					p.innerHTML = "<strong>" + domain + ":</strong> " + regex;
-					resultDiv.appendChild(p);
+
+			let fullText = "";
+			domains.forEach(domain => {
+				const trimmed = domain.trim();
+				if (trimmed) {
+					fullText += `(^|^[^:]+://|[^.]+\\.)${trimmed}$\n`;
 				}
+			});
+
+			if (fullText) {
+				const output = document.createElement("div");
+				output.className = "output";
+				output.innerText = fullText;
+
+				const copyBtn = document.createElement("button");
+				copyBtn.className = "copy-btn";
+				copyBtn.innerText = "Copy";
+				copyBtn.onclick = () => {
+					navigator.clipboard.writeText(fullText).then(() => {
+						copyBtn.innerText = "Copied!";
+						setTimeout(() => copyBtn.innerText = "Copy", 2000);
+					});
+				};
+
+				output.appendChild(copyBtn);
+				resultDiv.appendChild(output);
 			}
 		}
 	</script>
