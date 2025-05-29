@@ -23,7 +23,7 @@ jobs:
           
       - name: Running 
         run: |
-          curl -s "https://gist.githubusercontent.com/z0rs/6f981b30a203d6539ac2105c283e5fac/raw/6e53822d5b0c382dfabce45bd7f0b7d83890eee6/mtngroup.txt" | nuclei -silent -attack-type pitchfork -severity low,medium,high,critical,unknown -o Nuclei/result-mtngroup.$(date +%Y-%m-%d).txt
+          curl -s "https://gist.githubusercontent.com/z0rs/521be12298502f4490cab8bcca17c050/raw/53646d47280e145778bd23e818758b27d29da1f0/cirebonkota.txt" | nuclei -silent -attack-type pitchfork -severity low,medium,high,critical,unknown -o Nuclei/cirebonkota.$(date +%Y-%m-%d).txt
           
       - name: Set up Git user
         run: |
@@ -32,7 +32,7 @@ jobs:
           
       - name: Commit changes
         run: |
-          git add Nuclei/result-mtngroup.$(date +%Y-%m-%d).txt
+          git add Nuclei/cirebonkota.$(date +%Y-%m-%d).txt
           git commit -m "Result scan $(date -u)" --no-verify
       - name: Push changes
         uses: ad-m/github-push-action@master
