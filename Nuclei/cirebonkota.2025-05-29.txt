@@ -1,0 +1,23 @@
+[dns-rebinding:IPv4] [dns] [unknown] bappeda.cirebonkota.go.id ["10.10.74.26"]
+[dns-rebinding:IPv4] [dns] [unknown] appdevel.cirebonkota.go.id ["10.10.74.229"]
+[dns-rebinding:IPv4] [dns] [unknown] disdik.cirebonkota.go.id ["10.10.74.8"]
+[dns-rebinding:IPv4] [dns] [unknown] dishub.cirebonkota.go.id ["10.10.74.8"]
+[dns-rebinding:IPv4] [dns] [unknown] rsdgunungjati.cirebonkota.go.id ["10.10.74.26"]
+[dns-rebinding:IPv4] [dns] [unknown] siceppot-dev.cirebonkota.go.id ["10.10.74.9"]
+[dns-rebinding:IPv4] [dns] [unknown] sidara.appdevel.cirebonkota.go.id ["10.10.74.229"]
+[dns-rebinding:IPv4] [dns] [unknown] simpenda-v1.cirebonkota.go.id ["10.10.234.15"]
+[dns-rebinding:IPv4] [dns] [unknown] simpenda.cirebonkota.go.id ["10.10.234.15"]
+[dns-rebinding:IPv4] [dns] [unknown] simpenda-v3.cirebonkota.go.id ["10.10.234.14"]
+[ldap-anonymous-login-detect] [javascript] [medium] mail.cirebonkota.go.id:389
+[weak-cipher-suites:tls-1.1] [ssl] [low] dpmptsp.cirebonkota.go.id:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA]"]
+[weak-cipher-suites:tls-1.0] [ssl] [low] slks.cirebonkota.go.id:443 ["[tls10 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[weak-cipher-suites:tls-1.1] [ssl] [low] slks.cirebonkota.go.id:443 ["[tls11 TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA]"]
+[credentials-disclosure] [http] [unknown] https://dkis.cirebonkota.go.id ["api_key=ea11y-d36ec33f-a9a3-4a8b-9d28-1769e755e9a8"]
+[wp-user-enum:usernames] [http] [low] https://dpmptsp.cirebonkota.go.id/?rest_route=/wp/v2/users/ ["adminjeh","dpmptsp","faiz","Adminjeh","dpmptsp kota cirebon","Mang Faiz"]
+[wp-user-enum:usernames] [http] [low] https://dprd.cirebonkota.go.id/?rest_route=/wp/v2/users/ ["master","master-2","Admin DPRD","SuperAdmin ^_^","ed1tor-dprd"]
+[expired-ssl] [ssl] [low] eoffice.cirebonkota.go.id:443 ["2024-08-18 23:59:59 +0000 UTC"]
+[revoked-ssl-certificate] [ssl] [low] eoffice.cirebonkota.go.id:443
+[self-signed-ssl] [ssl] [low] m.jdih.cirebonkota.go.id:443
+[expired-ssl] [ssl] [low] slks.cirebonkota.go.id:443 ["2024-12-26 10:22:27 +0000 UTC"]
+[revoked-ssl-certificate] [ssl] [low] slks.cirebonkota.go.id:443
+[self-signed-ssl] [ssl] [low] slks.cirebonkota.go.id:443
