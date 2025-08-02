@@ -23,7 +23,7 @@ jobs:
           
       - name: Running 
         run: |
-          curl -s "https://gist.githubusercontent.com/z0rs/00b1404c1bba317c33b242a7b5291bac/raw/6034acc3189ae84a7539e113644323f551d97491/orvamedia.txt" | nuclei -silent -attack-type pitchfork -severity low,medium,high,critical,unknown -o Nuclei/orvamedia.$(date +%Y-%m-%d).txt
+          curl -s "https://voidev.atlassian.net" | nuclei -silent -attack-type pitchfork -severity low,medium,high,critical,unknown -o Nuclei/atlassian.$(date +%Y-%m-%d).txt
           
       - name: Set up Git user
         run: |
@@ -32,7 +32,7 @@ jobs:
           
       - name: Commit changes
         run: |
-          git add Nuclei/orvamedia.$(date +%Y-%m-%d).txt
+          git add Nuclei/atlassian.$(date +%Y-%m-%d).txt
           git commit -m "Result scan $(date -u)" --no-verify
       - name: Push changes
         uses: ad-m/github-push-action@master
