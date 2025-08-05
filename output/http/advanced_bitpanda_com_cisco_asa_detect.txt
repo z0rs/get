@@ -1,0 +1,34 @@
+[cisco-asa-detect] Dumped HTTP request for https://advanced.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: advanced.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0.1 Safari/605.1.15
+Connection: close
+Content-Length: 6
+Cookie: _ava_csrf=MTc1NDM5ODEzMnxJbTFLV2xOYU0xQXpaVk0yTVRnNGQwZE5VVkpDVVRGSFltRklkRGQ1VGtkbFVIZ3ZjRVV2VG1KWloyTTlJZ289fKJP_4w0njSvNJIudSGTj5zmPLvdwX5aErvdGNks_7hG; csrf=MTc1NDM5ODE1OXxseXdoLUpycDYtNjN6c0JPZ2RwaXNtQnc0MEFUUVEyMU9zZzdIZUhkaXNNRTJ0cnJMVVJ3X2hSWDhubThlbjk2dnhPd2ZSbnZRN0F1RkZTOXNBcjlzVFlKX3JLZVVCY1hOazB1M3pLeE5EblF2Q0tqSG5qRlIyR0NmY0ZFNlg5aVR5ND18Hd1C9eYITb5ic6BcZpGwfvMn2oc6OFopbaLhOugPsek=
+X-Aggregate-Auth: 1
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+TESTME
+[cisco-asa-detect] Dumped HTTP response https://advanced.bitpanda.com
+
+HTTP/1.0 400 Bad Request
+Connection: close
+Content-Length: 273
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:24 GMT
+Referrer-Policy: no-referrer
+
+
+<html><head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>400 Bad Request</title>
+</head>
+<body text=#000000 bgcolor=#ffffff>
+<h1>Error: Bad Request</h1>
+<h2>Your client has issued a malformed or illegal request.</h2>
+<h2></h2>
+</body></html>
+

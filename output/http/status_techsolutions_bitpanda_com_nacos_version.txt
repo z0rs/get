@@ -1,0 +1,92 @@
+[nacos-version] Dumped HTTP request for https://status.techsolutions.bitpanda.com/v1/console/server/state?accessToken&username
+
+
+GET /v1/console/server/state?accessToken&username HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=dnpobEcwQml6WnV4ZDBRek03bHFSbDk4WmN0WUNuaEhPQ2pxUVdaZG0vSk10YndlVGZtM0pGZ1llWmNGa05jWG90cjA4SVBKOUM4VS85dXhmSEVWZ0tjb2Q5T0dwOWxBOE9QTkVZOEI3bEtPaFlYb0U1Y1o4WGpnSi84c0QwZWlnWWJ1NXZsYXZWS3Flelk2ZTIrUmh3aFRBNm10L0N5QTRUaFRGYWszRFZNdytSSTl5YkVVMGxWMVYrdDJZRWdnWk4zc0xCTksyZXpYd2RjdkppWnU3cnJKS2hHSWFYeitHVjNQbnZZNkZ4Yz0tLXhqM0FSZUg4Z2V0d0JwRHFycnJMSkE9PQ%3D%3D--2227959bcb82628d0d718017dba2822bdeeca728
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[nacos-version] Dumped HTTP response https://status.techsolutions.bitpanda.com/v1/console/server/state?accessToken&username
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Atl-Request-Id: 2aabe03e-6ab1-4f65-8d2a-3e1a9d4e039c
+Atl-Traceid: 2aabe03e6ab14f658d2a3e1a9d4e039c
+Cache-Control: no-cache
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:32 GMT
+Location: https://status.techsolutions.bitpanda.com
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=118,atl-edge-internal;dur=4,atl-edge-upstream;dur=115,atl-edge-pop;desc="aws-us-east-1"
+Set-Cookie: _spsess=a05JZmZ0VnIrdzlrNG1uMEJpdWRobzJNRGJwWTJHZ3pnd3V5MUMwamlQbUFjS0sxaW9yaktOR1VKcWdTdmV3Uk56UGNFTThzS3RXeVJMSFNLaFpNMmxuMXdNOFJuV1ZRM1Fub3RaTWU4Q3ZxeG1iVkViUHhFcHVmZUJ4T0dzbk4vemV0K1FKK1NnZnZZQXdaYUxiYXduK1lOeUJsWmdaTmxnekd5cWZia0ROOTl1MzBnR1dldUcwaGRmbXI4NHJYdk13Mm9Pa093cFozc0laSlpEVE44WVJzWG9OcFpEdVZreHFkUDFGTVhMQT0tLThYZUJubEtjNjNMZmpTTjlSbkZMRWc9PQ%3D%3D--667a122a66e0663869f93a3e44928ec0ce06d3f6; path=/; expires=Fri, 08 Aug 2025 12:52:32 GMT; secure; HttpOnly; SameSite=Lax
+Strict-Transport-Security: max-age=259200
+Vary: Accept,Accept-Encoding
+Via: 1.1 3924198dd88678a1cab97875f32b6f20.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: wO0VkClVVsWFtoRC7xI00qDkk6DyiOnPxTiEMVAJIGjeN5WnO34mPw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Runtime: 0.041982
+X-Statuspage-Version: 286d2fa8936ee868c90b9a354eeabf8b3176da68
+X-Xss-Protection: 1; mode=block
+
+<html><body>You are being <a href="https://status.techsolutions.bitpanda.com">redirected</a>.</body></html>
+[nacos-version] Dumped HTTP request for https://status.techsolutions.bitpanda.com/nacos/v1/console/server/state?accessToken&username
+
+
+GET /nacos/v1/console/server/state?accessToken&username HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=WU1kQzZMUTdOby82Rk93VVlQcWxWNTQyaDBIQXJDRlJjclhLRWZpc3Z2TDZBMkpGUFF2Z1BWaTBEUHBKL2p3WjFOK2R5enpsd1czcnZpaWd4UW5ZdmZ4U0lXMEJjRzIxRkp4Y1I1Z28zdTBpeWM5R0xNZVZQR25RNEdNSFlsYzJBVTRBMkRVd0hVS3ZOWlZTNHR2VDV5MHRyMGtjZkNlTUFhK2MzRmdOb2ozTFdMZEFzYmlWUXRSVXpibzM0WlV0WVk4NTlXalg2dmZveXlVLzIwRHUvM0tFZTExRkcwSi90R1hJaEM1QzZkcz0tLWswd3NTTjFYaXpHRGNzRXozL2VabUE9PQ%3D%3D--bfa50bfef8e9e97eb88fe70259c71ef5ea9242e3
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[nacos-version] Dumped HTTP response https://status.techsolutions.bitpanda.com/nacos/v1/console/server/state?accessToken&username
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Atl-Request-Id: 3ce23520-7dc8-4335-8b6a-b27b61cd5118
+Atl-Traceid: 3ce235207dc843358b6ab27b61cd5118
+Cache-Control: no-cache
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:35 GMT
+Location: https://status.techsolutions.bitpanda.com
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=118,atl-edge-internal;dur=4,atl-edge-upstream;dur=115,atl-edge-pop;desc="aws-us-east-1"
+Set-Cookie: _spsess=ekVGaFlhZUNlblJObHpLMTEwZC94NmFXSFdDK0krbnVvK09ncE1uSzh3dGdrNzRKYjNMcmdta1Q2NHhNSndwV0J3RU1kZlZWZ3FWTzU2aVdSRmtpRWpzQ2pBbnJFOFZPOGtnRmYxaDlWZXhBTjJCMzRzTWdqTyt0blVBWCtuaHBYSkdsU2UyMkZQVUM5RkRFamp0bElBZVR6RHNhZE9QdnZDVGtRQmFaVnJSWHFkYkI0SERrTkRMVm9KZGtxbVFDY0tYb1ZYNkNSemF4ZUhsUUsrcmRxUjRhdktpTk1XRU5yT3M0dFdkWFQzTT0tLW1rRHAwMk13aytyZkNRdXNMVmxDTWc9PQ%3D%3D--8923b8d894345f35441934676c598687529a736a; path=/; expires=Fri, 08 Aug 2025 12:52:35 GMT; secure; HttpOnly; SameSite=Lax
+Strict-Transport-Security: max-age=259200
+Vary: Accept,Accept-Encoding
+Via: 1.1 aa0ac259128059e949248e63a3b6767e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: TW8cxpNMLLMe_WX6_Qo6if3DiLKz7jMPfnFGYrNSVAyOI1-59lStzQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Runtime: 0.040603
+X-Statuspage-Version: 286d2fa8936ee868c90b9a354eeabf8b3176da68
+X-Xss-Protection: 1; mode=block
+
+<html><body>You are being <a href="https://status.techsolutions.bitpanda.com">redirected</a>.</body></html>

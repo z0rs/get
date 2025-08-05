@@ -1,0 +1,280 @@
+[shell-box] Dumped HTTP request for http://akurateco.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[shell-box] Dumped HTTP response http://akurateco.bitpanda.com
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, private
+Content-Security-Policy: default-src 'self'; block-all-mixed-content; connect-src 'self' https://*.zendesk.com wss://*.zendesk.com wss://*.zopim.com https://*.sentry.io https://*:9090; font-src 'self' https://*.gstatic.com; form-action 'self'; frame-ancestors 'none'; frame-src *; img-src 'self' https://*.google-analytics.com data:;; object-src 'none'; script-src 'self' 'unsafe-eval' https://*.google-analytics.com https://*.googleapis.com https://*.gstatic.com https://*.smooch.io https://*.sentry.io https://*.zdassets.com https://*.zendesk.com https://*.zopim.com https://cdn.jsdelivr.net 'nonce-FbbW7FpOFKvX1zq2Xb18ww=='; style-src 'self' 'unsafe-hashes' 'unsafe-eval' https://cdn.jsdelivr.net https://*.googleapis.com 'nonce-FbbW7FpOFKvX1zq2Xb18ww=='; upgrade-insecure-requests
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:22 GMT
+Expires: Tue, 05 Aug 2025 12:49:22 GMT
+Referrer-Policy: no-referrer, strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Security-Policy: default-src 'self'; block-all-mixed-content; connect-src 'self' https://*.zendesk.com wss://*.zendesk.com wss://*.zopim.com https://*.sentry.io https://*:9090; font-src 'self' https://*.gstatic.com; form-action 'self'; frame-ancestors 'none'; frame-src *; img-src 'self' https://*.google-analytics.com data:;; object-src 'none'; script-src 'self' 'unsafe-eval' https://*.google-analytics.com https://*.googleapis.com https://*.gstatic.com https://*.smooch.io https://*.sentry.io https://*.zdassets.com https://*.zendesk.com https://*.zopim.com https://cdn.jsdelivr.net 'nonce-FbbW7FpOFKvX1zq2Xb18ww=='; style-src 'self' 'unsafe-hashes' 'unsafe-eval' https://cdn.jsdelivr.net https://*.googleapis.com 'nonce-FbbW7FpOFKvX1zq2Xb18ww=='; upgrade-insecure-requests
+X-Content-Type-Options: nosniff
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+
+
+<!DOCTYPE html>
+<html lang="en" >
+<!-- begin::Head -->
+<head>
+    <title>    Sign in
+</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta csp-nonce="FbbW7FpOFKvX1zq2Xb18ww==" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+                        <link rel="stylesheet" type="text/css" href="/build/vendors.dbe9e01a.css">
+                    <link rel="stylesheet" type="text/css" href="/build/app.53531c71.css">
+                <link rel="shortcut icon" href="data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAI/SURBVHgB7ZjxcdMwFMZ/cPxfGKCHNqAbICagGxAmgA1iJmiYoGIDmKDuBGSDagNgAtA7yWfHsYyRZZve6Xf3XRRLPr+nfJJeDIVCoVAo5Ec57Z3unH4HSXvHf4x2unF6oA26rx9OH52ek4knzEM7vcXPbCwo6/TF6RjGqNA+hr7N6NqjL+mrnK7wMx4bu2cjKvysV5wGLcFece7/MW2ShAkPF89rp+tLLqf4/4BP3PT6NCtjeg+PBS0JVbQBVuGaJHvojDuwMoZ4Ao3/1T/cd0ciz8hL7fSGFXnKesgW+rr3fTZrJCCB7vA2UZExv0gkt4UamqDlkNMD/Z9CX8NXElkigYr43v4TH/wFbV1k8WsniSUSUL3vErSUEnVoS3K60y99lkSWspDltP55FzS0cC/YAEN8P1eM1z9DumVlDNNO4n4pcRvGi3bh2iblhGFaAk39ozv3Nr9Mc2LPKieWOAcsfqeRE/kF3k71wDjdu560FkopkYDqtGeXE2snsKdNwHKaQFI5sdQ50EU5XXNeVsg66Z7YRxLImYCcsja0Nb7y1Axvj5+dXnJqp5oEciQggb8PnxL0A/Gq0+KDlx2n6lw3JJYTORL4gLdIbEHWTvd4iyjOrWTxdloVw/ipK4eU7P+a8bLiO/FfaxK51oDYR2b4G35GX+Fn+mZkvFjpENrJzElAHix/RO5p/S92UpHxFp+g3FOTidRXi/LySuGD3vF3/9dkDDoXFeP+VzwCFH4hNkFnedNQKBQKhcJU/gCquOurOZFxsQAAAABJRU5ErkJggg==" />
+                            </head>
+<!-- end::Head -->
+<!-- begin::Body -->
+<body id="kt_body" class=" quick-panel-right demo-panel-right offcanvas-right header-fixed header-mobile-fixed subheader-enabled aside-enabled aside-fixed aside-minimize-hoverable">
+        
+<!-- begin:: Page -->
+<div class="d-flex flex-column flex-root">
+    <div class="login-v2-background-image-position-default login login-2 login-signin-on d-flex flex-column flex-column-fluid position-relative overflow-hidden login-v2-background-image"
+    id="kt_login">
+
+        <!--begin::Item-->
+        <div class="login-header py-10 flex-column-auto">
+
+    <!--begin::Head-->
+    <div class="container d-flex flex-column flex-md-row align-items-center justify-content-center justify-content-md-between pl-md-12 ml-0">
+        <div class="flex-column-auto py-5 py-md-0">
+                    </div>
+    </div>
+    <!--end::Head-->
+
+</div>
+
+        <!--end::Item-->
+
+        <!--begin::Item-->
+        <div class="login-body d-flex flex-column-fluid justify-content-center">
+
+            <!--begin::Body-->
+            <div class="d-flex container">
+
+                <span class="d-flex align-items-center login-form login-signin justify-content-left">
+
+                    <!--begin::Form-->
+                    <form class="form w-xxl-550px rounded-lg p-15 p-sm-20 fv-plugins-bootstrap fv-plugins-framework login-v2-container" action="/login_check" autocomplete="off" method="post" id="kt_login_signin_form">
+                                                    <input type="hidden" name="_csrf_token" value="hUAX7jlla02gtGGAIZlZ9RKS4jg5mQ4j7NsugyAwkr0" />
+                                                <div class="pb-13 pt-lg-0 pt-5">
+                            <h3>Sign in to your account</h3>
+                        </div>
+                        <div class="form-group validated fv-plugins-icon-container">
+                            <input id="username" class="form-control form-control-solid h-auto p-6 rounded-lg " type="text" placeholder="Username" name="_username" required="required" autocomplete="off">
+                                                        <div id="custom-invalid-feedback" class="invalid-feedback d-none">
+                                <div class="d-flex align-items-center">
+                                    <span class="form-error-icon badge badge-danger text-uppercase mr-1">Error</span> <span id="form-error-message" class="form-error-message"></span>
+                                </div>
+                            </div>
+                                                    </div>
+                        <div class="form-group fv-plugins-icon-container">
+                            <input class="form-control form-control-solid h-auto p-6 rounded-lg" type="password" placeholder="Password" name="_password" required="required" autocomplete="off">
+                        </div>
+
+                        <!--begin::Action-->
+                        <div class="pb-lg-0 pb-5 d-flex align-items-center justify-content-between">
+                            <button type="submit" class="btn btn-primary btn-login font-weight-bolder font-size-h6 px-8 py-4 my-3 mr-3" name="_submit" id="kt_login_signin_submit">Sign In</button>
+                            <button id="forgot-password" class="btn btn-link forgot-password" type="button" title="To reset password enter Username">Forgot password?</button>
+                        </div>
+                                                    <p class="login-method-delimiter"><span>or log in with</span></p>
+                            <button id="saml-login" class="btn btn-secondary w-100 font-size-h6 font-weight-bolder px-8 py-4 my-3 mr-3" type="button">SSO with SAML</button>
+                                                <!--end::Action-->
+
+                    </form>
+                    <!--end::Form-->
+                </span>
+
+            </div>
+            <!--end::Body-->
+
+        </div>
+        <!--end::Item-->
+
+        <!--begin::Item-->
+        <div class="login-footer py-10 flex-column-auto">
+    <div class="container d-flex flex-column flex-md-row align-items-center justify-content-center justify-content-md-between">
+        <div class="font-size-h6 font-weight-bolder order-2 order-md-1 py-2 py-md-0"></div>
+    </div>
+</div>
+
+        <!--end::Item-->
+
+    </div>
+</div>
+<!-- end:: Page -->
+
+<script nonce="FbbW7FpOFKvX1zq2Xb18ww==">
+    const form =  document.querySelector("#kt_login_signin_form");
+
+    if (document.querySelector('#saml-login')) {
+        document.querySelector("#saml-login").addEventListener('click', () => {
+            window.location.href = 'https://akurateco.bitpanda.com/saml/login';
+        });
+    }
+
+    form.addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        const regex = /^[a-zA-Z0-9_.#@+&()|’\\\/\- ]+$/;
+        const username = document.getElementById("username").value.trim();
+        const invalidFeedback = document.getElementById("custom-invalid-feedback");
+        const errorMessage = document.getElementById("form-error-message");
+
+        if (!regex.test(username)) {
+            invalidFeedback.classList.add("d-block");
+            errorMessage.textContent = "Invalid credentials.";
+            return;
+        }
+        form.submit();
+    });
+
+    document.querySelector("#forgot-password").addEventListener('click', this.handleResetPassword);
+
+    function handleResetPassword() {
+        const usernameInput = document.getElementById("username");
+        const invalidFeedback = document.getElementById("custom-invalid-feedback");
+        const errorMessage = document.getElementById("form-error-message");
+        const forgotPasswordButton = document.getElementById("forgot-password");
+
+        if (!forgotPasswordButton.classList.contains("active")) {
+            invalidFeedback.classList.add("d-block");
+            errorMessage.textContent = "To reset your password, please enter your username."
+
+            return;
+        }
+
+        forgotPasswordButton.setAttribute("disabled", "");
+        fetch("/api/reset-password", {
+            method: "POST",
+            body: JSON.stringify({ username: usernameInput.value.trim() }),
+            headers: {
+                "Content-Type": "application/json",
+            },
+        })
+            .then((response) => {
+                if (response.ok) {
+                    Toastify({
+                        text: "Notification has been sent to email.",
+                        className: "toastify--success",
+                        duration: 5000,
+                        oldestFirst: false,
+                        close: true,
+                    }).showToast();
+
+                    return;
+                }
+
+                getErrorMessage(response).then((message) => {
+                    Toastify({
+                        text: message,
+                        className: "toastify--danger",
+                        duration: 5000000,
+                        oldestFirst: false,
+                        close: true,
+                    }).showToast();
+                });
+            })
+            .finally(() => {
+                forgotPasswordButton.removeAttribute("disabled");
+            });
+    }
+
+    function getErrorMessage(response)
+    {
+        return response.json().then(data => {
+            if (response.status === 400 || response.status === 403) {
+                return "Error. " + (data.message || response.statusText);
+            }
+
+            if (is500(response)) {
+                return "Sorry, unexpected error occurred";
+            }
+
+            return "Error. " + response.statusText;
+        });
+    }
+
+    function is500(response)
+    {
+        return response.statusText === "Internal Server Error" || response?.status === 500;
+    }
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const usernameInput = document.getElementById("username");
+        const forgotPasswordButton = document.getElementById("forgot-password");
+        const invalidFeedback = document.getElementById("custom-invalid-feedback");
+        const errorMessage = document.getElementById("form-error-message");
+
+        const toggleForgotPasswordLink = () => {
+            const value = usernameInput.value.trim();
+            const isActive = value !== "";
+
+            forgotPasswordButton.classList.toggle("active", isActive);
+            forgotPasswordButton.setAttribute("title", isActive ? "" : "To reset password enter Username");
+            invalidFeedback.classList.remove("d-block");
+            errorMessage.textContent = "To reset your password, please enter your username."
+        };
+
+        usernameInput.addEventListener("input", toggleForgotPasswordLink);
+    });
+</script>
+
+</body>
+<!-- end::Body -->
+</html>
+
+[shell-box] Dumped HTTP response http://akurateco.bitpanda.com
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, private
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:22 GMT
+Expires: Tue, 05 Aug 2025 12:49:22 GMT
+Location: https://akurateco.bitpanda.com/login
+Referrer-Policy: no-referrer, strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+
+[shell-box] Dumped HTTP response http://akurateco.bitpanda.com
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:21 GMT
+Location: https://akurateco.bitpanda.com
+
+

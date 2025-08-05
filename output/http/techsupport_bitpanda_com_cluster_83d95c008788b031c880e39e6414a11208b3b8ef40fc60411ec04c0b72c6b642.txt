@@ -1,0 +1,39 @@
+[cluster-83d95c008788b031c880e39e6414a11208b3b8ef40fc60411ec04c0b72c6b642] Dumped HTTP request for http://techsupport.bitpanda.com/index.php
+
+
+GET /index.php HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; he-IL) AppleWebKit/528+ (KHTML, like Gecko) Version/4.0 Safari/528.16
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-83d95c008788b031c880e39e6414a11208b3b8ef40fc60411ec04c0b72c6b642] Dumped HTTP response http://techsupport.bitpanda.com/index.php
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66e3ecbd8c93c-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:15 GMT
+Expires: Tue, 05 Aug 2025 13:52:15 GMT
+Location: https://techsupport.bitpanda.com/index.php
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Ql3Fq38%2BnoZa3lwP7MgKmlxigQ0AciOvzZSE3sszUs33U%2FPk2Q%2F7MZm7PrX9Ns1nocu%2BIYsffsTISHDcYL03%2FS%2FPslIP5x3xn%2FhhSdocAjJcIrsYZl7PEzakV7gvc5D6fhpbCb%2BhogP79Q%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=IUaCwD00SNHXUzZmwWSX.VmbPLcW0yHfBhEwmFuSxtk-1754398335-1.0.1.1-6rjmZuI54H.Mi5c1yrIkP65hxPS8NARRhhAcbDc3iM4U9vU5jL5XAlpqfAqdwOXwvJXcAH6GNDkluJzrHJjp5KemURZORt2Xisarnrw8zvc; path=/; expires=Tue, 05-Aug-25 13:22:15 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=C9QOq1R0TiuHK4GnwJlrD4hidaUF4aVVJBlXGtxFQAA-1754398335824-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

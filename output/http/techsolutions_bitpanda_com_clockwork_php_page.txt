@@ -1,0 +1,26 @@
+[clockwork-php-page] Dumped HTTP request for https://techsolutions.bitpanda.com/__clockwork/app
+
+
+GET /__clockwork/app HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[clockwork-php-page] Dumped HTTP response https://techsolutions.bitpanda.com/__clockwork/app
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:28 GMT
+Location: ./app/
+Via: 1.1 ef81d2c0d5984a166a5467acd7c2d88a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: eLcfAyDdkLLUW472GJXwPZ56rvd9Ad4DoZDjwAP6Eye4GTh7wQJrsw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

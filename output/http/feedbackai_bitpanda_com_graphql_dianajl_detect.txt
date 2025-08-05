@@ -1,0 +1,157 @@
+[graphql-dianajl-detect] Dumped HTTP request for http://feedbackai.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; rv:100.0esr) Gecko/20012409 Firefox/100.0esr
+Connection: close
+Content-Length: 33
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=LPAVSgIqziUfXXJu.XqobNy4nPwPS6G98bjRCd9hyIA-1754398384986-0.0.1.1-604800000; _cfuvid=75QcnnDKghl93maWb92gLVPEJWtjWjNueG_ALNBk8Mw-1754398398604-0.0.1.1-604800000; _cfuvid=ve9JYby9Q7KlY3XqsOO8dj8DTcyKUW6_0KoJSi448SM-1754398416822-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"queryy { __typename }"}
+[graphql-dianajl-detect] Dumped HTTP request for http://feedbackai.bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 33
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=rZS3Xe9cj710iGHQOTcISnOScM6fEfkjupx6.vwUppM-1754398430633-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"queryy { __typename }"}
+[graphql-dianajl-detect] Dumped HTTP response http://feedbackai.bitpanda.com/api/graphql
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a67090cd8d4a0b-IAD
+Date: Tue, 05 Aug 2025 12:53:50 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[graphql-dianajl-detect] Dumped HTTP response http://feedbackai.bitpanda.com/api/graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670908d54c9b5-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:50 GMT
+Expires: Tue, 05 Aug 2025 13:53:50 GMT
+Location: https://feedbackai.bitpanda.com/api/graphql
+Server: cloudflare
+Set-Cookie: _cfuvid=s8u_.AdVegMjOUzrcUZwXez4L4NN1lqQ9FVwLrC7r3w-1754398430828-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[graphql-dianajl-detect] Dumped HTTP request for http://feedbackai.bitpanda.com/query
+
+
+POST /query HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 33
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=KmaoH0KDDNB059On6.PSBzJVzpyJHb6sWNhM8AjzHdk-1754398430953-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"queryy { __typename }"}
+[graphql-dianajl-detect] Dumped HTTP response http://feedbackai.bitpanda.com/query
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670e0d910a9b4-IAD
+Date: Tue, 05 Aug 2025 12:54:03 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[graphql-dianajl-detect] Dumped HTTP response http://feedbackai.bitpanda.com/query
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670e0981dd6c7-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:03 GMT
+Expires: Tue, 05 Aug 2025 13:54:03 GMT
+Location: https://feedbackai.bitpanda.com/query
+Server: cloudflare
+Set-Cookie: _cfuvid=DIGyQtwK_HipxOX8pMgaab8tXaGJ9q5O4A_8QTPneX8-1754398443635-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[graphql-dianajl-detect] Dumped HTTP request for http://feedbackai.bitpanda.com/
+
+
+POST / HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15
+Connection: close
+Content-Length: 33
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=LqFnV5MFVr.iHMy25afOCdX5sVkiuNs84pH..xgu8GM-1754398443684-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"queryy { __typename }"}
+[graphql-dianajl-detect] Dumped HTTP response http://feedbackai.bitpanda.com/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a671349c539c4c-IAD
+Date: Tue, 05 Aug 2025 12:54:17 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[graphql-dianajl-detect] Dumped HTTP response http://feedbackai.bitpanda.com/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a671341affd6e5-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:17 GMT
+Expires: Tue, 05 Aug 2025 13:54:17 GMT
+Location: https://feedbackai.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=2H_Moa3mYdTyEaKqORMrS_2F0er9yOYyLVOPvGdYcPQ-1754398457030-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

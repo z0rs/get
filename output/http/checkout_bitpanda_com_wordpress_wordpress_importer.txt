@@ -1,0 +1,29 @@
+[wordpress-wordpress-importer] Dumped HTTP request for http://checkout.bitpanda.com/wp-content/plugins/wordpress-importer/readme.txt
+
+
+GET /wp-content/plugins/wordpress-importer/readme.txt HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-wordpress-importer] Dumped HTTP response http://checkout.bitpanda.com/wp-content/plugins/wordpress-importer/readme.txt
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:15 GMT
+Location: https://checkout.bitpanda.com/wp-content/plugins/wordpress-importer/readme.txt
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

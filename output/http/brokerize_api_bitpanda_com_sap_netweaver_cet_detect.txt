@@ -1,0 +1,30 @@
+[sap-netweaver-cet-detect] Dumped HTTP request for https://brokerize-api.bitpanda.com/rep/start/index.jsp
+
+
+GET /rep/start/index.jsp HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/601.6.17 (KHTML, like Gecko) Version/9.1.1 Safari/601.6.17
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=IBvnTSxVlsuTi_MfvJ6eoKMQS7w4JXXEAoGisjLl8ZY-1754398156045-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[sap-netweaver-cet-detect] Dumped HTTP response https://brokerize-api.bitpanda.com/rep/start/index.jsp
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e09924d6a8-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:17 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=H1uA2poovITk_8BL3EVqF1aI7xLRGmEA76cOCd0n.T4-1754398157014-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}

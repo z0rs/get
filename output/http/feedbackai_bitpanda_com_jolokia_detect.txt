@@ -1,0 +1,76 @@
+[jolokia-detect] Dumped HTTP request for http://feedbackai.bitpanda.com/jolokia/version
+
+
+GET /jolokia/version HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=75QcnnDKghl93maWb92gLVPEJWtjWjNueG_ALNBk8Mw-1754398398604-0.0.1.1-604800000; _cfuvid=3Ac.SZ691qXylATzRltaEwIP7IsfTT7oZZThYhy7ml4-1754398417040-0.0.1.1-604800000; _cfuvid=u43QX2cv4pTyKsY.MuNMLpYGs8IhU6FrY86y472LrRw-1754398432289-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jolokia-detect] Dumped HTTP response http://feedbackai.bitpanda.com/jolokia/version
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670b00cd48023-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:55 GMT
+Expires: Tue, 05 Aug 2025 13:53:55 GMT
+Location: https://feedbackai.bitpanda.com/jolokia/version
+Server: cloudflare
+Set-Cookie: _cfuvid=nhjF0PckMdBi.gid28gHU62MXGUw.gfsLenVuAMzjI8-1754398435880-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[jolokia-detect] Dumped HTTP request for http://feedbackai.bitpanda.com/actuator/jolokia/version
+
+
+GET /actuator/jolokia/version HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=nhjF0PckMdBi.gid28gHU62MXGUw.gfsLenVuAMzjI8-1754398435880-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jolokia-detect] Dumped HTTP response http://feedbackai.bitpanda.com/actuator/jolokia/version
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670e6dba9057f-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:04 GMT
+Expires: Tue, 05 Aug 2025 13:54:04 GMT
+Location: https://feedbackai.bitpanda.com/actuator/jolokia/version
+Server: cloudflare
+Set-Cookie: _cfuvid=YikpJtlY8Y0cVHRMApbbyhnlvUaMLdGjCmk2FTlWWxE-1754398444651-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

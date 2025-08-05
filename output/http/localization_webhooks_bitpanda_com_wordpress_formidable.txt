@@ -1,0 +1,37 @@
+[wordpress-formidable] Dumped HTTP request for http://localization.webhooks.bitpanda.com/wp-content/plugins/formidable/readme.txt
+
+
+GET /wp-content/plugins/formidable/readme.txt HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=I0wtj0GnFOJ1BwPEbPlmQWlNCAlEKR4kDJ9NjbyRWVY-1754398475043-0.0.1.1-604800000; _cfuvid=5w73VrLCZovH9UbPE9CwFG9tAbMf98ZNECvHYkGL0S8-1754398499769-0.0.1.1-604800000; _cfuvid=HtlK3LhlC.rBGFm_K_3ZgGOX_dWKsdJ1q.AgcTGtneo-1754398514657-0.0.1.1-604800000; _cfuvid=WB83FeXx40GNlfqoMSips3gNwe6daOuorwq8eUZwtBE-1754398529616-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-formidable] Dumped HTTP response http://localization.webhooks.bitpanda.com/wp-content/plugins/formidable/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67328dc112099-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:55:37 GMT
+Expires: Tue, 05 Aug 2025 13:55:37 GMT
+Location: https://localization.webhooks.bitpanda.com/wp-content/plugins/formidable/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=YOkLhaRYn0xR_WXUH_wVivxwFxYI8rnjuRjBfqtQ.7U-1754398537146-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

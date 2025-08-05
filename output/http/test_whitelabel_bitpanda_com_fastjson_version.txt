@@ -1,0 +1,13 @@
+[fastjson-version] Dumped HTTP request for http://test.whitelabel.bitpanda.com
+
+
+POST / HTTP/1.1
+Host: test.whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6.1 Mobile/15E148 Safari/604.1
+Connection: close
+Content-Length: 34
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"@type":"java.lang.AutoCloseable"

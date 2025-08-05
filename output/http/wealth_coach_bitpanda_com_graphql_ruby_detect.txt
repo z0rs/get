@@ -1,0 +1,60 @@
+[graphql-ruby-detect] Dumped HTTP request for http://wealth-coach.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: wealth-coach.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh, Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15
+Connection: close
+Content-Length: 36
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query @skip {__typename}"}
+[graphql-ruby-detect] Dumped HTTP request for http://wealth-coach.bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: wealth-coach.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/106.0 Safari/537.36
+Connection: close
+Content-Length: 36
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query @skip {__typename}"}
+[graphql-ruby-detect] Dumped HTTP request for http://wealth-coach.bitpanda.com/query
+
+
+POST /query HTTP/1.1
+Host: wealth-coach.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Connection: close
+Content-Length: 36
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query @skip {__typename}"}
+[graphql-ruby-detect] Dumped HTTP request for http://wealth-coach.bitpanda.com/
+
+
+POST / HTTP/1.1
+Host: wealth-coach.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0
+Connection: close
+Content-Length: 36
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query @skip {__typename}"}

@@ -1,0 +1,37 @@
+[wordpress-woocommerce-gateway-stripe] Dumped HTTP request for https://socket.bitpanda.com/wp-content/plugins/woocommerce-gateway-stripe/readme.txt
+
+
+GET /wp-content/plugins/woocommerce-gateway-stripe/readme.txt HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; sv-SE) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=iPfHVv5nI+aitT6dVNkaE9nOAkB5RgnCcRAfZZ/ar7jZPlFhLkn1Bh+O0G2mLVQu70Nq+2vttxPC74L20Q8LQDJvMB0typrR/jDc6h+PgnBEtxxi41B2OfX+9TJ0; AWSALBCORS=iPfHVv5nI+aitT6dVNkaE9nOAkB5RgnCcRAfZZ/ar7jZPlFhLkn1Bh+O0G2mLVQu70Nq+2vttxPC74L20Q8LQDJvMB0typrR/jDc6h+PgnBEtxxi41B2OfX+9TJ0
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-woocommerce-gateway-stripe] Dumped HTTP response https://socket.bitpanda.com/wp-content/plugins/woocommerce-gateway-stripe/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:46 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=qCbsfZ2UQLApvzG3aRYNoH31qtCdDvYv+ri/oszCp/jLI2NAAP0Qcq5ga4fkVHbvBGg97TllGxHuuKLWyD4ppso0h9XNc3OBKnCV/YcmA9y0IoztixEMuaIoy6tD; Expires=Tue, 12 Aug 2025 12:52:46 GMT; Path=/
+Set-Cookie: AWSALBCORS=qCbsfZ2UQLApvzG3aRYNoH31qtCdDvYv+ri/oszCp/jLI2NAAP0Qcq5ga4fkVHbvBGg97TllGxHuuKLWyD4ppso0h9XNc3OBKnCV/YcmA9y0IoztixEMuaIoy6tD; Expires=Tue, 12 Aug 2025 12:52:46 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 8f37d2a62fbfeba0212cd5ced67c0c16.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: LVqExpPm0KRuNGIM8MZhF-nIJ3cqSwJnuK1MvuSdAJB3hT8B6XJPeg==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 4
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

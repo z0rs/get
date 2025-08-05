@@ -1,0 +1,124 @@
+[tixeo-panel] Dumped HTTP request for https://status.techsolutions.bitpanda.com/meet/services/json/v1/settings
+
+
+GET /meet/services/json/v1/settings HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[tixeo-panel] Dumped HTTP response https://status.techsolutions.bitpanda.com/meet/services/json/v1/settings
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Atl-Request-Id: 2317122d-5f6c-4336-94e1-7ba573164de3
+Atl-Traceid: 2317122d5f6c433694e17ba573164de3
+Cache-Control: no-cache
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:17 GMT
+Location: https://status.techsolutions.bitpanda.com
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=138,atl-edge-internal;dur=2,atl-edge-upstream;dur=137,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=259200
+Vary: Accept,Accept-Encoding
+Via: 1.1 649b4de6ebe50fb3c542f3d95c8ed8ba.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: SowAAuGYTU0NUPHlqhiZHvzsawAqyVBosPBT3aJmzzG20FW44sJS0A==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Runtime: 0.057326
+X-Statuspage-Version: 286d2fa8936ee868c90b9a354eeabf8b3176da68
+X-Xss-Protection: 1; mode=block
+
+<html><body>You are being <a href="https://status.techsolutions.bitpanda.com">redirected</a>.</body></html>
+[tixeo-panel] Dumped HTTP request for https://status.techsolutions.bitpanda.com/meet/login.html
+
+
+GET /meet/login.html HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[tixeo-panel] Dumped HTTP response https://status.techsolutions.bitpanda.com/meet/login.html
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Atl-Request-Id: 92c9e474-4c72-418b-bc07-56a18b19f5d2
+Atl-Traceid: 92c9e4744c72418bbc0756a18b19f5d2
+Cache-Control: no-cache
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:20 GMT
+Location: https://status.techsolutions.bitpanda.com
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=117,atl-edge-internal;dur=3,atl-edge-upstream;dur=115,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=259200
+Vary: Accept,Accept-Encoding
+Via: 1.1 b051e9c33308597b659c33b8999b521c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: pbGwxRfU2ZHpEHp7oo-X1cbMI8nIrfKw3oYMHvaoRaDErLnvFq1CSg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Runtime: 0.040457
+X-Statuspage-Version: 286d2fa8936ee868c90b9a354eeabf8b3176da68
+X-Xss-Protection: 1; mode=block
+
+<html><body>You are being <a href="https://status.techsolutions.bitpanda.com">redirected</a>.</body></html>
+[tixeo-panel] Dumped HTTP request for https://status.techsolutions.bitpanda.com/meet/
+
+
+GET /meet/ HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686; rv:133.0) Gecko/20100101 Firefox/133.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=U3ZpYm1HZW1GZktnY01NRGY3QnFZbUhoTE01aytPZ1F1U1JYLzd2VDFzczZoYzAycGovTUY5VEl6NkNFcXVDVHZkYTRsY090blhWc1o4clgxMjFFdmYvUlBxUWV4MHNiLzljSEFZczZGZWJHVkZLWGo1RkF2RkQwZUxHVE9uT1hZUmxmVUgyb0s3Q1Q1c0NEMG9aNWxLZ0NVekFjQXNaRTZ1NUZkMFZubHZKZy9UbzZGTzBERmdJYTJTUlBYWjA3all1WEMyWjIzdnI5UGtjTjdCczN1VUF4YkIvdHdnS3cwaWw2UE1SUzFKTT0tLThXTTg5UzdsdDVmZ2cwc3AxUjFtK3c9PQ%3D%3D--ead104178992948684725b5c070917a060ea007d
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[tixeo-panel] Dumped HTTP response https://status.techsolutions.bitpanda.com/meet/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 7b0d2e91-c050-47d1-8eb7-bb40e9c6be43
+Atl-Traceid: 7b0d2e91c05047d18eb7bb40e9c6be43
+Date: Tue, 05 Aug 2025 12:52:23 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=3,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 ffa8ec5cfe61dcaaebc108ff8c867054.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Ke_9qHX8znfuRexxCEDzafaeZ7F_Nkqu3ZiVQ_t77332t-cVn4dL8w==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 738114785
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

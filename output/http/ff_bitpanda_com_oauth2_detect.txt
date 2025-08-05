@@ -1,0 +1,39 @@
+[oauth2-detect] Dumped HTTP request for http://ff.bitpanda.com/oauth/token
+
+
+POST /oauth/token HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686; rv:124.0) Gecko/20100101 Firefox/124.0
+Connection: close
+Content-Length: 117
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=vVbKUVeHR2BbzrOnoC1n69l1Ig__yfNzXfbJQ7aD36s-1754398431377-0.0.1.1-604800000; GCLB="db57902b0598c915"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+grant_type=authorization_code&client_id=xxx&redirect_uri=https%3A%2F%2Fprojectdiscovery.io&code=xxx&client_secret=xxx
+[oauth2-detect] Dumped HTTP response http://ff.bitpanda.com/oauth/token
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670ae09651877-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:55 GMT
+Expires: Tue, 05 Aug 2025 13:53:55 GMT
+Location: https://ff.bitpanda.com/oauth/token
+Server: cloudflare
+Set-Cookie: _cfuvid=diO_lzuJVAn9BKq93yy7ruKh9o1QTKSA_i4l7CEGRFU-1754398435546-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

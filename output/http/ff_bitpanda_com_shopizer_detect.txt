@@ -1,0 +1,76 @@
+[shopizer-detect] Dumped HTTP request for http://ff.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Mi14DX_vD6LBtsrFUSbfla08u3Umz2gysXfGAn2AMvg-1754398441123-0.0.1.1-604800000; GCLB="dabb80ed04dc7d60"; _cfuvid=6wWL.JcqoFvw19ruW0R4IFt43nEgnFE5D_bWmpRVtho-1754398457086-0.0.1.1-604800000; GCLB="458c5c3b9e209de4"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[shopizer-detect] Dumped HTTP response http://ff.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6717b3de1c095-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:28 GMT
+Expires: Tue, 05 Aug 2025 13:54:28 GMT
+Location: https://ff.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=7anz.okzzC28dbAWj9H2cDferTW4OrUupisX8bYbROc-1754398468374-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[shopizer-detect] Dumped HTTP request for http://ff.bitpanda.com/shop/
+
+
+GET /shop/ HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=7anz.okzzC28dbAWj9H2cDferTW4OrUupisX8bYbROc-1754398468374-0.0.1.1-604800000; GCLB="a18fcab568d64c54"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[shopizer-detect] Dumped HTTP response http://ff.bitpanda.com/shop/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6719b5b37d6e3-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:33 GMT
+Expires: Tue, 05 Aug 2025 13:54:33 GMT
+Location: https://ff.bitpanda.com/shop/
+Server: cloudflare
+Set-Cookie: _cfuvid=9Da0Ws.8KJzWT4XwQhnwXrGyRWRMqdUer6NtPCchrHU-1754398473525-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

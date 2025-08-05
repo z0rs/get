@@ -1,0 +1,39 @@
+[kube-api-services] Dumped HTTP request for https://bitpanda.com/api/v1/namespaces/default/services
+
+
+GET /api/v1/namespaces/default/services HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Safari/605.7.19
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=0xkf9QvCuSppeUajHdeDjrqMJeaS2r9bLxHNkJFd3SE-1754398251134-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[kube-api-services] Dumped HTTP response https://bitpanda.com/api/v1/namespaces/default/services
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66c31bdcba6b3-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:51 GMT
+Expires: Tue, 05 Aug 2025 13:50:51 GMT
+Location: https://www.bitpanda.com/api/v1/namespaces/default/services
+Server: cloudflare
+Set-Cookie: _cfuvid=vFf9KZRKMlmFlex8qptkaebxEnFzRDKYWL_8LnoLiAE-1754398251822-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

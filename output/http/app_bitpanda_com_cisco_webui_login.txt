@@ -1,0 +1,182 @@
+[cisco-webui-login] Dumped HTTP request for https://app.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cisco-webui-login] Dumped HTTP response https://app.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Accept-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Mitigated: challenge
+Cf-Ray: 96a6696268624f53-IAD
+Content-Type: text/html; charset=UTF-8
+Critical-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Date: Tue, 05 Aug 2025 12:48:56 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Origin-Agent-Cluster: ?1
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Referrer-Policy: same-origin
+Server: cloudflare
+Server-Timing: chlray;desc="96a6696268624f53"
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{line-height:2.25rem;font-size:1.5rem;font-weight:500}@media (width <= 720px){.h2{line-height:1.5rem;font-size:1.25rem}}#challenge-error-text{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+");background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme: dark){body{background-color:#222;color:#d9d9d9}}</style><meta http-equiv="refresh" content="360"></head><body><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cvId: '3',cZone: 'account.bitpanda.com',cType: 'managed',cRay: '96a6696268624f53',cH: 'IVBsELqHhOtkTubJMLR_p684OtlDpvm4p1GRq6ECSG4-1754398136-1.2.1.1-bKSgxqVWKcd7Bw2IMQtzKtSHkn4JuqH8VMNOYhFVas4HoPVmH_lRp0RXsrqfcwZN',cUPMDTk:"\/authorization\/oauth\/authorize?response_type=code&client_id=19&redirect_uri=https%3A%2F%2Fapp.bitpanda.com%2Fapi%2Fauth%2Fcallback%2Fbitpanda&state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiZWpxYWRMU1dJdlhub0IyS2VPc3d3a2U2eWhRZDN4aFhGX2hiSGEyTEZCSnJxaklObWRzZnU0WWRERi1icXlkRVMyX1Npal9HamM5RjgxZE94VnBhU1EifQ..-PbU5Wfu74sjghlBCJVtUA.25jOqdBx1Ut3dVQp4hCZ1cFHp1ghwZlRLOzs-DJlIAqE3t-Q9gdR8PdM06kFODHkfEoCR0o4fxPb2bGgioPjXz1IFgxOxiR42FmvzdjxQ7Nm-LTz3FiVJSamMy2Ltt_WnrhNlLmpuolvJVb9hw8ZiuCpCkJFt-bsreapoahdlT4Pp1ulrXqox6AW8R8xDzTC.pt9OUJ3kEJvPm3y5kyHI5nqdLzliaSPxFP5gR9BOWGI&scope=openid+profile+email&__cf_chl_tk=Ng0wCO1dHtXKRuit2s6YBItkssHLVgKF_zhKoLEtOCY-1754398136-1.0.1.1-U4u9Aj9wdTaszGJjYb1pYf.JoTBm47.naHG4KjY74z4",cFPWv: 'b',cITimeS: '1754398136',cTplC:0,cTplV:5,cTplB: 'cf',fa:"\/authorization\/oauth\/authorize?response_type=code&client_id=19&redirect_uri=https%3A%2F%2Fapp.bitpanda.com%2Fapi%2Fauth%2Fcallback%2Fbitpanda&state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiZWpxYWRMU1dJdlhub0IyS2VPc3d3a2U2eWhRZDN4aFhGX2hiSGEyTEZCSnJxaklObWRzZnU0WWRERi1icXlkRVMyX1Npal9HamM5RjgxZE94VnBhU1EifQ..-PbU5Wfu74sjghlBCJVtUA.25jOqdBx1Ut3dVQp4hCZ1cFHp1ghwZlRLOzs-DJlIAqE3t-Q9gdR8PdM06kFODHkfEoCR0o4fxPb2bGgioPjXz1IFgxOxiR42FmvzdjxQ7Nm-LTz3FiVJSamMy2Ltt_WnrhNlLmpuolvJVb9hw8ZiuCpCkJFt-bsreapoahdlT4Pp1ulrXqox6AW8R8xDzTC.pt9OUJ3kEJvPm3y5kyHI5nqdLzliaSPxFP5gR9BOWGI&scope=openid+profile+email&__cf_chl_f_tk=Ng0wCO1dHtXKRuit2s6YBItkssHLVgKF_zhKoLEtOCY-1754398136-1.0.1.1-U4u9Aj9wdTaszGJjYb1pYf.JoTBm47.naHG4KjY74z4",md: 'HM0nH1ibbAIFum2zN6X.klEJdkYazGbTHIVfVrXypUs-1754398136-1.2.1.1-AL0RNL8XkrlN7VYzFvtmr01W6JCkLNaFfzSOykJ0SYg2G.9UdYQ02k9LTK63NAaFJPlMh5Ee_4Uun33vPWwKJH9YMVrFYknsHd4HY06_BpJ6zX3bMV.WeOw0AkhmCUszQqn7bINxBOSe7.6AakVKxA0j1xqYVNJz6RV4NpVntaP.GKW4GXwpvX4R1iBXQd6OmpcY1fHSyPDf_XtD1GYp49CVCZVMRjmaFxqwEhAnY9DdRNOjW1QqRCC_VBbmpcMd6f3BAkzU8FPRjYI0KefZzAFEYXd2myG6NIRWVT0QdYwYT.rzrH7SGefttt0iAPZRsr34lhusVJDkDaaisDW3vWZDO4UK8kuKVslUlxKn4Uoq1eNfYU1khM4zLY8UCNun_wkYXTkWUNdfLz9GE40cbBFbizWCo3._m3OFpabZo85BtsgTdrplLBlUS_te0BrRyCCXjl5L5YIEwiODNojotI0oItu3mD6faG0yH9PTkLcR0Bzb5q.Add8O97QqplsstF.fWP7ChTGFUT_jsxwwxUiZb.mI326yoz6eiKUK6DfSun6vrAZ.jnHSwkl7d1aFodGS_q.Yv7w73Plm0tDQVev.wsAs3JmC.j6am0ZffALffP8AcqcyHqmM78XD6Dq_2DDScGu8Q8ujvCFT4kQD0KH6sTXUU5PMYQxYFJtRA1rVvX9Dn1q5jT1xXRgW1yW1GLrEoCq6M0FQ0ZiLRBWpTut8Dcdyv_9QE0TsTVdOM0xrLEPwE.E5iEfnFiSybxrcuGqSeOYlLvQLe3dfvGDGDXpccv.kU_sdIx5UZ5kmu1AY9wSVf4CGtrSnN5p4sCP5Cxhhpn4.L7EbGNrsAfjKGlIex6PwlTK.C44GgO5JA65zgymsUtVaTF.XXNS7f6AL5kZLu.KskPs8gNa8r2yFK2UGfdomNSD4MhudYSotC85f8bQVg4S.VLl3VunOqCsbdQxr2fLRQta1JfjUfXtmKsqRVbJXtWuRmtoDbzbx5_Rz1b2LF53_iM50_hBo_MUJNWsnUGwvijX7XcQMNjtwBj9TrrDPisZfea38ShCmPNr1IdoZTlzNLicD6X0ukuIySlntQeUsfvzajLpX_6sFEi.A5DyjNGrBTfPRr_iJTEDOQdeFj_Z4PnTvZjPE33xW1TrdbnZbuU1ZYD0mF5P_zDQCdlLOe.bSTCv1kW_vZw1bLwcPBASmbyHW4Hgn0Wexo3QRjWAmQ4PcyEhpSOGAtv_wFvIPx4igEJyvIxaqCXGYU5TjkSl4_ikXjKEPjKF0Q3Dha73lfHbKAfnPZJri_ARpQhpzxM3UX4pDzfICLMgHQDRl_7Miua.AB6OAq4KlISZExaGt30FfKuNzYEpB_qpKZ3ZhrSFhSHJBM6pIKoO_JM99v.DtYzltAfQcz8xOCw2kwgzgMFXlNuXLgaOtMHnqmc1Vlz97WTS0BtLEBcwsR1nI1YND_kU8sO4WcxwGg5nzV_jJobTdD_8KUFpx0e4_aI.JlYszeQ8arGyhjUSW3kefpRbpm30i5.T_wajh7kk8GAv7OkGLRWhMKlTXErys8oPSGg8p6akQF7wuolXPp16ErMnNBzctHPE5zFFCSZVBAgf8aEXfeI_..mgri6h1HleFUE4.fV_cty1ZX4HrQuABCt.RBW40tLgeFDgOwrdhftcPlKnCZsXdMPAfOn5Prr8vsqAdO5dfKqGY0NX7XNdDPpCFONNhY4h1O2Dvq.6CGg.CQmdqI0mtMqsgGLkAVBtAhgN9iL6rYu.Dux6z5aj.JlKvo27rvDH54oKWLeZfmoo_Er4vEeq1oXjXkBUbfn4089tBkrZk3ggPq_paCDwlBTh01fd5873X02tN',mdrd: '5Uo65m4a8qLtVrhf03v4cCXG7TJaD.HMvZ1xy.54VeM-1754398136-1.2.1.1-1n5oeCm03UPwpM1dTOUNIN50s5bLaJClKPjyvFzgTREmgatNDVyHH9sg9dEgFLNWYwp0TAwAqsyufe8Z0P7.YOp.IXBSSV2FHvAWno2a1WXs9RKeaGCsDB48qmO1MTo_Upec56tM.SpsAvZ7j6t8o41vmvzKvCvkqCTkAP7bVM_6oxMym0vSqdqNVpqvDBFpprG9N_9b.uRXQRzlcTYOh69_dDPXIomEUkOj4hBCF2_qKY56PPra44rcrP6y2vP8cwJAn7JTLKov8bgtkunB2PkIdZ7nZsE_Qf.vdhNdHe9dSP7BCTgU1Lfjte2EQ7my4wPkQ.uFKlv4lA43E_MENhRFMz.bQbZoF4Shx.hYPtoixo2_2HkdQoQcf_4pKfhyWKQpyyeAPrvpCwQIiI6uClWyS5KZRXQfwjA2skyHQ9YRUW6wsr9s0GiJjVctfUv7mygtJBUGNeeeVkLwStOdxAAAnuUqzPUdW2pf0w8DvIdGN.JOgedvTeFS32XaUC4RWZCIyyTJdlMCPHBQU_mlbr_3KdsPY2GSy2YbPmVVyzTzKRQo4tu4aPcCFbIa40BT9ggomUCBZJGXIbQALvxegAdJghUztV3H_ClIbHzGICMf2ZIbpTaN5BEDZ2SB0oiq4CD5yw8IqeEwqDgboMaNEz8D0_i3JMROMGBu7Rd8Vsg5s8F9X1RVfKczFlGkb9mtm3G6awFv4O6in4hiIwuPq0GUHd1WCKkMyaQyYKC.YCBZXKiysx.SmwuNgjnLp0CRKuJ8qEno66HvcHMaz43qQcHe0l2_6K2nq3MNGdEJ5EPwfTXOtvPYQrYNCc8HJbRdv25bUP1UkPuVcdfmy3ypJGGei4qz_7xxwIk71rjqXz1p8XZjUkjK.65HvhGEmdBGwNk_ZxPO659KZaWWXRPH.FhFscNaAZcaK.6Va5gD46BlU7P.NA0a728DhBCmvQUykhua_37HL99DYTsctj8MyzL4a5or4jxnat93NN5JChbPK1n01PUgkhxd1lzZXc.jkvtd1PEAd5trpbi9s6TCqiTKQixxT4Mj0zj2xMQ7RrXJOjgqKcUQhu6qkMHYOuKnzmIwKs6A4kUCYgmWhIMzSeJKBS5NbfkHwy_dSQLXmaiRihmVvcrii3lBTl5MdbQmCtHw9xuyfbaCw1wyihOL4_rnB0Y0jNWVxOPnG7jEKGIOOI6UtGHXgU7bPalPNG3NPsoZNn7SKXWgTcB8CqYRwuAxe07ZYKOML88EKjxh6qe27rOdkyn8pfAgQRPPiosGqw0nYd_A1Kb1ueBrR9AlZZ4A4wO4i_6UxANzUjUOvmipKhI0xjMM_w5tqEtlW0n..Jex8f3z6a9Q1cfg_EQPTfekTPeML2swqmtPCo84ccMrbxENeJmQpRrKqIcgcMwhGonZqTW1OcRdRuhy_kI.sG2isf1I4f1.SvNxDAnnftivMJegpiNP2R2Ev7POQ9E5Dc2HKzGdnxbERAj0i79FSt6ML1XCO3ELEbiymk2xH4BGt148alzNJlvwvoI7JICvIoG.wM3UgXXXYgYh2Xt0SBS6al7qsL8Zl_WZbW1cTg1g49u33ODBVM0e.Z9bz5GQe01jrvHLRJS7PvbSNX74rWpeAKLjXK5miqNr5XmgDJzb962mri8b97u9gE7JaDTce0tiy3yRNkW0JQgFtd3rW8FEfyNzuZCt7XezISyB3W6_yoLIKglLNVVP1S2WpaEKdjSe9wwY2T6SVxyWG1VQ_EvroznSX47.57ZHrG7cBWOE.BFCSYxcWGuytgRPWOjOsTNN8n9tWtoH4kanCsno8QL21VmGcNUr7it3YXUMdOivH2DNAW9THylcN_h4Rym9ZulLb0Ttlb.UjPZMsxiNLr.oYtjsBvn2oUTpfvbZkrJV_gYrMGcBoqsbsuRA0XjEq4vXx5rEOl.8jBCoJu2767EOs7uro51SHPty8YvjtO1ntArZcDyaE9M3Kz2LLTFBFtKs1TAmET3C9Tc3GEun5VKhWbejEALSSTioiKtadTRLw6AXQJrB8lz3HeLHllIlY7uaQERh_.e6t2nWvfjSFLz1ioAtlPPZ5hLnJzeWGtna3CC9dnv7rGyIgwpNE4LrEcOSyYa3MIZdzts20fNezG36u6InTQFIySR3ka6dpfjbeiCk3r_Fqafl8YpYWC9hgppGoTsIQ8zqPay_3Y5o8zbetTIgLtz1iLE56vpxZH_oXajKcO1QZM5ywylahiBFMZlECv6p1OeJMFHCOFMIg_YAsgKF1Lim78CO79natLLnbp0PJDGaCNGNlHwBeAWnsASjTr27w6uYj5Ffkngv1wwHzOTqlR9WCAy_J0EpT86RLTIt4k83XIJHQMH2k_4fHWR.OWgNh4fT0ft2VDI1SqgGLSpipUICW_H22gwSqiiyfwgIu9L87jc_KXwRfE3MQZI_yi30UDfWCnpIIAVf2yP1ncdxXa_0VLaGlaCRl86CBX2PbWEuzuwp0xogFurMhqzhIWK9uO1ywr4rZn05eap59ojRC0pq3wxamfQhLk0Gx4Mkv0SLsjaj7NWxkTka0XJz3IWBMZH99zfgHqXjLQyMLnByMjJfMIIHcxwLYhDRr0NJnzv5qSp03OB26HUNid7fM8tgRB1yRaC6IadeP96EbH9GWJuiphxpF4iPu99941euAD5FcNpvpIUEuLgr8NT0M3yqarLxN.IAUZDOQEW1E3zb8ekZITrrqeVih4Vt8vrOsC2ZcLcMBy50FC3uE3bMbpSLvPQvVV8iIuQfYrYtUY.PVpW1baGu21gZF83VA1ESOx21NnGfi2W3Zq2xkSwywq.Orz5izff8ixxNxvA.cUw3jih7brUMTTooInI9fT.g0p9BvPnGpDYVZ.8.wPb8vigaMCtIQtvrFPC7YjN6K7FmWTgvZu8XEul3fG79bcxKLPOEfu1dP.5QJtzg3Et9vI9hIb2VfJsrwOPDIiGQXid8w9o2JudB74CoymoVZem_I9dOM1rbCVSSQBeMORdgHfctBBcTw_Y1I_VuFMY7.7bzHe7dZbinNqHn4I0I_b0qpFRdyrx00QiYaIy3v0Hi78nWVU841AYqhAFchxYL9E_0eJpJuTbdOM8lWaTA2wfVg2erqolp4cbH3b08CD3Mg94S2oAHkuCqpPlcLI5lqvQuA8OLescGpnkLvCzOrq0RJFF5pFSBuykYrJaNw1_zKDR7an7M7MkPrq1LX9Tzw8.wujWyFXRSg26cW8AWtKp54u2Pl2TL9FIieIGOb5.kmtPP3Jvv74L36ytYG7xHIEKAQVTSvyh4o31wRiFK_E0Yc6oEpo2OP_Kq2ZheV_CclNLP_9UaDldVTO3mzFGQazEYeIAukMij._VnjNQeVOnr4kRHIisuI8BO37bGQLp_JsnFQV9fkWRawBK8nTKHVoc9peqm7Jfv672VhYgxYC3emlAm3KN5AedXq2qt7n9mpvTfmRNCEyfS0FnZ7DCPr3AEpxI4qHkje1bg0sNv4HYMzCGA6uMIO8PPaxgFe0.xVmnApxqtE7wOWEuM7qIaxRsSInD6X6p.rwEPN78t15CaqL4aQnFUKek5pJKOU.c0kM30nchGkSQZ1uwndQESx0NqDNETnCqTR817g32esD.IM0RBuYeB5fofE2ohUzhD8hfoc_dTGAJL04i3wbhDxfkpQtzfr_7sOBDi.atKEKqllnvtIt4hd288kMCwoaqtbm.nyC0W0WfXWa3bUyLJCl5AAKK9C5GeCxYWsAre6QnHhljIZ6JlaSD34umTXv1KM1FPuQDhZxl9B6YjHC1wI8TjgVMuRF66CQOS9j3bBVNDckREB.rHhi_xRnwE1MAf.HER4jgkWFr4RuZzW6h0f4h6EgOybXwdCCkFKKc1Kv0x0efZDPXEcF8F8oQab7gODIawQtI2REsTLYgUm_EibuZjKLMUF4k3YbKSF4pATsOwYgAG5JIGsP4BQ57vlPY283DVuyb5C1HfxTBGSbpcDFI1PTnIuFLsXfJuXEavhhEsZ4IMw9zLnJTb_9DhU82Yr9TD0d0uAvG1U5PAcTucORYPIlWS6ORqdKqlxnDZ0MgQVdI8phZUf210pg3wdAikh7lJsjTGtIL9_22VX5.ui0exRJX4apbja8AS9uWlE7l8P2ZhE6cbEKMftxP.VWckyCnM3AVRdEWPOtiiRPORBSwwoTqOVOEbKabPJT3M__5wZnJBQmgvWRA7lhUIkLLyyqZv8fMciOpa6Ad8XV00aql7f2iwqxvt_TF62jQx9S7mLwha9sYuDgmLkp3WCaMalTejvbDzzNsfCgCp_hhO_OHWXRIsTDdY4n.NhVaB7ulqZFZYlD8yh1gVuaHk',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96a6696268624f53';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,"\/authorization\/oauth\/authorize?response_type=code&client_id=19&redirect_uri=https%3A%2F%2Fapp.bitpanda.com%2Fapi%2Fauth%2Fcallback%2Fbitpanda&state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiZWpxYWRMU1dJdlhub0IyS2VPc3d3a2U2eWhRZDN4aFhGX2hiSGEyTEZCSnJxaklObWRzZnU0WWRERi1icXlkRVMyX1Npal9HamM5RjgxZE94VnBhU1EifQ..-PbU5Wfu74sjghlBCJVtUA.25jOqdBx1Ut3dVQp4hCZ1cFHp1ghwZlRLOzs-DJlIAqE3t-Q9gdR8PdM06kFODHkfEoCR0o4fxPb2bGgioPjXz1IFgxOxiR42FmvzdjxQ7Nm-LTz3FiVJSamMy2Ltt_WnrhNlLmpuolvJVb9hw8ZiuCpCkJFt-bsreapoahdlT4Pp1ulrXqox6AW8R8xDzTC.pt9OUJ3kEJvPm3y5kyHI5nqdLzliaSPxFP5gR9BOWGI&scope=openid+profile+email&__cf_chl_rt_tk=Ng0wCO1dHtXKRuit2s6YBItkssHLVgKF_zhKoLEtOCY-1754398136-1.0.1.1-U4u9Aj9wdTaszGJjYb1pYf.JoTBm47.naHG4KjY74z4"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>
+[cisco-webui-login] Dumped HTTP response https://app.bitpanda.com
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6695918fb7fae-IAD
+Date: Tue, 05 Aug 2025 12:48:56 GMT
+Location: https://account.bitpanda.com/authorization/oauth/authorize?response_type=code&client_id=19&redirect_uri=https%3A%2F%2Fapp.bitpanda.com%2Fapi%2Fauth%2Fcallback%2Fbitpanda&state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiZWpxYWRMU1dJdlhub0IyS2VPc3d3a2U2eWhRZDN4aFhGX2hiSGEyTEZCSnJxaklObWRzZnU0WWRERi1icXlkRVMyX1Npal9HamM5RjgxZE94VnBhU1EifQ..-PbU5Wfu74sjghlBCJVtUA.25jOqdBx1Ut3dVQp4hCZ1cFHp1ghwZlRLOzs-DJlIAqE3t-Q9gdR8PdM06kFODHkfEoCR0o4fxPb2bGgioPjXz1IFgxOxiR42FmvzdjxQ7Nm-LTz3FiVJSamMy2Ltt_WnrhNlLmpuolvJVb9hw8ZiuCpCkJFt-bsreapoahdlT4Pp1ulrXqox6AW8R8xDzTC.pt9OUJ3kEJvPm3y5kyHI5nqdLzliaSPxFP5gR9BOWGI&scope=openid+profile+email
+Server: cloudflare
+Set-Cookie: __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2F; Path=/; Secure; HttpOnly; SameSite=lax
+Set-Cookie: __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..ugCfIs4zJILleY1Ku_2MgQ.rPxQZDWHNRDcRgGHjduvadUve60OGuhqA_8bJ9pYMFwe8q1MdcEBHxFBTYhTusfUAuw1zyk05jBDkg_NJmge-AVGKk6cpvcZDzyqIFaNiEppOAy-fl4FlhU2qMW9tHFtTpYhmLk54MjVy1VRQt87YNoiQitWhLmwjfLDJATjtcFsVCPm7LEYdmpmzS0niZWybxbfYeKWkC6JZlX_h11qQ8_XNvEObPa1LB8l2x0Whom5p6c0XTqIYrztEW3X4hXxJOy4faXOmF6RRpwJ0LeD2SbZozknScw8N5DUxACdW7XO_gXBdH6864tp6bQIk1Ob5tM0Cg8yOkoIoRsnHr_1ba0F5Iftk0HG6dNhPThkZoQLoRDnQJGIx95mFL-EXDmuEL2vSPySiSyWXflXNtpNP4algUuGYWORruWSzA96MrQvTvLURhQgQADrpqMRf-8fa_pS8zPpuuvQChmTYEOrcdBWKPHz32xmyV5gAuh75N4k4u9eiZo2vmX3sN2r4MRgROtEl-BEZts4hUPRsCsiIoWjBwPn_Nuk9QcM1Ah8XEdViCxmgfKOsKmdLirkJHtE53rGh1YHGy2ahiqDCOWdmTsJynIe1vmWTKcDd03OdBFoBh-bolPiTES-RwOhm4Pubsi5HZDDk0pe5t_lt3T4wV-nkUnpxTH4eL3U_tWbXsLo22ybAQ9DMON2uTTUtEx-.XxbrBG25RDDNDBztjdvYxLhvVqH3qIH93ICyCG9Ru4c; Path=/; Expires=Tue, 05 Aug 2025 13:03:56 GMT; Max-Age=900; Secure; HttpOnly; SameSite=lax
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+X-Content-Type-Options: nosniff
+X-Matched-Path: /api/auth/login
+X-Vercel-Cache: MISS
+X-Vercel-Id: iad1::dub1::x62w7-1754398135305-8785e34977c5
+Content-Length: 0
+
+
+[cisco-webui-login] Dumped HTTP response https://app.bitpanda.com
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6695099efc9a1-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:48:55 GMT
+Location: /api/auth/login?callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2F
+Server: cloudflare
+Set-Cookie: __Host-authjs.csrf-token=8a8210cf9fda9d49911d46669bd9a036af0663fbb11c320c5d66de5958174aea%7C85ff71a2bffc48862d11580999f1f498997674a18cd35bd85e350f9e4d6e7df1; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: _cfuvid=YqtkOKpZjRNIbg0S0xtjmjKiRsmQ.ZJENiGlwvV_3.k-1754398135193-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::2z8fz-1754398133904-30b0ce6fd04b
+
+
+[cisco-webui-login] Dumped HTTP request for https://app.bitpanda.com/webui/
+
+
+GET /webui/ HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2F; _cfuvid=vgqyEegp.bpybNLt2IAIXzQQJArZXHgg81sAUMHE12A-1754398143485-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..tjrXOhNTioDhpPruQxtY1A.1hzrCc9tMMGtpDtdqDxH35Uk0JVitXIBcnebtVnyGwOg-cNXlUpci41kEIIILOUqs3jZ_FLZWOFHwpinsxA3xIwelphZGHvxOId8KZ9oXEU4vdfP7UpXYL30cUGxq9t5jLkW4RuiKJZyp8SWaSKlWgzis_maiNgNrRoVIvSSXXEYTXycoPViX-FnmExHWCC7_9-1XURuGQcR72qia1dTmTqrtjfOweDGhVr-OqVu-zCjvsh6Neg3vO32id2zHzJY7pDKEFwkMcpCQxsA-Q-mtdW5UEBbBqCFXgVROIvyYEEbyxWP1wwVPDSz_R1a5k_iPSH0RzWHC7IguyQTA9l3vx7Vip5i0WOTjZiGIdTu7KH_GrlTkFYqdIiAXidjgSCQkKJ9-qI-Q3YwwO4CGJatj1POXJmf2nd5zRT1y2KlmKTuGXqwT1oXY6qPgCtN67zvgG2Ovea1Vkc6pFISp6Lae2Z3g4FOOijwGhzpg8n99qqEkrwzmeIzaM3cBcqot1ZQGq0s7KlB4PoN2wpUTGeMXsd9gGKqttIjTJA2YQgg_5jcSIO-TcOBfGb2FbdCbspawH4NfmSfbAy9zEBWoQZesIUbCqULB0UEAwykDDH_IJjP_ljvjsmh1lWs_CFIvET9p3LkbcZL-JIHbXnEKdB2KmFtTb9RVUPj3eY1gvTsej1X13ZOtExi2yOHl1RFNpT_.3lOU_ho-yrazWkzDumii8aOmWVq83wpeV9drn6whwTs
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cisco-webui-login] Dumped HTTP response https://app.bitpanda.com/webui/
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Accept-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Mitigated: challenge
+Cf-Ray: 96a66991a9aee5f7-IAD
+Content-Type: text/html; charset=UTF-8
+Critical-Ch: Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA
+Cross-Origin-Embedder-Policy: require-corp
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Resource-Policy: same-origin
+Date: Tue, 05 Aug 2025 12:49:04 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Origin-Agent-Cluster: ?1
+Permissions-Policy: accelerometer=(),autoplay=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()
+Referrer-Policy: same-origin
+Server: cloudflare
+Server-Timing: chlray;desc="96a66991a9aee5f7"
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{line-height:2.25rem;font-size:1.5rem;font-weight:500}@media (width <= 720px){.h2{line-height:1.5rem;font-size:1.25rem}}#challenge-error-text{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+");background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme: dark){body{background-color:#222;color:#d9d9d9}}</style><meta http-equiv="refresh" content="360"></head><body><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cvId: '3',cZone: 'account.bitpanda.com',cType: 'managed',cRay: '96a66991a9aee5f7',cH: 'XaCg0OQg4rJL9IKGsKcv863EiMw8g9uRMnoFwWXDeBM-1754398144-1.2.1.1-f2wDto1VdX5f.h2.zvSD04VysVx4IOkTukAo3a94Bd83KvzOglwTjX0fqGAk9S14',cUPMDTk:"\/authorization\/oauth\/authorize?response_type=code&client_id=19&redirect_uri=https%3A%2F%2Fapp.bitpanda.com%2Fapi%2Fauth%2Fcallback%2Fbitpanda&state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiZWpxYWRMU1dJdlhub0IyS2VPc3d3a2U2eWhRZDN4aFhGX2hiSGEyTEZCSnJxaklObWRzZnU0WWRERi1icXlkRVMyX1Npal9HamM5RjgxZE94VnBhU1EifQ..51vVx4p9HOMyYMrJvtAp4Q.yE3mtopCg3OJqPRTb-nlI_MPNbJs--0SkDzXmFn2RjOgD0ZN6LtFcpROjTaAXbTp4IsPpHMhoGtvou8dWpM8PoYtZ-bj5mHB42aYtMvZmW5giODwPrec_gIUtOdzKQTUrwELs7jlsH-6QXpYR82zGDt1Z4zNnmI_X-cH5N_IXgKfnuM3Rk4ygiCKUjJB3eYe.CYagGghYNIDTqHZWQhsfjDh2_jd6GNkoCGckmSqkTng&scope=openid+profile+email&__cf_chl_tk=IRHtUcQLOxH9S8i4opB2Bi_jgyLEROIT88HiAEdpJlg-1754398144-1.0.1.1-.AdPiTozvwGzFgNPm.GvZCsrIzN4rgAAPoDNNBvwxt0",cFPWv: 'b',cITimeS: '1754398144',cTplC:0,cTplV:5,cTplB: 'cf',fa:"\/authorization\/oauth\/authorize?response_type=code&client_id=19&redirect_uri=https%3A%2F%2Fapp.bitpanda.com%2Fapi%2Fauth%2Fcallback%2Fbitpanda&state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiZWpxYWRMU1dJdlhub0IyS2VPc3d3a2U2eWhRZDN4aFhGX2hiSGEyTEZCSnJxaklObWRzZnU0WWRERi1icXlkRVMyX1Npal9HamM5RjgxZE94VnBhU1EifQ..51vVx4p9HOMyYMrJvtAp4Q.yE3mtopCg3OJqPRTb-nlI_MPNbJs--0SkDzXmFn2RjOgD0ZN6LtFcpROjTaAXbTp4IsPpHMhoGtvou8dWpM8PoYtZ-bj5mHB42aYtMvZmW5giODwPrec_gIUtOdzKQTUrwELs7jlsH-6QXpYR82zGDt1Z4zNnmI_X-cH5N_IXgKfnuM3Rk4ygiCKUjJB3eYe.CYagGghYNIDTqHZWQhsfjDh2_jd6GNkoCGckmSqkTng&scope=openid+profile+email&__cf_chl_f_tk=IRHtUcQLOxH9S8i4opB2Bi_jgyLEROIT88HiAEdpJlg-1754398144-1.0.1.1-.AdPiTozvwGzFgNPm.GvZCsrIzN4rgAAPoDNNBvwxt0",md: 'jpqETn3ev6FuuuIRr78QEiiVM99p.8Bz54wjIEKK7MU-1754398144-1.2.1.1-wqaRvVd1xb.I5q8uxTwiT9Z3mVYaWxGseWBkmM_L0lcnOPHJrkNeXyXJb59ntVoDNNfrqC5G.yivc3IXmR60MFWdpUv8oblyhn6icbAN9UiP2R8GlL9RSHlXJfqb3LIdWdJ4.LavrA3rGCRvxyY79ENOKVl3ySTNvGKjniQQ3wSkMid5hrVxT8n8LeJqip4YFIVM2biRAzBRrn9AABzEQYemEkQ4iJRUjluLgvxUJqQWzHuOzOsDxcChGfJFNWDkYQAYRCSiB2ap6EpHANuEb1SMs2wCk7JgJpt33qx8CmR2tWb7Mo9Y05GMv9ty6HA8KN4QR7YLAEY4bjztmGhaATTzOiI6VPkxi.vey_G_wdINER4p2AeI5WwvZfz9Gdt0yuvqKntHGhEUOo74lymiB_YghXLVwwahTMibTn3Na9P.72ihybhLApsXNrOdPlf0px2aThDC70ShPAnuUkDLj20JbYfbnAcF7GL_M_u1N0BvBGq.Fof5hhSmyqcs1xhECX2BgdqBt_6PTFCWxHt4l8UkWMppODrKbhG0CaoW__liJdCqrrNGwYJJ9E9mmcOBsuxbsk9nciXWD1FmTuXPv5y6FC5POMPYyaupeJIbNf1oezvjen42kobI4sk9h5HPV6U47_ufeg1HJ48hNFsQzevla70jQJlQLaq6WM6g9m18yiEw..ryEHUAoYR2LcI6LOrmfbEYFzd227lRm8hSRZVohO0Ol8NGIwI4FYEW_vrEcjgbqy1Oqb8fsvzUPCK1cYFjaxz0UqtmKnowhA98URQYjcn_5PIaxLwEjA_B3wjMarrevErScHFlTL.hOQbqFpu5puCgHXbnZkTIv0cNXf_uHjFXlGTQGh5q6d64RIyDPtObnrjDydfzivQ3g2h225UDm24ALKB1ezCxoGH_rwkK5kPb7TjOv.RTfsu_eXWL_ORyNYutfxZmRIO0tJQSk12jmh1KRTexmZJ_Jf5F.ZhF5ejPXE61MFIBATYfaM9cHYpjHNsT.cTwaeizul0VuO_jT7S2EkQCRGbH0efzQ685irS32KS97Vd4.J_YExNWq3YjvLXvKBB3BC2j6agrepPfyk6Pr4mvCstq3KHLR.Y7MyWYsjj6kMGMvEYFmNXNAxdxHFoSKsUg.TgBJzAXVFwgNSgS1Vv9ixZmaB8OKQauW7c.dZ8Lh30baGWfcXI6kcSDPPnKuoQ_moe3Ce4.SwdureKtSKeNpJ0l94QkWu9GB2kIY7U1_NYEK5ignHj5qQxdXY4cmZB97RW2p.pgfEhK3H0neJP0ZBwPcWwdlRoMwpbwPkdD10RlyfCY2qODTyJ4GQNJeCvvGBnZt3hS.rRFmbeBLE5oPcDwSxpPO9saJMMrDwM4PgTBL80DVwBCXCwJQhI2a.etRYAHZZQLYeMaFoTvGh3KZji7AFQTKfb5Yk.3al5y3vajBfI1l9hEl8oRy3KVGGLy.DIqPGUMt7zzMrPaxL.m_Rvtfy89nQRd16DUp4bgTq_OuPRoCgSA86N7X1BR3.Yz5PwOByQHv2yViDUFoMwpMGtAZ8Y7ceTftyskkO_C7gBfBxzvHiCo2o3GgOtSNxtm_GYAhgIBv74VWWE5RJtk.1nYocc3419_fsMM5BmOaNsyXb.aJChW2Pue78LMSUeoBeHpmIC8DteHo4.rLN3eUhdQx5Ehii9CE0kQwC0xll8AVs7pPgxMOF_zdP3kaWBwB.FEePqmZKxkBY6_MKmX5HbhcA3JvFW.sPamRRf4uffq9hxdwjWetVmFko78kdZfYVCH4aajx2hIy2h3yhnfyZyO5Y5W_wXvkjGcqV7buyMGISUHS7hh7xM9F.y8JlWnofoWGjE2',mdrd: 'DfTvpNGweJlkD2IGoxsCZqGQ8Xc8i6kLxtA.0KHmt7Q-1754398144-1.2.1.1-ZH271Zjr4GSh.gMcq0wgTzGx10lfm6Z8KhkgK7SOiJ.AH.DyZUawD5bjIOfP1dRbQYBOhw6YjpbgstbuFnm3zBRYMUc.K.W8l.fyl0hij8Esp1L6VbZJVwk_wqqc.DB7GJr2gtPNiDZb5NQrSq8ndiGE4FsJDhasUIbwJGJUenOojG2vY4yQauocZNGrYg3FN4GfnyBLDKzsOHdKCfN7I9i5apSZD34akuCycIpGIzuQdLqWwep3asUo9GHIFa53WkBPVK6gIreCzadflak6YslRkeEB2YWTCI_eo5nuXpRGH9tHyu.o57bIjesNl38JZYAl3dLXBvs3Q5gpWbo5eNxYkVAaz.3zqOxKFGEzWpG7y3MyDuEcLC1acFHdbO5XoGms9Lfxk0rlclJfDiXZlr7x_h1l4FNseZkfVyku26BHqy_iyhHjoAIILmjY1JviqpEnI65Ba6ZJa95ip4.54S8rdTULfA7jolLgQsq3SyniyBlqQzqEHqhMSAhfcocGWdLuyUtubhHcjH8geF8Nr6cOIAynIQsWw7NzCKhDPV20twcMR.mDv5_mwg.dClDdIOnYj3Au1aL5Dx_PFkW2y9DZTO9Oa6ZJvYgW75DI4y2KYx5BbPzCuBR83DDIm_uCq9le7f_95qTGITaxb6DXW5dSbxxLddwW_dXoyba1vWwi5mrY1U6rtQMQ0n5PohTVKACT5Vf4xlnozXxKQS_wmqrpM84QIGEXOgfs9HuUgacrCLfaSzbYzs4QAlXZzsnIQ0nzuguV5E32w3SkiV1oBBYxvukF7r5zp6y69U2SCS5epeFYJMAGqzwVyqs0B7hghdWWncgP.U6SM.AC6UaIpMmv.CO4fCQxQQUwEzSNkMS3p9mZuUEjY_2Nsn8WIQnet44CYcv1Zj63hpZUpco88cNasyNseb3umUB89vSj7jx.zXcbqPdIqsC1vXeISQHf5W_wNBUTm8VF9mIBP2RTbHMvtWWR6OSOYzC3LJaEsBlOjeoVO4wJdHqGPae4un02kUjO2LHvTybkf_z5hPbOuRTaV46qlyj.uuOsbVLPuJ.AaoN7IfAIZ69b5SrmDIr2v6NVuXponIkanoBUNssn5NpxdZuoVKoDsEgEqENxqd7TWla2fDlD9N0X9kPu_5i_gkTIYFB.QIONyGesp_mGiiQdPXoqp0mLY5.nNKHHUZmXhrz9Q1ob9j85IlutqHPpS2AJXsVpZagOT_xmgAz54YcFX8gqyW1L0IwB7z0FBOdOmuqxb4o0MhMX.g0lh0NQA7b0OVq3y0R6eUH7eV1TPz313NwqMa.PUr4X0Zb9YfQIehcBdl2netuzfNY8I4w1JQEvHQwINcbtk5E2cN9KiL21MAILagr72F5VhFKa09Prf9vzXj1R4e.qBtGJcMZ872JDGsYxAx7gnzkVA5A9iWGbAsD6oZLzoATAbUb2N5d.4mZz.nbYvXbIbxeVUX4Ib2Rglm8opovFRPa5qE6EPcwon7PUjJbwOF58evnTe3GtoWArIB.j8VhwdsVvnkEUNajF2EcwBoLG0JoSlBr2caPMlGd6KeuUrYAvBJwqr92azOB_OWCtwTvkVNgkDaFuUTb0cGxssr9UuZOqDtlQ1VfTPIbjrWBfWaFKGvhCSYLYO59GMIaS6__TWc0ZtbFnIpPGFVANdCVyg_GjKMg5MbH4A3AlUVTQsePuXecH5eMNZOKA1rEyVulOQwIUDEIAXQjBs3DtUwmU8OXkoVbc_USH5gUMDwjt4Z5n5VKPwtYOjPs6nGYmeOmGYxizo3.fFiwB2IfeZH3vKcvQ2ldLZs5T1cY2ZdV2ulmj_mr010ax8FeNnfKy9kqwvTf7ibRygAX3Y8NmQpCvRddtzdWI_0qsMpwDpa7Exi1RmvPTBemtjCeqYWympQq7RyN3IaNPAYdUPzOArbS6eVrvrYXj55izhBtZFOZTkHMLdhVQPwKwMFTEKL.2.w1wd_dXe0LZrGwZlcvmKOvq..z_qn85rJmG0Z3e0I4HcsN.5Kie7f_0esicirQHfmIkA_nfBUpZMxdYE8V8hNLp0y4gmi_zmKMrxFkoCdJTvyBdB9PjqpLbEf1EuxNrNhgY.YbDJUCDJQIaW2cwX9EoURfIiamR5niKPkSp0bPZJVqEJQ8i7gCJi.hGNDmoEJJJ6P_Xrj0mJtCmTSPpoK5o7HpmpHf_idfhlxjXYfk6Of84R2jnhIEY4n0hnuJBcZt4HxMRb1H_GTCCh9uQE_shzLygZQXJ.yneq4aTrUiEHgm_kZPo.E8tUzykAEa8PVLVXBtn45fskn8phdH6hR4Q9Pz4oPW2QWghWkZaDpsZ7MXMtll8bqjuC3g0WooOdrbgyM0kxQkmXM7YlTts43mVkqyZ6IZqubls3RXnvp2waPPECh5elhzVdEGgMhG7E6DApD9N7ZA5u.0dXFI31pGjw4V2smuQ_JzvASBFVDVfbkWhvUGWj5I6Ca0sFYbER_57391FWw4.0zKcO4zpfa7nZ7FV0hkgBXEnlEcx_bi.J5WNzWdUXj8fEII1Md9N421of91QvZW8RK3oYf6itabdTv.Kp5Aa6ybp9tJ.f54YpAuZiviqc4ZIFkMA0mLfRAsIhziSgwypWHmllS7EeQnfmGztuHAThfzuw0Ccsu8EVOmCT5MfVXKT6PZkan5hSP7229Vk7rVbf4NdZQ7iPvG09x3Wv0k0enh_W57mFt0b.SPvbUu7V3KyZIoVcogvKHCIF.w90dMGOTgjqVhVYkJ6HXodMSxkq5KHDz6s.sM3cG4URh18yhp8JK3c5hLhA8PFDTguO7wg3G0n2o3BSHSZvVTmanAW.r.BADwMU_uLVJckWRUVbpOZQLecgGJSjqZc42b2n27ygl5ARy08xZoePstIee36BxZZM10bExT3kFqFefZ9AJBk8nsEBBAbhG.7GvlW4depM79VejciGaD5whiOZrSWWdl7nXbIV3bgCHlp7GAW2p0LvbBrnEkS6jWhQ88E2wvXIC.M.DcF4ZkP.nboyv8YO43elGip3pYzNsZW1E1usCWpa54qVqe8a1fBv41xyq0FGgIbHVNd9Y6HDOGv48koZPhgR4wO231q740OUwm3Jti6UFewXust_YXsdjDrz_PGA4z5IxXW9QJ_WQN1.S4DrdsX7XNSrqVjJgK0q1_xmnIr3W..0vvsdLXV1vUk2oVDnT_qY3YZu0C.bGF.DHwgOm5.3wcYo7BvJs.1Bs7si4.jcNsq2IUmL8t_N6.JJ86tDjj85mMqFjK3F6Mw6lqB5XIVNoFvTuYqzElB86yyTf5w2vRaXf69zwRD9u7MV.BjFH8sRq1gnbrkG05JUg.MLaqHdMSZeU.Hq486F8JQPjO8eYGL3kdWP00Xr38EENK0Wy2qaYw0A_n4Vi8ZdBOL_h9Q367yYS09oUlcaw.f.dmyx3szcXtJmfI_5tXbnR.Z68iz3OZ9B_rC6ho5hGbYGIXF_nVGLqjJMEm6NxCwLiu4OLWeGQ5R3AdMKaEsPJL2JPsobpH1yYgJ3jw5dJ9OkK9bwhflT0Yslsszp1VHt6EECHhMT6S9.xbxKA_eAjarBqNquNF4GS1v3SCYJzRZ8vE87MxLJ6MLohOqF2VvGshfs6v_3.HqROUQth7rGqr06NNXiO7TBYlFxlF1trXH9_PaeHWBRRPJwGSRV7k7VwCCXEbDbFAUMzwTEYdvfv1859LG95dRngWf76oIOYlB.1uIiOyZwRWnJBiBipt55mMdmw8YdKRjIZKUfLdKblXraV2twLaCpxCF1DykRw3HGe.RB5R8xsvlgrIRnxv5GWQ7AvbDtEUY7pnaFoDtgbQap7DpSBMD2NIb8qRCiRBKXLxFAUDM7ApIp_tZ0L_Rg4x01G5yR5SFPJFl.WMIrqzbz642zYMV_ba5ug8ZE3kcJZYMOuHuQ9eUxk20n0rb9UU1XvFncMa5ex.LfhwL8JgA8zOzxRYeydRpzyzJtiHZVDNvPWKRl7GAEDDoUj1ejhMx0q32QbHGnboLZjnUVOALqGEQLCChJBqLH7INre0Oz7r0FPkY9RYrrboJsQGtI6iC0Ejurxrobzb3u7SdkcVS1.yy2HbY2sYk2VOwIPFR24KRvYesDghRIsGLa9HZmfDsgLVXSYZlSXHdHIhx6dURzCGisMrUGO9db7Y6vKyspjHcbtByI7qqDeF5EAE5_glMCT8Ib01R0wHWOqDWrsUXvnMEklbQXf2aLxwpD4mu851Gkarrdk2aXmS.UnUU0AiHhFhuvbIThKEERDOjDX0Yemk9oV3ocseFKmMBeP4huNrJFOhACcjy_k7XK76w21Q',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96a66991a9aee5f7';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,"\/authorization\/oauth\/authorize?response_type=code&client_id=19&redirect_uri=https%3A%2F%2Fapp.bitpanda.com%2Fapi%2Fauth%2Fcallback%2Fbitpanda&state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiZWpxYWRMU1dJdlhub0IyS2VPc3d3a2U2eWhRZDN4aFhGX2hiSGEyTEZCSnJxaklObWRzZnU0WWRERi1icXlkRVMyX1Npal9HamM5RjgxZE94VnBhU1EifQ..51vVx4p9HOMyYMrJvtAp4Q.yE3mtopCg3OJqPRTb-nlI_MPNbJs--0SkDzXmFn2RjOgD0ZN6LtFcpROjTaAXbTp4IsPpHMhoGtvou8dWpM8PoYtZ-bj5mHB42aYtMvZmW5giODwPrec_gIUtOdzKQTUrwELs7jlsH-6QXpYR82zGDt1Z4zNnmI_X-cH5N_IXgKfnuM3Rk4ygiCKUjJB3eYe.CYagGghYNIDTqHZWQhsfjDh2_jd6GNkoCGckmSqkTng&scope=openid+profile+email&__cf_chl_rt_tk=IRHtUcQLOxH9S8i4opB2Bi_jgyLEROIT88HiAEdpJlg-1754398144-1.0.1.1-.AdPiTozvwGzFgNPm.GvZCsrIzN4rgAAPoDNNBvwxt0"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>
+[cisco-webui-login] Dumped HTTP response https://app.bitpanda.com/webui/
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6698fdb35067c-IAD
+Date: Tue, 05 Aug 2025 12:49:04 GMT
+Location: https://account.bitpanda.com/authorization/oauth/authorize?response_type=code&client_id=19&redirect_uri=https%3A%2F%2Fapp.bitpanda.com%2Fapi%2Fauth%2Fcallback%2Fbitpanda&state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiZWpxYWRMU1dJdlhub0IyS2VPc3d3a2U2eWhRZDN4aFhGX2hiSGEyTEZCSnJxaklObWRzZnU0WWRERi1icXlkRVMyX1Npal9HamM5RjgxZE94VnBhU1EifQ..51vVx4p9HOMyYMrJvtAp4Q.yE3mtopCg3OJqPRTb-nlI_MPNbJs--0SkDzXmFn2RjOgD0ZN6LtFcpROjTaAXbTp4IsPpHMhoGtvou8dWpM8PoYtZ-bj5mHB42aYtMvZmW5giODwPrec_gIUtOdzKQTUrwELs7jlsH-6QXpYR82zGDt1Z4zNnmI_X-cH5N_IXgKfnuM3Rk4ygiCKUjJB3eYe.CYagGghYNIDTqHZWQhsfjDh2_jd6GNkoCGckmSqkTng&scope=openid+profile+email
+Server: cloudflare
+Set-Cookie: __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2Fwebui; Path=/; Secure; HttpOnly; SameSite=lax
+Set-Cookie: __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..HE4tCNFtQE0XOzecN9UMrg.vUxPhbq2EVBX6Qlb1xT5K0o_BBAYdn72FUutgXb3WFy3-S9UtLA7o7OceXr3QP58PwSW-YPGNyA835CpTI9hr91jL_05dWAkaLGiNSLufJHPBETfkYafdvtqHFXjwWXKCXViis2b9XoNcTUa5Y0JdSE3e6rYB35xcVMwViVjfTEuBC-jvNAMC7UefEj9W7sOORVJER66hYPl8GG1kXym16o0COltSMPQwSY_QcKrFEKZBxN9i4MbLiGJagrYILhuFv_KFCSMbdbEYYgTAIoCpZaHk3KF8hqeEAxVEyfSgxqluiWfsv6tDBeXj-aF6sM1ixrqyzkov_EY2zZrp4tM0qPYk_f7NgnowHR6dwlt3nXj-mXyVzrYS1OhV-J4mqe3_ibmwv1nAqXkbsQ0NrMHxsTuUcL0wtnr8l7ed6XqZ1WsKlS2mfukZasnwjUXuMsCd5olOQGkdy2n1Nfnn7I13URQZLry3ochfmE7qTB3LjamJYhO24Z1qqfI3rqpOD_CM1lJJ44WPSIJPrfBp41yEmsDYRHXiDit_J2nPGSlP6rJqwDr3vfihUTR8V9b3p2CCcgJ4lFMIRHeDtztCC9ndjb3QYWyJ4QX8iQPxXX3qcKrHTzTEX6bjniv_ZrDU3vA-68-M-fqVIEkjg4JklGQNutrVeKaGGhwguk08-YZahiR9FZKXPKa2iP56bOo_Nlh.I-w_3Yj2Z2xh97KWIVjaOwSUxZZr-oWR9OLRdAP2z-w; Path=/; Expires=Tue, 05 Aug 2025 13:04:04 GMT; Max-Age=900; Secure; HttpOnly; SameSite=lax
+Set-Cookie: _cfuvid=wEXdJJjHMoVYBVQ3jSUR.ITEFZgdI.4LaliwnWkcdAo-1754398144238-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+X-Content-Type-Options: nosniff
+X-Matched-Path: /api/auth/login
+X-Vercel-Cache: MISS
+X-Vercel-Id: iad1::dub1::vws4w-1754398144024-a0988d03b7ef
+Content-Length: 0
+
+
+[cisco-webui-login] Dumped HTTP response https://app.bitpanda.com/webui/
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6698f2e6d3886-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:03 GMT
+Location: /api/auth/login?callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2Fwebui
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::tdxkb-1754398143914-a44e73a7c978
+
+
+[cisco-webui-login] Dumped HTTP response https://app.bitpanda.com/webui/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6698eccaac814-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:03 GMT
+Location: /webui
+Refresh: 0;url=/webui
+Server: cloudflare
+Set-Cookie: _cfuvid=156Mk3YNkUrn8nLyZzllTfibgoufwExQ7RohCfLhxJo-1754398143841-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::4lkh6-1754398143834-e3b2a27f90a5
+
+

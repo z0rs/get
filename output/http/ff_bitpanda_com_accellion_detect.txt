@@ -1,0 +1,38 @@
+[accellion-detect] Dumped HTTP request for http://ff.bitpanda.com/cfadmin/
+
+
+GET /cfadmin/ HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=bAp51o5wRcha3_yv0xfhBV_Kl0B2cR3zNg_UXRcSOwg-1754398384845-0.0.1.1-604800000; _cfuvid=XCLepd3SlWqfV6dNUUL566mnaHGkX2DKqnJh09Lb.ZU-1754398399604-0.0.1.1-604800000; _cfuvid=7qSvbcP3Pa_iGo7HSmvcFbid.1yR1vY4KcXgOR0j6pA-1754398416433-0.0.1.1-604800000; GCLB="3de85deea1adf271"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[accellion-detect] Dumped HTTP response http://ff.bitpanda.com/cfadmin/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670606e48706a-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:43 GMT
+Expires: Tue, 05 Aug 2025 13:53:43 GMT
+Location: https://ff.bitpanda.com/cfadmin/
+Server: cloudflare
+Set-Cookie: _cfuvid=AECIozhCjNJ1D9qLmL7szDk9VaxoU8MIJNYDlhYAbJQ-1754398423126-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

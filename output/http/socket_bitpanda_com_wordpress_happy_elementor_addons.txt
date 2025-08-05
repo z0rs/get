@@ -1,0 +1,37 @@
+[wordpress-happy-elementor-addons] Dumped HTTP request for https://socket.bitpanda.com/wp-content/plugins/happy-elementor-addons/readme.txt
+
+
+GET /wp-content/plugins/happy-elementor-addons/readme.txt HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=vfFpVuGokGUlFEXdh7cRmCYaJppxCh7ojxqb93beJXUiRakP3qV2zmA20YfGiTKYbzgwc2ZF7JjgeqaQx/gzGgD4a1N4gjB82WM2qf33Mwkl/LAhANIbzyZpmiUn; AWSALBCORS=vfFpVuGokGUlFEXdh7cRmCYaJppxCh7ojxqb93beJXUiRakP3qV2zmA20YfGiTKYbzgwc2ZF7JjgeqaQx/gzGgD4a1N4gjB82WM2qf33Mwkl/LAhANIbzyZpmiUn
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-happy-elementor-addons] Dumped HTTP response https://socket.bitpanda.com/wp-content/plugins/happy-elementor-addons/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:44 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=Lui3ONwQOFHUmGJ6K9EzIgNP1+FtM7Q71dbFxoYrstbWZARp79zDJdG3iSH92OeC/d2BEe20F37i14kmsEl5Qn7GJ3Vfi5ACOxzXZW10GStgF14M88hgkhse9Pr9; Expires=Tue, 12 Aug 2025 12:52:44 GMT; Path=/
+Set-Cookie: AWSALBCORS=Lui3ONwQOFHUmGJ6K9EzIgNP1+FtM7Q71dbFxoYrstbWZARp79zDJdG3iSH92OeC/d2BEe20F37i14kmsEl5Qn7GJ3Vfi5ACOxzXZW10GStgF14M88hgkhse9Pr9; Expires=Tue, 12 Aug 2025 12:52:44 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 b69ecbb6800ade3c34d3338365df5612.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: BazctrGTZmyliqrO_TOWw2cQ2M9rtAV4BKXH4D0V2XtP6QNE0cs4MQ==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 24
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

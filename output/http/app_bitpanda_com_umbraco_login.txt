@@ -1,0 +1,108 @@
+[umbraco-login] Dumped HTTP request for https://app.bitpanda.com/umbraco
+
+
+GET /umbraco HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:130.0) Gecko/20100101 Firefox/130.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2Flogin; _cfuvid=RVq_0yXKH08l9S8iYKVBr5.W6I8qEp3KAFnPXoMk6kg-1754398157164-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..5CGZ3Oe8n95WMDme6QQYkA.yPS3eI4WcWmhbhcGtFOAyumZusuUX3PZ7mlDKhj-lPunZ5htdh2_rKerOh_Ll7DbL1k1fZ50SoN7s_yYC7uWK_Wt5KJCkZ3_GYIcEUsUsieR9g9CzBVzgmjcXo8Yw-nGt6dbs8UuC0tm_UI4FtTRyu9aLbUlHS7G7XfpLYE_N_j_DLG8FyCGklcfv08Vxu2-yaLNQJWJ0ouKdBgxI81VebUjVcmjOOpXgnSDQaOn8DqQt4OamrxIt9v5DF3IP7WL25GCG4Vrpitv7Ngtd3pAQpdhVo9KkXQeYliCqeu1rop92BqUHYSE5uxofmRYhKn3k27jqkGy50YOlUNC28qHTdWZa01VmEeNI3L0rf5JzggSQvR8KT1vqfQzNYTz3hrCBBtkDy_9fxQtBHQBr9b2WHmfwy9ng9PStdqgwxxgBv8FYAAVuFt8x_LTowijHcKYFE3sddYh46Pae9oyMVlQfY-Rde2BpyFNvZiYg2kwMf6hP6CGijKBaTa8NiDDKW_nqNd0JzYboJcwfn7gWnPFz8EoynowJKBhYST86pciB1CGt77sMQItb4OkklJLhYiMonBSNIlImOQwl7qEThKakYbNuajp1ujf__rIURvgrQTrYeILTb5WB-WIiqAAM3HGIx-lXNdhfqL945ln-n8-I_UqSjhQAWrLWAhseXq-xLwS3FOI-HCkvJW0o6rjPIfx.pxNm2_dru4EYaJO4BBNMVfa4dc-KiEDenfp_r1ppjMc
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[umbraco-login] Dumped HTTP response https://app.bitpanda.com/umbraco
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e7184705d5-IAD
+Date: Tue, 05 Aug 2025 12:49:18 GMT
+Location: https://account.bitpanda.com/authorization/oauth/authorize?response_type=code&client_id=19&redirect_uri=https%3A%2F%2Fapp.bitpanda.com%2Fapi%2Fauth%2Fcallback%2Fbitpanda&state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiZWpxYWRMU1dJdlhub0IyS2VPc3d3a2U2eWhRZDN4aFhGX2hiSGEyTEZCSnJxaklObWRzZnU0WWRERi1icXlkRVMyX1Npal9HamM5RjgxZE94VnBhU1EifQ..TrU3T1VHIjILGcpUAGX7og.-DpyCtzkTiDzsyIC_oH28-eHLt5F9AZS6k1bY85HvqqYkNMdTs0-3oVyfpzLUeGPjr9pVd2cJO832bdAZC1YJ1ONWJ7SGEF1NsRWRpjlMhqLgldyEx4a7XrgftDNM3G4Sx2QQHsQGbzbE3zjM4AAjiUbPAyRKPfvK-_6-e7EMP6xfcS_4QYFAtJxiJIwLWn8.WsXuYytYZD_qCAk2gPgfSv66LgZN3s5I9z4-dqYycE4&scope=openid+profile+email
+Server: cloudflare
+Set-Cookie: __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2Fumbraco; Path=/; Secure; HttpOnly; SameSite=lax
+Set-Cookie: __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..1WL-ygFYro_Jut6ZnY1i2A.t7RLMkZt4vkcAJl6CMjQ5okKxczu0Hzg7w7TxjcBhN0Vd_BbRX5z7YOMEhqx3pNNB8d5wRIF5U0UJqBG9nU4wcqYZasfl6r-RyPHQQvKNy4VaslPtyquV5Qz31rR-2MBF5aigSBzihEO3l6de2iB6POSrcq6uIkYz3PMLj49zP_0enCG22yCOH1pQ1-Iv6mMvswUdHhDE5fYrqnLMKP5OPbVCkq1XdgLFa8_Mp0UXkoVf70lyenlAnQPO7GaYCUwNjpyNYS4fNONkH35zd1ynrkKuaz3SiJTeODD94xVBNMKHeksifpe06txkx1-hLHjHRBTSKeJb9oa004scifJtY0um_SbcMgKORfq3sxPLFtP0T87NsD8bMfJUjLwROzeRGaMqWcZuP3_qr6YKjHN4DrZ-iyVx7I_4emoE9ZoK4kpR08uVfryDObN-I6MgERlY8ePpUcSQnHuZr0KxdOTODTat57FMre6LbUQ4qZwJx-c-G7bnAQBfymaieQYI2oJyOaZySygW6BjwoBlHztqn1xFFG6OKPQAe_KU7B1fjcQ1_IuO2_TKdHL_fV0cbsn3_mEQT3dr5is62t5fntKkBxx_gvxBqJCSuUx7qxbZjyfBBywpxnCMo8Kv9eWP4wHO84ABB5OP-KhKdoY-uciLTtxmCmI-nmbfELnvtpmNH2ds8d5wVYUCtVDpZz6P3NsW.GuNHgRWsC3djvNPQLiLLMYzDblY86cjrPkdNpr7WBT8; Path=/; Expires=Tue, 05 Aug 2025 13:04:18 GMT; Max-Age=900; Secure; HttpOnly; SameSite=lax
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+X-Content-Type-Options: nosniff
+X-Matched-Path: /api/auth/login
+X-Vercel-Cache: MISS
+X-Vercel-Id: iad1::dub1::256lc-1754398157982-7e6e97d0edf2
+Content-Length: 0
+
+
+[umbraco-login] Dumped HTTP response https://app.bitpanda.com/umbraco
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e67c7e9c1f-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:17 GMT
+Location: /api/auth/login?callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2Fumbraco
+Server: cloudflare
+Set-Cookie: _cfuvid=J796_pegv4G4Epxn2RG7e_oaWVFtYBN5HwJ8Q4E0lI4-1754398157912-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::gt7w7-1754398157875-e456bb896058
+
+
+[umbraco-login] Dumped HTTP request for https://app.bitpanda.com/umbraco/login
+
+
+GET /umbraco/login HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2FNmConsole; _cfuvid=5FHgT341YIl1V5_rFTTDHmSdceC3uNI8hc2zX8LPnQA-1754398162938-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..5WNFTvc_UTHyIaY_bVHvHA._dXEiF18g9GwrU2bX-5Ac7rpkeIp-nsm48zNfstJXn4_0_kaKDjPs0CWL4XN9JfMxCBhKQgjh4gqh7JhcFu08nSJGPdKlrX6cCsDUIw2YA_KVzYe9CaeXpWZuOmhQyQNwyXjhKmbZOj35ur9aHJEtE7UJqJ7ua-DV1L9VVhjC2EHJdO18aLG47t2N0FiRnq9eo_fnsVmh_mAA3rfJ9rszlYwZKGITH_H36E1H0BzTexecSQ_1LY6gxfkH0yHnzjCfYxFQQdDcRKkcHbIcBgCr2R_cenGmFcxrlsQi8eATR7lkqFD8YJ8M409Oyq36peJWmikzv7c4iAyIymvyf4baGkmecQxk4m3nMjJ_EAp4jMV7AEYCXdw52BdPsWiL-B-eklOcNR5ESsPh8emDlu3wt3JO9c33FYJv--cXsScJeizrq8THC3iIIsfNuE2Opdp-0d9mcriJ-_tuP7agX6aVuxMd-9OTp_T73qpfl-D8WkbNtrOQd08QWRxcwzy0FR9-PnqYIz5nzCwNh53s0_62LK4hqjJnq6I3IXbYRBCX8gbo5Y12IBtVofXmlTfCpvrOLhDKdx0fF2QB15L4fWJOyFqg5iK-rXBxwsHHM6dzA6lhqiyPMsXx20_pG-VS7TYhuw97sLVe-Y0bSEgh1eyOscUkbTjRbQNo9f-y2tI5dXYbPpYOYsdaGi0Y3bTn8mv.bc0yw9fiimNm895B_hRnszyPZHcyw5QYEFCbPoYPBW8
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[umbraco-login] Dumped HTTP response https://app.bitpanda.com/umbraco/login
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a0e0a4dd690-IAD
+Date: Tue, 05 Aug 2025 12:49:24 GMT
+Location: https://account.bitpanda.com/authorization/oauth/authorize?response_type=code&client_id=19&redirect_uri=https%3A%2F%2Fapp.bitpanda.com%2Fapi%2Fauth%2Fcallback%2Fbitpanda&state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiZWpxYWRMU1dJdlhub0IyS2VPc3d3a2U2eWhRZDN4aFhGX2hiSGEyTEZCSnJxaklObWRzZnU0WWRERi1icXlkRVMyX1Npal9HamM5RjgxZE94VnBhU1EifQ..FUs56o1QgDaUdpS86saFTQ.lyCrRr_ektIT6dCEb4VgPQf1nbpCMl05MfFEO0L9KduoIHdmAO_AX_wzkyRCCR0NE4iEMwVi75jwOlbWCrOyOHy-RUcL6CpGM5Fvh7hlN4-CI6d00W7k1lw-_CSZ6HoDlHlz261wpxRhQyEn8F_pMhaNBpHxy_YtUlg1zGwrnixOfq4uiGwui6s0PLwMumJN.wl-NNu5HUnTREnidDVBiSYqXmYzE-1HlXyiCoKDzxRM&scope=openid+profile+email
+Server: cloudflare
+Set-Cookie: __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2Fumbraco%2Flogin; Path=/; Secure; HttpOnly; SameSite=lax
+Set-Cookie: __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..OHegyytugo--DDp7wB4dTQ.c763qt7cxqNFV-v0jeHC6qfS5vZuIXuiwEf82uT9q2MRMv-Dn8pthCDXHyaPr2J7jGDwjwBwX2WYAiokIcHow1bmrVCwVgwA6qLKFMjfSoLmvlUcAjPHXpvXuLXHdzkHgAZ8bWtUz1496Tuz93zpvTSOOjvc9MDuPASrXRWG9QSJ9Ot4nVvx-Aqd1TAi_k6_JcmcKi_iLFmaeQuhWdSAA73BUJxoShhzklb6uOzwx53EJXBuDOTR4PwV3ema8f3bjGVgsNNo6dIjaqOL4LE5NeexnLXRqwGcJar-379gwEEGtFER0JdWRMdTyZWZOV43WwZV5OhE7yeI63PP3AWvfsCLfp_85dUHKIUa_ViUrFH8Myp7UUAQul-Led4GKQY-vzxsi9G1KU7J9jHyflJwpny1I1hD_NnQBBY2UqmQ26S1tcRwJL5s5FT4S0-vscVuVqGoe-EJw10pQjmeUm-Al9WQ-1YFVfnazM3bSn7Ei3KhEccpShlQSm2LJecVFHJ2e3wEgyyvSiYpLZBb2pH9_EXVoO-nJdcrYYYmqDQ7a-05moofeSJSxUVTyPQXePmqNfdwdmBXWNRvX1jrebPBC8AW6KuE9oNQwKBYzXeH1MBhSLl9ymisStuB_rGlYcoSaXzo4nCh5gBO2_cs9HmkLi7MrJG8F3VyfT3SRIxErDcT7EK-TlWcTuFLiwnmN7Lm.j3ROgH1DmZn3og895s8lnyCDw2CEqrHra8BB58z8Zkc; Path=/; Expires=Tue, 05 Aug 2025 13:04:24 GMT; Max-Age=900; Secure; HttpOnly; SameSite=lax
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+X-Content-Type-Options: nosniff
+X-Matched-Path: /api/auth/login
+X-Vercel-Cache: MISS
+X-Vercel-Id: iad1::dub1::jqv56-1754398164192-775a4f73267e
+Content-Length: 0
+
+
+[umbraco-login] Dumped HTTP response https://app.bitpanda.com/umbraco/login
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a0bfd3fa62c-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:23 GMT
+Location: /api/auth/login?callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2Fumbraco%2Flogin
+Server: cloudflare
+Set-Cookie: _cfuvid=Gy3bUP2jy8HKxPsgMazIm.rzFFXYRkWeRPc_IUAuFFA-1754398163886-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::wxpjn-1754398163855-77f037a2aff9
+
+

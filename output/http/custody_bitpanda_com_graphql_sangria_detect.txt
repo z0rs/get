@@ -1,0 +1,1312 @@
+[graphql-sangria-detect] Dumped HTTP request for https://custody.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 33
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=rV4Jk_qxXGeglQVw8ufN0y.fcyr6kVbRrQRHI6zeIbs-1754398406812-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"queryy { __typename }"}
+[graphql-sangria-detect] Dumped HTTP response https://custody.bitpanda.com/graphql
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600, no-transform, public
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a67020ee8a3949-IAD
+Content-Security-Policy: frame-ancestors 'self' https://app.storyblok.com;
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:33 GMT
+Etag: W/"39b01b3b0069ff28267b784ffe4b8f6f"
+Last-Modified: Tue, 29 Jul 2025 06:35:44 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: accept-encoding
+X-Content-Type-Options: nosniff
+X-Vercel-Cache: MISS
+X-Vercel-Id: iad1::7frxw-1754398413006-492d952c3276
+
+<!DOCTYPE html><html class=dark lang=en><head><script src="https://www.googleoptimize.com/optimize.js?id=OPT-N3D6ZNP"></script><script>if(document.cookie.match("uc_performance_v1_0=accepted")?.length){
+            window.dataLayer.push({'event': 'optimize.activate'});
+        }</script><meta charset=utf-8><title>Institutional crypto custody made safer, faster &amp; easier</title><meta content=Bitpanda name=author><meta content="width=device-width, initial-scale=1.0" name=viewport><meta content=https://www.bitpanda.com/en/tech/custody-solutions property=og:url><meta content=origin name=referrer><link href=https://cdn.bitpanda.com/media/redesign/favicon/dark/favicon-32x32.png rel=icon sizes=32x32 type=image/png><link href=https://cdn.bitpanda.com/media/redesign/favicon/dark/favicon-16x16.png rel=icon sizes=16x16 type=image/png><meta content="IE=EmulateIE11" http-equiv=X-UA-Compatible><link href=https://cdn.bitpanda.com rel=preconnect><link href=https://code.highcharts.com rel=preconnect><link href=https://cdn.segment.com rel=preconnect><link as=font crossorigin=anonymous href=https://cdn.bitpanda.com/media/fonts/bp-assets/bp-assets.woff2 rel=preload type=font/woff2><link as=font crossorigin=anonymous href=https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Regular.woff2 rel=preload type=font/woff2><link as=font crossorigin=anonymous href=https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Medium.woff2 rel=preload type=font/woff2><link as=font crossorigin=anonymous href=https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Semibold.woff2 rel=preload type=font/woff2><style>@font-face {
+            font-family: 'bp-assets';
+            src:
+                url("https://cdn.bitpanda.com/media/fonts/bp-assets/bp-assets.woff2") format("woff2");
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }</style><style>@font-face {
+            font-family: EuclidSquare;
+            src:
+                url("https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Regular.woff2") format("woff2"),
+                url("https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Regular.woff") format("woff");
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: EuclidSquare;
+            src:
+                url("https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Medium.woff2") format("woff2"),
+                url("https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Medium.woff") format("woff");
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: EuclidSquare;
+            src:
+                url("https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Semibold.woff2") format("woff2");
+        url("https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Semibold.woff") format("woff");
+            font-weight: 600;
+            font-style: normal;
+            font-display: swap;
+        }</style><meta content="Bitpanda Custody stands as an FCA &amp; BAM-registered, fully insured solution that’s primed for the DeFi landscape. We offer segregated hardware security modules (HSM) secured wallets to ensure the utmost security for your crypto assets, giving you peace of mind with a platform that’s not only regulatory compliant, but also ready to meet the demands of the dynamic digital finance world.
+
+Bitpanda Custody only serves clients who have professional experience in matters relating to qualifying crypto assets. Bitpanda Custody does not serve retail customers and persons who do not have professional experience in matters relating to qualifying crypto assets." name=description><meta content="Institutional crypto custody made safer, faster &amp; easier" name=title><link href=https://www.bitpanda.com/en/tech/custody-solutions rel=canonical><link href=/en/tech/custody-solutions hreflang=x-default rel=alternate><link href=/en/tech/custody-solutions hreflang=en rel=alternate><link href=/de/tech/custody-solutions hreflang=de rel=alternate><meta content="index, follow " name=robots><meta content=article property=og:type><meta content="Institutional crypto custody made safer, faster &amp; easier" property=og:title><meta content="Bitpanda Custody stands as an FCA &amp; BAM-registered, fully insured solution that’s primed for the DeFi landscape. We offer segregated hardware security modules (HSM) secured wallets to ensure the utmost security for your crypto assets, giving you peace of mind with a platform that’s not only regulatory compliant, but also ready to meet the demands of the dynamic digital finance world.
+
+Bitpanda Custody only serves clients who have professional experience in matters relating to qualifying crypto assets. Bitpanda Custody does not serve retail customers and persons who do not have professional experience in matters relating to qualifying crypto assets." property=og:description><meta content=https://cdn.bitpanda.com/media/white-label/menu/BTS-OG-image.png property=og:image><link href="https://cdn.bitpanda.com/app/v2/css/all.min.css?id=0a6b6e34d2ce5388c046c8290ba08dfd" rel=stylesheet><style lang=css>.dark .js-bp3-cta-button .uk-button-default, .dark .js-bp3-cta-button .uk-button-primary, .dark  .js-bp3-cta-button .uk-button-default:hover, .dark  .js-bp3-cta-button .uk-button-primary:hover, .dark  .js-bp3-cta-button .uk-button-default:focus, .dark .js-bp3-cta-button .uk-button-primary:focus, .dark  .js-bp3-cta-button .uk-button-default:active, .dark  .js-bp3-cta-button .uk-button-primary:active {
+	 background-color: #66B9E8;
+	 border-color: #66B9E8;
+	 color: #f3f3f2; 
+}
+ 
+.dark .js-bp3-cta-button .uk-button-secondary, .dark  .js-bp3-cta-button .uk-button-secondary:hover, .dark  .js-bp3-cta-button .uk-button-secondary:focus, .dark  .js-bp3-cta-button .uk-button-secondary:active {
+	 border-color: #66B9E8 !important;
+	 color: #F3F3F2;
+}
+.dark .bp-offcanvas .bp-offcanvas__footer .bp-button--primary, .dark .bp-nav__container .bp-button--primary {
+    border-color: #66B9E8;
+	 background-color: #66B9E8;
+}
+/*blue accent in nav menu*/
+.dark .bp-nav__navigation li:active .bp-nav__item .bp-nav__item__text, 
+.dark .bp-nav__navigation li:focus-within .bp-nav__item .bp-nav__item__text, 
+.dark .bp-nav__navigation li:focus .bp-nav__item .bp-nav__item__text, 
+.dark .bp-nav__navigation li:hover .bp-nav__item .bp-nav__item__text {
+    border-bottom-color: #66B9E8;
+}
+/*blue accent in fotter*/
+.dark .footer .footer__main__nav a:active, 
+.dark .footer .footer__main__nav a:focus, 
+.dark .footer .footer__main__nav a:hover {
+    color: #66B9E8;
+}
+/*change underline for banner link*/
+.dark .background-black .module-text .module-text__content a[href]:not([uk-tooltip]):not(.bp-button-googleplay):not(.bp-button-appstore) {
+    background-image: linear-gradient(#F3F3F2,#F3F3F2),linear-gradient(#3D3D3D,#3D3D3D),linear-gradient(#F3F3F2,#F3F3F2);
+}
+
+
+/* vertical slider*/
+.dark #bp3-vs-wl__container {
+    background: #3D3D3D;
+    margin-bottom: -40px;
+}
+@media (min-width: 1200px) {
+    .dark #bp3-vs-wl__container { 
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: max(calc( (100% - 1200px) / 2 ), 40px);
+        padding-right: max(calc( (100% - 1200px) / 2 ), 40px);
+    }
+}
+@media (min-width: 960px) {
+    .dark #bp3-vs-wl__container { 
+        margin-bottom: -80px;
+    }
+}
+.dark #bp3-vs-wl__nav__item__button{
+    background-color: #66B9E8;
+}   
+.dark #asset-data__count__svg  circle {
+    stroke: #66B9E8;
+    fill: #3D3D3D;
+}
+.dark #bp3-vs__next-wl>span>svg {
+    fill: #66B9E8 !important;
+    stroke: #66B9E8 !important;    
+}
+.dark .bp3-vs__slides .bp3-vs__slide #bp3-vs-wl__slide__content {
+    align-self: center;
+}
+.dark .bp3-vs__slides .bp3-vs__slide #bp3-vs-wl__slide__content, 
+.dark .bp3-vs__slides .bp3-vs__slide #bp3-vs-wl__slide__content h3,
+.dark .bp3-vs__slides .bp3-vs__slide #bp3-vs-wl__slide__content em {
+    color: #F3F3F2;
+}
+#bp3-vs__nav-wl {
+    display: none;
+}
+/*fix bug causing horizontal scroll in mobile*/
+@media screen and (max-width: 768px) {
+    .dark .bp3-vs__slides {
+        width: 100%;
+    }
+}
+/*brand card*/
+
+.dark .bp3-card.bp3-card--gray {
+    background-color: #3D3D3D;
+}
+.dark .bp3-card.bp3-card--gray .bp3-card__content {
+    color: #F3F3F2;
+}
+.dark .bp3-card.bp3-card--gray .uk-button.uk-button-primary {
+    background-color: #66B9E8;
+    border-color: #66B9E8;
+    color: #F3F3F2;
+}
+/*cookies banner*/
+.dark .bp-banner .uk-button-default {
+    background-color: #66B9E8;
+    border-color: #66B9E8;
+    color: #F3F3F2;
+}
+.dark .bp-banner .uk-button-default:hover {
+    background-color: #4eb0e4;
+    border-color: #4eb0e4;
+    color: #F3F3F2;
+}
+.dark .bp-banner a[href]:after {
+    background-color: #66B9E8;
+}
+.dark .bp-banner a[href]:active {
+    color: #66B9E8 !important;
+}
+.dark .bp-banner a[href]:focus:after, .dark .bp-banner a[href]:hover:after {
+    background-color: #4eb0e4;
+}
+.dark #cookie-banner .bp-banner__content__text input:checked:not(:disabled)+.bp-switch__slider {
+    background-color: #4eb0e4;
+    border: 0.5px solid #4eb0e4;
+}
+/*hover effect for primary cta*/
+.dark .bp3-card.bp3-card--gray .uk-button.uk-button-primary:hover,
+.dark .bp-nav__container .bp-button--primary:hover,
+.dark .js-bp3-cta-button .uk-button-primary:hover {
+    background-color: #4eb0e4;
+    border-color: #4eb0e4;
+}
+.dark .bp-offcanvas ul [aria-expanded=true] .bp-offcanvas__item svg,
+.dark .bp-offcanvas__item {
+    color: #66B9E8;
+}</style><script src="https://cdn.bitpanda.com/app/v2/js/head.min.js?id=c9d8a7523921951f3dc02c71193d6fe4"></script><script>function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+function getUrlParam(param) {
+    let value = "";
+    //console.log(window.location.href);
+    if(window.location.href.indexOf(param) > -1)
+        value = getUrlVars()[param];
+    return value;
+}
+function setCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; domain=.bitpanda.com; path=/";
+}
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+function eraseCookie(name) {   
+    document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=.bitpanda.com; path=/';
+}
+const s_id = getUrlParam('s_id');
+if (!!s_id) {
+    setCookie('s_id', s_id, 60);
+}
+const ref = getUrlParam('ref');
+if(!!ref) {
+    setCookie('ref', ref, 30);
+    eraseCookie('tag');
+    eraseCookie('s_id');
+}
+const tag = getUrlParam('tag');
+if(!!tag) {
+    setCookie('tag', tag, 30);
+    //eraseCookie('s_id');
+}
+const clickId = getUrlParam('irclickid');
+if(!!clickId) {
+    setCookie('irclickid', clickId, 30);
+}
+const utmCampaign = getUrlParam('utm_campaign');
+if(!!utmCampaign) {
+    setCookie('utm_campaign', utmCampaign, 30);
+}</script><script>window.addEventListener('DOMContentLoaded', (event) => {
+    let hash = window.location.hash;
+    hash = hash.replace("##","#");
+    hash = hash.replace("%23","");
+    window.location.hash = hash;
+    const targetNode = document.querySelectorAll('.uk-switcher')[0];
+    if(typeof targetNode !== "undefined") {
+        const config = { attributes: true, childList: true, subtree: true };
+        const callback = function(mutationsList, observer) {
+    		document.querySelectorAll(".uk-switcher > li").forEach(_li => {
+    		    if(_li.getAttribute('id') !== null) {
+    			    _li.setAttribute("id", _li.getAttribute("id").replace("#",""));
+    		    }
+			});
+    
+    		document.querySelectorAll("#tab-module > li > a").forEach(_a => {
+    		    if(_a.getAttribute('href') !== null) {
+    			    _a.setAttribute("href", _a.getAttribute("href").replace("##","#"));
+    		    }
+			});
+    			
+            observer.disconnect();
+        };
+        const observer = new MutationObserver(callback);
+        observer.observe(targetNode, config);
+    }
+});</script><script>var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://bitpanda.matomo.cloud/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src='//cdn.matomo.cloud/bitpanda.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+  })();</script><script>let apiUrls = {
+            bpIcons: "https://bitpanda-broker-production-assets.s3-eu-west-1.amazonaws.com/static/cryptocoin/",
+            base: "https://api.bitpanda.com/v1/",
+            baseV2: "https://api.bitpanda.com/v2/",
+            baseV3: "https://api.bitpanda.com/v3/"
+        }</script><script>let utmTextReplace = {
+            utmParameter: '',
+            utmValue: '',
+            cssSelector: '',
+            text: '',
+        }</script><script src=//geoip-js.com/js/apis/geoip2/v2.1/geoip2.js></script><script>window.adjustSettings = {
+            appToken: '7hrkmq2yb3b4',
+            environment: 'production'
+        }</script><script type=application/ld+json>{
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    [{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/www.bitpanda.com\/en"},{"@type":"ListItem","position":2,"name":"Tech","item":"https:\/\/www.bitpanda.com\/en\/tech"},{"@type":"ListItem","position":3,"name":"Custody Solutions"}]
+                ]
+            }</script> <body class="dark default" style="position: unset;"><header id=layout-header><header><div class="bp-nav js-contains-anchor"><div class=bp-nav__container><div class=util-flex-shrink-0><a href=/en/tech><img alt="Bitpanda Pro" class=lazyload data-src=" https://cdn.bitpanda.com/media/white-label/menu/Bitpanda_Tech_Logo_White.png " height=40 width=166> </a> </div> <div class=util-visible-desktop><ul class=bp-nav__navigation><li class=bp-dropdown__align-anchor><div class=bp-nav__item><div class=bp-nav__item__text>Solution</div> <div class="bp-dropdown bp-dropdown--padding-sm"><ul class=bp-dropdown__grid><li class=bp-dropdown__grid-list><ul><li><a class=bp-dropdown__item href=/en/tech/investment-solutions><div> Investment </div> </a> <li><a class=bp-dropdown__item href=/en/tech/custody-solutions><div> Custody </div> </a> </ul> </ul> </div></div> <li class=bp-dropdown__align-anchor><div class=bp-nav__item><a class=bp-nav__item__text href=/en/tech/customers>Customers</a> <div class="bp-dropdown bp-dropdown--padding-sm"><ul class=bp-dropdown__grid><li class=bp-dropdown__grid-list><ul><li><a class=bp-dropdown__item href=/en/tech/sumeria-success-story><div> Sumeria </div> </a> <li><a class=bp-dropdown__item href=/en/tech/n26-success-story><div> N26 </div> </a> <li><a class=bp-dropdown__item href=/en/tech/plum-success-story><div> Plum </div> </a> <li><a class=bp-dropdown__item href=/en/tech/icard-success-story><div> iCard </div> </a> <li><a class=bp-dropdown__item href=/en/tech/rlb-success-story><div> Raiffeisen </div> </a> <li><a class=bp-dropdown__item href=/en/tech/coinmotion-success-story><div> Coinmotion </div> </a> <li><a class=bp-dropdown__item href=/en/tech/solaris-success-story><div> Solaris </div> </a> </ul> </ul> </div></div> <li><div class=bp-nav__item><a class=bp-nav__item__text href=/en/tech/partners>Partners</a> </div> <li><div class=bp-nav__item><a class=bp-nav__item__text href=/en/tech/insights>Insights</a> </div> <li><div class=bp-nav__item><a class=bp-nav__item__text href=/en/tech/security>Security</a> </div> <li><div class=bp-nav__item><a class=bp-nav__item__text href="https://techsolutions.bitpanda.com/ ">API Documentation</a> </div> <li><div class=bp-nav__item><a class=bp-nav__item__text href=/en/tech/company>Company</a> </div> </ul> </div> <div class=util-visible-desktop><div><ul class=bp-nav__navigation><li class=bp-dropdown__align-anchor><div class=bp-nav__item><div class=bp-nav__item__text><svg class=bp-symbol style="vertical-align: text-top;"><use xlink:href=#icon-globe></use> </svg> EN <svg class=bp-symbol style="--bp-symbol-size: 10px; vertical-align: inherit;"><use xlink:href=#icon-chevron-down></use> </svg> </div> <div class="bp-dropdown bp-dropdown--padding-sm"><ul class=bp-dropdown__grid><li class=bp-dropdown__grid-list><ul><li><a class=bp-dropdown__item href=/en/tech/custody-solutions><div> English </div> </a> <li><a class=bp-dropdown__item href=/de/tech/custody-solutions><div> Deutsch </div> </a> </ul> </ul> </div></div> </ul> </div> <div><a class="bp-button bp-button--primary" href=/en/bts-contact-us target=_blank title="Contact us">Contact us</a></div></div> <div class=util-visible-mobile><div><a class="bp-button bp-button--primary" href=/en/bts-contact-us target=_blank title="Contact us">Contact us</a></div> <div><button class="bp-button bp-button--transparent" onclick=toggleOffcanvas();><svg class=bp-symbol style="--bp-symbol-size: 20px;"><use xlink:href=#icon-hamburger></use></svg> </button> </div></div></div> </div> <script>function toggleTarget(e) {
+        const item = e.currentTarget;
+        const currentTarget = document.getElementById(e.currentTarget.getAttribute("bp-expand"));
+        if (currentTarget !== activeTarget) {
+            activeTarget.setAttribute("aria-expanded", "false");
+            currentTarget.setAttribute("aria-expanded", "true");
+            activeTarget = currentTarget;
+
+            activeItem.setAttribute("aria-current", "false");
+            item.setAttribute("aria-current", "true");
+            activeItem = item;
+        }
+    }
+    let activeTarget = document.getElementById("bp-expand-1");
+    let activeItem = document.querySelectorAll("[bp-expand=bp-expand-1]")[0];
+    document.querySelectorAll("[bp-expand]").forEach(function (item) {
+        item.addEventListener("mouseenter", toggleTarget, false);
+        item.addEventListener("focus", toggleTarget, false);
+    });</script> <div aria-expanded=false class=bp-offcanvas><div class=bp-offcanvas__header><a href=/en/tech><img alt="Bitpanda Pro" class=lazyload data-src=" https://cdn.bitpanda.com/media/white-label/menu/Bitpanda_Tech_Logo_White.png " height=40 width=166> </a> <button class="bp-button bp-button--transparent" onclick=toggleOffcanvas();><svg class=bp-symbol><use xlink:href=#icon-close></use> </svg> </button></div> <div class=bp-offcanvas__search-area><div class="bp-form-element bp-form-element--can-focus bp-form-element--large"><svg class=bp-symbol><use xlink:href=#icon-globe></use> </svg> <select id=js-offcanvas-language-switcher name="" onchange=changeLanguage(this)><option selected value=/en/tech/custody-solutions>English <option value=/de/tech/custody-solutions>Deutsch</select></div> </div> <div class=bp-offcanvas__body><nav id=js-offcanvas-nav><ul><li aria-expanded=false><span class=bp-offcanvas__item> Solution <svg class=bp-symbol><use xlink:href=#icon-chevron-down></use> </svg> </span> <ul><li><a href=/en/tech/investment-solutions>Investment</a> <li><a href=/en/tech/custody-solutions>Custody</a></ul> <li aria-expanded=false><span class=bp-offcanvas__item><a href=/en/tech/customers style="max-width: 90%">Customers</a> <svg class=bp-symbol><use xlink:href=#icon-chevron-down></use> </svg></span> <ul><li><a href=/en/tech/sumeria-success-story>Sumeria</a> <li><a href=/en/tech/n26-success-story>N26</a> <li><a href=/en/tech/plum-success-story>Plum</a> <li><a href=/en/tech/icard-success-story>iCard</a> <li><a href=/en/tech/rlb-success-story>Raiffeisen</a> <li><a href=/en/tech/coinmotion-success-story>Coinmotion</a> <li><a href=/en/tech/solaris-success-story>Solaris</a></ul> <li aria-expanded=false><span class=bp-offcanvas__item><a href=/en/tech/partners>Partners</a> </span> <ul></ul> <li aria-expanded=false><span class=bp-offcanvas__item><a href=/en/tech/insights>Insights</a> </span> <ul></ul> <li aria-expanded=false><span class=bp-offcanvas__item><a href=/en/tech/security>Security</a> </span> <ul></ul> <li aria-expanded=false><span class=bp-offcanvas__item><a href="https://techsolutions.bitpanda.com/ ">API Documentation</a> </span> <ul></ul> <li aria-expanded=false><span class=bp-offcanvas__item><a href=/en/tech/company>Company</a> </span> <ul></ul></ul> </nav> </div> <div class=bp-offcanvas__footer><a class="bp-button bp-button--large bp-button--primary" href=/en/bts-contact-us target=_blank title="Contact us">Contact us</a> </div></div> <script>function minimiseAll() {
+        document.querySelectorAll("#js-offcanvas-nav > ul > li").forEach(function(li) {
+            li.setAttribute("aria-expanded", false);
+        })
+    }
+    document.querySelectorAll("#js-offcanvas-nav > ul > li").forEach(function(li) {
+        li.addEventListener("click", function(e) {
+            if(e.currentTarget.getAttribute("aria-expanded") === "true") {
+                e.currentTarget.setAttribute("aria-expanded", false);
+            } else {
+                minimiseAll();
+                e.currentTarget.setAttribute("aria-expanded", true);
+            }
+        });
+    })
+    function toggleOffcanvas(e) {
+        const offcanvas = document.querySelectorAll(".bp-offcanvas")[0];
+        if(offcanvas.getAttribute("aria-expanded") === "false") {
+            offcanvas.setAttribute("aria-expanded", "true");
+        } else {
+            offcanvas.setAttribute("aria-expanded", "false");
+        }
+    }
+    function changeLanguage(e) {
+        document.location = e.value;
+    }</script></header> <div id=mobile-nav uk-offcanvas="overlay: true;"><div class=uk-offcanvas-bar><div class=offcanvas-logo-wrapper><a class=navbar-logo href=/en/tech><img alt="Bitpanda Logo" class=lazyload data-src=" https://cdn.bitpanda.com/media/white-label/menu/Bitpanda_Tech_Logo_White.png "> </a> <a class=uk-offcanvas-close type=button><span class="bp-icon bp-icon--close"></span> </a></div> <ul class="uk-nav uk-nav-default" uk-nav=""><li class=uk-parent><a href=#>Solution</a> <ul class=uk-nav-sub><li><a href=/en/tech/investment-solutions> Investment </a> <li><a href=/en/tech/custody-solutions> Custody </a> </ul> <li class=uk-parent><a href=#>Customers</a> <ul class=uk-nav-sub><li><a href=/en/tech/sumeria-success-story><span class="default uk-icon-button uk-margin-small-right"><img class=lazyload data-src=https://cdn.bitpanda.com/media/white-label/customer_Sumeria/Bitpanda%20Technology%20Solutions_Sumeria%20Logo.png> </span> Sumeria </a> <li><a href=/en/tech/n26-success-story><span class="default uk-icon-button uk-margin-small-right"><img class=lazyload data-src=https://cdn.bitpanda.com/media/white-label/n26_app_icon.png> </span> N26 </a> <li><a href=/en/tech/plum-success-story><span class="default uk-icon-button uk-margin-small-right"><img class=lazyload data-src=https://cdn.bitpanda.com/media/white-label/plum_app_icon.png> </span> Plum </a> <li><a href=/en/tech/icard-success-story><span class="default uk-icon-button uk-margin-small-right"><img class=lazyload data-src=https://cdn.bitpanda.com/media/white-label/customer_icard/iCard.png> </span> iCard </a> <li><a href=/en/tech/rlb-success-story><span class="default uk-icon-button uk-margin-small-right"><img class=lazyload data-src=https://cdn.bitpanda.com/media/white-label/customer_RLB/Bitpanda%20Technology%20Solutions_BTS%20Partners%20icons_Raiffeisen.png> </span> Raiffeisen </a> <li><a href=/en/tech/coinmotion-success-story><span class="default uk-icon-button uk-margin-small-right"><img class=lazyload data-src=https://cdn.bitpanda.com/media/white-label/customer_coinmotion/Coinmotion%20logo.png> </span> Coinmotion </a> <li><a href=/en/tech/solaris-success-story> Solaris </a> </ul> <li><a href=/en/tech/partners>Partners</a> <li><a href=/en/tech/insights>Insights</a> <li><a href=/en/tech/security>Security</a> <li><a href="https://techsolutions.bitpanda.com/ ">API Documentation</a> <li><a href=/en/tech/company>Company</a> </ul> <ul class=bp-offcanvas-secondary-nav uk-nav=""><li><a class=bp-text--sm href=""> Company </a> </ul> <ul class="bp-offcanvas-buttons uk-nav uk-nav-default" uk-nav=""><div><li><a class="uk-button uk-button-primary uk-width-1-1" href=/en/bts-contact-us>Contact us</a> </div> </ul></div> </div> <script>const ENTER_KEY_CODE = 13;
+
+    $(document).ready(function () {
+        $('#search-input-modal').keydown(function (event) {
+            const keyCode = (event.keyCode ? event.keyCode : event.which);
+            if (keyCode === ENTER_KEY_CODE) {
+                const searchFilter = '' || '';
+                const searchLink = `/en/search?${searchFilter.length === 0 ? '' : 'filter=' + searchFilter + '&'}query=${$(this).val()}`;
+                document.location.href = searchLink;
+            }
+        });
+    });</script></header> <section id=layout-content tabindex=-1><section class="background-black default uk-background-cover uk-light uk-section" style=background-image:url(https://cdn.bitpanda.com/media/white-label/2.0/custody-solution-header.png)><div class="uk-flex uk-flex-center"><section class="module-text uk-section uk-text-left uk-text-left@m"><div class=module-text__content><p><br> <p><br> <p>&nbsp; <br>&nbsp; <br>&nbsp;</div> </section> </div> </section> <section class="background-black default uk-background-cover uk-light uk-section" style=background-image:url(https://cdn.bitpanda.com/media/white-label/2.0/BitPanda_Tech_Website_final-31.jpg)><div class="uk-container uk-flex uk-flex-right"><section class="module-text uk-padding-remove-bottom uk-padding-small-top uk-section uk-text-left uk-text-left@m uk-width-2-3@s"><div class=module-text__content><h1>Institutional crypto custody made safer, faster &amp; easier</h1> <p>Bitpanda Custody stands as an FCA &amp; BAM-registered, fully insured solution that’s primed for the DeFi landscape. We offer segregated hardware security modules (HSM) secured wallets to ensure the utmost security for your crypto assets, giving you peace of mind with a platform that’s not only regulatory compliant, but also ready to meet the demands of the dynamic digital finance world. <p class=bp-text--sm>Bitpanda Custody only serves clients who have professional experience in matters relating to qualifying crypto assets. Bitpanda Custody does not serve retail customers and persons who do not have professional experience in matters relating to qualifying crypto assets.</div> <div class="js-bp3-cta-button module-text__buttons"><span class=primary-button><a class="desktop-button tk-get-started-button uk-button uk-button-large uk-button-primary" href=https://www.bitpanda.com/en/bts-contact-us> Book a demo </a> <a class="mobile-button uk-button uk-button-large uk-button-primary" href=https://www.bitpanda.com/en/bts-contact-us> Book a demo </a></span> <a class="secondary-button uk-button uk-button-large uk-button-secondary" href=https://app.bitpandacustody.com/> Log in to Bitpanda Custody </a></div> <script>window.initScriptLater = function (scriptUrl, fallback) {
+        const script = document.createElement("script");
+        script.onload = fallback;
+        script.src = scriptUrl;
+
+        document.addEventListener("readystatechange", () => {
+            if (document.readyState === "interactive") {
+                document.head.appendChild(script);
+            }
+        });
+    };
+
+    window.initScriptLater("https://cdn.bitpanda.com/app/v2/js/cta-button.min.js?id=d34a8a89944479eef669417eb9f8e3c5", () =>
+        window.initCtaButton()
+    );</script></section> </div> </section> <section class="background-black default uk-light uk-padding-small-bottom uk-section"><div class="default uk-container"><section class="module-text uk-padding-small-bottom uk-section uk-text-center uk-text-center@m"><div class=module-text__content><h2 dir=ltr>Unmatched flexibility and functionality</h2> <p dir=ltr>With years of expertise, we've crafted our custody solution to exceed industry standards. Our system includes:</div> </section> </div> </section> <section class="background-black uk-light uk-padding-small-bottom uk-padding-small-top uk-section"><div class=uk-container><div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-flex-center uk-flex-top uk-grid uk-grid-match" uk-grid=""><div class=default><section class="module-text uk-padding-small-bottom uk-padding-small-top uk-section uk-text-center uk-text-center@m"><div class=module-text__content><p><img class="fr-dib fr-fic" src=https://cdn.bitpanda.com/media/white-label/2.0/BitPanda%20Tech%20Website%20final-15.svg style="width: 150px;"> <p class=bp-text--lg><strong>Rule-based thresholds with MultiSig features</strong> <p class=bp-text--sm>Securely share wallets with customisable Multisig. Create unique sub-wallets to segregate funds per customer, payment, etc. in real-time.</div> </section> </div> <div class=default><section class="module-text uk-padding-small-bottom uk-padding-small-top uk-section uk-text-center uk-text-center@m"><div class=module-text__content><p><img class="fr-dib fr-fic" src=https://cdn.bitpanda.com/media/white-label/2.0/BitPanda%20Tech%20Website%20final-16.svg style="width: 150px;"> <p class=bp-text--lg><strong>Unlimited o﻿n-chain verified segregated wallets</strong> <p class=bp-text--sm>Easily create unlimited segregate﻿d sub-wallets, scale to accommodate more customers, and audit accounts with no commingling or rehypothecation of cryptoassets.</div> </section> </div> <div class=default><section class="module-text uk-padding-small-bottom uk-padding-small-top uk-section uk-text-center uk-text-center@m"><div class=module-text__content><p><img class="fr-dib fr-fic" src=https://cdn.bitpanda.com/media/white-label/2.0/BitPanda%20Tech%20Website%20final-17.svg style="width: 150px;"> <p class=bp-text--lg><strong>Propri﻿etary HSM</strong> <br><strong>technology</strong> <p class=bp-text--sm>Our proprietary HSM technolo﻿gy enforces cryptographically secured MultiSig approvals.</div> </section> </div></div> </div> </section> <section class="background-black uk-light uk-padding-remove-top uk-padding-small-bottom uk-section"><div class=uk-container><div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-flex-center uk-flex-top uk-grid uk-grid-match" uk-grid=""><div class=default><section class="module-text uk-padding-small-bottom uk-padding-small-top uk-section uk-text-center uk-text-center@m"><div class=module-text__content><p><img class="fr-dib fr-fic" src=https://cdn.bitpanda.com/media/white-label/2.0/BitPanda%20Tech%20Website%20final-20.svg style="width: 150px;"> <p class=bp-text--lg><strong>Build-in KYT ﻿&amp;</strong> <br><strong>KYC controls</strong> <p class=bp-text--sm>Know Your Customer &amp; Know Your Transaction. Our built-in KYC and KYT controls ensure we can monitor all users and transactions for AML compliance <br>The system is designed to be compliant with all required regulations, e.g., KYT monitoring, including address risk assessment and Travel Rule enforcement.</div> </section> </div> <div class=default><section class="module-text uk-padding-small-bottom uk-padding-small-top uk-section uk-text-center uk-text-center@m"><div class=module-text__content><p><img class="fr-dib fr-fic" src=https://cdn.bitpanda.com/media/white-label/2.0/BitPanda%20Tech%20Website%20final-19.svg style="width: 150px;"> <p class=bp-text--lg><strong>API &amp; SDK﻿</strong> <br><strong>automation</strong> <p class=bp-text--sm>Create new addresses on demand, sign and send transactions, query balances, develop your own flows and more with our GraphQL APIs and JavaScript SDK. <br>We offer full automation capabilities with our APIs, related SDKs, and webhooks.</div> </section> </div> <div class=default><section class="module-text uk-padding-small-bottom uk-padding-small-top uk-section uk-text-center uk-text-center@m"><div class=module-text__content><p><img class="fr-dib fr-fic" src=https://cdn.bitpanda.com/media/white-label/2.0/BitPanda%20Tech%20Website%20final-18.svg style="width: 150px;"> <p class=bp-text--lg><strong>DeFi﻿ through institutional-grade MetaMask extension</strong> <p class=bp-text--sm>Get all the details on your Ethereum transactions in one view and report. Support better end-of-month reconciliation for easy compliance reporting <br>Our DeFi firewall relies on our rules engine and Human Readable Transactions capabilities.</div> </section> </div></div> </div> </section> <section class="background-black default uk-light uk-padding-remove-bottom uk-section"><div class="default uk-container"><section class="module-text uk-padding-remove-bottom uk-padding-small-top uk-section uk-text-center uk-text-center@m"><div class=module-text__content><h2 dir=ltr>Security: Tried and tested</h2> <p dir=ltr>Our custody solution join the ranks of our tried-and-tested investment solutions, now available for our B2B clientele. We provide an easy-to-integrate insured crypto custody solution, safeguarding all your digital asset initiatives. Rest assured, you're in the safest hands in the industry.</div> </section> </div> </section> <section class="background-black default uk-light uk-section"><div class=uk-container><div class="uk-child-width-1-2@m uk-flex-top uk-grid" uk-grid=""><div class=default><div class="bp3-card bp3-card--column bp3-card--gray bp3-card--image-bottom-center"><div class=bp3-card__content><p align=center><img class="fr-dib fr-fic" src=https://cdn.bitpanda.com/media/white-label/2.0/small_SNR-ISO-IEC%2027001-1-modified.png style="width: 400px;"> <br> <br> <ul><li dir=ltr><strong>ISO/IEC 27001:2013 certification</strong> ensures robust security for your digital assets. The company enforces strict protocols to safeguard your investment from unauthorised access and cyber threats. <li><strong>Data Protection</strong>: Customer data is securely stored and monitored according to ISO/IEC 27001:2013 standards. Personal details, financial information, and trade data are kept confidential and safeguarded. <li><strong>Compliance</strong>: Our ISO/IEC 27001:2013 certification guarantees regular inspections and compliance with industry regulations for our custodial services and infrastructure.</ul></div> <div class=bp3-card__image><picture><source data-srcset=https://cdn.bitpanda.com/media/ type=image/png><img alt="" class=lazyload data-src=https://cdn.bitpanda.com/media/> </picture> </div></div> </div> <div class=default><div class="bp3-card bp3-card--column bp3-card--gray bp3-card--image-bottom-right"><div class=bp3-card__content><p align=center><img class="fr-dib fr-fic" src=https://cdn.bitpanda.com/media/white-label/2.0/soc2-3-modified.png style="width: 400px;"> <br> <br> <ul><li><strong>Enhanced Security Assurance</strong>: Our SOC 2 assessment ensures our security controls effectively protect your digital assets, affirming our commitment to safeguarding your investments and data with necessary safeguards in place. <li><strong>Streamlined Due Diligence</strong>: Being a SOC 2-assessed custodian simplifies your due diligence. Partner with confidence, knowing we've undergone rigorous independent assessment, reducing your efforts in evaluating our security and compliance practices for informed decisions. <li><strong>Reduced Risk</strong>: Opting for a SOC 2-assessed custodian lowers your exposure to security risks and breaches. Our assessment indicates proactive handling of vulnerabilities, minimising incidents that could affect your assets. Your investments are safer with us.</ul></div> <div class=bp3-card__image><picture><source data-srcset=https://cdn.bitpanda.com/media/ type=image/png><img alt="" class=lazyload data-src=https://cdn.bitpanda.com/media/> </picture> </div></div> </div></div> </div> </section> <section class="background-black uk-light uk-padding-remove-top uk-padding-small-bottom uk-section"><div class="default uk-container"><section class="module-text uk-padding-remove-top uk-padding-small-bottom uk-section uk-text-center uk-text-center@m"><div class=module-text__content><h4>Tailor-made solutions - Just what you need!</h4> </div> <div class="js-bp3-cta-button module-text__buttons"><span class=primary-button><a class="desktop-button tk-get-started-button uk-button uk-button-large uk-button-primary" href=https://www.bitpanda.com/en/bts-contact-us> Start customising your solution </a> <a class="mobile-button uk-button uk-button-large uk-button-primary" href=https://www.bitpanda.com/en/bts-contact-us> Start customising your solution </a></span> </div> <script>window.initScriptLater = function (scriptUrl, fallback) {
+        const script = document.createElement("script");
+        script.onload = fallback;
+        script.src = scriptUrl;
+
+        document.addEventListener("readystatechange", () => {
+            if (document.readyState === "interactive") {
+                document.head.appendChild(script);
+            }
+        });
+    };
+
+    window.initScriptLater("https://cdn.bitpanda.com/app/v2/js/cta-button.min.js?id=d34a8a89944479eef669417eb9f8e3c5", () =>
+        window.initCtaButton()
+    );</script></section> <section class="module-text uk-padding-remove-bottom uk-section uk-text-center uk-text-center@m"><div class=module-text__content><p class=bp-text--sm><br> <p class=bp-text--sm>Bitpanda Custody is a registered cryptoassets firm with the UK Financial Conduct Authority (FRN No. 928556) <hr> <p class=bp-text--sm><a href=https://custodysupport.bitpanda.com/hc/en-us>Bitpanda Custody Help Center</a></div> </section></div> </section></section> <footer id=layout-footer><footer class="footer footer_brand_3"><section class=footer__main><div class=uk-container><div uk-grid=""><div class=uk-width-1-1><nav class="uk-child-width-1-2@s uk-child-width-1-4@m" uk-grid=""><div class=footer__main__nav><span class=footer__main__nav__title> Bitpanda Technology Solutions </span> <ul><li><a href=/en/tech/platform>Platform</a> <li><a href=/en/tech/partners>Partners</a> <li><a href=/en/tech/insights>Insights</a> <li><a href=/en/tech/security>Security</a> <li><a href=/en/tech/company>Company</a> <li><a href=/en/tech/customers>Customers</a></ul></div> <div class=footer__main__nav><span class=footer__main__nav__title> _ </span> <ul><li><a href=/en/tech/rlb-success-story>Raiffeisen</a> <li><a href=/en/tech/n26-success-story>N26</a> <li><a href=/en/tech/sumeria-success-story>Sumeria</a> <li><a href=/en/tech/plum-success-story>Plum</a> <li><a href=/en/tech/icard-success-story>iCard</a> <li><a href=/en/tech/coinmotion-success-story>Coinmotion</a> <li><a href=/en/tech/solaris-success-story>Solaris</a></ul></div> <div class=footer__main__nav><span class=footer__main__nav__title> _ </span> <ul><li><a href=https://techsolutions.bitpanda.com/>API documentation</a> <li><a href=https://www.linkedin.com/company/bitpanda-technology>Linkedin</a> <li><a href=https://www.bitpanda.com/en/legal/legal-notice>Legal notice</a> <li><a href=https://www.bitpanda.com/en/legal/bitpanda-privacy-policy>Privacy Policy</a> <li><a href=https://www.bitpanda.com/de/legal>Legal &amp; Privacy</a> <li><a href=https://www.bitpanda.com/en/tech/custody-terms-and-conditions>Bitpanda Custody Terms and Conditions</a></ul></div> <div class=footer__main__nav><div><span class=footer__main__nav__title></span> <ul class="footer__social newColors"></ul></div> </div></nav> </div> </div> </div> <div class=uk-container><div class=uk-grid><div class="uk-margin-medium-top uk-text-small" style="color: #ffffffb3;"><p class=bp-text--sm>The content of this page constitutes a 'financial promotion', for the purposes of Section 21 of the Financial Services and Markets Act 2000 ("FSMA"), of 'qualifying cryptoassets', as such term is defined in The Financial Services and Markets Act 2000 (Financial Promotion) Order 2005 ("FPO"), and, accordingly, its distribution in the United Kingdom is restricted. No person authorised by the UK Financial Conduct Authority has approved the contents of this page for the purposes of section 21 FSMA. The products and services detailed on this page are only directed at, in the case of persons present in the UK, those persons who fall within Article 49(2)(a) to (d) (high net worth companies, unincorporated associations, etc.) of FPO ("Relevant Persons"). Any invitation, offer or agreement to provide the services described on this page, in the case of persons present in the UK, shall be made only to or with Relevant Persons. Any person present in the UK who is not a Relevant Person must not act on or rely upon the information contained on this page. </div> </div> </div></section> <section class="footer__navbar footer__navbar--sm footer__navbar__gradient"><div class=uk-container><div class=uk-flex-center uk-grid=""><div class="middle-menu-column uk-text-center uk-text-right@m uk-width-1-1 uk-width-auto@m"><ul><li><a href=https://www.bitpanda.com/en/legal/legal-notice>Legal Notice</a> </ul> </div> <div class="uk-second-column uk-text-center uk-text-right@m uk-width-1-1 uk-width-auto@m"><span>&copy; Bitpanda GmbH</span> </div></div> </div> </section></footer> </footer> <section class=bp-banner__container><div class="bp-banner bp-banner--hidden" id=cookie-banner><div class=bp-banner__content><div class=bp-banner__content__text><div><h4>The website uses cookies.</h4> We use cookies to optimize our services. The information we collect is used by us as part of our EU-wide activities. <a class=cookie-policy-button href=https://www.bitpanda.com/en/legal/bitpanda-cookie-policy target=_blank>Cookie policy</a></div> <div class=bp-banner__cookie-settings id=cookie-settings-modal><div><h5 class=cookie-settings__light-text>Cookie settings</h5> <ul toggle=.uk-accordion-title uk-accordion=""><li><div class="uk-flex uk-flex-between uk-flex-middle uk-margin-small-bottom uk-margin-small-top"><span class="cookie-settings__accordion-title uk-accordion-title">Essential cookies</span> <p class=cookie-settings__light-text>Always active</div> <p class="cookie-settings-description uk-accordion-content"> As the name would suggest, some cookies on our website are essential. They are necessary to remember your settings when using Bitpanda, (such as privacy or language settings), to protect the platform from attacks, or simply to stay logged in after you originally log in. You have the option to refuse, block or delete them, but this will significantly affect your experience using the website and not all our services will be available to you. <hr> <li><div class="uk-flex uk-flex-between uk-flex-middle uk-margin-small-bottom uk-margin-small-top"><span class="cookie-settings__accordion-title uk-accordion-title">Performance cookies</span> <div class="cookie-settings__switch-block performance-cookies-switch"><span class="active-inactive-text cookie-settings__light-text"><span class=active>Active</span> <span class=inactive>Inactive</span></span> <label class="bp-switch uk-margin-small-right" for=performance-cookies-check><input id=performance-cookies-check type=checkbox> <span class=bp-switch__slider></span></label></div></div> <p class="cookie-settings-description uk-accordion-content"> We use such cookies and similar technologies to collect information as users browse our website to help us better understand how it is used and then improve our services accordingly. It also helps us measure the overall performance of our website. We receive the date that this generates on an aggregated and anonymous basis. Blocking these cookies and tools does not affect the way our services work, but it does make it much harder for us to improve your experience. <hr> <li><div class="uk-flex uk-flex-between uk-flex-middle uk-margin-small-bottom uk-margin-small-top"><span class="cookie-settings__accordion-title uk-accordion-title">Advertisement cookies</span> <div class="ad-cookies-switch cookie-settings__switch-block"><span class="active-inactive-text cookie-settings__light-text"><span class=active>Active</span> <span class=inactive>Inactive</span></span> <label class="bp-switch uk-margin-small-right" for=ad-cookies-check><input id=ad-cookies-check type=checkbox> <span class=bp-switch__slider></span></label></div></div> <p class="cookie-settings-description uk-accordion-content"> These cookies are used to provide you with adverts relevant to Bitpanda. The tools for this are usually provided by third parties. With the help of these cookies and such third parties, we can ensure for example, that you don’t see the same ad more than once and that the advertisements are tailored to your interests. We can also use these technologies to measure the success of our marketing campaigns. Blocking these cookies and similar technologies does not generally affect the way our services work. Please note, however, that while you’ll still see advertisements about Bitpanda on websites, the adverts will no longer be personalised for you. </ul></div> </div> <div class=cookies_buttons><button class="uk-button uk-button-default uk-button-medium" id=bpCookieAcceptButton>Accept all cookies</button> <button class="uk-button uk-button-default uk-button-medium" id=bpCookieSaveButton>Save settings</button> <div class=cookies-settings-link><a class=cookie-settings-button href=#cookie-settings-modal uk-toggle="cls: cookie-banner__settings--visible;">Settings</a></div></div></div> </div> </div> <script>const segment_key = "4R4o0hpahOARcVhpszPnj7cD2ehz1Ys3";
+        const google_analytics_property = "UA-55274179-2";</script></section> <div class="search-container uk-modal-full" id=search-modal uk-modal=""><div class=uk-modal-dialog><button class="uk-close-large uk-modal-close-full" type=button uk-close=""></button> <div class=uk-padding-large><input class=search-container--input id=search-input-modal placeholder="Type to search" type=search> <div class="blog-module search-container--results uk-child-width-1-3@m uk-grid" id=search-results></div></div></div> </div> <script async src="https://cdn.bitpanda.com/app/v2/js/all.min.js?id=9ac3fa897412c0e399a87da045d24cab"></script> <script async src="https://cdn.bitpanda.com/app/v2/js/stock.min.js?id=09db388523f29a4e6879d1cd9650b068"></script> <script>var refAtt = getUrlParam('ref') || getCookie('ref');
+var tagAtt = getUrlParam('tag') || getCookie('tag');
+
+if(refAtt && tagAtt) {
+    var androidLink = "https://bitpanda.page.link/?link=https://www.bitpanda.com/user/register/" + refAtt + "?tag%3D" + tagAtt + "&apn=com.bitpanda.bitpanda&ofl=https://play.google.com/store/apps/details?id=com.bitpanda.bitpanda&ifl=https://apps.apple.com/at/app/bitpanda/id1449018960?ibi=com.bitpanda.bitpanda";
+    var iosLink = "https://bitpanda.page.link/?link=https://www.bitpanda.com/user/register/" + refAtt + "?tag%3D" + tagAtt + "&apn=com.bitpanda.bitpanda&ofl=https://apps.apple.com/at/app/bitpanda/id1449018960?ifl=https://apps.apple.com/at/app/bitpanda/id1449018960?ibi=com.bitpanda.bitpanda";
+    $('.android-button').attr("href", androidLink);
+    $('.ios-button').attr("href", iosLink);
+} else if(refAtt) {
+    var androidLink = "https://bitpanda.page.link/?link=https://www.bitpanda.com/user/register/" + refAtt + "&apn=com.bitpanda.bitpanda&ofl=https://play.google.com/store/apps/details?id=com.bitpanda.bitpanda&ifl=https://apps.apple.com/at/app/bitpanda/id1449018960?ibi=com.bitpanda.bitpanda";
+    var iosLink = "https://bitpanda.page.link/?link=https://www.bitpanda.com/user/register/" + refAtt + "&apn=com.bitpanda.bitpanda&ofl=https://apps.apple.com/at/app/bitpanda/id1449018960?ifl=https://apps.apple.com/at/app/bitpanda/id1449018960?ibi=com.bitpanda.bitpanda";
+    $('.android-button').attr("href", androidLink);
+    $('.ios-button').attr("href", iosLink);
+}</script> <script async src="https://cdn.bitpanda.com/app/v2/js/dotcom-components/dotcom-components.esm.js?id=418046627d829dcf7600c6e5a8714272" type=module></script> <script async nomodule="" src="https://cdn.bitpanda.com/app/v2/js/dotcom-components/dotcom-components.js?id=0b52396aaf0e4308e3af795c917c9416"></script> <div class=fa_OyCkAkzwJOc8Gw2AUwuC><script>//<! [CDATA[
+        window._fa=window._fa||[];window._fa.push({id:"OyCkAkzwJOc8Gw2AUwuC"});(function(d){var s=d.createElement("script");s.async=true;s.src=(d.location.protocol=="https:"?"https:":"http:")+"//www.fndsda.net/beige.js";var a=d.getElementsByTagName("script")[0];a.parentNode.insertBefore(s,a)}(document));
+        //]]></script> </div> <svg xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink style="display: none;"><symbol id=icon-close viewbox="0 0 15.414 15.414"><g fill=currentColor><path d="m14 15.414-14-14L1.414 0l14 14Z"></path> <path d="M1.414 15.414 0 14 14 0l1.414 1.414Z"></path></g> </symbol> <symbol id=icon-magnifier viewbox="0 0 16.922 16.922"><path d="M12.418 10.922a6.9 6.9 0 1 0-1.5 1.5l4.5 4.5 1.5-1.5Zm-5.544.711a4.759 4.759 0 1 1 4.759-4.759 4.764 4.764 0 0 1-4.759 4.76Z" fill=currentColor></path> </symbol> <symbol id=icon-globe viewbox="0 0 18.467 18.467"><path d="M9.233 18.467A9.233 9.233 0 1 0 0 9.233a9.244 9.244 0 0 0 9.233 9.234Zm0-1.5c-.777 0-1.81-1.628-2.307-4.359h4.614c-.496 2.731-1.529 4.359-2.307 4.359Zm2.581-.451a12.588 12.588 0 0 0 1.245-3.905h3.123a7.783 7.783 0 0 1-4.368 3.904Zm5.152-7.282a7.688 7.688 0 0 1-.239 1.874h-3.481c.055-.622.087-1.252.087-1.874s-.032-1.254-.087-1.874h3.481a7.688 7.688 0 0 1 .24 1.873Zm-.787-3.374h-3.122a12.469 12.469 0 0 0-1.245-3.905 7.752 7.752 0 0 1 4.368 3.904ZM9.233 1.5c.777 0 1.81 1.628 2.307 4.359H6.926C7.423 3.128 8.456 1.5 9.233 1.5Zm2.51 5.859a20.174 20.174 0 0 1 0 3.748h-5.02a20.118 20.118 0 0 1-.002-3.748ZM6.652 1.951a12.588 12.588 0 0 0-1.245 3.905H2.284a7.783 7.783 0 0 1 4.369-3.904ZM1.5 9.233a7.688 7.688 0 0 1 .239-1.874H5.22c-.055.622-.087 1.252-.087 1.874s.032 1.254.087 1.874H1.74a7.688 7.688 0 0 1-.24-1.874Zm3.91 3.374a12.469 12.469 0 0 0 1.245 3.905 7.757 7.757 0 0 1-4.366-3.905Z" fill=currentColor></path> </symbol> <symbol id=icon-chevron-up viewbox="0 0 11.718 7.982"><path d="m5.858 0 5.861 5.86-2.122 2.122-3.739-3.739-3.736 3.739L0 5.861Z" fill=currentColor></path> </symbol> <symbol id=icon-chevron-down viewbox="0 0 11.569 7.904"><path d="M5.784 7.904 0 2.121 2.121 0l3.663 3.662L9.448 0l2.121 2.121Z" fill=currentColor></path> </symbol> <symbol id=icon-hamburger viewbox="0 0 96 96"><path d="M0 12h96v12H0zM0 42h96v12H0zM0 72h96v12H0z" fill=currentColor></path> </symbol></svg>
+[graphql-sangria-detect] Dumped HTTP response https://custody.bitpanda.com/graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6701a3b408260-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:31 GMT
+Expires: Tue, 05 Aug 2025 13:53:31 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=H95Ml71F0gjI6D.T.FEeaXB7MmgtDM92LdXuyJHlbr0-1754398411898-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[graphql-sangria-detect] Dumped HTTP request for https://custody.bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 33
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=i8Z8lwCVHTi3MrtyU.NhA_.aHQUISBsc625jDdrABRQ-1754398413194-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"queryy { __typename }"}
+[graphql-sangria-detect] Dumped HTTP response https://custody.bitpanda.com/api/graphql
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600, no-transform, public
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6704daf2bd6eb-IAD
+Content-Security-Policy: frame-ancestors 'self' https://app.storyblok.com;
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:40 GMT
+Etag: W/"39b01b3b0069ff28267b784ffe4b8f6f"
+Last-Modified: Tue, 29 Jul 2025 06:35:44 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: accept-encoding
+X-Content-Type-Options: nosniff
+X-Vercel-Cache: MISS
+X-Vercel-Id: iad1::bvsqw-1754398420134-a67eb2bccd6c
+
+<!DOCTYPE html><html class=dark lang=en><head><script src="https://www.googleoptimize.com/optimize.js?id=OPT-N3D6ZNP"></script><script>if(document.cookie.match("uc_performance_v1_0=accepted")?.length){
+            window.dataLayer.push({'event': 'optimize.activate'});
+        }</script><meta charset=utf-8><title>Institutional crypto custody made safer, faster &amp; easier</title><meta content=Bitpanda name=author><meta content="width=device-width, initial-scale=1.0" name=viewport><meta content=https://www.bitpanda.com/en/tech/custody-solutions property=og:url><meta content=origin name=referrer><link href=https://cdn.bitpanda.com/media/redesign/favicon/dark/favicon-32x32.png rel=icon sizes=32x32 type=image/png><link href=https://cdn.bitpanda.com/media/redesign/favicon/dark/favicon-16x16.png rel=icon sizes=16x16 type=image/png><meta content="IE=EmulateIE11" http-equiv=X-UA-Compatible><link href=https://cdn.bitpanda.com rel=preconnect><link href=https://code.highcharts.com rel=preconnect><link href=https://cdn.segment.com rel=preconnect><link as=font crossorigin=anonymous href=https://cdn.bitpanda.com/media/fonts/bp-assets/bp-assets.woff2 rel=preload type=font/woff2><link as=font crossorigin=anonymous href=https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Regular.woff2 rel=preload type=font/woff2><link as=font crossorigin=anonymous href=https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Medium.woff2 rel=preload type=font/woff2><link as=font crossorigin=anonymous href=https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Semibold.woff2 rel=preload type=font/woff2><style>@font-face {
+            font-family: 'bp-assets';
+            src:
+                url("https://cdn.bitpanda.com/media/fonts/bp-assets/bp-assets.woff2") format("woff2");
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }</style><style>@font-face {
+            font-family: EuclidSquare;
+            src:
+                url("https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Regular.woff2") format("woff2"),
+                url("https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Regular.woff") format("woff");
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: EuclidSquare;
+            src:
+                url("https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Medium.woff2") format("woff2"),
+                url("https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Medium.woff") format("woff");
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: EuclidSquare;
+            src:
+                url("https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Semibold.woff2") format("woff2");
+        url("https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Semibold.woff") format("woff");
+            font-weight: 600;
+            font-style: normal;
+            font-display: swap;
+        }</style><meta content="Bitpanda Custody stands as an FCA &amp; BAM-registered, fully insured solution that’s primed for the DeFi landscape. We offer segregated hardware security modules (HSM) secured wallets to ensure the utmost security for your crypto assets, giving you peace of mind with a platform that’s not only regulatory compliant, but also ready to meet the demands of the dynamic digital finance world.
+
+Bitpanda Custody only serves clients who have professional experience in matters relating to qualifying crypto assets. Bitpanda Custody does not serve retail customers and persons who do not have professional experience in matters relating to qualifying crypto assets." name=description><meta content="Institutional crypto custody made safer, faster &amp; easier" name=title><link href=https://www.bitpanda.com/en/tech/custody-solutions rel=canonical><link href=/en/tech/custody-solutions hreflang=x-default rel=alternate><link href=/en/tech/custody-solutions hreflang=en rel=alternate><link href=/de/tech/custody-solutions hreflang=de rel=alternate><meta content="index, follow " name=robots><meta content=article property=og:type><meta content="Institutional crypto custody made safer, faster &amp; easier" property=og:title><meta content="Bitpanda Custody stands as an FCA &amp; BAM-registered, fully insured solution that’s primed for the DeFi landscape. We offer segregated hardware security modules (HSM) secured wallets to ensure the utmost security for your crypto assets, giving you peace of mind with a platform that’s not only regulatory compliant, but also ready to meet the demands of the dynamic digital finance world.
+
+Bitpanda Custody only serves clients who have professional experience in matters relating to qualifying crypto assets. Bitpanda Custody does not serve retail customers and persons who do not have professional experience in matters relating to qualifying crypto assets." property=og:description><meta content=https://cdn.bitpanda.com/media/white-label/menu/BTS-OG-image.png property=og:image><link href="https://cdn.bitpanda.com/app/v2/css/all.min.css?id=0a6b6e34d2ce5388c046c8290ba08dfd" rel=stylesheet><style lang=css>.dark .js-bp3-cta-button .uk-button-default, .dark .js-bp3-cta-button .uk-button-primary, .dark  .js-bp3-cta-button .uk-button-default:hover, .dark  .js-bp3-cta-button .uk-button-primary:hover, .dark  .js-bp3-cta-button .uk-button-default:focus, .dark .js-bp3-cta-button .uk-button-primary:focus, .dark  .js-bp3-cta-button .uk-button-default:active, .dark  .js-bp3-cta-button .uk-button-primary:active {
+	 background-color: #66B9E8;
+	 border-color: #66B9E8;
+	 color: #f3f3f2; 
+}
+ 
+.dark .js-bp3-cta-button .uk-button-secondary, .dark  .js-bp3-cta-button .uk-button-secondary:hover, .dark  .js-bp3-cta-button .uk-button-secondary:focus, .dark  .js-bp3-cta-button .uk-button-secondary:active {
+	 border-color: #66B9E8 !important;
+	 color: #F3F3F2;
+}
+.dark .bp-offcanvas .bp-offcanvas__footer .bp-button--primary, .dark .bp-nav__container .bp-button--primary {
+    border-color: #66B9E8;
+	 background-color: #66B9E8;
+}
+/*blue accent in nav menu*/
+.dark .bp-nav__navigation li:active .bp-nav__item .bp-nav__item__text, 
+.dark .bp-nav__navigation li:focus-within .bp-nav__item .bp-nav__item__text, 
+.dark .bp-nav__navigation li:focus .bp-nav__item .bp-nav__item__text, 
+.dark .bp-nav__navigation li:hover .bp-nav__item .bp-nav__item__text {
+    border-bottom-color: #66B9E8;
+}
+/*blue accent in fotter*/
+.dark .footer .footer__main__nav a:active, 
+.dark .footer .footer__main__nav a:focus, 
+.dark .footer .footer__main__nav a:hover {
+    color: #66B9E8;
+}
+/*change underline for banner link*/
+.dark .background-black .module-text .module-text__content a[href]:not([uk-tooltip]):not(.bp-button-googleplay):not(.bp-button-appstore) {
+    background-image: linear-gradient(#F3F3F2,#F3F3F2),linear-gradient(#3D3D3D,#3D3D3D),linear-gradient(#F3F3F2,#F3F3F2);
+}
+
+
+/* vertical slider*/
+.dark #bp3-vs-wl__container {
+    background: #3D3D3D;
+    margin-bottom: -40px;
+}
+@media (min-width: 1200px) {
+    .dark #bp3-vs-wl__container { 
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: max(calc( (100% - 1200px) / 2 ), 40px);
+        padding-right: max(calc( (100% - 1200px) / 2 ), 40px);
+    }
+}
+@media (min-width: 960px) {
+    .dark #bp3-vs-wl__container { 
+        margin-bottom: -80px;
+    }
+}
+.dark #bp3-vs-wl__nav__item__button{
+    background-color: #66B9E8;
+}   
+.dark #asset-data__count__svg  circle {
+    stroke: #66B9E8;
+    fill: #3D3D3D;
+}
+.dark #bp3-vs__next-wl>span>svg {
+    fill: #66B9E8 !important;
+    stroke: #66B9E8 !important;    
+}
+.dark .bp3-vs__slides .bp3-vs__slide #bp3-vs-wl__slide__content {
+    align-self: center;
+}
+.dark .bp3-vs__slides .bp3-vs__slide #bp3-vs-wl__slide__content, 
+.dark .bp3-vs__slides .bp3-vs__slide #bp3-vs-wl__slide__content h3,
+.dark .bp3-vs__slides .bp3-vs__slide #bp3-vs-wl__slide__content em {
+    color: #F3F3F2;
+}
+#bp3-vs__nav-wl {
+    display: none;
+}
+/*fix bug causing horizontal scroll in mobile*/
+@media screen and (max-width: 768px) {
+    .dark .bp3-vs__slides {
+        width: 100%;
+    }
+}
+/*brand card*/
+
+.dark .bp3-card.bp3-card--gray {
+    background-color: #3D3D3D;
+}
+.dark .bp3-card.bp3-card--gray .bp3-card__content {
+    color: #F3F3F2;
+}
+.dark .bp3-card.bp3-card--gray .uk-button.uk-button-primary {
+    background-color: #66B9E8;
+    border-color: #66B9E8;
+    color: #F3F3F2;
+}
+/*cookies banner*/
+.dark .bp-banner .uk-button-default {
+    background-color: #66B9E8;
+    border-color: #66B9E8;
+    color: #F3F3F2;
+}
+.dark .bp-banner .uk-button-default:hover {
+    background-color: #4eb0e4;
+    border-color: #4eb0e4;
+    color: #F3F3F2;
+}
+.dark .bp-banner a[href]:after {
+    background-color: #66B9E8;
+}
+.dark .bp-banner a[href]:active {
+    color: #66B9E8 !important;
+}
+.dark .bp-banner a[href]:focus:after, .dark .bp-banner a[href]:hover:after {
+    background-color: #4eb0e4;
+}
+.dark #cookie-banner .bp-banner__content__text input:checked:not(:disabled)+.bp-switch__slider {
+    background-color: #4eb0e4;
+    border: 0.5px solid #4eb0e4;
+}
+/*hover effect for primary cta*/
+.dark .bp3-card.bp3-card--gray .uk-button.uk-button-primary:hover,
+.dark .bp-nav__container .bp-button--primary:hover,
+.dark .js-bp3-cta-button .uk-button-primary:hover {
+    background-color: #4eb0e4;
+    border-color: #4eb0e4;
+}
+.dark .bp-offcanvas ul [aria-expanded=true] .bp-offcanvas__item svg,
+.dark .bp-offcanvas__item {
+    color: #66B9E8;
+}</style><script src="https://cdn.bitpanda.com/app/v2/js/head.min.js?id=c9d8a7523921951f3dc02c71193d6fe4"></script><script>function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+function getUrlParam(param) {
+    let value = "";
+    //console.log(window.location.href);
+    if(window.location.href.indexOf(param) > -1)
+        value = getUrlVars()[param];
+    return value;
+}
+function setCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; domain=.bitpanda.com; path=/";
+}
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+function eraseCookie(name) {   
+    document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=.bitpanda.com; path=/';
+}
+const s_id = getUrlParam('s_id');
+if (!!s_id) {
+    setCookie('s_id', s_id, 60);
+}
+const ref = getUrlParam('ref');
+if(!!ref) {
+    setCookie('ref', ref, 30);
+    eraseCookie('tag');
+    eraseCookie('s_id');
+}
+const tag = getUrlParam('tag');
+if(!!tag) {
+    setCookie('tag', tag, 30);
+    //eraseCookie('s_id');
+}
+const clickId = getUrlParam('irclickid');
+if(!!clickId) {
+    setCookie('irclickid', clickId, 30);
+}
+const utmCampaign = getUrlParam('utm_campaign');
+if(!!utmCampaign) {
+    setCookie('utm_campaign', utmCampaign, 30);
+}</script><script>window.addEventListener('DOMContentLoaded', (event) => {
+    let hash = window.location.hash;
+    hash = hash.replace("##","#");
+    hash = hash.replace("%23","");
+    window.location.hash = hash;
+    const targetNode = document.querySelectorAll('.uk-switcher')[0];
+    if(typeof targetNode !== "undefined") {
+        const config = { attributes: true, childList: true, subtree: true };
+        const callback = function(mutationsList, observer) {
+    		document.querySelectorAll(".uk-switcher > li").forEach(_li => {
+    		    if(_li.getAttribute('id') !== null) {
+    			    _li.setAttribute("id", _li.getAttribute("id").replace("#",""));
+    		    }
+			});
+    
+    		document.querySelectorAll("#tab-module > li > a").forEach(_a => {
+    		    if(_a.getAttribute('href') !== null) {
+    			    _a.setAttribute("href", _a.getAttribute("href").replace("##","#"));
+    		    }
+			});
+    			
+            observer.disconnect();
+        };
+        const observer = new MutationObserver(callback);
+        observer.observe(targetNode, config);
+    }
+});</script><script>var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://bitpanda.matomo.cloud/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src='//cdn.matomo.cloud/bitpanda.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+  })();</script><script>let apiUrls = {
+            bpIcons: "https://bitpanda-broker-production-assets.s3-eu-west-1.amazonaws.com/static/cryptocoin/",
+            base: "https://api.bitpanda.com/v1/",
+            baseV2: "https://api.bitpanda.com/v2/",
+            baseV3: "https://api.bitpanda.com/v3/"
+        }</script><script>let utmTextReplace = {
+            utmParameter: '',
+            utmValue: '',
+            cssSelector: '',
+            text: '',
+        }</script><script src=//geoip-js.com/js/apis/geoip2/v2.1/geoip2.js></script><script>window.adjustSettings = {
+            appToken: '7hrkmq2yb3b4',
+            environment: 'production'
+        }</script><script type=application/ld+json>{
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    [{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/www.bitpanda.com\/en"},{"@type":"ListItem","position":2,"name":"Tech","item":"https:\/\/www.bitpanda.com\/en\/tech"},{"@type":"ListItem","position":3,"name":"Custody Solutions"}]
+                ]
+            }</script> <body class="dark default" style="position: unset;"><header id=layout-header><header><div class="bp-nav js-contains-anchor"><div class=bp-nav__container><div class=util-flex-shrink-0><a href=/en/tech><img alt="Bitpanda Pro" class=lazyload data-src=" https://cdn.bitpanda.com/media/white-label/menu/Bitpanda_Tech_Logo_White.png " height=40 width=166> </a> </div> <div class=util-visible-desktop><ul class=bp-nav__navigation><li class=bp-dropdown__align-anchor><div class=bp-nav__item><div class=bp-nav__item__text>Solution</div> <div class="bp-dropdown bp-dropdown--padding-sm"><ul class=bp-dropdown__grid><li class=bp-dropdown__grid-list><ul><li><a class=bp-dropdown__item href=/en/tech/investment-solutions><div> Investment </div> </a> <li><a class=bp-dropdown__item href=/en/tech/custody-solutions><div> Custody </div> </a> </ul> </ul> </div></div> <li class=bp-dropdown__align-anchor><div class=bp-nav__item><a class=bp-nav__item__text href=/en/tech/customers>Customers</a> <div class="bp-dropdown bp-dropdown--padding-sm"><ul class=bp-dropdown__grid><li class=bp-dropdown__grid-list><ul><li><a class=bp-dropdown__item href=/en/tech/sumeria-success-story><div> Sumeria </div> </a> <li><a class=bp-dropdown__item href=/en/tech/n26-success-story><div> N26 </div> </a> <li><a class=bp-dropdown__item href=/en/tech/plum-success-story><div> Plum </div> </a> <li><a class=bp-dropdown__item href=/en/tech/icard-success-story><div> iCard </div> </a> <li><a class=bp-dropdown__item href=/en/tech/rlb-success-story><div> Raiffeisen </div> </a> <li><a class=bp-dropdown__item href=/en/tech/coinmotion-success-story><div> Coinmotion </div> </a> <li><a class=bp-dropdown__item href=/en/tech/solaris-success-story><div> Solaris </div> </a> </ul> </ul> </div></div> <li><div class=bp-nav__item><a class=bp-nav__item__text href=/en/tech/partners>Partners</a> </div> <li><div class=bp-nav__item><a class=bp-nav__item__text href=/en/tech/insights>Insights</a> </div> <li><div class=bp-nav__item><a class=bp-nav__item__text href=/en/tech/security>Security</a> </div> <li><div class=bp-nav__item><a class=bp-nav__item__text href="https://techsolutions.bitpanda.com/ ">API Documentation</a> </div> <li><div class=bp-nav__item><a class=bp-nav__item__text href=/en/tech/company>Company</a> </div> </ul> </div> <div class=util-visible-desktop><div><ul class=bp-nav__navigation><li class=bp-dropdown__align-anchor><div class=bp-nav__item><div class=bp-nav__item__text><svg class=bp-symbol style="vertical-align: text-top;"><use xlink:href=#icon-globe></use> </svg> EN <svg class=bp-symbol style="--bp-symbol-size: 10px; vertical-align: inherit;"><use xlink:href=#icon-chevron-down></use> </svg> </div> <div class="bp-dropdown bp-dropdown--padding-sm"><ul class=bp-dropdown__grid><li class=bp-dropdown__grid-list><ul><li><a class=bp-dropdown__item href=/en/tech/custody-solutions><div> English </div> </a> <li><a class=bp-dropdown__item href=/de/tech/custody-solutions><div> Deutsch </div> </a> </ul> </ul> </div></div> </ul> </div> <div><a class="bp-button bp-button--primary" href=/en/bts-contact-us target=_blank title="Contact us">Contact us</a></div></div> <div class=util-visible-mobile><div><a class="bp-button bp-button--primary" href=/en/bts-contact-us target=_blank title="Contact us">Contact us</a></div> <div><button class="bp-button bp-button--transparent" onclick=toggleOffcanvas();><svg class=bp-symbol style="--bp-symbol-size: 20px;"><use xlink:href=#icon-hamburger></use></svg> </button> </div></div></div> </div> <script>function toggleTarget(e) {
+        const item = e.currentTarget;
+        const currentTarget = document.getElementById(e.currentTarget.getAttribute("bp-expand"));
+        if (currentTarget !== activeTarget) {
+            activeTarget.setAttribute("aria-expanded", "false");
+            currentTarget.setAttribute("aria-expanded", "true");
+            activeTarget = currentTarget;
+
+            activeItem.setAttribute("aria-current", "false");
+            item.setAttribute("aria-current", "true");
+            activeItem = item;
+        }
+    }
+    let activeTarget = document.getElementById("bp-expand-1");
+    let activeItem = document.querySelectorAll("[bp-expand=bp-expand-1]")[0];
+    document.querySelectorAll("[bp-expand]").forEach(function (item) {
+        item.addEventListener("mouseenter", toggleTarget, false);
+        item.addEventListener("focus", toggleTarget, false);
+    });</script> <div aria-expanded=false class=bp-offcanvas><div class=bp-offcanvas__header><a href=/en/tech><img alt="Bitpanda Pro" class=lazyload data-src=" https://cdn.bitpanda.com/media/white-label/menu/Bitpanda_Tech_Logo_White.png " height=40 width=166> </a> <button class="bp-button bp-button--transparent" onclick=toggleOffcanvas();><svg class=bp-symbol><use xlink:href=#icon-close></use> </svg> </button></div> <div class=bp-offcanvas__search-area><div class="bp-form-element bp-form-element--can-focus bp-form-element--large"><svg class=bp-symbol><use xlink:href=#icon-globe></use> </svg> <select id=js-offcanvas-language-switcher name="" onchange=changeLanguage(this)><option selected value=/en/tech/custody-solutions>English <option value=/de/tech/custody-solutions>Deutsch</select></div> </div> <div class=bp-offcanvas__body><nav id=js-offcanvas-nav><ul><li aria-expanded=false><span class=bp-offcanvas__item> Solution <svg class=bp-symbol><use xlink:href=#icon-chevron-down></use> </svg> </span> <ul><li><a href=/en/tech/investment-solutions>Investment</a> <li><a href=/en/tech/custody-solutions>Custody</a></ul> <li aria-expanded=false><span class=bp-offcanvas__item><a href=/en/tech/customers style="max-width: 90%">Customers</a> <svg class=bp-symbol><use xlink:href=#icon-chevron-down></use> </svg></span> <ul><li><a href=/en/tech/sumeria-success-story>Sumeria</a> <li><a href=/en/tech/n26-success-story>N26</a> <li><a href=/en/tech/plum-success-story>Plum</a> <li><a href=/en/tech/icard-success-story>iCard</a> <li><a href=/en/tech/rlb-success-story>Raiffeisen</a> <li><a href=/en/tech/coinmotion-success-story>Coinmotion</a> <li><a href=/en/tech/solaris-success-story>Solaris</a></ul> <li aria-expanded=false><span class=bp-offcanvas__item><a href=/en/tech/partners>Partners</a> </span> <ul></ul> <li aria-expanded=false><span class=bp-offcanvas__item><a href=/en/tech/insights>Insights</a> </span> <ul></ul> <li aria-expanded=false><span class=bp-offcanvas__item><a href=/en/tech/security>Security</a> </span> <ul></ul> <li aria-expanded=false><span class=bp-offcanvas__item><a href="https://techsolutions.bitpanda.com/ ">API Documentation</a> </span> <ul></ul> <li aria-expanded=false><span class=bp-offcanvas__item><a href=/en/tech/company>Company</a> </span> <ul></ul></ul> </nav> </div> <div class=bp-offcanvas__footer><a class="bp-button bp-button--large bp-button--primary" href=/en/bts-contact-us target=_blank title="Contact us">Contact us</a> </div></div> <script>function minimiseAll() {
+        document.querySelectorAll("#js-offcanvas-nav > ul > li").forEach(function(li) {
+            li.setAttribute("aria-expanded", false);
+        })
+    }
+    document.querySelectorAll("#js-offcanvas-nav > ul > li").forEach(function(li) {
+        li.addEventListener("click", function(e) {
+            if(e.currentTarget.getAttribute("aria-expanded") === "true") {
+                e.currentTarget.setAttribute("aria-expanded", false);
+            } else {
+                minimiseAll();
+                e.currentTarget.setAttribute("aria-expanded", true);
+            }
+        });
+    })
+    function toggleOffcanvas(e) {
+        const offcanvas = document.querySelectorAll(".bp-offcanvas")[0];
+        if(offcanvas.getAttribute("aria-expanded") === "false") {
+            offcanvas.setAttribute("aria-expanded", "true");
+        } else {
+            offcanvas.setAttribute("aria-expanded", "false");
+        }
+    }
+    function changeLanguage(e) {
+        document.location = e.value;
+    }</script></header> <div id=mobile-nav uk-offcanvas="overlay: true;"><div class=uk-offcanvas-bar><div class=offcanvas-logo-wrapper><a class=navbar-logo href=/en/tech><img alt="Bitpanda Logo" class=lazyload data-src=" https://cdn.bitpanda.com/media/white-label/menu/Bitpanda_Tech_Logo_White.png "> </a> <a class=uk-offcanvas-close type=button><span class="bp-icon bp-icon--close"></span> </a></div> <ul class="uk-nav uk-nav-default" uk-nav=""><li class=uk-parent><a href=#>Solution</a> <ul class=uk-nav-sub><li><a href=/en/tech/investment-solutions> Investment </a> <li><a href=/en/tech/custody-solutions> Custody </a> </ul> <li class=uk-parent><a href=#>Customers</a> <ul class=uk-nav-sub><li><a href=/en/tech/sumeria-success-story><span class="default uk-icon-button uk-margin-small-right"><img class=lazyload data-src=https://cdn.bitpanda.com/media/white-label/customer_Sumeria/Bitpanda%20Technology%20Solutions_Sumeria%20Logo.png> </span> Sumeria </a> <li><a href=/en/tech/n26-success-story><span class="default uk-icon-button uk-margin-small-right"><img class=lazyload data-src=https://cdn.bitpanda.com/media/white-label/n26_app_icon.png> </span> N26 </a> <li><a href=/en/tech/plum-success-story><span class="default uk-icon-button uk-margin-small-right"><img class=lazyload data-src=https://cdn.bitpanda.com/media/white-label/plum_app_icon.png> </span> Plum </a> <li><a href=/en/tech/icard-success-story><span class="default uk-icon-button uk-margin-small-right"><img class=lazyload data-src=https://cdn.bitpanda.com/media/white-label/customer_icard/iCard.png> </span> iCard </a> <li><a href=/en/tech/rlb-success-story><span class="default uk-icon-button uk-margin-small-right"><img class=lazyload data-src=https://cdn.bitpanda.com/media/white-label/customer_RLB/Bitpanda%20Technology%20Solutions_BTS%20Partners%20icons_Raiffeisen.png> </span> Raiffeisen </a> <li><a href=/en/tech/coinmotion-success-story><span class="default uk-icon-button uk-margin-small-right"><img class=lazyload data-src=https://cdn.bitpanda.com/media/white-label/customer_coinmotion/Coinmotion%20logo.png> </span> Coinmotion </a> <li><a href=/en/tech/solaris-success-story> Solaris </a> </ul> <li><a href=/en/tech/partners>Partners</a> <li><a href=/en/tech/insights>Insights</a> <li><a href=/en/tech/security>Security</a> <li><a href="https://techsolutions.bitpanda.com/ ">API Documentation</a> <li><a href=/en/tech/company>Company</a> </ul> <ul class=bp-offcanvas-secondary-nav uk-nav=""><li><a class=bp-text--sm href=""> Company </a> </ul> <ul class="bp-offcanvas-buttons uk-nav uk-nav-default" uk-nav=""><div><li><a class="uk-button uk-button-primary uk-width-1-1" href=/en/bts-contact-us>Contact us</a> </div> </ul></div> </div> <script>const ENTER_KEY_CODE = 13;
+
+    $(document).ready(function () {
+        $('#search-input-modal').keydown(function (event) {
+            const keyCode = (event.keyCode ? event.keyCode : event.which);
+            if (keyCode === ENTER_KEY_CODE) {
+                const searchFilter = '' || '';
+                const searchLink = `/en/search?${searchFilter.length === 0 ? '' : 'filter=' + searchFilter + '&'}query=${$(this).val()}`;
+                document.location.href = searchLink;
+            }
+        });
+    });</script></header> <section id=layout-content tabindex=-1><section class="background-black default uk-background-cover uk-light uk-section" style=background-image:url(https://cdn.bitpanda.com/media/white-label/2.0/custody-solution-header.png)><div class="uk-flex uk-flex-center"><section class="module-text uk-section uk-text-left uk-text-left@m"><div class=module-text__content><p><br> <p><br> <p>&nbsp; <br>&nbsp; <br>&nbsp;</div> </section> </div> </section> <section class="background-black default uk-background-cover uk-light uk-section" style=background-image:url(https://cdn.bitpanda.com/media/white-label/2.0/BitPanda_Tech_Website_final-31.jpg)><div class="uk-container uk-flex uk-flex-right"><section class="module-text uk-padding-remove-bottom uk-padding-small-top uk-section uk-text-left uk-text-left@m uk-width-2-3@s"><div class=module-text__content><h1>Institutional crypto custody made safer, faster &amp; easier</h1> <p>Bitpanda Custody stands as an FCA &amp; BAM-registered, fully insured solution that’s primed for the DeFi landscape. We offer segregated hardware security modules (HSM) secured wallets to ensure the utmost security for your crypto assets, giving you peace of mind with a platform that’s not only regulatory compliant, but also ready to meet the demands of the dynamic digital finance world. <p class=bp-text--sm>Bitpanda Custody only serves clients who have professional experience in matters relating to qualifying crypto assets. Bitpanda Custody does not serve retail customers and persons who do not have professional experience in matters relating to qualifying crypto assets.</div> <div class="js-bp3-cta-button module-text__buttons"><span class=primary-button><a class="desktop-button tk-get-started-button uk-button uk-button-large uk-button-primary" href=https://www.bitpanda.com/en/bts-contact-us> Book a demo </a> <a class="mobile-button uk-button uk-button-large uk-button-primary" href=https://www.bitpanda.com/en/bts-contact-us> Book a demo </a></span> <a class="secondary-button uk-button uk-button-large uk-button-secondary" href=https://app.bitpandacustody.com/> Log in to Bitpanda Custody </a></div> <script>window.initScriptLater = function (scriptUrl, fallback) {
+        const script = document.createElement("script");
+        script.onload = fallback;
+        script.src = scriptUrl;
+
+        document.addEventListener("readystatechange", () => {
+            if (document.readyState === "interactive") {
+                document.head.appendChild(script);
+            }
+        });
+    };
+
+    window.initScriptLater("https://cdn.bitpanda.com/app/v2/js/cta-button.min.js?id=d34a8a89944479eef669417eb9f8e3c5", () =>
+        window.initCtaButton()
+    );</script></section> </div> </section> <section class="background-black default uk-light uk-padding-small-bottom uk-section"><div class="default uk-container"><section class="module-text uk-padding-small-bottom uk-section uk-text-center uk-text-center@m"><div class=module-text__content><h2 dir=ltr>Unmatched flexibility and functionality</h2> <p dir=ltr>With years of expertise, we've crafted our custody solution to exceed industry standards. Our system includes:</div> </section> </div> </section> <section class="background-black uk-light uk-padding-small-bottom uk-padding-small-top uk-section"><div class=uk-container><div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-flex-center uk-flex-top uk-grid uk-grid-match" uk-grid=""><div class=default><section class="module-text uk-padding-small-bottom uk-padding-small-top uk-section uk-text-center uk-text-center@m"><div class=module-text__content><p><img class="fr-dib fr-fic" src=https://cdn.bitpanda.com/media/white-label/2.0/BitPanda%20Tech%20Website%20final-15.svg style="width: 150px;"> <p class=bp-text--lg><strong>Rule-based thresholds with MultiSig features</strong> <p class=bp-text--sm>Securely share wallets with customisable Multisig. Create unique sub-wallets to segregate funds per customer, payment, etc. in real-time.</div> </section> </div> <div class=default><section class="module-text uk-padding-small-bottom uk-padding-small-top uk-section uk-text-center uk-text-center@m"><div class=module-text__content><p><img class="fr-dib fr-fic" src=https://cdn.bitpanda.com/media/white-label/2.0/BitPanda%20Tech%20Website%20final-16.svg style="width: 150px;"> <p class=bp-text--lg><strong>Unlimited o﻿n-chain verified segregated wallets</strong> <p class=bp-text--sm>Easily create unlimited segregate﻿d sub-wallets, scale to accommodate more customers, and audit accounts with no commingling or rehypothecation of cryptoassets.</div> </section> </div> <div class=default><section class="module-text uk-padding-small-bottom uk-padding-small-top uk-section uk-text-center uk-text-center@m"><div class=module-text__content><p><img class="fr-dib fr-fic" src=https://cdn.bitpanda.com/media/white-label/2.0/BitPanda%20Tech%20Website%20final-17.svg style="width: 150px;"> <p class=bp-text--lg><strong>Propri﻿etary HSM</strong> <br><strong>technology</strong> <p class=bp-text--sm>Our proprietary HSM technolo﻿gy enforces cryptographically secured MultiSig approvals.</div> </section> </div></div> </div> </section> <section class="background-black uk-light uk-padding-remove-top uk-padding-small-bottom uk-section"><div class=uk-container><div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-flex-center uk-flex-top uk-grid uk-grid-match" uk-grid=""><div class=default><section class="module-text uk-padding-small-bottom uk-padding-small-top uk-section uk-text-center uk-text-center@m"><div class=module-text__content><p><img class="fr-dib fr-fic" src=https://cdn.bitpanda.com/media/white-label/2.0/BitPanda%20Tech%20Website%20final-20.svg style="width: 150px;"> <p class=bp-text--lg><strong>Build-in KYT ﻿&amp;</strong> <br><strong>KYC controls</strong> <p class=bp-text--sm>Know Your Customer &amp; Know Your Transaction. Our built-in KYC and KYT controls ensure we can monitor all users and transactions for AML compliance <br>The system is designed to be compliant with all required regulations, e.g., KYT monitoring, including address risk assessment and Travel Rule enforcement.</div> </section> </div> <div class=default><section class="module-text uk-padding-small-bottom uk-padding-small-top uk-section uk-text-center uk-text-center@m"><div class=module-text__content><p><img class="fr-dib fr-fic" src=https://cdn.bitpanda.com/media/white-label/2.0/BitPanda%20Tech%20Website%20final-19.svg style="width: 150px;"> <p class=bp-text--lg><strong>API &amp; SDK﻿</strong> <br><strong>automation</strong> <p class=bp-text--sm>Create new addresses on demand, sign and send transactions, query balances, develop your own flows and more with our GraphQL APIs and JavaScript SDK. <br>We offer full automation capabilities with our APIs, related SDKs, and webhooks.</div> </section> </div> <div class=default><section class="module-text uk-padding-small-bottom uk-padding-small-top uk-section uk-text-center uk-text-center@m"><div class=module-text__content><p><img class="fr-dib fr-fic" src=https://cdn.bitpanda.com/media/white-label/2.0/BitPanda%20Tech%20Website%20final-18.svg style="width: 150px;"> <p class=bp-text--lg><strong>DeFi﻿ through institutional-grade MetaMask extension</strong> <p class=bp-text--sm>Get all the details on your Ethereum transactions in one view and report. Support better end-of-month reconciliation for easy compliance reporting <br>Our DeFi firewall relies on our rules engine and Human Readable Transactions capabilities.</div> </section> </div></div> </div> </section> <section class="background-black default uk-light uk-padding-remove-bottom uk-section"><div class="default uk-container"><section class="module-text uk-padding-remove-bottom uk-padding-small-top uk-section uk-text-center uk-text-center@m"><div class=module-text__content><h2 dir=ltr>Security: Tried and tested</h2> <p dir=ltr>Our custody solution join the ranks of our tried-and-tested investment solutions, now available for our B2B clientele. We provide an easy-to-integrate insured crypto custody solution, safeguarding all your digital asset initiatives. Rest assured, you're in the safest hands in the industry.</div> </section> </div> </section> <section class="background-black default uk-light uk-section"><div class=uk-container><div class="uk-child-width-1-2@m uk-flex-top uk-grid" uk-grid=""><div class=default><div class="bp3-card bp3-card--column bp3-card--gray bp3-card--image-bottom-center"><div class=bp3-card__content><p align=center><img class="fr-dib fr-fic" src=https://cdn.bitpanda.com/media/white-label/2.0/small_SNR-ISO-IEC%2027001-1-modified.png style="width: 400px;"> <br> <br> <ul><li dir=ltr><strong>ISO/IEC 27001:2013 certification</strong> ensures robust security for your digital assets. The company enforces strict protocols to safeguard your investment from unauthorised access and cyber threats. <li><strong>Data Protection</strong>: Customer data is securely stored and monitored according to ISO/IEC 27001:2013 standards. Personal details, financial information, and trade data are kept confidential and safeguarded. <li><strong>Compliance</strong>: Our ISO/IEC 27001:2013 certification guarantees regular inspections and compliance with industry regulations for our custodial services and infrastructure.</ul></div> <div class=bp3-card__image><picture><source data-srcset=https://cdn.bitpanda.com/media/ type=image/png><img alt="" class=lazyload data-src=https://cdn.bitpanda.com/media/> </picture> </div></div> </div> <div class=default><div class="bp3-card bp3-card--column bp3-card--gray bp3-card--image-bottom-right"><div class=bp3-card__content><p align=center><img class="fr-dib fr-fic" src=https://cdn.bitpanda.com/media/white-label/2.0/soc2-3-modified.png style="width: 400px;"> <br> <br> <ul><li><strong>Enhanced Security Assurance</strong>: Our SOC 2 assessment ensures our security controls effectively protect your digital assets, affirming our commitment to safeguarding your investments and data with necessary safeguards in place. <li><strong>Streamlined Due Diligence</strong>: Being a SOC 2-assessed custodian simplifies your due diligence. Partner with confidence, knowing we've undergone rigorous independent assessment, reducing your efforts in evaluating our security and compliance practices for informed decisions. <li><strong>Reduced Risk</strong>: Opting for a SOC 2-assessed custodian lowers your exposure to security risks and breaches. Our assessment indicates proactive handling of vulnerabilities, minimising incidents that could affect your assets. Your investments are safer with us.</ul></div> <div class=bp3-card__image><picture><source data-srcset=https://cdn.bitpanda.com/media/ type=image/png><img alt="" class=lazyload data-src=https://cdn.bitpanda.com/media/> </picture> </div></div> </div></div> </div> </section> <section class="background-black uk-light uk-padding-remove-top uk-padding-small-bottom uk-section"><div class="default uk-container"><section class="module-text uk-padding-remove-top uk-padding-small-bottom uk-section uk-text-center uk-text-center@m"><div class=module-text__content><h4>Tailor-made solutions - Just what you need!</h4> </div> <div class="js-bp3-cta-button module-text__buttons"><span class=primary-button><a class="desktop-button tk-get-started-button uk-button uk-button-large uk-button-primary" href=https://www.bitpanda.com/en/bts-contact-us> Start customising your solution </a> <a class="mobile-button uk-button uk-button-large uk-button-primary" href=https://www.bitpanda.com/en/bts-contact-us> Start customising your solution </a></span> </div> <script>window.initScriptLater = function (scriptUrl, fallback) {
+        const script = document.createElement("script");
+        script.onload = fallback;
+        script.src = scriptUrl;
+
+        document.addEventListener("readystatechange", () => {
+            if (document.readyState === "interactive") {
+                document.head.appendChild(script);
+            }
+        });
+    };
+
+    window.initScriptLater("https://cdn.bitpanda.com/app/v2/js/cta-button.min.js?id=d34a8a89944479eef669417eb9f8e3c5", () =>
+        window.initCtaButton()
+    );</script></section> <section class="module-text uk-padding-remove-bottom uk-section uk-text-center uk-text-center@m"><div class=module-text__content><p class=bp-text--sm><br> <p class=bp-text--sm>Bitpanda Custody is a registered cryptoassets firm with the UK Financial Conduct Authority (FRN No. 928556) <hr> <p class=bp-text--sm><a href=https://custodysupport.bitpanda.com/hc/en-us>Bitpanda Custody Help Center</a></div> </section></div> </section></section> <footer id=layout-footer><footer class="footer footer_brand_3"><section class=footer__main><div class=uk-container><div uk-grid=""><div class=uk-width-1-1><nav class="uk-child-width-1-2@s uk-child-width-1-4@m" uk-grid=""><div class=footer__main__nav><span class=footer__main__nav__title> Bitpanda Technology Solutions </span> <ul><li><a href=/en/tech/platform>Platform</a> <li><a href=/en/tech/partners>Partners</a> <li><a href=/en/tech/insights>Insights</a> <li><a href=/en/tech/security>Security</a> <li><a href=/en/tech/company>Company</a> <li><a href=/en/tech/customers>Customers</a></ul></div> <div class=footer__main__nav><span class=footer__main__nav__title> _ </span> <ul><li><a href=/en/tech/rlb-success-story>Raiffeisen</a> <li><a href=/en/tech/n26-success-story>N26</a> <li><a href=/en/tech/sumeria-success-story>Sumeria</a> <li><a href=/en/tech/plum-success-story>Plum</a> <li><a href=/en/tech/icard-success-story>iCard</a> <li><a href=/en/tech/coinmotion-success-story>Coinmotion</a> <li><a href=/en/tech/solaris-success-story>Solaris</a></ul></div> <div class=footer__main__nav><span class=footer__main__nav__title> _ </span> <ul><li><a href=https://techsolutions.bitpanda.com/>API documentation</a> <li><a href=https://www.linkedin.com/company/bitpanda-technology>Linkedin</a> <li><a href=https://www.bitpanda.com/en/legal/legal-notice>Legal notice</a> <li><a href=https://www.bitpanda.com/en/legal/bitpanda-privacy-policy>Privacy Policy</a> <li><a href=https://www.bitpanda.com/de/legal>Legal &amp; Privacy</a> <li><a href=https://www.bitpanda.com/en/tech/custody-terms-and-conditions>Bitpanda Custody Terms and Conditions</a></ul></div> <div class=footer__main__nav><div><span class=footer__main__nav__title></span> <ul class="footer__social newColors"></ul></div> </div></nav> </div> </div> </div> <div class=uk-container><div class=uk-grid><div class="uk-margin-medium-top uk-text-small" style="color: #ffffffb3;"><p class=bp-text--sm>The content of this page constitutes a 'financial promotion', for the purposes of Section 21 of the Financial Services and Markets Act 2000 ("FSMA"), of 'qualifying cryptoassets', as such term is defined in The Financial Services and Markets Act 2000 (Financial Promotion) Order 2005 ("FPO"), and, accordingly, its distribution in the United Kingdom is restricted. No person authorised by the UK Financial Conduct Authority has approved the contents of this page for the purposes of section 21 FSMA. The products and services detailed on this page are only directed at, in the case of persons present in the UK, those persons who fall within Article 49(2)(a) to (d) (high net worth companies, unincorporated associations, etc.) of FPO ("Relevant Persons"). Any invitation, offer or agreement to provide the services described on this page, in the case of persons present in the UK, shall be made only to or with Relevant Persons. Any person present in the UK who is not a Relevant Person must not act on or rely upon the information contained on this page. </div> </div> </div></section> <section class="footer__navbar footer__navbar--sm footer__navbar__gradient"><div class=uk-container><div class=uk-flex-center uk-grid=""><div class="middle-menu-column uk-text-center uk-text-right@m uk-width-1-1 uk-width-auto@m"><ul><li><a href=https://www.bitpanda.com/en/legal/legal-notice>Legal Notice</a> </ul> </div> <div class="uk-second-column uk-text-center uk-text-right@m uk-width-1-1 uk-width-auto@m"><span>&copy; Bitpanda GmbH</span> </div></div> </div> </section></footer> </footer> <section class=bp-banner__container><div class="bp-banner bp-banner--hidden" id=cookie-banner><div class=bp-banner__content><div class=bp-banner__content__text><div><h4>The website uses cookies.</h4> We use cookies to optimize our services. The information we collect is used by us as part of our EU-wide activities. <a class=cookie-policy-button href=https://www.bitpanda.com/en/legal/bitpanda-cookie-policy target=_blank>Cookie policy</a></div> <div class=bp-banner__cookie-settings id=cookie-settings-modal><div><h5 class=cookie-settings__light-text>Cookie settings</h5> <ul toggle=.uk-accordion-title uk-accordion=""><li><div class="uk-flex uk-flex-between uk-flex-middle uk-margin-small-bottom uk-margin-small-top"><span class="cookie-settings__accordion-title uk-accordion-title">Essential cookies</span> <p class=cookie-settings__light-text>Always active</div> <p class="cookie-settings-description uk-accordion-content"> As the name would suggest, some cookies on our website are essential. They are necessary to remember your settings when using Bitpanda, (such as privacy or language settings), to protect the platform from attacks, or simply to stay logged in after you originally log in. You have the option to refuse, block or delete them, but this will significantly affect your experience using the website and not all our services will be available to you. <hr> <li><div class="uk-flex uk-flex-between uk-flex-middle uk-margin-small-bottom uk-margin-small-top"><span class="cookie-settings__accordion-title uk-accordion-title">Performance cookies</span> <div class="cookie-settings__switch-block performance-cookies-switch"><span class="active-inactive-text cookie-settings__light-text"><span class=active>Active</span> <span class=inactive>Inactive</span></span> <label class="bp-switch uk-margin-small-right" for=performance-cookies-check><input id=performance-cookies-check type=checkbox> <span class=bp-switch__slider></span></label></div></div> <p class="cookie-settings-description uk-accordion-content"> We use such cookies and similar technologies to collect information as users browse our website to help us better understand how it is used and then improve our services accordingly. It also helps us measure the overall performance of our website. We receive the date that this generates on an aggregated and anonymous basis. Blocking these cookies and tools does not affect the way our services work, but it does make it much harder for us to improve your experience. <hr> <li><div class="uk-flex uk-flex-between uk-flex-middle uk-margin-small-bottom uk-margin-small-top"><span class="cookie-settings__accordion-title uk-accordion-title">Advertisement cookies</span> <div class="ad-cookies-switch cookie-settings__switch-block"><span class="active-inactive-text cookie-settings__light-text"><span class=active>Active</span> <span class=inactive>Inactive</span></span> <label class="bp-switch uk-margin-small-right" for=ad-cookies-check><input id=ad-cookies-check type=checkbox> <span class=bp-switch__slider></span></label></div></div> <p class="cookie-settings-description uk-accordion-content"> These cookies are used to provide you with adverts relevant to Bitpanda. The tools for this are usually provided by third parties. With the help of these cookies and such third parties, we can ensure for example, that you don’t see the same ad more than once and that the advertisements are tailored to your interests. We can also use these technologies to measure the success of our marketing campaigns. Blocking these cookies and similar technologies does not generally affect the way our services work. Please note, however, that while you’ll still see advertisements about Bitpanda on websites, the adverts will no longer be personalised for you. </ul></div> </div> <div class=cookies_buttons><button class="uk-button uk-button-default uk-button-medium" id=bpCookieAcceptButton>Accept all cookies</button> <button class="uk-button uk-button-default uk-button-medium" id=bpCookieSaveButton>Save settings</button> <div class=cookies-settings-link><a class=cookie-settings-button href=#cookie-settings-modal uk-toggle="cls: cookie-banner__settings--visible;">Settings</a></div></div></div> </div> </div> <script>const segment_key = "4R4o0hpahOARcVhpszPnj7cD2ehz1Ys3";
+        const google_analytics_property = "UA-55274179-2";</script></section> <div class="search-container uk-modal-full" id=search-modal uk-modal=""><div class=uk-modal-dialog><button class="uk-close-large uk-modal-close-full" type=button uk-close=""></button> <div class=uk-padding-large><input class=search-container--input id=search-input-modal placeholder="Type to search" type=search> <div class="blog-module search-container--results uk-child-width-1-3@m uk-grid" id=search-results></div></div></div> </div> <script async src="https://cdn.bitpanda.com/app/v2/js/all.min.js?id=9ac3fa897412c0e399a87da045d24cab"></script> <script async src="https://cdn.bitpanda.com/app/v2/js/stock.min.js?id=09db388523f29a4e6879d1cd9650b068"></script> <script>var refAtt = getUrlParam('ref') || getCookie('ref');
+var tagAtt = getUrlParam('tag') || getCookie('tag');
+
+if(refAtt && tagAtt) {
+    var androidLink = "https://bitpanda.page.link/?link=https://www.bitpanda.com/user/register/" + refAtt + "?tag%3D" + tagAtt + "&apn=com.bitpanda.bitpanda&ofl=https://play.google.com/store/apps/details?id=com.bitpanda.bitpanda&ifl=https://apps.apple.com/at/app/bitpanda/id1449018960?ibi=com.bitpanda.bitpanda";
+    var iosLink = "https://bitpanda.page.link/?link=https://www.bitpanda.com/user/register/" + refAtt + "?tag%3D" + tagAtt + "&apn=com.bitpanda.bitpanda&ofl=https://apps.apple.com/at/app/bitpanda/id1449018960?ifl=https://apps.apple.com/at/app/bitpanda/id1449018960?ibi=com.bitpanda.bitpanda";
+    $('.android-button').attr("href", androidLink);
+    $('.ios-button').attr("href", iosLink);
+} else if(refAtt) {
+    var androidLink = "https://bitpanda.page.link/?link=https://www.bitpanda.com/user/register/" + refAtt + "&apn=com.bitpanda.bitpanda&ofl=https://play.google.com/store/apps/details?id=com.bitpanda.bitpanda&ifl=https://apps.apple.com/at/app/bitpanda/id1449018960?ibi=com.bitpanda.bitpanda";
+    var iosLink = "https://bitpanda.page.link/?link=https://www.bitpanda.com/user/register/" + refAtt + "&apn=com.bitpanda.bitpanda&ofl=https://apps.apple.com/at/app/bitpanda/id1449018960?ifl=https://apps.apple.com/at/app/bitpanda/id1449018960?ibi=com.bitpanda.bitpanda";
+    $('.android-button').attr("href", androidLink);
+    $('.ios-button').attr("href", iosLink);
+}</script> <script async src="https://cdn.bitpanda.com/app/v2/js/dotcom-components/dotcom-components.esm.js?id=418046627d829dcf7600c6e5a8714272" type=module></script> <script async nomodule="" src="https://cdn.bitpanda.com/app/v2/js/dotcom-components/dotcom-components.js?id=0b52396aaf0e4308e3af795c917c9416"></script> <div class=fa_OyCkAkzwJOc8Gw2AUwuC><script>//<! [CDATA[
+        window._fa=window._fa||[];window._fa.push({id:"OyCkAkzwJOc8Gw2AUwuC"});(function(d){var s=d.createElement("script");s.async=true;s.src=(d.location.protocol=="https:"?"https:":"http:")+"//www.fndsda.net/beige.js";var a=d.getElementsByTagName("script")[0];a.parentNode.insertBefore(s,a)}(document));
+        //]]></script> </div> <svg xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink style="display: none;"><symbol id=icon-close viewbox="0 0 15.414 15.414"><g fill=currentColor><path d="m14 15.414-14-14L1.414 0l14 14Z"></path> <path d="M1.414 15.414 0 14 14 0l1.414 1.414Z"></path></g> </symbol> <symbol id=icon-magnifier viewbox="0 0 16.922 16.922"><path d="M12.418 10.922a6.9 6.9 0 1 0-1.5 1.5l4.5 4.5 1.5-1.5Zm-5.544.711a4.759 4.759 0 1 1 4.759-4.759 4.764 4.764 0 0 1-4.759 4.76Z" fill=currentColor></path> </symbol> <symbol id=icon-globe viewbox="0 0 18.467 18.467"><path d="M9.233 18.467A9.233 9.233 0 1 0 0 9.233a9.244 9.244 0 0 0 9.233 9.234Zm0-1.5c-.777 0-1.81-1.628-2.307-4.359h4.614c-.496 2.731-1.529 4.359-2.307 4.359Zm2.581-.451a12.588 12.588 0 0 0 1.245-3.905h3.123a7.783 7.783 0 0 1-4.368 3.904Zm5.152-7.282a7.688 7.688 0 0 1-.239 1.874h-3.481c.055-.622.087-1.252.087-1.874s-.032-1.254-.087-1.874h3.481a7.688 7.688 0 0 1 .24 1.873Zm-.787-3.374h-3.122a12.469 12.469 0 0 0-1.245-3.905 7.752 7.752 0 0 1 4.368 3.904ZM9.233 1.5c.777 0 1.81 1.628 2.307 4.359H6.926C7.423 3.128 8.456 1.5 9.233 1.5Zm2.51 5.859a20.174 20.174 0 0 1 0 3.748h-5.02a20.118 20.118 0 0 1-.002-3.748ZM6.652 1.951a12.588 12.588 0 0 0-1.245 3.905H2.284a7.783 7.783 0 0 1 4.369-3.904ZM1.5 9.233a7.688 7.688 0 0 1 .239-1.874H5.22c-.055.622-.087 1.252-.087 1.874s.032 1.254.087 1.874H1.74a7.688 7.688 0 0 1-.24-1.874Zm3.91 3.374a12.469 12.469 0 0 0 1.245 3.905 7.757 7.757 0 0 1-4.366-3.905Z" fill=currentColor></path> </symbol> <symbol id=icon-chevron-up viewbox="0 0 11.718 7.982"><path d="m5.858 0 5.861 5.86-2.122 2.122-3.739-3.739-3.736 3.739L0 5.861Z" fill=currentColor></path> </symbol> <symbol id=icon-chevron-down viewbox="0 0 11.569 7.904"><path d="M5.784 7.904 0 2.121 2.121 0l3.663 3.662L9.448 0l2.121 2.121Z" fill=currentColor></path> </symbol> <symbol id=icon-hamburger viewbox="0 0 96 96"><path d="M0 12h96v12H0zM0 42h96v12H0zM0 72h96v12H0z" fill=currentColor></path> </symbol></svg>
+[graphql-sangria-detect] Dumped HTTP response https://custody.bitpanda.com/api/graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6704d5ecd82ea-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:40 GMT
+Expires: Tue, 05 Aug 2025 13:53:40 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=AHtPBrFIrCTb_ZfPv6yNAf977wZmva4DxjhE8peMjJc-1754398420078-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[graphql-sangria-detect] Dumped HTTP request for https://custody.bitpanda.com/query
+
+
+POST /query HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15
+Connection: close
+Content-Length: 33
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=SPDN09PTaKzeOlA1CDVpuaqaVlwPlP9a1u6ydCceEWU-1754398420260-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"queryy { __typename }"}
+[graphql-sangria-detect] Dumped HTTP request for https://custody.bitpanda.com/
+
+
+POST / HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 33
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=A8tu3DidWE7YR.4oA4DU6TglGT3PkQD3.qsMyL0CIc4-1754398434789-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"queryy { __typename }"}
+[graphql-sangria-detect] Dumped HTTP response https://custody.bitpanda.com/
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=3600, no-transform, public
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670acfee8e6ec-IAD
+Content-Security-Policy: frame-ancestors 'self' https://app.storyblok.com;
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:55 GMT
+Etag: W/"39b01b3b0069ff28267b784ffe4b8f6f"
+Last-Modified: Tue, 29 Jul 2025 06:35:44 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: accept-encoding
+X-Content-Type-Options: nosniff
+X-Vercel-Cache: MISS
+X-Vercel-Id: iad1::nzb96-1754398435392-e56d626c371a
+
+<!DOCTYPE html><html class=dark lang=en><head><script src="https://www.googleoptimize.com/optimize.js?id=OPT-N3D6ZNP"></script><script>if(document.cookie.match("uc_performance_v1_0=accepted")?.length){
+            window.dataLayer.push({'event': 'optimize.activate'});
+        }</script><meta charset=utf-8><title>Institutional crypto custody made safer, faster &amp; easier</title><meta content=Bitpanda name=author><meta content="width=device-width, initial-scale=1.0" name=viewport><meta content=https://www.bitpanda.com/en/tech/custody-solutions property=og:url><meta content=origin name=referrer><link href=https://cdn.bitpanda.com/media/redesign/favicon/dark/favicon-32x32.png rel=icon sizes=32x32 type=image/png><link href=https://cdn.bitpanda.com/media/redesign/favicon/dark/favicon-16x16.png rel=icon sizes=16x16 type=image/png><meta content="IE=EmulateIE11" http-equiv=X-UA-Compatible><link href=https://cdn.bitpanda.com rel=preconnect><link href=https://code.highcharts.com rel=preconnect><link href=https://cdn.segment.com rel=preconnect><link as=font crossorigin=anonymous href=https://cdn.bitpanda.com/media/fonts/bp-assets/bp-assets.woff2 rel=preload type=font/woff2><link as=font crossorigin=anonymous href=https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Regular.woff2 rel=preload type=font/woff2><link as=font crossorigin=anonymous href=https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Medium.woff2 rel=preload type=font/woff2><link as=font crossorigin=anonymous href=https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Semibold.woff2 rel=preload type=font/woff2><style>@font-face {
+            font-family: 'bp-assets';
+            src:
+                url("https://cdn.bitpanda.com/media/fonts/bp-assets/bp-assets.woff2") format("woff2");
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }</style><style>@font-face {
+            font-family: EuclidSquare;
+            src:
+                url("https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Regular.woff2") format("woff2"),
+                url("https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Regular.woff") format("woff");
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+        @font-face {
+            font-family: EuclidSquare;
+            src:
+                url("https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Medium.woff2") format("woff2"),
+                url("https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Medium.woff") format("woff");
+            font-weight: 500;
+            font-style: normal;
+            font-display: swap;
+        }
+
+        @font-face {
+            font-family: EuclidSquare;
+            src:
+                url("https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Semibold.woff2") format("woff2");
+        url("https://cdn.bitpanda.com/media/fonts/EuclidSquare/EuclidSquare-Semibold.woff") format("woff");
+            font-weight: 600;
+            font-style: normal;
+            font-display: swap;
+        }</style><meta content="Bitpanda Custody stands as an FCA &amp; BAM-registered, fully insured solution that’s primed for the DeFi landscape. We offer segregated hardware security modules (HSM) secured wallets to ensure the utmost security for your crypto assets, giving you peace of mind with a platform that’s not only regulatory compliant, but also ready to meet the demands of the dynamic digital finance world.
+
+Bitpanda Custody only serves clients who have professional experience in matters relating to qualifying crypto assets. Bitpanda Custody does not serve retail customers and persons who do not have professional experience in matters relating to qualifying crypto assets." name=description><meta content="Institutional crypto custody made safer, faster &amp; easier" name=title><link href=https://www.bitpanda.com/en/tech/custody-solutions rel=canonical><link href=/en/tech/custody-solutions hreflang=x-default rel=alternate><link href=/en/tech/custody-solutions hreflang=en rel=alternate><link href=/de/tech/custody-solutions hreflang=de rel=alternate><meta content="index, follow " name=robots><meta content=article property=og:type><meta content="Institutional crypto custody made safer, faster &amp; easier" property=og:title><meta content="Bitpanda Custody stands as an FCA &amp; BAM-registered, fully insured solution that’s primed for the DeFi landscape. We offer segregated hardware security modules (HSM) secured wallets to ensure the utmost security for your crypto assets, giving you peace of mind with a platform that’s not only regulatory compliant, but also ready to meet the demands of the dynamic digital finance world.
+
+Bitpanda Custody only serves clients who have professional experience in matters relating to qualifying crypto assets. Bitpanda Custody does not serve retail customers and persons who do not have professional experience in matters relating to qualifying crypto assets." property=og:description><meta content=https://cdn.bitpanda.com/media/white-label/menu/BTS-OG-image.png property=og:image><link href="https://cdn.bitpanda.com/app/v2/css/all.min.css?id=0a6b6e34d2ce5388c046c8290ba08dfd" rel=stylesheet><style lang=css>.dark .js-bp3-cta-button .uk-button-default, .dark .js-bp3-cta-button .uk-button-primary, .dark  .js-bp3-cta-button .uk-button-default:hover, .dark  .js-bp3-cta-button .uk-button-primary:hover, .dark  .js-bp3-cta-button .uk-button-default:focus, .dark .js-bp3-cta-button .uk-button-primary:focus, .dark  .js-bp3-cta-button .uk-button-default:active, .dark  .js-bp3-cta-button .uk-button-primary:active {
+	 background-color: #66B9E8;
+	 border-color: #66B9E8;
+	 color: #f3f3f2; 
+}
+ 
+.dark .js-bp3-cta-button .uk-button-secondary, .dark  .js-bp3-cta-button .uk-button-secondary:hover, .dark  .js-bp3-cta-button .uk-button-secondary:focus, .dark  .js-bp3-cta-button .uk-button-secondary:active {
+	 border-color: #66B9E8 !important;
+	 color: #F3F3F2;
+}
+.dark .bp-offcanvas .bp-offcanvas__footer .bp-button--primary, .dark .bp-nav__container .bp-button--primary {
+    border-color: #66B9E8;
+	 background-color: #66B9E8;
+}
+/*blue accent in nav menu*/
+.dark .bp-nav__navigation li:active .bp-nav__item .bp-nav__item__text, 
+.dark .bp-nav__navigation li:focus-within .bp-nav__item .bp-nav__item__text, 
+.dark .bp-nav__navigation li:focus .bp-nav__item .bp-nav__item__text, 
+.dark .bp-nav__navigation li:hover .bp-nav__item .bp-nav__item__text {
+    border-bottom-color: #66B9E8;
+}
+/*blue accent in fotter*/
+.dark .footer .footer__main__nav a:active, 
+.dark .footer .footer__main__nav a:focus, 
+.dark .footer .footer__main__nav a:hover {
+    color: #66B9E8;
+}
+/*change underline for banner link*/
+.dark .background-black .module-text .module-text__content a[href]:not([uk-tooltip]):not(.bp-button-googleplay):not(.bp-button-appstore) {
+    background-image: linear-gradient(#F3F3F2,#F3F3F2),linear-gradient(#3D3D3D,#3D3D3D),linear-gradient(#F3F3F2,#F3F3F2);
+}
+
+
+/* vertical slider*/
+.dark #bp3-vs-wl__container {
+    background: #3D3D3D;
+    margin-bottom: -40px;
+}
+@media (min-width: 1200px) {
+    .dark #bp3-vs-wl__container { 
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: max(calc( (100% - 1200px) / 2 ), 40px);
+        padding-right: max(calc( (100% - 1200px) / 2 ), 40px);
+    }
+}
+@media (min-width: 960px) {
+    .dark #bp3-vs-wl__container { 
+        margin-bottom: -80px;
+    }
+}
+.dark #bp3-vs-wl__nav__item__button{
+    background-color: #66B9E8;
+}   
+.dark #asset-data__count__svg  circle {
+    stroke: #66B9E8;
+    fill: #3D3D3D;
+}
+.dark #bp3-vs__next-wl>span>svg {
+    fill: #66B9E8 !important;
+    stroke: #66B9E8 !important;    
+}
+.dark .bp3-vs__slides .bp3-vs__slide #bp3-vs-wl__slide__content {
+    align-self: center;
+}
+.dark .bp3-vs__slides .bp3-vs__slide #bp3-vs-wl__slide__content, 
+.dark .bp3-vs__slides .bp3-vs__slide #bp3-vs-wl__slide__content h3,
+.dark .bp3-vs__slides .bp3-vs__slide #bp3-vs-wl__slide__content em {
+    color: #F3F3F2;
+}
+#bp3-vs__nav-wl {
+    display: none;
+}
+/*fix bug causing horizontal scroll in mobile*/
+@media screen and (max-width: 768px) {
+    .dark .bp3-vs__slides {
+        width: 100%;
+    }
+}
+/*brand card*/
+
+.dark .bp3-card.bp3-card--gray {
+    background-color: #3D3D3D;
+}
+.dark .bp3-card.bp3-card--gray .bp3-card__content {
+    color: #F3F3F2;
+}
+.dark .bp3-card.bp3-card--gray .uk-button.uk-button-primary {
+    background-color: #66B9E8;
+    border-color: #66B9E8;
+    color: #F3F3F2;
+}
+/*cookies banner*/
+.dark .bp-banner .uk-button-default {
+    background-color: #66B9E8;
+    border-color: #66B9E8;
+    color: #F3F3F2;
+}
+.dark .bp-banner .uk-button-default:hover {
+    background-color: #4eb0e4;
+    border-color: #4eb0e4;
+    color: #F3F3F2;
+}
+.dark .bp-banner a[href]:after {
+    background-color: #66B9E8;
+}
+.dark .bp-banner a[href]:active {
+    color: #66B9E8 !important;
+}
+.dark .bp-banner a[href]:focus:after, .dark .bp-banner a[href]:hover:after {
+    background-color: #4eb0e4;
+}
+.dark #cookie-banner .bp-banner__content__text input:checked:not(:disabled)+.bp-switch__slider {
+    background-color: #4eb0e4;
+    border: 0.5px solid #4eb0e4;
+}
+/*hover effect for primary cta*/
+.dark .bp3-card.bp3-card--gray .uk-button.uk-button-primary:hover,
+.dark .bp-nav__container .bp-button--primary:hover,
+.dark .js-bp3-cta-button .uk-button-primary:hover {
+    background-color: #4eb0e4;
+    border-color: #4eb0e4;
+}
+.dark .bp-offcanvas ul [aria-expanded=true] .bp-offcanvas__item svg,
+.dark .bp-offcanvas__item {
+    color: #66B9E8;
+}</style><script src="https://cdn.bitpanda.com/app/v2/js/head.min.js?id=c9d8a7523921951f3dc02c71193d6fe4"></script><script>function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+function getUrlParam(param) {
+    let value = "";
+    //console.log(window.location.href);
+    if(window.location.href.indexOf(param) > -1)
+        value = getUrlVars()[param];
+    return value;
+}
+function setCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+    document.cookie = name + "=" + (value || "")  + expires + "; domain=.bitpanda.com; path=/";
+}
+function getCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+function eraseCookie(name) {   
+    document.cookie = name + '=; expires=Thu, 01 Jan 1970 00:00:01 GMT; domain=.bitpanda.com; path=/';
+}
+const s_id = getUrlParam('s_id');
+if (!!s_id) {
+    setCookie('s_id', s_id, 60);
+}
+const ref = getUrlParam('ref');
+if(!!ref) {
+    setCookie('ref', ref, 30);
+    eraseCookie('tag');
+    eraseCookie('s_id');
+}
+const tag = getUrlParam('tag');
+if(!!tag) {
+    setCookie('tag', tag, 30);
+    //eraseCookie('s_id');
+}
+const clickId = getUrlParam('irclickid');
+if(!!clickId) {
+    setCookie('irclickid', clickId, 30);
+}
+const utmCampaign = getUrlParam('utm_campaign');
+if(!!utmCampaign) {
+    setCookie('utm_campaign', utmCampaign, 30);
+}</script><script>window.addEventListener('DOMContentLoaded', (event) => {
+    let hash = window.location.hash;
+    hash = hash.replace("##","#");
+    hash = hash.replace("%23","");
+    window.location.hash = hash;
+    const targetNode = document.querySelectorAll('.uk-switcher')[0];
+    if(typeof targetNode !== "undefined") {
+        const config = { attributes: true, childList: true, subtree: true };
+        const callback = function(mutationsList, observer) {
+    		document.querySelectorAll(".uk-switcher > li").forEach(_li => {
+    		    if(_li.getAttribute('id') !== null) {
+    			    _li.setAttribute("id", _li.getAttribute("id").replace("#",""));
+    		    }
+			});
+    
+    		document.querySelectorAll("#tab-module > li > a").forEach(_a => {
+    		    if(_a.getAttribute('href') !== null) {
+    			    _a.setAttribute("href", _a.getAttribute("href").replace("##","#"));
+    		    }
+			});
+    			
+            observer.disconnect();
+        };
+        const observer = new MutationObserver(callback);
+        observer.observe(targetNode, config);
+    }
+});</script><script>var _paq = window._paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="https://bitpanda.matomo.cloud/";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '1']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.async=true; g.src='//cdn.matomo.cloud/bitpanda.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+  })();</script><script>let apiUrls = {
+            bpIcons: "https://bitpanda-broker-production-assets.s3-eu-west-1.amazonaws.com/static/cryptocoin/",
+            base: "https://api.bitpanda.com/v1/",
+            baseV2: "https://api.bitpanda.com/v2/",
+            baseV3: "https://api.bitpanda.com/v3/"
+        }</script><script>let utmTextReplace = {
+            utmParameter: '',
+            utmValue: '',
+            cssSelector: '',
+            text: '',
+        }</script><script src=//geoip-js.com/js/apis/geoip2/v2.1/geoip2.js></script><script>window.adjustSettings = {
+            appToken: '7hrkmq2yb3b4',
+            environment: 'production'
+        }</script><script type=application/ld+json>{
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    [{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/www.bitpanda.com\/en"},{"@type":"ListItem","position":2,"name":"Tech","item":"https:\/\/www.bitpanda.com\/en\/tech"},{"@type":"ListItem","position":3,"name":"Custody Solutions"}]
+                ]
+            }</script> <body class="dark default" style="position: unset;"><header id=layout-header><header><div class="bp-nav js-contains-anchor"><div class=bp-nav__container><div class=util-flex-shrink-0><a href=/en/tech><img alt="Bitpanda Pro" class=lazyload data-src=" https://cdn.bitpanda.com/media/white-label/menu/Bitpanda_Tech_Logo_White.png " height=40 width=166> </a> </div> <div class=util-visible-desktop><ul class=bp-nav__navigation><li class=bp-dropdown__align-anchor><div class=bp-nav__item><div class=bp-nav__item__text>Solution</div> <div class="bp-dropdown bp-dropdown--padding-sm"><ul class=bp-dropdown__grid><li class=bp-dropdown__grid-list><ul><li><a class=bp-dropdown__item href=/en/tech/investment-solutions><div> Investment </div> </a> <li><a class=bp-dropdown__item href=/en/tech/custody-solutions><div> Custody </div> </a> </ul> </ul> </div></div> <li class=bp-dropdown__align-anchor><div class=bp-nav__item><a class=bp-nav__item__text href=/en/tech/customers>Customers</a> <div class="bp-dropdown bp-dropdown--padding-sm"><ul class=bp-dropdown__grid><li class=bp-dropdown__grid-list><ul><li><a class=bp-dropdown__item href=/en/tech/sumeria-success-story><div> Sumeria </div> </a> <li><a class=bp-dropdown__item href=/en/tech/n26-success-story><div> N26 </div> </a> <li><a class=bp-dropdown__item href=/en/tech/plum-success-story><div> Plum </div> </a> <li><a class=bp-dropdown__item href=/en/tech/icard-success-story><div> iCard </div> </a> <li><a class=bp-dropdown__item href=/en/tech/rlb-success-story><div> Raiffeisen </div> </a> <li><a class=bp-dropdown__item href=/en/tech/coinmotion-success-story><div> Coinmotion </div> </a> <li><a class=bp-dropdown__item href=/en/tech/solaris-success-story><div> Solaris </div> </a> </ul> </ul> </div></div> <li><div class=bp-nav__item><a class=bp-nav__item__text href=/en/tech/partners>Partners</a> </div> <li><div class=bp-nav__item><a class=bp-nav__item__text href=/en/tech/insights>Insights</a> </div> <li><div class=bp-nav__item><a class=bp-nav__item__text href=/en/tech/security>Security</a> </div> <li><div class=bp-nav__item><a class=bp-nav__item__text href="https://techsolutions.bitpanda.com/ ">API Documentation</a> </div> <li><div class=bp-nav__item><a class=bp-nav__item__text href=/en/tech/company>Company</a> </div> </ul> </div> <div class=util-visible-desktop><div><ul class=bp-nav__navigation><li class=bp-dropdown__align-anchor><div class=bp-nav__item><div class=bp-nav__item__text><svg class=bp-symbol style="vertical-align: text-top;"><use xlink:href=#icon-globe></use> </svg> EN <svg class=bp-symbol style="--bp-symbol-size: 10px; vertical-align: inherit;"><use xlink:href=#icon-chevron-down></use> </svg> </div> <div class="bp-dropdown bp-dropdown--padding-sm"><ul class=bp-dropdown__grid><li class=bp-dropdown__grid-list><ul><li><a class=bp-dropdown__item href=/en/tech/custody-solutions><div> English </div> </a> <li><a class=bp-dropdown__item href=/de/tech/custody-solutions><div> Deutsch </div> </a> </ul> </ul> </div></div> </ul> </div> <div><a class="bp-button bp-button--primary" href=/en/bts-contact-us target=_blank title="Contact us">Contact us</a></div></div> <div class=util-visible-mobile><div><a class="bp-button bp-button--primary" href=/en/bts-contact-us target=_blank title="Contact us">Contact us</a></div> <div><button class="bp-button bp-button--transparent" onclick=toggleOffcanvas();><svg class=bp-symbol style="--bp-symbol-size: 20px;"><use xlink:href=#icon-hamburger></use></svg> </button> </div></div></div> </div> <script>function toggleTarget(e) {
+        const item = e.currentTarget;
+        const currentTarget = document.getElementById(e.currentTarget.getAttribute("bp-expand"));
+        if (currentTarget !== activeTarget) {
+            activeTarget.setAttribute("aria-expanded", "false");
+            currentTarget.setAttribute("aria-expanded", "true");
+            activeTarget = currentTarget;
+
+            activeItem.setAttribute("aria-current", "false");
+            item.setAttribute("aria-current", "true");
+            activeItem = item;
+        }
+    }
+    let activeTarget = document.getElementById("bp-expand-1");
+    let activeItem = document.querySelectorAll("[bp-expand=bp-expand-1]")[0];
+    document.querySelectorAll("[bp-expand]").forEach(function (item) {
+        item.addEventListener("mouseenter", toggleTarget, false);
+        item.addEventListener("focus", toggleTarget, false);
+    });</script> <div aria-expanded=false class=bp-offcanvas><div class=bp-offcanvas__header><a href=/en/tech><img alt="Bitpanda Pro" class=lazyload data-src=" https://cdn.bitpanda.com/media/white-label/menu/Bitpanda_Tech_Logo_White.png " height=40 width=166> </a> <button class="bp-button bp-button--transparent" onclick=toggleOffcanvas();><svg class=bp-symbol><use xlink:href=#icon-close></use> </svg> </button></div> <div class=bp-offcanvas__search-area><div class="bp-form-element bp-form-element--can-focus bp-form-element--large"><svg class=bp-symbol><use xlink:href=#icon-globe></use> </svg> <select id=js-offcanvas-language-switcher name="" onchange=changeLanguage(this)><option selected value=/en/tech/custody-solutions>English <option value=/de/tech/custody-solutions>Deutsch</select></div> </div> <div class=bp-offcanvas__body><nav id=js-offcanvas-nav><ul><li aria-expanded=false><span class=bp-offcanvas__item> Solution <svg class=bp-symbol><use xlink:href=#icon-chevron-down></use> </svg> </span> <ul><li><a href=/en/tech/investment-solutions>Investment</a> <li><a href=/en/tech/custody-solutions>Custody</a></ul> <li aria-expanded=false><span class=bp-offcanvas__item><a href=/en/tech/customers style="max-width: 90%">Customers</a> <svg class=bp-symbol><use xlink:href=#icon-chevron-down></use> </svg></span> <ul><li><a href=/en/tech/sumeria-success-story>Sumeria</a> <li><a href=/en/tech/n26-success-story>N26</a> <li><a href=/en/tech/plum-success-story>Plum</a> <li><a href=/en/tech/icard-success-story>iCard</a> <li><a href=/en/tech/rlb-success-story>Raiffeisen</a> <li><a href=/en/tech/coinmotion-success-story>Coinmotion</a> <li><a href=/en/tech/solaris-success-story>Solaris</a></ul> <li aria-expanded=false><span class=bp-offcanvas__item><a href=/en/tech/partners>Partners</a> </span> <ul></ul> <li aria-expanded=false><span class=bp-offcanvas__item><a href=/en/tech/insights>Insights</a> </span> <ul></ul> <li aria-expanded=false><span class=bp-offcanvas__item><a href=/en/tech/security>Security</a> </span> <ul></ul> <li aria-expanded=false><span class=bp-offcanvas__item><a href="https://techsolutions.bitpanda.com/ ">API Documentation</a> </span> <ul></ul> <li aria-expanded=false><span class=bp-offcanvas__item><a href=/en/tech/company>Company</a> </span> <ul></ul></ul> </nav> </div> <div class=bp-offcanvas__footer><a class="bp-button bp-button--large bp-button--primary" href=/en/bts-contact-us target=_blank title="Contact us">Contact us</a> </div></div> <script>function minimiseAll() {
+        document.querySelectorAll("#js-offcanvas-nav > ul > li").forEach(function(li) {
+            li.setAttribute("aria-expanded", false);
+        })
+    }
+    document.querySelectorAll("#js-offcanvas-nav > ul > li").forEach(function(li) {
+        li.addEventListener("click", function(e) {
+            if(e.currentTarget.getAttribute("aria-expanded") === "true") {
+                e.currentTarget.setAttribute("aria-expanded", false);
+            } else {
+                minimiseAll();
+                e.currentTarget.setAttribute("aria-expanded", true);
+            }
+        });
+    })
+    function toggleOffcanvas(e) {
+        const offcanvas = document.querySelectorAll(".bp-offcanvas")[0];
+        if(offcanvas.getAttribute("aria-expanded") === "false") {
+            offcanvas.setAttribute("aria-expanded", "true");
+        } else {
+            offcanvas.setAttribute("aria-expanded", "false");
+        }
+    }
+    function changeLanguage(e) {
+        document.location = e.value;
+    }</script></header> <div id=mobile-nav uk-offcanvas="overlay: true;"><div class=uk-offcanvas-bar><div class=offcanvas-logo-wrapper><a class=navbar-logo href=/en/tech><img alt="Bitpanda Logo" class=lazyload data-src=" https://cdn.bitpanda.com/media/white-label/menu/Bitpanda_Tech_Logo_White.png "> </a> <a class=uk-offcanvas-close type=button><span class="bp-icon bp-icon--close"></span> </a></div> <ul class="uk-nav uk-nav-default" uk-nav=""><li class=uk-parent><a href=#>Solution</a> <ul class=uk-nav-sub><li><a href=/en/tech/investment-solutions> Investment </a> <li><a href=/en/tech/custody-solutions> Custody </a> </ul> <li class=uk-parent><a href=#>Customers</a> <ul class=uk-nav-sub><li><a href=/en/tech/sumeria-success-story><span class="default uk-icon-button uk-margin-small-right"><img class=lazyload data-src=https://cdn.bitpanda.com/media/white-label/customer_Sumeria/Bitpanda%20Technology%20Solutions_Sumeria%20Logo.png> </span> Sumeria </a> <li><a href=/en/tech/n26-success-story><span class="default uk-icon-button uk-margin-small-right"><img class=lazyload data-src=https://cdn.bitpanda.com/media/white-label/n26_app_icon.png> </span> N26 </a> <li><a href=/en/tech/plum-success-story><span class="default uk-icon-button uk-margin-small-right"><img class=lazyload data-src=https://cdn.bitpanda.com/media/white-label/plum_app_icon.png> </span> Plum </a> <li><a href=/en/tech/icard-success-story><span class="default uk-icon-button uk-margin-small-right"><img class=lazyload data-src=https://cdn.bitpanda.com/media/white-label/customer_icard/iCard.png> </span> iCard </a> <li><a href=/en/tech/rlb-success-story><span class="default uk-icon-button uk-margin-small-right"><img class=lazyload data-src=https://cdn.bitpanda.com/media/white-label/customer_RLB/Bitpanda%20Technology%20Solutions_BTS%20Partners%20icons_Raiffeisen.png> </span> Raiffeisen </a> <li><a href=/en/tech/coinmotion-success-story><span class="default uk-icon-button uk-margin-small-right"><img class=lazyload data-src=https://cdn.bitpanda.com/media/white-label/customer_coinmotion/Coinmotion%20logo.png> </span> Coinmotion </a> <li><a href=/en/tech/solaris-success-story> Solaris </a> </ul> <li><a href=/en/tech/partners>Partners</a> <li><a href=/en/tech/insights>Insights</a> <li><a href=/en/tech/security>Security</a> <li><a href="https://techsolutions.bitpanda.com/ ">API Documentation</a> <li><a href=/en/tech/company>Company</a> </ul> <ul class=bp-offcanvas-secondary-nav uk-nav=""><li><a class=bp-text--sm href=""> Company </a> </ul> <ul class="bp-offcanvas-buttons uk-nav uk-nav-default" uk-nav=""><div><li><a class="uk-button uk-button-primary uk-width-1-1" href=/en/bts-contact-us>Contact us</a> </div> </ul></div> </div> <script>const ENTER_KEY_CODE = 13;
+
+    $(document).ready(function () {
+        $('#search-input-modal').keydown(function (event) {
+            const keyCode = (event.keyCode ? event.keyCode : event.which);
+            if (keyCode === ENTER_KEY_CODE) {
+                const searchFilter = '' || '';
+                const searchLink = `/en/search?${searchFilter.length === 0 ? '' : 'filter=' + searchFilter + '&'}query=${$(this).val()}`;
+                document.location.href = searchLink;
+            }
+        });
+    });</script></header> <section id=layout-content tabindex=-1><section class="background-black default uk-background-cover uk-light uk-section" style=background-image:url(https://cdn.bitpanda.com/media/white-label/2.0/custody-solution-header.png)><div class="uk-flex uk-flex-center"><section class="module-text uk-section uk-text-left uk-text-left@m"><div class=module-text__content><p><br> <p><br> <p>&nbsp; <br>&nbsp; <br>&nbsp;</div> </section> </div> </section> <section class="background-black default uk-background-cover uk-light uk-section" style=background-image:url(https://cdn.bitpanda.com/media/white-label/2.0/BitPanda_Tech_Website_final-31.jpg)><div class="uk-container uk-flex uk-flex-right"><section class="module-text uk-padding-remove-bottom uk-padding-small-top uk-section uk-text-left uk-text-left@m uk-width-2-3@s"><div class=module-text__content><h1>Institutional crypto custody made safer, faster &amp; easier</h1> <p>Bitpanda Custody stands as an FCA &amp; BAM-registered, fully insured solution that’s primed for the DeFi landscape. We offer segregated hardware security modules (HSM) secured wallets to ensure the utmost security for your crypto assets, giving you peace of mind with a platform that’s not only regulatory compliant, but also ready to meet the demands of the dynamic digital finance world. <p class=bp-text--sm>Bitpanda Custody only serves clients who have professional experience in matters relating to qualifying crypto assets. Bitpanda Custody does not serve retail customers and persons who do not have professional experience in matters relating to qualifying crypto assets.</div> <div class="js-bp3-cta-button module-text__buttons"><span class=primary-button><a class="desktop-button tk-get-started-button uk-button uk-button-large uk-button-primary" href=https://www.bitpanda.com/en/bts-contact-us> Book a demo </a> <a class="mobile-button uk-button uk-button-large uk-button-primary" href=https://www.bitpanda.com/en/bts-contact-us> Book a demo </a></span> <a class="secondary-button uk-button uk-button-large uk-button-secondary" href=https://app.bitpandacustody.com/> Log in to Bitpanda Custody </a></div> <script>window.initScriptLater = function (scriptUrl, fallback) {
+        const script = document.createElement("script");
+        script.onload = fallback;
+        script.src = scriptUrl;
+
+        document.addEventListener("readystatechange", () => {
+            if (document.readyState === "interactive") {
+                document.head.appendChild(script);
+            }
+        });
+    };
+
+    window.initScriptLater("https://cdn.bitpanda.com/app/v2/js/cta-button.min.js?id=d34a8a89944479eef669417eb9f8e3c5", () =>
+        window.initCtaButton()
+    );</script></section> </div> </section> <section class="background-black default uk-light uk-padding-small-bottom uk-section"><div class="default uk-container"><section class="module-text uk-padding-small-bottom uk-section uk-text-center uk-text-center@m"><div class=module-text__content><h2 dir=ltr>Unmatched flexibility and functionality</h2> <p dir=ltr>With years of expertise, we've crafted our custody solution to exceed industry standards. Our system includes:</div> </section> </div> </section> <section class="background-black uk-light uk-padding-small-bottom uk-padding-small-top uk-section"><div class=uk-container><div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-flex-center uk-flex-top uk-grid uk-grid-match" uk-grid=""><div class=default><section class="module-text uk-padding-small-bottom uk-padding-small-top uk-section uk-text-center uk-text-center@m"><div class=module-text__content><p><img class="fr-dib fr-fic" src=https://cdn.bitpanda.com/media/white-label/2.0/BitPanda%20Tech%20Website%20final-15.svg style="width: 150px;"> <p class=bp-text--lg><strong>Rule-based thresholds with MultiSig features</strong> <p class=bp-text--sm>Securely share wallets with customisable Multisig. Create unique sub-wallets to segregate funds per customer, payment, etc. in real-time.</div> </section> </div> <div class=default><section class="module-text uk-padding-small-bottom uk-padding-small-top uk-section uk-text-center uk-text-center@m"><div class=module-text__content><p><img class="fr-dib fr-fic" src=https://cdn.bitpanda.com/media/white-label/2.0/BitPanda%20Tech%20Website%20final-16.svg style="width: 150px;"> <p class=bp-text--lg><strong>Unlimited o﻿n-chain verified segregated wallets</strong> <p class=bp-text--sm>Easily create unlimited segregate﻿d sub-wallets, scale to accommodate more customers, and audit accounts with no commingling or rehypothecation of cryptoassets.</div> </section> </div> <div class=default><section class="module-text uk-padding-small-bottom uk-padding-small-top uk-section uk-text-center uk-text-center@m"><div class=module-text__content><p><img class="fr-dib fr-fic" src=https://cdn.bitpanda.com/media/white-label/2.0/BitPanda%20Tech%20Website%20final-17.svg style="width: 150px;"> <p class=bp-text--lg><strong>Propri﻿etary HSM</strong> <br><strong>technology</strong> <p class=bp-text--sm>Our proprietary HSM technolo﻿gy enforces cryptographically secured MultiSig approvals.</div> </section> </div></div> </div> </section> <section class="background-black uk-light uk-padding-remove-top uk-padding-small-bottom uk-section"><div class=uk-container><div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-flex-center uk-flex-top uk-grid uk-grid-match" uk-grid=""><div class=default><section class="module-text uk-padding-small-bottom uk-padding-small-top uk-section uk-text-center uk-text-center@m"><div class=module-text__content><p><img class="fr-dib fr-fic" src=https://cdn.bitpanda.com/media/white-label/2.0/BitPanda%20Tech%20Website%20final-20.svg style="width: 150px;"> <p class=bp-text--lg><strong>Build-in KYT ﻿&amp;</strong> <br><strong>KYC controls</strong> <p class=bp-text--sm>Know Your Customer &amp; Know Your Transaction. Our built-in KYC and KYT controls ensure we can monitor all users and transactions for AML compliance <br>The system is designed to be compliant with all required regulations, e.g., KYT monitoring, including address risk assessment and Travel Rule enforcement.</div> </section> </div> <div class=default><section class="module-text uk-padding-small-bottom uk-padding-small-top uk-section uk-text-center uk-text-center@m"><div class=module-text__content><p><img class="fr-dib fr-fic" src=https://cdn.bitpanda.com/media/white-label/2.0/BitPanda%20Tech%20Website%20final-19.svg style="width: 150px;"> <p class=bp-text--lg><strong>API &amp; SDK﻿</strong> <br><strong>automation</strong> <p class=bp-text--sm>Create new addresses on demand, sign and send transactions, query balances, develop your own flows and more with our GraphQL APIs and JavaScript SDK. <br>We offer full automation capabilities with our APIs, related SDKs, and webhooks.</div> </section> </div> <div class=default><section class="module-text uk-padding-small-bottom uk-padding-small-top uk-section uk-text-center uk-text-center@m"><div class=module-text__content><p><img class="fr-dib fr-fic" src=https://cdn.bitpanda.com/media/white-label/2.0/BitPanda%20Tech%20Website%20final-18.svg style="width: 150px;"> <p class=bp-text--lg><strong>DeFi﻿ through institutional-grade MetaMask extension</strong> <p class=bp-text--sm>Get all the details on your Ethereum transactions in one view and report. Support better end-of-month reconciliation for easy compliance reporting <br>Our DeFi firewall relies on our rules engine and Human Readable Transactions capabilities.</div> </section> </div></div> </div> </section> <section class="background-black default uk-light uk-padding-remove-bottom uk-section"><div class="default uk-container"><section class="module-text uk-padding-remove-bottom uk-padding-small-top uk-section uk-text-center uk-text-center@m"><div class=module-text__content><h2 dir=ltr>Security: Tried and tested</h2> <p dir=ltr>Our custody solution join the ranks of our tried-and-tested investment solutions, now available for our B2B clientele. We provide an easy-to-integrate insured crypto custody solution, safeguarding all your digital asset initiatives. Rest assured, you're in the safest hands in the industry.</div> </section> </div> </section> <section class="background-black default uk-light uk-section"><div class=uk-container><div class="uk-child-width-1-2@m uk-flex-top uk-grid" uk-grid=""><div class=default><div class="bp3-card bp3-card--column bp3-card--gray bp3-card--image-bottom-center"><div class=bp3-card__content><p align=center><img class="fr-dib fr-fic" src=https://cdn.bitpanda.com/media/white-label/2.0/small_SNR-ISO-IEC%2027001-1-modified.png style="width: 400px;"> <br> <br> <ul><li dir=ltr><strong>ISO/IEC 27001:2013 certification</strong> ensures robust security for your digital assets. The company enforces strict protocols to safeguard your investment from unauthorised access and cyber threats. <li><strong>Data Protection</strong>: Customer data is securely stored and monitored according to ISO/IEC 27001:2013 standards. Personal details, financial information, and trade data are kept confidential and safeguarded. <li><strong>Compliance</strong>: Our ISO/IEC 27001:2013 certification guarantees regular inspections and compliance with industry regulations for our custodial services and infrastructure.</ul></div> <div class=bp3-card__image><picture><source data-srcset=https://cdn.bitpanda.com/media/ type=image/png><img alt="" class=lazyload data-src=https://cdn.bitpanda.com/media/> </picture> </div></div> </div> <div class=default><div class="bp3-card bp3-card--column bp3-card--gray bp3-card--image-bottom-right"><div class=bp3-card__content><p align=center><img class="fr-dib fr-fic" src=https://cdn.bitpanda.com/media/white-label/2.0/soc2-3-modified.png style="width: 400px;"> <br> <br> <ul><li><strong>Enhanced Security Assurance</strong>: Our SOC 2 assessment ensures our security controls effectively protect your digital assets, affirming our commitment to safeguarding your investments and data with necessary safeguards in place. <li><strong>Streamlined Due Diligence</strong>: Being a SOC 2-assessed custodian simplifies your due diligence. Partner with confidence, knowing we've undergone rigorous independent assessment, reducing your efforts in evaluating our security and compliance practices for informed decisions. <li><strong>Reduced Risk</strong>: Opting for a SOC 2-assessed custodian lowers your exposure to security risks and breaches. Our assessment indicates proactive handling of vulnerabilities, minimising incidents that could affect your assets. Your investments are safer with us.</ul></div> <div class=bp3-card__image><picture><source data-srcset=https://cdn.bitpanda.com/media/ type=image/png><img alt="" class=lazyload data-src=https://cdn.bitpanda.com/media/> </picture> </div></div> </div></div> </div> </section> <section class="background-black uk-light uk-padding-remove-top uk-padding-small-bottom uk-section"><div class="default uk-container"><section class="module-text uk-padding-remove-top uk-padding-small-bottom uk-section uk-text-center uk-text-center@m"><div class=module-text__content><h4>Tailor-made solutions - Just what you need!</h4> </div> <div class="js-bp3-cta-button module-text__buttons"><span class=primary-button><a class="desktop-button tk-get-started-button uk-button uk-button-large uk-button-primary" href=https://www.bitpanda.com/en/bts-contact-us> Start customising your solution </a> <a class="mobile-button uk-button uk-button-large uk-button-primary" href=https://www.bitpanda.com/en/bts-contact-us> Start customising your solution </a></span> </div> <script>window.initScriptLater = function (scriptUrl, fallback) {
+        const script = document.createElement("script");
+        script.onload = fallback;
+        script.src = scriptUrl;
+
+        document.addEventListener("readystatechange", () => {
+            if (document.readyState === "interactive") {
+                document.head.appendChild(script);
+            }
+        });
+    };
+
+    window.initScriptLater("https://cdn.bitpanda.com/app/v2/js/cta-button.min.js?id=d34a8a89944479eef669417eb9f8e3c5", () =>
+        window.initCtaButton()
+    );</script></section> <section class="module-text uk-padding-remove-bottom uk-section uk-text-center uk-text-center@m"><div class=module-text__content><p class=bp-text--sm><br> <p class=bp-text--sm>Bitpanda Custody is a registered cryptoassets firm with the UK Financial Conduct Authority (FRN No. 928556) <hr> <p class=bp-text--sm><a href=https://custodysupport.bitpanda.com/hc/en-us>Bitpanda Custody Help Center</a></div> </section></div> </section></section> <footer id=layout-footer><footer class="footer footer_brand_3"><section class=footer__main><div class=uk-container><div uk-grid=""><div class=uk-width-1-1><nav class="uk-child-width-1-2@s uk-child-width-1-4@m" uk-grid=""><div class=footer__main__nav><span class=footer__main__nav__title> Bitpanda Technology Solutions </span> <ul><li><a href=/en/tech/platform>Platform</a> <li><a href=/en/tech/partners>Partners</a> <li><a href=/en/tech/insights>Insights</a> <li><a href=/en/tech/security>Security</a> <li><a href=/en/tech/company>Company</a> <li><a href=/en/tech/customers>Customers</a></ul></div> <div class=footer__main__nav><span class=footer__main__nav__title> _ </span> <ul><li><a href=/en/tech/rlb-success-story>Raiffeisen</a> <li><a href=/en/tech/n26-success-story>N26</a> <li><a href=/en/tech/sumeria-success-story>Sumeria</a> <li><a href=/en/tech/plum-success-story>Plum</a> <li><a href=/en/tech/icard-success-story>iCard</a> <li><a href=/en/tech/coinmotion-success-story>Coinmotion</a> <li><a href=/en/tech/solaris-success-story>Solaris</a></ul></div> <div class=footer__main__nav><span class=footer__main__nav__title> _ </span> <ul><li><a href=https://techsolutions.bitpanda.com/>API documentation</a> <li><a href=https://www.linkedin.com/company/bitpanda-technology>Linkedin</a> <li><a href=https://www.bitpanda.com/en/legal/legal-notice>Legal notice</a> <li><a href=https://www.bitpanda.com/en/legal/bitpanda-privacy-policy>Privacy Policy</a> <li><a href=https://www.bitpanda.com/de/legal>Legal &amp; Privacy</a> <li><a href=https://www.bitpanda.com/en/tech/custody-terms-and-conditions>Bitpanda Custody Terms and Conditions</a></ul></div> <div class=footer__main__nav><div><span class=footer__main__nav__title></span> <ul class="footer__social newColors"></ul></div> </div></nav> </div> </div> </div> <div class=uk-container><div class=uk-grid><div class="uk-margin-medium-top uk-text-small" style="color: #ffffffb3;"><p class=bp-text--sm>The content of this page constitutes a 'financial promotion', for the purposes of Section 21 of the Financial Services and Markets Act 2000 ("FSMA"), of 'qualifying cryptoassets', as such term is defined in The Financial Services and Markets Act 2000 (Financial Promotion) Order 2005 ("FPO"), and, accordingly, its distribution in the United Kingdom is restricted. No person authorised by the UK Financial Conduct Authority has approved the contents of this page for the purposes of section 21 FSMA. The products and services detailed on this page are only directed at, in the case of persons present in the UK, those persons who fall within Article 49(2)(a) to (d) (high net worth companies, unincorporated associations, etc.) of FPO ("Relevant Persons"). Any invitation, offer or agreement to provide the services described on this page, in the case of persons present in the UK, shall be made only to or with Relevant Persons. Any person present in the UK who is not a Relevant Person must not act on or rely upon the information contained on this page. </div> </div> </div></section> <section class="footer__navbar footer__navbar--sm footer__navbar__gradient"><div class=uk-container><div class=uk-flex-center uk-grid=""><div class="middle-menu-column uk-text-center uk-text-right@m uk-width-1-1 uk-width-auto@m"><ul><li><a href=https://www.bitpanda.com/en/legal/legal-notice>Legal Notice</a> </ul> </div> <div class="uk-second-column uk-text-center uk-text-right@m uk-width-1-1 uk-width-auto@m"><span>&copy; Bitpanda GmbH</span> </div></div> </div> </section></footer> </footer> <section class=bp-banner__container><div class="bp-banner bp-banner--hidden" id=cookie-banner><div class=bp-banner__content><div class=bp-banner__content__text><div><h4>The website uses cookies.</h4> We use cookies to optimize our services. The information we collect is used by us as part of our EU-wide activities. <a class=cookie-policy-button href=https://www.bitpanda.com/en/legal/bitpanda-cookie-policy target=_blank>Cookie policy</a></div> <div class=bp-banner__cookie-settings id=cookie-settings-modal><div><h5 class=cookie-settings__light-text>Cookie settings</h5> <ul toggle=.uk-accordion-title uk-accordion=""><li><div class="uk-flex uk-flex-between uk-flex-middle uk-margin-small-bottom uk-margin-small-top"><span class="cookie-settings__accordion-title uk-accordion-title">Essential cookies</span> <p class=cookie-settings__light-text>Always active</div> <p class="cookie-settings-description uk-accordion-content"> As the name would suggest, some cookies on our website are essential. They are necessary to remember your settings when using Bitpanda, (such as privacy or language settings), to protect the platform from attacks, or simply to stay logged in after you originally log in. You have the option to refuse, block or delete them, but this will significantly affect your experience using the website and not all our services will be available to you. <hr> <li><div class="uk-flex uk-flex-between uk-flex-middle uk-margin-small-bottom uk-margin-small-top"><span class="cookie-settings__accordion-title uk-accordion-title">Performance cookies</span> <div class="cookie-settings__switch-block performance-cookies-switch"><span class="active-inactive-text cookie-settings__light-text"><span class=active>Active</span> <span class=inactive>Inactive</span></span> <label class="bp-switch uk-margin-small-right" for=performance-cookies-check><input id=performance-cookies-check type=checkbox> <span class=bp-switch__slider></span></label></div></div> <p class="cookie-settings-description uk-accordion-content"> We use such cookies and similar technologies to collect information as users browse our website to help us better understand how it is used and then improve our services accordingly. It also helps us measure the overall performance of our website. We receive the date that this generates on an aggregated and anonymous basis. Blocking these cookies and tools does not affect the way our services work, but it does make it much harder for us to improve your experience. <hr> <li><div class="uk-flex uk-flex-between uk-flex-middle uk-margin-small-bottom uk-margin-small-top"><span class="cookie-settings__accordion-title uk-accordion-title">Advertisement cookies</span> <div class="ad-cookies-switch cookie-settings__switch-block"><span class="active-inactive-text cookie-settings__light-text"><span class=active>Active</span> <span class=inactive>Inactive</span></span> <label class="bp-switch uk-margin-small-right" for=ad-cookies-check><input id=ad-cookies-check type=checkbox> <span class=bp-switch__slider></span></label></div></div> <p class="cookie-settings-description uk-accordion-content"> These cookies are used to provide you with adverts relevant to Bitpanda. The tools for this are usually provided by third parties. With the help of these cookies and such third parties, we can ensure for example, that you don’t see the same ad more than once and that the advertisements are tailored to your interests. We can also use these technologies to measure the success of our marketing campaigns. Blocking these cookies and similar technologies does not generally affect the way our services work. Please note, however, that while you’ll still see advertisements about Bitpanda on websites, the adverts will no longer be personalised for you. </ul></div> </div> <div class=cookies_buttons><button class="uk-button uk-button-default uk-button-medium" id=bpCookieAcceptButton>Accept all cookies</button> <button class="uk-button uk-button-default uk-button-medium" id=bpCookieSaveButton>Save settings</button> <div class=cookies-settings-link><a class=cookie-settings-button href=#cookie-settings-modal uk-toggle="cls: cookie-banner__settings--visible;">Settings</a></div></div></div> </div> </div> <script>const segment_key = "4R4o0hpahOARcVhpszPnj7cD2ehz1Ys3";
+        const google_analytics_property = "UA-55274179-2";</script></section> <div class="search-container uk-modal-full" id=search-modal uk-modal=""><div class=uk-modal-dialog><button class="uk-close-large uk-modal-close-full" type=button uk-close=""></button> <div class=uk-padding-large><input class=search-container--input id=search-input-modal placeholder="Type to search" type=search> <div class="blog-module search-container--results uk-child-width-1-3@m uk-grid" id=search-results></div></div></div> </div> <script async src="https://cdn.bitpanda.com/app/v2/js/all.min.js?id=9ac3fa897412c0e399a87da045d24cab"></script> <script async src="https://cdn.bitpanda.com/app/v2/js/stock.min.js?id=09db388523f29a4e6879d1cd9650b068"></script> <script>var refAtt = getUrlParam('ref') || getCookie('ref');
+var tagAtt = getUrlParam('tag') || getCookie('tag');
+
+if(refAtt && tagAtt) {
+    var androidLink = "https://bitpanda.page.link/?link=https://www.bitpanda.com/user/register/" + refAtt + "?tag%3D" + tagAtt + "&apn=com.bitpanda.bitpanda&ofl=https://play.google.com/store/apps/details?id=com.bitpanda.bitpanda&ifl=https://apps.apple.com/at/app/bitpanda/id1449018960?ibi=com.bitpanda.bitpanda";
+    var iosLink = "https://bitpanda.page.link/?link=https://www.bitpanda.com/user/register/" + refAtt + "?tag%3D" + tagAtt + "&apn=com.bitpanda.bitpanda&ofl=https://apps.apple.com/at/app/bitpanda/id1449018960?ifl=https://apps.apple.com/at/app/bitpanda/id1449018960?ibi=com.bitpanda.bitpanda";
+    $('.android-button').attr("href", androidLink);
+    $('.ios-button').attr("href", iosLink);
+} else if(refAtt) {
+    var androidLink = "https://bitpanda.page.link/?link=https://www.bitpanda.com/user/register/" + refAtt + "&apn=com.bitpanda.bitpanda&ofl=https://play.google.com/store/apps/details?id=com.bitpanda.bitpanda&ifl=https://apps.apple.com/at/app/bitpanda/id1449018960?ibi=com.bitpanda.bitpanda";
+    var iosLink = "https://bitpanda.page.link/?link=https://www.bitpanda.com/user/register/" + refAtt + "&apn=com.bitpanda.bitpanda&ofl=https://apps.apple.com/at/app/bitpanda/id1449018960?ifl=https://apps.apple.com/at/app/bitpanda/id1449018960?ibi=com.bitpanda.bitpanda";
+    $('.android-button').attr("href", androidLink);
+    $('.ios-button').attr("href", iosLink);
+}</script> <script async src="https://cdn.bitpanda.com/app/v2/js/dotcom-components/dotcom-components.esm.js?id=418046627d829dcf7600c6e5a8714272" type=module></script> <script async nomodule="" src="https://cdn.bitpanda.com/app/v2/js/dotcom-components/dotcom-components.js?id=0b52396aaf0e4308e3af795c917c9416"></script> <div class=fa_OyCkAkzwJOc8Gw2AUwuC><script>//<! [CDATA[
+        window._fa=window._fa||[];window._fa.push({id:"OyCkAkzwJOc8Gw2AUwuC"});(function(d){var s=d.createElement("script");s.async=true;s.src=(d.location.protocol=="https:"?"https:":"http:")+"//www.fndsda.net/beige.js";var a=d.getElementsByTagName("script")[0];a.parentNode.insertBefore(s,a)}(document));
+        //]]></script> </div> <svg xmlns=http://www.w3.org/2000/svg xmlns:xlink=http://www.w3.org/1999/xlink style="display: none;"><symbol id=icon-close viewbox="0 0 15.414 15.414"><g fill=currentColor><path d="m14 15.414-14-14L1.414 0l14 14Z"></path> <path d="M1.414 15.414 0 14 14 0l1.414 1.414Z"></path></g> </symbol> <symbol id=icon-magnifier viewbox="0 0 16.922 16.922"><path d="M12.418 10.922a6.9 6.9 0 1 0-1.5 1.5l4.5 4.5 1.5-1.5Zm-5.544.711a4.759 4.759 0 1 1 4.759-4.759 4.764 4.764 0 0 1-4.759 4.76Z" fill=currentColor></path> </symbol> <symbol id=icon-globe viewbox="0 0 18.467 18.467"><path d="M9.233 18.467A9.233 9.233 0 1 0 0 9.233a9.244 9.244 0 0 0 9.233 9.234Zm0-1.5c-.777 0-1.81-1.628-2.307-4.359h4.614c-.496 2.731-1.529 4.359-2.307 4.359Zm2.581-.451a12.588 12.588 0 0 0 1.245-3.905h3.123a7.783 7.783 0 0 1-4.368 3.904Zm5.152-7.282a7.688 7.688 0 0 1-.239 1.874h-3.481c.055-.622.087-1.252.087-1.874s-.032-1.254-.087-1.874h3.481a7.688 7.688 0 0 1 .24 1.873Zm-.787-3.374h-3.122a12.469 12.469 0 0 0-1.245-3.905 7.752 7.752 0 0 1 4.368 3.904ZM9.233 1.5c.777 0 1.81 1.628 2.307 4.359H6.926C7.423 3.128 8.456 1.5 9.233 1.5Zm2.51 5.859a20.174 20.174 0 0 1 0 3.748h-5.02a20.118 20.118 0 0 1-.002-3.748ZM6.652 1.951a12.588 12.588 0 0 0-1.245 3.905H2.284a7.783 7.783 0 0 1 4.369-3.904ZM1.5 9.233a7.688 7.688 0 0 1 .239-1.874H5.22c-.055.622-.087 1.252-.087 1.874s.032 1.254.087 1.874H1.74a7.688 7.688 0 0 1-.24-1.874Zm3.91 3.374a12.469 12.469 0 0 0 1.245 3.905 7.757 7.757 0 0 1-4.366-3.905Z" fill=currentColor></path> </symbol> <symbol id=icon-chevron-up viewbox="0 0 11.718 7.982"><path d="m5.858 0 5.861 5.86-2.122 2.122-3.739-3.739-3.736 3.739L0 5.861Z" fill=currentColor></path> </symbol> <symbol id=icon-chevron-down viewbox="0 0 11.569 7.904"><path d="M5.784 7.904 0 2.121 2.121 0l3.663 3.662L9.448 0l2.121 2.121Z" fill=currentColor></path> </symbol> <symbol id=icon-hamburger viewbox="0 0 96 96"><path d="M0 12h96v12H0zM0 42h96v12H0zM0 72h96v12H0z" fill=currentColor></path> </symbol></svg>
+[graphql-sangria-detect] Dumped HTTP response https://custody.bitpanda.com/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670ac98e63879-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:55 GMT
+Expires: Tue, 05 Aug 2025 13:53:55 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=j52fIxFtzbMMsLJpa1cCzitwFzOEdi7e0JpmIwwzXhc-1754398435336-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

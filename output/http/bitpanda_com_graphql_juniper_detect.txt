@@ -1,0 +1,64 @@
+[graphql-juniper-detect] Dumped HTTP request for https://bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 33
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=cblKs1MwEvjx75YlxN3n171WZm0xi4pv.vuM5AMohdk-1754398227601-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"queryy { __typename }"}
+[graphql-juniper-detect] Dumped HTTP request for https://bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:93.0) Gecko/20100101 Firefox/93.0
+Connection: close
+Content-Length: 33
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=FNUrsNdyRv0Tzv9Zk3o64hmw3XaRqVgBmeYvwezlyKE-1754398241932-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"queryy { __typename }"}
+[graphql-juniper-detect] Dumped HTTP request for https://bitpanda.com/query
+
+
+POST /query HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/102.0 Safari/537.36
+Connection: close
+Content-Length: 33
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=j_E5wR830nUSeXJIojiuLzbUQeTpi6VH0EsQ9HiWTos-1754398257856-0.0.1.1-604800000; _cfuvid=GcKHpHB9ibv7xF2sofmFilz0waZk29Vnr5E1YY3f_2M-1754398274775-0.0.1.1-604800000; _cfuvid=FJfFEFlsQOIsV5BqZ2pte5jYEtm4NHMQ3xZa7Jaa894-1754398275807-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"queryy { __typename }"}
+[graphql-juniper-detect] Dumped HTTP request for https://bitpanda.com/
+
+
+POST / HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 33
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=I9FDDLv.QGOQkTx0uxC4YulnDQz8P.Gdkgh5GI0Ns70-1754398287959-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"queryy { __typename }"}

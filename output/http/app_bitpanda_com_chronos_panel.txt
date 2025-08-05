@@ -1,0 +1,34 @@
+[chronos-panel] Dumped HTTP request for https://app.bitpanda.com/chronos.wsc/asparamlogin.html
+
+
+GET /chronos.wsc/asparamlogin.html HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[chronos-panel] Dumped HTTP response https://app.bitpanda.com/chronos.wsc/asparamlogin.html
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669508d42d6cb-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:48:54 GMT
+Location: /api/auth/login?callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2Fchronos.wsc%2Fasparamlogin.html
+Server: cloudflare
+Set-Cookie: __Host-authjs.csrf-token=f353a74a0e8dee5ac084d8e622fcb5d748711ff72cfbe4b7e713706dfa9ffa68%7C23b5e99c29d8926e9f9e6bb333e06afaa3542ce3923f16744a1e0ca4823e41aa; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: _cfuvid=SHSbJ7uN73ok.ubhZYwVqivv5By43Y0Dqlk_SmwVzo4-1754398134296-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::s6lps-1754398134093-22ed9de2934f
+
+Redirecting...
+

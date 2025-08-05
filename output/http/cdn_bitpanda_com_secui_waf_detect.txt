@@ -1,0 +1,38 @@
+[secui-waf-detect] Dumped HTTP request for http://cdn.bitpanda.com/static/login/favicon.ico
+
+
+GET /static/login/favicon.ico HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 13_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=ZbuuXRD2Pix0BbKZC7RVbDQhcbjMbc3nmKsddrJ.TBA-1754398286856-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[secui-waf-detect] Dumped HTTP response http://cdn.bitpanda.com/static/login/favicon.ico
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66d12ab23c3b1-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:51:27 GMT
+Expires: Tue, 05 Aug 2025 13:51:27 GMT
+Location: https://cdn.bitpanda.com/static/login/favicon.ico
+Server: cloudflare
+Set-Cookie: _cfuvid=OBoRd4uSRlSI3z2DAvCW8DV3iuzkBB8XgozKD4pJt.k-1754398287818-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

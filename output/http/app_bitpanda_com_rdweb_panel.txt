@@ -1,0 +1,73 @@
+[rdweb-panel] Dumped HTTP request for https://app.bitpanda.com/RDWeb/
+
+
+GET /RDWeb/ HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2Fakuiteo%2Flogin.html; _cfuvid=XIqM3tsla1hD8RMNcWdEYCciBOa_JIheMzt7xDBDBfE-1754398154936-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..SSmJ8BAAaGcqcZHQsoBxUw.fsrZ9DELfgTahcPjBHtaxuSmcEiYLrS7owVn3X-rUz7f_7VJfDf2_WAO4wl0OZkhCFwl6RvEM5_zo9_l8wtdiXwMMIbyWWUqhZ5TfK_-ezF-OAc2_HaDjjncoyf25QG8kBePwzv4tomBrVmn8RkKzCm_ZMl2GDBtXi3tbNfJELTwZOLEuHKAlgEVjMbzsLDm_TdRXRkIBjvggGdm4__Ew3v_Wsf__fFZCCVITWgaMux61BpKGCE5Aac4OaWp-db7lV-FJ8mkgIzBBNnCrwyFJgqZ3th4vXo8XXxoFtWg_uscVNnDOklkuhEwaAdguMPNQaaCs3-QCLWpEYv7FvEXyANuRqGIaoZXzYlusXXjHCrPEQq_0YccqD3ZGOb1xtm0YBJULzu0fUewXfaY0HzMuaPBNb4ZU_g-W9TPtSRQmmzWrPir29DajHThaA2QVoViRPJaiu4GarSce_PpUzxpQequ-P7hmNeyxG3wDKURTKDhdr__QbYwjIgd4NQuSXEzLDQ0OFrbF0PCA71xhO6bHiyK5g1hhf7fbGIgko_Jh-UmlmbLYGjWlzB5iiVc7gr8iztW2dXZu8BrsUa0O0S1xwF-JO3IN4wb3DnTPaPq2xQ7tJyEMyZm4HxpZs6r_BWTuV0BXC5D3S1JrJf0ihHfWlf32bgOFNyNebyAmekU1gUmHt5FJ7Tg73_AymyAO2IK.luz4FN0FnVw2qhTYLCV11CuflvYYq_2JR9AdPKU8FdA
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[rdweb-panel] Dumped HTTP response https://app.bitpanda.com/RDWeb/
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e12a39541a-IAD
+Date: Tue, 05 Aug 2025 12:49:17 GMT
+Location: https://account.bitpanda.com/authorization/oauth/authorize?response_type=code&client_id=19&redirect_uri=https%3A%2F%2Fapp.bitpanda.com%2Fapi%2Fauth%2Fcallback%2Fbitpanda&state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiZWpxYWRMU1dJdlhub0IyS2VPc3d3a2U2eWhRZDN4aFhGX2hiSGEyTEZCSnJxaklObWRzZnU0WWRERi1icXlkRVMyX1Npal9HamM5RjgxZE94VnBhU1EifQ..otb6bRLDzBU6bGt1gyt1KQ.E7BbYZU9MQRtYyzHJ3bgZHhnofFXNqLPIYT-RLlJfS1eX8By-u283_24Zp6uNf2qmhNa4aPBCeK766tiTsMQtVcaJVvEcxbJS6EoM4EPWzcraRpnNwQO3FmXS82Et-C6LRopUa7PQuX8MHoPWUPxy8JTmRVBBCZuPfYNJVs2SAJBIhX_DT2DXuJEEwThxkcc.f2DcFRFoSajnEqTJPXNJ7QCp_Wm4SeEhGgs-H_acacc&scope=openid+profile+email
+Server: cloudflare
+Set-Cookie: __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2FRDWeb; Path=/; Secure; HttpOnly; SameSite=lax
+Set-Cookie: __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..v5Y2dGlxBy_RIpFlwVJqsA.FP3zMFskGKvsrKipa__RDr7vVGgpdan331w3BcokhgUuwLeg7mqtiLZnY9N9_NnPFanO0_foxw7luFcD0ALyOUEjPRFcdy6yQ9BMbdabACzkEfO97AlC-pKlJBmMiCO7lBh_qY4y61cEjjBPZRGfqlrt1XNOxUqwF2jnn-WKcfW4QaFVXf6o-jAyPIF79jis1BwRei3jtWw7RI9EXpqvlnOBZoXZNPZalaVQ8UD5WUoneZwXZ9hCnoriKNsjyLlfnPiAqfNT_YRku1txM6SA9zyeS5b-S4mIXYIMDHpm0m1TsybuRzv_Iq-ddDcJWsJI6CZb19vuNJn5IstyK_ohFqUh2rnni3x7YBdnXLLmM54RHNjpASQqK3MvdXl0hbP5yympf-7oH7NR_p5KF5ThmjBqYV4etH7UECQJ7t9FzlOVeKaZ9sbKMIbPHz0QrWCj7tWvItdbEys2H1u53qBOxoTS87yl9TtA7jGf4LZ55aKv_gmUXgMzopi3HNcHXzdYb7Aw3vbJcZf1vSSZNrTLlqH4czOr0kMzIBPAe30VlO8DG8e7GWvj-aFyO6wTZs79cmMGwlGtkSfvI1FaOqjQG0cNaq7Z6Ghw_6AanZ9-Am1Oeb3wEA4TXm1t2UIiDYVydWSE6kLEV9Ol1RG4f4i-MEl51503CHuvvzAonOgNtpM58i78uLnBdhl1jIutrSqF.mbcYVN6REY6mjbpQkkdY2u9B1YPrPfI0e1PfTgD75HE; Path=/; Expires=Tue, 05 Aug 2025 13:04:17 GMT; Max-Age=900; Secure; HttpOnly; SameSite=lax
+Set-Cookie: _cfuvid=RVq_0yXKH08l9S8iYKVBr5.W6I8qEp3KAFnPXoMk6kg-1754398157164-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+X-Content-Type-Options: nosniff
+X-Matched-Path: /api/auth/login
+X-Vercel-Cache: MISS
+X-Vercel-Id: iad1::dub1::lrv9h-1754398157010-f710a0c0efdd
+Content-Length: 0
+
+
+[rdweb-panel] Dumped HTTP response https://app.bitpanda.com/RDWeb/
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e0bc622959-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:16 GMT
+Location: /api/auth/login?callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2FRDWeb
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::4t4ms-1754398156930-e763546c50b2
+
+
+[rdweb-panel] Dumped HTTP response https://app.bitpanda.com/RDWeb/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e04cdb28a8-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:16 GMT
+Location: /RDWeb
+Refresh: 0;url=/RDWeb
+Server: cloudflare
+Set-Cookie: _cfuvid=Q0IllNKYI5rK99l5d.G1uUfLRk.NTvX1pN.WgBHV4Go-1754398156888-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::npn7h-1754398156882-3191c1c09fb8
+
+

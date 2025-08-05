@@ -1,0 +1,36 @@
+[beyondtrust-remotesupport-version] Dumped HTTP request for https://status.techsolutions.bitpanda.com/get_rdf?comp=sdcust&locale_code=en-us
+
+
+GET /get_rdf?comp=sdcust&locale_code=en-us HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/120.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=U3ZpYm1HZW1GZktnY01NRGY3QnFZbUhoTE01aytPZ1F1U1JYLzd2VDFzczZoYzAycGovTUY5VEl6NkNFcXVDVHZkYTRsY090blhWc1o4clgxMjFFdmYvUlBxUWV4MHNiLzljSEFZczZGZWJHVkZLWGo1RkF2RkQwZUxHVE9uT1hZUmxmVUgyb0s3Q1Q1c0NEMG9aNWxLZ0NVekFjQXNaRTZ1NUZkMFZubHZKZy9UbzZGTzBERmdJYTJTUlBYWjA3all1WEMyWjIzdnI5UGtjTjdCczN1VUF4YkIvdHdnS3cwaWw2UE1SUzFKTT0tLThXTTg5UzdsdDVmZ2cwc3AxUjFtK3c9PQ%3D%3D--ead104178992948684725b5c070917a060ea007d
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[beyondtrust-remotesupport-version] Dumped HTTP response https://status.techsolutions.bitpanda.com/get_rdf?comp=sdcust&locale_code=en-us
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: b3f79159-ce55-44f5-8de0-db4f1f84ceb5
+Atl-Traceid: b3f79159ce5544f58de0db4f1f84ceb5
+Date: Tue, 05 Aug 2025 12:52:23 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 8ad5a9cbb864898c238f716c1a12623c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: XcU4MP97UiYKyfiBEMs4bPKnNhfi1mRL82rDNieRiVDIeZk_B_NX8Q==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 115236140
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

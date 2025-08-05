@@ -1,0 +1,30 @@
+[secui-waf-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/static/login/favicon.ico
+
+
+GET /static/login/favicon.ico HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[secui-waf-detect] Dumped HTTP response https://techsolutions.bitpanda.com/static/login/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:45 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 5bab46d8af126fb7ca14b6d331ff182a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: PqkhhQZ6VoYa8qPhEv6YwmUNNbb4TBnwvu4ect_IzzqpYTUiZLShrg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: fJ5SI2YPlvOBNC5U+sg+roiZX9q4DRcGCfuOFJG1+TZaavkwugH7kO1TbwC7DJt5xLUGLkQUd00=
+X-Amz-Request-Id: FS155H6P717BYENS
+X-Cache: Error from cloudfront
+
+Not Found

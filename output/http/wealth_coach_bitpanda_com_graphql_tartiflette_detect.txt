@@ -1,0 +1,15 @@
+[graphql-tartiflette-detect] Dumped HTTP request for http://wealth-coach.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: wealth-coach.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/127.0 Safari/537.36
+Connection: close
+Content-Length: 35
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query @a { __typename }"}

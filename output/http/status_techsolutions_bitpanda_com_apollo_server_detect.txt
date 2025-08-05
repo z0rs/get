@@ -1,0 +1,49 @@
+[apollo-server-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 747
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema{queryType{name}mutationType{name}subscriptionType{name}types{...FullType}directives{name description locations args{...InputValue}}}}fragment FullType on __Type{kind name description fields(includeDeprecated:true){name description args{...InputValue}type{...TypeRef}isDeprecated deprecationReason}inputFields{...InputValue}interfaces{...TypeRef}enumValues(includeDeprecated:true){name description isDeprecated deprecationReason}possibleTypes{...TypeRef}}fragment InputValue on __InputValue{name description type{...TypeRef}defaultValue}fragment TypeRef on __Type{kind name ofType{kind name ofType{kind name ofType{kind name ofType{kind name ofType{kind name ofType{kind name ofType{kind name}}}}}}}}"}
+
+[apollo-server-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/graphql
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Accept-Ranges: bytes
+Atl-Request-Id: c1ad2ef9-781f-47c9-aa34-a1ae43e1b9a8
+Atl-Traceid: c1ad2ef9781f47c9aa34a1ae43e1b9a8
+Cache-Control: max-age=0, private, must-revalidate
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:22 GMT
+Etag: W/"eb91053fe8b8f148de5dc7a10d3658d8"
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=137,atl-edge-internal;dur=3,atl-edge-upstream;dur=135,atl-edge-pop;desc="aws-us-east-1"
+Set-Cookie: _spsess=U3ZpYm1HZW1GZktnY01NRGY3QnFZbUhoTE01aytPZ1F1U1JYLzd2VDFzczZoYzAycGovTUY5VEl6NkNFcXVDVHZkYTRsY090blhWc1o4clgxMjFFdmYvUlBxUWV4MHNiLzljSEFZczZGZWJHVkZLWGo1RkF2RkQwZUxHVE9uT1hZUmxmVUgyb0s3Q1Q1c0NEMG9aNWxLZ0NVekFjQXNaRTZ1NUZkMFZubHZKZy9UbzZGTzBERmdJYTJTUlBYWjA3all1WEMyWjIzdnI5UGtjTjdCczN1VUF4YkIvdHdnS3cwaWw2UE1SUzFKTT0tLThXTTg5UzdsdDVmZ2cwc3AxUjFtK3c9PQ%3D%3D--ead104178992948684725b5c070917a060ea007d; path=/; expires=Fri, 08 Aug 2025 12:52:22 GMT; secure; HttpOnly; SameSite=Lax
+Strict-Transport-Security: max-age=259200
+Vary: Accept,Accept-Encoding,X-Forwarded-Host,X-Forwarded-Scheme,X-Forwarded-Proto,Fastly-SSL,Origin
+Via: 1.1 966d01179c7098b0cf2a20ba8c352dee.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: _vK7S3yvbrgmeHWqDfcyQrj5sAUnEvzV6_JGv4qSACKHml4StK-Usg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Runtime: 0.059505
+X-Statuspage-Version: 286d2fa8936ee868c90b9a354eeabf8b3176da68
+X-Xss-Protection: 1; mode=block
+
+{"errors":[{"message":"You are not authenticated","extensions":{"code":"UNAUTHENTICATED"}}]}

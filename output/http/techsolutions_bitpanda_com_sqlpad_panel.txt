@@ -1,0 +1,26 @@
+[sqlpad-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/signin
+
+
+GET /signin HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[sqlpad-panel] Dumped HTTP response https://techsolutions.bitpanda.com/signin
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:25 GMT
+Location: ./signin/
+Via: 1.1 de8b5f44ffbaf97a58ad36dbe4a4a7c0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: bozejBfSbK5zDr4sKOCkAojmKNFpXHYqlb90ldsigLs31XY2ikTQqQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

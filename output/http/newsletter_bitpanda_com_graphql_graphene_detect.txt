@@ -1,0 +1,60 @@
+[graphql-graphene-detect] Dumped HTTP request for https://newsletter.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: newsletter.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 15
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"aaa"}
+[graphql-graphene-detect] Dumped HTTP request for https://newsletter.bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: newsletter.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 15
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"aaa"}
+[graphql-graphene-detect] Dumped HTTP request for https://newsletter.bitpanda.com/query
+
+
+POST /query HTTP/1.1
+Host: newsletter.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 15
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"aaa"}
+[graphql-graphene-detect] Dumped HTTP request for https://newsletter.bitpanda.com/
+
+
+POST / HTTP/1.1
+Host: newsletter.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/120.0 Safari/537.36
+Connection: close
+Content-Length: 15
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"aaa"}

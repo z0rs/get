@@ -1,0 +1,23 @@
+[xerox-workcentre-detect] Dumped HTTP request for http://requests.bitpanda.com/index.dhtml
+
+
+GET /index.dhtml HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-en) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[xerox-workcentre-detect] Dumped HTTP response http://requests.bitpanda.com/index.dhtml
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:25 GMT
+Location: https://requests.bitpanda.com/index.dhtml
+
+Moved Permanently

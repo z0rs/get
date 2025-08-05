@@ -1,0 +1,30 @@
+[trendmicro-apexone-panel] Dumped HTTP request for https://analytics.bitpanda.com/officescan/console/html/cgi/cgiChkMasterPwd.exe
+
+
+GET /officescan/console/html/cgi/cgiChkMasterPwd.exe HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=cTL6UYD.n7C9h0QjdRGT.7jJYaBYzyrCC6RcfeQrziU-1754398165321-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[trendmicro-apexone-panel] Dumped HTTP response https://analytics.bitpanda.com/officescan/console/html/cgi/cgiChkMasterPwd.exe
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Content-Length: 19
+Cf-Cache-Status: MISS
+Cf-Ray: 96a66a185cc93898-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:26 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=PDBHD80gLZbF1LaRqCy7hKU2NHxSjC6W.h6Uo1hrdkE-1754398166006-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+no healthy upstream

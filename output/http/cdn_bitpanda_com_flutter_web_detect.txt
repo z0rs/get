@@ -1,0 +1,76 @@
+[flutter-web-detect] Dumped HTTP request for http://cdn.bitpanda.com/main.dart.js
+
+
+GET /main.dart.js HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=q2jywson..kn.lHjPpRUBPz_n_D92FRb204MJTxwOHQ-1754398253890-0.0.1.1-604800000; _cfuvid=U0KXhNcVK.JsSXL7Et0bZ4y5UcTjI9eAwiMTvCzCAjM-1754398269834-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[flutter-web-detect] Dumped HTTP response http://cdn.bitpanda.com/main.dart.js
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ca86be1c5f1-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:51:10 GMT
+Expires: Tue, 05 Aug 2025 13:51:10 GMT
+Location: https://cdn.bitpanda.com/main.dart.js
+Server: cloudflare
+Set-Cookie: _cfuvid=SV9ccTuQ_B.a3ZgmkAB515PSVx4hq8i1_FbkUSpIpgQ-1754398270814-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[flutter-web-detect] Dumped HTTP request for http://cdn.bitpanda.com/flutter_bootstrap.js
+
+
+GET /flutter_bootstrap.js HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64; rv:135.0) Gecko/20100101 Firefox/135.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=r949UBjdxDevRmPROPWHnNgqCoyIkaYyzNytnf3lpJs-1754398271921-0.0.1.1-604800000; _cfuvid=xvzW7JxTywtWZ8CaQGdIrmSx890S8jgFSxyV8mlkPAs-1754398288842-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[flutter-web-detect] Dumped HTTP response http://cdn.bitpanda.com/flutter_bootstrap.js
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66d1f2d93b964-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:51:29 GMT
+Expires: Tue, 05 Aug 2025 13:51:29 GMT
+Location: https://cdn.bitpanda.com/flutter_bootstrap.js
+Server: cloudflare
+Set-Cookie: _cfuvid=ZylAapsGqxx1iNzzUa23mej5M2iWFhhOQcFiha16wXM-1754398289816-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

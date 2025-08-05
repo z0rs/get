@@ -1,0 +1,34 @@
+[dashy-panel] Dumped HTTP request for https://app.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[dashy-panel] Dumped HTTP response https://app.bitpanda.com
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669509a180739-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:48:55 GMT
+Location: /api/auth/login?callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2F
+Server: cloudflare
+Set-Cookie: __Host-authjs.csrf-token=a4a1194acb13096e5bd2350cac24d7703bd0a7684c5dcc6bb012a88c6bae99d0%7Cca99912d87e6a1265db1f383e910f9fedda2fb472f9e04d56ad2760820d2a6ae; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: _cfuvid=EkCyuqm_XfBX6XXkWd2qsDgpgl.bTozZc9r8aP9Mns0-1754398135164-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::8zv7d-1754398133891-36f62907757a
+
+Redirecting...
+

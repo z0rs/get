@@ -1,0 +1,83 @@
+[sysaid-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/Login.jsp
+
+
+GET /Login.jsp HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[sysaid-panel] Dumped HTTP response https://techsolutions.bitpanda.com/Login.jsp
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:25 GMT
+Location: ./Login.jsp/
+Via: 1.1 89591c0a75c1346076a8fa452cb3bc52.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: OJY-6lgVHKpbJJ1kvyB-piDYfZJd8HgnvghCsd-vBNpmU2Zp5OgKcQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[sysaid-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/InvalidAccount.jsp
+
+
+GET /InvalidAccount.jsp HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[sysaid-panel] Dumped HTTP response https://techsolutions.bitpanda.com/InvalidAccount.jsp
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:28 GMT
+Location: ./InvalidAccount.jsp/
+Via: 1.1 43c5eacfec80b6882109ae0d62894a64.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: bmgfnN0hpypFb3ytuaJR9SP1ozdCcScqNQt-Cwax3O1MkO9fX5NTHg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[sysaid-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/favicon.ico
+
+
+GET /favicon.ico HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/109.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[sysaid-panel] Dumped HTTP response https://techsolutions.bitpanda.com/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Age: 12
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:31 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 4d89e7f6870714b602988e2ed1135996.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: ZCIHxDYaccF5suUSD27m0Fgr1UvHLI3s-LEvhxq-lbEIf9aAEYaJlg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: eaaG2/2K3iw8vuV08TOmJnBEmche2GhZbPWlsdVeG36r+W0EQg9PNRNLlp5CIp3KJJRX4q3MVsE=
+X-Amz-Request-Id: XQ7RQWXRQ740CY4W
+X-Cache: Error from cloudfront
+
+Not Found

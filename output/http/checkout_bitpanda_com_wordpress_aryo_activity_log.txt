@@ -1,0 +1,29 @@
+[wordpress-aryo-activity-log] Dumped HTTP request for http://checkout.bitpanda.com/wp-content/plugins/aryo-activity-log/readme.txt
+
+
+GET /wp-content/plugins/aryo-activity-log/readme.txt HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.8 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-aryo-activity-log] Dumped HTTP response http://checkout.bitpanda.com/wp-content/plugins/aryo-activity-log/readme.txt
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:07 GMT
+Location: https://checkout.bitpanda.com/wp-content/plugins/aryo-activity-log/readme.txt
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

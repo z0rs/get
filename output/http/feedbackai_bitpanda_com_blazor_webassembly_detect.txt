@@ -1,0 +1,38 @@
+[blazor-webassembly-detect] Dumped HTTP request for http://feedbackai.bitpanda.com/_framework/blazor.boot.json
+
+
+GET /_framework/blazor.boot.json HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/126.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=MVQUjIEXS0GX9_xWWeJX3FjrkC7aMCVSJwuKNyyw3a8-1754398360825-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[blazor-webassembly-detect] Dumped HTTP response http://feedbackai.bitpanda.com/_framework/blazor.boot.json
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ee14a3e07ef-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:41 GMT
+Expires: Tue, 05 Aug 2025 13:52:41 GMT
+Location: https://feedbackai.bitpanda.com/_framework/blazor.boot.json
+Server: cloudflare
+Set-Cookie: _cfuvid=DRnAPelV4W.hLHndH06hdkxDTx7Xn1MUWMZMU_86z8U-1754398361843-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

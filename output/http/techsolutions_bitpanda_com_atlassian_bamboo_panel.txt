@@ -1,0 +1,26 @@
+[atlassian-bamboo-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/userlogin!doDefault.action?os_destination=%2Fstart.action
+
+
+GET /userlogin!doDefault.action?os_destination=%2Fstart.action HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[atlassian-bamboo-panel] Dumped HTTP response https://techsolutions.bitpanda.com/userlogin!doDefault.action?os_destination=%2Fstart.action
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:16 GMT
+Location: ./userlogin!doDefault.action/?os_destination=%2Fstart.action
+Via: 1.1 46ac2c9f87eca5473c2cb27cfe0168a4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: V5fMqsa5TR1o5-QYooZGN_rOuEGrnj9T0Gd4m8g5AB4v3Y7pGtwq_w==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

@@ -1,0 +1,37 @@
+[wordpress-google-listings-and-ads] Dumped HTTP request for https://socket.bitpanda.com/wp-content/plugins/google-listings-and-ads/readme.txt
+
+
+GET /wp-content/plugins/google-listings-and-ads/readme.txt HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=vfFpVuGokGUlFEXdh7cRmCYaJppxCh7ojxqb93beJXUiRakP3qV2zmA20YfGiTKYbzgwc2ZF7JjgeqaQx/gzGgD4a1N4gjB82WM2qf33Mwkl/LAhANIbzyZpmiUn; AWSALBCORS=vfFpVuGokGUlFEXdh7cRmCYaJppxCh7ojxqb93beJXUiRakP3qV2zmA20YfGiTKYbzgwc2ZF7JjgeqaQx/gzGgD4a1N4gjB82WM2qf33Mwkl/LAhANIbzyZpmiUn
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-google-listings-and-ads] Dumped HTTP response https://socket.bitpanda.com/wp-content/plugins/google-listings-and-ads/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:44 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=nFSGBtBNU5+e1GuYrPn7NkxQsuQp7DKaML9x0SaI1fHygh2rLAaVYHXcz0ZIfSWUy+KNgacE5yYNW6S2b05cIpRT4p/lrgaX6ePYOwAANG4kS7ICCijBop4FXB/7; Expires=Tue, 12 Aug 2025 12:52:44 GMT; Path=/
+Set-Cookie: AWSALBCORS=nFSGBtBNU5+e1GuYrPn7NkxQsuQp7DKaML9x0SaI1fHygh2rLAaVYHXcz0ZIfSWUy+KNgacE5yYNW6S2b05cIpRT4p/lrgaX6ePYOwAANG4kS7ICCijBop4FXB/7; Expires=Tue, 12 Aug 2025 12:52:44 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 21a5f0e24a694c040922a8766d75a2e0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: w35OsHcXgOFekOC9ubr-Ef0CAkB_sioemBbyBy9KeXfV1YWO3CxhVg==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 0
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

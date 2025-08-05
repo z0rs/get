@@ -1,0 +1,29 @@
+[qlikview-accesspoint-panel] Dumped HTTP request for https://api-segment.bitpanda.com/qlikview/FormLogin.htm
+
+
+GET /qlikview/FormLogin.htm HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=8CaJkqk8jVYbH9Etc8wXAr7xxgwWncVqRI9_wz_ecTs-1754398153119-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[qlikview-accesspoint-panel] Dumped HTTP response https://api-segment.bitpanda.com/qlikview/FormLogin.htm
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669cd69d2e643-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:13 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=dZLNJM9vlJ88tkMdV9BIiZPsyXIMszxT6O25EE_BD6Q-1754398153932-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

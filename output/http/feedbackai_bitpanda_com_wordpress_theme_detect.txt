@@ -1,0 +1,45 @@
+[wordpress-theme-detect] Dumped HTTP request for http://feedbackai.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; he-IL) AppleWebKit/528+ (KHTML, like Gecko) Version/4.0 Safari/528.16
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=7_7q7.xKoMsxwDQdmvxGE7C_vjuiHYyQ6bvQhWNG_0w-1754398447846-0.0.1.1-604800000; _cfuvid=DlO7kALmkKylATSOHcHbLKTq3kKSZkEAj7ag6CFlGVU-1754398463086-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-theme-detect] Dumped HTTP response http://feedbackai.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6718e9a1d255f-IAD
+Date: Tue, 05 Aug 2025 12:54:31 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[wordpress-theme-detect] Dumped HTTP response http://feedbackai.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6718e3bc8078c-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:31 GMT
+Expires: Tue, 05 Aug 2025 13:54:31 GMT
+Location: https://feedbackai.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=DfE9mPsM449dOpW2KxQWnB2QPBbxPBx5FpSx9rNcTgE-1754398471433-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

@@ -1,0 +1,30 @@
+[pomerium-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/.pomerium/index.js
+
+
+GET /.pomerium/index.js HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[pomerium-detect] Dumped HTTP response https://techsolutions.bitpanda.com/.pomerium/index.js
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:45 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 ddba66e53ff633c34296b8e866a481e2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: bBi690SaZ5g5eJzB7F9Cxw90NF7ZZ9ZuToOCfkaf6fSvMap4x5jAAg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: Fqq+f94sOb4lYp/g2goOmlKddLAdSzVsyJT7L4e8TEGqx20iXcA21jFT/FALBeX8zxtZSriKO20=
+X-Amz-Request-Id: FS174G9B1KGEW22S
+X-Cache: Error from cloudfront
+
+Not Found

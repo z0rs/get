@@ -1,0 +1,48 @@
+[hubble-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=q5BOi4RaCab7XwOO8TBmlvXgl6qlRWc76vLKTVey7fU-1754398398575-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[hubble-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 22
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6701a382bd697-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:53:32 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1S_9FcvjoEED5A=
+X-Amzn-Requestid: a99b84ea-3723-417e-898d-d9c419d4dae0
+X-Amzn-Trace-Id: Root=1-6891fecc-1362de8f459172642a806491
+X-Content-Type-Options: nosniff
+
+{"message": "success"}
+[hubble-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700d7a1381c7-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:29 GMT
+Expires: Tue, 05 Aug 2025 13:53:29 GMT
+Location: https://localization.webhooks.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=MsBK7R4XBLyfJI5nGwXTgfM2mrTWwXmwZnAbaZEF5jk-1754398409873-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

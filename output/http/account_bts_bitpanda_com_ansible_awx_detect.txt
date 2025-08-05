@@ -1,0 +1,39 @@
+[ansible-awx-detect] Dumped HTTP request for https://account.bts.bitpanda.com/api/
+
+
+GET /api/ HTTP/1.1
+Host: account.bts.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ansible-awx-detect] Dumped HTTP response https://account.bts.bitpanda.com/api/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a1e7d87c488-IAD
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:27 GMT
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Server: cloudflare
+Set-Cookie: _cfuvid=LzuY0XITHskXqn09xcdDUUV18Cxw_csqAvWavMpbBLY-1754398167198-0.0.1.1-604800000; path=/; domain=.frontegg.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Via: 1.1 929cbb64d024a9973633b197e2a23482.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 4hgQfc28JF_3jssQHqAmXqRlAYQs61o1PosEcyuQIyYPn5bzT5mTYQ==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+{"errors":["The requested URL was not found on this server."]}

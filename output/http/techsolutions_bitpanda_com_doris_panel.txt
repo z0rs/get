@@ -1,0 +1,26 @@
+[doris-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[doris-panel] Dumped HTTP response https://techsolutions.bitpanda.com/login
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:16 GMT
+Location: ./login/
+Via: 1.1 7ed6222f7e560bc392fd7d47d98df770.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: irMZjZDZBv5bXuD-_xbGcwUsdhTLpsPaRAplUHKU1_A-Q8e-NMHW-Q==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

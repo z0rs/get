@@ -1,0 +1,42 @@
+[ingress-nginx-valid-admission] Dumped HTTP request for http://localization.webhooks.bitpanda.com/validate
+
+
+POST /validate HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 555
+Content-Type: application/json
+Cookie: _cfuvid=s7D7U2Gvgfi9yNtpqDSItG_1p9eHimOoXpGNTmsv6Kg-1754398341830-0.0.1.1-604800000; _cfuvid=knLYVEijim6rLZkK0rhlwt4E6uzvBsEK4XJNRg6UUQc-1754398351954-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{
+  "kind": "AdmissionReview",
+  "apiVersion": "admission.k8s.io/v1",
+  "request": {
+    "uid": "wiybh",
+    "kind": {
+      "group": "networking.k8s.io",
+      "version": "v1",
+      "kind": "Ingress"
+    },
+    "operation": "CREATE",
+    "object": {
+      "metadata": {
+        "name": "test-wiybh",
+        "namespace": "default"
+      },
+      "spec": {
+        "rules": [
+          {
+            "host": "example.com",
+            "http": {
+              "paths": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

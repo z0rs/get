@@ -1,0 +1,26 @@
+[powerchute-network-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[powerchute-network-panel] Dumped HTTP response https://techsolutions.bitpanda.com/login
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:23 GMT
+Location: ./login/
+Via: 1.1 cc5a019539e6efe2b661a72253272ed6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 1LaqQ2CJCI0N2-OQhvvxyKhQWm9d7HRBy_TGR6oEEtvXIqiFjczTMQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

@@ -1,0 +1,23 @@
+[vmware-detect] Dumped HTTP request for http://cdn.bitpanda.com/sdk/
+
+
+POST /sdk/ HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 538
+Cookie: _cfuvid=Os5xQnl.bJkNJi56UGdFpnaFM3fW8Ihv2muT8hkOXEI-1754398301837-0.0.1.1-604800000; _cfuvid=V0GKtTjTYm4Zn5oKnI8xA3tfsaQPD6DMuV3fOkIu_VE-1754398317854-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soap:Header>
+      <operationID>00000001-00000001</operationID>
+   </soap:Header>
+   <soap:Body>
+      <RetrieveServiceContent xmlns="urn:internalvim25">
+         <_this xsi:type="ManagedObjectReference" type="ServiceInstance">ServiceInstance</_this>
+      </RetrieveServiceContent>
+   </soap:Body>
+</soap:Envelope>

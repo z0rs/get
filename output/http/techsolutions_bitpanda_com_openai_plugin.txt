@@ -1,0 +1,30 @@
+[openai-plugin] Dumped HTTP request for https://techsolutions.bitpanda.com/.well-known/ai-plugin.json
+
+
+GET /.well-known/ai-plugin.json HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:132.0) Gecko/20100101 Firefox/132.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[openai-plugin] Dumped HTTP response https://techsolutions.bitpanda.com/.well-known/ai-plugin.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:43 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 1e5d213252e38a8aa2e2a927fd3c3754.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: mL-rdI8I56p4AJSFzMajcMGJdlnTAvzNXSO5GN-qTEuaUZc4LWu7vQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: tV5v6NcRA4bh5nZqar/DfkE6dv5pL1LXaHB2F4fE7ff2OXDzDluXzFDFdZaqFJxaZm4oHk+kBTA=
+X-Amz-Request-Id: FYR6HNVC9FWP7D54
+X-Cache: Error from cloudfront
+
+Not Found

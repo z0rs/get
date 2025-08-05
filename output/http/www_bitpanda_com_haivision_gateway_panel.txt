@@ -1,0 +1,34 @@
+[haivision-gateway-panel] Dumped HTTP request for https://www.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: www.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=0GdOtw74mA9A9MtNBiKUm3Twt4zzEz07LTGryKGxq.w-1754398381126-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[haivision-gateway-panel] Dumped HTTP response https://www.bitpanda.com
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66f5a385607d7-IAD
+Content-Security-Policy: frame-ancestors 'self' https://app.storyblok.com;
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:01 GMT
+Location: /en
+Server: cloudflare
+Set-Cookie: _cfuvid=xVvXYoSN54qGPXL1n2tsgYCrJb9.f5jSyd7Xsi7REmg-1754398381425-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: cle1::bzpkc-1754398381350-ebb8b0f363f1
+
+Redirecting...
+

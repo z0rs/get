@@ -1,0 +1,190 @@
+[pi-hole-panel] Dumped HTTP request for https://socket.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/601.6.17 (KHTML, like Gecko) Version/9.1.1 Safari/601.6.17
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=rHygQINROfUP/a9FyritoHs+QNImn/w3nGg5umQqYzixa7A+o6WQV7tZwL3l17rpH2E2hyFwTebsTZ+55XgsGwUzUGImvrK6cZwEHA4WDNUzTHmrcL5B0kT7g29W; AWSALBCORS=rHygQINROfUP/a9FyritoHs+QNImn/w3nGg5umQqYzixa7A+o6WQV7tZwL3l17rpH2E2hyFwTebsTZ+55XgsGwUzUGImvrK6cZwEHA4WDNUzTHmrcL5B0kT7g29W
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[pi-hole-panel] Dumped HTTP response https://socket.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=zeo2xPUeROdqGwEKRJtk1R46AZKaS3F/Unf0lcFcPCVdhxvg4s6JBbh4ET2NE6EA1k+mqWz1E0IsSrFeff02TA07cyOSZvEquzkWBM09ubzuQjH9DFYmyeQD/uDO; Expires=Tue, 12 Aug 2025 12:52:37 GMT; Path=/
+Set-Cookie: AWSALBCORS=zeo2xPUeROdqGwEKRJtk1R46AZKaS3F/Unf0lcFcPCVdhxvg4s6JBbh4ET2NE6EA1k+mqWz1E0IsSrFeff02TA07cyOSZvEquzkWBM09ubzuQjH9DFYmyeQD/uDO; Expires=Tue, 12 Aug 2025 12:52:37 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 db190417d0f5689511af25059af21b3a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 7p4uP1EVhR4nDYu4ovrvPidQyhGzPE0aFMv6_ItiDoDZu2Bzpc58cg==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 11
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[pi-hole-panel] Dumped HTTP request for https://socket.bitpanda.com/admin/index.php
+
+
+GET /admin/index.php HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=gfPKVhkJQN2+hSzD3cbHOVQPVEPOHW/dL1J2BoCFjX5RTMSkLBMDd9nJTfCOL6EzE8J/aL5u7UVxMBMehNl2Mmw6vPonFPhAW0WNy0n42Pc9/so2AtWc43cnqWNo; AWSALBCORS=gfPKVhkJQN2+hSzD3cbHOVQPVEPOHW/dL1J2BoCFjX5RTMSkLBMDd9nJTfCOL6EzE8J/aL5u7UVxMBMehNl2Mmw6vPonFPhAW0WNy0n42Pc9/so2AtWc43cnqWNo
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[pi-hole-panel] Dumped HTTP response https://socket.bitpanda.com/admin/index.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:40 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=ToUah3kPyBDcEXCaAozJO1BkytCEOkAtXlX5DFemei4L9I4nvtbTdgfljGzBY0wm+VbQZLNvbVMkvD6L+v31r1B8MBlVW0vVqGSz/UTrnPnRhID3l7GzQFI+qWgl; Expires=Tue, 12 Aug 2025 12:52:40 GMT; Path=/
+Set-Cookie: AWSALBCORS=ToUah3kPyBDcEXCaAozJO1BkytCEOkAtXlX5DFemei4L9I4nvtbTdgfljGzBY0wm+VbQZLNvbVMkvD6L+v31r1B8MBlVW0vVqGSz/UTrnPnRhID3l7GzQFI+qWgl; Expires=Tue, 12 Aug 2025 12:52:40 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 8f37d2a62fbfeba0212cd5ced67c0c16.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: DKLTVUxfdE35BSD_2z3NsnqMFzuRvl-r15Psu9oQUQLy2WsZHbIa6A==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 5
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[pi-hole-panel] Dumped HTTP request for https://socket.bitpanda.com/admin/login.php
+
+
+GET /admin/login.php HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.75 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=fOmkiiXgRu4BQIRmtxrqaAaJ72a+ozPLZgAkmCS1m6Jk+E9a5lAuKmBVT/c38zSWZRrTOU5QoArWV2x6zaP1UlfSIEo+apv6p5fenTvYX11VOZqF5xS9VJHcXrSq; AWSALBCORS=fOmkiiXgRu4BQIRmtxrqaAaJ72a+ozPLZgAkmCS1m6Jk+E9a5lAuKmBVT/c38zSWZRrTOU5QoArWV2x6zaP1UlfSIEo+apv6p5fenTvYX11VOZqF5xS9VJHcXrSq
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[pi-hole-panel] Dumped HTTP response https://socket.bitpanda.com/admin/login.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:42 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=LjD1Fj2Q9vVYjfxto4slWkVhnnhfqCF5Glam9SPKhzablDcVXZR0rsL4yll1Rvo4YYhISyWjx3miYdoXNhMYBcsjTpQwJw9JD8q0JAIC1cwRLmypXJt5sJ73i0VT; Expires=Tue, 12 Aug 2025 12:52:42 GMT; Path=/
+Set-Cookie: AWSALBCORS=LjD1Fj2Q9vVYjfxto4slWkVhnnhfqCF5Glam9SPKhzablDcVXZR0rsL4yll1Rvo4YYhISyWjx3miYdoXNhMYBcsjTpQwJw9JD8q0JAIC1cwRLmypXJt5sJ73i0VT; Expires=Tue, 12 Aug 2025 12:52:42 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 0bdcc10f69b746cb367ceb51e88a3d1c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: ozzxdrm4kx5Z04pB4eD1KGOQVN2gsWiSB3B8RS1m7B6l78AOY1HKZw==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 8
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[pi-hole-panel] Dumped HTTP request for https://socket.bitpanda.com/admin/index.php?login
+
+
+GET /admin/index.php?login HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=vfFpVuGokGUlFEXdh7cRmCYaJppxCh7ojxqb93beJXUiRakP3qV2zmA20YfGiTKYbzgwc2ZF7JjgeqaQx/gzGgD4a1N4gjB82WM2qf33Mwkl/LAhANIbzyZpmiUn; AWSALBCORS=vfFpVuGokGUlFEXdh7cRmCYaJppxCh7ojxqb93beJXUiRakP3qV2zmA20YfGiTKYbzgwc2ZF7JjgeqaQx/gzGgD4a1N4gjB82WM2qf33Mwkl/LAhANIbzyZpmiUn
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[pi-hole-panel] Dumped HTTP response https://socket.bitpanda.com/admin/index.php?login
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:44 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=LPhKv82VW/tyZLbSRm0xXrXCX61kqLqBTHAVZO4MiEVyQ8o3Nima6WTe+FzrCT2qw5ViYKYQE/672Ui8VIw3uZg2vedDvCKZGQCxYZwyzJAsVE/mOE+L6GD0Y5wR; Expires=Tue, 12 Aug 2025 12:52:44 GMT; Path=/
+Set-Cookie: AWSALBCORS=LPhKv82VW/tyZLbSRm0xXrXCX61kqLqBTHAVZO4MiEVyQ8o3Nima6WTe+FzrCT2qw5ViYKYQE/672Ui8VIw3uZg2vedDvCKZGQCxYZwyzJAsVE/mOE+L6GD0Y5wR; Expires=Tue, 12 Aug 2025 12:52:44 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 87e6563b344d9d0eb9b5aa233652bc74.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: fT7QAVNqdGCiGmGtD0cTgDxlLZ_ci87399zK0O-7Y-3UFfHMww0ouA==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 1
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[pi-hole-panel] Dumped HTTP request for https://socket.bitpanda.com/index.php?login
+
+
+GET /index.php?login HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=iPfHVv5nI+aitT6dVNkaE9nOAkB5RgnCcRAfZZ/ar7jZPlFhLkn1Bh+O0G2mLVQu70Nq+2vttxPC74L20Q8LQDJvMB0typrR/jDc6h+PgnBEtxxi41B2OfX+9TJ0; AWSALBCORS=iPfHVv5nI+aitT6dVNkaE9nOAkB5RgnCcRAfZZ/ar7jZPlFhLkn1Bh+O0G2mLVQu70Nq+2vttxPC74L20Q8LQDJvMB0typrR/jDc6h+PgnBEtxxi41B2OfX+9TJ0
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[pi-hole-panel] Dumped HTTP response https://socket.bitpanda.com/index.php?login
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:46 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=bWHPA0I669gw+GTgJ6+HV6ZDkgRWE4iTk0FrQWzmattFfzhfoSSLEmnrntRFSyFEN72+NFSTXTloQ6ZewhYTZSIuHaR3C1JxgCrWrMLafpGSiV40LvodaUl9nGfs; Expires=Tue, 12 Aug 2025 12:52:46 GMT; Path=/
+Set-Cookie: AWSALBCORS=bWHPA0I669gw+GTgJ6+HV6ZDkgRWE4iTk0FrQWzmattFfzhfoSSLEmnrntRFSyFEN72+NFSTXTloQ6ZewhYTZSIuHaR3C1JxgCrWrMLafpGSiV40LvodaUl9nGfs; Expires=Tue, 12 Aug 2025 12:52:46 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 d45137f973d454db77c647196f56613a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: mS9muFvqAgbY78iX4-tDgRZ5oAByko5LseSdRDZTIbqKOiWwh3NMsg==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 6
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

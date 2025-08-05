@@ -1,0 +1,29 @@
+[default-payara-server-page] Dumped HTTP request for https://api-segment.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=NInouTVFq2abs0_ETXWCNfk4qqLTk39YkPSje6v8sG8-1754398173929-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[default-payara-server-page] Dumped HTTP response https://api-segment.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66aada9bb3725-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:49 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=aPivxMLkRQKvhAPKrfxHaY0qeykaLiQ7daqCGgsEPIQ-1754398189793-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

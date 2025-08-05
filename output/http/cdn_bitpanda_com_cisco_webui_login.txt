@@ -1,0 +1,101 @@
+[cisco-webui-login] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.9 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=tlELLouwAdT60uN4GxTCiJznlpx5cDTIUg3Qxs_a_ig-1754398136882-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cisco-webui-login] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66969994b3950-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:48:57 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=238iG09.JBJndEMVTw1Gb3xONuXc.gMW5FQuEsBHqmI-1754398137960-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 90ad2a23a8617490c9d13e1f260633f8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: bvyQte0i8jNTMmmFfWRCq1d_IzGV_jJdHChCBjATKqpCxs_vRU4S4g==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[cisco-webui-login] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669693eee05ab-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:48:57 GMT
+Expires: Tue, 05 Aug 2025 13:48:57 GMT
+Location: https://cdn.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=OA7pcMOkZ7.Z7WOjgYNhKRwFersw7h2nKtqSSc_Jrt0-1754398137820-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[cisco-webui-login] Dumped HTTP request for http://cdn.bitpanda.com/webui/
+
+
+GET /webui/ HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Hh44_x1mMcyXcj2bRb_sZ.uEH0qx2kBu9gg8DlljtZQ-1754398161934-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cisco-webui-login] Dumped HTTP response http://cdn.bitpanda.com/webui/
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a05dce0cc13-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:23 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 749e1450fdc7cac18bb91a34e80053aa.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: BPuaKJjIE2fB27_t25LOmWjMYnkjzI9Gui6ymlhSpF4y2uU40ADS-g==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[cisco-webui-login] Dumped HTTP response http://cdn.bitpanda.com/webui/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66a0599d5a727-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:22 GMT
+Expires: Tue, 05 Aug 2025 13:49:22 GMT
+Location: https://cdn.bitpanda.com/webui/
+Server: cloudflare
+Set-Cookie: _cfuvid=BrcZxZKcoWG5pGrZdzM6NgOmPixbfPGKZ0vXWQiJEQE-1754398162834-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

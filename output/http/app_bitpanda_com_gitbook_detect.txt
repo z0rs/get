@@ -1,0 +1,33 @@
+[gitbook-detect] Dumped HTTP request for https://app.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2Fpre%2Fconfig.php%3Fversion%3D2.0; _cfuvid=2PEi5o_rgte1xhiSHEI9daLxQ._DLAVuKzSK_8udgZ8-1754398183894-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..ubzkRbrS3VomhMdWWBXaTA.0hFUZzzS0ndK-X09Jxv4KmEfPpQmhzw6zsn8ri6CzfKYa_Mjz_CpwA5Nn-tTxNFD9j7VpKfO5GlnDydiH5vO9C0ntc06bAxkagh_b7295vfkG4jv4zZYzSIqdGGSWplLry95PKW3wtnu1n_FkbQYUxGi4AwczQfqtvKUzLxgxmZkXlpKu63irUuk7dIVREiz2pyZBH_tgExos1g9D5Z31g80K5tzEoTDZE9GQNzDNeh1qtz4aWyu-ve19GVW_HkGXfHawwnihv9T_OElE2k8_N2gor3c-bDKWznvVB2n2n9g5uLEGRJJS26g41Znow_av-5DM0B8aiAh77eCHS9nhKwDPqkuZxjy3xR3oxBR6EeDxqv3P1YyDW3pEcdcebos-V-W5eMBolF0DUy2_NvUMk44EsH1ghujC-PInDjdvKSBJKu5tfmPoYN97ZiwZj5Yd3igB61Smw_cH9Eu-WHSHPM24M8MXBNQQLsOW6R3RePlIocjr0dHy30zjPQgGkuhY3nAY_8WHo4mmi-RnEX-9I76794mvx_ThRZ1lt2JP8ay4gqyCnLFn3bBa2DglRScJWNRvsySsDdhdUsmyvSk100VWEdWBsBzNcoqjZoVPofOqwXD-NdmMOjAxLmc9WVhi8vP7r22KMnqi6erZTy8CYt-24cksL2S8Ipu_HrQy9L3mmY3CFr_vC6WjPeDpY9Z.ljTaPhTQ_lRN-xW7JUq1jRtVlhkjyyAi18p_KxUs8L4
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[gitbook-detect] Dumped HTTP response https://app.bitpanda.com
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a8eed073ae2-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:44 GMT
+Location: /api/auth/login?callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2F
+Server: cloudflare
+Set-Cookie: _cfuvid=o21ckkijtiC9iYQ4Qh.v1z8CJ2ZZ71aXZ.lfQSQLm_Q-1754398184870-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::8xmts-1754398184829-352be11331a8
+
+Redirecting...
+

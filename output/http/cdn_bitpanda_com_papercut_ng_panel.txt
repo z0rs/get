@@ -1,0 +1,51 @@
+[papercut-ng-panel] Dumped HTTP request for http://cdn.bitpanda.com/user
+
+
+GET /user HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=rgsEjOZsA8PpPv89zqy1zU3pO0.axTXVJFcAAqA8jsQ-1754398153860-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[papercut-ng-panel] Dumped HTTP response http://cdn.bitpanda.com/user
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669d3bfd186d6-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:15 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=AFTViGhK7UDiF3WP6Fz3u0SnDikFoXW5EHCF4E_pd1k-1754398155092-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 e0ed595b39732d9e9972db26854384ec.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: H1YRKjTLj1f08oWTAX5CK4Jf1mv6zycM3tepKgmQHx1e2nuy0wExMw==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[papercut-ng-panel] Dumped HTTP response http://cdn.bitpanda.com/user
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669d36ba0c5c2-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:14 GMT
+Expires: Tue, 05 Aug 2025 13:49:14 GMT
+Location: https://cdn.bitpanda.com/user
+Server: cloudflare
+Set-Cookie: _cfuvid=ZsocLNk76f4jsWXNvc3jZVYGWnil7GKwal3IC89IS9M-1754398154813-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

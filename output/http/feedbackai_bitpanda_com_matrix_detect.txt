@@ -1,0 +1,90 @@
+[matrix-detect] Dumped HTTP request for http://feedbackai.bitpanda.com/.well-known/matrix/server
+
+
+GET /.well-known/matrix/server HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=kYto.X8WBt2_L83DMwX0grcJTAR0p8sZTd426x4k_8w-1754398407827-0.0.1.1-604800000; _cfuvid=iGBGiZvs.Lu.koYRaP7YQ1CFGzxm5dPk7MtrJ6Ty8Ts-1754398423818-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[matrix-detect] Dumped HTTP response http://feedbackai.bitpanda.com/.well-known/matrix/server
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670a72eb69c8a-IAD
+Date: Tue, 05 Aug 2025 12:53:54 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[matrix-detect] Dumped HTTP response http://feedbackai.bitpanda.com/.well-known/matrix/server
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6706bad966cc7-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:44 GMT
+Expires: Tue, 05 Aug 2025 13:53:44 GMT
+Location: https://feedbackai.bitpanda.com/.well-known/matrix/server
+Server: cloudflare
+Set-Cookie: _cfuvid=6J8qESGN8znuykvYWjFAedX3hm3gj00L6_58w__lRy0-1754398424933-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[matrix-detect] Dumped HTTP request for http://feedbackai.bitpanda.com/.well-known/matrix/client
+
+
+GET /.well-known/matrix/client HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=u43QX2cv4pTyKsY.MuNMLpYGs8IhU6FrY86y472LrRw-1754398432289-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[matrix-detect] Dumped HTTP response http://feedbackai.bitpanda.com/.well-known/matrix/client
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670d3ce3c81c9-IAD
+Date: Tue, 05 Aug 2025 12:54:01 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[matrix-detect] Dumped HTTP response http://feedbackai.bitpanda.com/.well-known/matrix/client
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670cd5b615944-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:00 GMT
+Expires: Tue, 05 Aug 2025 13:54:00 GMT
+Location: https://feedbackai.bitpanda.com/.well-known/matrix/client
+Server: cloudflare
+Set-Cookie: _cfuvid=fqZ5my17lQnLx5wPukv_cK.jiinrgSo43WVmLEyqhIw-1754398440564-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

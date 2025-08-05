@@ -1,0 +1,51 @@
+[authentik-panel] Dumped HTTP request for https://socket.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[authentik-panel] Dumped HTTP request for https://socket.bitpanda.com/static/dist/assets/icons/icon.png
+
+
+GET /static/dist/assets/icons/icon.png HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=pTwbsH6D/iU49VxOK9pJOL96oG93eEZjgHESVZSQV13h4nk5PtahVHqOUQWNECKxjGi1WO7I7KQaGvbEZxWH5pdvpWnNfh4pNQnJlJ4EBCn8+C3Z5OUz5tonuzFq; AWSALBCORS=pTwbsH6D/iU49VxOK9pJOL96oG93eEZjgHESVZSQV13h4nk5PtahVHqOUQWNECKxjGi1WO7I7KQaGvbEZxWH5pdvpWnNfh4pNQnJlJ4EBCn8+C3Z5OUz5tonuzFq
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[authentik-panel] Dumped HTTP response https://socket.bitpanda.com/static/dist/assets/icons/icon.png
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:14 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=m0Ycx6m3zO7okA6KPkJ+SDm7yCSYsf4FoBrmmSxPctBhPl/VxgSmOQuCuFRaUmymxrvVK4IsUlBMqP8EiEAASxEVh9kEd8/Anv6knYMWIHP1QXa+AcwDfyNaROZz; Expires=Tue, 12 Aug 2025 12:52:14 GMT; Path=/
+Set-Cookie: AWSALBCORS=m0Ycx6m3zO7okA6KPkJ+SDm7yCSYsf4FoBrmmSxPctBhPl/VxgSmOQuCuFRaUmymxrvVK4IsUlBMqP8EiEAASxEVh9kEd8/Anv6knYMWIHP1QXa+AcwDfyNaROZz; Expires=Tue, 12 Aug 2025 12:52:14 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 1448cc53c16b560cf86c5348358d4682.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: m706T4tYh805NZm8-_9Ly5Twciv_mEDQLoTdA5Q4JwjTdtpixdF68Q==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 1
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

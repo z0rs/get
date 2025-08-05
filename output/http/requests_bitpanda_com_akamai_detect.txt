@@ -1,0 +1,24 @@
+[akamai-detect] Dumped HTTP request for http://requests.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.9 Mobile/15E148 Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+Pragma: akamai-x-cache-on
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[akamai-detect] Dumped HTTP response http://requests.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:05 GMT
+Location: https://requests.bitpanda.com/
+
+Moved Permanently

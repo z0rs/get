@@ -1,0 +1,76 @@
+[xphoneconnect-admin-panel] Dumped HTTP request for https://socket.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=yzP3uu1nCIxE7u2H2kVBgskAlQk30r37z/mkDjFoQwPHvwbj74UAnuJzv7hVweYqlGtafbWi3GJqYgY34Y0D2dM/wrMX3xdBYgP3Mxz768YsLH28hyKZ7BvQkXpC; AWSALBCORS=yzP3uu1nCIxE7u2H2kVBgskAlQk30r37z/mkDjFoQwPHvwbj74UAnuJzv7hVweYqlGtafbWi3GJqYgY34Y0D2dM/wrMX3xdBYgP3Mxz768YsLH28hyKZ7BvQkXpC
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[xphoneconnect-admin-panel] Dumped HTTP response https://socket.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:20 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=oiX2oCTFy/BsZZJaCyvl+Z2UamvxedgtHG+zyuMkWi6rLwRt3DwVeaQZg3EKYqQzzW+NsTnV5Ik1j6OPQLDWw6p+8PQDGoBfBlfFwxpdOK01570q+wW1s4k390oB; Expires=Tue, 12 Aug 2025 12:52:20 GMT; Path=/
+Set-Cookie: AWSALBCORS=oiX2oCTFy/BsZZJaCyvl+Z2UamvxedgtHG+zyuMkWi6rLwRt3DwVeaQZg3EKYqQzzW+NsTnV5Ik1j6OPQLDWw6p+8PQDGoBfBlfFwxpdOK01570q+wW1s4k390oB; Expires=Tue, 12 Aug 2025 12:52:20 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 d7441270a7210a12742f2ba6f1dfb028.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: k51qQi2vsDp-naIupSqnjcIh8G7yYyvIcZa_et2TS1Sp7uxUBkRyvQ==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 59
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[xphoneconnect-admin-panel] Dumped HTTP request for https://socket.bitpanda.com/xphoneconnect/admin/Login.aspx
+
+
+GET /xphoneconnect/admin/Login.aspx HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=NtPgjv9vbky52BLiqUgGEdjXMMT3Hghyc43AfM22+JSN523biySjTcLMzOleBz4qnSYPQVJ5WdC/d/JnaWLvQ73rGHC57bsDx7d1qPZGF0oaMjG4OFI4l80oHPT6; AWSALBCORS=NtPgjv9vbky52BLiqUgGEdjXMMT3Hghyc43AfM22+JSN523biySjTcLMzOleBz4qnSYPQVJ5WdC/d/JnaWLvQ73rGHC57bsDx7d1qPZGF0oaMjG4OFI4l80oHPT6
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[xphoneconnect-admin-panel] Dumped HTTP response https://socket.bitpanda.com/xphoneconnect/admin/Login.aspx
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:23 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=EebAvNVOa5EkwR37+76j2vD6y+1MPNBHO7YvB5NP1c3H+p62KKwaDfwRhw+FiMgMrc9xk0JnAJAY+TJ43rA7rfXwFu4yweyw6X9oBvGYin3ig33PoOoFe3q7tT54; Expires=Tue, 12 Aug 2025 12:52:23 GMT; Path=/
+Set-Cookie: AWSALBCORS=EebAvNVOa5EkwR37+76j2vD6y+1MPNBHO7YvB5NP1c3H+p62KKwaDfwRhw+FiMgMrc9xk0JnAJAY+TJ43rA7rfXwFu4yweyw6X9oBvGYin3ig33PoOoFe3q7tT54; Expires=Tue, 12 Aug 2025 12:52:23 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 1448cc53c16b560cf86c5348358d4682.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: EsFT4uelOJem2gKpSoxRywonNiB3RYH_3wRAQtk_ZonNQhmuLfAY6A==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 7
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

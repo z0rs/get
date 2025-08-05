@@ -1,0 +1,35 @@
+[wordpress-wpcf7-recaptcha] Dumped HTTP request for https://status.techsolutions.bitpanda.com/wp-content/plugins/wpcf7-recaptcha/readme.txt
+
+
+GET /wp-content/plugins/wpcf7-recaptcha/readme.txt HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=enZNa3MzVG16RnBwSllqN0tIT09KTkdaWlp1RG1Tbk5OUUtjQWpMWHlUS2FvemZFSWFQbHVEd1JuUlNYWlAwV3p3L3ZJc2tOMkN6eWQwS3hsc1VyVE1MTitGK3BHenBWQzNnMUlmSTlZTWxzWTRhcXcyM1VMU09aNCtoTVZjUFRrR3Z5ZUtuOVlja3lwQ01VdEhlWm4vL3p2SnJXY0htRkl1eWpUaVdKS3FMdHA1TGFQSUZURUFzQ1ZmOW9DYVJVWG40d2NJV2U1aFJZdllRVzZObDFYZnlYemxSR29XMEJCRWVrQVJYa1dLYz0tLWtydTZYNzNyZS9kRytPUmx5N0R0UVE9PQ%3D%3D--b26cf7f4764145fde0c97c25f3f98b721225ceec
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-wpcf7-recaptcha] Dumped HTTP response https://status.techsolutions.bitpanda.com/wp-content/plugins/wpcf7-recaptcha/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: a18f3ca1-7086-46de-8e5e-6b3b37ba4164
+Atl-Traceid: a18f3ca1708646de8e5e6b3b37ba4164
+Date: Tue, 05 Aug 2025 12:52:45 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=3,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 5bbbde7889bb9c7247f5924a32d2fdf0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: owESf_OOesO7MhuVBSXa8faDtHizHxT7nAMRyCXPH_VUY_p1Xxir0w==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 751782982
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

@@ -1,0 +1,52 @@
+[dell-idrac8-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/data?get=prodServerGen
+
+
+GET /data?get=prodServerGen HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[dell-idrac8-detect] Dumped HTTP response https://techsolutions.bitpanda.com/data?get=prodServerGen
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:34 GMT
+Location: ./data/?get=prodServerGen
+Via: 1.1 472d0d56eebf04200b994d89c556bce0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: iia0djkdqjpOC7ZzKk7j8CpddTy9GznN91w01OLe71Ojrws6vz_zVQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[dell-idrac8-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/session?aimGetProp=fwVersionFull
+
+
+GET /session?aimGetProp=fwVersionFull HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[dell-idrac8-detect] Dumped HTTP response https://techsolutions.bitpanda.com/session?aimGetProp=fwVersionFull
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Location: ./session/?aimGetProp=fwVersionFull
+Via: 1.1 4e5ef522edce25e792d546b5e8b93a9a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: pXO91zNZe50xc32aPbghivQg_AC40B2xGNCbzADEJzRmofg_TEVEbw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

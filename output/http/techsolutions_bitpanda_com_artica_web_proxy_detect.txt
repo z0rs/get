@@ -1,0 +1,30 @@
+[artica-web-proxy-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/fw.login.php
+
+
+GET /fw.login.php HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[artica-web-proxy-detect] Dumped HTTP response https://techsolutions.bitpanda.com/fw.login.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:31 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 cb2d413167decc675714b9b5dec4ad88.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: TXKbllxwK9PyocyUxg0ISpqtYM2Lnd8d4A4IyJEoyOGW_VgWWLStqA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: QzNxCEvB36EIIKwgqYgK5TNKLmvFrX6fjnTrRDPcPwKBXN6UrpvVx2dRRHjfE38SunEE5XfyEhY=
+X-Amz-Request-Id: W30BS7XW9XTDZX6C
+X-Cache: Error from cloudfront
+
+Not Found

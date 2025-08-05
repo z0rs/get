@@ -1,0 +1,36 @@
+[kubelet-pods] Dumped HTTP request for https://status.techsolutions.bitpanda.com/pods
+
+
+GET /pods HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=STB6UXNpOHpGdFJkSUhMV2VwTndJZDZLU0M5TiswSGxOd05xdlllV2MzYUhwU2NsaktsRHNxdTltTnNKaEF1NGcvM2h2MFByK3QwejlaTTR6WVZwSnZNd3VKL01HRnBBTjI2emRmczEzaFkvY1g2M2ZYY3ZDWXpPbFJMeEZucnJDSi9BaSswZEFmcStKVXJkUHJaV2FaVHFSQ0VGcENqK2VQQVpEemxGbjFyT3VnYXNsdSsrMXdtRGJIYnNYYjBmdDZMQXRxZGtyVDJVY1JpcUpvRUlMeGpOLzRUNE1xbzgzcmIwT2piYTNkYz0tLXRIeHhmSU9ibXJqdngwMUxYb0FKK2c9PQ%3D%3D--acc6fddeaa83c7032cf90c817b31b7280fc0db09
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[kubelet-pods] Dumped HTTP response https://status.techsolutions.bitpanda.com/pods
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 4fd14811-4e8b-481e-9032-c81a6820b409
+Atl-Traceid: 4fd148114e8b481e9032c81a6820b409
+Date: Tue, 05 Aug 2025 12:52:29 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=4,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 c8c9787916110356915bbdbddd0a32d6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 6L2C_h9ftPnlMl7n6Y3tTKG402iBxcyBmjqRiOMDp_IbQSZXuwp13Q==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 139318240
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

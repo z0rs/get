@@ -1,0 +1,37 @@
+[wordpress-duracelltomi-google-tag-manager] Dumped HTTP request for https://socket.bitpanda.com/wp-content/plugins/duracelltomi-google-tag-manager/readme.txt
+
+
+GET /wp-content/plugins/duracelltomi-google-tag-manager/readme.txt HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:123.0) Gecko/20100101 Firefox/123.0
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=fOmkiiXgRu4BQIRmtxrqaAaJ72a+ozPLZgAkmCS1m6Jk+E9a5lAuKmBVT/c38zSWZRrTOU5QoArWV2x6zaP1UlfSIEo+apv6p5fenTvYX11VOZqF5xS9VJHcXrSq; AWSALBCORS=fOmkiiXgRu4BQIRmtxrqaAaJ72a+ozPLZgAkmCS1m6Jk+E9a5lAuKmBVT/c38zSWZRrTOU5QoArWV2x6zaP1UlfSIEo+apv6p5fenTvYX11VOZqF5xS9VJHcXrSq
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-duracelltomi-google-tag-manager] Dumped HTTP response https://socket.bitpanda.com/wp-content/plugins/duracelltomi-google-tag-manager/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:42 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=hw59pcKTQi2J9OX1hHyH7iWJXJXGKy4Tm1X2NaoeTpwUElMO3ph9L7m94QItWo+bn1rnAqTOBiyC68mttgkF5k0hI4sICFHAWu6fGWfdqlMfveWoQU/0tWVXS5lB; Expires=Tue, 12 Aug 2025 12:52:42 GMT; Path=/
+Set-Cookie: AWSALBCORS=hw59pcKTQi2J9OX1hHyH7iWJXJXGKy4Tm1X2NaoeTpwUElMO3ph9L7m94QItWo+bn1rnAqTOBiyC68mttgkF5k0hI4sICFHAWu6fGWfdqlMfveWoQU/0tWVXS5lB; Expires=Tue, 12 Aug 2025 12:52:42 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 1fecb697c6f121d7ce54a35628ac154e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: AbntHOEWwv6HwKSbpRgvPjNAAgrErloPiZjn1iIbpGrJyFpHeg6seQ==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 11
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

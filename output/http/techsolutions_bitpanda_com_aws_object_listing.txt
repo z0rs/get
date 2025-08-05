@@ -1,0 +1,42 @@
+[aws-object-listing] Dumped HTTP request for https://techsolutions.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:133.0) Gecko/20100101 Firefox/133.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[aws-object-listing] Dumped HTTP response (Truncated) https://techsolutions.bitpanda.com
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Age: 98
+Cache-Control: public, max-age=0, must-revalidate
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Etag: "dc4548180f1bc5237e4c41ac9db1570d"
+Last-Modified: Mon, 07 Jul 2025 13:23:02 GMT
+Strict-Transport-Security: max-age=31536000
+Vary: Accept-Encoding
+Via: 1.1 7ba8238566c8641cae9d38ebcb67e0e8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: mWeEJl071PMgkoAI3oliw5xfO0gy_D7vFrQ2pjHjuTmqF7KwJMrOHQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: QqMpvovs0TTzm6+CMe+6gUHRFFKdliSO4xUd1+3ihE+9J5ghFSZat/mJs0pdeZRQDoh8BYZt9rE=
+X-Amz-Request-Id: 9C4E64JFB8RBT4WQ
+X-Amz-Server-Side-Encryption: AES256
+X-Cache: Hit from cloudfront
+
+<!DOCTYPE html><html lang="en-US"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover"/><script>window._onRedoclyRouteChange = function (cb) {
+    window.__redoclyRouteChangeListenres = window.__redoclyRouteChangeListenres || [];
+    window.__redoclyRouteChangeListenres.push(cb);
+  }
+  window._onRedoclyLoginResult = function(cb) {
+    window.__redoclyLoginResultListenres =  window.__redoclyLoginResultListenres || [];
+    window.__redoclyLoginResultListenres.push(cb);
+  }</script><style data-href="/styles.0532bab2f82a031dd900.css" data-identity="gatsby-global-css">.ps{-ms-overflow-style:none;overflow:hidden!important;overflow-anchor:none;touch-action:auto;-ms-touch-action:auto}.ps__rail-x{bottom:0;height:15px}.ps__rail-x,.ps__rail-y{display:none;opacity:0;position:absolute;transition:background-color .2s linear,opacity .2s linear;-webkit-transition:back

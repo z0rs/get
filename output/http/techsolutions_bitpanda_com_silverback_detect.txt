@@ -1,0 +1,30 @@
+[silverback-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/sts/Content/Images/favicon.ico
+
+
+GET /sts/Content/Images/favicon.ico HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686; rv:128.0) Gecko/20100101 Firefox/128.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[silverback-detect] Dumped HTTP response https://techsolutions.bitpanda.com/sts/Content/Images/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:45 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 caa5dc507511eeb90523a221b2bd19b4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: vrPTZUPYralnnHQ6nM0xEhIXcBqfWE5kDRbt_mE9SQptB4LD8-r9MQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: Ivd5VhY5rJ7X5s0VevED/8tzANRz94aCGtjMq8iWM99JEK5e/0Tpyed1D1Ck30Hnw8FWS3pj7KY=
+X-Amz-Request-Id: FS137CBVB2K8247N
+X-Cache: Error from cloudfront
+
+Not Found

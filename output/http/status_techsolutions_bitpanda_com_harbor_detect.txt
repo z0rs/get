@@ -1,0 +1,36 @@
+[harbor-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/api/v2.0/systeminfo
+
+
+GET /api/v2.0/systeminfo HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=Z1JVeWRDTWNOL09GR0lrdmRrbHlNTWZzMXZZeFdBaG9ha01jZ3VwUVJuMTV4bnRXZEg0dVY5UzNKOGxTdzI3LzBPL3piUFhzNkJOMmdmK0IyRG42Z1pMMTdxWkR6a1pmMnZGZFBVR0VjbnRxLzVxT21YYTErUThNRXQ2a0tNWVRUR1kvcXFndEVoQ1NTYU1aU0djZVB5Nm5uR2gya2hTMmRnNy9iQUNEamxkV2l4NHlGbEYrbUxqY1lmZkVVengzY09JSEFzcmZ4SldKdTVpM2puSHU0Mjh1SnVuaEZmZ1VqcDRURG84U1lQRT0tLWZpbW1hQTNKVDVseTYvWStrL0hDWnc9PQ%3D%3D--032e4a810364b54f997cbde0f2a56e2afb7d7fb0
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[harbor-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/api/v2.0/systeminfo
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 5e802b33-4e47-488f-8a74-ade59a7aec5e
+Atl-Traceid: 5e802b334e47488f8a74ade59a7aec5e
+Date: Tue, 05 Aug 2025 12:52:27 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=3,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 4b0f0fc4315eea23426f6074a7254a8c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: X6zijsgdnGBuRIrWGENbYqhOXi2n2hoT3axBSYnUkrIB4C8JV20T_w==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 797346752
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

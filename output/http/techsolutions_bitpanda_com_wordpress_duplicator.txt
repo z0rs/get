@@ -1,0 +1,29 @@
+[wordpress-duplicator] Dumped HTTP request for https://techsolutions.bitpanda.com/wp-content/plugins/duplicator/readme.txt
+
+
+GET /wp-content/plugins/duplicator/readme.txt HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-duplicator] Dumped HTTP response https://techsolutions.bitpanda.com/wp-content/plugins/duplicator/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:49 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 68a9f2dcbbd436308ba855514c015cf2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: vav9xJTGWbZB7XC0xh5oF6rm3eJqOAjQcgF_izRUhaO41Qub_TRJrA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: eWxNW5OtjqUBb1cWXxWOPEvYCdIC6BOLtoUA+doBQTC3uYjv7/gnlXwRkQXY3t2VBCj3LXU9aV8=
+X-Amz-Request-Id: 6GQTQNH5P2DYRFD8
+X-Cache: Error from cloudfront
+
+Not Found

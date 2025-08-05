@@ -1,0 +1,29 @@
+[riello-netman204-panel] Dumped HTTP request for https://api-segment.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 &#40;Macintosh; Intel Mac OS X 10_15_7&#41; AppleWebKit/605.1.15 &#40;KHTML, like Gecko&#41; Version/18.3.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=MdzEB06xh0_Rrx3.VqjA7FwEA5LD5rF2mn50rLGaYbM-1754398154116-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[riello-netman204-panel] Dumped HTTP response https://api-segment.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e649ea4f53-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:17 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=onpxSPnrLGfBwtOtLZ0xVfNklUP6SkMlw0zP2RKAC90-1754398157912-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

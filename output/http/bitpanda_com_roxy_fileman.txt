@@ -1,0 +1,131 @@
+[roxy-fileman] Dumped HTTP request for https://bitpanda.com/index.html
+
+
+GET /index.html HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=78ZmbAnScajCzAKkcXX0PJNw0y20T9yWJjHjQCWXUcY-1754398151861-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[roxy-fileman] Dumped HTTP response https://bitpanda.com/index.html
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669cd4f9107b3-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:13 GMT
+Expires: Tue, 05 Aug 2025 13:49:13 GMT
+Location: https://www.bitpanda.com/index.html
+Server: cloudflare
+Set-Cookie: _cfuvid=UgKzbyiDDn_5NpOwja6Q1jQVNTCPcnUmq7gfMwWsWUc-1754398153831-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[roxy-fileman] Dumped HTTP request for https://bitpanda.com/fileman/index.html
+
+
+GET /fileman/index.html HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Fu6gU3ueoE5ljVeK1VhDLHMaveUjHPA1EGg_Tumu_y4-1754398157839-0.0.1.1-604800000; _cfuvid=2z2hJJE2UCjQw45Y7By.ZIh0FvVBF2aSVQMfkuAco0k-1754398173868-0.0.1.1-604800000; _cfuvid=HlaBkxj1SWEmyelK9h0dxeItt2vEAl9B8_FFeP3bnx8-1754398189841-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[roxy-fileman] Dumped HTTP request for https://bitpanda.com/fileman/php/fileslist.php
+
+
+GET /fileman/php/fileslist.php HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_7_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qchNMBSugz2.6LUwJPHzAql9.bXBjECRq4Y8evtM7o4-1754398208224-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[roxy-fileman] Dumped HTTP response https://bitpanda.com/fileman/php/fileslist.php
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66b31df1a23d0-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:10 GMT
+Expires: Tue, 05 Aug 2025 13:50:10 GMT
+Location: https://www.bitpanda.com/fileman/php/fileslist.php
+Server: cloudflare
+Set-Cookie: _cfuvid=xA7kXWjQa02cqYRev_RxUogtliBqnt7syCyGAFm0MyI-1754398210879-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[roxy-fileman] Dumped HTTP request for https://bitpanda.com/fileman/asp_net/main.ashx
+
+
+GET /fileman/asp_net/main.ashx HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_7_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=7X.NYZ9eKvKpJbS8JoKTZI8mkhDVbcOR9zR7SB1Bj4Y-1754398214358-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[roxy-fileman] Dumped HTTP response https://bitpanda.com/fileman/asp_net/main.ashx
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66b9a6e44f784-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:27 GMT
+Expires: Tue, 05 Aug 2025 13:50:27 GMT
+Location: https://www.bitpanda.com/fileman/asp_net/main.ashx
+Server: cloudflare
+Set-Cookie: _cfuvid=cblKs1MwEvjx75YlxN3n171WZm0xi4pv.vuM5AMohdk-1754398227601-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

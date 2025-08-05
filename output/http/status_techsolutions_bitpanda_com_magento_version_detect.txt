@@ -1,0 +1,68 @@
+[magento-version-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/magento_version
+
+
+GET /magento_version HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+Connection: close
+Cookie: _spsess=eGtMaUlGS3p2M2RoYWI1L3N3VHJ2MFNlV2tjd0VRblZDT1N1N3FNU0ZhemRNRUs2cEM4RG9QNThLR01oWFNhcUpzWFBNVDlvNXBYWDdQYy9iRzh1V3JkMldiUUNYMjRVU0UwSWlObjZyWFplb1gzcytRenNqTjdtUGltdS9MbldNRUUwRkdwQU14Zk1jVW1RQTNIdTBrNFlCUStaS1JVazQxOHZ2bGFFMGduWDlPREpWK3FYUjhOV3RXWGNvVDhpcnowVWNxbkRpOUZZTFJSZDh3d2FxM1RISWFxNkpuckYrVmhId1NGdFRvYz0tLWRIK3ZPQ2JSc1NYdkU4RkdBU1MxeVE9PQ%3D%3D--ee4dc47e46764c5a379a3bdebc7693808b2a816f
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[magento-version-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/magento_version
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 64b28ca7-c4e5-4408-8b07-85ec5d7236ef
+Atl-Traceid: 64b28ca7c4e544088b0785ec5d7236ef
+Date: Tue, 05 Aug 2025 12:52:30 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=4,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 ffa8ec5cfe61dcaaebc108ff8c867054.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: B-GrBDqwizSl49QcMC7sAm-RJkYUJgn2ZFtNI6JHVLDN8GaM-b34JQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 101350035
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[magento-version-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/skin/frontend/default/default/css/styles.css
+
+
+GET /skin/frontend/default/default/css/styles.css HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Mobile/15E148 Safari/604.1
+Connection: close
+Cookie: _spsess=WDltSjNNQlB4YkxKZk5kRkVteTlHMXFXRjVQYzkyYnZzczNYOG1hYk83LzYwUHorcWJFK2JnbHVBN0VzM1QxS3EwRWNWZ1k3QUZHaEk5ZHdtOVVXMUh0S2tMUm85S2pzSmJRZEJqRm1FbVcrMmo5TXJwUlNKQW1kdU5wMkxsUFlTa1YyZDZCZ0xPL2FLZUNQMFBtVnJhalQrS1NocU42bzQ5YVNTR1dmaGgvU1B0WnRKTU92NHdIcXRTcFNwUGNjVGkzMTZaRWhCaUpnWm5kai9kOGRWNkMxVFU2OU1WVXJnNS9ua1Q1WHJyRT0tLVZLMDlQQkR5ZnhSb1BvL2h6czlackE9PQ%3D%3D--5ef335e6e6666aa03e79bde56b96b12e8e7decff
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[magento-version-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/skin/frontend/default/default/css/styles.css
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 901dc8e3-bc8e-4ad2-ba02-ea0a2b7aa235
+Atl-Traceid: 901dc8e3bc8e4ad2ba02ea0a2b7aa235
+Date: Tue, 05 Aug 2025 12:52:33 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=3,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 429a03d32042afcc39a25586a483feb8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 6z0ZpCsfihSkm28moIS-bJx17jZQSC-gL8hZKSFlJBgaFTAPNOZkmw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 22083640
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

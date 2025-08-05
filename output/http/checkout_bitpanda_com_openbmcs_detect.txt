@@ -1,0 +1,40 @@
+[openbmcs-detect] Dumped HTTP request for http://checkout.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6,2 Mobile/15E148 Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[openbmcs-detect] Dumped HTTP response http://checkout.bitpanda.com
+
+HTTP/1.1 503 Service Temporarily Unavailable
+Connection: close
+Content-Length: 190
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:16 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+<html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body>
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+[openbmcs-detect] Dumped HTTP response http://checkout.bitpanda.com
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:15 GMT
+Location: https://checkout.bitpanda.com
+
+

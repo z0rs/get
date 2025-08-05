@@ -1,0 +1,45 @@
+[privatebin-detect] Dumped HTTP request for http://feedbackai.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=iyqYwtsYvnKXCI4RCqURRKtsjPrZy6UlcXHt0ajdlNA-1754398424857-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[privatebin-detect] Dumped HTTP response http://feedbackai.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670ad6f0020ae-IAD
+Date: Tue, 05 Aug 2025 12:53:55 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[privatebin-detect] Dumped HTTP response http://feedbackai.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67080486ec97c-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:48 GMT
+Expires: Tue, 05 Aug 2025 13:53:48 GMT
+Location: https://feedbackai.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=fctoGvcIi.FtZz89y4.NQugQIWS2f0VEcxaPk_Ng.DA-1754398428217-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

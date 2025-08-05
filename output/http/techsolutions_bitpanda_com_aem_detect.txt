@@ -1,0 +1,30 @@
+[aem-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/libs/granite/core/content/login/favicon.ico
+
+
+GET /libs/granite/core/content/login/favicon.ico HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[aem-detect] Dumped HTTP response https://techsolutions.bitpanda.com/libs/granite/core/content/login/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:28 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 43c5eacfec80b6882109ae0d62894a64.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: LQBr1-Sw-LJ_00zlXrazZrqH38aL-ay53oXmcXmFIH09BtBz9b5a0A==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: YqJ6tg63Cp3+IgKJqSxGlWOSil9PCRhXhNTA8KkPz5nbU5Wjvh8M3kQoX+cyru3/9g87SZg07LI=
+X-Amz-Request-Id: E4T7YQGGJDVW8XRZ
+X-Cache: Error from cloudfront
+
+Not Found

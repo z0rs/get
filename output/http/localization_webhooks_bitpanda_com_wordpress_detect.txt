@@ -1,0 +1,90 @@
+[wordpress-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/107.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=iBX.UdVyePpZZ3UxmUEfgdF3vDmPpQf6j2HJKj6QcCw-1754398448346-0.0.1.1-604800000; _cfuvid=nt79nupJg2xbtNvO9nHy17Cf26Rsb9aw9vKuJTiWQBY-1754398456465-0.0.1.1-604800000; _cfuvid=I0wtj0GnFOJ1BwPEbPlmQWlNCAlEKR4kDJ9NjbyRWVY-1754398475043-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/wp-admin/install.php
+
+
+GET /wp-admin/install.php HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13 Safari/608.2.11
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=smHQswzL.vT.5_xKu9b5L3iDF0NKkU_li1qSVUAiKes-1754398492960-0.0.1.1-604800000; _cfuvid=fiB8C7C9g0p5wZ4E7pYmrhVVCiT1owb3oiH5rYURRtg-1754398505265-0.0.1.1-604800000; _cfuvid=AweHRvK7Pp013CLxTJZaBXfuVwfnlqb657.5nLN0eas-1754398524270-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/feed/
+
+
+GET /feed/ HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=9h5aKfFhHZMYmezBZO04aw8u5J8_.rcwkPkEln9pBkI-1754398537475-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/feed/
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6735e2bb91b39-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:55:45 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TU0FN-DoEEvng=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 531bcf68-82ce-4734-b935-c24d70492c78
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[wordpress-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/feed/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6735dabe80588-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:55:45 GMT
+Expires: Tue, 05 Aug 2025 13:55:45 GMT
+Location: https://localization.webhooks.bitpanda.com/feed/
+Server: cloudflare
+Set-Cookie: _cfuvid=l3h5GUi2RSIE.yHZVC5oHjRDJHXjsXQItjkVunCVRKs-1754398545603-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[wordpress-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/?feed=rss2
+
+
+GET /?feed=rss2 HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686; rv:132.0) Gecko/20100101 Firefox/132.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=l3h5GUi2RSIE.yHZVC5oHjRDJHXjsXQItjkVunCVRKs-1754398545603-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

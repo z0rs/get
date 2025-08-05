@@ -1,0 +1,35 @@
+[akamai-cache-detect] Dumped HTTP request for https://techsolutions.bitpanda.com
+
+
+HEAD / HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Pragma: akamai-x-cache-on
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+
+
+[akamai-cache-detect] Dumped HTTP response https://techsolutions.bitpanda.com
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 15254
+Accept-Ranges: bytes
+Cache-Control: public, max-age=0, must-revalidate
+Content-Encoding: gzip
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:28 GMT
+Etag: "dc4548180f1bc5237e4c41ac9db1570d"
+Last-Modified: Mon, 07 Jul 2025 13:23:02 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 5130f24afa7aed6f49e6e72496306d12.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: CoNq89oBhWDzfWAUXwhVzMqPXBdSFONqv3PFgeT55gHj6KUvyrWgpw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: Sny9YhCX+1sDfAGo8V+TTcCUWhsK2/BgnKv2aiYFEOqjJgyvtQPlFM9btVuvj6SnmDb/r/6qLnY=
+X-Amz-Request-Id: E4T4ASJ4NTYDX15V
+X-Amz-Server-Side-Encryption: AES256
+X-Cache: Miss from cloudfront
+
+

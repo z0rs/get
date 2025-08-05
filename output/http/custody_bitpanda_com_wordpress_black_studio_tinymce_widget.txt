@@ -1,0 +1,38 @@
+[wordpress-black-studio-tinymce-widget] Dumped HTTP request for https://custody.bitpanda.com/wp-content/plugins/black-studio-tinymce-widget/readme.txt
+
+
+GET /wp-content/plugins/black-studio-tinymce-widget/readme.txt HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=z88FOiE5wmeM8H0jbFDnzgVGgGdxAzv2dUB6nMwCwDU-1754398419057-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-black-studio-tinymce-widget] Dumped HTTP response https://custody.bitpanda.com/wp-content/plugins/black-studio-tinymce-widget/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67053cdb83988-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:41 GMT
+Expires: Tue, 05 Aug 2025 13:53:41 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=4QR8f41fQ8gA.TkzKziA22r3grnkPn4Brasf_046Eng-1754398421104-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

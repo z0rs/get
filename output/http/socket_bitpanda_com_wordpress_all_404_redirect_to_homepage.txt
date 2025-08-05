@@ -1,0 +1,37 @@
+[wordpress-all-404-redirect-to-homepage] Dumped HTTP request for https://socket.bitpanda.com/wp-content/plugins/all-404-redirect-to-homepage/readme.txt
+
+
+GET /wp-content/plugins/all-404-redirect-to-homepage/readme.txt HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=jQOjzARrHArU6TaW9DBMWKTTGF8tDxlVptQRbph6WSA/75V26yrf2+zl/Xw0RRk4IYgc4wfk3O7kJuRVv0DMVzu80NMW9t0ZDrLaSb7FLm+ZC1b5+f3lapIFpOss; AWSALBCORS=jQOjzARrHArU6TaW9DBMWKTTGF8tDxlVptQRbph6WSA/75V26yrf2+zl/Xw0RRk4IYgc4wfk3O7kJuRVv0DMVzu80NMW9t0ZDrLaSb7FLm+ZC1b5+f3lapIFpOss
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-all-404-redirect-to-homepage] Dumped HTTP response https://socket.bitpanda.com/wp-content/plugins/all-404-redirect-to-homepage/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:41 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=J5RDnVxXGjzJBU7/ACFqomUQwvN3Jhol2ZOQM8WS7iwD446AUl6szAzxaFsdLhC9/BZ7rv2gX3ry8R2wRDctqnNjna6XnE1bEn3DQjzemXpMQdx8LpF3Umseqj8U; Expires=Tue, 12 Aug 2025 12:52:41 GMT; Path=/
+Set-Cookie: AWSALBCORS=J5RDnVxXGjzJBU7/ACFqomUQwvN3Jhol2ZOQM8WS7iwD446AUl6szAzxaFsdLhC9/BZ7rv2gX3ry8R2wRDctqnNjna6XnE1bEn3DQjzemXpMQdx8LpF3Umseqj8U; Expires=Tue, 12 Aug 2025 12:52:41 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 8a66d5eadee9b730a388e117efe2af72.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: T3N3ImfMmMm8_S6nYfMW8yGhjsohCJ6mPwqu6UTPqF0nuZc2Qyl17A==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 8
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

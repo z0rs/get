@@ -1,0 +1,33 @@
+[default-apache-test-page] Dumped HTTP request for https://app.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2F; _cfuvid=XrXNwcb7YfOvQZxae7gqwpM2zBH8EaiMkkyeOquhdlY-1754398167398-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..k5xnrDSJHVCcW7h8VtkjEg.5Gtpg-mp_PYQarF8jCL3g8XcmlD43RuoKysg91BYQDMNQrrJqTB_4By96DnEhwHkMu2WFntqudLRJcTOHctyseekHx9eWpS4U_Bvm07z6Eiu5yO5r25lov7ADO3f2Dyp7YdfwndxtRZR7Fw9HUWuN5dDMKdVvVmo4ggQc5tigUASv6JfB6SqkVMk7-x-kkUVGtIOhdVk2v9QbXQAYc8E0wScNhyrxs-eEMIMOMcI-xq7O-TvArW99c4poBE03R9HPRZoO5xuXSa3ddc_amMZohTXzJAR4uBmBf7h-vbXIpImzq2jTebULPn1XserBtbQ9QSRVK9fFAIaW2S5tgOu-nOhwdn-yuZkuobU1JSS3-pPnBNlGHIthpj31zhFtSUIq8-rr9c0RQcuNGKCdez81uWChPgzo4pE5QTdg1AqgDaiMhP_2p5plQasS9IpOGsQ9Itik0SYmlgUWHeUw3eoZNBc00WzH6W9HqvoCWDnZ_sO5IbD8_jsiQKVhFJK8Nj2RD-uSPG0sR_L428rbVGP8NCZfLZas2LTPBMosUZcbRVf3iDxsvV2hzqTOkZ9ns_uXSLtGlBwXnffnQLSggl0cndgvtGlAjkDX9P0-uTL8-FfjNJJV244FUm_meKTXI2mkiB1jCL_4YS1mzmB5pX_FcctyBNF1uNXCrhyO4Vh3bGI5MAs9-YDYUBaAvX2Cg7L.GaWIT7fFDlZakWn36SB3Y7BiFvNBmx8J8KExtyhe-hk
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[default-apache-test-page] Dumped HTTP response https://app.bitpanda.com
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a24beb75a5e-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:27 GMT
+Location: /api/auth/login?callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2F
+Server: cloudflare
+Set-Cookie: _cfuvid=jLNF8QaUPnHeVMI4_nEIBb8ex4xR4NiHL5rcQvK0jSM-1754398167873-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::z9k59-1754398167829-7862cdf1b2ed
+
+Redirecting...
+

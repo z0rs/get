@@ -1,0 +1,354 @@
+[vertigis-detect] Dumped HTTP request for http://techsupport.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response http://techsupport.bitpanda.com/login
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ee77c3a81c7-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:42 GMT
+Expires: Tue, 05 Aug 2025 13:52:42 GMT
+Location: https://techsupport.bitpanda.com/login
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=zw%2BNVuqqC6SpbUGYVl55uZX813e78VmUSEPd%2BfMmxI7YxSofn2PtBhCs59J23m3qi36jvc82qEC0gQ2Q8w4DL%2F%2B%2BXBYDOrA0j9HW%2FCGntZ%2B3nqwtqQt3RcSH7S6rW%2BY6kweG%2FmXHF3mbJQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=cgPW7Zsb5DcV8lmfSWEYINvTA02eViHVgOqvWXvsLFo-1754398362-1.0.1.1-nUb2RnZDUcwumlmV3jXw_UZDLAcZKBUs3IQCgEYYkrmxQWY8YRiu_RkeZm6E4cpN8f27_Ls4Ys6m6BFo0AztVx8.a.YsUSNPqPnefRAZYF0; path=/; expires=Tue, 05-Aug-25 13:22:42 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=G2uHk9DnKq6S09ztZ6cmzSbPSXPPk1cOmUGMUUAbNLI-1754398362816-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[vertigis-detect] Dumped HTTP request for http://techsupport.bitpanda.com/GeoManLogin.aspx
+
+
+GET /GeoManLogin.aspx HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response http://techsupport.bitpanda.com/GeoManLogin.aspx
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ef3ebfe8299-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:44 GMT
+Expires: Tue, 05 Aug 2025 13:52:44 GMT
+Location: https://techsupport.bitpanda.com/GeoManLogin.aspx
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=VrRKo1Ldw%2FNaMNphDJmReUS34Zhf6F%2BSLSjYV5IUfREdGeIqGP0OnEW7aFKbU45KGiX7oO2BakIFwvvESLx%2FMQUKNsC52HowB4AvCVg8odWdQCeyWSO6mWQnKpMIjYn4yKqlJmi5ShNW8A%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=0zyK6NTiZxVZHktaJhC1kmJXNhtJYwL5xqoT4yITW7k-1754398364-1.0.1.1-cL2tPadZ8.ncOsl.XZ.Fhe5ofkupkNzbl7tNbIIvsU0xM9O2kxokgndaeaaRN6MwCRbDiZ7C4A69M.Qp8QC.NBagPWw1Bf5.zzAnmbw79n4; path=/; expires=Tue, 05-Aug-25 13:22:44 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=cMeuIiMhsQJ__gOcMAaigipP2dJlmrnwQ8U8TE91nUw-1754398364811-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[vertigis-detect] Dumped HTTP request for http://techsupport.bitpanda.com/FM/GeoManLogin.aspx
+
+
+GET /FM/GeoManLogin.aspx HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response http://techsupport.bitpanda.com/FM/GeoManLogin.aspx
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f006e560595-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:46 GMT
+Expires: Tue, 05 Aug 2025 13:52:46 GMT
+Location: https://techsupport.bitpanda.com/FM/GeoManLogin.aspx
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=MrcX9kHJP4yCCYve2M7zYhIl7Gm2AkarpFffq7JUysQLcGZvslrQBZWLs1ut6%2Fr8ZNpbV%2BGuP6H7aMX61mc3OCvRLzK9GzBlZW2KisiTznQDQ89Gql6cTPJO9u3yBIi8N3fBbNRSBRZxlg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=EMvETVwd_qqQDwAZ9_0hkuR8gGHilGkSTv4fjejxGv0-1754398366-1.0.1.1-YMBzazagaQ13mLBVwCOUf3fJD3juWc2LHtTp9TVB_Z4jguj69UJ1S2n_9Y9w4MW9UVbd8zlqjLveKBS0ycmY4i3onDuhIjCTmEjoXIAB2MI; path=/; expires=Tue, 05-Aug-25 13:22:46 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=a3R6Sy2TxUcAjkyKoa5nsAA7er57MMpq4f3CzQhDlIM-1754398366828-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[vertigis-detect] Dumped HTTP request for http://techsupport.bitpanda.com/GEBman/GeoManLogin.aspx
+
+
+GET /GEBman/GeoManLogin.aspx HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response http://techsupport.bitpanda.com/GEBman/GeoManLogin.aspx
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f0d0c243b8a-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:48 GMT
+Expires: Tue, 05 Aug 2025 13:52:48 GMT
+Location: https://techsupport.bitpanda.com/GEBman/GeoManLogin.aspx
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=LR%2Fl7nBkIHykUrzimHNre0Y%2FGBvO9Hd%2B9K6WFTY2BUtABYDYykCzdKkMB15uYQXbMDOpc9%2FqSu56Hfsu4oBc6yLv4eWbJD06EvHYvzRRp%2BoIXVqNhhSKlIWmtLWTnu72xlkGWPOl%2FInPVQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=AXhcmpqQFN7xHaBkO52_L1zyunoXH8wwV3B_br48ZfQ-1754398368-1.0.1.1-RLcRI4jWOjKuRwLX.DwKVyXQ.O_gbb_FyVZPm2.gIZfxpJ0kBL7K31XMsLGv1iJ2vdVHnNOQzhMv6Y3rAoBo1PQmdL2ko0bqZnPlEkhSEPM; path=/; expires=Tue, 05-Aug-25 13:22:48 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=JBretNiUsCX2ljPOKLGBr0pXz0p.qKCAvyEaqEXjTyI-1754398368827-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[vertigis-detect] Dumped HTTP request for http://techsupport.bitpanda.com/Geoportal/synserver
+
+
+GET /Geoportal/synserver HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response http://techsupport.bitpanda.com/Geoportal/synserver
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f134b439c19-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:49 GMT
+Expires: Tue, 05 Aug 2025 13:52:49 GMT
+Location: https://techsupport.bitpanda.com/Geoportal/synserver
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=gBZjsg9%2FutnbDuOfc9xiSFieXkCAbnHI3%2F25vIgZMqUg8lRrBS%2BI8IzoyW7wB3tMLJ6s9udUl%2BQLVe0NWW1U2oCLLI%2BApBmkoFIoKdFmof1ykYlftMpoKoZcVr7FEm2%2B%2BbBLOCV8z0HisQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=_IZHjnITomVEYxiL2MPPA5gUK4Prg6k5.b8DiOEX1I0-1754398369-1.0.1.1-nLsTcxGmzQ7BSmXtjaXJp2HRsbXXMhM_KP8fvxlx.C0PJdYvxpYwtYHcBwlTE9hvLaODwHK8io04czblCYeQL7dT4VRbzUeYKVJY26Iwfn0; path=/; expires=Tue, 05-Aug-25 13:22:49 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=CP6kTX.SM0C43HQncGrR1qZ7MnDhwgXdkGgP7lS6VHw-1754398369825-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[vertigis-detect] Dumped HTTP request for http://techsupport.bitpanda.com/vertigisstudio/web/designer/locales/en/translations.json
+
+
+GET /vertigisstudio/web/designer/locales/en/translations.json HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response http://techsupport.bitpanda.com/vertigisstudio/web/designer/locales/en/translations.json
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f198bed081a-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:50 GMT
+Expires: Tue, 05 Aug 2025 13:52:50 GMT
+Location: https://techsupport.bitpanda.com/vertigisstudio/web/designer/locales/en/translations.json
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=k4gJ1UTuZadOpC5GdVKzwBnwD7GGLaQZboLHorvfcxz2KyUgvRlbCD9OoV5dDx91g0U4ApsgjsJirzPGFoSA%2FhFEg8PQb0ZkS%2FKigN9BjYgjrj2HslEsCyOvUS0BrX0ghyxvD3gdvXUZDQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=DziMRj.z7VsxxIlF0ZPTYEt9AgMvzcuvWEa5jwnComI-1754398370-1.0.1.1-LCQXjN2wEoAzx2y1vPIzE8H.ABS63MhjF_8qnTW2D2QdVOFG.lSY_eI9R6aRT85.K7QuCa_1S4qWbEwiYWWZvYU4iMELqMENc1.pyX3o1qs; path=/; expires=Tue, 05-Aug-25 13:22:50 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=N9Az2Mwb2jUpkAt5b6uXwQi3VG1243BpNFWdQdtKKJw-1754398370843-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[vertigis-detect] Dumped HTTP request for http://techsupport.bitpanda.com/vertigisstudio/search/designer/locales/en/translations.json
+
+
+GET /vertigisstudio/search/designer/locales/en/translations.json HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: __cf_bm=y97ttWQQo3xpIzmOk3.9A8mpdojHXJA0uQeTpFndl2c-1754398370-1.0.1.1-_36yuAcQ8VKEJOiGrCL_N87zbSMWXlFPfeMsuqyl6uno31aHvWQxecRXOIQmFv_c3RPcCCfYBsiDWwuuYy0J.TxPM48adnVhL9Yl0Xhw1qA; _cfuvid=_SO3TOd8T8UdFKAaPNznGdvAmXmJ05CdY3q_ELJipvU-1754398370847-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response http://techsupport.bitpanda.com/vertigisstudio/search/designer/locales/en/translations.json
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f1fcab9ae7d-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:51 GMT
+Expires: Tue, 05 Aug 2025 13:52:51 GMT
+Location: https://techsupport.bitpanda.com/vertigisstudio/search/designer/locales/en/translations.json
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=x4WRKMRk5OHQ%2BRttx9IuB3fWvj452Y6dXiJYXPY2SNuB%2FzVL1x9XejDIAy7%2BmFwHhq1Ml4l0ppgm4%2Bw%2FAIAhUfx3Zyt30ufe2i%2FnTU9iSI%2ByFbc4gpIhMO5L8he0HsG6O0zn5T92Nm3g%2Bg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=muYYEmN19vCiBcgyVUjTS3tex3yhWPRQ0X_qcpfwTGg-1754398371-1.0.1.1-HPBH8nfoMGL2hDGKD8I_o5XalTG1atT.DlRXTJc9Ppjx1T5iGtjwJxHxOSkg9SJ2ik6J7hSc5QCzQEI.QblFFlM5Swi4qdXC224dUJ4b9u8; path=/; expires=Tue, 05-Aug-25 13:22:51 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=DJgX0KqrI5gBh6fgLs_d9nYRpVz1tF9FnMlpIJ.RE2A-1754398371812-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[vertigis-detect] Dumped HTTP request for http://techsupport.bitpanda.com/vertigisstudio/mobile/designer/locales/en/translations.json
+
+
+GET /vertigisstudio/mobile/designer/locales/en/translations.json HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: __cf_bm=J9tDkTlZlfAG_OpJeKhxoK9xaOe1qjq26CqvzFWC56o-1754398371-1.0.1.1-pWKxo3mOTFs_ouHyERycRWIBlZky5IikfBmFDA65lD8lQoHN5WER4T18dspkuO9mf0rT49iz3WiJndP6WWvJeDeR14AA0XW2Ut8wEDLSrwg; _cfuvid=UG1KWWJ0krCEsZjuF3kaE3nOCNDbdQb7uyt8iwxCFSA-1754398371825-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response http://techsupport.bitpanda.com/vertigisstudio/mobile/designer/locales/en/translations.json
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f25efee9c3d-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:52 GMT
+Expires: Tue, 05 Aug 2025 13:52:52 GMT
+Location: https://techsupport.bitpanda.com/vertigisstudio/mobile/designer/locales/en/translations.json
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=WMqMeVT7FCcw7GErrS2q9XtLr38bYMZZnhlcFY%2Bh0BoxdoSX3jH%2Ft%2FGGl1Gi%2FSmpdakVCCjh8EcNhcvRZb81S4LBlgKui%2FK5qr6FDOdzxgq3ac8HvygqwpBeMm3TbvgpGgJS5LpLdYW2uA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=91Dh5Hlhva0Ye8yDrHcYYCof_nG2McvhMrCbn63hN54-1754398372-1.0.1.1-OVeOJO0vuha4UY2_f46LeByXFDlUQma0RqkuQdFyqPjnzEgvgv.ltKveK62TI4SPlmEGGLNrf6ycFjrey7RV_Km.iA5XgjNb3ZvQvebnqpQ; path=/; expires=Tue, 05-Aug-25 13:22:52 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=A4HinASUy4zZ8nEZMN9vO7beHSzAgZHXIFqHyJycDHM-1754398372816-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[vertigis-detect] Dumped HTTP request for http://techsupport.bitpanda.com/vertigisstudio/accesscontrol/locales/en/translations.json
+
+
+GET /vertigisstudio/accesscontrol/locales/en/translations.json HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: __cf_bm=cMerFHYATu21CjWiSuL84opPXlp85NAZPVjzXOLuVfI-1754398372-1.0.1.1-UtCSNzr30TT3_6Gp7_eR_hfTGKvSX6a8VjKLnTwlXnDQOq9DBxvzIokkrCMB76HZVTefJUbN12xmtZdRI48jzpWbiMPcKvkuN_B5VtbEIos; _cfuvid=ppja7MknacSg9ES5XKXnGeQbFwkrGGRLFSjVaiNqfyU-1754398372829-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response http://techsupport.bitpanda.com/vertigisstudio/accesscontrol/locales/en/translations.json
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f2c4d9cf3ed-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:53 GMT
+Expires: Tue, 05 Aug 2025 13:52:53 GMT
+Location: https://techsupport.bitpanda.com/vertigisstudio/accesscontrol/locales/en/translations.json
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=3UJKZpTHG9r8OvzrCQtiKqMmO5FFPiqoYDJ3EhyouJYelZib4DshU7Q3buYcqP9IC0Aeduxi51UHBO1tPlqQ8I%2BCmFSVrmb7z5zkO00i4TuTW32x0sFKedXvinNG0pDQf3whM%2FYnJp5TaA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=r1a2cbsd0qGDf_UhiqL4YlApoZGEYJGhAY0HwHiMcFY-1754398373-1.0.1.1-mVGAUu1CGXGVC3sjHKn2CwABI03ZvUv07Ex.xAB9e8lBNN45XQgfgdlDszL8O1BJ9hVmaffrRVSv7S39JxLWn3IHOfOgQvhDLsi297nSGBg; path=/; expires=Tue, 05-Aug-25 13:22:53 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=q5GtQ.UNb9ukcyQ28KF6GhrXrTgg1OZ04HzKQu2Ecps-1754398373816-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

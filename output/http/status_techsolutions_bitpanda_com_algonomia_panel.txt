@@ -1,0 +1,35 @@
+[algonomia-panel] Dumped HTTP request for https://status.techsolutions.bitpanda.com/assets/i18n/en.json
+
+
+GET /assets/i18n/en.json HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh, Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.10 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[algonomia-panel] Dumped HTTP response https://status.techsolutions.bitpanda.com/assets/i18n/en.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 40618446-2c85-42e8-9d16-ba29e52f1280
+Atl-Traceid: 406184462c8542e89d16ba29e52f1280
+Date: Tue, 05 Aug 2025 12:52:10 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=3,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 c37f72766931ae9c3f146ffa54018d1c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Lg3Zls6jnlJd_5ca5lSonaGKG5_ZsH39zpqLZXxJ7QlMuhEyAAH-bA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 751880967
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

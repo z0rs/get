@@ -1,0 +1,30 @@
+[cluster-d7106068dc1921394e0af9d72c6a66f9ebb4f25a2aacd5d00e485d676041c7a2] Dumped HTTP request for http://akurateco.bitpanda.com/signin
+
+
+GET /signin HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0.1 Mobile/15E148 Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-d7106068dc1921394e0af9d72c6a66f9ebb4f25a2aacd5d00e485d676041c7a2] Dumped HTTP response http://akurateco.bitpanda.com/signin
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:07 GMT
+Location: https://akurateco.bitpanda.com/signin
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

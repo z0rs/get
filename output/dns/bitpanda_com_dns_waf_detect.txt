@@ -1,0 +1,84 @@
+[dns-waf-detect] Dumped DNS request for bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 63445
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 CNAME
+
+[dns-waf-detect] Dumped DNS request for bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 41419
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 NS
+
+[dns-waf-detect] Dumped DNS response for bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 41419
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 1232
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 NS
+
+;; ANSWER SECTION:
+bitpanda.com.	86400	IN	NS	jake.[32mn[0m[32ms[0m[32m.[0m[32mc[0m[32ml[0m[32mo[0m[32mu[0m[32md[0m[32mf[0m[32ml[0m[32ma[0m[32mr[0m[32me[0m[32m.[0m[32mc[0m[32mo[0m[32mm[0m.
+bitpanda.com.	86400	IN	NS	marge.[32mn[0m[32ms[0m[32m.[0m[32mc[0m[32ml[0m[32mo[0m[32mu[0m[32md[0m[32mf[0m[32ml[0m[32ma[0m[32mr[0m[32me[0m[32m.[0m[32mc[0m[32mo[0m[32mm[0m.
+
+[dns-waf-detect] Dumped DNS request for bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 1289
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 CNAME
+
+[dns-waf-detect] Dumped DNS response for bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 1289
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 512
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 CNAME
+
+;; AUTHORITY SECTION:
+bitpanda.com.	1800	IN	SOA	jake.ns.cloudflare.com. dns.cloudflare.com. 2379628093 10000 2400 604800 1800
+
+[dns-waf-detect] Dumped DNS request for bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 44301
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 NS
+
+[dns-waf-detect] Dumped DNS response for bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 44301
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 512
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 NS
+
+;; ANSWER SECTION:
+bitpanda.com.	21600	IN	NS	jake.[32mn[0m[32ms[0m[32m.[0m[32mc[0m[32ml[0m[32mo[0m[32mu[0m[32md[0m[32mf[0m[32ml[0m[32ma[0m[32mr[0m[32me[0m[32m.[0m[32mc[0m[32mo[0m[32mm[0m.
+bitpanda.com.	21600	IN	NS	marge.[32mn[0m[32ms[0m[32m.[0m[32mc[0m[32ml[0m[32mo[0m[32mu[0m[32md[0m[32mf[0m[32ml[0m[32ma[0m[32mr[0m[32me[0m[32m.[0m[32mc[0m[32mo[0m[32mm[0m.
+

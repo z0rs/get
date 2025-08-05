@@ -1,0 +1,29 @@
+[basic-auth-detect] Dumped HTTP request for https://api-segment.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh, Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=zSn8k_F3czKC66jcidWJ1yAe5xkU7gOtPAY25nJksEk-1754398169348-0.0.1.1-604800000; _cfuvid=NolaDxYy1XhtNB1qXhgGNLpIPLLTLQ_3tjsww0Q7zI0-1754398170373-0.0.1.1-604800000; _cfuvid=AFwMBCGY.5e7hClf9n8Yx1_d9K6WrzJdh5v6HXBk2pI-1754398171973-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[basic-auth-detect] Dumped HTTP response https://api-segment.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a440b98a5a9-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:32 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=4p26jAteg0lkK1TyA2wo5fpHNV0ngaz9LIVLfhRBAUc-1754398172905-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

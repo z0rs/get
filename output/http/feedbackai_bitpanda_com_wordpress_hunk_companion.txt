@@ -1,0 +1,37 @@
+[wordpress-hunk-companion] Dumped HTTP request for http://feedbackai.bitpanda.com/wp-content/plugins/hunk-companion/readme.txt
+
+
+GET /wp-content/plugins/hunk-companion/readme.txt HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14.5) AppleWebKit/618.3.5 (KHTML, like Gecko) Version/17.4 Safari/618.3.5
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=QyptmTC4Hq_Ewe.MV2H7sWw8sTJK_j0o20p5qtTjLog-1754398442592-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-hunk-companion] Dumped HTTP response http://feedbackai.bitpanda.com/wp-content/plugins/hunk-companion/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670e0990ce635-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:03 GMT
+Expires: Tue, 05 Aug 2025 13:54:03 GMT
+Location: https://feedbackai.bitpanda.com/wp-content/plugins/hunk-companion/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=npXv1Barg2wLGTI7uEkSy_stmxDPoA.MKItNlNHbsTc-1754398443631-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

@@ -1,0 +1,38 @@
+[xds-amr-status] Dumped HTTP request for http://localization.webhooks.bitpanda.com/login.php
+
+
+GET /login.php HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=UuLayEb_KlDAjgfqlMi3czyqFm4Hm9VMtwBfjt_ykc4-1754398338826-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[xds-amr-status] Dumped HTTP response http://localization.webhooks.bitpanda.com/login.php
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66e57ae76e5f9-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:19 GMT
+Expires: Tue, 05 Aug 2025 13:52:19 GMT
+Location: https://localization.webhooks.bitpanda.com/login.php
+Server: cloudflare
+Set-Cookie: _cfuvid=1ku0FgTpOMm8eNMGnK6ZELlgrgITTTzAvKyLHE5zV2w-1754398339836-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

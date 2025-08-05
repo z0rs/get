@@ -1,0 +1,76 @@
+[mitel-micollab-panel] Dumped HTTP request for https://socket.bitpanda.com/wd/en-us/wapplink.asp
+
+
+GET /wd/en-us/wapplink.asp HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=Q9sbjXsjogLIq3Kv4nrI2TIOlc3VKfbo9Bl7Tayddag8EMsUt3w82pCorj4bd4G0QeP5pUEYbvwO2D2nqAFUzKRXdfp8d3q1S1zuBZg07jy7ndn+9Gewmepi5bWg; AWSALBCORS=Q9sbjXsjogLIq3Kv4nrI2TIOlc3VKfbo9Bl7Tayddag8EMsUt3w82pCorj4bd4G0QeP5pUEYbvwO2D2nqAFUzKRXdfp8d3q1S1zuBZg07jy7ndn+9Gewmepi5bWg
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[mitel-micollab-panel] Dumped HTTP response https://socket.bitpanda.com/wd/en-us/wapplink.asp
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:16 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=iTqPywl0mUBqvsmbreVNESvDSFQzBp6jQ/p+faaOThvcZthG5aBN8SHjGGQRpgi9K0jhYT1ryc1fA1MQu9dqpCZju5uMq+oRx4afAr76248fZ228pZtQ+XagFufB; Expires=Tue, 12 Aug 2025 12:52:16 GMT; Path=/
+Set-Cookie: AWSALBCORS=iTqPywl0mUBqvsmbreVNESvDSFQzBp6jQ/p+faaOThvcZthG5aBN8SHjGGQRpgi9K0jhYT1ryc1fA1MQu9dqpCZju5uMq+oRx4afAr76248fZ228pZtQ+XagFufB; Expires=Tue, 12 Aug 2025 12:52:16 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 1fecb697c6f121d7ce54a35628ac154e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: DlfANlTjknqHkUcAIcDphc_E75pZcfz39tDaE2cTGtHWax6Ubci6og==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 2
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[mitel-micollab-panel] Dumped HTTP request for https://socket.bitpanda.com/portal/
+
+
+GET /portal/ HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=9oQKxhudDQK2tQiV4BxfJLsjHXBmhKuRNG37OBgKINYhqBq+KgHVGhMHWoCLFlv9vMLwuQgPYA9EXBHjisUJkINxEb3VXhrI+q3DL98dGxyso//tp1dQ05AobHSk; AWSALBCORS=9oQKxhudDQK2tQiV4BxfJLsjHXBmhKuRNG37OBgKINYhqBq+KgHVGhMHWoCLFlv9vMLwuQgPYA9EXBHjisUJkINxEb3VXhrI+q3DL98dGxyso//tp1dQ05AobHSk
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[mitel-micollab-panel] Dumped HTTP response https://socket.bitpanda.com/portal/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:19 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=Fdm08TO3hB7Y2vIGDryBsujfVQwwkmUnpKXkr687z5gKAzerI17pZYUgF5dzmzUtUVxWNDO++iGkFPufyeC9wNlPdO6Iro2MtYEO8C2499smYwyxLMJbcrkkpE+X; Expires=Tue, 12 Aug 2025 12:52:19 GMT; Path=/
+Set-Cookie: AWSALBCORS=Fdm08TO3hB7Y2vIGDryBsujfVQwwkmUnpKXkr687z5gKAzerI17pZYUgF5dzmzUtUVxWNDO++iGkFPufyeC9wNlPdO6Iro2MtYEO8C2499smYwyxLMJbcrkkpE+X; Expires=Tue, 12 Aug 2025 12:52:19 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 aa77c72923f68604fa8f6f77bfdaa2dc.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: oE9mVnbYsFcxQB5klnv7uR48ta4QClhASI61GvJ9roHwFNhctvx9gg==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 5
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

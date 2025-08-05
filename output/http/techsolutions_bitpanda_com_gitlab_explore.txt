@@ -1,0 +1,52 @@
+[gitlab-explore] Dumped HTTP request for https://techsolutions.bitpanda.com/explore
+
+
+GET /explore HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[gitlab-explore] Dumped HTTP response https://techsolutions.bitpanda.com/explore
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:19 GMT
+Location: ./explore/
+Via: 1.1 5087d38c8ed37f537ec0c78e2aeecec8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: TP8n10K_gPd5RkT8fQmbzdh_MKfyF9vUMMAmIohmyPpcptmIeP28LQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[gitlab-explore] Dumped HTTP request for https://techsolutions.bitpanda.com/api/v4/projects
+
+
+GET /api/v4/projects HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[gitlab-explore] Dumped HTTP response https://techsolutions.bitpanda.com/api/v4/projects
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:22 GMT
+Location: ./projects/
+Via: 1.1 46ac2c9f87eca5473c2cb27cfe0168a4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Ao1RMbl10yuqgDBvt81y8_WLFJOq8CPCpvs1tx3TUi57n-mTZFJMog==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

@@ -1,0 +1,36 @@
+[cobbler-version] Dumped HTTP request for https://api-segment.bitpanda.com/cobbler_api
+
+
+POST /cobbler_api HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0
+Connection: close
+Content-Length: 114
+Accept: */*
+Accept-Language: en
+Content-Type: text/xml
+Cookie: _cfuvid=NolaDxYy1XhtNB1qXhgGNLpIPLLTLQ_3tjsww0Q7zI0-1754398170373-0.0.1.1-604800000; _cfuvid=jOtf4LNebtCwIj2kfZw2YArLyV234Ig5NwJj1PKZSGY-1754398171079-0.0.1.1-604800000; _cfuvid=ZQCByHfERZBfHwXZ06G41wmCEklQ.YlIFvCSMWzGhL4-1754398173071-0.0.1.1-604800000; _cfuvid=st5eQwNc3nYhR8XawQ27XMDJGe23EZK0i3Lx_EkiNFU-1754398177091-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+<?xml version='1.0'?>
+<methodCall>
+<methodName>extended_version</methodName>
+<params></params>
+</methodCall>
+
+[cobbler-version] Dumped HTTP response https://api-segment.bitpanda.com/cobbler_api
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 0
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a635b53c97c-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:37 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=L.Of4oAX6D3JGjcot1Yxd3cYgVKj6B4JKPr8vyswkVg-1754398177915-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+
+

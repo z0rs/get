@@ -1,0 +1,50 @@
+[fortiauthenticator-detect] Dumped HTTP request for http://cdn.bitpanda.com/api/v1
+
+
+GET /api/v1 HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/123.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=JrpMD3auRS0aQw6liNbLWwODmOhUtFH3hGY39W8j2bI-1754398144828-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[fortiauthenticator-detect] Dumped HTTP response http://cdn.bitpanda.com/api/v1
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6699b79a96529-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:06 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 16f689172b396b7e266a396b6b5d6754.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: WAMdDp0uclU8_Ec4hyMukP-qqN_DqZiznGQ2t02qARtTciJta6nDGQ==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[fortiauthenticator-detect] Dumped HTTP response http://cdn.bitpanda.com/api/v1
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6699b2fd5d6a7-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:05 GMT
+Expires: Tue, 05 Aug 2025 13:49:05 GMT
+Location: https://cdn.bitpanda.com/api/v1
+Server: cloudflare
+Set-Cookie: _cfuvid=ZqPlrUQ8_BJ8jxiTngEfPTsLzL8I4I0g5EWKQjO5ukY-1754398145809-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

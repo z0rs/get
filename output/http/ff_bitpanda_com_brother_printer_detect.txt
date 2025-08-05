@@ -1,0 +1,38 @@
+[brother-printer-detect] Dumped HTTP request for http://ff.bitpanda.com/general/status.html
+
+
+GET /general/status.html HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/111.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=b6ej7iBBmbjKmLwR5HB6ET9RUZOdnWxj2zp5xSmfTZc-1754398383873-0.0.1.1-604800000; _cfuvid=XCLepd3SlWqfV6dNUUL566mnaHGkX2DKqnJh09Lb.ZU-1754398399604-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[brother-printer-detect] Dumped HTTP response http://ff.bitpanda.com/general/status.html
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67000acf0df73-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:27 GMT
+Expires: Tue, 05 Aug 2025 13:53:27 GMT
+Location: https://ff.bitpanda.com/general/status.html
+Server: cloudflare
+Set-Cookie: _cfuvid=_R2ZdkkJl0Dw96bF0hGs9AMIJJubQcrzRZLh9DqFkN0-1754398407843-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

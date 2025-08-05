@@ -1,0 +1,53 @@
+[php-proxy-detect] Dumped HTTP request for https://bitpanda.com
+
+
+GET / HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=JGeeojhF0yQzctDMINKGmGEUxsaLFpdyBdZg736YgIQ-1754398300825-0.0.1.1-604800000; _cfuvid=xESTiBCr8YkJNcioge.vcp1LcFphe9yk9kHNveO3gC0-1754398317822-0.0.1.1-604800000; _cfuvid=a3fEBxu2F8g_KkpxEpEFwUQYgVd2kmeHxEAtU.aWeiU-1754398330029-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[php-proxy-detect] Dumped HTTP request for https://bitpanda.com/proxy
+
+
+GET /proxy HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/118.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=TCm6oghk6RKCOlP_DYIDKODhmu7CWlQ7FAN4mfnQljw-1754398348883-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[php-proxy-detect] Dumped HTTP response https://bitpanda.com/proxy
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66e9648510827-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:29 GMT
+Expires: Tue, 05 Aug 2025 13:52:29 GMT
+Location: https://www.bitpanda.com/proxy
+Server: cloudflare
+Set-Cookie: _cfuvid=UQbpn_WrT3PPkDEap6JGsQCh75tcHZ4IKey74tAr6sY-1754398349869-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

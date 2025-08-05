@@ -1,0 +1,26 @@
+[springboot-actuator] Dumped HTTP request for https://newsletter.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: newsletter.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[springboot-actuator] Dumped HTTP request for https://newsletter.bitpanda.com/actuator
+
+
+GET /actuator HTTP/1.1
+Host: newsletter.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

@@ -1,0 +1,16 @@
+[graphql-dianajl-detect] Dumped HTTP request for http://ff.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/123.0 Safari/537.36
+Connection: close
+Content-Length: 33
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=c7npXjkMxosr_UcWVFVaDNEYOkkg0zf.mUgZbq26ze8-1754398416047-0.0.1.1-604800000; GCLB="7f5b5862933c6b68"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"queryy { __typename }"}

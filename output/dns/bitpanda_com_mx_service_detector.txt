@@ -1,0 +1,28 @@
+[mx-service-detector] Dumped DNS request for bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 24932
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 MX
+
+[mx-service-detector] Dumped DNS response for bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 24932
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 512
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 MX
+
+;; ANSWER SECTION:
+bitpanda.com.	300	IN	MX	5 [32ma[0m[32ml[0m[32mt[0m[32m1[0m[32m.[0m[32ma[0m[32ms[0m[32mp[0m[32mm[0m[32mx[0m[32m.[0m[32ml[0m[32m.[0m[32mg[0m[32mo[0m[32mo[0m[32mg[0m[32ml[0m[32me[0m[32m.[0m[32mc[0m[32mo[0m[32mm[0m.
+bitpanda.com.	300	IN	MX	10 alt4.aspmx.l.google.com.
+bitpanda.com.	300	IN	MX	5 alt2.aspmx.l.google.com.
+bitpanda.com.	300	IN	MX	1 aspmx.l.google.com.
+bitpanda.com.	300	IN	MX	10 alt3.aspmx.l.google.com.
+

@@ -1,0 +1,90 @@
+[outsystems-servicecenter-panel] Dumped HTTP request for http://affiliates.bitpanda.com/Login.aspx
+
+
+GET /Login.aspx HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=iibg3OBkT.7FpCaYMNsWLVODSYobh_WxFc2NYZr9Z1Y-1754398153869-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[outsystems-servicecenter-panel] Dumped HTTP response http://affiliates.bitpanda.com/Login.aspx
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669d3bea76fdf-IAD
+Date: Tue, 05 Aug 2025 12:49:14 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=hK8PVfyR_VZWwm3.xMweqFoBk.VWeCjJ2cW.fJD3RGA-1754398154996-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[outsystems-servicecenter-panel] Dumped HTTP response http://affiliates.bitpanda.com/Login.aspx
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669d37dab1e81-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:14 GMT
+Expires: Tue, 05 Aug 2025 13:49:14 GMT
+Location: https://affiliates.bitpanda.com/Login.aspx
+Server: cloudflare
+Set-Cookie: _cfuvid=OMR4fgx64C4hQIpNkY5tQfE4rsDZ9Q2Xn6irOYgkAdo-1754398154814-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[outsystems-servicecenter-panel] Dumped HTTP request for http://affiliates.bitpanda.com/ServiceCenter/Login.aspx
+
+
+GET /ServiceCenter/Login.aspx HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[outsystems-servicecenter-panel] Dumped HTTP response http://affiliates.bitpanda.com/ServiceCenter/Login.aspx
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669f94d356589-IAD
+Date: Tue, 05 Aug 2025 12:49:20 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[outsystems-servicecenter-panel] Dumped HTTP response http://affiliates.bitpanda.com/ServiceCenter/Login.aspx
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669f90b95f27e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:20 GMT
+Expires: Tue, 05 Aug 2025 13:49:20 GMT
+Location: https://affiliates.bitpanda.com/ServiceCenter/Login.aspx
+Server: cloudflare
+Set-Cookie: _cfuvid=.uBDDWK22YC8Csl6idQiCqwKTVy5faFP2uDICMVoIKI-1754398160823-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

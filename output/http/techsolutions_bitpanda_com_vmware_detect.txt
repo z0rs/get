@@ -1,0 +1,34 @@
+[vmware-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/sdk/
+
+
+POST /sdk/ HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0
+Connection: close
+Content-Length: 538
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soap:Header>
+      <operationID>00000001-00000001</operationID>
+   </soap:Header>
+   <soap:Body>
+      <RetrieveServiceContent xmlns="urn:internalvim25">
+         <_this xsi:type="ManagedObjectReference" type="ServiceInstance">ServiceInstance</_this>
+      </RetrieveServiceContent>
+   </soap:Body>
+</soap:Envelope>
+[vmware-detect] Dumped HTTP response https://techsolutions.bitpanda.com/sdk/
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 11
+Date: Tue, 05 Aug 2025 12:52:48 GMT
+Via: 1.1 5bab46d8af126fb7ca14b6d331ff182a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: vpQ2ksbsn4WsBuJaj0U2N-asyUpyJvf4FnELXMgcGnjCVcrBgfsQWQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Bad Request

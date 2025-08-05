@@ -1,0 +1,114 @@
+[checkmarx-panel-detect] Dumped HTTP request for http://cdn.bitpanda.com/cxrestapi/help/system/version
+
+
+GET /cxrestapi/help/system/version HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 6.2; rv:137.0) Gecko/20100101 Firefox/137.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=tlELLouwAdT60uN4GxTCiJznlpx5cDTIUg3Qxs_a_ig-1754398136882-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[checkmarx-panel-detect] Dumped HTTP response http://cdn.bitpanda.com/cxrestapi/help/system/version
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669694a9df270-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:48:57 GMT
+Expires: Tue, 05 Aug 2025 13:48:57 GMT
+Location: https://cdn.bitpanda.com/cxrestapi/help/system/version
+Server: cloudflare
+Set-Cookie: _cfuvid=tTBkArVUTJt_qgkvYjVNdJZAl63LdtAPMzXc6ask4uQ-1754398137830-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[checkmarx-panel-detect] Dumped HTTP request for http://cdn.bitpanda.com/cxwebclient/Login.aspx
+
+
+GET /cxwebclient/Login.aspx HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 12.4) AppleWebKit/619.11 (KHTML, like Gecko) Version/17.3.56 Safari/619.11
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=JrpMD3auRS0aQw6liNbLWwODmOhUtFH3hGY39W8j2bI-1754398144828-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[checkmarx-panel-detect] Dumped HTTP response http://cdn.bitpanda.com/cxwebclient/Login.aspx
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6699b2bb0d63c-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:05 GMT
+Expires: Tue, 05 Aug 2025 13:49:05 GMT
+Location: https://cdn.bitpanda.com/cxwebclient/Login.aspx
+Server: cloudflare
+Set-Cookie: _cfuvid=GnmdhFATnklMgg9jX2RhujxMIvPoxycjvYqIPjL1qjw-1754398145808-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[checkmarx-panel-detect] Dumped HTTP request for http://cdn.bitpanda.com/cxrestapi/auth/identity/.well-known/openid-configuration
+
+
+GET /cxrestapi/auth/identity/.well-known/openid-configuration HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Mv74FQCy4t2BTC8sMXcLsDOyC0GhKG8pYfmuXJqyqtw-1754398146911-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[checkmarx-panel-detect] Dumped HTTP response http://cdn.bitpanda.com/cxrestapi/auth/identity/.well-known/openid-configuration
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669cd49e83ec9-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:13 GMT
+Expires: Tue, 05 Aug 2025 13:49:13 GMT
+Location: https://cdn.bitpanda.com/cxrestapi/auth/identity/.well-known/openid-configuration
+Server: cloudflare
+Set-Cookie: _cfuvid=z1TUWLqu6DvqJTzZu.gpN7XD8fgKR.8LSelmLK5aEuA-1754398153820-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

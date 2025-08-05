@@ -1,0 +1,38 @@
+[cluster-66a9d0b68e6f3a1c3172a9bebd16cd1844d789183088dcfc56b8ed460e59225c] Dumped HTTP request for http://localization.webhooks.bitpanda.com/
+
+
+GET / HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=JNWrOLY_jBHjYWERDGJDtj_vJ18kbF2ORWeiPZ.jSGs-1754398291198-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-66a9d0b68e6f3a1c3172a9bebd16cd1844d789183088dcfc56b8ed460e59225c] Dumped HTTP response http://localization.webhooks.bitpanda.com/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66d2bad598015-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:51:31 GMT
+Expires: Tue, 05 Aug 2025 13:51:31 GMT
+Location: https://localization.webhooks.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=3YhROcBB7j0C.UOosucSzv825za.HT7YaIBw6QBygAY-1754398291827-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

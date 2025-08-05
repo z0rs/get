@@ -1,0 +1,34 @@
+[edgeos-login] Dumped HTTP request for https://sbcdn.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: sbcdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[edgeos-login] Dumped HTTP response https://sbcdn.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: MISS
+Cf-Ray: 96a66de74b43f90b-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:52:01 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=TxKV_co8bkiai0HCLCF8J6reOtKULu52mBMGAywk.uc-1754398321876-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 077b94dab77b8114aebf503be197d7d8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 3fvYGjyyIZw_9_U5gmSrqCGufS_s6jVx5Jhxy86cNzwj9BgtZ3VgJQ==
+X-Amz-Cf-Pop: IAD89-C3
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>BJRMVP49N0JFCQGD</RequestId><HostId>6ufFHOri01CFjbOV+LgrQgv60XFZneQpao+RXhLEjBE1fPKazt67LBdaLgFVkz53shjpASAIjBQ=</HostId></Error>

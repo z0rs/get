@@ -1,0 +1,56 @@
+[axxon-client-panel] Dumped HTTP request for https://advanced.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: advanced.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686; rv:123.0) Gecko/20100101 Firefox/123.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[axxon-client-panel] Dumped HTTP response https://advanced.bitpanda.com
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 807
+Accept-Ranges: bytes
+Alt-Svc: clear
+Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate
+Content-Security-Policy: default-src 'self'; base-uri 'self'; script-src 'self' 'unsafe-inline' https: *.talos.com sentry.io widget.intercom.io js.intercomcdn.com; style-src 'self' 'unsafe-inline' https: fonts.googleapis.com; style-src-elem 'self' 'unsafe-inline' https: fonts.googleapis.com; img-src 'self' data: storage.googleapis.com blob: advanced.bitpanda.com fusion.bitpanda.com fusion.institutional.bitpanda.com cdnjs.cloudflare.com/ajax/libs/twemoji/; font-src 'self' data: fonts.googleapis.com fonts.gstatic.com; frame-src 'self' blob: *.talostrading.com *.talos.com advanced.bitpanda.com fusion.bitpanda.com fusion.institutional.bitpanda.com; worker-src 'self' blob:; connect-src wss: sentry.io *.sentry.io *.datadoghq.com browser-intake-datadoghq.com *.browser-intake-datadoghq.com *.intercom.io *.mixpanel.com cdnjs.cloudflare.com/ajax/libs/twemoji/ advanced.bitpanda.com fusion.bitpanda.com fusion.institutional.bitpanda.com
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:48:51 GMT
+Etag: "688232f4-327"
+Expires: 0
+Last-Modified: Thu, 24 Jul 2025 13:19:48 GMT
+Pragma: no-cache
+Server: nginx/1.29.0
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 google
+X-Cache: miss
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+<!-- 2.52.9 (6e00f8c9d4) -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link id="favicon" rel="icon" type="image/svg+xml" href="/spinner.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link id="themeFont" rel="stylesheet">
+    <script type="module" crossorigin src="/static/js/index-ZA7f41TQ.js"></script>
+    <link rel="modulepreload" crossorigin href="/static/js/vendor-D0jj-em6.js">
+    <link rel="stylesheet" crossorigin href="/static/css/index-BFIoNb_P.css">
+  </head>
+  <noscript> You need to enable JavaScript to run this app. </noscript>
+  <div id="root"></div>
+  </body>
+</html>
+

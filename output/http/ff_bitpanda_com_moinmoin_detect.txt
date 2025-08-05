@@ -1,0 +1,38 @@
+[moinmoin-detect] Dumped HTTP request for http://ff.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.168 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=zotSAMo5pNePbp4ezbdD7MNwzhLJpZ7RXY_0EjztxWM-1754398430894-0.0.1.1-604800000; GCLB="8963b805f8acc765"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[moinmoin-detect] Dumped HTTP response http://ff.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670b13847c5e9-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:56 GMT
+Expires: Tue, 05 Aug 2025 13:53:56 GMT
+Location: https://ff.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=8CfLj0a4STdI1odDnMluWMSG69wNigLxU11B4K8wCFE-1754398436056-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

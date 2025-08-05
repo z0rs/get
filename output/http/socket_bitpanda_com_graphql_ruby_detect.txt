@@ -1,0 +1,160 @@
+[graphql-ruby-detect] Dumped HTTP request for https://socket.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 36
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: AWSALB=JmPmmIvlTZj9VJ+2kxr2L0v5a8rUIkX8u/vlNCm7P1v1G865Bpm5TBp9984wiLJ7mBwCHoaFIWf7d2Mer1nEQ0uaPpvrPsDIBT70Z0lkorv3rExKYYfKP5R/+ij9; AWSALBCORS=JmPmmIvlTZj9VJ+2kxr2L0v5a8rUIkX8u/vlNCm7P1v1G865Bpm5TBp9984wiLJ7mBwCHoaFIWf7d2Mer1nEQ0uaPpvrPsDIBT70Z0lkorv3rExKYYfKP5R/+ij9
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query @skip {__typename}"}
+[graphql-ruby-detect] Dumped HTTP response https://socket.bitpanda.com/graphql
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:29 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=EhKTew1LR0Szla1YDTwETW4oythCvKLlpWfCFQrQ/ube/QGG8EghvU4USSX+WkOFgAbBNSUuCcBXpWkP46L0gURFR7KRxsacP/I4l9Tf97d9F6cTpJ9mndy8dQHO; Expires=Tue, 12 Aug 2025 12:52:29 GMT; Path=/
+Set-Cookie: AWSALBCORS=EhKTew1LR0Szla1YDTwETW4oythCvKLlpWfCFQrQ/ube/QGG8EghvU4USSX+WkOFgAbBNSUuCcBXpWkP46L0gURFR7KRxsacP/I4l9Tf97d9F6cTpJ9mndy8dQHO; Expires=Tue, 12 Aug 2025 12:52:29 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 a1b25b0d3d9a8dc90e047cb69c24f48c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: vAmr9AQCoCAf9pig8bYoYrbYfoik52EuCH4Sk52SKRLCBD3A1NWqEw==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 2
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[graphql-ruby-detect] Dumped HTTP request for https://socket.bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 36
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: AWSALB=VJyJtAc+4/Fu99yDzsS025Jdj/fbKVErXEdJwAX+gJ8+vMo9AaW+zf9kFcgrpPfpmhrV54TZJTFSn8FO0/14MIwbuTecyaCEaspV4V1z0U0gI8UkwdLxLkxTALFH; AWSALBCORS=VJyJtAc+4/Fu99yDzsS025Jdj/fbKVErXEdJwAX+gJ8+vMo9AaW+zf9kFcgrpPfpmhrV54TZJTFSn8FO0/14MIwbuTecyaCEaspV4V1z0U0gI8UkwdLxLkxTALFH
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query @skip {__typename}"}
+[graphql-ruby-detect] Dumped HTTP response https://socket.bitpanda.com/api/graphql
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:32 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=6cT7xJbPAO+4EehL94Yn93Fb9AwrW7auqRVOPRWiYvZ2QjpzZy0laSCvXyohC7ympsYfPGoST2f5QxqhnrC0DeOZ9BSRFo2R4B4ID2QuZFI3bEZwCeaj+oulLR/8; Expires=Tue, 12 Aug 2025 12:52:32 GMT; Path=/
+Set-Cookie: AWSALBCORS=6cT7xJbPAO+4EehL94Yn93Fb9AwrW7auqRVOPRWiYvZ2QjpzZy0laSCvXyohC7ympsYfPGoST2f5QxqhnrC0DeOZ9BSRFo2R4B4ID2QuZFI3bEZwCeaj+oulLR/8; Expires=Tue, 12 Aug 2025 12:52:32 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 1ffcb4016d0c1224c9505d74a866e6a8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: i12pP1C5Qmu9Ge70V55Ai-FbmlLXD5H3TiKWbe_bR9pX0ldLQcpbUg==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 10
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[graphql-ruby-detect] Dumped HTTP request for https://socket.bitpanda.com/query
+
+
+POST /query HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686; rv:133.0) Gecko/20100101 Firefox/133.0
+Connection: close
+Content-Length: 36
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: AWSALB=ZEbCM/lh8QhcDZZ6e4zNV1ELIw+CuRepZvnEmLoGvAl6xoI3cvPMWZVY1D8AVnBImJODoJXVya25JQUgKsSDu4Xx4recLM5bHYQ6g5PFczpiNOCNN7vgEukr6rwB; AWSALBCORS=ZEbCM/lh8QhcDZZ6e4zNV1ELIw+CuRepZvnEmLoGvAl6xoI3cvPMWZVY1D8AVnBImJODoJXVya25JQUgKsSDu4Xx4recLM5bHYQ6g5PFczpiNOCNN7vgEukr6rwB
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query @skip {__typename}"}
+[graphql-ruby-detect] Dumped HTTP response https://socket.bitpanda.com/query
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:35 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=0uS3hgBGCUUOQfIkOAFSrfmE5SX+cdDohbqKXWiOC1BiTCAmQEvAM5GCEcIQVH4UaG7gHKp+/kyAcT882X89b4vw7slLgLU0ufHcNh52IN9rWdreg8F9u2Gmshdt; Expires=Tue, 12 Aug 2025 12:52:35 GMT; Path=/
+Set-Cookie: AWSALBCORS=0uS3hgBGCUUOQfIkOAFSrfmE5SX+cdDohbqKXWiOC1BiTCAmQEvAM5GCEcIQVH4UaG7gHKp+/kyAcT882X89b4vw7slLgLU0ufHcNh52IN9rWdreg8F9u2Gmshdt; Expires=Tue, 12 Aug 2025 12:52:35 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 1448cc53c16b560cf86c5348358d4682.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: YFcR-a6ysgmw1qazxi0zVxvOLBjjA5Ld30PehwBEXbAZfLU85VDwLw==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 10
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[graphql-ruby-detect] Dumped HTTP request for https://socket.bitpanda.com/
+
+
+POST / HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686; rv:132.0) Gecko/20100101 Firefox/132.0
+Connection: close
+Content-Length: 36
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: AWSALB=CecPiouaYr+ADAb1ZM7k7KSY99qFa8+bj9RLeCA/Sq0R/4pz1O0/LYQmheZgSmQ7i4gmAFe5MDineWnBZAGtGqxYfip/8iMPxNVJDjHTak/aS7vT9Ojk+2+IENmf; AWSALBCORS=CecPiouaYr+ADAb1ZM7k7KSY99qFa8+bj9RLeCA/Sq0R/4pz1O0/LYQmheZgSmQ7i4gmAFe5MDineWnBZAGtGqxYfip/8iMPxNVJDjHTak/aS7vT9Ojk+2+IENmf
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query @skip {__typename}"}
+[graphql-ruby-detect] Dumped HTTP response https://socket.bitpanda.com/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:38 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=Gp9Y75UsZRm6sJP0YAlGSvi38GbQ7njKRgcP9NDsaBn7RRRHLEUHvZ/eg8SQ1NzFW1jMZEQGnkuwGs1w9SfvSUXlr2UeNZiZiMmJeqP+pHX+wczu/2hKRgk5LSf+; Expires=Tue, 12 Aug 2025 12:52:38 GMT; Path=/
+Set-Cookie: AWSALBCORS=Gp9Y75UsZRm6sJP0YAlGSvi38GbQ7njKRgcP9NDsaBn7RRRHLEUHvZ/eg8SQ1NzFW1jMZEQGnkuwGs1w9SfvSUXlr2UeNZiZiMmJeqP+pHX+wczu/2hKRgk5LSf+; Expires=Tue, 12 Aug 2025 12:52:38 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 aa77c72923f68604fa8f6f77bfdaa2dc.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: nbFBhpOBS-nLLDGU1jIVRe6jG-2ZAmMK-mtNHKopaMs6xBBnhocvSw==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 3
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

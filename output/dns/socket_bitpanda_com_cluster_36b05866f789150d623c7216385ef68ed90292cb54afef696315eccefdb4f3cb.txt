@@ -1,0 +1,24 @@
+[cluster-36b05866f789150d623c7216385ef68ed90292cb54afef696315eccefdb4f3cb] Dumped DNS request for socket.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 612
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;socket.bitpanda.com.	IN	 CNAME
+
+[cluster-36b05866f789150d623c7216385ef68ed90292cb54afef696315eccefdb4f3cb] Dumped DNS response for socket.bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 612
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 512
+
+;; QUESTION SECTION:
+;socket.bitpanda.com.	IN	 CNAME
+
+;; ANSWER SECTION:
+socket.bitpanda.com.	235	IN	CNAME	d3psbw2342r39t.[32mc[0m[32ml[0m[32mo[0m[32mu[0m[32md[0m[32mf[0m[32mr[0m[32mo[0m[32mn[0m[32mt[0m[32m.[0m[32mn[0m[32me[0m[32mt[0m.
+

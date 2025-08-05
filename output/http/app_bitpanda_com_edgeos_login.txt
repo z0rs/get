@@ -1,0 +1,34 @@
+[edgeos-login] Dumped HTTP request for https://app.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686; rv:123.0) Gecko/20100101 Firefox/123.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[edgeos-login] Dumped HTTP response https://app.bitpanda.com
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6695099f9c97b-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:48:55 GMT
+Location: /api/auth/login?callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2F
+Server: cloudflare
+Set-Cookie: __Host-authjs.csrf-token=a0fd4b773fcba7b5e7c986e051fa2ab70f2cea2ef9f2b08e06f79e16cf2515da%7Cc26d07df0abdcc9c15af0cdffee1fe01ab8ebad1e40dc1de0c90a010ddb1ab4b; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: _cfuvid=wvjKN2CopiyochF16Ze26iwki5qkxy2z12lNMdzOXx4-1754398135157-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::xt2rm-1754398133895-2ed004e491d2
+
+Redirecting...
+

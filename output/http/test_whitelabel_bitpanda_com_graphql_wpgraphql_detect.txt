@@ -1,0 +1,15 @@
+[graphql-wpgraphql-detect] Dumped HTTP request for http://test.whitelabel.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: test.whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/100.0 Safari/537.36
+Connection: close
+Content-Length: 41
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query { alias1$1:__typename }"}

@@ -1,0 +1,24 @@
+[kasm-login-panel] Dumped HTTP request for https://auth-bts.bitpanda.com/#/login
+
+
+GET / HTTP/1.1
+Host: auth-bts.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) Gecko/20100101 Firefox/91.0
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[kasm-login-panel] Dumped HTTP request for https://auth-bts.bitpanda.com/api/login_settings
+
+
+POST /api/login_settings HTTP/1.1
+Host: auth-bts.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0
+Connection: close
+Content-Length: 30
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"token":null,"username":null}

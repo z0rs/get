@@ -1,0 +1,54 @@
+[ibm-maximo-login] Dumped HTTP request for https://app.bitpanda.com/maximo/webclient/login/login.jsp?appservauth=true
+
+
+GET /maximo/webclient/login/login.jsp?appservauth=true HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686; rv:135.0) Gecko/20100101 Firefox/135.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2Ftmui%2Flogin.jsp; _cfuvid=gMOpRB4sVrMGSVlNz2XhCpk3AFTysV9qK37bLOLa9ac-1754398142100-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..OS1mpoiZXtFYU2Ruhs92LQ.uRtt5XZH3b3hyXGnhcZ5YZb2VzkDwcNeyQe4VqoqbaTnfeyhnzXzzm2kDM5RwWNCypMTEyGwy1BV4_fwqhjKufaX7TIrt9r3Pmp36aS8uV5vz1yQuDbmYb39OKEJ91yWBmM__nBXrZ0f7D9ZOJsf8AdHn20pWDJke2nnl7PABwtySizyEaI2Zxl_LRJ57vPESrJ4M2kgNYNW12lqiORF1BljQIXDRoablsvcp1Hk0H8HaBd5qvnGPWGjGa7mEDDzBXuQyUnkjVtUohgIKVpIDg7Kwrkfrmm2OOZU5ULG07OsWZCfjMRGw3q1ehjmpHzVV9qNkcWviCWoXY2oDPJQaZlCL_RRkmbNNmZmMSNvtxt-H3nVS-5QW5UyEDCucIn-i1e51g6ZWQszjSfqAv74ALIqzmsY7kQcBG_JLnpbPj8qI0PFtMGYt4RGU8J1eXAJU6l0CH20SQmOQ7EIH0qSzn_LUQtdqcAFH8ozSoWIp3iA_LKakm_lIlA5EKST5YB1uNsWkp5_4wy_-dz-KYJd0bbKVV2zDCtGkhmRMbDEI-NVIupryCIh7rTC1GZ97yDzSpaA0-Hsc4n_Yk4yKobNwLDvWbXv_o-Y4ExpRlPuifY1OlidW_vkz2WX_ENx2kpJ0q_aCiI7jqvvaUWgHOulOLUFxnQnxXn8RKAsxoo_gwGbu0DYAwYoPkVeksVdb12A.Eg1l9WphZ1eKDRIlZGOuu2yvF_bj5d4ykbCVtc9wyJ8
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ibm-maximo-login] Dumped HTTP response https://app.bitpanda.com/maximo/webclient/login/login.jsp?appservauth=true
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669897f52058b-IAD
+Date: Tue, 05 Aug 2025 12:49:03 GMT
+Location: https://account.bitpanda.com/authorization/oauth/authorize?response_type=code&client_id=19&redirect_uri=https%3A%2F%2Fapp.bitpanda.com%2Fapi%2Fauth%2Fcallback%2Fbitpanda&state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiZWpxYWRMU1dJdlhub0IyS2VPc3d3a2U2eWhRZDN4aFhGX2hiSGEyTEZCSnJxaklObWRzZnU0WWRERi1icXlkRVMyX1Npal9HamM5RjgxZE94VnBhU1EifQ..sLfU5XhFQphLlsbmg-hyKA.BhsFL6cUlKe71zImcx4Ba16TTnSYErMGzYxIzCbotk5k56n03VapWFe30lOnJNTPWrLlYYdbcPH0GohWhI15xZo5HellKrgUF2hDOjsgNVCS0w_ZCs1GV7b3uWUaXf1vIhpUZk9qERy9oBrxH_ihMMcfJ3sqePQv0lapjP04U0vrl0_Wafu38_L_zXLlkCmw.-JIX5XcQNZHDrQiP5fa8BD4ZtQrV8Epi-B3ikfF_Vuo&scope=openid+profile+email
+Server: cloudflare
+Set-Cookie: __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2Fmaximo%2Fwebclient%2Flogin%2Flogin.jsp%3Fappservauth%3Dtrue; Path=/; Secure; HttpOnly; SameSite=lax
+Set-Cookie: __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..WlRa7R2bIr42P5s73oXiug.YhTM5MxjOs5mVodiE4mWnsIzcAfyHSqJnUVMlkrnAZMp6cLxK2lURoReFnIILkW_an_j1953q4mft2MXeOz5ZK8HwpSjyppBZHomMaj6WmLs72EsfXjZCZrApYQJ51gnNkoW8NGsFXRUTddeVJxKX6f9H5kZlh3QUxZo5prTnlddU8_7_jixpCofyfznHTeK7BDVSVDKU4bcxmbb_NCAGH112ZkhwaP6Kt9xvdtshWr_1kJilRpH-Frp0i59kWXSnNsqFKdAWcAPUe00pQSu91nMe1tFMXSWEnnqDyIttYNo30OsQTPQocckQoyZ_vLKVUc1s_C3Vgg3LxlAMgOtRBRQC32yrGVLyR24fLROs5e2jV_AdND6P8Me2B3BYKekl20LMbb692RvckFdP7SRWbHWyLSiX4FzTWmNoMy6hz0VL21rCXJwNdvPk0Fqi_BqalVtqDmsUO0McM9CchD9bp-MjHhkBXOwcMw6HrEUOLFl1OE6aE8aBPhdzuUn7w0MU6LTgsGOYVAKnEXaH0u2YcfUwGeYVJ4YAF0BDGLRunLAGBhQUWVoBz5YrxGDJoGrpYFbPrX6jwx6uzehs2ghoOI9ZtsXWP_dTx5sSDNq0ASQA4hpTMX9KitHJ_zfS9Ly4AhoFdaT6KnslB6oscK-IR-F5N2RrGS1dAkLuvQbzi6fv65IoyGjAecIYRiegX0N.FhgxjkYHvtWvKGAbLItVOJpcJMrBEmkLxlYQXqM4PaY; Path=/; Expires=Tue, 05 Aug 2025 13:04:03 GMT; Max-Age=900; Secure; HttpOnly; SameSite=lax
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+X-Content-Type-Options: nosniff
+X-Matched-Path: /api/auth/login
+X-Vercel-Cache: MISS
+X-Vercel-Id: iad1::dub1::th82w-1754398143001-90abaa13f210
+Content-Length: 0
+
+
+[ibm-maximo-login] Dumped HTTP response https://app.bitpanda.com/maximo/webclient/login/login.jsp?appservauth=true
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66988af1b0590-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:02 GMT
+Location: /api/auth/login?appservauth=true&callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2Fmaximo%2Fwebclient%2Flogin%2Flogin.jsp%3Fappservauth%3Dtrue
+Server: cloudflare
+Set-Cookie: _cfuvid=5jeadxvnz8vrcwEr0.9u7s_FW.Qgg.2qEL0ujbxZZfU-1754398142930-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::56pbb-1754398142867-0a016dc0f642
+
+

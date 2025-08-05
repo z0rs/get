@@ -1,0 +1,34 @@
+[frappe-panel] Dumped HTTP request for https://www.bitpanda.com/login#login
+
+
+GET /login HTTP/1.1
+Host: www.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=yLifivFjySsKZmiWMvv6AtRfNc781dZLoDK4Q7.yihQ-1754398371220-0.0.1.1-604800000; _cfuvid=swsML0XNBicE3HwtMxI27ms0UZBDIujABXNphXalJ7c-1754398387682-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[frappe-panel] Dumped HTTP response https://www.bitpanda.com/login#login
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66f9d5c56242b-IAD
+Content-Security-Policy: frame-ancestors 'self' https://app.storyblok.com;
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:11 GMT
+Location: /en/login
+Server: cloudflare
+Set-Cookie: _cfuvid=a5f52cAWjK3s1lsH9RO8JYXNNaIKmColzGioDVjRI9g-1754398391961-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::jbmvv-1754398391926-beabfbb7c01e
+
+Redirecting...
+

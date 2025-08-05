@@ -1,0 +1,144 @@
+[livehelperchat-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=NOL2NThwhSuFonfeibsM4q_wqPGPMK_xn_zvZ8wxNaI-1754398414855-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[livehelperchat-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 22
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6702d2c2a20a8-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:53:35 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TAZHavDoEEtHA=
+X-Amzn-Requestid: c4fe2bc8-8893-4bcc-9524-c34ee2472a4c
+X-Amzn-Trace-Id: Root=1-6891fece-30f827ae7188518f34fa786f
+X-Content-Type-Options: nosniff
+
+{"message": "success"}
+[livehelperchat-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6702ce849c990-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:34 GMT
+Expires: Tue, 05 Aug 2025 13:53:34 GMT
+Location: https://localization.webhooks.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=6AeiJb9.JZAncOMHGbrZUjTQ3NhXgkGc2tgL8QE.4C4-1754398414883-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[livehelperchat-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/doc/CHANGELOG.txt
+
+
+GET /doc/CHANGELOG.txt HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=PCyC440tKPVNOFKARe98PWEMqB7SPSJWY57XxxEuJ8g-1754398415013-0.0.1.1-604800000; _cfuvid=mgHCT5bmVpAvAZX8dWqVIXnWQMZh2WjX7wAonoWL7W0-1754398431087-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[livehelperchat-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/doc/CHANGELOG.txt
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670b2ead10a05-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:53:56 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TDvEigDoEEQzg=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 5e09e6e8-823f-49df-a410-cab92cb1c69b
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[livehelperchat-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/doc/CHANGELOG.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670927aec3d97-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:51 GMT
+Expires: Tue, 05 Aug 2025 13:53:51 GMT
+Location: https://localization.webhooks.bitpanda.com/doc/CHANGELOG.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=Gb0pvmQgE9fTu8npoIm7NdmvSL_SzyhuOeIeqzRuTw0-1754398431148-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[livehelperchat-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/doc/README.txt
+
+
+GET /doc/README.txt HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=gehu0gVnkDMca7vpy2nql.oAso8txDTR7zjAHAaOehg-1754398436311-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[livehelperchat-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/doc/README.txt
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670baab1b8221-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:53:57 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TD8EXTjoEEiRw=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: ccbf85fa-38f5-4988-926d-aecb2c8435fc
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[livehelperchat-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/doc/README.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670b3d9ea82e6-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:56 GMT
+Expires: Tue, 05 Aug 2025 13:53:56 GMT
+Location: https://localization.webhooks.bitpanda.com/doc/README.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=yJzpoEbptnZmZ760qcPs5voBkGcA.WC4jed4gdkBDYo-1754398436491-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

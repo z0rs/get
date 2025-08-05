@@ -1,0 +1,108 @@
+[flutter-web-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/flutter_service_worker.js
+
+
+GET /flutter_service_worker.js HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko)Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=NU5HWEJiUXhZbFFSNmNzTS9BMlFJMHBNT1Y4dnBtRnFJUVRZR1QvdHIxdVJ4T1Q4OGpYcW1ta3ZyRTBJR1k0bTg2RGtXS2dEOGZiRTNnWWRvQWh5QkFlQWtFRm1sc0ZaVW90d1pLV1I5N1pYNWd6bHBWVTZXN0pZdEFkaldDNzFHUlBQSFdUTDNGYndLcTFkZi9EQWo4MHJ6WFhoR2p6TVJBUitwOGI4SEl5Uyt2Yk1WbVIycDY2d3o3a3RUbndlbFg2a3liRGg5WWJ5T1FKZExpeHNTTGQwemhXRm42cUFYamlMOVdIYy9XOD0tLW5OL3pNL3I5VWFTWTBxcTA2NzE2WVE9PQ%3D%3D--726eff3134d60bef097ce35e87dc0abb19f92afc
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[flutter-web-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/flutter_service_worker.js
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 376bf304-8381-4dcd-93b0-8bb4cec7d127
+Atl-Traceid: 376bf30483814dcd93b08bb4cec7d127
+Date: Tue, 05 Aug 2025 12:52:26 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=4,atl-edge-upstream;dur=61,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 c37f72766931ae9c3f146ffa54018d1c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: NCdmxau-6eVSBgaqsCYcsSp6jnRM53bxotBPon2g1C4eC11EiodH4Q==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 125133209
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[flutter-web-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/main.dart.js
+
+
+GET /main.dart.js HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=bnc1M1VhcHZqUTNrY3lDNmZTRlhFNExhSklFWm8xUzJGMU5yNjlNeENMc1JuRG9RTHkzRWlwRlZHT3ZIalhuSEszTmZMd090amF4cCtJVGJibXU1dE5CYTBzc2p0N0UxYmVTdjRRTS9IamR1OUtnY1VaUWY1aStBNVV2L2s3WCtVcElJUUQzRTlBano1NkpVbHo0TlBiai9zRWE1WEI3QzBONUc1S1p0aVZsMWJXWHhlVEorajhuaE1IemowUUhqajlUUUdGa1dDdk5nMEVCcEdZTmQwUmlWOFpITnZTRDJ6RWE3OGdtNGFXbz0tLWdDYlRvMTgvRVNLTGNxaDJSZnJNZ1E9PQ%3D%3D--9d4d4750ee87aee9447a3cd0ebe9c9bc0885a466
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[flutter-web-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/main.dart.js
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 61e7a7ce-8175-422d-9759-39d4b5c8e0a1
+Atl-Traceid: 61e7a7ce8175422d975939d4b5c8e0a1
+Date: Tue, 05 Aug 2025 12:52:28 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=3,atl-edge-upstream;dur=62,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 4b0f0fc4315eea23426f6074a7254a8c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: mhhSN6J0IBwLNvFe_kZiM632oHADpXFWZP4IC-cB6crwhrbARfs3UQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 114253855
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[flutter-web-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/flutter_bootstrap.js
+
+
+GET /flutter_bootstrap.js HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686; rv:130.0) Gecko/20100101 Firefox/130.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=eGtMaUlGS3p2M2RoYWI1L3N3VHJ2MFNlV2tjd0VRblZDT1N1N3FNU0ZhemRNRUs2cEM4RG9QNThLR01oWFNhcUpzWFBNVDlvNXBYWDdQYy9iRzh1V3JkMldiUUNYMjRVU0UwSWlObjZyWFplb1gzcytRenNqTjdtUGltdS9MbldNRUUwRkdwQU14Zk1jVW1RQTNIdTBrNFlCUStaS1JVazQxOHZ2bGFFMGduWDlPREpWK3FYUjhOV3RXWGNvVDhpcnowVWNxbkRpOUZZTFJSZDh3d2FxM1RISWFxNkpuckYrVmhId1NGdFRvYz0tLWRIK3ZPQ2JSc1NYdkU4RkdBU1MxeVE9PQ%3D%3D--ee4dc47e46764c5a379a3bdebc7693808b2a816f
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[flutter-web-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/flutter_bootstrap.js
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 905b7771-7da5-43d5-b44b-c4e10cb9ea30
+Atl-Traceid: 905b77717da543d5b44bc4e10cb9ea30
+Date: Tue, 05 Aug 2025 12:52:30 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=3,atl-edge-upstream;dur=62,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 5bbbde7889bb9c7247f5924a32d2fdf0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: RmbSHckyx7EWQbR65IIy8a3CdjhS3vEIRJjudT4p2My46-TjM42UuA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 148126535
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

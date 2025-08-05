@@ -1,0 +1,342 @@
+[vertigis-detect] Dumped HTTP request for https://socket.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 13_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=jQOjzARrHArU6TaW9DBMWKTTGF8tDxlVptQRbph6WSA/75V26yrf2+zl/Xw0RRk4IYgc4wfk3O7kJuRVv0DMVzu80NMW9t0ZDrLaSb7FLm+ZC1b5+f3lapIFpOss; AWSALBCORS=jQOjzARrHArU6TaW9DBMWKTTGF8tDxlVptQRbph6WSA/75V26yrf2+zl/Xw0RRk4IYgc4wfk3O7kJuRVv0DMVzu80NMW9t0ZDrLaSb7FLm+ZC1b5+f3lapIFpOss
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response https://socket.bitpanda.com/login
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:41 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=fOmkiiXgRu4BQIRmtxrqaAaJ72a+ozPLZgAkmCS1m6Jk+E9a5lAuKmBVT/c38zSWZRrTOU5QoArWV2x6zaP1UlfSIEo+apv6p5fenTvYX11VOZqF5xS9VJHcXrSq; Expires=Tue, 12 Aug 2025 12:52:41 GMT; Path=/
+Set-Cookie: AWSALBCORS=fOmkiiXgRu4BQIRmtxrqaAaJ72a+ozPLZgAkmCS1m6Jk+E9a5lAuKmBVT/c38zSWZRrTOU5QoArWV2x6zaP1UlfSIEo+apv6p5fenTvYX11VOZqF5xS9VJHcXrSq; Expires=Tue, 12 Aug 2025 12:52:41 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 21a5f0e24a694c040922a8766d75a2e0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: bbZ2VN48KPA8eA2VGpPh8XGKjrTBdLXJ3uLFugx2bwKvcrSn6AG6ag==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 14
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[vertigis-detect] Dumped HTTP request for https://socket.bitpanda.com/GeoManLogin.aspx
+
+
+GET /GeoManLogin.aspx HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686; rv:121.0) Gecko/20100101 Firefox/121.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=vfFpVuGokGUlFEXdh7cRmCYaJppxCh7ojxqb93beJXUiRakP3qV2zmA20YfGiTKYbzgwc2ZF7JjgeqaQx/gzGgD4a1N4gjB82WM2qf33Mwkl/LAhANIbzyZpmiUn; AWSALBCORS=vfFpVuGokGUlFEXdh7cRmCYaJppxCh7ojxqb93beJXUiRakP3qV2zmA20YfGiTKYbzgwc2ZF7JjgeqaQx/gzGgD4a1N4gjB82WM2qf33Mwkl/LAhANIbzyZpmiUn
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response https://socket.bitpanda.com/GeoManLogin.aspx
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:45 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=ey1bri4dJnAMdTnElwNKto6Lt4oiSZ4Ef7sn9GtxsAypAweQ36VelD74lWZyNKPnXHPuG0v2HhqFctzZJZ57nlF6iNK3IEugzNM5lV2D4jGNoa4gcGp+pibFN6Up; Expires=Tue, 12 Aug 2025 12:52:45 GMT; Path=/
+Set-Cookie: AWSALBCORS=ey1bri4dJnAMdTnElwNKto6Lt4oiSZ4Ef7sn9GtxsAypAweQ36VelD74lWZyNKPnXHPuG0v2HhqFctzZJZ57nlF6iNK3IEugzNM5lV2D4jGNoa4gcGp+pibFN6Up; Expires=Tue, 12 Aug 2025 12:52:45 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 db190417d0f5689511af25059af21b3a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: uRAYe0jJt9y-W8TgppFxEPIQa_kguMP8PAeCJEz2GnzP9gBGJFotFg==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 2
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[vertigis-detect] Dumped HTTP request for https://socket.bitpanda.com/FM/GeoManLogin.aspx
+
+
+GET /FM/GeoManLogin.aspx HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=iPfHVv5nI+aitT6dVNkaE9nOAkB5RgnCcRAfZZ/ar7jZPlFhLkn1Bh+O0G2mLVQu70Nq+2vttxPC74L20Q8LQDJvMB0typrR/jDc6h+PgnBEtxxi41B2OfX+9TJ0; AWSALBCORS=iPfHVv5nI+aitT6dVNkaE9nOAkB5RgnCcRAfZZ/ar7jZPlFhLkn1Bh+O0G2mLVQu70Nq+2vttxPC74L20Q8LQDJvMB0typrR/jDc6h+PgnBEtxxi41B2OfX+9TJ0
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response https://socket.bitpanda.com/FM/GeoManLogin.aspx
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:46 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=ZZjdXu/7Chw+GccmLe/XuH/RCccIpteAcLXM9YmXVv8BSc5AqZ/cdXPye7TnAJ54umPP+y0RDjEmKOOxGKCmZmLhpsXN0wt4z1IdSm6/pGk0mzoQNn00AeK+h0V7; Expires=Tue, 12 Aug 2025 12:52:46 GMT; Path=/
+Set-Cookie: AWSALBCORS=ZZjdXu/7Chw+GccmLe/XuH/RCccIpteAcLXM9YmXVv8BSc5AqZ/cdXPye7TnAJ54umPP+y0RDjEmKOOxGKCmZmLhpsXN0wt4z1IdSm6/pGk0mzoQNn00AeK+h0V7; Expires=Tue, 12 Aug 2025 12:52:46 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 9cd85e528eb96b937681f7f81aea46c8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: L0RAQvrpvwQVlJ_5dGWC3IKPkyipaQUS_d57TkJyclE8VKZ7tWF8Hg==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 4
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[vertigis-detect] Dumped HTTP request for https://socket.bitpanda.com/GEBman/GeoManLogin.aspx
+
+
+GET /GEBman/GeoManLogin.aspx HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=nYQCNhwcK6TXdnTkbntpT4in/To9RntsDlJ7dZF/DlV2NM9YoW3MUk5YgEroYl9tu2jdTotrDd4utrMXyUcpgxNl8fZWmO+aXC+ZM/HG/3joWnwk6+8LOnXG+ZZF; AWSALBCORS=nYQCNhwcK6TXdnTkbntpT4in/To9RntsDlJ7dZF/DlV2NM9YoW3MUk5YgEroYl9tu2jdTotrDd4utrMXyUcpgxNl8fZWmO+aXC+ZM/HG/3joWnwk6+8LOnXG+ZZF
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response https://socket.bitpanda.com/GEBman/GeoManLogin.aspx
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:48 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=Vq6s6UGv1qh5/9+mV/LN1YfQL6ED1CX/EGGNuqHfEuubCVM/hOCMzwC67DNJ+20l36E3R5DHObneeX3w5/odOoRA7+9ADLnsdthP20A1S2zN++C017PtP7P7BNln; Expires=Tue, 12 Aug 2025 12:52:48 GMT; Path=/
+Set-Cookie: AWSALBCORS=Vq6s6UGv1qh5/9+mV/LN1YfQL6ED1CX/EGGNuqHfEuubCVM/hOCMzwC67DNJ+20l36E3R5DHObneeX3w5/odOoRA7+9ADLnsdthP20A1S2zN++C017PtP7P7BNln; Expires=Tue, 12 Aug 2025 12:52:48 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 1fecb697c6f121d7ce54a35628ac154e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: f0uXFq_5CV_F3_KzCqLRTHunHGN1TvWyBnJFUwtS1Xc2ZfFf5um7RA==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 0
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[vertigis-detect] Dumped HTTP request for https://socket.bitpanda.com/Geoportal/synserver
+
+
+GET /Geoportal/synserver HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=wAA0Ds0x5bSEi+gfpkqOtQ+zgoia7GomTJLa+YF2cMvM6c2EzL3lBpuLELQoE+xqI0EwtI3ibgeclSDs0JBIhncYP3tK2H+7nS6xmN6uaHgdipeax+DT3P62c7tc; AWSALBCORS=wAA0Ds0x5bSEi+gfpkqOtQ+zgoia7GomTJLa+YF2cMvM6c2EzL3lBpuLELQoE+xqI0EwtI3ibgeclSDs0JBIhncYP3tK2H+7nS6xmN6uaHgdipeax+DT3P62c7tc
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response https://socket.bitpanda.com/Geoportal/synserver
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:49 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=t0pIL2M3z7o7+BBcjFJGRS70vvT8UOcsp4+CGif3oogRCqeql3juibA3mEIIt83TGQwb2iyLDrp1GdBVPbHEwCKuS7Tp8UBIyFwqEBtzwrcR/4iz7jYFRgZ6XQqb; Expires=Tue, 12 Aug 2025 12:52:49 GMT; Path=/
+Set-Cookie: AWSALBCORS=t0pIL2M3z7o7+BBcjFJGRS70vvT8UOcsp4+CGif3oogRCqeql3juibA3mEIIt83TGQwb2iyLDrp1GdBVPbHEwCKuS7Tp8UBIyFwqEBtzwrcR/4iz7jYFRgZ6XQqb; Expires=Tue, 12 Aug 2025 12:52:49 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 7eec4b899788ee4df5c41267e91dcf8a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 4JMrveVwNp3LmyrQSB1IXqXKDxmK10aAEbBagc5AZqKwJZOowiQHKQ==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 0
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[vertigis-detect] Dumped HTTP request for https://socket.bitpanda.com/vertigisstudio/web/designer/locales/en/translations.json
+
+
+GET /vertigisstudio/web/designer/locales/en/translations.json HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=jsDihn37LvEvNIyjDS891knivU8XNP0h5SvGKd/4bvelpQt5lcLyqgY+RwrBFXD6nNDeDFYj7PCwaieHGcY13tSU81R8uAbNdKsELFy1WLSwaayvk//lTaoIa+80; AWSALBCORS=jsDihn37LvEvNIyjDS891knivU8XNP0h5SvGKd/4bvelpQt5lcLyqgY+RwrBFXD6nNDeDFYj7PCwaieHGcY13tSU81R8uAbNdKsELFy1WLSwaayvk//lTaoIa+80
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response https://socket.bitpanda.com/vertigisstudio/web/designer/locales/en/translations.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:50 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=GKDBfMo2Odzlet5xirE2xBdWWzecdfR9ankc7P8nWRnUpTVt5gUR8iKnv0BCgqj8k9eZP9bAQsQAEQBCzRo0haYiYVvi+QAHi9AOYhJqqkM7xobg8aZTlutAfaX4; Expires=Tue, 12 Aug 2025 12:52:50 GMT; Path=/
+Set-Cookie: AWSALBCORS=GKDBfMo2Odzlet5xirE2xBdWWzecdfR9ankc7P8nWRnUpTVt5gUR8iKnv0BCgqj8k9eZP9bAQsQAEQBCzRo0haYiYVvi+QAHi9AOYhJqqkM7xobg8aZTlutAfaX4; Expires=Tue, 12 Aug 2025 12:52:50 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 9cd85e528eb96b937681f7f81aea46c8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Dhzj5hgyyLz2LibbF2van7w6NgYpmVqh6Z9sfRgjN5YTnVSLaNMJtg==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 0
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[vertigis-detect] Dumped HTTP request for https://socket.bitpanda.com/vertigisstudio/search/designer/locales/en/translations.json
+
+
+GET /vertigisstudio/search/designer/locales/en/translations.json HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=GKDBfMo2Odzlet5xirE2xBdWWzecdfR9ankc7P8nWRnUpTVt5gUR8iKnv0BCgqj8k9eZP9bAQsQAEQBCzRo0haYiYVvi+QAHi9AOYhJqqkM7xobg8aZTlutAfaX4; AWSALBCORS=GKDBfMo2Odzlet5xirE2xBdWWzecdfR9ankc7P8nWRnUpTVt5gUR8iKnv0BCgqj8k9eZP9bAQsQAEQBCzRo0haYiYVvi+QAHi9AOYhJqqkM7xobg8aZTlutAfaX4
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response https://socket.bitpanda.com/vertigisstudio/search/designer/locales/en/translations.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:51 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=qpGNhczxipJli6ilS8/htvAbX8IqpIWk4JGMkylT77dxw3QLIdVaIOa4JTdzJR2kygp9vx7ltl2yVN1GFvW3N3Uj1KjK/pGvbHn3vCG7waBTOWR22nTG/DBLSOpY; Expires=Tue, 12 Aug 2025 12:52:51 GMT; Path=/
+Set-Cookie: AWSALBCORS=qpGNhczxipJli6ilS8/htvAbX8IqpIWk4JGMkylT77dxw3QLIdVaIOa4JTdzJR2kygp9vx7ltl2yVN1GFvW3N3Uj1KjK/pGvbHn3vCG7waBTOWR22nTG/DBLSOpY; Expires=Tue, 12 Aug 2025 12:52:51 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 d45137f973d454db77c647196f56613a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: HAs3iQVux8Dkf-U8tXLaU15TISaY_hk7fehVR63vM_05ermJXI9ERA==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 0
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[vertigis-detect] Dumped HTTP request for https://socket.bitpanda.com/vertigisstudio/mobile/designer/locales/en/translations.json
+
+
+GET /vertigisstudio/mobile/designer/locales/en/translations.json HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=qpGNhczxipJli6ilS8/htvAbX8IqpIWk4JGMkylT77dxw3QLIdVaIOa4JTdzJR2kygp9vx7ltl2yVN1GFvW3N3Uj1KjK/pGvbHn3vCG7waBTOWR22nTG/DBLSOpY; AWSALBCORS=qpGNhczxipJli6ilS8/htvAbX8IqpIWk4JGMkylT77dxw3QLIdVaIOa4JTdzJR2kygp9vx7ltl2yVN1GFvW3N3Uj1KjK/pGvbHn3vCG7waBTOWR22nTG/DBLSOpY
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response https://socket.bitpanda.com/vertigisstudio/mobile/designer/locales/en/translations.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:52 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=n4HJmUu/BatC1L/VHlYYB2QJ5Oonv7rEP1ySwe9dCC1z86VyC8e6GZyH66H16nwDFZ2/2J7pTn1voEgH4g6SDLF5X7WHJm1wNmyzcIUdkW2TLCIryMi6CcTEVmhJ; Expires=Tue, 12 Aug 2025 12:52:52 GMT; Path=/
+Set-Cookie: AWSALBCORS=n4HJmUu/BatC1L/VHlYYB2QJ5Oonv7rEP1ySwe9dCC1z86VyC8e6GZyH66H16nwDFZ2/2J7pTn1voEgH4g6SDLF5X7WHJm1wNmyzcIUdkW2TLCIryMi6CcTEVmhJ; Expires=Tue, 12 Aug 2025 12:52:52 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 02db209838c99b1e3d9f7e6b74ddf272.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: yH46YL6wcGrcH7MandjzibNQZfOcj4rWth1gLcloZz29oG6da-KRLg==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 1
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[vertigis-detect] Dumped HTTP request for https://socket.bitpanda.com/vertigisstudio/accesscontrol/locales/en/translations.json
+
+
+GET /vertigisstudio/accesscontrol/locales/en/translations.json HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=n4HJmUu/BatC1L/VHlYYB2QJ5Oonv7rEP1ySwe9dCC1z86VyC8e6GZyH66H16nwDFZ2/2J7pTn1voEgH4g6SDLF5X7WHJm1wNmyzcIUdkW2TLCIryMi6CcTEVmhJ; AWSALBCORS=n4HJmUu/BatC1L/VHlYYB2QJ5Oonv7rEP1ySwe9dCC1z86VyC8e6GZyH66H16nwDFZ2/2J7pTn1voEgH4g6SDLF5X7WHJm1wNmyzcIUdkW2TLCIryMi6CcTEVmhJ
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response https://socket.bitpanda.com/vertigisstudio/accesscontrol/locales/en/translations.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:53 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=veJVa+RUT/OlO21xE2PlJau9AqWZ7gIFA3SNqOiCkHftbLeGrqPo7Dewf4G5HylxbOXzGbCDcgExsdq49Myz+Akec/rBWyEOiJI1/+lfTmxZwEKE+c+7NONgFjeE; Expires=Tue, 12 Aug 2025 12:52:53 GMT; Path=/
+Set-Cookie: AWSALBCORS=veJVa+RUT/OlO21xE2PlJau9AqWZ7gIFA3SNqOiCkHftbLeGrqPo7Dewf4G5HylxbOXzGbCDcgExsdq49Myz+Akec/rBWyEOiJI1/+lfTmxZwEKE+c+7NONgFjeE; Expires=Tue, 12 Aug 2025 12:52:53 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 689115ff2de1803f311819422d2bbc9e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: B113bVPIzS6oHOYSciCUfCAIxcyyk1g8DP2a5xqP1JAe2P0ktccDXA==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 0
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

@@ -1,0 +1,52 @@
+[aws-ecs-container-agent-tasks] Dumped HTTP request for https://techsolutions.bitpanda.com/v1/metadata
+
+
+GET /v1/metadata HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[aws-ecs-container-agent-tasks] Dumped HTTP response https://techsolutions.bitpanda.com/v1/metadata
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Location: ./metadata/
+Via: 1.1 caa5dc507511eeb90523a221b2bd19b4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: cadfEc6tyf0kvQTdeZdISPIOzUYYZMXc38nLfx3eKlettdY_Z1jXZw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[aws-ecs-container-agent-tasks] Dumped HTTP request for https://techsolutions.bitpanda.com/v1/tasks
+
+
+GET /v1/tasks HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[aws-ecs-container-agent-tasks] Dumped HTTP response https://techsolutions.bitpanda.com/v1/tasks
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:53:24 GMT
+Location: ./tasks/
+Via: 1.1 4d89e7f6870714b602988e2ed1135996.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: SvNVgS3hpLI9AN0rnL01DC5Iu0cdvQCC2dnnXSfjUrY2ip5v7tJSVA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

@@ -1,0 +1,29 @@
+[wordpress-code-snippets] Dumped HTTP request for https://techsolutions.bitpanda.com/wp-content/plugins/code-snippets/readme.txt
+
+
+GET /wp-content/plugins/code-snippets/readme.txt HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-code-snippets] Dumped HTTP response https://techsolutions.bitpanda.com/wp-content/plugins/code-snippets/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:49 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 fe187ea749e98273cf22180445286f22.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: sorDZMCkts-fUJIdzugstAZaabLJCHaRzGCimD2dHVSmnOoM8_rBLw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: wVrfFy6OF7Yjfs6LKt1vM/WciL9gy3ISS4FzLCuwSwXk5GQUHI6UoSW/fzDHphWTN/jFzAT5sg8=
+X-Amz-Request-Id: 6GQPB0WF3MMA6QNH
+X-Cache: Error from cloudfront
+
+Not Found

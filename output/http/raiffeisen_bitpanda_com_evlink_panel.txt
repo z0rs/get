@@ -1,0 +1,35 @@
+[evlink-panel] Dumped HTTP request for https://raiffeisen.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: raiffeisen.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=ystBtCe8OO2Z0Dim71QgyJh9Oe2kc44ppZG57ynKANY-1754398307122-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[evlink-panel] Dumped HTTP response https://raiffeisen.bitpanda.com
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66dafbbce084c-IAD
+Content-Security-Policy: frame-src https://docs.google.com/viewer *.bitpanda.com *.staging.waskurzes.com *.bitpanda.dev vercel.live; frame-ancestors 'none'
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:51:53 GMT
+Location: /auth/error
+Server: cloudflare
+Set-Cookie: _cfuvid=YeY7jRUNxhCMfF9eqdumdAC5jhorUbS2136jY7DbAOY-1754398313020-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Immediate-Return: 1
+X-Vercel-Id: iad1::d827v-1754398312970-052306b5d538
+
+Redirecting...
+

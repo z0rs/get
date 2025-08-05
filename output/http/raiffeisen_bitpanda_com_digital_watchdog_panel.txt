@@ -1,0 +1,74 @@
+[digital-watchdog-panel] Dumped HTTP request for https://raiffeisen.bitpanda.com/static/images/favicon.ico
+
+
+GET /static/images/favicon.ico HTTP/1.1
+Host: raiffeisen.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=ystBtCe8OO2Z0Dim71QgyJh9Oe2kc44ppZG57ynKANY-1754398307122-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[digital-watchdog-panel] Dumped HTTP response https://raiffeisen.bitpanda.com/static/images/favicon.ico
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=300
+Cf-Cache-Status: MISS
+Cf-Ray: 96a66d8fed345a69-IAD
+Content-Security-Policy: frame-src https://docs.google.com/viewer *.bitpanda.com *.staging.waskurzes.com *.bitpanda.dev vercel.live; frame-ancestors 'none'
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:51:47 GMT
+Expires: Tue, 05 Aug 2025 12:56:47 GMT
+Location: /auth/error
+Server: cloudflare
+Set-Cookie: _cfuvid=RAKSxQeh_WuV65i0McAHa2y2KnaYMFtj02CQXnkpxlo-1754398307990-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Immediate-Return: 1
+X-Vercel-Id: cle1::pwglx-1754398307930-5af7d3c5891e
+
+Redirecting...
+
+[digital-watchdog-panel] Dumped HTTP request for https://raiffeisen.bitpanda.com/static/customization/favicon.ico
+
+
+GET /static/customization/favicon.ico HTTP/1.1
+Host: raiffeisen.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=TqffPZNbKY6KZgfdGsw3OFslgbhRLMNS8tp_YQZDkDM-1754398308180-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[digital-watchdog-panel] Dumped HTTP response https://raiffeisen.bitpanda.com/static/customization/favicon.ico
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=300
+Cf-Cache-Status: MISS
+Cf-Ray: 96a66db62b114f16-IAD
+Content-Security-Policy: frame-src https://docs.google.com/viewer *.bitpanda.com *.staging.waskurzes.com *.bitpanda.dev vercel.live; frame-ancestors 'none'
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:51:54 GMT
+Expires: Tue, 05 Aug 2025 12:56:54 GMT
+Location: /auth/error
+Server: cloudflare
+Set-Cookie: _cfuvid=PHNJAx7HEnd6XApHdBovAEjale_rjoV_.BGfSzPmczI-1754398314163-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Immediate-Return: 1
+X-Vercel-Id: cle1::w88qg-1754398314069-7fa9548f97a5
+
+Redirecting...
+

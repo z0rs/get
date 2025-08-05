@@ -1,0 +1,52 @@
+[hp-service-manager] Dumped HTTP request for https://techsolutions.bitpanda.com/sm935/index.do
+
+
+GET /sm935/index.do HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[hp-service-manager] Dumped HTTP response https://techsolutions.bitpanda.com/sm935/index.do
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:53:22 GMT
+Location: ./index.do/
+Via: 1.1 7ba8238566c8641cae9d38ebcb67e0e8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: PeiY-2Cgy_g19bKJrkl6MuJhmTbzU7KsPr8v0JPHr6zXam9DQkVKGQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[hp-service-manager] Dumped HTTP request for https://techsolutions.bitpanda.com/sm/ess.do
+
+
+GET /sm/ess.do HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[hp-service-manager] Dumped HTTP response https://techsolutions.bitpanda.com/sm/ess.do
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Location: ./ess.do/
+Via: 1.1 5e79d089f5701b7938b599fdf4db1b52.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 5NCyhvITdLY4CSjb-n8QaBws-RXVbMTYH5OZeC7BSrM2DacpHZ6jIQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

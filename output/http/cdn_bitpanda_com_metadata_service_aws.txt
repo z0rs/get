@@ -1,0 +1,92 @@
+[metadata-service-aws] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+GET http://169.254.169.254.nip.io/latest/meta-data/ HTTP/1.1
+Host: 169.254.169.254.nip.io
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+
+
+[metadata-service-aws] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 530 <none>
+Content-Length: 16
+CF-RAY: 96a6705f2992801e-IAD
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Connection: keep-alive
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:53:42 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+X-Frame-Options: SAMEORIGIN
+
+error code: 1016
+[metadata-service-aws] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+GET http://2852039166/latest/meta-data/ HTTP/1.1
+Host: 2852039166
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+
+
+[metadata-service-aws] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Content-Length: 16
+CF-RAY: 96a67078dd1ac978-IAD
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Connection: close
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:53:47 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+X-Frame-Options: SAMEORIGIN
+
+error code: 1003
+[metadata-service-aws] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+GET http://169.254.169.254/latest/meta-data/ HTTP/1.1
+Host: 169.254.169.254
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+
+
+[metadata-service-aws] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Content-Length: 16
+CF-RAY: 96a670a53be51216-IAD
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Connection: close
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:53:54 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+X-Frame-Options: SAMEORIGIN
+
+error code: 1003
+[metadata-service-aws] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+GET http://aws.oast.online/latest/meta-data/ HTTP/1.1
+Host: aws.oast.online
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+
+
+[metadata-service-aws] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 409 Conflict
+Content-Length: 16
+CF-RAY: 96a670ba885322ef-IAD
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Connection: close
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:53:57 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+X-Frame-Options: SAMEORIGIN
+
+error code: 1001

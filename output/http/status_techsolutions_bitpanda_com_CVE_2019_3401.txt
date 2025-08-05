@@ -1,0 +1,35 @@
+[CVE-2019-3401] Dumped HTTP request for https://status.techsolutions.bitpanda.com/secure/ManageFilters.jspa?filter=popular&filterView=popular
+
+
+GET /secure/ManageFilters.jspa?filter=popular&filterView=popular HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/108.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2019-3401] Dumped HTTP response https://status.techsolutions.bitpanda.com/secure/ManageFilters.jspa?filter=popular&filterView=popular
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 811021f0-c73b-41d5-aa1e-efa2b03bee3b
+Atl-Traceid: 811021f0c73b41d5aa1eefa2b03bee3b
+Date: Tue, 05 Aug 2025 12:53:15 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 9acd372742573b89975d7dceea2dc950.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: kTJ2hKTREfVyfekhYgdxNhnmis_lgxAgdOkWsUk9sv-kETdDv-A8Wg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 723709149
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

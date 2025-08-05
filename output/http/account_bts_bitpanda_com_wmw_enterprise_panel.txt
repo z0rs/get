@@ -1,0 +1,39 @@
+[wmw-enterprise-panel] Dumped HTTP request for https://account.bts.bitpanda.com/en/login
+
+
+GET /en/login HTTP/1.1
+Host: account.bts.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wmw-enterprise-panel] Dumped HTTP response https://account.bts.bitpanda.com/en/login
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a1859685758-IAD
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:26 GMT
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Server: cloudflare
+Set-Cookie: _cfuvid=qDt3KJ0MqxMy1ku8juC9hszSTh8OML_8tTXHHJl.Gq0-1754398166220-0.0.1.1-604800000; path=/; domain=.frontegg.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Via: 1.1 22512dca1de1fae848b2509fed0309aa.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 25kYk4uikI5VJmvXZ-HkxI3H0wmXsw8riGdsEHPuoo51-S84Ch6qYg==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+{"errors":["The requested URL was not found on this server."]}

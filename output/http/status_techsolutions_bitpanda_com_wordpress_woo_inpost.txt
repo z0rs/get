@@ -1,0 +1,35 @@
+[wordpress-woo-inpost] Dumped HTTP request for https://status.techsolutions.bitpanda.com/wp-content/plugins/woo-inpost/readme.txt
+
+
+GET /wp-content/plugins/woo-inpost/readme.txt HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=enZNa3MzVG16RnBwSllqN0tIT09KTkdaWlp1RG1Tbk5OUUtjQWpMWHlUS2FvemZFSWFQbHVEd1JuUlNYWlAwV3p3L3ZJc2tOMkN6eWQwS3hsc1VyVE1MTitGK3BHenBWQzNnMUlmSTlZTWxzWTRhcXcyM1VMU09aNCtoTVZjUFRrR3Z5ZUtuOVlja3lwQ01VdEhlWm4vL3p2SnJXY0htRkl1eWpUaVdKS3FMdHA1TGFQSUZURUFzQ1ZmOW9DYVJVWG40d2NJV2U1aFJZdllRVzZObDFYZnlYemxSR29XMEJCRWVrQVJYa1dLYz0tLWtydTZYNzNyZS9kRytPUmx5N0R0UVE9PQ%3D%3D--b26cf7f4764145fde0c97c25f3f98b721225ceec
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-woo-inpost] Dumped HTTP response https://status.techsolutions.bitpanda.com/wp-content/plugins/woo-inpost/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 52021515-69a6-4a87-b027-d1a1f0022fe2
+Atl-Traceid: 5202151569a64a87b027d1a1f0022fe2
+Date: Tue, 05 Aug 2025 12:52:44 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=3,atl-edge-upstream;dur=62,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 6ec872fa8051a500a5a9ab5ec50a79ba.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: DX8oGzmIplIAMqR7R1z4xN-SDlYKzeBQNQF-_KIuzHQstkqeG6Q8uw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 706693915
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

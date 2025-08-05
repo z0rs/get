@@ -1,0 +1,46 @@
+[bmc-remedy-sso-panel] Dumped HTTP request for http://requests.bitpanda.com/arsys/
+
+
+GET /arsys/ HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[bmc-remedy-sso-panel] Dumped HTTP response http://requests.bitpanda.com/arsys/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:51:58 GMT
+Location: https://requests.bitpanda.com/arsys/
+
+Moved Permanently
+[bmc-remedy-sso-panel] Dumped HTTP request for http://requests.bitpanda.com/webUI/userHome.do
+
+
+GET /webUI/userHome.do HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/105.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[bmc-remedy-sso-panel] Dumped HTTP response http://requests.bitpanda.com/webUI/userHome.do
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:00 GMT
+Location: https://requests.bitpanda.com/webUI/userHome.do
+
+Moved Permanently

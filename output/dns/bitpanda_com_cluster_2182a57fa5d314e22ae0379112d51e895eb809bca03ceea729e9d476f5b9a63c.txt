@@ -1,0 +1,21 @@
+[cluster-2182a57fa5d314e22ae0379112d51e895eb809bca03ceea729e9d476f5b9a63c] Dumped DNS request for bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 51228
+;; flags: rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 TXT
+
+[cluster-2182a57fa5d314e22ae0379112d51e895eb809bca03ceea729e9d476f5b9a63c] Dumped DNS response for bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 51228
+;; flags: qr tc rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 1232
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 TXT
+

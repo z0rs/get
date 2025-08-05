@@ -1,0 +1,140 @@
+[harbor-panel] Dumped HTTP request for https://status.techsolutions.bitpanda.com/api/v2.0/systeminfo
+
+
+GET /api/v2.0/systeminfo HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686; rv:121.0) Gecko/20100101 Firefox/121.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[harbor-panel] Dumped HTTP response https://status.techsolutions.bitpanda.com/api/v2.0/systeminfo
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 0385952d-b29a-49f8-bba9-aff20c2ef3a9
+Atl-Traceid: 0385952db29a49f8bba9aff20c2ef3a9
+Date: Tue, 05 Aug 2025 12:52:12 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 aa0ac259128059e949248e63a3b6767e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 44-g88PiS1sCHkHyHTaaUEFB948XbP3nGaCIEdqyL_k7phaG6p203A==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 101981856
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[harbor-panel] Dumped HTTP request for https://status.techsolutions.bitpanda.com/api/systeminfo
+
+
+GET /api/systeminfo HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[harbor-panel] Dumped HTTP response https://status.techsolutions.bitpanda.com/api/systeminfo
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 37786f62-7c02-4296-aec4-d14ef4f65a99
+Atl-Traceid: 37786f627c024296aec4d14ef4f65a99
+Date: Tue, 05 Aug 2025 12:52:14 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=2,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 ade18dc841d2e1cc8ef49611c5d4c93e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Ql45A2y85NMAMGZTO_Z5xpp6b9ufxyRVFQHLHoQOv2iQy4HHoiXQMg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 137520691
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[harbor-panel] Dumped HTTP request for https://status.techsolutions.bitpanda.com/account/sign-in
+
+
+GET /account/sign-in HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[harbor-panel] Dumped HTTP response https://status.techsolutions.bitpanda.com/account/sign-in
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 157efc19-1664-4c59-bb1d-33740854c335
+Atl-Traceid: 157efc1916644c59bb1d33740854c335
+Date: Tue, 05 Aug 2025 12:52:17 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=2,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 c8c9787916110356915bbdbddd0a32d6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 66tbE4cQ-LfgaiJdZFxKYklI5K1KuHM2U11juu1Z4LGwt-EIwRZPag==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 11662162
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[harbor-panel] Dumped HTTP request for https://status.techsolutions.bitpanda.com/harbor/sign-in
+
+
+GET /harbor/sign-in HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[harbor-panel] Dumped HTTP response https://status.techsolutions.bitpanda.com/harbor/sign-in
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 6be623d4-e8fc-4de7-9c33-f2d03c2712e3
+Atl-Traceid: 6be623d4e8fc4de79c33f2d03c2712e3
+Date: Tue, 05 Aug 2025 12:52:20 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 5bbbde7889bb9c7247f5924a32d2fdf0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 0sTjU08ypg1qdbtkROSs22T61HjbtgFAcgYX4sudC9LFbEMO8_VLtw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 132335560
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

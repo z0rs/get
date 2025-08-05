@@ -1,0 +1,30 @@
+[cluster-7ad5b54aecba169c39860dc6c8b6485b28768eeb52d206b46d4ba4658ad01b07] Dumped HTTP request for http://checkout.bitpanda.com/version
+
+
+GET /version HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.8.1 Mobile/15E148 Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-7ad5b54aecba169c39860dc6c8b6485b28768eeb52d206b46d4ba4658ad01b07] Dumped HTTP response http://checkout.bitpanda.com/version
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:45 GMT
+Location: https://checkout.bitpanda.com/version
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

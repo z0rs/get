@@ -1,0 +1,37 @@
+[wordpress-formidable] Dumped HTTP request for http://ff.bitpanda.com/wp-content/plugins/formidable/readme.txt
+
+
+GET /wp-content/plugins/formidable/readme.txt HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=bvyPF1WfMXqbN5uvlA6p0rW2ua_jyyzH_UCwnp.EogM-1754398449826-0.0.1.1-604800000; GCLB="d95bf0766eefcc1f"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-formidable] Dumped HTTP response http://ff.bitpanda.com/wp-content/plugins/formidable/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a671346fc1e76c-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:17 GMT
+Expires: Tue, 05 Aug 2025 13:54:17 GMT
+Location: https://ff.bitpanda.com/wp-content/plugins/formidable/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=fAzvVkbdHRmCjUEAS2lR4o5oSYb2ogde3suB6O8Y9qU-1754398457059-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

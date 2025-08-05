@@ -1,0 +1,26 @@
+[ivanti-traffic-manager-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/apps/zxtm/login.cgi
+
+
+GET /apps/zxtm/login.cgi HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ivanti-traffic-manager-panel] Dumped HTTP response https://techsolutions.bitpanda.com/apps/zxtm/login.cgi
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:19 GMT
+Location: ./login.cgi/
+Via: 1.1 f28664317eb9628b30397afa3d6b821c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: d58O6WP1DnmlUVMB2RTpZWUwgxeFKht4QN6NH3pOM-NUJ13ftzIkPQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

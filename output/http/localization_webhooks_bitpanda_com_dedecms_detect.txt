@@ -1,0 +1,62 @@
+[dedecms-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=at_DrFMNkl_VowdVOuMiYtrnyyFu2fRfeuIT.7QNl.A-1754398372837-0.0.1.1-604800000; _cfuvid=Fp.91gCEwEBKl1nYuND6h7nSlUO.9BB4Sw6VMlJV.Zs-1754398388796-0.0.1.1-604800000; _cfuvid=jbe5xyYp.3FC6uw7VYtEkHQKPZXME57PSViAKl4Gq4M-1754398404756-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[dedecms-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/robots.txt
+
+
+GET /robots.txt HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/117.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=B95ctN0V5TFJ8R0yLRD00Twni.9eNiGV3g0fefsH6KA-1754398418501-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[dedecms-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/robots.txt
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a67053da34d69d-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:53:41 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TBXH1pDoEEWEw=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 5a2c77df-4946-49e1-8170-899cea259ae9
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[dedecms-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/robots.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670526ce15a7b-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:40 GMT
+Expires: Tue, 05 Aug 2025 13:53:40 GMT
+Location: https://localization.webhooks.bitpanda.com/robots.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=EmqkzwsrEUHIfoufoCFJs5lZbs4U6i9antsXdWQMkK0-1754398420907-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

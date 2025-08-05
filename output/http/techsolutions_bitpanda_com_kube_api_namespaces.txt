@@ -1,0 +1,26 @@
+[kube-api-namespaces] Dumped HTTP request for https://techsolutions.bitpanda.com/api/v1/namespaces
+
+
+GET /api/v1/namespaces HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[kube-api-namespaces] Dumped HTTP response https://techsolutions.bitpanda.com/api/v1/namespaces
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:38 GMT
+Location: ./namespaces/
+Via: 1.1 7ed6222f7e560bc392fd7d47d98df770.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: qURwgaT-MHqE7kwTAZlQXP3mj-dnv76Ao5d0bETtDw1lholzmbBBng==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

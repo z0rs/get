@@ -1,0 +1,28 @@
+[CVE-2022-45037] Dumped HTTP request for https://techsolutions.bitpanda.com/admin/login/index.php
+
+
+GET /admin/login/index.php HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2022-45037] Dumped HTTP response https://techsolutions.bitpanda.com/admin/login/index.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:22 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 8a2526db76c9941bb9c29974d0546474.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 7nTPEy5oG6MQQLfMFTP27yrqCIhpT9MjF0BQ9Ft4_0ksAkq-x1v24A==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: 4hBe3SPEDZPEUw61rg+FNopCBAfLWI/ZDDTNgQ41vjXW5k1ZJCSFxqwBq8uR78P9pkWz2Np+ol0EY0NgydYgK7+qewsszkHa
+X-Amz-Request-Id: VE5RFJT8XG2VVH6R
+X-Cache: Error from cloudfront
+
+Not Found

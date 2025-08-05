@@ -1,0 +1,77 @@
+[dell-idrac] Dumped HTTP request for https://clicks.bitpanda.com/restgui/start.html
+
+
+GET /restgui/start.html HTTP/1.1
+Host: clicks.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/109.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[dell-idrac] Dumped HTTP response https://clicks.bitpanda.com/restgui/start.html
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669447c9ae6ec-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:48:51 GMT
+Expires: Tue, 05 Aug 2025 13:48:51 GMT
+Location: https://eu.spgo.io/restgui/start.html
+Server: cloudflare
+Set-Cookie: _cfuvid=Dmwoc76W0j8u5C_eXHy1R8rl3ebot6BQYMXmErtc1gk-1754398131944-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[dell-idrac] Dumped HTTP request for https://clicks.bitpanda.com/login.html
+
+
+GET /login.html HTTP/1.1
+Host: clicks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh, Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.10 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=gSrd33z3lUJaolK1WNxZK2c1QXk0ZG6ZiJtMc7IdiNA-1754398132011-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[dell-idrac] Dumped HTTP response https://clicks.bitpanda.com/login.html
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669633801d64b-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:48:56 GMT
+Expires: Tue, 05 Aug 2025 13:48:56 GMT
+Location: https://eu.spgo.io/login.html
+Server: cloudflare
+Set-Cookie: _cfuvid=QnvgUsjJ.4XWv_CAFStgDBdV_of79SqJJ88gvzDbXqE-1754398136848-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

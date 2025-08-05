@@ -1,0 +1,78 @@
+[microfocus-filr-panel] Dumped HTTP request for https://account.bts.bitpanda.com/filr/login
+
+
+GET /filr/login HTTP/1.1
+Host: account.bts.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[microfocus-filr-panel] Dumped HTTP response https://account.bts.bitpanda.com/filr/login
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669d38b703976-IAD
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:14 GMT
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Server: cloudflare
+Set-Cookie: _cfuvid=Fbru0PCr_FyOPtVjP8CEo97ww3oVnkCdNXDEvX9lh3Y-1754398154940-0.0.1.1-604800000; path=/; domain=.frontegg.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Via: 1.1 e0ed595b39732d9e9972db26854384ec.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: qlUgVpuGx3-RtcXVMsgaswbZ7WKwpfmuEEz8LvqKmGUdTQLDomKQYw==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+{"errors":["The requested URL was not found on this server."]}
+[microfocus-filr-panel] Dumped HTTP request for https://account.bts.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: account.bts.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Mobile/15E148 Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[microfocus-filr-panel] Dumped HTTP response https://account.bts.bitpanda.com/login
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669f92bc7a504-IAD
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:21 GMT
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Server: cloudflare
+Set-Cookie: _cfuvid=0p4SkI0jYl4zvGUi3keVYqyHxA_LGQkBFV0D5tx23Fk-1754398161239-0.0.1.1-604800000; path=/; domain=.frontegg.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Via: 1.1 48b970169016f7185b7cff9e185ee0b2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: NRbSsdX1LbFrlxT0bu0gu6t3ErHUwrcUH-Rkt0Nlqs9jlN_GTlzNHA==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+{"errors":["The requested URL was not found on this server."]}

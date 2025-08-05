@@ -1,0 +1,35 @@
+[wordpress-coming-soon] Dumped HTTP request for https://status.techsolutions.bitpanda.com/wp-content/plugins/coming-soon/readme.txt
+
+
+GET /wp-content/plugins/coming-soon/readme.txt HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/117.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=SEllNCtjbmVHMEh3ZkRqMTZhK2o1VEdqMjkzT21RSUwvRGMzQnRWQlFUYlQ3anA3WERZRGJPSndwTHI3Qm1XYUpLUVZxZnl3UGxrWjNYbkxvQ3Y5VGdhT2hjZW1wRk1OSWxnMlJFU0dHZFVJTGhicWxDWEZ2akNoRUE3aG5GTENXZzRnMllrZ0RQaHpPWWJGNk5jNUxuUnBzWUk5bXhabWRRL0tvU0hGQVE0a3hWRnhKTG8xWHViUk9SRFc4R3BVVE5Md0I1cDRnNnBMZkc5Q2JUeVFmRkJFeHpCNXF0RmFIcFp6VzhIL1FpMD0tLVI1cDg5YzlZZjdRYXJSRTVySlV6Z1E9PQ%3D%3D--b0bf19b83db1e26bf8468707b0446d7242355060
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-coming-soon] Dumped HTTP response https://status.techsolutions.bitpanda.com/wp-content/plugins/coming-soon/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: e55ca582-0dc7-4721-97ef-cffc8123d2a5
+Atl-Traceid: e55ca5820dc7472197efcffc8123d2a5
+Date: Tue, 05 Aug 2025 12:52:39 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=2,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 ca8d1424de70ce439236d37048e65f54.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: srk_OpdtRdoQ50D497a6TFEiIcHxxyQr58nDGDw04SaoSUPHmf5NMw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 105442318
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

@@ -1,0 +1,86 @@
+[matrix-detect] Dumped HTTP request for http://checkout.bitpanda.com/.well-known/matrix/server
+
+
+GET /.well-known/matrix/server HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[matrix-detect] Dumped HTTP response http://checkout.bitpanda.com/.well-known/matrix/server
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 153
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:51 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.23.4</center>
+</body>
+</html>
+
+[matrix-detect] Dumped HTTP response http://checkout.bitpanda.com/.well-known/matrix/server
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:50 GMT
+Location: https://checkout.bitpanda.com/.well-known/matrix/server
+
+
+[matrix-detect] Dumped HTTP request for http://checkout.bitpanda.com/.well-known/matrix/client
+
+
+GET /.well-known/matrix/client HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[matrix-detect] Dumped HTTP response http://checkout.bitpanda.com/.well-known/matrix/client
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 555
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:57 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx/1.23.4</center>
+</body>
+</html>
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+
+[matrix-detect] Dumped HTTP response http://checkout.bitpanda.com/.well-known/matrix/client
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:56 GMT
+Location: https://checkout.bitpanda.com/.well-known/matrix/client
+
+

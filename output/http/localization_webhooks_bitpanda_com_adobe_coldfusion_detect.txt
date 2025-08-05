@@ -1,0 +1,186 @@
+[adobe-coldfusion-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/CFIDE/administrator/images/mx_login.gif
+
+
+GET /CFIDE/administrator/images/mx_login.gif HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=NW_fx_YPiBFe5CTwlqY2xppv6bPYIjJbzXbSIEsQtW8-1754398344867-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[adobe-coldfusion-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/cfide/administrator/images/mx_login.gif
+
+
+GET /cfide/administrator/images/mx_login.gif HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh, Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=knLYVEijim6rLZkK0rhlwt4E6uzvBsEK4XJNRg6UUQc-1754398351954-0.0.1.1-604800000; _cfuvid=JMbc1IfepMXim8pGgChLAZ8HarGpULZ9WvYJxDid4Fo-1754398374826-0.0.1.1-604800000; _cfuvid=ynxtdKqcgrHDNBYO1N0entpOC_Dka_MyTe5ceouVzA8-1754398391829-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[adobe-coldfusion-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/CFIDE/administrator/images/background.jpg
+
+
+GET /CFIDE/administrator/images/background.jpg HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=6iCrpquN.jNGxa.YTTJn3KkXzSdZxiAt9xAdSsf_WtY-1754398407854-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[adobe-coldfusion-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/CFIDE/administrator/images/background.jpg
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670275fb9af3f-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:53:34 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TAQH4XjoEEDiw=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 67613880-ec8b-4fb4-914f-41fc538250ed
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[adobe-coldfusion-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/CFIDE/administrator/images/background.jpg
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700d3a238062-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:29 GMT
+Expires: Tue, 05 Aug 2025 13:53:29 GMT
+Location: https://localization.webhooks.bitpanda.com/CFIDE/administrator/images/background.jpg
+Server: cloudflare
+Set-Cookie: _cfuvid=dgAU0eP1MHNDHAcGdNJSjqnL4F3ThaQKYCX3UKGtRwM-1754398409816-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[adobe-coldfusion-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/cfide/administrator/images/background.jpg
+
+
+GET /cfide/administrator/images/background.jpg HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=louRvh4uKZWKVZmEvcbv2bGcVoGGrcgIF6GNRX4QXQ8-1754398413927-0.0.1.1-604800000; _cfuvid=cJytbaOiGtqubs2941W8MrLvjrOfDuqELcZ1kyJppUs-1754398430109-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[adobe-coldfusion-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/cfide/administrator/images/background.jpg
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670ac98c13b89-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:53:55 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TDlFN1joEEBQQ=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: f5ded135-b0d7-43f1-bcea-956da71fc665
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[adobe-coldfusion-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/cfide/administrator/images/background.jpg
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6708c4b5f9621-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:50 GMT
+Expires: Tue, 05 Aug 2025 13:53:50 GMT
+Location: https://localization.webhooks.bitpanda.com/cfide/administrator/images/background.jpg
+Server: cloudflare
+Set-Cookie: _cfuvid=w9lio.ljfiB52bx4twjr9F.o3z7Ppc75uKnHnjvSv7g-1754398430152-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[adobe-coldfusion-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/CFIDE/administrator/images/componentutilslogin.jpg
+
+
+GET /CFIDE/administrator/images/componentutilslogin.jpg HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686; rv:129.0) Gecko/20100101 Firefox/129.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=CZoleRFDhBQlaReSS5quhmvf.cpW7PLmg62ENgA14X0-1754398435228-0.0.1.1-604800000; _cfuvid=iBX.UdVyePpZZ3UxmUEfgdF3vDmPpQf6j2HJKj6QcCw-1754398448346-0.0.1.1-604800000; _cfuvid=pKP5IWDk8gTjJF2uefZnqT3T_aRwyQ.3W6GJZBtxwzQ-1754398465310-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[adobe-coldfusion-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/cfide/administrator/images/componentutilslogin.jpg
+
+
+GET /cfide/administrator/images/componentutilslogin.jpg HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=I0wtj0GnFOJ1BwPEbPlmQWlNCAlEKR4kDJ9NjbyRWVY-1754398475043-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[adobe-coldfusion-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/cfide/administrator/images/componentutilslogin.jpg
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a671ef3d92e5f3-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:54:47 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TLrEx9DoEEmSA=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 2401cc7f-9481-412e-9cf7-e48626cd9eaa
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[adobe-coldfusion-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/cfide/administrator/images/componentutilslogin.jpg
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a671eeda6c05f2-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:46 GMT
+Expires: Tue, 05 Aug 2025 13:54:46 GMT
+Location: https://localization.webhooks.bitpanda.com/cfide/administrator/images/componentutilslogin.jpg
+Server: cloudflare
+Set-Cookie: _cfuvid=CCup452xuchyKthxsNhyy30hoq2foIBBHK3zXN7VNVM-1754398486893-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

@@ -1,0 +1,100 @@
+[opentouch-multimediaservices-panel] Dumped HTTP request for https://bts-custody.bitpanda.com/authenticationform/login
+
+
+GET /authenticationform/login HTTP/1.1
+Host: bts-custody.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=g0yyZqjqJqLmMjqLxLa94Z3pCPH7iw9AWHxCz6eV4j8-1754398150883-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[opentouch-multimediaservices-panel] Dumped HTTP response https://bts-custody.bitpanda.com/authenticationform/login
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Age: 369594
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c0efff5001-IAD
+Content-Disposition: inline; filename="index.html"
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:11 GMT
+Last-Modified: Fri, 01 Aug 2025 06:09:17 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=WIYo2X6d8KrGTRg5i_rORcSgQ4PZTLiMHaB.7hdjlrQ-1754398151888-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::vrvtp-1754398151875-e7b61231e6e7
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bitpanda Custody</title>
+    <script type="module" crossorigin src="/assets/index-CouF3uFo.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-B3jGpFCu.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+
+[opentouch-multimediaservices-panel] Dumped HTTP request for https://bts-custody.bitpanda.com/authenticationform/jsp/logonWeb.jsp
+
+
+GET /authenticationform/jsp/logonWeb.jsp HTTP/1.1
+Host: bts-custody.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686; rv:128.0) Gecko/20100101 Firefox/128.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=y0nNgBuAd.BLh0kO2gNa5APTP83bM7w.Wf9pIPbB2lk-1754398156987-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[opentouch-multimediaservices-panel] Dumped HTTP response https://bts-custody.bitpanda.com/authenticationform/jsp/logonWeb.jsp
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Age: 369600
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e67b483550-IAD
+Content-Disposition: inline; filename="index.html"
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:17 GMT
+Last-Modified: Fri, 01 Aug 2025 06:09:17 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=v2RzbUOVLvQJ6YBGL4MYSniPa4RoVQ0cKRLnswldVDA-1754398157856-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::kx7lp-1754398157847-e3e82a712fa7
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bitpanda Custody</title>
+    <script type="module" crossorigin src="/assets/index-CouF3uFo.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-B3jGpFCu.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+

@@ -1,0 +1,30 @@
+[immich-panel] Dumped HTTP request for https://advanced.bitpanda.com/auth/login
+
+
+GET /auth/login HTTP/1.1
+Host: advanced.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/101.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _ava_csrf=MTc1NDM5ODEzMnxJbTFLV2xOYU0xQXpaVk0yTVRnNGQwZE5VVkpDVVRGSFltRklkRGQ1VGtkbFVIZ3ZjRVV2VG1KWloyTTlJZ289fKJP_4w0njSvNJIudSGTj5zmPLvdwX5aErvdGNks_7hG; csrf=MTc1NDM5ODEzMnw2bGUwTDBjV1Q2aXI2UGo2WHMwWEdXVHpKVFRGUTdMWFFEZXNtSDBJUE1lYkZJRHlhMDktblZCcExyUTNPdUs2bVRKV2s0dmhHNkdieTh2S0FJLW50eUhMTkk4dXdwelQtQ0czYnZ2SVdFQkhXUWh0dGtQUWdNMTE0VkUyRUFPR2FBOD18PgRaU06astIPZyeswqMHIxEuC3ccwhO2gkCMPDZHRso=
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[immich-panel] Dumped HTTP response https://advanced.bitpanda.com/auth/login
+
+HTTP/1.1 302 Found
+Connection: close
+Alt-Svc: clear
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:48:56 GMT
+Location: https://account.bitpanda.com/authorization/oauth/authorize?client_id=14&redirect_uri=https%3A%2F%2Ffusion.bitpanda.com%2Fauth%2Fcallback&response_type=code&scope=openid+profile+email&state=31e9beae-efd1-448e-b8c6-48e3c69c8173
+Set-Cookie: csrf=MTc1NDM5ODEzNnxyTnQ1VnF3NG9QQ0QwMTdlNnc1bzFpbFJQMjBKYVdOUmNDTXlGeDNZUkMycHI3R3NLazlTSjlIX1dtYWdtNU9BZG9ENTFYQW1PdkdEelp0bjk5aTEybjlHRjJDaUh6cG1Uc3J4ekpFRzVPd0JnZDJjOVNuMldFcmtraFRDcVdrdklpQT18WT2aDNxKAs6kI7zJFPtqpnJuVkkhj15utaUTuGunNvY=; Path=/; Expires=Tue, 05 Aug 2025 12:53:56 GMT; Max-Age=300; HttpOnly; Secure
+Vary: Origin
+Vary: Cookie
+Via: 1.1 google
+X-Csrf-Token: lkPrPkMN0S7g9nZEcIeiSYE3E1u3ja63ZMD2h+Q4mu0O1blZMPqoAFUFukJBg+MK0Kx7IMxFfylb3x+UF2P46g==
+Content-Length: 0
+
+

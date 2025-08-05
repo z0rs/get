@@ -1,0 +1,45 @@
+[celebrus-detect] Dumped HTTP request for http://affiliates.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=zlBwblSfpOi0LvBr4nJOAbDKrCj6vW_4.HjEN1GUW.A-1754398186995-0.0.1.1-604800000; _cfuvid=dN7nSvXjvw8biJHhPQk7_AFCARMu9WcnE8TwgQn8sBs-1754398187808-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[celebrus-detect] Dumped HTTP response http://affiliates.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66aa87e777ff3-IAD
+Date: Tue, 05 Aug 2025 12:49:49 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[celebrus-detect] Dumped HTTP response http://affiliates.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66aa82b2a7fc4-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:48 GMT
+Expires: Tue, 05 Aug 2025 13:49:48 GMT
+Location: https://affiliates.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=EmymfkQGCMtBKradkHeeoLRDTM2.wfpgBvCrAkskSKE-1754398188856-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

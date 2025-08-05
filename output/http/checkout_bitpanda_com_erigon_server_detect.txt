@@ -1,0 +1,30 @@
+[erigon-server-detect] Dumped HTTP request for http://checkout.bitpanda.com
+
+
+POST / HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/116.0 Safari/537.36
+Connection: close
+Content-Length: 66
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"method":"web3_clientVersion","params":[],"id":1,"jsonrpc":"2.0"}
+[erigon-server-detect] Dumped HTTP response http://checkout.bitpanda.com
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:38 GMT
+Location: https://checkout.bitpanda.com
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

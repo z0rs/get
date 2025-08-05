@@ -1,0 +1,58 @@
+[skeepers-panel] Dumped HTTP request for https://api-segment.bitpanda.com/backend/login
+
+
+GET /backend/login HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=MdzEB06xh0_Rrx3.VqjA7FwEA5LD5rF2mn50rLGaYbM-1754398154116-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[skeepers-panel] Dumped HTTP response https://api-segment.bitpanda.com/backend/login
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e68bbed6e9-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:17 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=NOhhD.OuMZ7Wi89ynNkw_c0Wg1RQFJkK89E9w43Mi0g-1754398157946-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[skeepers-panel] Dumped HTTP request for https://api-segment.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=uIZp20x1lW0RQTV2XD3hdRLvVjv4FmpGuUoihf6xtUc-1754398163109-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[skeepers-panel] Dumped HTTP response https://api-segment.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a0c1b733b47-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:23 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=c9he.dbZjGNf6jtzHA7dzgPbJ5gVhzK.UvbBb41R.O0-1754398163973-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

@@ -1,0 +1,30 @@
+[typo3-composer] Dumped HTTP request for https://techsolutions.bitpanda.com/typo3/sysext/install/composer.json
+
+
+GET /typo3/sysext/install/composer.json HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[typo3-composer] Dumped HTTP response https://techsolutions.bitpanda.com/typo3/sysext/install/composer.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 556fb8386f039ca8ee6a5b3f9ad1828c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: KIOoZPLetyv2vvKwbhZn09DF_DL_9vbcYYzF9-CkS-pC16aYUYZd-A==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: ISQtr/2YwAOWjdefvCz7fjpBzCkqQ49KPzMwd7EreKy/9lj79Xut/q4ZPOx2V2Z3sPJmY9ahV2I=
+X-Amz-Request-Id: 41Z06J7D00ZR4A0X
+X-Cache: Error from cloudfront
+
+Not Found

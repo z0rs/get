@@ -1,0 +1,123 @@
+[octobercms-detect] Dumped HTTP request for http://techsupport.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[octobercms-detect] Dumped HTTP response http://techsupport.bitpanda.com
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66ec88fb982d5-IAD
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:38 GMT
+Location: https://techsupport.bitpanda.com/hc
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=mMPadKOTX6o%2F6W5B3z3HGp2RD8BQXmJWt4n2WIxDFYGrlT1bCmNKsnyVJ2PvtZmu2fHLkN%2BSIzTaqTfW3iSosgq82XeppfJhSrAcqTO0Vek0N%2F4Kgdq9lCiOlP4sEMi69DcxbAmKg25XrA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: _help_center_session=eVM2R3F2WStQdzRvSEZJQkt6UEc0WWtUZlRZZnVTVDdXbDJpNE5CMjdEVzhtak9Mc0tjRmRRTVZWN2JtSmU0RmtEeG1WbVgxNnBIYlJFTHU3UWdZa2ZDMklvdlZwL0p2SkphMFV1L1p3dDBSclRibGkrdlBQWnhuRmJjM3NrL21RUW5xVkFmeGRoWjVlbnM2dWVmQU9uWURoUVI2bmtuUXBCSjFIMWxmNS9PNXFrdDhWRUxVZXQzdm1tcEgranlpRldReEs5M2lpS1g2ekI0R1JwdUxkdz09LS1rRXgwYXVURmNKY29hUTZYaU5mU3RRPT0%3D--2a247e1c57cf5d1df3fe8ec5485128272c84879f; path=/; secure; HttpOnly; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: zorg
+X-Envoy-Decorator-Operation: /
+X-Envoy-Upstream-Service-Time: 23
+X-Request-Id: 96a66ec88fb982d5-FRA
+X-Runtime: 0.018795
+X-Ua-Compatible: IE=edge
+X-Zendesk-Origin-Server: app-server-759bdc4498-kmv4n
+X-Zendesk-Processed-Host-Header: techsupport.bitpanda.com
+X-Zendesk-Zorg: yes
+Zendesk-Service: help-center
+
+
+[octobercms-detect] Dumped HTTP response http://techsupport.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ec82fa5868a-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Expires: Tue, 05 Aug 2025 13:52:37 GMT
+Location: https://techsupport.bitpanda.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=O5UK89aUrgStJZBvKaODQwGF%2F2XybpB1ijrtcgHg0dTvKv7MzWPRi9UBPNin%2BhhQTPCLiXBYkRwCR2xN%2FRzpMbrzwYZ9L2hkLvak%2BOM%2FBev00n6G5OUjqI2lTepUZVkJQ8vyDIC0OtQwRQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=vV4fROkWrFkuSGJoGp43IJ17e.U7KHI_x_xtD0_BdDs-1754398357-1.0.1.1-87dx4iH9I0khJdAuKgxV0cy.HSswLexoui9AxKM3zJY7FtI727AcrJtg4qn18gU6xjcLXicZmESjJQoMLZS_2QI0E13kqsm_m6eFG56i.6o; path=/; expires=Tue, 05-Aug-25 13:22:37 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=eRZ82UZ.9E5M_tcVPybhgRBvyBJ4dxjqvLJGaKabYGA-1754398357808-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+
+[octobercms-detect] Dumped HTTP request for http://techsupport.bitpanda.com/modules/system/assets/js/framework.combined-min.js
+
+
+GET /modules/system/assets/js/framework.combined-min.js HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[octobercms-detect] Dumped HTTP response http://techsupport.bitpanda.com/modules/system/assets/js/framework.combined-min.js
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache
+Cache-Control: no-cache
+Cf-Cache-Status: MISS
+Cf-Ray: 96a66edb496d590e-IAD
+Content-Language: en-us
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:41 GMT
+Location: https://techsupport.bitpanda.com/hc/restricted?return_to=https%3A%2F%2Ftechsupport.bitpanda.com%2Fhc%2F404
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Protocol: HTTP/1.1 always
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=2CYNkspufthpXC7P78rSLvrCLaup6cPH3%2B9Z0z5Dy4mdgveLZJvnwAoBxdgwLS9iLrHx7%2FAK%2BiAy9HAZGIjzAcRIp5JQTwGmvKMwm2uFjouhRPOG38qXshEuAxnT%2ByFP1lQGCJ%2B%2BB%2FkBww%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept-Encoding
+Via: zorg
+X-Envoy-Decorator-Operation: /hc/404
+X-Envoy-Upstream-Service-Time: 57
+X-Request-Id: 96a66edb496d590e-IAD
+X-Runtime: 0.051719
+X-Ua-Compatible: IE=edge
+X-Zendesk-Origin-Server: app-server-759bdc4498-kmv4n
+X-Zendesk-Processed-Host-Header: techsupport.bitpanda.com
+X-Zendesk-Zorg: yes
+Zendesk-Service: help-center
+
+
+[octobercms-detect] Dumped HTTP response http://techsupport.bitpanda.com/modules/system/assets/js/framework.combined-min.js
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66edaea2005f5-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:40 GMT
+Expires: Tue, 05 Aug 2025 13:52:40 GMT
+Location: https://techsupport.bitpanda.com/modules/system/assets/js/framework.combined-min.js
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=quzsEn44NAScp%2BLMxI3cY5TpC6vO6kmO%2FLzxpcnGzWLSg4RkKxKYoJlyrL4tyl%2FmwxO6qF79u%2FiMoK%2FoYkQqLu6TABqqy62R0PCafS%2FMXJX8RbC77nFVMeF3To5eI861CEnlDZTnAHzSow%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=zAAkl5HE1DZ_635JayHXVKx1lLjLO3E7bxdO1eVtnWY-1754398360-1.0.1.1-iZ9UyJ3IfXNdaO1IoN9aTvm4o8hzPf83axu0I.khmLp8Ysz0VW4WAEMs1WjplvRfAaAcmJtewFShJ0aa7CLZxUiV5dE6lh_U7GhDeqlOS1Y; path=/; expires=Tue, 05-Aug-25 13:22:40 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=6fJFtGGTen5kLzfnt019ZeDfFiidW98xRLfZTLntMiA-1754398360817-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+

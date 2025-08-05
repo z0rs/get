@@ -1,0 +1,132 @@
+[graphql-flutter-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15
+Connection: close
+Content-Length: 44
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=4BF13zONtMn7UJ5rqGd37iF5kp.CZQgYi3O2iH5pwNY-1754398390841-0.0.1.1-604800000; _cfuvid=jbe5xyYp.3FC6uw7VYtEkHQKPZXME57PSViAKl4Gq4M-1754398404756-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query { __typename @deprecated }"}
+[graphql-flutter-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/graphql
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670471c78e614-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:53:39 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TBDET5joEEZPg=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: e491b7c4-b55a-4102-a29a-1879e24bee8a
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[graphql-flutter-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67046d91ed6dc-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:39 GMT
+Expires: Tue, 05 Aug 2025 13:53:39 GMT
+Location: https://localization.webhooks.bitpanda.com/graphql
+Server: cloudflare
+Set-Cookie: _cfuvid=mrmEpalq668_lIGQn6wXCbwzh0JKPG0f9kJwckpoXtY-1754398419030-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[graphql-flutter-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.11 Safari/605.1.15
+Connection: close
+Content-Length: 44
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=eMLIRTB6GMiD9fodqxDiJ66iuQfHoGSfZ6IWpBJqrDc-1754398419061-0.0.1.1-604800000; _cfuvid=VWO46baLmu7_18gP47W8EILXekbTX6UVhL54oaqyD7Q-1754398435102-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query { __typename @deprecated }"}
+[graphql-flutter-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/api/graphql
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670b2ee79398b-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:53:56 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TDxEMDjoEECrA=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 084e6f39-e36a-45a7-8186-245ceb5be7da
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[graphql-flutter-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/api/graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670abf8da8847-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:55 GMT
+Expires: Tue, 05 Aug 2025 13:53:55 GMT
+Location: https://localization.webhooks.bitpanda.com/api/graphql
+Server: cloudflare
+Set-Cookie: _cfuvid=CZoleRFDhBQlaReSS5quhmvf.cpW7PLmg62ENgA14X0-1754398435228-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[graphql-flutter-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/query
+
+
+POST /query HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.10 Safari/605.1.1
+Connection: close
+Content-Length: 44
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=yJzpoEbptnZmZ760qcPs5voBkGcA.WC4jed4gdkBDYo-1754398436491-0.0.1.1-604800000; _cfuvid=iBX.UdVyePpZZ3UxmUEfgdF3vDmPpQf6j2HJKj6QcCw-1754398448346-0.0.1.1-604800000; _cfuvid=pKP5IWDk8gTjJF2uefZnqT3T_aRwyQ.3W6GJZBtxwzQ-1754398465310-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query { __typename @deprecated }"}
+[graphql-flutter-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/
+
+
+POST / HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0
+Connection: close
+Content-Length: 44
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=I0wtj0GnFOJ1BwPEbPlmQWlNCAlEKR4kDJ9NjbyRWVY-1754398475043-0.0.1.1-604800000; _cfuvid=rfqBcSrp9CaJdPpsL4mJUL7zcKyiZuww2It7oR1euNs-1754398496941-0.0.1.1-604800000; _cfuvid=SRd06VDBt9CU.35x.OY_0zyBgX0yFhty37Yq_T7joUw-1754398510100-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query { __typename @deprecated }"}

@@ -1,0 +1,29 @@
+[plausible-panel] Dumped HTTP request for https://api-segment.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=8CaJkqk8jVYbH9Etc8wXAr7xxgwWncVqRI9_wz_ecTs-1754398153119-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[plausible-panel] Dumped HTTP response https://api-segment.bitpanda.com/login
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669cd6d2907b7-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:13 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=uOYkwurntSLL2vjtZj9amFb4v1FSch_r8E7WB96hsRA-1754398153950-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

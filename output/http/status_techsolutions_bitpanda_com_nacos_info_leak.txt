@@ -1,0 +1,46 @@
+[nacos-info-leak] Dumped HTTP request for https://status.techsolutions.bitpanda.com/v1/cs/configs?export=true&group&tenant&appName&ids&dataId
+
+
+GET /v1/cs/configs?export=true&group&tenant&appName&ids&dataId HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=enZNa3MzVG16RnBwSllqN0tIT09KTkdaWlp1RG1Tbk5OUUtjQWpMWHlUS2FvemZFSWFQbHVEd1JuUlNYWlAwV3p3L3ZJc2tOMkN6eWQwS3hsc1VyVE1MTitGK3BHenBWQzNnMUlmSTlZTWxzWTRhcXcyM1VMU09aNCtoTVZjUFRrR3Z5ZUtuOVlja3lwQ01VdEhlWm4vL3p2SnJXY0htRkl1eWpUaVdKS3FMdHA1TGFQSUZURUFzQ1ZmOW9DYVJVWG40d2NJV2U1aFJZdllRVzZObDFYZnlYemxSR29XMEJCRWVrQVJYa1dLYz0tLWtydTZYNzNyZS9kRytPUmx5N0R0UVE9PQ%3D%3D--b26cf7f4764145fde0c97c25f3f98b721225ceec
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[nacos-info-leak] Dumped HTTP response https://status.techsolutions.bitpanda.com/v1/cs/configs?export=true&group&tenant&appName&ids&dataId
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Atl-Request-Id: e6569d99-2c57-4f76-b9ec-0aa90cb5777b
+Atl-Traceid: e6569d992c574f76b9ec0aa90cb5777b
+Cache-Control: no-cache
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:46 GMT
+Location: https://status.techsolutions.bitpanda.com
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=446,atl-edge-internal;dur=3,atl-edge-upstream;dur=444,atl-edge-pop;desc="aws-us-east-1"
+Set-Cookie: _spsess=NFBLK0FQUWdFeGJPNC93S0NZckhoR2dYYlYwZVNHand0b1Y2N0tOVGlBTEJ4Q3cxMU1tdjZmYlNOTDkxVzdQLzQ0N2JOM2VJcDhhcHhkMzVNdEkxQ2dpTmdMWmtrdE1Wb3hxcW16QnJqcmVIL3ZKdTZkY3hSWU10d3JNZHhNMzNFcEo0eFU4c3E4cGxYVG42aG05YW56RXNQYWo0TEgxeU51Mms0SHY2QWdhSHhLVmFQbk9pWUltbXFjK0tKbnp3dzBUYit5bGpVL0JUOC9rR0pScnptRjVCODNodzlyc25RMjBKbmpJUHl5ND0tLXhDcnZoZHBsNzVqMmJoWTJHNUVWVkE9PQ%3D%3D--1ac98742ef7b67672914caa20c3b5898f8108e92; path=/; expires=Fri, 08 Aug 2025 12:52:46 GMT; secure; HttpOnly; SameSite=Lax
+Strict-Transport-Security: max-age=259200
+Vary: Accept,Accept-Encoding
+Via: 1.1 32c5b7040885724e78019cc31f0ef3e8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: bDnjvURfCNc4LFaznVLtA2Q9Sn3hx5UiHEbHbf2IzcBjQz73alO98w==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Runtime: 0.040585
+X-Statuspage-Version: 286d2fa8936ee868c90b9a354eeabf8b3176da68
+X-Xss-Protection: 1; mode=block
+
+<html><body>You are being <a href="https://status.techsolutions.bitpanda.com">redirected</a>.</body></html>

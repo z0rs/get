@@ -1,0 +1,39 @@
+[wordpress-tinymce-advanced] Dumped HTTP request for http://techsupport.bitpanda.com/wp-content/plugins/tinymce-advanced/readme.txt
+
+
+GET /wp-content/plugins/tinymce-advanced/readme.txt HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0
+Accept: */*
+Accept-Language: en
+Cookie: __cf_bm=.82EytjUvxZvQlWGoxB_4OL5MtGyetk1QCGvpCJfhQs-1754398366-1.0.1.1-YoQ6kpAYGN9YYoajICVR4q3Lu8zLr8xuR3SS0fAYYHRoHR4WzXS_opLEgatstWHNGY4ES2RmvcLzdwSJ6ANHKRhWNO_udaWtrMCyv8OptwM; _cfuvid=7R0IaCj2VBRvB7rDydoviVfkOniFu8pNCOeQo5bwi7U-1754398366854-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-tinymce-advanced] Dumped HTTP response http://techsupport.bitpanda.com/wp-content/plugins/tinymce-advanced/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f06aafe057e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:47 GMT
+Expires: Tue, 05 Aug 2025 13:52:47 GMT
+Location: https://techsupport.bitpanda.com/wp-content/plugins/tinymce-advanced/readme.txt
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=arFUJYfVhkiO65T9ajlipqGHWm9Fosaoz7Lpx8a9p2GB2Amyiognjhq409WtYWsWyt30jS%2BB8%2BEomKVieGiq1Mv7Q8vp%2BixJVWvspVpsC3mP3t4QN1RUIiXhrXhMQOR%2FOPhN%2Fpcy4vyCzw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=Y0sEaNZNKfIBbVd11gs_foiqHhMILdb486MQJM819es-1754398367-1.0.1.1-xTo5Y8_9_GafuSNWugdBfN2YxKDNBO10tYRlCarMKjGd8JkR6ltEDkbXqerFnmKLg4W3C2xrCzMck1x7EHcGRDcAiid2nfO6Tx7QuZLovvE; path=/; expires=Tue, 05-Aug-25 13:22:47 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=kJI4N2Oz2JLAdO2zzAwmduEkSnIyi9cS1EnHIemLbSg-1754398367812-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

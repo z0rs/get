@@ -1,0 +1,68 @@
+[microfocus-lifecycle-panel] Dumped HTTP request for https://bitpanda.com/qcbin/
+
+
+GET /qcbin/ HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=KQK8OuIm2a97z.balK8Pu7UmfHVkR9jBmYrIln_TqFE-1754398141035-0.0.1.1-604800000; _cfuvid=mHIDBhzIly_6vRaftRn2l7grjZ9prM0oSiuwK.iIPlc-1754398160832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[microfocus-lifecycle-panel] Dumped HTTP response https://bitpanda.com/qcbin/
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669f9e991d6a1-IAD
+Content-Security-Policy: frame-ancestors 'self' https://app.storyblok.com;
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:21 GMT
+Location: /en/qcbin
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::gttwq-1754398160999-899315ce4534
+
+Redirecting...
+
+[microfocus-lifecycle-panel] Dumped HTTP response https://bitpanda.com/qcbin/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669f99ad2c95e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:20 GMT
+Expires: Tue, 05 Aug 2025 13:49:20 GMT
+Location: https://www.bitpanda.com/qcbin
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[microfocus-lifecycle-panel] Dumped HTTP response https://bitpanda.com/qcbin/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669f95bef821b-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:20 GMT
+Expires: Tue, 05 Aug 2025 13:49:20 GMT
+Location: https://www.bitpanda.com/qcbin/
+Server: cloudflare
+Set-Cookie: _cfuvid=HdinExQz0aGOXBaIYLA3xuATgqcBBAfjBEqQEzhUriw-1754398160877-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

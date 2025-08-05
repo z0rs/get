@@ -1,0 +1,38 @@
+[wso2-products-detect] Dumped HTTP request for http://ff.bitpanda.com/services/Version
+
+
+GET /services/Version HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=XR41jGnZUTi_SP_.hCVKOcTQkcVQ8pFL9VSfaQNbNUo-1754398461054-0.0.1.1-604800000; GCLB="2417a05e9575d362"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wso2-products-detect] Dumped HTTP response http://ff.bitpanda.com/services/Version
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6717a2a208000-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:28 GMT
+Expires: Tue, 05 Aug 2025 13:54:28 GMT
+Location: https://ff.bitpanda.com/services/Version
+Server: cloudflare
+Set-Cookie: _cfuvid=M4pL5uB3kD.IQ1eD1TU85nTH3MS9nWuuNkY0Zyw4p1c-1754398468213-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

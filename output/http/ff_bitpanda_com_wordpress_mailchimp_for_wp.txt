@@ -1,0 +1,37 @@
+[wordpress-mailchimp-for-wp] Dumped HTTP request for http://ff.bitpanda.com/wp-content/plugins/mailchimp-for-wp/readme.txt
+
+
+GET /wp-content/plugins/mailchimp-for-wp/readme.txt HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/109.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=k0ipIK_grdMXm1lSHtdVelunVfE4iXhkhb5mmpd0r7E-1754398453020-0.0.1.1-604800000; GCLB="5300ca8850789611"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-mailchimp-for-wp] Dumped HTTP response http://ff.bitpanda.com/wp-content/plugins/mailchimp-for-wp/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a671341ea007a0-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:17 GMT
+Expires: Tue, 05 Aug 2025 13:54:17 GMT
+Location: https://ff.bitpanda.com/wp-content/plugins/mailchimp-for-wp/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=8fg16.lfN2Q8jpxytR5bV2OsOb.e5LBw.aaQA7XfhFc-1754398457007-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

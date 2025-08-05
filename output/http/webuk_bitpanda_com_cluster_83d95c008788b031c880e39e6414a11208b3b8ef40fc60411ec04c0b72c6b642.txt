@@ -1,0 +1,34 @@
+[cluster-83d95c008788b031c880e39e6414a11208b3b8ef40fc60411ec04c0b72c6b642] Dumped HTTP request for https://webuk.bitpanda.com/index.php
+
+
+GET /index.php HTTP/1.1
+Host: webuk.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=1.pFq0ZEJDyhmrCFAYNY2aqEUByk3kdoPuPPpvdwZ7s-1754398356919-0.0.1.1-604800000; _cfuvid=BtanE5bzK1Y2Tv9EsCp2cUDfffTFeigNFm3irI8kY0g-1754398372983-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-83d95c008788b031c880e39e6414a11208b3b8ef40fc60411ec04c0b72c6b642] Dumped HTTP response https://webuk.bitpanda.com/index.php
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: private, no-store, max-age=0
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66f5959c4395b-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:53:01 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=Z1nmksgwGIhTLW0vgZorAuWBKDe7WbwrIKVgokJ5rVY-1754398381101-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::c5f2x-1754398381087-809e9ad617bb
+
+Forbidden
+
+Forbidden
+iad1::c5f2x-1754398381087-809e9ad617bb

@@ -1,0 +1,121 @@
+[appwrite-panel] Dumped HTTP request for https://blog.bitpanda.com/images/favicon.png
+
+
+GET /images/favicon.png HTTP/1.1
+Host: blog.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[appwrite-panel] Dumped HTTP response https://blog.bitpanda.com/images/favicon.png
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=3600
+Cf-Cache-Status: MISS
+Cf-Ray: 96a66944aadddb71-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:48:52 GMT
+Expires: Tue, 05 Aug 2025 13:48:52 GMT
+Last-Modified: Wed, 15 Feb 2023 14:39:43 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=Enlz4qlOT0dnzmqcqjE7Ssdw9sykHVLRnI04vdeXrOw-1754398132168-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 87e02820e63ff6cf9cd98d9efbaab1fc.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: lm9zDs3RMBNw5r3EsLGUizvFE00g3sYNOjeaE1h2peL-eNFPdrL8iA==
+X-Amz-Cf-Pop: IAD55-P5
+X-Amz-Error-Code: NoSuchKey
+X-Amz-Error-Detail-Key: images/favicon.png
+X-Amz-Error-Message: The specified key does not exist.
+X-Amz-Version-Id: yR6rYC_OKaJnEAv9WrVQ56zvOAhJJ3Hl
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta content="ie=edge" http-equiv=x-ua-compatible><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name=viewport><title></title><script>var languages = ['en','de','fr','es','it','pl',];
+                var pages = {en: 'https://blog.bitpanda.com/en/error',de: 'https://blog.bitpanda.com/de/error',fr: 'https://blog.bitpanda.com/fr/error',es: 'https://blog.bitpanda.com/es/error',it: 'https://blog.bitpanda.com/it/error',pl: 'https://blog.bitpanda.com/pl/error',};
+                var language = window.navigator.userLanguage || window.navigator.language;
+                var langCode = language.split("-")[0];
+
+                var hasLanguage = false;
+                for (var i = 0; i < languages.length; i++) {
+                    if(window.location.pathname.startsWith("/" + languages[i])) {
+                        hasLanguage = true;
+                    }
+                }
+
+                if (!hasLanguage) {
+                    location.href = window.location.origin + "/en" + window.location.pathname;
+                } else {
+                   if(!(langCode in pages)) {
+                        langCode = "en";
+                    }
+
+                    location.href = pages[langCode];
+                }</script> <body>
+[appwrite-panel] Dumped HTTP request for https://blog.bitpanda.com/favicon.png
+
+
+GET /favicon.png HTTP/1.1
+Host: blog.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=vQ0vKyxf_7biQwx7SeP3QxGCYhy1j.bTD_KlMNjkO_M-1754398139131-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[appwrite-panel] Dumped HTTP response https://blog.bitpanda.com/favicon.png
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=3600
+Cf-Cache-Status: MISS
+Cf-Ray: 96a66975de15b964-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:00 GMT
+Expires: Tue, 05 Aug 2025 13:49:00 GMT
+Last-Modified: Wed, 15 Feb 2023 14:39:43 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=ttSwSMeM7NuHa61EEyEszZfuUyBu22G5_AOJr5Kwo_A-1754398140014-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 19818f9265689e7f5cbb430f8edbe402.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: GediaEimaw7Gmzaahy5ZUJ9GcZaHDtb6M-p_WI_VGyVkZ3ATgqN9VA==
+X-Amz-Cf-Pop: IAD55-P5
+X-Amz-Error-Code: NoSuchKey
+X-Amz-Error-Detail-Key: favicon.png
+X-Amz-Error-Message: The specified key does not exist.
+X-Amz-Version-Id: yR6rYC_OKaJnEAv9WrVQ56zvOAhJJ3Hl
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta content="ie=edge" http-equiv=x-ua-compatible><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name=viewport><title></title><script>var languages = ['en','de','fr','es','it','pl',];
+                var pages = {en: 'https://blog.bitpanda.com/en/error',de: 'https://blog.bitpanda.com/de/error',fr: 'https://blog.bitpanda.com/fr/error',es: 'https://blog.bitpanda.com/es/error',it: 'https://blog.bitpanda.com/it/error',pl: 'https://blog.bitpanda.com/pl/error',};
+                var language = window.navigator.userLanguage || window.navigator.language;
+                var langCode = language.split("-")[0];
+
+                var hasLanguage = false;
+                for (var i = 0; i < languages.length; i++) {
+                    if(window.location.pathname.startsWith("/" + languages[i])) {
+                        hasLanguage = true;
+                    }
+                }
+
+                if (!hasLanguage) {
+                    location.href = window.location.origin + "/en" + window.location.pathname;
+                } else {
+                   if(!(langCode in pages)) {
+                        langCode = "en";
+                    }
+
+                    location.href = pages[langCode];
+                }</script> <body>

@@ -1,0 +1,35 @@
+[wordpress-all-in-one-wp-migration] Dumped HTTP request for https://status.techsolutions.bitpanda.com/wp-content/plugins/all-in-one-wp-migration/readme.txt
+
+
+GET /wp-content/plugins/all-in-one-wp-migration/readme.txt HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=VllZUGVpKzU3eWcwaURtS0gycE5MWTQ0a1grZC9HRkJ2MGJqN1RKbTZkZWxxazRvU0RMeWtsc2s4MzQyaThwVk13UUZzS0VnUUpKRnozUm5NMm9sR1U2NGJHUlAyZ1c4RktuczBwcDlHeVE5bTZ6ZFoyL1hkMGVvTEZVbVBrbzdGZVROa2g3c3hYV1AxTXFQdDN2L2hMV1laQ2E0cTJpTC9OSFZyOVNRZVBsVHdrN0s0K2tTeGI3RFlQZDFxQnlFTUxyclp5YmhDM0RKd2huNzdmMFhvVURUYWlYbm9RUHg3WVdQMFdZNWNwRT0tLW1qYzZKVVUrY1Z4QTVZdkxwWWh3NWc9PQ%3D%3D--2168904fc82f1b48896f78f180497b0a3e3f95fd
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-all-in-one-wp-migration] Dumped HTTP response https://status.techsolutions.bitpanda.com/wp-content/plugins/all-in-one-wp-migration/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: e8dad9f0-99ad-492a-9083-64443fadb281
+Atl-Traceid: e8dad9f099ad492a908364443fadb281
+Date: Tue, 05 Aug 2025 12:52:38 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=4,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 ade18dc841d2e1cc8ef49611c5d4c93e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 9wWDWWuiKJy0KBnEdAKgCDAM8vtbE6DtX3ELOZhc_mGGpn3uLHDGiw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 590379884
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

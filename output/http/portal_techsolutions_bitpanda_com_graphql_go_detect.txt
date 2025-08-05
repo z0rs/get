@@ -1,0 +1,60 @@
+[graphql-go-detect] Dumped HTTP request for https://portal.techsolutions.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: portal.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/129.0 Safari/537.36
+Connection: close
+Content-Length: 12
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":""}
+[graphql-go-detect] Dumped HTTP request for https://portal.techsolutions.bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: portal.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 12
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":""}
+[graphql-go-detect] Dumped HTTP request for https://portal.techsolutions.bitpanda.com/query
+
+
+POST /query HTTP/1.1
+Host: portal.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0
+Connection: close
+Content-Length: 12
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":""}
+[graphql-go-detect] Dumped HTTP request for https://portal.techsolutions.bitpanda.com/
+
+
+POST / HTTP/1.1
+Host: portal.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0  Macintosh  Intel Mac OS X 10_15_7  AppleWebKit/605.1.15  KHTML  like Gecko  Version/18.4 Safari/605.1.15
+Connection: close
+Content-Length: 12
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":""}

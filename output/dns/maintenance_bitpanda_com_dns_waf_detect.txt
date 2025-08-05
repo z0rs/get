@@ -1,0 +1,10 @@
+[dns-waf-detect] Dumped DNS request for maintenance.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 10906
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;maintenance.bitpanda.com.	IN	 NS
+

@@ -1,0 +1,28 @@
+[CVE-2021-26598] Dumped HTTP request for https://techsolutions.bitpanda.com/misc.php?action=showpopups&type=friend
+
+
+GET /misc.php?action=showpopups&type=friend HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 5.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.3319.102 Safari/537.36
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2021-26598] Dumped HTTP response https://techsolutions.bitpanda.com/misc.php?action=showpopups&type=friend
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 5d22d4cd27d82c133b77117809cd93b4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: GDaxJmBE71Ak81bAYsIL-xlFZ4ev8e5k4Mwac1d9uPCwOuTYqFG6vA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: 2sPY6rA6Gu1cgHF+unCxNnYDhoDwUNFyuEzK+wbYs+n5t698ny33AE3BaRRmbOYTNxlrcE6c2i0=
+X-Amz-Request-Id: 41Z14KCPGWSC3TKX
+X-Cache: Error from cloudfront
+
+Not Found

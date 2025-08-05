@@ -1,0 +1,29 @@
+[ibm-dcec-panel] Dumped HTTP request for https://api-segment.bitpanda.com/teamserver/faces/login.jsp
+
+
+GET /teamserver/faces/login.jsp HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=BFhFDxPLYx3vAnTAtP5VHNEHNUkdruF7R5We9Jy5UDQ-1754398143186-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ibm-dcec-panel] Dumped HTTP response https://api-segment.bitpanda.com/teamserver/faces/login.jsp
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6698ecb5a8f17-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:03 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=Lv3BPhPwV0hbZ2tAk_1eU.Be8A4B5h3sP6Ip7TnBepo-1754398143911-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

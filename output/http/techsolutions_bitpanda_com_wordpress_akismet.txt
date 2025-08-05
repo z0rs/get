@@ -1,0 +1,29 @@
+[wordpress-akismet] Dumped HTTP request for https://techsolutions.bitpanda.com/wp-content/plugins/akismet/readme.txt
+
+
+GET /wp-content/plugins/akismet/readme.txt HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-akismet] Dumped HTTP response https://techsolutions.bitpanda.com/wp-content/plugins/akismet/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:48 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 c95a705fdf4e3077f715bd100df04b8a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: fd082Mz8-fqIdurfJPqkpaSbjioEf_QyfGo-2zvDFElhYlnqMwZjaw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: SkZwYoOSaKAVPJc28FrrKDVGbqYp8HLHuh9KCnrSdNRyocuCGX1MdP9XUNqOyiiqbypM2KquQn4=
+X-Amz-Request-Id: XXNVC9S6CS3Y4HR5
+X-Cache: Error from cloudfront
+
+Not Found

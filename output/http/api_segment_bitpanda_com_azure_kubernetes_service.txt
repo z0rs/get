@@ -1,0 +1,29 @@
+[azure-kubernetes-service] Dumped HTTP request for https://api-segment.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=zSn8k_F3czKC66jcidWJ1yAe5xkU7gOtPAY25nJksEk-1754398169348-0.0.1.1-604800000; _cfuvid=NolaDxYy1XhtNB1qXhgGNLpIPLLTLQ_3tjsww0Q7zI0-1754398170373-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[azure-kubernetes-service] Dumped HTTP response https://api-segment.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a378ba9578e-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:30 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=NJD7f7rTRgZORXhCabK4zOaBNJQNAHQgTNHYrImraBg-1754398170904-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

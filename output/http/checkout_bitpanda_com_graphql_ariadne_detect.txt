@@ -1,0 +1,128 @@
+[graphql-ariadne-detect] Dumped HTTP request for http://checkout.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 37
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query { __typename @abc }"}
+[graphql-ariadne-detect] Dumped HTTP response http://checkout.bitpanda.com/graphql
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:39 GMT
+Location: https://checkout.bitpanda.com/graphql
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+[graphql-ariadne-detect] Dumped HTTP request for http://checkout.bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 37
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query { __typename @abc }"}
+[graphql-ariadne-detect] Dumped HTTP response http://checkout.bitpanda.com/api/graphql
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:45 GMT
+Location: https://checkout.bitpanda.com/api/graphql
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+[graphql-ariadne-detect] Dumped HTTP request for http://checkout.bitpanda.com/query
+
+
+POST /query HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:128.0) Gecko/20100101 Firefox/128.0
+Connection: close
+Content-Length: 37
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query { __typename @abc }"}
+[graphql-ariadne-detect] Dumped HTTP response http://checkout.bitpanda.com/query
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:51 GMT
+Location: https://checkout.bitpanda.com/query
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+[graphql-ariadne-detect] Dumped HTTP request for http://checkout.bitpanda.com/
+
+
+POST / HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Content-Length: 37
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query { __typename @abc }"}
+[graphql-ariadne-detect] Dumped HTTP response http://checkout.bitpanda.com/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:57 GMT
+Location: https://checkout.bitpanda.com
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

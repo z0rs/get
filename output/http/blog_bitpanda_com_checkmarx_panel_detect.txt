@@ -1,0 +1,179 @@
+[checkmarx-panel-detect] Dumped HTTP request for https://blog.bitpanda.com/cxrestapi/help/system/version
+
+
+GET /cxrestapi/help/system/version HTTP/1.1
+Host: blog.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/129.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[checkmarx-panel-detect] Dumped HTTP response https://blog.bitpanda.com/cxrestapi/help/system/version
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 1309
+Cache-Control: max-age=3600, no-transform, public
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669447bbd828a-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:48:52 GMT
+Etag: "78e2357df5414ccc96a4dd3419a9fe77"
+Last-Modified: Wed, 15 Feb 2023 14:39:43 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=lU.CKdGFkuYeTga7CvhE0uCySvzOZArowXEalYSqHPc-1754398132132-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 6cf4081c1099e7ccfdba44532a13bc54.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: OvGBzMMXnAr_dFqVG-B7gaHRmC5vBVAr6ZtSkNPFHglvtJHRZ0Ma1w==
+X-Amz-Cf-Pop: IAD55-P5
+X-Amz-Error-Code: NoSuchKey
+X-Amz-Error-Detail-Key: cxrestapi/help/system/version
+X-Amz-Error-Message: The specified key does not exist.
+X-Amz-Version-Id: yR6rYC_OKaJnEAv9WrVQ56zvOAhJJ3Hl
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta content="ie=edge" http-equiv=x-ua-compatible><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name=viewport><title></title><script>var languages = ['en','de','fr','es','it','pl',];
+                var pages = {en: 'https://blog.bitpanda.com/en/error',de: 'https://blog.bitpanda.com/de/error',fr: 'https://blog.bitpanda.com/fr/error',es: 'https://blog.bitpanda.com/es/error',it: 'https://blog.bitpanda.com/it/error',pl: 'https://blog.bitpanda.com/pl/error',};
+                var language = window.navigator.userLanguage || window.navigator.language;
+                var langCode = language.split("-")[0];
+
+                var hasLanguage = false;
+                for (var i = 0; i < languages.length; i++) {
+                    if(window.location.pathname.startsWith("/" + languages[i])) {
+                        hasLanguage = true;
+                    }
+                }
+
+                if (!hasLanguage) {
+                    location.href = window.location.origin + "/en" + window.location.pathname;
+                } else {
+                   if(!(langCode in pages)) {
+                        langCode = "en";
+                    }
+
+                    location.href = pages[langCode];
+                }</script> <body>
+[checkmarx-panel-detect] Dumped HTTP request for https://blog.bitpanda.com/cxwebclient/Login.aspx
+
+
+GET /cxwebclient/Login.aspx HTTP/1.1
+Host: blog.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=vQ0vKyxf_7biQwx7SeP3QxGCYhy1j.bTD_KlMNjkO_M-1754398139131-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[checkmarx-panel-detect] Dumped HTTP response https://blog.bitpanda.com/cxwebclient/Login.aspx
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 1309
+Cache-Control: max-age=3600, no-transform, public
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66975c9636fb5-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:00 GMT
+Etag: "78e2357df5414ccc96a4dd3419a9fe77"
+Last-Modified: Wed, 15 Feb 2023 14:39:43 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=e00.MfuPilgDITwdjEM64x.RZXk4IjqaYWdSEfPnG.U-1754398140032-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 af714cbe72276e767e61cd6e1fa5ed48.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: GJQc0_C0mvpPRslFnaGANvChgR5z6j-pGXJlr9FylSxioQnWHLQiNQ==
+X-Amz-Cf-Pop: IAD55-P5
+X-Amz-Error-Code: NoSuchKey
+X-Amz-Error-Detail-Key: cxwebclient/Login.aspx
+X-Amz-Error-Message: The specified key does not exist.
+X-Amz-Version-Id: yR6rYC_OKaJnEAv9WrVQ56zvOAhJJ3Hl
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta content="ie=edge" http-equiv=x-ua-compatible><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name=viewport><title></title><script>var languages = ['en','de','fr','es','it','pl',];
+                var pages = {en: 'https://blog.bitpanda.com/en/error',de: 'https://blog.bitpanda.com/de/error',fr: 'https://blog.bitpanda.com/fr/error',es: 'https://blog.bitpanda.com/es/error',it: 'https://blog.bitpanda.com/it/error',pl: 'https://blog.bitpanda.com/pl/error',};
+                var language = window.navigator.userLanguage || window.navigator.language;
+                var langCode = language.split("-")[0];
+
+                var hasLanguage = false;
+                for (var i = 0; i < languages.length; i++) {
+                    if(window.location.pathname.startsWith("/" + languages[i])) {
+                        hasLanguage = true;
+                    }
+                }
+
+                if (!hasLanguage) {
+                    location.href = window.location.origin + "/en" + window.location.pathname;
+                } else {
+                   if(!(langCode in pages)) {
+                        langCode = "en";
+                    }
+
+                    location.href = pages[langCode];
+                }</script> <body>
+[checkmarx-panel-detect] Dumped HTTP request for https://blog.bitpanda.com/cxrestapi/auth/identity/.well-known/openid-configuration
+
+
+GET /cxrestapi/auth/identity/.well-known/openid-configuration HTTP/1.1
+Host: blog.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=U.fKQ96yAJA3iqyNJVB3MUXJCWe9fiLXfnM1NSoDBCA-1754398147031-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[checkmarx-panel-detect] Dumped HTTP response https://blog.bitpanda.com/cxrestapi/auth/identity/.well-known/openid-configuration
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 1309
+Cache-Control: max-age=3600, no-transform, public
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669a7bb17c55a-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:07 GMT
+Etag: "78e2357df5414ccc96a4dd3419a9fe77"
+Last-Modified: Wed, 15 Feb 2023 14:39:43 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=a2axWWjAU9eX2PRM3wYhr5phsDBhW5WNknsLjxZz00Y-1754398147992-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 29e51fc5bac0897053e2f02edda4aecc.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: j4GQoOdIpHu96mic1QXRe5K97wgKfoUp_iU_kBt8e4Wid0VaU7CW_g==
+X-Amz-Cf-Pop: IAD55-P5
+X-Amz-Error-Code: NoSuchKey
+X-Amz-Error-Detail-Key: cxrestapi/auth/identity/.well-known/openid-configuration
+X-Amz-Error-Message: The specified key does not exist.
+X-Amz-Version-Id: yR6rYC_OKaJnEAv9WrVQ56zvOAhJJ3Hl
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta content="ie=edge" http-equiv=x-ua-compatible><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name=viewport><title></title><script>var languages = ['en','de','fr','es','it','pl',];
+                var pages = {en: 'https://blog.bitpanda.com/en/error',de: 'https://blog.bitpanda.com/de/error',fr: 'https://blog.bitpanda.com/fr/error',es: 'https://blog.bitpanda.com/es/error',it: 'https://blog.bitpanda.com/it/error',pl: 'https://blog.bitpanda.com/pl/error',};
+                var language = window.navigator.userLanguage || window.navigator.language;
+                var langCode = language.split("-")[0];
+
+                var hasLanguage = false;
+                for (var i = 0; i < languages.length; i++) {
+                    if(window.location.pathname.startsWith("/" + languages[i])) {
+                        hasLanguage = true;
+                    }
+                }
+
+                if (!hasLanguage) {
+                    location.href = window.location.origin + "/en" + window.location.pathname;
+                } else {
+                   if(!(langCode in pages)) {
+                        langCode = "en";
+                    }
+
+                    location.href = pages[langCode];
+                }</script> <body>

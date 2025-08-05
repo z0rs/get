@@ -1,0 +1,38 @@
+[wordpress-all-in-one-wp-security-and-firewall] Dumped HTTP request for https://custody.bitpanda.com/wp-content/plugins/all-in-one-wp-security-and-firewall/readme.txt
+
+
+GET /wp-content/plugins/all-in-one-wp-security-and-firewall/readme.txt HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=MiTjx6P5StoU6DfhI6ghEafMLAJHv8el13j_mORnrNY-1754398418119-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-all-in-one-wp-security-and-firewall] Dumped HTTP response https://custody.bitpanda.com/wp-content/plugins/all-in-one-wp-security-and-firewall/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6704159453944-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:38 GMT
+Expires: Tue, 05 Aug 2025 13:53:38 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=skRHxjHAPqlfcdO196lCn5wXtsPHPobIsMXDn6qLI20-1754398418167-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

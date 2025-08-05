@@ -1,0 +1,852 @@
+[oracle-peoplesoft-panel] Dumped HTTP request for http://requests.bitpanda.com/psp/CT920/?cmd=login&languageCd=ENG
+
+
+GET /psp/CT920/?cmd=login&languageCd=ENG HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://requests.bitpanda.com/psp/CT920/?cmd=login&languageCd=ENG
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 1722
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:52:03 GMT
+X-Request-Id: 2b8998cc-b36c-4d14-bf1a-9fbf9832912c
+X-Runtime: 0.001941
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The page you were looking for doesn't exist (404)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+  .rails-default-error-page {
+    background-color: #EFEFEF;
+    color: #2E2F30;
+    text-align: center;
+    font-family: arial, sans-serif;
+    margin: 0;
+  }
+
+  .rails-default-error-page div.dialog {
+    width: 95%;
+    max-width: 33em;
+    margin: 4em auto 0;
+  }
+
+  .rails-default-error-page div.dialog > div {
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #BBB;
+    border-top: #B00100 solid 4px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: white;
+    padding: 7px 12% 0;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+
+  .rails-default-error-page h1 {
+    font-size: 100%;
+    color: #730E15;
+    line-height: 1.5em;
+  }
+
+  .rails-default-error-page div.dialog > p {
+    margin: 0 0 1em;
+    padding: 1em;
+    background-color: #F7F7F7;
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #999;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-color: #DADADA;
+    color: #666;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+  </style>
+</head>
+
+<body class="rails-default-error-page">
+  <!-- This file lives in public/404.html -->
+  <div class="dialog">
+    <div>
+      <h1>The page you were looking for doesn't exist.</h1>
+      <p>You may have mistyped the address or the page may have moved.</p>
+    </div>
+    <p>If you are the application owner check the logs for more information.</p>
+  </div>
+</body>
+</html>
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://requests.bitpanda.com/psp/CT920/?cmd=login&languageCd=ENG
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:02 GMT
+Location: https://requests.bitpanda.com/psp/CT920/?cmd=login&languageCd=ENG
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for http://requests.bitpanda.com/psp/esshrprd/?cmd=login&languageCd=ENG
+
+
+GET /psp/esshrprd/?cmd=login&languageCd=ENG HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://requests.bitpanda.com/psp/esshrprd/?cmd=login&languageCd=ENG
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 1722
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:52:03 GMT
+X-Request-Id: d9ad7ec3-da11-4cf2-9e0a-e255155ccd97
+X-Runtime: 0.001951
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The page you were looking for doesn't exist (404)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+  .rails-default-error-page {
+    background-color: #EFEFEF;
+    color: #2E2F30;
+    text-align: center;
+    font-family: arial, sans-serif;
+    margin: 0;
+  }
+
+  .rails-default-error-page div.dialog {
+    width: 95%;
+    max-width: 33em;
+    margin: 4em auto 0;
+  }
+
+  .rails-default-error-page div.dialog > div {
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #BBB;
+    border-top: #B00100 solid 4px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: white;
+    padding: 7px 12% 0;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+
+  .rails-default-error-page h1 {
+    font-size: 100%;
+    color: #730E15;
+    line-height: 1.5em;
+  }
+
+  .rails-default-error-page div.dialog > p {
+    margin: 0 0 1em;
+    padding: 1em;
+    background-color: #F7F7F7;
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #999;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-color: #DADADA;
+    color: #666;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+  </style>
+</head>
+
+<body class="rails-default-error-page">
+  <!-- This file lives in public/404.html -->
+  <div class="dialog">
+    <div>
+      <h1>The page you were looking for doesn't exist.</h1>
+      <p>You may have mistyped the address or the page may have moved.</p>
+    </div>
+    <p>If you are the application owner check the logs for more information.</p>
+  </div>
+</body>
+</html>
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://requests.bitpanda.com/psp/esshrprd/?cmd=login&languageCd=ENG
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:02 GMT
+Location: https://requests.bitpanda.com/psp/esshrprd/?cmd=login&languageCd=ENG
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for http://requests.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://requests.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 11
+Cache-Control: no-cache
+Content-Security-Policy: default-src 'self' https:; connect-src 'self' https:; font-src 'self' https: data:; img-src 'self' https: data:; object-src 'none'; script-src 'self' https: asset.mojohelpdesk.com app.mojohelpdesk.com *.googleapis.com www.googletagmanager.com *.facebook.net www.google-analytics.com 'unsafe-inline' 'unsafe-eval' *.doubleclick.net code.jquery.com *.smartsuppchat.com *.smartlook.com *.smartsuppcdn.com *.recaptcha.net *.gstatic.com *.gstatic.cn; style-src 'self' https: 'unsafe-inline'
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:03 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Vary: Accept
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: 88432e41-522e-430a-827e-e83ca16e3e7e
+X-Runtime: 0.005966
+X-Ua-Compatible: IE=edge,chrome=1
+X-Xss-Protection: 0
+
+Blocked IP.
+[oracle-peoplesoft-panel] Dumped HTTP response http://requests.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:02 GMT
+Location: https://requests.bitpanda.com/
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for http://requests.bitpanda.com/psp/fscmprod/?cmd=login&languageCd=ENG
+
+
+GET /psp/fscmprod/?cmd=login&languageCd=ENG HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://requests.bitpanda.com/psp/fscmprod/?cmd=login&languageCd=ENG
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 1722
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:52:03 GMT
+X-Request-Id: 8950e2d6-bc35-47e4-baac-216da8198127
+X-Runtime: 0.001970
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The page you were looking for doesn't exist (404)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+  .rails-default-error-page {
+    background-color: #EFEFEF;
+    color: #2E2F30;
+    text-align: center;
+    font-family: arial, sans-serif;
+    margin: 0;
+  }
+
+  .rails-default-error-page div.dialog {
+    width: 95%;
+    max-width: 33em;
+    margin: 4em auto 0;
+  }
+
+  .rails-default-error-page div.dialog > div {
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #BBB;
+    border-top: #B00100 solid 4px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: white;
+    padding: 7px 12% 0;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+
+  .rails-default-error-page h1 {
+    font-size: 100%;
+    color: #730E15;
+    line-height: 1.5em;
+  }
+
+  .rails-default-error-page div.dialog > p {
+    margin: 0 0 1em;
+    padding: 1em;
+    background-color: #F7F7F7;
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #999;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-color: #DADADA;
+    color: #666;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+  </style>
+</head>
+
+<body class="rails-default-error-page">
+  <!-- This file lives in public/404.html -->
+  <div class="dialog">
+    <div>
+      <h1>The page you were looking for doesn't exist.</h1>
+      <p>You may have mistyped the address or the page may have moved.</p>
+    </div>
+    <p>If you are the application owner check the logs for more information.</p>
+  </div>
+</body>
+</html>
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://requests.bitpanda.com/psp/fscmprod/?cmd=login&languageCd=ENG
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:02 GMT
+Location: https://requests.bitpanda.com/psp/fscmprod/?cmd=login&languageCd=ENG
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for http://requests.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14.6) AppleWebKit/620.30 (KHTML, like Gecko) Version/17.0 Safari/620.30
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://requests.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 11
+Cache-Control: no-cache
+Content-Security-Policy: default-src 'self' https:; connect-src 'self' https:; font-src 'self' https: data:; img-src 'self' https: data:; object-src 'none'; script-src 'self' https: asset.mojohelpdesk.com app.mojohelpdesk.com *.googleapis.com www.googletagmanager.com *.facebook.net www.google-analytics.com 'unsafe-inline' 'unsafe-eval' *.doubleclick.net code.jquery.com *.smartsuppchat.com *.smartlook.com *.smartsuppcdn.com *.recaptcha.net *.gstatic.com *.gstatic.cn; style-src 'self' https: 'unsafe-inline'
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:03 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Vary: Accept
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: 4527cd82-0d73-4e05-bc27-4e013157c9a0
+X-Runtime: 0.004437
+X-Ua-Compatible: IE=edge,chrome=1
+X-Xss-Protection: 0
+
+Blocked IP.
+[oracle-peoplesoft-panel] Dumped HTTP response http://requests.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:02 GMT
+Location: https://requests.bitpanda.com/
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for http://requests.bitpanda.com/psp/ps/?cmd=login&languageCd=ENG
+
+
+GET /psp/ps/?cmd=login&languageCd=ENG HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://requests.bitpanda.com/psp/ps/?cmd=login&languageCd=ENG
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 1722
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:52:03 GMT
+X-Request-Id: 86d510e3-77f0-4138-bc3b-1b7cb5003afa
+X-Runtime: 0.002123
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The page you were looking for doesn't exist (404)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+  .rails-default-error-page {
+    background-color: #EFEFEF;
+    color: #2E2F30;
+    text-align: center;
+    font-family: arial, sans-serif;
+    margin: 0;
+  }
+
+  .rails-default-error-page div.dialog {
+    width: 95%;
+    max-width: 33em;
+    margin: 4em auto 0;
+  }
+
+  .rails-default-error-page div.dialog > div {
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #BBB;
+    border-top: #B00100 solid 4px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: white;
+    padding: 7px 12% 0;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+
+  .rails-default-error-page h1 {
+    font-size: 100%;
+    color: #730E15;
+    line-height: 1.5em;
+  }
+
+  .rails-default-error-page div.dialog > p {
+    margin: 0 0 1em;
+    padding: 1em;
+    background-color: #F7F7F7;
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #999;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-color: #DADADA;
+    color: #666;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+  </style>
+</head>
+
+<body class="rails-default-error-page">
+  <!-- This file lives in public/404.html -->
+  <div class="dialog">
+    <div>
+      <h1>The page you were looking for doesn't exist.</h1>
+      <p>You may have mistyped the address or the page may have moved.</p>
+    </div>
+    <p>If you are the application owner check the logs for more information.</p>
+  </div>
+</body>
+</html>
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://requests.bitpanda.com/psp/ps/?cmd=login&languageCd=ENG
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:02 GMT
+Location: https://requests.bitpanda.com/psp/ps/?cmd=login&languageCd=ENG
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for http://requests.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://requests.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 11
+Cache-Control: no-cache
+Content-Security-Policy: default-src 'self' https:; connect-src 'self' https:; font-src 'self' https: data:; img-src 'self' https: data:; object-src 'none'; script-src 'self' https: asset.mojohelpdesk.com app.mojohelpdesk.com *.googleapis.com www.googletagmanager.com *.facebook.net www.google-analytics.com 'unsafe-inline' 'unsafe-eval' *.doubleclick.net code.jquery.com *.smartsuppchat.com *.smartlook.com *.smartsuppcdn.com *.recaptcha.net *.gstatic.com *.gstatic.cn; style-src 'self' https: 'unsafe-inline'
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:03 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Vary: Accept
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: 8eb3f32a-31a7-4c84-98b8-9ae5dff8ccda
+X-Runtime: 0.003232
+X-Ua-Compatible: IE=edge,chrome=1
+X-Xss-Protection: 0
+
+Blocked IP.
+[oracle-peoplesoft-panel] Dumped HTTP response http://requests.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:02 GMT
+Location: https://requests.bitpanda.com/
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for http://requests.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for http://requests.bitpanda.com/psp/retess/?cmd=login&languageCd=ENG
+
+
+GET /psp/retess/?cmd=login&languageCd=ENG HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/121.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://requests.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 11
+Cache-Control: no-cache
+Content-Security-Policy: default-src 'self' https:; connect-src 'self' https:; font-src 'self' https: data:; img-src 'self' https: data:; object-src 'none'; script-src 'self' https: asset.mojohelpdesk.com app.mojohelpdesk.com *.googleapis.com www.googletagmanager.com *.facebook.net www.google-analytics.com 'unsafe-inline' 'unsafe-eval' *.doubleclick.net code.jquery.com *.smartsuppchat.com *.smartlook.com *.smartsuppcdn.com *.recaptcha.net *.gstatic.com *.gstatic.cn; style-src 'self' https: 'unsafe-inline'
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:03 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Vary: Accept
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: 6fbfb08c-d312-459d-8689-ce07bcf9c7f3
+X-Runtime: 0.003891
+X-Ua-Compatible: IE=edge,chrome=1
+X-Xss-Protection: 0
+
+Blocked IP.
+[oracle-peoplesoft-panel] Dumped HTTP response http://requests.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:02 GMT
+Location: https://requests.bitpanda.com/
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://requests.bitpanda.com/psp/retess/?cmd=login&languageCd=ENG
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 1722
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:52:03 GMT
+X-Request-Id: dbc4e4c7-3a31-4cf7-ab43-12aea4492cbd
+X-Runtime: 0.001845
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The page you were looking for doesn't exist (404)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+  .rails-default-error-page {
+    background-color: #EFEFEF;
+    color: #2E2F30;
+    text-align: center;
+    font-family: arial, sans-serif;
+    margin: 0;
+  }
+
+  .rails-default-error-page div.dialog {
+    width: 95%;
+    max-width: 33em;
+    margin: 4em auto 0;
+  }
+
+  .rails-default-error-page div.dialog > div {
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #BBB;
+    border-top: #B00100 solid 4px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: white;
+    padding: 7px 12% 0;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+
+  .rails-default-error-page h1 {
+    font-size: 100%;
+    color: #730E15;
+    line-height: 1.5em;
+  }
+
+  .rails-default-error-page div.dialog > p {
+    margin: 0 0 1em;
+    padding: 1em;
+    background-color: #F7F7F7;
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #999;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-color: #DADADA;
+    color: #666;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+  </style>
+</head>
+
+<body class="rails-default-error-page">
+  <!-- This file lives in public/404.html -->
+  <div class="dialog">
+    <div>
+      <h1>The page you were looking for doesn't exist.</h1>
+      <p>You may have mistyped the address or the page may have moved.</p>
+    </div>
+    <p>If you are the application owner check the logs for more information.</p>
+  </div>
+</body>
+</html>
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://requests.bitpanda.com/psp/retess/?cmd=login&languageCd=ENG
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:02 GMT
+Location: https://requests.bitpanda.com/psp/retess/?cmd=login&languageCd=ENG
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for http://requests.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://requests.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 11
+Cache-Control: no-cache
+Content-Security-Policy: default-src 'self' https:; connect-src 'self' https:; font-src 'self' https: data:; img-src 'self' https: data:; object-src 'none'; script-src 'self' https: asset.mojohelpdesk.com app.mojohelpdesk.com *.googleapis.com www.googletagmanager.com *.facebook.net www.google-analytics.com 'unsafe-inline' 'unsafe-eval' *.doubleclick.net code.jquery.com *.smartsuppchat.com *.smartlook.com *.smartsuppcdn.com *.recaptcha.net *.gstatic.com *.gstatic.cn; style-src 'self' https: 'unsafe-inline'
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:03 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Vary: Accept
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: 037404c4-bd7c-409e-90e8-fcdcd6e59824
+X-Runtime: 0.003664
+X-Ua-Compatible: IE=edge,chrome=1
+X-Xss-Protection: 0
+
+Blocked IP.
+[oracle-peoplesoft-panel] Dumped HTTP response http://requests.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:02 GMT
+Location: https://requests.bitpanda.com/
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for http://requests.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://requests.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 11
+Cache-Control: no-cache
+Content-Security-Policy: default-src 'self' https:; connect-src 'self' https:; font-src 'self' https: data:; img-src 'self' https: data:; object-src 'none'; script-src 'self' https: asset.mojohelpdesk.com app.mojohelpdesk.com *.googleapis.com www.googletagmanager.com *.facebook.net www.google-analytics.com 'unsafe-inline' 'unsafe-eval' *.doubleclick.net code.jquery.com *.smartsuppchat.com *.smartlook.com *.smartsuppcdn.com *.recaptcha.net *.gstatic.com *.gstatic.cn; style-src 'self' https: 'unsafe-inline'
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:03 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Vary: Accept
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: 8b766fd0-4c15-438d-829e-aeb131f3f075
+X-Runtime: 0.002829
+X-Ua-Compatible: IE=edge,chrome=1
+X-Xss-Protection: 0
+
+Blocked IP.
+[oracle-peoplesoft-panel] Dumped HTTP response http://requests.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:02 GMT
+Location: https://requests.bitpanda.com/
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for http://requests.bitpanda.com/psp/csprd/?cmd=login&languageCd=ENG
+
+
+GET /psp/csprd/?cmd=login&languageCd=ENG HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://requests.bitpanda.com/psp/csprd/?cmd=login&languageCd=ENG
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 1722
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:52:03 GMT
+X-Request-Id: d40738b5-9372-45db-b773-5c0271b23ab1
+X-Runtime: 0.002088
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The page you were looking for doesn't exist (404)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+  .rails-default-error-page {
+    background-color: #EFEFEF;
+    color: #2E2F30;
+    text-align: center;
+    font-family: arial, sans-serif;
+    margin: 0;
+  }
+
+  .rails-default-error-page div.dialog {
+    width: 95%;
+    max-width: 33em;
+    margin: 4em auto 0;
+  }
+
+  .rails-default-error-page div.dialog > div {
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #BBB;
+    border-top: #B00100 solid 4px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: white;
+    padding: 7px 12% 0;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+
+  .rails-default-error-page h1 {
+    font-size: 100%;
+    color: #730E15;
+    line-height: 1.5em;
+  }
+
+  .rails-default-error-page div.dialog > p {
+    margin: 0 0 1em;
+    padding: 1em;
+    background-color: #F7F7F7;
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #999;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-color: #DADADA;
+    color: #666;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+  </style>
+</head>
+
+<body class="rails-default-error-page">
+  <!-- This file lives in public/404.html -->
+  <div class="dialog">
+    <div>
+      <h1>The page you were looking for doesn't exist.</h1>
+      <p>You may have mistyped the address or the page may have moved.</p>
+    </div>
+    <p>If you are the application owner check the logs for more information.</p>
+  </div>
+</body>
+</html>
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://requests.bitpanda.com/psp/csprd/?cmd=login&languageCd=ENG
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:02 GMT
+Location: https://requests.bitpanda.com/psp/csprd/?cmd=login&languageCd=ENG
+
+

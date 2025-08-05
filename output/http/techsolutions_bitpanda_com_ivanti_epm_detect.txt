@@ -1,0 +1,62 @@
+[ivanti-epm-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/favicon.ico
+
+
+GET /favicon.ico HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ivanti-epm-detect] Dumped HTTP response https://techsolutions.bitpanda.com/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Age: 18
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 1e5d213252e38a8aa2e2a927fd3c3754.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: V3ZHigZtoe-p7Im2u5yWTnPXOuR6X5a6in3zE0LCh8CSoYf_kyTpcA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: eaaG2/2K3iw8vuV08TOmJnBEmche2GhZbPWlsdVeG36r+W0EQg9PNRNLlp5CIp3KJJRX4q3MVsE=
+X-Amz-Request-Id: XQ7RQWXRQ740CY4W
+X-Cache: Error from cloudfront
+
+Not Found
+[ivanti-epm-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/images/favicon.ico
+
+
+GET /images/favicon.ico HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ivanti-epm-detect] Dumped HTTP response https://techsolutions.bitpanda.com/images/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Age: 12
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:40 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 e401756dd494b6bbc4d871b5300eb096.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Mgc7lMdTWZeeifh7DdZQaPQA-EI9dSD8UzlztbRtslc86aQNZe8XDQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: 5HlRx+1Zzv2GGEO4fCMAeiZWTjXIz48U0ciDbBmMb+mk7gGNPdGPOOSQN6v7DwHxdf8deGCUCa0=
+X-Amz-Request-Id: E4T0G37125ARC7BY
+X-Cache: Error from cloudfront
+
+Not Found

@@ -1,0 +1,45 @@
+[prestashop-detect] Dumped HTTP request for http://feedbackai.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=B6A62C0OOL3Gd193weU6MqKo65Dgh3HC5HA5qV7gfHo-1754398424854-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[prestashop-detect] Dumped HTTP response http://feedbackai.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6709f5ec5d6a1-IAD
+Date: Tue, 05 Aug 2025 12:53:53 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[prestashop-detect] Dumped HTTP response http://feedbackai.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6708bad3d0810-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:50 GMT
+Expires: Tue, 05 Aug 2025 13:53:50 GMT
+Location: https://feedbackai.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=phQqVb96Xc1.VosNarh3yGLKr22pHuBOCPzmTMVsVZA-1754398430063-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

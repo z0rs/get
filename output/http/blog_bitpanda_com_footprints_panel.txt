@@ -1,0 +1,74 @@
+[footprints-panel] Dumped HTTP request for https://blog.bitpanda.com/MRcgi/MRlogin.pl
+
+
+GET /MRcgi/MRlogin.pl HTTP/1.1
+Host: blog.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=SVj1eys189y9obb7MLgPMMqoGulMFMh.vAwRq3Z4bUM-1754398132393-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[footprints-panel] Dumped HTTP response https://blog.bitpanda.com/MRcgi/MRlogin.pl
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 1309
+Cache-Control: max-age=3600, no-transform, public
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669633b35c92a-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:48:57 GMT
+Etag: "78e2357df5414ccc96a4dd3419a9fe77"
+Last-Modified: Wed, 15 Feb 2023 14:39:43 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=6HQi8iEXUQNLPNxz6DssPUswDN4jpd9h1Z3Hx70VQXs-1754398137064-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 52e479c500405e4e5b36d8a25429d06c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: y20BMH67lAfrOgVJXH4dxTxGLqV0z8MZUcONDsF6wLjVk3DNtZzsFQ==
+X-Amz-Cf-Pop: IAD55-P5
+X-Amz-Error-Code: NoSuchKey
+X-Amz-Error-Detail-Key: MRcgi/MRlogin.pl
+X-Amz-Error-Message: The specified key does not exist.
+X-Amz-Version-Id: yR6rYC_OKaJnEAv9WrVQ56zvOAhJJ3Hl
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta content="ie=edge" http-equiv=x-ua-compatible><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name=viewport><title></title><script>var languages = ['en','de','fr','es','it','pl',];
+                var pages = {en: 'https://blog.bitpanda.com/en/error',de: 'https://blog.bitpanda.com/de/error',fr: 'https://blog.bitpanda.com/fr/error',es: 'https://blog.bitpanda.com/es/error',it: 'https://blog.bitpanda.com/it/error',pl: 'https://blog.bitpanda.com/pl/error',};
+                var language = window.navigator.userLanguage || window.navigator.language;
+                var langCode = language.split("-")[0];
+
+                var hasLanguage = false;
+                for (var i = 0; i < languages.length; i++) {
+                    if(window.location.pathname.startsWith("/" + languages[i])) {
+                        hasLanguage = true;
+                    }
+                }
+
+                if (!hasLanguage) {
+                    location.href = window.location.origin + "/en" + window.location.pathname;
+                } else {
+                   if(!(langCode in pages)) {
+                        langCode = "en";
+                    }
+
+                    location.href = pages[langCode];
+                }</script> <body>
+[footprints-panel] Dumped HTTP request for https://blog.bitpanda.com/MRcgi/MRentrancePage.pl
+
+
+GET /MRcgi/MRentrancePage.pl HTTP/1.1
+Host: blog.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=YmnQ1I8fbIhM7MH4psOerUM73puH3nxdRXOw6SUryc4-1754398144829-0.0.1.1-604800000; _cfuvid=awGsTfl4HZDPzp6PmXwyoJlQtFEV9FCL6jYwGjjOzQ4-1754398161028-0.0.1.1-604800000; _cfuvid=6noir4Ug3NXwcmeMKGmIDNhE1L_OcFgQevGX4kAhs8g-1754398175832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

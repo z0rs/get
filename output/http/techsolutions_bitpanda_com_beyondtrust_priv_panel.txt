@@ -1,0 +1,52 @@
+[beyondtrust-priv-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/login/login
+
+
+GET /login/login HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 &#40;Macintosh; Intel Mac OS X 10_15_7&#41; AppleWebKit/605.1.15 &#40;KHTML, like Gecko&#41; Version/18.3.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[beyondtrust-priv-panel] Dumped HTTP response https://techsolutions.bitpanda.com/login/login
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:16 GMT
+Location: ./login/
+Via: 1.1 5bab46d8af126fb7ca14b6d331ff182a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: sVD5vFVOQszy8R63BeDap0bssww17G7OiE3R6A17DSfeTkCyS6bSrA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[beyondtrust-priv-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/login/pre_login_agreement
+
+
+GET /login/pre_login_agreement HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[beyondtrust-priv-panel] Dumped HTTP response https://techsolutions.bitpanda.com/login/pre_login_agreement
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:19 GMT
+Location: ./pre_login_agreement/
+Via: 1.1 cb2d413167decc675714b9b5dec4ad88.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: lC74wsh_fvDx1m6o8231Y1lGYZ1bKWC07XjSAZfZ6pTrfin1lwLzmQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

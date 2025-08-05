@@ -1,0 +1,30 @@
+[cluster-bb5e98ae1d79b14d69e518bc77fe9a64538ea2709a111c7f23dd0f6d6a10de2f] Dumped HTTP request for http://checkout.bitpanda.com/fpui/jsp/login.jsp
+
+
+GET /fpui/jsp/login.jsp HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-bb5e98ae1d79b14d69e518bc77fe9a64538ea2709a111c7f23dd0f6d6a10de2f] Dumped HTTP response http://checkout.bitpanda.com/fpui/jsp/login.jsp
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:07 GMT
+Location: https://checkout.bitpanda.com/fpui/jsp/login.jsp
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

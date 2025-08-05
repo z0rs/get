@@ -1,0 +1,39 @@
+[oqtane-cms-db] Dumped HTTP request for http://akurateco.bitpanda.com/api/database
+
+
+GET /api/database HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oqtane-cms-db] Dumped HTTP response http://akurateco.bitpanda.com/api/database
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache, private
+Content-Security-Policy: default-src 'self'; block-all-mixed-content; connect-src 'self' https://*.zendesk.com wss://*.zendesk.com wss://*.zopim.com https://*.sentry.io https://*:9090; font-src 'self' https://*.gstatic.com; form-action 'self'; frame-ancestors 'none'; frame-src *; img-src 'self' https://*.google-analytics.com data:;; object-src 'none'; script-src 'self' 'unsafe-eval' https://*.google-analytics.com https://*.googleapis.com https://*.gstatic.com https://*.smooch.io https://*.sentry.io https://*.zdassets.com https://*.zendesk.com https://*.zopim.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-hashes' 'unsafe-eval' https://cdn.jsdelivr.net https://*.googleapis.com; upgrade-insecure-requests
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:57 GMT
+Referrer-Policy: no-referrer, strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Security-Policy: default-src 'self'; block-all-mixed-content; connect-src 'self' https://*.zendesk.com wss://*.zendesk.com wss://*.zopim.com https://*.sentry.io https://*:9090; font-src 'self' https://*.gstatic.com; form-action 'self'; frame-ancestors 'none'; frame-src *; img-src 'self' https://*.google-analytics.com data:;; object-src 'none'; script-src 'self' 'unsafe-eval' https://*.google-analytics.com https://*.googleapis.com https://*.gstatic.com https://*.smooch.io https://*.sentry.io https://*.zdassets.com https://*.zendesk.com https://*.zopim.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-hashes' 'unsafe-eval' https://cdn.jsdelivr.net https://*.googleapis.com; upgrade-insecure-requests
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+{"code":404,"message":"Not Found"}
+[oqtane-cms-db] Dumped HTTP response http://akurateco.bitpanda.com/api/database
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:56 GMT
+Location: https://akurateco.bitpanda.com/api/database
+
+

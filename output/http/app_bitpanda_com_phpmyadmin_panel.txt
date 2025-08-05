@@ -1,0 +1,493 @@
+[phpmyadmin-panel] Dumped HTTP request for https://app.bitpanda.com/blog/phpmyadmin/
+
+
+GET /blog/phpmyadmin/ HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2F; _cfuvid=Xjwm1Ae.AH8BeIY96vD6pieYGfgojo.WsWvOWSClJyI-1754398150960-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..KOCThJVoNtaSEqpw8bTIwQ.AZLlOgUV_LIa_jAQIssbdLNej1rdB-xMK7PP6jThcomgoxaOF2y-wB3Y3P1Ugm7yVUP3XKvYOQl4Z0TsQcvm2KwyMNt3q6fw350JH66GNVqOaSlNuxd_odFKqZUHe0JUpXuomfPsQAYeRjHHOtjrdKE1kaX5zVq7VlWWBFTEEbf7nAIrspyuFbT3NM79cst-n4hOrTYu_q5CmyjN8FbY6adsUWGPWPPFAFfHeeDnDPz98N6Oe7oFfTdJnE7h1LXWcGydKbkjivkEZjixY1T0RXp83NmY8M89F93tMme4Yd7LePnAOtl6Xlbhw8NruOcsTmkUOUCo4vXkbCQ4x7uRaFil8yeml0XqUrhUczq7WcqCzKDyqykmm9OY9R8J6gUaAr49gsl7ypDOvBHp3tSrxFsM4d8kKiJwm6rOaIm6j_nZGJi3cY2Ry-htreqAfDBqLoD00Xz_ZLp-lfNIY3kYHcbjkokMDm9X9TAn-qyXI903ADJZSJIm9i9mNXALwjUTm_Wzuxh1aDHg5E5vgZ6SjmQs4sDY1yIJMcdUT7XRPLCq7JuAwwGB7LLKfnQndIELxlKaLQgrNlasnB9yd_wFnwQrIkteScQfZgLIetjLJwVtEPrqsu1DWIRbYE1BksEMdsM85z1KjbhCTxXHMJ7HepWMhlLokKnYfptbUNSO45YlHgzSIuV44JbB6aHHz5Q4.tIcc0y1QPIRsv-k7Q4ck3TNcaXAoJZqfVN5JRhrdi0o
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://app.bitpanda.com/blog/phpmyadmin/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c0c92c0658-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:11 GMT
+Location: /blog/phpmyadmin
+Refresh: 0;url=/blog/phpmyadmin
+Server: cloudflare
+Set-Cookie: _cfuvid=M43zxOFVi7q7SfVQffnE5p3Ffivm3VQ7Pz2T5MMJEGA-1754398151855-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::cc4fh-1754398151847-06940c22bc43
+
+Redirecting...
+
+[phpmyadmin-panel] Dumped HTTP request for https://app.bitpanda.com/forum/phpmyadmin/
+
+
+GET /forum/phpmyadmin/ HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2F; _cfuvid=Xjwm1Ae.AH8BeIY96vD6pieYGfgojo.WsWvOWSClJyI-1754398150960-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..KOCThJVoNtaSEqpw8bTIwQ.AZLlOgUV_LIa_jAQIssbdLNej1rdB-xMK7PP6jThcomgoxaOF2y-wB3Y3P1Ugm7yVUP3XKvYOQl4Z0TsQcvm2KwyMNt3q6fw350JH66GNVqOaSlNuxd_odFKqZUHe0JUpXuomfPsQAYeRjHHOtjrdKE1kaX5zVq7VlWWBFTEEbf7nAIrspyuFbT3NM79cst-n4hOrTYu_q5CmyjN8FbY6adsUWGPWPPFAFfHeeDnDPz98N6Oe7oFfTdJnE7h1LXWcGydKbkjivkEZjixY1T0RXp83NmY8M89F93tMme4Yd7LePnAOtl6Xlbhw8NruOcsTmkUOUCo4vXkbCQ4x7uRaFil8yeml0XqUrhUczq7WcqCzKDyqykmm9OY9R8J6gUaAr49gsl7ypDOvBHp3tSrxFsM4d8kKiJwm6rOaIm6j_nZGJi3cY2Ry-htreqAfDBqLoD00Xz_ZLp-lfNIY3kYHcbjkokMDm9X9TAn-qyXI903ADJZSJIm9i9mNXALwjUTm_Wzuxh1aDHg5E5vgZ6SjmQs4sDY1yIJMcdUT7XRPLCq7JuAwwGB7LLKfnQndIELxlKaLQgrNlasnB9yd_wFnwQrIkteScQfZgLIetjLJwVtEPrqsu1DWIRbYE1BksEMdsM85z1KjbhCTxXHMJ7HepWMhlLokKnYfptbUNSO45YlHgzSIuV44JbB6aHHz5Q4.tIcc0y1QPIRsv-k7Q4ck3TNcaXAoJZqfVN5JRhrdi0o
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://app.bitpanda.com/forum/phpmyadmin/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c0f8f0c9ac-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:11 GMT
+Location: /forum/phpmyadmin
+Refresh: 0;url=/forum/phpmyadmin
+Server: cloudflare
+Set-Cookie: _cfuvid=uwajKaefSVcwP6aAuI4dYn3_HNDH866rnScthVTParY-1754398151858-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::d827v-1754398151852-dcb1691a8aac
+
+Redirecting...
+
+[phpmyadmin-panel] Dumped HTTP request for https://app.bitpanda.com/phpMyAdmin/
+
+
+GET /phpMyAdmin/ HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/601.6.17 (KHTML, like Gecko) Version/9.1.1 Safari/601.6.17
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2F; _cfuvid=Xjwm1Ae.AH8BeIY96vD6pieYGfgojo.WsWvOWSClJyI-1754398150960-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..KOCThJVoNtaSEqpw8bTIwQ.AZLlOgUV_LIa_jAQIssbdLNej1rdB-xMK7PP6jThcomgoxaOF2y-wB3Y3P1Ugm7yVUP3XKvYOQl4Z0TsQcvm2KwyMNt3q6fw350JH66GNVqOaSlNuxd_odFKqZUHe0JUpXuomfPsQAYeRjHHOtjrdKE1kaX5zVq7VlWWBFTEEbf7nAIrspyuFbT3NM79cst-n4hOrTYu_q5CmyjN8FbY6adsUWGPWPPFAFfHeeDnDPz98N6Oe7oFfTdJnE7h1LXWcGydKbkjivkEZjixY1T0RXp83NmY8M89F93tMme4Yd7LePnAOtl6Xlbhw8NruOcsTmkUOUCo4vXkbCQ4x7uRaFil8yeml0XqUrhUczq7WcqCzKDyqykmm9OY9R8J6gUaAr49gsl7ypDOvBHp3tSrxFsM4d8kKiJwm6rOaIm6j_nZGJi3cY2Ry-htreqAfDBqLoD00Xz_ZLp-lfNIY3kYHcbjkokMDm9X9TAn-qyXI903ADJZSJIm9i9mNXALwjUTm_Wzuxh1aDHg5E5vgZ6SjmQs4sDY1yIJMcdUT7XRPLCq7JuAwwGB7LLKfnQndIELxlKaLQgrNlasnB9yd_wFnwQrIkteScQfZgLIetjLJwVtEPrqsu1DWIRbYE1BksEMdsM85z1KjbhCTxXHMJ7HepWMhlLokKnYfptbUNSO45YlHgzSIuV44JbB6aHHz5Q4.tIcc0y1QPIRsv-k7Q4ck3TNcaXAoJZqfVN5JRhrdi0o
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://app.bitpanda.com/phpMyAdmin/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c0f908d663-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:11 GMT
+Location: /phpMyAdmin
+Refresh: 0;url=/phpMyAdmin
+Server: cloudflare
+Set-Cookie: _cfuvid=YaTCkIxfbF0Sn9GkjROqWJECGqIiesJOqqyfukOOHaE-1754398151865-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::2vxrz-1754398151861-0247f600d4e7
+
+Redirecting...
+
+[phpmyadmin-panel] Dumped HTTP request for https://app.bitpanda.com/_phpmyadmin/
+
+
+GET /_phpmyadmin/ HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.2 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2F; _cfuvid=Xjwm1Ae.AH8BeIY96vD6pieYGfgojo.WsWvOWSClJyI-1754398150960-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..KOCThJVoNtaSEqpw8bTIwQ.AZLlOgUV_LIa_jAQIssbdLNej1rdB-xMK7PP6jThcomgoxaOF2y-wB3Y3P1Ugm7yVUP3XKvYOQl4Z0TsQcvm2KwyMNt3q6fw350JH66GNVqOaSlNuxd_odFKqZUHe0JUpXuomfPsQAYeRjHHOtjrdKE1kaX5zVq7VlWWBFTEEbf7nAIrspyuFbT3NM79cst-n4hOrTYu_q5CmyjN8FbY6adsUWGPWPPFAFfHeeDnDPz98N6Oe7oFfTdJnE7h1LXWcGydKbkjivkEZjixY1T0RXp83NmY8M89F93tMme4Yd7LePnAOtl6Xlbhw8NruOcsTmkUOUCo4vXkbCQ4x7uRaFil8yeml0XqUrhUczq7WcqCzKDyqykmm9OY9R8J6gUaAr49gsl7ypDOvBHp3tSrxFsM4d8kKiJwm6rOaIm6j_nZGJi3cY2Ry-htreqAfDBqLoD00Xz_ZLp-lfNIY3kYHcbjkokMDm9X9TAn-qyXI903ADJZSJIm9i9mNXALwjUTm_Wzuxh1aDHg5E5vgZ6SjmQs4sDY1yIJMcdUT7XRPLCq7JuAwwGB7LLKfnQndIELxlKaLQgrNlasnB9yd_wFnwQrIkteScQfZgLIetjLJwVtEPrqsu1DWIRbYE1BksEMdsM85z1KjbhCTxXHMJ7HepWMhlLokKnYfptbUNSO45YlHgzSIuV44JbB6aHHz5Q4.tIcc0y1QPIRsv-k7Q4ck3TNcaXAoJZqfVN5JRhrdi0o
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://app.bitpanda.com/_phpmyadmin/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c0fbd28847-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:11 GMT
+Location: /_phpmyadmin
+Refresh: 0;url=/_phpmyadmin
+Server: cloudflare
+Set-Cookie: _cfuvid=tvq92eNBCFVQa67UVs.oxU91oHGkT.yG5wFZDfR0JDQ-1754398151861-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::nqxwt-1754398151854-5e8b065b5a37
+
+Redirecting...
+
+[phpmyadmin-panel] Dumped HTTP request for https://app.bitpanda.com/phpma/
+
+
+GET /phpma/ HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Mobile/15E148 Safari/604.1
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2F; _cfuvid=Xjwm1Ae.AH8BeIY96vD6pieYGfgojo.WsWvOWSClJyI-1754398150960-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..KOCThJVoNtaSEqpw8bTIwQ.AZLlOgUV_LIa_jAQIssbdLNej1rdB-xMK7PP6jThcomgoxaOF2y-wB3Y3P1Ugm7yVUP3XKvYOQl4Z0TsQcvm2KwyMNt3q6fw350JH66GNVqOaSlNuxd_odFKqZUHe0JUpXuomfPsQAYeRjHHOtjrdKE1kaX5zVq7VlWWBFTEEbf7nAIrspyuFbT3NM79cst-n4hOrTYu_q5CmyjN8FbY6adsUWGPWPPFAFfHeeDnDPz98N6Oe7oFfTdJnE7h1LXWcGydKbkjivkEZjixY1T0RXp83NmY8M89F93tMme4Yd7LePnAOtl6Xlbhw8NruOcsTmkUOUCo4vXkbCQ4x7uRaFil8yeml0XqUrhUczq7WcqCzKDyqykmm9OY9R8J6gUaAr49gsl7ypDOvBHp3tSrxFsM4d8kKiJwm6rOaIm6j_nZGJi3cY2Ry-htreqAfDBqLoD00Xz_ZLp-lfNIY3kYHcbjkokMDm9X9TAn-qyXI903ADJZSJIm9i9mNXALwjUTm_Wzuxh1aDHg5E5vgZ6SjmQs4sDY1yIJMcdUT7XRPLCq7JuAwwGB7LLKfnQndIELxlKaLQgrNlasnB9yd_wFnwQrIkteScQfZgLIetjLJwVtEPrqsu1DWIRbYE1BksEMdsM85z1KjbhCTxXHMJ7HepWMhlLokKnYfptbUNSO45YlHgzSIuV44JbB6aHHz5Q4.tIcc0y1QPIRsv-k7Q4ck3TNcaXAoJZqfVN5JRhrdi0o
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://app.bitpanda.com/phpma/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c0fb8a7608-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:11 GMT
+Location: /phpma
+Refresh: 0;url=/phpma
+Server: cloudflare
+Set-Cookie: _cfuvid=enq8s8jG_J6h0bit0ew9kthxYk9jVlxleKpDnuSD5lM-1754398151869-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::fz8ht-1754398151860-e6ff6a38fcf5
+
+Redirecting...
+
+[phpmyadmin-panel] Dumped HTTP request for https://app.bitpanda.com/typo3/phpmyadmin/
+
+
+GET /typo3/phpmyadmin/ HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2F; _cfuvid=Xjwm1Ae.AH8BeIY96vD6pieYGfgojo.WsWvOWSClJyI-1754398150960-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..KOCThJVoNtaSEqpw8bTIwQ.AZLlOgUV_LIa_jAQIssbdLNej1rdB-xMK7PP6jThcomgoxaOF2y-wB3Y3P1Ugm7yVUP3XKvYOQl4Z0TsQcvm2KwyMNt3q6fw350JH66GNVqOaSlNuxd_odFKqZUHe0JUpXuomfPsQAYeRjHHOtjrdKE1kaX5zVq7VlWWBFTEEbf7nAIrspyuFbT3NM79cst-n4hOrTYu_q5CmyjN8FbY6adsUWGPWPPFAFfHeeDnDPz98N6Oe7oFfTdJnE7h1LXWcGydKbkjivkEZjixY1T0RXp83NmY8M89F93tMme4Yd7LePnAOtl6Xlbhw8NruOcsTmkUOUCo4vXkbCQ4x7uRaFil8yeml0XqUrhUczq7WcqCzKDyqykmm9OY9R8J6gUaAr49gsl7ypDOvBHp3tSrxFsM4d8kKiJwm6rOaIm6j_nZGJi3cY2Ry-htreqAfDBqLoD00Xz_ZLp-lfNIY3kYHcbjkokMDm9X9TAn-qyXI903ADJZSJIm9i9mNXALwjUTm_Wzuxh1aDHg5E5vgZ6SjmQs4sDY1yIJMcdUT7XRPLCq7JuAwwGB7LLKfnQndIELxlKaLQgrNlasnB9yd_wFnwQrIkteScQfZgLIetjLJwVtEPrqsu1DWIRbYE1BksEMdsM85z1KjbhCTxXHMJ7HepWMhlLokKnYfptbUNSO45YlHgzSIuV44JbB6aHHz5Q4.tIcc0y1QPIRsv-k7Q4ck3TNcaXAoJZqfVN5JRhrdi0o
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://app.bitpanda.com/typo3/phpmyadmin/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c0fcf248f1-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:11 GMT
+Location: /typo3/phpmyadmin
+Refresh: 0;url=/typo3/phpmyadmin
+Server: cloudflare
+Set-Cookie: _cfuvid=d3UIi.t1BeZlodaozI3C6rvywztA0yF0fC9t8WYL1vo-1754398151869-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::d9kjz-1754398151862-0ba9b2f6d73c
+
+Redirecting...
+
+[phpmyadmin-panel] Dumped HTTP request for https://app.bitpanda.com/apache-default/phpmyadmin/
+
+
+GET /apache-default/phpmyadmin/ HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2F; _cfuvid=Xjwm1Ae.AH8BeIY96vD6pieYGfgojo.WsWvOWSClJyI-1754398150960-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..KOCThJVoNtaSEqpw8bTIwQ.AZLlOgUV_LIa_jAQIssbdLNej1rdB-xMK7PP6jThcomgoxaOF2y-wB3Y3P1Ugm7yVUP3XKvYOQl4Z0TsQcvm2KwyMNt3q6fw350JH66GNVqOaSlNuxd_odFKqZUHe0JUpXuomfPsQAYeRjHHOtjrdKE1kaX5zVq7VlWWBFTEEbf7nAIrspyuFbT3NM79cst-n4hOrTYu_q5CmyjN8FbY6adsUWGPWPPFAFfHeeDnDPz98N6Oe7oFfTdJnE7h1LXWcGydKbkjivkEZjixY1T0RXp83NmY8M89F93tMme4Yd7LePnAOtl6Xlbhw8NruOcsTmkUOUCo4vXkbCQ4x7uRaFil8yeml0XqUrhUczq7WcqCzKDyqykmm9OY9R8J6gUaAr49gsl7ypDOvBHp3tSrxFsM4d8kKiJwm6rOaIm6j_nZGJi3cY2Ry-htreqAfDBqLoD00Xz_ZLp-lfNIY3kYHcbjkokMDm9X9TAn-qyXI903ADJZSJIm9i9mNXALwjUTm_Wzuxh1aDHg5E5vgZ6SjmQs4sDY1yIJMcdUT7XRPLCq7JuAwwGB7LLKfnQndIELxlKaLQgrNlasnB9yd_wFnwQrIkteScQfZgLIetjLJwVtEPrqsu1DWIRbYE1BksEMdsM85z1KjbhCTxXHMJ7HepWMhlLokKnYfptbUNSO45YlHgzSIuV44JbB6aHHz5Q4.tIcc0y1QPIRsv-k7Q4ck3TNcaXAoJZqfVN5JRhrdi0o
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://app.bitpanda.com/apache-default/phpmyadmin/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c0fb42c93f-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:11 GMT
+Location: /apache-default/phpmyadmin
+Refresh: 0;url=/apache-default/phpmyadmin
+Server: cloudflare
+Set-Cookie: _cfuvid=PaZnHDGtYONlsoyx7NYbJCzHvEueTqzyKaeyzgJZbZg-1754398151880-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::vk5xr-1754398151865-e6586fd9e5ab
+
+Redirecting...
+
+[phpmyadmin-panel] Dumped HTTP request for https://app.bitpanda.com/xampp/phpmyadmin/
+
+
+GET /xampp/phpmyadmin/ HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686; rv:123.0) Gecko/20100101 Firefox/123.0
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2F; _cfuvid=Xjwm1Ae.AH8BeIY96vD6pieYGfgojo.WsWvOWSClJyI-1754398150960-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..KOCThJVoNtaSEqpw8bTIwQ.AZLlOgUV_LIa_jAQIssbdLNej1rdB-xMK7PP6jThcomgoxaOF2y-wB3Y3P1Ugm7yVUP3XKvYOQl4Z0TsQcvm2KwyMNt3q6fw350JH66GNVqOaSlNuxd_odFKqZUHe0JUpXuomfPsQAYeRjHHOtjrdKE1kaX5zVq7VlWWBFTEEbf7nAIrspyuFbT3NM79cst-n4hOrTYu_q5CmyjN8FbY6adsUWGPWPPFAFfHeeDnDPz98N6Oe7oFfTdJnE7h1LXWcGydKbkjivkEZjixY1T0RXp83NmY8M89F93tMme4Yd7LePnAOtl6Xlbhw8NruOcsTmkUOUCo4vXkbCQ4x7uRaFil8yeml0XqUrhUczq7WcqCzKDyqykmm9OY9R8J6gUaAr49gsl7ypDOvBHp3tSrxFsM4d8kKiJwm6rOaIm6j_nZGJi3cY2Ry-htreqAfDBqLoD00Xz_ZLp-lfNIY3kYHcbjkokMDm9X9TAn-qyXI903ADJZSJIm9i9mNXALwjUTm_Wzuxh1aDHg5E5vgZ6SjmQs4sDY1yIJMcdUT7XRPLCq7JuAwwGB7LLKfnQndIELxlKaLQgrNlasnB9yd_wFnwQrIkteScQfZgLIetjLJwVtEPrqsu1DWIRbYE1BksEMdsM85z1KjbhCTxXHMJ7HepWMhlLokKnYfptbUNSO45YlHgzSIuV44JbB6aHHz5Q4.tIcc0y1QPIRsv-k7Q4ck3TNcaXAoJZqfVN5JRhrdi0o
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://app.bitpanda.com/xampp/phpmyadmin/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c0fea681f4-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:11 GMT
+Location: /xampp/phpmyadmin
+Refresh: 0;url=/xampp/phpmyadmin
+Server: cloudflare
+Set-Cookie: _cfuvid=gTxCXSFGysuZHuQs2ETtgv.ZihQ2poZJ_mcmxJG_unY-1754398151883-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::zjpzw-1754398151875-e01d16d6472f
+
+Redirecting...
+
+[phpmyadmin-panel] Dumped HTTP request for https://app.bitpanda.com/web/phpmyadmin/
+
+
+GET /web/phpmyadmin/ HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2F; _cfuvid=Xjwm1Ae.AH8BeIY96vD6pieYGfgojo.WsWvOWSClJyI-1754398150960-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..KOCThJVoNtaSEqpw8bTIwQ.AZLlOgUV_LIa_jAQIssbdLNej1rdB-xMK7PP6jThcomgoxaOF2y-wB3Y3P1Ugm7yVUP3XKvYOQl4Z0TsQcvm2KwyMNt3q6fw350JH66GNVqOaSlNuxd_odFKqZUHe0JUpXuomfPsQAYeRjHHOtjrdKE1kaX5zVq7VlWWBFTEEbf7nAIrspyuFbT3NM79cst-n4hOrTYu_q5CmyjN8FbY6adsUWGPWPPFAFfHeeDnDPz98N6Oe7oFfTdJnE7h1LXWcGydKbkjivkEZjixY1T0RXp83NmY8M89F93tMme4Yd7LePnAOtl6Xlbhw8NruOcsTmkUOUCo4vXkbCQ4x7uRaFil8yeml0XqUrhUczq7WcqCzKDyqykmm9OY9R8J6gUaAr49gsl7ypDOvBHp3tSrxFsM4d8kKiJwm6rOaIm6j_nZGJi3cY2Ry-htreqAfDBqLoD00Xz_ZLp-lfNIY3kYHcbjkokMDm9X9TAn-qyXI903ADJZSJIm9i9mNXALwjUTm_Wzuxh1aDHg5E5vgZ6SjmQs4sDY1yIJMcdUT7XRPLCq7JuAwwGB7LLKfnQndIELxlKaLQgrNlasnB9yd_wFnwQrIkteScQfZgLIetjLJwVtEPrqsu1DWIRbYE1BksEMdsM85z1KjbhCTxXHMJ7HepWMhlLokKnYfptbUNSO45YlHgzSIuV44JbB6aHHz5Q4.tIcc0y1QPIRsv-k7Q4ck3TNcaXAoJZqfVN5JRhrdi0o
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://app.bitpanda.com/web/phpmyadmin/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c0f9cbc964-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:11 GMT
+Location: /web/phpmyadmin
+Refresh: 0;url=/web/phpmyadmin
+Server: cloudflare
+Set-Cookie: _cfuvid=aHTnc0ImB7jt2KShjjkyjSWI39cwaMcagitK1cXCzk0-1754398151887-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::cvkjz-1754398151874-ea3f5e71dae0
+
+Redirecting...
+
+[phpmyadmin-panel] Dumped HTTP request for https://app.bitpanda.com/php/phpmyadmin/
+
+
+GET /php/phpmyadmin/ HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686; rv:121.0) Gecko/20100101 Firefox/121.0
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2F; _cfuvid=Xjwm1Ae.AH8BeIY96vD6pieYGfgojo.WsWvOWSClJyI-1754398150960-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..KOCThJVoNtaSEqpw8bTIwQ.AZLlOgUV_LIa_jAQIssbdLNej1rdB-xMK7PP6jThcomgoxaOF2y-wB3Y3P1Ugm7yVUP3XKvYOQl4Z0TsQcvm2KwyMNt3q6fw350JH66GNVqOaSlNuxd_odFKqZUHe0JUpXuomfPsQAYeRjHHOtjrdKE1kaX5zVq7VlWWBFTEEbf7nAIrspyuFbT3NM79cst-n4hOrTYu_q5CmyjN8FbY6adsUWGPWPPFAFfHeeDnDPz98N6Oe7oFfTdJnE7h1LXWcGydKbkjivkEZjixY1T0RXp83NmY8M89F93tMme4Yd7LePnAOtl6Xlbhw8NruOcsTmkUOUCo4vXkbCQ4x7uRaFil8yeml0XqUrhUczq7WcqCzKDyqykmm9OY9R8J6gUaAr49gsl7ypDOvBHp3tSrxFsM4d8kKiJwm6rOaIm6j_nZGJi3cY2Ry-htreqAfDBqLoD00Xz_ZLp-lfNIY3kYHcbjkokMDm9X9TAn-qyXI903ADJZSJIm9i9mNXALwjUTm_Wzuxh1aDHg5E5vgZ6SjmQs4sDY1yIJMcdUT7XRPLCq7JuAwwGB7LLKfnQndIELxlKaLQgrNlasnB9yd_wFnwQrIkteScQfZgLIetjLJwVtEPrqsu1DWIRbYE1BksEMdsM85z1KjbhCTxXHMJ7HepWMhlLokKnYfptbUNSO45YlHgzSIuV44JbB6aHHz5Q4.tIcc0y1QPIRsv-k7Q4ck3TNcaXAoJZqfVN5JRhrdi0o
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://app.bitpanda.com/php/phpmyadmin/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c0f872c9ad-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:11 GMT
+Location: /php/phpmyadmin
+Refresh: 0;url=/php/phpmyadmin
+Server: cloudflare
+Set-Cookie: _cfuvid=CyKOLxFnEpYeaG6iIikUvHIenz_CmCf3EZMVnc14JTI-1754398151890-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::d9d7b-1754398151880-27ce451908e6
+
+Redirecting...
+
+[phpmyadmin-panel] Dumped HTTP request for https://app.bitpanda.com/phpmyadmin/
+
+
+GET /phpmyadmin/ HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like Gecko) Version/7.0.3 Safari/E7FBAF
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2F; _cfuvid=Xjwm1Ae.AH8BeIY96vD6pieYGfgojo.WsWvOWSClJyI-1754398150960-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..KOCThJVoNtaSEqpw8bTIwQ.AZLlOgUV_LIa_jAQIssbdLNej1rdB-xMK7PP6jThcomgoxaOF2y-wB3Y3P1Ugm7yVUP3XKvYOQl4Z0TsQcvm2KwyMNt3q6fw350JH66GNVqOaSlNuxd_odFKqZUHe0JUpXuomfPsQAYeRjHHOtjrdKE1kaX5zVq7VlWWBFTEEbf7nAIrspyuFbT3NM79cst-n4hOrTYu_q5CmyjN8FbY6adsUWGPWPPFAFfHeeDnDPz98N6Oe7oFfTdJnE7h1LXWcGydKbkjivkEZjixY1T0RXp83NmY8M89F93tMme4Yd7LePnAOtl6Xlbhw8NruOcsTmkUOUCo4vXkbCQ4x7uRaFil8yeml0XqUrhUczq7WcqCzKDyqykmm9OY9R8J6gUaAr49gsl7ypDOvBHp3tSrxFsM4d8kKiJwm6rOaIm6j_nZGJi3cY2Ry-htreqAfDBqLoD00Xz_ZLp-lfNIY3kYHcbjkokMDm9X9TAn-qyXI903ADJZSJIm9i9mNXALwjUTm_Wzuxh1aDHg5E5vgZ6SjmQs4sDY1yIJMcdUT7XRPLCq7JuAwwGB7LLKfnQndIELxlKaLQgrNlasnB9yd_wFnwQrIkteScQfZgLIetjLJwVtEPrqsu1DWIRbYE1BksEMdsM85z1KjbhCTxXHMJ7HepWMhlLokKnYfptbUNSO45YlHgzSIuV44JbB6aHHz5Q4.tIcc0y1QPIRsv-k7Q4ck3TNcaXAoJZqfVN5JRhrdi0o
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://app.bitpanda.com/phpmyadmin/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c0f975e617-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:11 GMT
+Location: /phpmyadmin
+Refresh: 0;url=/phpmyadmin
+Server: cloudflare
+Set-Cookie: _cfuvid=R5iK0_e0Occg9ODFakAowoQGaBNjwqny9KSrI.EHkmQ-1754398151903-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::wvv6n-1754398151885-ee464794eeb8
+
+Redirecting...
+
+[phpmyadmin-panel] Dumped HTTP request for https://app.bitpanda.com/administrator/components/com_joommyadmin/phpmyadmin/
+
+
+GET /administrator/components/com_joommyadmin/phpmyadmin/ HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2F; _cfuvid=Xjwm1Ae.AH8BeIY96vD6pieYGfgojo.WsWvOWSClJyI-1754398150960-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..KOCThJVoNtaSEqpw8bTIwQ.AZLlOgUV_LIa_jAQIssbdLNej1rdB-xMK7PP6jThcomgoxaOF2y-wB3Y3P1Ugm7yVUP3XKvYOQl4Z0TsQcvm2KwyMNt3q6fw350JH66GNVqOaSlNuxd_odFKqZUHe0JUpXuomfPsQAYeRjHHOtjrdKE1kaX5zVq7VlWWBFTEEbf7nAIrspyuFbT3NM79cst-n4hOrTYu_q5CmyjN8FbY6adsUWGPWPPFAFfHeeDnDPz98N6Oe7oFfTdJnE7h1LXWcGydKbkjivkEZjixY1T0RXp83NmY8M89F93tMme4Yd7LePnAOtl6Xlbhw8NruOcsTmkUOUCo4vXkbCQ4x7uRaFil8yeml0XqUrhUczq7WcqCzKDyqykmm9OY9R8J6gUaAr49gsl7ypDOvBHp3tSrxFsM4d8kKiJwm6rOaIm6j_nZGJi3cY2Ry-htreqAfDBqLoD00Xz_ZLp-lfNIY3kYHcbjkokMDm9X9TAn-qyXI903ADJZSJIm9i9mNXALwjUTm_Wzuxh1aDHg5E5vgZ6SjmQs4sDY1yIJMcdUT7XRPLCq7JuAwwGB7LLKfnQndIELxlKaLQgrNlasnB9yd_wFnwQrIkteScQfZgLIetjLJwVtEPrqsu1DWIRbYE1BksEMdsM85z1KjbhCTxXHMJ7HepWMhlLokKnYfptbUNSO45YlHgzSIuV44JbB6aHHz5Q4.tIcc0y1QPIRsv-k7Q4ck3TNcaXAoJZqfVN5JRhrdi0o
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://app.bitpanda.com/administrator/components/com_joommyadmin/phpmyadmin/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c0f9306ff8-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:11 GMT
+Location: /administrator/components/com_joommyadmin/phpmyadmin
+Refresh: 0;url=/administrator/components/com_joommyadmin/phpmyadmin
+Server: cloudflare
+Set-Cookie: _cfuvid=wMqZGttPE6ASoG5WJWSlV0bllyKQ.CPIfClUMVem25U-1754398151914-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::srrlb-1754398151898-469a3fcf445f
+
+Redirecting...
+
+[phpmyadmin-panel] Dumped HTTP request for https://app.bitpanda.com/admin/phpmyadmin/
+
+
+GET /admin/phpmyadmin/ HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2F; _cfuvid=Xjwm1Ae.AH8BeIY96vD6pieYGfgojo.WsWvOWSClJyI-1754398150960-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..KOCThJVoNtaSEqpw8bTIwQ.AZLlOgUV_LIa_jAQIssbdLNej1rdB-xMK7PP6jThcomgoxaOF2y-wB3Y3P1Ugm7yVUP3XKvYOQl4Z0TsQcvm2KwyMNt3q6fw350JH66GNVqOaSlNuxd_odFKqZUHe0JUpXuomfPsQAYeRjHHOtjrdKE1kaX5zVq7VlWWBFTEEbf7nAIrspyuFbT3NM79cst-n4hOrTYu_q5CmyjN8FbY6adsUWGPWPPFAFfHeeDnDPz98N6Oe7oFfTdJnE7h1LXWcGydKbkjivkEZjixY1T0RXp83NmY8M89F93tMme4Yd7LePnAOtl6Xlbhw8NruOcsTmkUOUCo4vXkbCQ4x7uRaFil8yeml0XqUrhUczq7WcqCzKDyqykmm9OY9R8J6gUaAr49gsl7ypDOvBHp3tSrxFsM4d8kKiJwm6rOaIm6j_nZGJi3cY2Ry-htreqAfDBqLoD00Xz_ZLp-lfNIY3kYHcbjkokMDm9X9TAn-qyXI903ADJZSJIm9i9mNXALwjUTm_Wzuxh1aDHg5E5vgZ6SjmQs4sDY1yIJMcdUT7XRPLCq7JuAwwGB7LLKfnQndIELxlKaLQgrNlasnB9yd_wFnwQrIkteScQfZgLIetjLJwVtEPrqsu1DWIRbYE1BksEMdsM85z1KjbhCTxXHMJ7HepWMhlLokKnYfptbUNSO45YlHgzSIuV44JbB6aHHz5Q4.tIcc0y1QPIRsv-k7Q4ck3TNcaXAoJZqfVN5JRhrdi0o
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://app.bitpanda.com/admin/phpmyadmin/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c10ecb3b92-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:11 GMT
+Location: /admin/phpmyadmin
+Refresh: 0;url=/admin/phpmyadmin
+Server: cloudflare
+Set-Cookie: _cfuvid=MxaPIGqn4KaQ9ByvFKZxl1it8Di21V3OUuXRuTqr9DQ-1754398151916-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::5c9w2-1754398151910-921f9b9b80ab
+
+Redirecting...
+
+[phpmyadmin-panel] Dumped HTTP request for https://app.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2F; _cfuvid=Xjwm1Ae.AH8BeIY96vD6pieYGfgojo.WsWvOWSClJyI-1754398150960-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..KOCThJVoNtaSEqpw8bTIwQ.AZLlOgUV_LIa_jAQIssbdLNej1rdB-xMK7PP6jThcomgoxaOF2y-wB3Y3P1Ugm7yVUP3XKvYOQl4Z0TsQcvm2KwyMNt3q6fw350JH66GNVqOaSlNuxd_odFKqZUHe0JUpXuomfPsQAYeRjHHOtjrdKE1kaX5zVq7VlWWBFTEEbf7nAIrspyuFbT3NM79cst-n4hOrTYu_q5CmyjN8FbY6adsUWGPWPPFAFfHeeDnDPz98N6Oe7oFfTdJnE7h1LXWcGydKbkjivkEZjixY1T0RXp83NmY8M89F93tMme4Yd7LePnAOtl6Xlbhw8NruOcsTmkUOUCo4vXkbCQ4x7uRaFil8yeml0XqUrhUczq7WcqCzKDyqykmm9OY9R8J6gUaAr49gsl7ypDOvBHp3tSrxFsM4d8kKiJwm6rOaIm6j_nZGJi3cY2Ry-htreqAfDBqLoD00Xz_ZLp-lfNIY3kYHcbjkokMDm9X9TAn-qyXI903ADJZSJIm9i9mNXALwjUTm_Wzuxh1aDHg5E5vgZ6SjmQs4sDY1yIJMcdUT7XRPLCq7JuAwwGB7LLKfnQndIELxlKaLQgrNlasnB9yd_wFnwQrIkteScQfZgLIetjLJwVtEPrqsu1DWIRbYE1BksEMdsM85z1KjbhCTxXHMJ7HepWMhlLokKnYfptbUNSO45YlHgzSIuV44JbB6aHHz5Q4.tIcc0y1QPIRsv-k7Q4ck3TNcaXAoJZqfVN5JRhrdi0o
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://app.bitpanda.com
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c0e9589c1e-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:11 GMT
+Location: /api/auth/login?callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2F
+Server: cloudflare
+Set-Cookie: _cfuvid=zXrfWtis1vdg3lcLf7RudrIG2ZD7g67MFcGEiSP9MpQ-1754398151955-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::p2mx7-1754398151880-4e5cde139f40
+
+Redirecting...
+
+[phpmyadmin-panel] Dumped HTTP request for https://app.bitpanda.com/phpMyAdmin/index.php
+
+
+GET /phpMyAdmin/index.php HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Mobile/15E148 Safari/604.1
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2F; _cfuvid=Xjwm1Ae.AH8BeIY96vD6pieYGfgojo.WsWvOWSClJyI-1754398150960-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..KOCThJVoNtaSEqpw8bTIwQ.AZLlOgUV_LIa_jAQIssbdLNej1rdB-xMK7PP6jThcomgoxaOF2y-wB3Y3P1Ugm7yVUP3XKvYOQl4Z0TsQcvm2KwyMNt3q6fw350JH66GNVqOaSlNuxd_odFKqZUHe0JUpXuomfPsQAYeRjHHOtjrdKE1kaX5zVq7VlWWBFTEEbf7nAIrspyuFbT3NM79cst-n4hOrTYu_q5CmyjN8FbY6adsUWGPWPPFAFfHeeDnDPz98N6Oe7oFfTdJnE7h1LXWcGydKbkjivkEZjixY1T0RXp83NmY8M89F93tMme4Yd7LePnAOtl6Xlbhw8NruOcsTmkUOUCo4vXkbCQ4x7uRaFil8yeml0XqUrhUczq7WcqCzKDyqykmm9OY9R8J6gUaAr49gsl7ypDOvBHp3tSrxFsM4d8kKiJwm6rOaIm6j_nZGJi3cY2Ry-htreqAfDBqLoD00Xz_ZLp-lfNIY3kYHcbjkokMDm9X9TAn-qyXI903ADJZSJIm9i9mNXALwjUTm_Wzuxh1aDHg5E5vgZ6SjmQs4sDY1yIJMcdUT7XRPLCq7JuAwwGB7LLKfnQndIELxlKaLQgrNlasnB9yd_wFnwQrIkteScQfZgLIetjLJwVtEPrqsu1DWIRbYE1BksEMdsM85z1KjbhCTxXHMJ7HepWMhlLokKnYfptbUNSO45YlHgzSIuV44JbB6aHHz5Q4.tIcc0y1QPIRsv-k7Q4ck3TNcaXAoJZqfVN5JRhrdi0o
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://app.bitpanda.com/phpMyAdmin/index.php
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c0fe5f3888-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:12 GMT
+Location: /api/auth/login?callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2FphpMyAdmin%2Findex.php
+Server: cloudflare
+Set-Cookie: _cfuvid=aXPV.cLzNSwWq5eBoGteN5uT.JjkfMIQ3MxdD.o9QUU-1754398152152-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::ln4sq-1754398151892-204d2e8ee81a
+
+Redirecting...
+

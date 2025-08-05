@@ -1,0 +1,90 @@
+[dns-waf-detect:cloudflare] [dns] [info] bitpanda.com
+[aws-cloudfront-service] [http] [info] https://account.bts.bitpanda.com
+[cluster-f41b080f17d333baa41e06ef4ed382680c31cba358c4711af2692497999c1b5c:aws-cloudfront] [http] [info] https://account.bts.bitpanda.com
+[cluster-f41b080f17d333baa41e06ef4ed382680c31cba358c4711af2692497999c1b5c:aws-cloudfront] [http] [info] https://cdn.bitpanda.com/
+[nginx-version] [http] [info] https://advanced.bitpanda.com ["nginx/1.29.0"]
+[tech-detect:google-font-api] [http] [info] https://advanced.bitpanda.com
+[tech-detect:nginx] [http] [info] https://advanced.bitpanda.com
+[oidc-detect] [http] [info] https://account.bts.bitpanda.com/.well-known/openid-configuration
+[waf-detect:nginxgeneric] [http] [info] https://advanced.bitpanda.com
+[tech-detect:cloudflare] [http] [info] http://backend.academy.bitpanda.com
+[tech-detect:cloudflare] [http] [info] https://account.bts.bitpanda.com
+[waf-detect:cloudflare] [http] [info] http://backend.academy.bitpanda.com
+[tech-detect:jsdelivr] [http] [info] https://akurateco.bitpanda.com/login
+[waf-detect:cloudfront] [http] [info] https://account.bts.bitpanda.com
+[waf-detect:cloudflare] [http] [info] https://account.bts.bitpanda.com
+[waf-detect:nginxgeneric] [http] [info] http://checkout.bitpanda.com
+[waf-detect:nginxgeneric] [http] [info] http://akurateco.bitpanda.com
+[nginx-version] [http] [info] https://advanced.bitpanda.com ["nginx/1.29.0"]
+[cluster-f41b080f17d333baa41e06ef4ed382680c31cba358c4711af2692497999c1b5c:aws-cloudfront] [http] [info] https://account.bts.bitpanda.com
+[aws-cloudfront-service] [http] [info] https://account.bts.bitpanda.com
+[oidc-detect] [http] [info] https://account.bts.bitpanda.com/.well-known/openid-configuration
+[tech-detect:cloudflare] [http] [info] http://brand.bitpanda.com
+[waf-detect:cloudflare] [http] [info] http://affiliates.bitpanda.com
+[aws-cloudfront-service] [http] [info] https://status.techsolutions.bitpanda.com
+[cluster-f41b080f17d333baa41e06ef4ed382680c31cba358c4711af2692497999c1b5c:aws-cloudfront] [http] [info] https://status.techsolutions.bitpanda.com
+[aws-cloudfront-service] [http] [info] https://socket.bitpanda.com
+[cluster-f41b080f17d333baa41e06ef4ed382680c31cba358c4711af2692497999c1b5c:aws-alb] [http] [info] https://socket.bitpanda.com
+[cluster-f41b080f17d333baa41e06ef4ed382680c31cba358c4711af2692497999c1b5c:aws-cloudfront] [http] [info] https://socket.bitpanda.com
+[aws-cloudfront-service] [http] [info] https://techsolutions.bitpanda.com
+[cluster-f41b080f17d333baa41e06ef4ed382680c31cba358c4711af2692497999c1b5c:aws-cloudfront] [http] [info] https://techsolutions.bitpanda.com
+[cluster-f41b080f17d333baa41e06ef4ed382680c31cba358c4711af2692497999c1b5c:aws-kms] [http] [info] https://techsolutions.bitpanda.com
+[cluster-f41b080f17d333baa41e06ef4ed382680c31cba358c4711af2692497999c1b5c:aws-service] [http] [info] https://techsolutions.bitpanda.com
+[aws-bucket-service] [http] [info] https://techsolutions.bitpanda.com
+[waf-detect:cloudflare] [http] [info] https://bitpanda.com
+[tech-detect:react] [http] [info] https://status.techsolutions.bitpanda.com
+[tech-detect:google-tag-manager] [http] [info] https://status.techsolutions.bitpanda.com
+[waf-detect:cloudfront] [http] [info] https://status.techsolutions.bitpanda.com
+[metatag-cms] [http] [info] https://techsolutions.bitpanda.com ["Gatsby 3.10.2"]
+[tech-detect:istio-envoy] [http] [info] https://socket.bitpanda.com
+[waf-detect:cloudfront] [http] [info] https://socket.bitpanda.com
+[tech-detect:cloudflare] [http] [info] https://techsupport.bitpanda.com/hc
+[tech-detect:cloudflare] [http] [info] https://techsupport.bitpanda.com/
+[tech-detect:cloudflare] [http] [info] http://techsupport.bitpanda.com
+[waf-detect:cloudflare] [http] [info] http://techsupport.bitpanda.com
+[tech-detect:react] [http] [info] https://techsolutions.bitpanda.com
+[tech-detect:gatsby] [http] [info] https://techsolutions.bitpanda.com
+[tech-detect:google-font-api] [http] [info] https://techsolutions.bitpanda.com
+[waf-detect:cloudfront] [http] [info] https://techsolutions.bitpanda.com
+[cluster-36b05866f789150d623c7216385ef68ed90292cb54afef696315eccefdb4f3cb] [dns] [info] status.techsolutions.bitpanda.com ["y642rkvphdys.stspg-customer.com"]
+[cluster-f41b080f17d333baa41e06ef4ed382680c31cba358c4711af2692497999c1b5c:aws-cloudfront] [http] [info] https://status.techsolutions.bitpanda.com
+[aws-cloudfront-service] [http] [info] https://status.techsolutions.bitpanda.com
+[cluster-36b05866f789150d623c7216385ef68ed90292cb54afef696315eccefdb4f3cb:amazon-cloudfront] [dns] [info] socket.bitpanda.com ["d3psbw2342r39t.cloudfront.net"]
+[aws-cloudfront-service] [http] [info] https://socket.bitpanda.com
+[cluster-f41b080f17d333baa41e06ef4ed382680c31cba358c4711af2692497999c1b5c:aws-cloudfront] [http] [info] https://socket.bitpanda.com
+[cluster-36b05866f789150d623c7216385ef68ed90292cb54afef696315eccefdb4f3cb] [dns] [info] techsolutions.bitpanda.com ["ssl.redocly.com"]
+[aws-bucket-service] [http] [info] https://techsolutions.bitpanda.com
+[cluster-f41b080f17d333baa41e06ef4ed382680c31cba358c4711af2692497999c1b5c:aws-service] [http] [info] https://techsolutions.bitpanda.com
+[cluster-f41b080f17d333baa41e06ef4ed382680c31cba358c4711af2692497999c1b5c:aws-cloudfront] [http] [info] https://techsolutions.bitpanda.com
+[cluster-f41b080f17d333baa41e06ef4ed382680c31cba358c4711af2692497999c1b5c:aws-kms] [http] [info] https://techsolutions.bitpanda.com
+[aws-cloudfront-service] [http] [info] https://techsolutions.bitpanda.com
+[metatag-cms] [http] [info] https://techsolutions.bitpanda.com ["Gatsby 3.10.2"]
+[tech-detect:cloudflare] [http] [info] https://custody.bitpanda.com
+[cluster-f41b080f17d333baa41e06ef4ed382680c31cba358c4711af2692497999c1b5c:aws-cloudfront] [http] [info] https://cdn.bitpanda.com/
+[waf-detect:cloudflare] [http] [info] https://custody.bitpanda.com
+[cloudflare-external-image-resize] [http] [info] http://cdn.bitpanda.com/cdn-cgi/image/width/https://d28vs52us8n0rrg3ds80ybcgq4wjbaux5.oast.me
+[cluster-27d2a436ec7046a56b145c8dc42040c6ca46cf587624c5131fe252ffb57c06cb] [dns] [info] bitpanda.com ["1 aspmx.l.google.com.","5 alt1.aspmx.l.google.com.","5 alt2.aspmx.l.google.com.","10 alt3.aspmx.l.google.com.","10 alt4.aspmx.l.google.com."]
+[dmarc-detect] [dns] [info] _dmarc.bitpanda.com [""v=DMARC1; p=reject; pct=100; rua=mailto:re+b2utw9u2f6t@dmarc.postmarkapp.com; sp=reject; aspf=r;""]
+[nameserver-fingerprint] [dns] [info] bitpanda.com ["jake.ns.cloudflare.com.","marge.ns.cloudflare.com."]
+[dnssec-detection] [dns] [info] bitpanda.com
+[mx-service-detector:Google Apps] [dns] [info] bitpanda.com
+[caa-fingerprint] [dns] [info] bitpanda.com
+[dns-waf-detect:cloudflare] [dns] [info] bitpanda.com
+[cloudflare-transform-via-url-injection] [http] [unknown] http://cdn.bitpanda.com/cdn-cgi/image/width=1000,format=auto/https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/cloudflare.svg
+[tech-detect:cloudflare] [http] [info] https://localization.webhooks.bitpanda.com/
+[tech-detect:cloudflare] [http] [info] http://localization.webhooks.bitpanda.com
+[waf-detect:cloudflare] [http] [info] http://localization.webhooks.bitpanda.com
+[waf-detect:cloudflare] [http] [info] http://feedbackai.bitpanda.com
+[waf-detect:cloudflare] [http] [info] http://ff.bitpanda.com
+[cloudflare-external-image-resize] [http] [info] http://affiliates.bitpanda.com/cdn-cgi/image/width/https://d28vs52us8n0rrg3ds80nqf64hygis15o.oast.me
+[tech-detect:cloudflare] [http] [info] https://ff.bitpanda.com/
+[tech-detect:cloudflare] [http] [info] http://ff.bitpanda.com
+[tech-detect:cloudflare] [http] [info] https://feedbackai.bitpanda.com/
+[tech-detect:cloudflare] [http] [info] http://feedbackai.bitpanda.com
+[cloudflare-transform-via-url-injection] [http] [unknown] http://feedbackai.bitpanda.com/cdn-cgi/image/width=1000,format=auto/https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/cloudflare.svg
+[cloudflare-external-image-resize] [http] [info] http://feedbackai.bitpanda.com/cdn-cgi/image/width/https://d28vs52us8n0rrg3ds80763tztigcqc5j.oast.me
+[cloudflare-transform-via-url-injection] [http] [unknown] http://ff.bitpanda.com/cdn-cgi/image/width=1000,format=auto/https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/cloudflare.svg
+[cloudflare-external-image-resize] [http] [info] http://ff.bitpanda.com/cdn-cgi/image/width/https://d28vs52us8n0rrg3ds80mg33pb7c4zpcu.oast.me
+[tech-detect:cloudflare] [http] [info] http://wealth-coach.bitpanda.com
+[cloudflare-transform-via-url-injection] [http] [unknown] http://localization.webhooks.bitpanda.com/cdn-cgi/image/width=1000,format=auto/https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/cloudflare.svg
+[cloudflare-external-image-resize] [http] [info] http://localization.webhooks.bitpanda.com/cdn-cgi/image/width/https://d28vs52us8n0rrg3ds80d6ijcrb3cgix8.oast.me

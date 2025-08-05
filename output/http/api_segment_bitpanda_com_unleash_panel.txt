@@ -1,0 +1,91 @@
+[unleash-panel] Dumped HTTP request for https://api-segment.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=YOrQJSdvC11NVtvtIUVVt05Vv7xxvNBA2M9lqz7NgQg-1754398159091-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[unleash-panel] Dumped HTTP response https://api-segment.bitpanda.com/login
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669f2cee1c9bb-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:19 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=6qB8cspqvdqzM0CPyEglN3DSZiz7i2JcwsLvcoKX66c-1754398159917-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[unleash-panel] Dumped HTTP request for https://api-segment.bitpanda.com/sign-in
+
+
+GET /sign-in HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=8.3M_7kI4Hkec2vpuLvUf1tpfyP5xHqVjJDNxo1dLeA-1754398165309-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[unleash-panel] Dumped HTTP response https://api-segment.bitpanda.com/sign-in
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a185f451b39-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:26 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=KcyfLBIEPFvCGR_BOAOA3RTQuP4hE3eqy3oghZHR5GI-1754398166108-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[unleash-panel] Dumped HTTP request for https://api-segment.bitpanda.com/favicon.ico
+
+
+GET /favicon.ico HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=jOtf4LNebtCwIj2kfZw2YArLyV234Ig5NwJj1PKZSGY-1754398171079-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[unleash-panel] Dumped HTTP response https://api-segment.bitpanda.com/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Age: 29
+Cache-Control: public, max-age=300
+Cf-Cache-Status: HIT
+Cf-Ray: 96a66a3dcea26fb5-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:31 GMT
+Expires: Tue, 05 Aug 2025 12:54:31 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=aV3vRoqvyvKxcoYBuriyEK9Xdp7d0IcheCb2oHWK7is-1754398171834-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

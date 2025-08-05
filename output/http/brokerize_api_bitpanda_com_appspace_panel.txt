@@ -1,0 +1,73 @@
+[appspace-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[appspace-panel] Dumped HTTP response https://brokerize-api.bitpanda.com
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6694a2c481777-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:48:52 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=hj8gVwBKxcmVgbNnIau_rGgFTZaVcBdK1y30jixhkFg-1754398132950-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[appspace-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/app/login.aspx
+
+
+GET /app/login.aspx HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686; rv:121.0) Gecko/20100101 Firefox/121.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=ePeNI1y.MZas64JmpD_RGyehhcF58XfFYnaw1JSSJMc-1754398134219-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[appspace-panel] Dumped HTTP response https://brokerize-api.bitpanda.com/app/login.aspx
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6697c2d5f1625-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:00 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=vHidMmR4zPVKN7vFvDuT8Twuk9IfYG76jrLi0r6Qe_I-1754398140945-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[appspace-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/signin/#!/login?returnUrl=%2Fapp%2Fdefault.aspx
+
+
+GET /signin/ HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0.1 Mobile/15E148 Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Iu1IE6iwGgRtiZVwsd9x6beobgY9KYxwQ1aMVjVc4pM-1754398142806-0.0.1.1-604800000; _cfuvid=M.Wk8B2d7vduA7o2vjS4xnG4PjmiLx61e0ZGwmuXqAA-1754398164010-0.0.1.1-604800000; _cfuvid=vGkvYu0wKoxQXyCKV014euwb0xiq7nwyO5Pt2egztmY-1754398179132-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

@@ -1,0 +1,37 @@
+[ivanti-traffic-manager-panel] Dumped HTTP request for https://webuk.bitpanda.com/apps/zxtm/login.cgi
+
+
+GET /apps/zxtm/login.cgi HTTP/1.1
+Host: webuk.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=g_sccr7Y7JeBjkKQqMvd9NEdzHpKTDOrKtEVnbm8iPg-1754398381141-0.0.1.1-604800000; _cfuvid=kC_5yeUy3w5xX_ABchUDOc4Mz..u.Egfp44TStIfIeU-1754398388847-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ivanti-traffic-manager-panel] Dumped HTTP response https://webuk.bitpanda.com/apps/zxtm/login.cgi
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66ff42c42868a-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:53:25 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=goRmVMdsJbBBj6JcvOnUZEdF00hkQ_100Ae4i1UTQjw-1754398405852-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Error: NOT_FOUND
+X-Vercel-Id: iad1::tkxtx-1754398405834-b217b96d4a19
+
+The page could not be found
+
+NOT_FOUND
+
+iad1::tkxtx-1754398405834-b217b96d4a19
+

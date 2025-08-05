@@ -1,0 +1,58 @@
+[kasm-login-panel] Dumped HTTP request for http://akurateco.bitpanda.com/#/login
+
+
+GET / HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[kasm-login-panel] Dumped HTTP response http://akurateco.bitpanda.com/#/login
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:08 GMT
+Location: https://akurateco.bitpanda.com
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+[kasm-login-panel] Dumped HTTP request for http://akurateco.bitpanda.com/api/login_settings
+
+
+POST /api/login_settings HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:121.0) Gecko/20100101 Firefox/121.0
+Connection: close
+Content-Length: 30
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"token":null,"username":null}
+[kasm-login-panel] Dumped HTTP response http://akurateco.bitpanda.com/api/login_settings
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:16 GMT
+Location: https://akurateco.bitpanda.com/api/login_settings
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

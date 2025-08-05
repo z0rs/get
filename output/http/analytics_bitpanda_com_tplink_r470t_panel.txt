@@ -1,0 +1,29 @@
+[tplink-r470t-panel] Dumped HTTP request for https://analytics.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=cTL6UYD.n7C9h0QjdRGT.7jJYaBYzyrCC6RcfeQrziU-1754398165321-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[tplink-r470t-panel] Dumped HTTP response https://analytics.bitpanda.com
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Content-Length: 19
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a1aacd51b5c-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:26 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=Sn8iXslljLVt91ZQWMOVb0A1K4HtFZMYhlgZDO63DDg-1754398166289-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+
+no healthy upstream

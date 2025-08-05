@@ -1,0 +1,26 @@
+[gitea-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/user/login
+
+
+GET /user/login HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[gitea-detect] Dumped HTTP response https://techsolutions.bitpanda.com/user/login
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:35 GMT
+Location: ./login/
+Via: 1.1 5e79d089f5701b7938b599fdf4db1b52.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: HREugIXhjFcusAEvVrfFG0NVtd1qX9TyWbB2eheFgC6XaWXiyZamyQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

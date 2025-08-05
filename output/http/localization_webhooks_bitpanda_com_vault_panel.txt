@@ -1,0 +1,128 @@
+[vault-panel] Dumped HTTP request for http://localization.webhooks.bitpanda.com/v1/sys/health
+
+
+GET /v1/sys/health HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=7i.eugPYyLulNdWz1vQMygdD4usaGj6IaUG7.uaz4Kk-1754398334810-0.0.1.1-604800000; _cfuvid=4ACBgx7O4la3pb9.uA8NG2BkSyN4Kh9psMQLGjLyqdA-1754398347831-0.0.1.1-604800000; _cfuvid=zTJlU9NMDbA3Fw6jrkAk5r0MsKg0WiJyWz6Lv6tkrOw-1754398365841-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vault-panel] Dumped HTTP request for http://localization.webhooks.bitpanda.com/ui/vault/auth
+
+
+GET /ui/vault/auth HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=JMbc1IfepMXim8pGgChLAZ8HarGpULZ9WvYJxDid4Fo-1754398374826-0.0.1.1-604800000; _cfuvid=ynxtdKqcgrHDNBYO1N0entpOC_Dka_MyTe5ceouVzA8-1754398391829-0.0.1.1-604800000; _cfuvid=qI44Q7.q540PaopgVk6Loab55lyWyTIwhInevpPTvVU-1754398410903-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vault-panel] Dumped HTTP response http://localization.webhooks.bitpanda.com/ui/vault/auth
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670200df8878e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:32 GMT
+Expires: Tue, 05 Aug 2025 13:53:32 GMT
+Location: https://localization.webhooks.bitpanda.com/ui/vault/auth
+Server: cloudflare
+Set-Cookie: _cfuvid=ratiSnCiU3s0LvsZngEwsHvqQDWHcIPLtNG9YNgC9q4-1754398412848-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[vault-panel] Dumped HTTP request for http://localization.webhooks.bitpanda.com/ui/auth
+
+
+GET /ui/auth HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=ratiSnCiU3s0LvsZngEwsHvqQDWHcIPLtNG9YNgC9q4-1754398412848-0.0.1.1-604800000; _cfuvid=_VoUhvUlHqmCX9nGByjTWDOBJerz84zTC4iEpKiFfMU-1754398428234-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vault-panel] Dumped HTTP response http://localization.webhooks.bitpanda.com/ui/auth
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6708adadd9c82-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:49 GMT
+Expires: Tue, 05 Aug 2025 13:53:49 GMT
+Location: https://localization.webhooks.bitpanda.com/ui/auth
+Server: cloudflare
+Set-Cookie: _cfuvid=Gl.0rXwOW6J70v2wwT7nZr_rjb21yjhRFs_sX3m3biY-1754398429927-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[vault-panel] Dumped HTTP request for http://localization.webhooks.bitpanda.com/v1/sys/health?help=1
+
+
+GET /v1/sys/health?help=1 HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Gl.0rXwOW6J70v2wwT7nZr_rjb21yjhRFs_sX3m3biY-1754398429927-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vault-panel] Dumped HTTP response http://localization.webhooks.bitpanda.com/v1/sys/health?help=1
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67091a9b057e2-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:51 GMT
+Expires: Tue, 05 Aug 2025 13:53:51 GMT
+Location: https://localization.webhooks.bitpanda.com/v1/sys/health?help=1
+Server: cloudflare
+Set-Cookie: _cfuvid=hiEM7JcTIGOmM4OY5ROb2bOpr9wvfk_bh8PAIjNhCl4-1754398431016-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

@@ -1,0 +1,29 @@
+[torrent-magnet-detect] Dumped HTTP request for https://analytics.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=__SePyCJKQK9mUbTUczoshXOs6tMI_tVIJKeUL7uWOk-1754398169347-0.0.1.1-604800000; _cfuvid=IT_Bw7R3.WE5sIFa40_v7V6ZinqjDimFJBsPAKQSCDU-1754398169934-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[torrent-magnet-detect] Dumped HTTP response https://analytics.bitpanda.com
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Content-Length: 19
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a379f000599-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:30 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=zhZ1EY5LB2T.gLxZMJsYxLOpWASrLITjswqfLP8Mz6A-1754398170949-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+
+no healthy upstream

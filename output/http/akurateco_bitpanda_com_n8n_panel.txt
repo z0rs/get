@@ -1,0 +1,30 @@
+[n8n-panel] Dumped HTTP request for http://akurateco.bitpanda.com/signin
+
+
+GET /signin HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[n8n-panel] Dumped HTTP response http://akurateco.bitpanda.com/signin
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:15 GMT
+Location: https://akurateco.bitpanda.com/signin
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

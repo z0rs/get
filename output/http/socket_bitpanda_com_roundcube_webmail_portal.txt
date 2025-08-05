@@ -1,0 +1,76 @@
+[roundcube-webmail-portal] Dumped HTTP request for https://socket.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_3_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=CecPiouaYr+ADAb1ZM7k7KSY99qFa8+bj9RLeCA/Sq0R/4pz1O0/LYQmheZgSmQ7i4gmAFe5MDineWnBZAGtGqxYfip/8iMPxNVJDjHTak/aS7vT9Ojk+2+IENmf; AWSALBCORS=CecPiouaYr+ADAb1ZM7k7KSY99qFa8+bj9RLeCA/Sq0R/4pz1O0/LYQmheZgSmQ7i4gmAFe5MDineWnBZAGtGqxYfip/8iMPxNVJDjHTak/aS7vT9Ojk+2+IENmf
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[roundcube-webmail-portal] Dumped HTTP response https://socket.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:38 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=8uCKt/5sc7HybDbux+bttnWZUER+wAVZYdV6+3EUbGb5Ko6ooL6A6nwUwfkJAGoKcGKXkVuSCu+tLbQnr/wQk7iO8nh5121IcSNbf3lmJwtNc83JVBYzEq84mPGF; Expires=Tue, 12 Aug 2025 12:52:38 GMT; Path=/
+Set-Cookie: AWSALBCORS=8uCKt/5sc7HybDbux+bttnWZUER+wAVZYdV6+3EUbGb5Ko6ooL6A6nwUwfkJAGoKcGKXkVuSCu+tLbQnr/wQk7iO8nh5121IcSNbf3lmJwtNc83JVBYzEq84mPGF; Expires=Tue, 12 Aug 2025 12:52:38 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 d45137f973d454db77c647196f56613a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: n4grsakCp_wtW2FPZ8Eae-fun9f92FLnmYuw_iLmXV7vR1ecQtfr5A==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 34
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[roundcube-webmail-portal] Dumped HTTP request for https://socket.bitpanda.com/webmail/
+
+
+GET /webmail/ HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=jQOjzARrHArU6TaW9DBMWKTTGF8tDxlVptQRbph6WSA/75V26yrf2+zl/Xw0RRk4IYgc4wfk3O7kJuRVv0DMVzu80NMW9t0ZDrLaSb7FLm+ZC1b5+f3lapIFpOss; AWSALBCORS=jQOjzARrHArU6TaW9DBMWKTTGF8tDxlVptQRbph6WSA/75V26yrf2+zl/Xw0RRk4IYgc4wfk3O7kJuRVv0DMVzu80NMW9t0ZDrLaSb7FLm+ZC1b5+f3lapIFpOss
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[roundcube-webmail-portal] Dumped HTTP response https://socket.bitpanda.com/webmail/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:41 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=gz9WDjk7jzmzwoMVw5BKJ1zRX9J5te/WTss1dX36MUgt1A4FJRnwWWX6oVnSEhwJS9qXtBtDzEAAsaqgLOg0f8t/6aFJgR9SD8SYLiD48oTMxaN9Bw0k/2JOlQgM; Expires=Tue, 12 Aug 2025 12:52:41 GMT; Path=/
+Set-Cookie: AWSALBCORS=gz9WDjk7jzmzwoMVw5BKJ1zRX9J5te/WTss1dX36MUgt1A4FJRnwWWX6oVnSEhwJS9qXtBtDzEAAsaqgLOg0f8t/6aFJgR9SD8SYLiD48oTMxaN9Bw0k/2JOlQgM; Expires=Tue, 12 Aug 2025 12:52:41 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 d907e6ff1d7c4efa4a8fcfcbb0b5531c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: oPlkjR-stiM53663mE8sRPfQY6IDKKVkqbwF2hydQmDHBJHbh_D5bw==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 8
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

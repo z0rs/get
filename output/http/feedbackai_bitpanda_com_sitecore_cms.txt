@@ -1,0 +1,45 @@
+[sitecore-cms] Dumped HTTP request for http://feedbackai.bitpanda.com/-/media/doo-doo.ashx
+
+
+GET /-/media/doo-doo.ashx HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Ux0c4D2wf6VcDoIfRqs8.51nhPTQvrXUHWgzf7qtwMc-1754398425062-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[sitecore-cms] Dumped HTTP response http://feedbackai.bitpanda.com/-/media/doo-doo.ashx
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670b318a205df-IAD
+Date: Tue, 05 Aug 2025 12:53:56 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[sitecore-cms] Dumped HTTP response http://feedbackai.bitpanda.com/-/media/doo-doo.ashx
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670b2d803597f-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:56 GMT
+Expires: Tue, 05 Aug 2025 13:53:56 GMT
+Location: https://feedbackai.bitpanda.com/-/media/doo-doo.ashx
+Server: cloudflare
+Set-Cookie: _cfuvid=wgdvNeSqWYw492WMHL7CqOcSgFdqp6yU25Pe8Lt8ISY-1754398436315-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

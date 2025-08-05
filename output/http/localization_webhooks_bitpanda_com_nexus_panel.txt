@@ -1,0 +1,38 @@
+[nexus-panel] Dumped HTTP request for http://localization.webhooks.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=ridwNnpqXGE.ls6gP8MJspJfvbwPIsuG8TVJSvsvFzg-1754398300181-0.0.1.1-604800000; _cfuvid=GBXyDpXc.2fIZxQGG2StTitpbBEscn92AGgTZF6r.Aw-1754398300841-0.0.1.1-604800000; _cfuvid=lr0Xn.nEpEOSwrVx_DxO3H_VRTrBbkz_Ta.baaWFDrk-1754398302834-0.0.1.1-604800000; _cfuvid=H7oDsXXIXL4HyFuAmvm4c9jl1.mfsVjLZx6xIyrhod4-1754398321830-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[nexus-panel] Dumped HTTP response http://localization.webhooks.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ded9c60d600-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:02 GMT
+Expires: Tue, 05 Aug 2025 13:52:02 GMT
+Location: https://localization.webhooks.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=KUI32LtAW7Y74BP8PiqRBdmodTZ7.3zRsdE2CifA_PE-1754398322838-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

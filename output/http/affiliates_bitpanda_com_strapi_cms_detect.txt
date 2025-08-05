@@ -1,0 +1,38 @@
+[strapi-cms-detect] Dumped HTTP request for http://affiliates.bitpanda.com/admin/init
+
+
+GET /admin/init HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=6aOQ1oVmQcqvkqwtmmgKmYQsX3Ocbab2gGZ346zIVJI-1754398292838-0.0.1.1-604800000; _cfuvid=uw5rwU0DqmhLVwbFOcYHKSAPxSLZj6_wBcHdoaW_YIk-1754398308873-0.0.1.1-604800000; _cfuvid=1UC42ilb59Ie_ENeN7qEHIkEvidHe8A.ICFhyPUXT9o-1754398309996-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[strapi-cms-detect] Dumped HTTP response http://affiliates.bitpanda.com/admin/init
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66da90a1b1f55-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:51:51 GMT
+Expires: Tue, 05 Aug 2025 13:51:51 GMT
+Location: https://affiliates.bitpanda.com/admin/init
+Server: cloudflare
+Set-Cookie: _cfuvid=Ra2F0tBGwCtSa_Fp_YtPsdPdiAFLDSmuON.oFqKsLsk-1754398311871-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

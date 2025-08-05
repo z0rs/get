@@ -1,0 +1,24 @@
+[ec2-detection] Dumped DNS request for status.techsolutions.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 34097
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;status.techsolutions.bitpanda.com.	IN	 CNAME
+
+[ec2-detection] Dumped DNS response for status.techsolutions.bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 34097
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 512
+
+;; QUESTION SECTION:
+;status.techsolutions.bitpanda.com.	IN	 CNAME
+
+;; ANSWER SECTION:
+status.techsolutions.bitpanda.com.	300	IN	CNAME	y642rkvphdys.stspg-customer.com.
+

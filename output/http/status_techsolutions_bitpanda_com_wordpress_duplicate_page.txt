@@ -1,0 +1,35 @@
+[wordpress-duplicate-page] Dumped HTTP request for https://status.techsolutions.bitpanda.com/wp-content/plugins/duplicate-page/readme.txt
+
+
+GET /wp-content/plugins/duplicate-page/readme.txt HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=SEllNCtjbmVHMEh3ZkRqMTZhK2o1VEdqMjkzT21RSUwvRGMzQnRWQlFUYlQ3anA3WERZRGJPSndwTHI3Qm1XYUpLUVZxZnl3UGxrWjNYbkxvQ3Y5VGdhT2hjZW1wRk1OSWxnMlJFU0dHZFVJTGhicWxDWEZ2akNoRUE3aG5GTENXZzRnMllrZ0RQaHpPWWJGNk5jNUxuUnBzWUk5bXhabWRRL0tvU0hGQVE0a3hWRnhKTG8xWHViUk9SRFc4R3BVVE5Md0I1cDRnNnBMZkc5Q2JUeVFmRkJFeHpCNXF0RmFIcFp6VzhIL1FpMD0tLVI1cDg5YzlZZjdRYXJSRTVySlV6Z1E9PQ%3D%3D--b0bf19b83db1e26bf8468707b0446d7242355060
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-duplicate-page] Dumped HTTP response https://status.techsolutions.bitpanda.com/wp-content/plugins/duplicate-page/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: ca8e8c23-3647-441f-8180-c9e00d6aca62
+Atl-Traceid: ca8e8c233647441f8180c9e00d6aca62
+Date: Tue, 05 Aug 2025 12:52:40 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 a20436c6d109fe9002d093f519ad4398.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: bMwOvnKBhQJvqfFPPRIewmTPm5KgsgtDXcTolOVHqp3OdMyH3-9BWw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 150380386
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

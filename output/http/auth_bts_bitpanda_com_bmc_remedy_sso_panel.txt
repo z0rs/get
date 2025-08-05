@@ -1,0 +1,26 @@
+[bmc-remedy-sso-panel] Dumped HTTP request for https://auth-bts.bitpanda.com/arsys/
+
+
+GET /arsys/ HTTP/1.1
+Host: auth-bts.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[bmc-remedy-sso-panel] Dumped HTTP request for https://auth-bts.bitpanda.com/webUI/userHome.do
+
+
+GET /webUI/userHome.do HTTP/1.1
+Host: auth-bts.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686; rv:127.0) Gecko/20100101 Firefox/127.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

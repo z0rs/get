@@ -1,0 +1,14 @@
+[geth-server-detect] Dumped HTTP request for https://bitpanda.com
+
+
+POST / HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 66
+Content-Type: application/json
+Cookie: _cfuvid=AjzRFMouw3VPHrtEhUWTQ63Si_34OndmTtsrdwyWgCs-1754398221037-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"method":"web3_clientVersion","params":[],"id":1,"jsonrpc":"2.0"}

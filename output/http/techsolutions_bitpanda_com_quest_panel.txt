@@ -1,0 +1,26 @@
+[quest-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/cgi-bin/webcm?getpage=../html/login.html
+
+
+GET /cgi-bin/webcm?getpage=../html/login.html HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[quest-panel] Dumped HTTP response https://techsolutions.bitpanda.com/cgi-bin/webcm?getpage=../html/login.html
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:23 GMT
+Location: ./webcm/?getpage=../html/login.html
+Via: 1.1 f28664317eb9628b30397afa3d6b821c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: qVzXTikcoQvqq_QzXzyy0_QUPIhEMspXCNq-Xj_tMed87_7EqNgdUw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

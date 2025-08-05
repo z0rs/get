@@ -1,0 +1,38 @@
+[omni-commerce-connect-detect] Dumped HTTP request for http://ff.bitpanda.com/occ/v2/d2OzBcy
+
+
+GET /occ/v2/d2OzBcy HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=VcMiRxgnmuFFoRmm95ge_ICZUFGG.huiCZ6Wjk1Eaxk-1754398431394-0.0.1.1-604800000; GCLB="9b949222d13dee5d"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[omni-commerce-connect-detect] Dumped HTTP response http://ff.bitpanda.com/occ/v2/d2OzBcy
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670b068111776-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:55 GMT
+Expires: Tue, 05 Aug 2025 13:53:55 GMT
+Location: https://ff.bitpanda.com/occ/v2/d2OzBcy
+Server: cloudflare
+Set-Cookie: _cfuvid=HesDlmZMX4aErTYmw.CT4PrFjwhPTqXRpuUb39bTHPk-1754398435957-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

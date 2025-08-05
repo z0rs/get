@@ -1,0 +1,16 @@
+[graphql-hypergraphql-detect] Dumped HTTP request for https://api-segment.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/9.1.2 Safari/605.1.15
+Connection: close
+Content-Length: 30
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=SkEHEDh.DT3NFiCF9RL0fYj6C0rRzLvSSQj4SUIADik-1754398184670-0.0.1.1-604800000; _cfuvid=u4xPCRA4fYsO5RgV7YgHc2gAt1kCr60npa4NZzJGQwc-1754398193914-0.0.1.1-604800000; _cfuvid=Qaqg4bwZ5BVDEB6Bawn9_S3saJ7x4TMxGRY7t9GVC_s-1754398214939-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"zzz { __typename }"}

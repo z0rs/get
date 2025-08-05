@@ -1,0 +1,61 @@
+[n8n-panel] Dumped HTTP request for https://blog.bitpanda.com/signin
+
+
+GET /signin HTTP/1.1
+Host: blog.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qxNqfmJHry6U8KxO13zflestBoMo4MAbyFhxqNI1FU4-1754398145955-0.0.1.1-604800000; _cfuvid=x5PIhfHiGq2Hw1nyy2UyiimAqbF40BbK42i3oqMEFkY-1754398162012-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[n8n-panel] Dumped HTTP response https://blog.bitpanda.com/signin
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 1309
+Age: 30
+Cache-Control: max-age=3600, no-transform, public
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a059d270612-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:22 GMT
+Etag: "78e2357df5414ccc96a4dd3419a9fe77"
+Last-Modified: Wed, 15 Feb 2023 14:39:43 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=HCCNJ2T9Nby9BuUb_Fc95I_ybnt80.GZTAKmC9cBMuA-1754398162842-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 70e40bc3fbbdbf0242115d0ef383be56.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: R50lNDIuI4qwLmmnfR69O6pX_q9SnSiuPYV287IULx5vryB2i70VQg==
+X-Amz-Cf-Pop: IAD55-P5
+X-Amz-Error-Code: NoSuchKey
+X-Amz-Error-Detail-Key: signin
+X-Amz-Error-Message: The specified key does not exist.
+X-Amz-Version-Id: yR6rYC_OKaJnEAv9WrVQ56zvOAhJJ3Hl
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta content="ie=edge" http-equiv=x-ua-compatible><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name=viewport><title></title><script>var languages = ['en','de','fr','es','it','pl',];
+                var pages = {en: 'https://blog.bitpanda.com/en/error',de: 'https://blog.bitpanda.com/de/error',fr: 'https://blog.bitpanda.com/fr/error',es: 'https://blog.bitpanda.com/es/error',it: 'https://blog.bitpanda.com/it/error',pl: 'https://blog.bitpanda.com/pl/error',};
+                var language = window.navigator.userLanguage || window.navigator.language;
+                var langCode = language.split("-")[0];
+
+                var hasLanguage = false;
+                for (var i = 0; i < languages.length; i++) {
+                    if(window.location.pathname.startsWith("/" + languages[i])) {
+                        hasLanguage = true;
+                    }
+                }
+
+                if (!hasLanguage) {
+                    location.href = window.location.origin + "/en" + window.location.pathname;
+                } else {
+                   if(!(langCode in pages)) {
+                        langCode = "en";
+                    }
+
+                    location.href = pages[langCode];
+                }</script> <body>

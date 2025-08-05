@@ -1,0 +1,35 @@
+[atlassian-crowd-panel] Dumped HTTP request for https://status.techsolutions.bitpanda.com/crowd/console/login.action
+
+
+GET /crowd/console/login.action HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[atlassian-crowd-panel] Dumped HTTP response https://status.techsolutions.bitpanda.com/crowd/console/login.action
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: ad98a673-97fb-428d-a23d-c4995f8700e4
+Atl-Traceid: ad98a67397fb428da23dc4995f8700e4
+Date: Tue, 05 Aug 2025 12:53:15 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 427271f19372c1be0d143a1d4c76a128.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: CkVTQuvIDC8MQE2Yavr2j4KLdiBuSO6rT7yFOpKCqBsTeXsVMGj8UA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 743057962
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

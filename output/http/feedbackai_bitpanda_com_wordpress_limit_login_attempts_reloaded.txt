@@ -1,0 +1,37 @@
+[wordpress-limit-login-attempts-reloaded] Dumped HTTP request for http://feedbackai.bitpanda.com/wp-content/plugins/limit-login-attempts-reloaded/readme.txt
+
+
+GET /wp-content/plugins/limit-login-attempts-reloaded/readme.txt HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=4mKxGuxXTmiz7Oo5eZ8BPne_Xxm5Av2Xztq9FwzdEDc-1754398443653-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-limit-login-attempts-reloaded] Dumped HTTP response http://feedbackai.bitpanda.com/wp-content/plugins/limit-login-attempts-reloaded/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67113e99f1744-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:11 GMT
+Expires: Tue, 05 Aug 2025 13:54:11 GMT
+Location: https://feedbackai.bitpanda.com/wp-content/plugins/limit-login-attempts-reloaded/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=kA2GqYot7d6LlZehH6Skoc813nefVpZeY2VhzQVNRnA-1754398451877-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

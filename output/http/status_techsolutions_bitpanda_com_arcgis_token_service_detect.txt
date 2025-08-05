@@ -1,0 +1,35 @@
+[arcgis-token-service-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/arcgis/tokens/
+
+
+GET /arcgis/tokens/ HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[arcgis-token-service-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/arcgis/tokens/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: de66737a-0686-41e2-bf73-694e2b02ea46
+Atl-Traceid: de66737a068641e2bf73694e2b02ea46
+Date: Tue, 05 Aug 2025 12:52:22 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=63,atl-edge-internal;dur=3,atl-edge-upstream;dur=61,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 c8c9787916110356915bbdbddd0a32d6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: YEqrvqAYp9jhv4U7Lx6O2MIK_rm0xqamw_8F9MeHSDUFDWX4hXf-2g==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 110733786
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

@@ -1,0 +1,64 @@
+[graphql-sangria-detect] Dumped HTTP request for http://cdn.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 33
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=FphuRIxnM81jfL8NhQOQXPER4WzAMG4hqQ8vVLj2hNc-1754398224807-0.0.1.1-604800000; _cfuvid=m6XS3t_qpGihceXN0PbTh1LRFYfAqHeK_KRtEd.iXIk-1754398233796-0.0.1.1-604800000; _cfuvid=DVKJvjPcPq6IEgP4cWDIKzgW963mKf6z9Y3eMZfTXgU-1754398257859-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"queryy { __typename }"}
+[graphql-sangria-detect] Dumped HTTP request for http://cdn.bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686; rv:127.0) Gecko/20100101 Firefox/127.0
+Connection: close
+Content-Length: 33
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=r949UBjdxDevRmPROPWHnNgqCoyIkaYyzNytnf3lpJs-1754398271921-0.0.1.1-604800000; _cfuvid=5qr6EPi5VI3aJRlZDvGLEWLGVKDGqXaUNt9AraaSZEM-1754398290814-0.0.1.1-604800000; _cfuvid=KCr0x38uoO2adTok0DEDf4jZ__MDn1LHyVe8aMedr0A-1754398305953-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"queryy { __typename }"}
+[graphql-sangria-detect] Dumped HTTP request for http://cdn.bitpanda.com/query
+
+
+POST /query HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 33
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=V0GKtTjTYm4Zn5oKnI8xA3tfsaQPD6DMuV3fOkIu_VE-1754398317854-0.0.1.1-604800000; _cfuvid=NfRSuoY_V0MLHJTW6.x9fqg9IdI_QUdEJKDdJuTjJvM-1754398335819-0.0.1.1-604800000; _cfuvid=KsgnKLRDCrwGEByHEcN4fsX0.jMWh3KAavSAZdk9jpY-1754398351835-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"queryy { __typename }"}
+[graphql-sangria-detect] Dumped HTTP request for http://cdn.bitpanda.com/
+
+
+POST / HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+Connection: close
+Content-Length: 33
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=rglJnmwLlJVg2JUDZBLaeYPfjriuS6s6jCh2fEw37Go-1754398367846-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"queryy { __typename }"}

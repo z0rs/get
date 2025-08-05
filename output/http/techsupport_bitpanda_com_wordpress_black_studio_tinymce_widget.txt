@@ -1,0 +1,38 @@
+[wordpress-black-studio-tinymce-widget] Dumped HTTP request for http://techsupport.bitpanda.com/wp-content/plugins/black-studio-tinymce-widget/readme.txt
+
+
+GET /wp-content/plugins/black-studio-tinymce-widget/readme.txt HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0  Macintosh  Intel Mac OS X 10_15_7  AppleWebKit/605.1.15  KHTML  like Gecko  Version/18.4 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-black-studio-tinymce-widget] Dumped HTTP response http://techsupport.bitpanda.com/wp-content/plugins/black-studio-tinymce-widget/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66eedabe0c9a1-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:43 GMT
+Expires: Tue, 05 Aug 2025 13:52:43 GMT
+Location: https://techsupport.bitpanda.com/wp-content/plugins/black-studio-tinymce-widget/readme.txt
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=x2Sa2VontSZeu2pjERtWheD7upzyOIpO5wHRbT3FEJXldpeiVPmBLjU%2BKyhdaif9%2BuKamvHCmmd%2B0wsWVgCo6IzEX5Tyyy7VAmRkStDfd6rNh%2Bu0XQ6%2FcbfLWGL6gFedsICbo%2Fn5k5BYPQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=bCfoFIIOu036rYCDeQuCgPOdkM22BYNmKC5D36xOvLU-1754398363-1.0.1.1-MTKOKMhUecsmasL7WoPI3E2K7RE0e2AwNw_8oteY1hL7KNLN7sQZzpkYuvgvfO.W.r5sYu4RNF.vi7eCOibZGu9sG_mxG_iXF.bYMHqqnqs; path=/; expires=Tue, 05-Aug-25 13:22:43 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=TX87Eqm0rE8T6Bq9TLz8mgv.pvypAdDMzzUEObCzXI8-1754398363822-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

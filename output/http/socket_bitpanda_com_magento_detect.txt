@@ -1,0 +1,76 @@
+[magento-detect] Dumped HTTP request for https://socket.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=VJyJtAc+4/Fu99yDzsS025Jdj/fbKVErXEdJwAX+gJ8+vMo9AaW+zf9kFcgrpPfpmhrV54TZJTFSn8FO0/14MIwbuTecyaCEaspV4V1z0U0gI8UkwdLxLkxTALFH; AWSALBCORS=VJyJtAc+4/Fu99yDzsS025Jdj/fbKVErXEdJwAX+gJ8+vMo9AaW+zf9kFcgrpPfpmhrV54TZJTFSn8FO0/14MIwbuTecyaCEaspV4V1z0U0gI8UkwdLxLkxTALFH
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[magento-detect] Dumped HTTP response https://socket.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:32 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=L1JNETx9P3s/KtfailifAfbNeidhkniGnE6WAfk7z44l4s288iqpFymM9narZIKA1TPP0j+QpJQJLcVVXzh3rWZhhUHB79+uOtqKvCXoZ2eg/jSPbtLXi7CqLkrd; Expires=Tue, 12 Aug 2025 12:52:32 GMT; Path=/
+Set-Cookie: AWSALBCORS=L1JNETx9P3s/KtfailifAfbNeidhkniGnE6WAfk7z44l4s288iqpFymM9narZIKA1TPP0j+QpJQJLcVVXzh3rWZhhUHB79+uOtqKvCXoZ2eg/jSPbtLXi7CqLkrd; Expires=Tue, 12 Aug 2025 12:52:32 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 0bdcc10f69b746cb367ceb51e88a3d1c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: PrgpMnw-EmtXpw9Vf6weyJ0bj0GA6aFH0r_LppHtVpDQvXTSIJDKXA==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 7
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[magento-detect] Dumped HTTP request for https://socket.bitpanda.com/graphql?query=+{customerDownloadableProducts+{+items+{+date+download_url}}+}
+
+
+GET /graphql?query=+{customerDownloadableProducts+{+items+{+date+download_url}}+} HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=ZEbCM/lh8QhcDZZ6e4zNV1ELIw+CuRepZvnEmLoGvAl6xoI3cvPMWZVY1D8AVnBImJODoJXVya25JQUgKsSDu4Xx4recLM5bHYQ6g5PFczpiNOCNN7vgEukr6rwB; AWSALBCORS=ZEbCM/lh8QhcDZZ6e4zNV1ELIw+CuRepZvnEmLoGvAl6xoI3cvPMWZVY1D8AVnBImJODoJXVya25JQUgKsSDu4Xx4recLM5bHYQ6g5PFczpiNOCNN7vgEukr6rwB
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[magento-detect] Dumped HTTP response https://socket.bitpanda.com/graphql?query=+{customerDownloadableProducts+{+items+{+date+download_url}}+}
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:35 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=GrsPRjbA5kVg5ac+cK+zT+l8vk90Rh/UhEFpd7T8u45Pxdpw7z1TaWljW9tGeR4z14nNh99VPU71KPCNDTDBqMDENvtnMs3nOO2y98uq4qeVMCLslaGJBqye31i8; Expires=Tue, 12 Aug 2025 12:52:35 GMT; Path=/
+Set-Cookie: AWSALBCORS=GrsPRjbA5kVg5ac+cK+zT+l8vk90Rh/UhEFpd7T8u45Pxdpw7z1TaWljW9tGeR4z14nNh99VPU71KPCNDTDBqMDENvtnMs3nOO2y98uq4qeVMCLslaGJBqye31i8; Expires=Tue, 12 Aug 2025 12:52:35 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 8a66d5eadee9b730a388e117efe2af72.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: UNpxmn2R84zxIzKEDWT4wg80yGS2Vrr59suaex44aKHI4cdsCiWl4Q==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 20
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

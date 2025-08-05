@@ -1,0 +1,25 @@
+[cluster-ac8eb561b4a3aad228c226075e7bb2a4ae6f873283951a6876a6aa5ca9002261] Dumped DNS request for cdn.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 23765
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;cdn.bitpanda.com.	IN	 A
+
+[cluster-ac8eb561b4a3aad228c226075e7bb2a4ae6f873283951a6876a6aa5ca9002261] Dumped DNS response for cdn.bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 23765
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 512
+
+;; QUESTION SECTION:
+;cdn.bitpanda.com.	IN	 A
+
+;; ANSWER SECTION:
+cdn.bitpanda.com.	300	IN	A	104.18.33.70
+cdn.bitpanda.com.	300	IN	A	172.64.154.186
+

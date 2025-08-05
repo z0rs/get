@@ -1,0 +1,35 @@
+[wordpress-contact-form-7] Dumped HTTP request for https://status.techsolutions.bitpanda.com/wp-content/plugins/contact-form-7/readme.txt
+
+
+GET /wp-content/plugins/contact-form-7/readme.txt HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=SEllNCtjbmVHMEh3ZkRqMTZhK2o1VEdqMjkzT21RSUwvRGMzQnRWQlFUYlQ3anA3WERZRGJPSndwTHI3Qm1XYUpLUVZxZnl3UGxrWjNYbkxvQ3Y5VGdhT2hjZW1wRk1OSWxnMlJFU0dHZFVJTGhicWxDWEZ2akNoRUE3aG5GTENXZzRnMllrZ0RQaHpPWWJGNk5jNUxuUnBzWUk5bXhabWRRL0tvU0hGQVE0a3hWRnhKTG8xWHViUk9SRFc4R3BVVE5Md0I1cDRnNnBMZkc5Q2JUeVFmRkJFeHpCNXF0RmFIcFp6VzhIL1FpMD0tLVI1cDg5YzlZZjdRYXJSRTVySlV6Z1E9PQ%3D%3D--b0bf19b83db1e26bf8468707b0446d7242355060
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-contact-form-7] Dumped HTTP response https://status.techsolutions.bitpanda.com/wp-content/plugins/contact-form-7/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: f98d58f1-94bb-4851-9463-68090651ab9a
+Atl-Traceid: f98d58f194bb4851946368090651ab9a
+Date: Tue, 05 Aug 2025 12:52:39 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=4,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 ca8d1424de70ce439236d37048e65f54.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: PvbG6FVgbeWUZR9lFUOIh9Bd4r9v8QLFyuGtO4r4dBjih3u7OTvM2g==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 102104141
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

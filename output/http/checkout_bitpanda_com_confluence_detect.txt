@@ -1,0 +1,198 @@
+[confluence-detect] Dumped HTTP request for http://checkout.bitpanda.com/dologin.action
+
+
+GET /dologin.action HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[confluence-detect] Dumped HTTP response http://checkout.bitpanda.com/dologin.action
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, private
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:34 GMT
+Expires: Tue, 05 Aug 2025 12:49:34 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+{"error_code":0,"error_message":"No route found for \"GET /dologin.action\" (from \"http://checkout.bitpanda.com/dologin.action\")","errors":[]}
+[confluence-detect] Dumped HTTP response http://checkout.bitpanda.com/dologin.action
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:33 GMT
+Location: https://checkout.bitpanda.com/dologin.action
+
+
+[confluence-detect] Dumped HTTP request for http://checkout.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[confluence-detect] Dumped HTTP response http://checkout.bitpanda.com
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, private
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:40 GMT
+Expires: Tue, 05 Aug 2025 12:49:40 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <title>Checkout</title>
+
+        <meta charset="UTF-8">
+        <meta name="google" content="nopagereadaloud">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        
+                    <link rel="stylesheet" href="/build/app.8a283fe8.css">
+            <link rel="shortcut icon" href="#" />
+        
+                </head>
+    <body>
+            <div id="app">
+        <app></app>
+    </div>
+                                                                                    <script src="/build/runtime.44efdefd.js" integrity="sha256-os63CDs/i4eXdhn8sCtTFJ4L2D5OGdmF/E/9VK0ce5Q= sha384-oUnaxxD5U7ieDQvT/BSwf1V8kcZPZsBuloYMlsxQM7mhw8q79Unqis7uaxTLN1XZ" crossorigin="anonymous"></script>
+                                                                                            <script src="/build/app.54d57dc4.js" integrity="sha256-ZdEs7XmQjnY2FSSsu7J2RX7Cw/zQDA9i8FHrG+KhddE= sha384-b6k+5b51t0FnB+aG9VA60f1t2JUpXDBMfrW2DGz6iK/Rr22i5uxNDyI/3kVRA6LN" crossorigin="anonymous"></script>
+                                                </body>
+</html>
+
+[confluence-detect] Dumped HTTP response http://checkout.bitpanda.com
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:39 GMT
+Location: https://checkout.bitpanda.com
+
+
+[confluence-detect] Dumped HTTP request for http://checkout.bitpanda.com/pages
+
+
+GET /pages HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[confluence-detect] Dumped HTTP response http://checkout.bitpanda.com/pages
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, private
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:46 GMT
+Expires: Tue, 05 Aug 2025 12:49:46 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+{"error_code":0,"error_message":"No route found for \"GET /pages\" (from \"http://checkout.bitpanda.com/pages\")","errors":[]}
+[confluence-detect] Dumped HTTP response http://checkout.bitpanda.com/pages
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:45 GMT
+Location: https://checkout.bitpanda.com/pages
+
+
+[confluence-detect] Dumped HTTP request for http://checkout.bitpanda.com/confluence
+
+
+GET /confluence HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/101.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[confluence-detect] Dumped HTTP response http://checkout.bitpanda.com/confluence
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, private
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:52 GMT
+Expires: Tue, 05 Aug 2025 12:49:52 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+{"error_code":0,"error_message":"No route found for \"GET /confluence\" (from \"http://checkout.bitpanda.com/confluence\")","errors":[]}
+[confluence-detect] Dumped HTTP response http://checkout.bitpanda.com/confluence
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:51 GMT
+Location: https://checkout.bitpanda.com/confluence
+
+
+[confluence-detect] Dumped HTTP request for http://checkout.bitpanda.com/wiki
+
+
+GET /wiki HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[confluence-detect] Dumped HTTP response http://checkout.bitpanda.com/wiki
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, private
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:58 GMT
+Expires: Tue, 05 Aug 2025 12:49:58 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+{"error_code":0,"error_message":"No route found for \"GET /wiki\" (from \"http://checkout.bitpanda.com/wiki\")","errors":[]}
+[confluence-detect] Dumped HTTP response http://checkout.bitpanda.com/wiki
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:57 GMT
+Location: https://checkout.bitpanda.com/wiki
+
+

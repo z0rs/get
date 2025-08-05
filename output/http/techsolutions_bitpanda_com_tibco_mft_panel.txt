@@ -1,0 +1,52 @@
+[tibco-mft-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/cfcc/login/login.jsp
+
+
+GET /cfcc/login/login.jsp HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[tibco-mft-panel] Dumped HTTP response https://techsolutions.bitpanda.com/cfcc/login/login.jsp
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Location: ./login.jsp/
+Via: 1.1 46ac2c9f87eca5473c2cb27cfe0168a4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 2TQ5NDVumuro5zQsdEdWzqzT_MZOIMXBZiFs7FP2OLNIQqt9NCdsfw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[tibco-mft-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/login/login.jsp
+
+
+GET /login/login.jsp HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[tibco-mft-panel] Dumped HTTP response https://techsolutions.bitpanda.com/login/login.jsp
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:53:24 GMT
+Location: ./login.jsp/
+Via: 1.1 1e5d213252e38a8aa2e2a927fd3c3754.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: k4OuqLqKdoQJK_1rsdT6-Zi2Qj0kTgJURqYuRkR2zeOpDxjD6b-Eiw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

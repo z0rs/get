@@ -1,0 +1,30 @@
+[cluster-a89e2207427d0e8eaa5e74878feb0f2e8fcd4b051ff181cc6cfef054d8aafec7] Dumped HTTP request for https://advanced.bitpanda.com/auth/login
+
+
+GET /auth/login HTTP/1.1
+Host: advanced.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-a89e2207427d0e8eaa5e74878feb0f2e8fcd4b051ff181cc6cfef054d8aafec7] Dumped HTTP response https://advanced.bitpanda.com/auth/login
+
+HTTP/1.1 302 Found
+Connection: close
+Alt-Svc: clear
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:48:52 GMT
+Location: https://account.bitpanda.com/authorization/oauth/authorize?client_id=14&redirect_uri=https%3A%2F%2Ffusion.bitpanda.com%2Fauth%2Fcallback&response_type=code&scope=openid+profile+email&state=b482f8c1-5f0f-45e6-9fde-7352392a3c1c
+Set-Cookie: _ava_csrf=MTc1NDM5ODEzMnxJbTFLV2xOYU0xQXpaVk0yTVRnNGQwZE5VVkpDVVRGSFltRklkRGQ1VGtkbFVIZ3ZjRVV2VG1KWloyTTlJZ289fKJP_4w0njSvNJIudSGTj5zmPLvdwX5aErvdGNks_7hG; Path=/; HttpOnly; Secure; SameSite=Strict
+Set-Cookie: csrf=MTc1NDM5ODEzMnw2bGUwTDBjV1Q2aXI2UGo2WHMwWEdXVHpKVFRGUTdMWFFEZXNtSDBJUE1lYkZJRHlhMDktblZCcExyUTNPdUs2bVRKV2s0dmhHNkdieTh2S0FJLW50eUhMTkk4dXdwelQtQ0czYnZ2SVdFQkhXUWh0dGtQUWdNMTE0VkUyRUFPR2FBOD18PgRaU06astIPZyeswqMHIxEuC3ccwhO2gkCMPDZHRso=; Path=/; Expires=Tue, 05 Aug 2025 12:53:52 GMT; Max-Age=300; HttpOnly; Secure
+Vary: Origin
+Vary: Cookie
+Via: 1.1 google
+X-Csrf-Token: Ovqvn0IP+OINi+Hy3xFW717RycaVXK0Zf9A54JqzfouibP34MfiBzLh4LfTuFResD0qhve6UfIdAz9DzaegcjA==
+Content-Length: 0
+
+

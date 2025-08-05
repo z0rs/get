@@ -1,0 +1,30 @@
+[cluster-9f46a17289663c8d792ed74830d8020a77f442c46383d4c441cd4d9ba84e460f] Dumped HTTP request for http://akurateco.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-9f46a17289663c8d792ed74830d8020a77f442c46383d4c441cd4d9ba84e460f] Dumped HTTP response http://akurateco.bitpanda.com
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:48:59 GMT
+Location: https://akurateco.bitpanda.com
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

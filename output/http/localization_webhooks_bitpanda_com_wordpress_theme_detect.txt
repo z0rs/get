@@ -1,0 +1,48 @@
+[wordpress-theme-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=ZfpUgE25naXvuC_4sRlgoLsXfSehZ.xFmMWt2bDzgTA-1754398530361-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-theme-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 22
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6734d69ba0a05-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:55:43 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TUbFFtjoEEG1g=
+X-Amzn-Requestid: 7d987c98-1601-4863-bb9b-6025c1534e2e
+X-Amzn-Trace-Id: Root=1-6891ff4f-4d43ef8f1e6cb6df08099c9a
+X-Content-Type-Options: nosniff
+
+{"message": "success"}
+[wordpress-theme-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6734d2f6399fb-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:55:42 GMT
+Expires: Tue, 05 Aug 2025 13:55:42 GMT
+Location: https://localization.webhooks.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=nKH0ILLbx95cE74YqIBBPncSa2Ol8DXUzD0Z0y6rmbA-1754398542925-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

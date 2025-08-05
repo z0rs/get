@@ -1,0 +1,39 @@
+[appspace-panel] Dumped HTTP request for https://whitelabel.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[appspace-panel] Dumped HTTP request for https://whitelabel.bitpanda.com/app/login.aspx
+
+
+GET /app/login.aspx HTTP/1.1
+Host: whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[appspace-panel] Dumped HTTP request for https://whitelabel.bitpanda.com/signin/#!/login?returnUrl=%2Fapp%2Fdefault.aspx
+
+
+GET /signin/ HTTP/1.1
+Host: whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/114.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

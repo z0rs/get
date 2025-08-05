@@ -1,0 +1,35 @@
+[txadmin-panel] Dumped HTTP request for https://status.techsolutions.bitpanda.com/auth
+
+
+GET /auth HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[txadmin-panel] Dumped HTTP response https://status.techsolutions.bitpanda.com/auth
+
+HTTP/1.1 404 Not Found
+Connection: close
+Age: 7
+Atl-Request-Id: 05e67fc0-8080-4583-ba0f-7c7ed7aa1abb
+Atl-Traceid: 05e67fc080804583ba0f7c7ed7aa1abb
+Date: Tue, 05 Aug 2025 12:52:10 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 a97d638d4e395a6f27b927572cf3bfda.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: RqLlR7wHLKicKNgM0RzL_PA-NzeU2SEzvse1HkMlG_hOlpD6DYFI-Q==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 155526564
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

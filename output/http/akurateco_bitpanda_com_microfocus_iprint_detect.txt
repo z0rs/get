@@ -1,0 +1,30 @@
+[microfocus-iprint-detect] Dumped HTTP request for http://akurateco.bitpanda.com/welcome/
+
+
+GET /welcome/ HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/105.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[microfocus-iprint-detect] Dumped HTTP response http://akurateco.bitpanda.com/welcome/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:50 GMT
+Location: https://akurateco.bitpanda.com/welcome
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

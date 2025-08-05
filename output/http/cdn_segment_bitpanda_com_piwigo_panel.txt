@@ -1,0 +1,88 @@
+[piwigo-panel] Dumped HTTP request for https://cdn-segment.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: cdn-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=tIQpCTBX728l6DHlivhv.Ga1kJ62o3GQXTkvd6pAeyE-1754398159242-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[piwigo-panel] Dumped HTTP response https://cdn-segment.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Methods: GET, HEAD
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 3000
+Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669f2ffe0fbd0-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:20 GMT
+Etag: W/"328257380186d550f96adf638ff85092"
+Last-Modified: Fri, 27 Jun 2025 03:51:28 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=DvA45llBzuqlzGgph5fAqids1RIiglU2TrxE8lm4xeY-1754398160080-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: accept-encoding
+Via: 1.1 75bba5dfd2aa92cc6ca63ecca3b5248c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: _qUqMp15sXnr3Is9I8LLXyu4bglsr_WJ6nYKZTegQ6jALo0bMBs33Q==
+X-Amz-Cf-Pop: IAD79-C3
+X-Amz-Replication-Status: COMPLETED
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: 6NYlJnma9WPyl0MUFm2tNo8C1GzqJZih
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+Cannot GET - Invalid path or write key provided.
+
+[piwigo-panel] Dumped HTTP request for https://cdn-segment.bitpanda.com/identification.php
+
+
+GET /identification.php HTTP/1.1
+Host: cdn-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=H4zpTQdIeD_2fXvP_Skq7ZjS9O_FgRxM_KbhHcuqetA-1754398165223-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[piwigo-panel] Dumped HTTP response https://cdn-segment.bitpanda.com/identification.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Methods: GET, HEAD
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 3000
+Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a184ad0ff80-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:26 GMT
+Etag: W/"328257380186d550f96adf638ff85092"
+Last-Modified: Fri, 27 Jun 2025 03:51:28 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=93FntKYmLdxHkGxY9J0ymxhiOACNzGENXxJvEcFCl4M-1754398166214-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: accept-encoding
+Via: 1.1 b5a3a07d269412210ea111017ec1157e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: _vBG4HJMrCaMR6mjK4LD9WxFZl-qkC5_q1iL44CSzXhPip0he_H3hw==
+X-Amz-Cf-Pop: IAD79-C3
+X-Amz-Replication-Status: COMPLETED
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: 6NYlJnma9WPyl0MUFm2tNo8C1GzqJZih
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+Cannot GET - Invalid path or write key provided.
+

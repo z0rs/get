@@ -1,0 +1,38 @@
+[filecatalyst-panel] Dumped HTTP request for http://localization.webhooks.bitpanda.com/workflow/jsp/logon.jsp
+
+
+GET /workflow/jsp/logon.jsp HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:94.0) Gecko/20100101 Firefox/94.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=q44zv5xR1fj84yD7dHaQ8eqVseATsWdxqr60nCs1CQg-1754398271864-0.0.1.1-604800000; _cfuvid=lz46imG96HeYsyMdro7ypUPmGoTb7rTVComQcECNxYg-1754398288841-0.0.1.1-604800000; _cfuvid=RJL7EnyhADA1RS9Jp9tt7xC26v4VqZZSiUXMq4vSldw-1754398303871-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[filecatalyst-panel] Dumped HTTP response http://localization.webhooks.bitpanda.com/workflow/jsp/logon.jsp
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66d7cfd1f9d90-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:51:44 GMT
+Expires: Tue, 05 Aug 2025 13:51:44 GMT
+Location: https://localization.webhooks.bitpanda.com/workflow/jsp/logon.jsp
+Server: cloudflare
+Set-Cookie: _cfuvid=mwPUJGkrDC84DsLuSw0bncLBIKh2_OWCu02LBzC9EyM-1754398304825-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

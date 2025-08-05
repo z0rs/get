@@ -1,0 +1,606 @@
+[adobe-coldfusion-detect] Dumped HTTP request for http://requests.bitpanda.com/CFIDE/administrator/images/mx_login.gif
+
+
+GET /CFIDE/administrator/images/mx_login.gif HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[adobe-coldfusion-detect] Dumped HTTP response http://requests.bitpanda.com/CFIDE/administrator/images/mx_login.gif
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 1722
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:52:06 GMT
+X-Request-Id: b5c125d1-c3ac-40c5-b288-eb64518634a3
+X-Runtime: 0.001880
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The page you were looking for doesn't exist (404)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+  .rails-default-error-page {
+    background-color: #EFEFEF;
+    color: #2E2F30;
+    text-align: center;
+    font-family: arial, sans-serif;
+    margin: 0;
+  }
+
+  .rails-default-error-page div.dialog {
+    width: 95%;
+    max-width: 33em;
+    margin: 4em auto 0;
+  }
+
+  .rails-default-error-page div.dialog > div {
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #BBB;
+    border-top: #B00100 solid 4px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: white;
+    padding: 7px 12% 0;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+
+  .rails-default-error-page h1 {
+    font-size: 100%;
+    color: #730E15;
+    line-height: 1.5em;
+  }
+
+  .rails-default-error-page div.dialog > p {
+    margin: 0 0 1em;
+    padding: 1em;
+    background-color: #F7F7F7;
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #999;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-color: #DADADA;
+    color: #666;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+  </style>
+</head>
+
+<body class="rails-default-error-page">
+  <!-- This file lives in public/404.html -->
+  <div class="dialog">
+    <div>
+      <h1>The page you were looking for doesn't exist.</h1>
+      <p>You may have mistyped the address or the page may have moved.</p>
+    </div>
+    <p>If you are the application owner check the logs for more information.</p>
+  </div>
+</body>
+</html>
+
+[adobe-coldfusion-detect] Dumped HTTP response http://requests.bitpanda.com/CFIDE/administrator/images/mx_login.gif
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:05 GMT
+Location: https://requests.bitpanda.com/CFIDE/administrator/images/mx_login.gif
+
+
+[adobe-coldfusion-detect] Dumped HTTP request for http://requests.bitpanda.com/cfide/administrator/images/mx_login.gif
+
+
+GET /cfide/administrator/images/mx_login.gif HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[adobe-coldfusion-detect] Dumped HTTP response http://requests.bitpanda.com/cfide/administrator/images/mx_login.gif
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 1722
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:52:07 GMT
+X-Request-Id: 5edda620-1925-4fa1-b148-5cd0a22dafc5
+X-Runtime: 0.001470
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The page you were looking for doesn't exist (404)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+  .rails-default-error-page {
+    background-color: #EFEFEF;
+    color: #2E2F30;
+    text-align: center;
+    font-family: arial, sans-serif;
+    margin: 0;
+  }
+
+  .rails-default-error-page div.dialog {
+    width: 95%;
+    max-width: 33em;
+    margin: 4em auto 0;
+  }
+
+  .rails-default-error-page div.dialog > div {
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #BBB;
+    border-top: #B00100 solid 4px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: white;
+    padding: 7px 12% 0;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+
+  .rails-default-error-page h1 {
+    font-size: 100%;
+    color: #730E15;
+    line-height: 1.5em;
+  }
+
+  .rails-default-error-page div.dialog > p {
+    margin: 0 0 1em;
+    padding: 1em;
+    background-color: #F7F7F7;
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #999;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-color: #DADADA;
+    color: #666;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+  </style>
+</head>
+
+<body class="rails-default-error-page">
+  <!-- This file lives in public/404.html -->
+  <div class="dialog">
+    <div>
+      <h1>The page you were looking for doesn't exist.</h1>
+      <p>You may have mistyped the address or the page may have moved.</p>
+    </div>
+    <p>If you are the application owner check the logs for more information.</p>
+  </div>
+</body>
+</html>
+
+[adobe-coldfusion-detect] Dumped HTTP response http://requests.bitpanda.com/cfide/administrator/images/mx_login.gif
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:06 GMT
+Location: https://requests.bitpanda.com/cfide/administrator/images/mx_login.gif
+
+
+[adobe-coldfusion-detect] Dumped HTTP request for http://requests.bitpanda.com/CFIDE/administrator/images/background.jpg
+
+
+GET /CFIDE/administrator/images/background.jpg HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[adobe-coldfusion-detect] Dumped HTTP response http://requests.bitpanda.com/CFIDE/administrator/images/background.jpg
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 1722
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:52:08 GMT
+X-Request-Id: 5aed8c49-327a-4e05-bc7c-c7fed667d546
+X-Runtime: 0.001917
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The page you were looking for doesn't exist (404)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+  .rails-default-error-page {
+    background-color: #EFEFEF;
+    color: #2E2F30;
+    text-align: center;
+    font-family: arial, sans-serif;
+    margin: 0;
+  }
+
+  .rails-default-error-page div.dialog {
+    width: 95%;
+    max-width: 33em;
+    margin: 4em auto 0;
+  }
+
+  .rails-default-error-page div.dialog > div {
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #BBB;
+    border-top: #B00100 solid 4px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: white;
+    padding: 7px 12% 0;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+
+  .rails-default-error-page h1 {
+    font-size: 100%;
+    color: #730E15;
+    line-height: 1.5em;
+  }
+
+  .rails-default-error-page div.dialog > p {
+    margin: 0 0 1em;
+    padding: 1em;
+    background-color: #F7F7F7;
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #999;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-color: #DADADA;
+    color: #666;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+  </style>
+</head>
+
+<body class="rails-default-error-page">
+  <!-- This file lives in public/404.html -->
+  <div class="dialog">
+    <div>
+      <h1>The page you were looking for doesn't exist.</h1>
+      <p>You may have mistyped the address or the page may have moved.</p>
+    </div>
+    <p>If you are the application owner check the logs for more information.</p>
+  </div>
+</body>
+</html>
+
+[adobe-coldfusion-detect] Dumped HTTP response http://requests.bitpanda.com/CFIDE/administrator/images/background.jpg
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:07 GMT
+Location: https://requests.bitpanda.com/CFIDE/administrator/images/background.jpg
+
+
+[adobe-coldfusion-detect] Dumped HTTP request for http://requests.bitpanda.com/cfide/administrator/images/background.jpg
+
+
+GET /cfide/administrator/images/background.jpg HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[adobe-coldfusion-detect] Dumped HTTP response http://requests.bitpanda.com/cfide/administrator/images/background.jpg
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 1722
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:52:09 GMT
+X-Request-Id: eb6525dc-f87a-417a-9111-af918a638951
+X-Runtime: 0.001487
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The page you were looking for doesn't exist (404)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+  .rails-default-error-page {
+    background-color: #EFEFEF;
+    color: #2E2F30;
+    text-align: center;
+    font-family: arial, sans-serif;
+    margin: 0;
+  }
+
+  .rails-default-error-page div.dialog {
+    width: 95%;
+    max-width: 33em;
+    margin: 4em auto 0;
+  }
+
+  .rails-default-error-page div.dialog > div {
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #BBB;
+    border-top: #B00100 solid 4px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: white;
+    padding: 7px 12% 0;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+
+  .rails-default-error-page h1 {
+    font-size: 100%;
+    color: #730E15;
+    line-height: 1.5em;
+  }
+
+  .rails-default-error-page div.dialog > p {
+    margin: 0 0 1em;
+    padding: 1em;
+    background-color: #F7F7F7;
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #999;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-color: #DADADA;
+    color: #666;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+  </style>
+</head>
+
+<body class="rails-default-error-page">
+  <!-- This file lives in public/404.html -->
+  <div class="dialog">
+    <div>
+      <h1>The page you were looking for doesn't exist.</h1>
+      <p>You may have mistyped the address or the page may have moved.</p>
+    </div>
+    <p>If you are the application owner check the logs for more information.</p>
+  </div>
+</body>
+</html>
+
+[adobe-coldfusion-detect] Dumped HTTP response http://requests.bitpanda.com/cfide/administrator/images/background.jpg
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:08 GMT
+Location: https://requests.bitpanda.com/cfide/administrator/images/background.jpg
+
+
+[adobe-coldfusion-detect] Dumped HTTP request for http://requests.bitpanda.com/CFIDE/administrator/images/componentutilslogin.jpg
+
+
+GET /CFIDE/administrator/images/componentutilslogin.jpg HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/119.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[adobe-coldfusion-detect] Dumped HTTP response http://requests.bitpanda.com/CFIDE/administrator/images/componentutilslogin.jpg
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 1722
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:52:11 GMT
+X-Request-Id: 93bc381e-0391-4ecc-a93b-0081186e88ad
+X-Runtime: 0.001656
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The page you were looking for doesn't exist (404)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+  .rails-default-error-page {
+    background-color: #EFEFEF;
+    color: #2E2F30;
+    text-align: center;
+    font-family: arial, sans-serif;
+    margin: 0;
+  }
+
+  .rails-default-error-page div.dialog {
+    width: 95%;
+    max-width: 33em;
+    margin: 4em auto 0;
+  }
+
+  .rails-default-error-page div.dialog > div {
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #BBB;
+    border-top: #B00100 solid 4px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: white;
+    padding: 7px 12% 0;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+
+  .rails-default-error-page h1 {
+    font-size: 100%;
+    color: #730E15;
+    line-height: 1.5em;
+  }
+
+  .rails-default-error-page div.dialog > p {
+    margin: 0 0 1em;
+    padding: 1em;
+    background-color: #F7F7F7;
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #999;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-color: #DADADA;
+    color: #666;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+  </style>
+</head>
+
+<body class="rails-default-error-page">
+  <!-- This file lives in public/404.html -->
+  <div class="dialog">
+    <div>
+      <h1>The page you were looking for doesn't exist.</h1>
+      <p>You may have mistyped the address or the page may have moved.</p>
+    </div>
+    <p>If you are the application owner check the logs for more information.</p>
+  </div>
+</body>
+</html>
+
+[adobe-coldfusion-detect] Dumped HTTP response http://requests.bitpanda.com/CFIDE/administrator/images/componentutilslogin.jpg
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:10 GMT
+Location: https://requests.bitpanda.com/CFIDE/administrator/images/componentutilslogin.jpg
+
+
+[adobe-coldfusion-detect] Dumped HTTP request for http://requests.bitpanda.com/cfide/administrator/images/componentutilslogin.jpg
+
+
+GET /cfide/administrator/images/componentutilslogin.jpg HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[adobe-coldfusion-detect] Dumped HTTP response http://requests.bitpanda.com/cfide/administrator/images/componentutilslogin.jpg
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 1722
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:52:13 GMT
+X-Request-Id: 7919caa3-e990-48dc-88e9-7ac101091fcd
+X-Runtime: 0.002007
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The page you were looking for doesn't exist (404)</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+  .rails-default-error-page {
+    background-color: #EFEFEF;
+    color: #2E2F30;
+    text-align: center;
+    font-family: arial, sans-serif;
+    margin: 0;
+  }
+
+  .rails-default-error-page div.dialog {
+    width: 95%;
+    max-width: 33em;
+    margin: 4em auto 0;
+  }
+
+  .rails-default-error-page div.dialog > div {
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #BBB;
+    border-top: #B00100 solid 4px;
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+    background-color: white;
+    padding: 7px 12% 0;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+
+  .rails-default-error-page h1 {
+    font-size: 100%;
+    color: #730E15;
+    line-height: 1.5em;
+  }
+
+  .rails-default-error-page div.dialog > p {
+    margin: 0 0 1em;
+    padding: 1em;
+    background-color: #F7F7F7;
+    border: 1px solid #CCC;
+    border-right-color: #999;
+    border-left-color: #999;
+    border-bottom-color: #999;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-top-color: #DADADA;
+    color: #666;
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }
+  </style>
+</head>
+
+<body class="rails-default-error-page">
+  <!-- This file lives in public/404.html -->
+  <div class="dialog">
+    <div>
+      <h1>The page you were looking for doesn't exist.</h1>
+      <p>You may have mistyped the address or the page may have moved.</p>
+    </div>
+    <p>If you are the application owner check the logs for more information.</p>
+  </div>
+</body>
+</html>
+
+[adobe-coldfusion-detect] Dumped HTTP response http://requests.bitpanda.com/cfide/administrator/images/componentutilslogin.jpg
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:12 GMT
+Location: https://requests.bitpanda.com/cfide/administrator/images/componentutilslogin.jpg
+
+

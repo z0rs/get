@@ -1,0 +1,78 @@
+[ranger-detection] Dumped HTTP request for https://custody.bitpanda.com/login.jsp
+
+
+GET /login.jsp HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=4znMz9C7y8H6QOb9vShqBrJ2fCLk5L93cUZ.Pt8vquU-1754398387813-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ranger-detection] Dumped HTTP response https://custody.bitpanda.com/login.jsp
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66fe6cbefd6f1-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Expires: Tue, 05 Aug 2025 13:53:23 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=wxw5ZQzTf0A2sHUQyAomBaWiIt7O5WKmwrs_0hnhL0s-1754398403663-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[ranger-detection] Dumped HTTP request for https://custody.bitpanda.com/images/favicon.ico
+
+
+GET /images/favicon.ico HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/118.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=XweW0UL2IusxOMEQ2uUfnDl7xaQIsxetN3hedr5ju38-1754398403663-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ranger-detection] Dumped HTTP response https://custody.bitpanda.com/images/favicon.ico
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ff3bcfffc57-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:25 GMT
+Expires: Tue, 05 Aug 2025 13:53:25 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=4lcmKsukY.BV6v83OYOQ4R6u2YipRxkajiPUWLuOxR4-1754398405748-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

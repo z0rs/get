@@ -1,0 +1,33 @@
+[regify-panel] Dumped HTTP request for https://app.bitpanda.com/phpLogin.php
+
+
+GET /phpLogin.php HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2Fakuiteo%2Flogin.html; _cfuvid=XIqM3tsla1hD8RMNcWdEYCciBOa_JIheMzt7xDBDBfE-1754398154936-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..SSmJ8BAAaGcqcZHQsoBxUw.fsrZ9DELfgTahcPjBHtaxuSmcEiYLrS7owVn3X-rUz7f_7VJfDf2_WAO4wl0OZkhCFwl6RvEM5_zo9_l8wtdiXwMMIbyWWUqhZ5TfK_-ezF-OAc2_HaDjjncoyf25QG8kBePwzv4tomBrVmn8RkKzCm_ZMl2GDBtXi3tbNfJELTwZOLEuHKAlgEVjMbzsLDm_TdRXRkIBjvggGdm4__Ew3v_Wsf__fFZCCVITWgaMux61BpKGCE5Aac4OaWp-db7lV-FJ8mkgIzBBNnCrwyFJgqZ3th4vXo8XXxoFtWg_uscVNnDOklkuhEwaAdguMPNQaaCs3-QCLWpEYv7FvEXyANuRqGIaoZXzYlusXXjHCrPEQq_0YccqD3ZGOb1xtm0YBJULzu0fUewXfaY0HzMuaPBNb4ZU_g-W9TPtSRQmmzWrPir29DajHThaA2QVoViRPJaiu4GarSce_PpUzxpQequ-P7hmNeyxG3wDKURTKDhdr__QbYwjIgd4NQuSXEzLDQ0OFrbF0PCA71xhO6bHiyK5g1hhf7fbGIgko_Jh-UmlmbLYGjWlzB5iiVc7gr8iztW2dXZu8BrsUa0O0S1xwF-JO3IN4wb3DnTPaPq2xQ7tJyEMyZm4HxpZs6r_BWTuV0BXC5D3S1JrJf0ihHfWlf32bgOFNyNebyAmekU1gUmHt5FJ7Tg73_AymyAO2IK.luz4FN0FnVw2qhTYLCV11CuflvYYq_2JR9AdPKU8FdA
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[regify-panel] Dumped HTTP response https://app.bitpanda.com/phpLogin.php
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e088d95758-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:17 GMT
+Location: /api/auth/login?callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2FphpLogin.php
+Server: cloudflare
+Set-Cookie: _cfuvid=ady_jvF2TBFEMvRGZG0oEAYMbLKDn.dILMg34OXkciw-1754398157078-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::kclkb-1754398156935-57692624b817
+
+Redirecting...
+

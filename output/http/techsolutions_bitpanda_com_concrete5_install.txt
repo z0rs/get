@@ -1,0 +1,52 @@
+[concrete5-install] Dumped HTTP request for https://techsolutions.bitpanda.com/index.php/install
+
+
+GET /index.php/install HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[concrete5-install] Dumped HTTP response https://techsolutions.bitpanda.com/index.php/install
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Location: ./install/
+Via: 1.1 5d22d4cd27d82c133b77117809cd93b4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: hj14m6THstU8e9XMuPWCbK4fUwjn-6GIDcr8kZnge8dw0ZMwtAZpWQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[concrete5-install] Dumped HTTP request for https://techsolutions.bitpanda.com/concrete5/index.php/install
+
+
+GET /concrete5/index.php/install HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[concrete5-install] Dumped HTTP response https://techsolutions.bitpanda.com/concrete5/index.php/install
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:53:24 GMT
+Location: ./install/
+Via: 1.1 f96e72cfd61c675b75ea8547da63de24.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: _Q5A8wVZ_4iCmnRC4CnQsOKpWKHkXvqu49RrL6rVaGAtUST2FUzo0Q==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

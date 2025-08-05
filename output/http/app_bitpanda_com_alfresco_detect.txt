@@ -1,0 +1,34 @@
+[alfresco-detect] Dumped HTTP request for https://app.bitpanda.com/alfresco/api/-default-/public/cmis/versions/1.1/atom
+
+
+GET /alfresco/api/-default-/public/cmis/versions/1.1/atom HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/118.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[alfresco-detect] Dumped HTTP response https://app.bitpanda.com/alfresco/api/-default-/public/cmis/versions/1.1/atom
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669509e056147-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:48:55 GMT
+Location: /api/auth/login?callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2Falfresco%2Fapi%2F-default-%2Fpublic%2Fcmis%2Fversions%2F1.1%2Fatom
+Server: cloudflare
+Set-Cookie: __Host-authjs.csrf-token=97bd2ad9d4dfa091ed24c6b9bd1d06a123b9c85ce94605d164a8cd6c13d6a574%7Cc33f1c0dcd9b4ba7aede751af7963602509844b31e949b1fbed42226fa4d2a00; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: _cfuvid=LijHQyVDZBAsLLx82AVc4X1QYQCkZxRprp8rL08rUV4-1754398135179-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::78g7w-1754398133901-fe36358de234
+
+Redirecting...
+

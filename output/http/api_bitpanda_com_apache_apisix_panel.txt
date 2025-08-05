@@ -1,0 +1,29 @@
+[apache-apisix-panel] Dumped HTTP request for https://api.bitpanda.com/user/login?redirect=%2F
+
+
+GET /user/login?redirect=%2F HTTP/1.1
+Host: api.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-apisix-panel] Dumped HTTP response https://api.bitpanda.com/user/login?redirect=%2F
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6696fbf8a81d9-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:48:58 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=ZUQvkZPlhRc_B62HkK_uswDI.xDTeud9vNO1JO38MTs-1754398138954-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}

@@ -1,0 +1,26 @@
+[oidc-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/.well-known/openid-configuration
+
+
+GET /.well-known/openid-configuration HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oidc-detect] Dumped HTTP response https://techsolutions.bitpanda.com/.well-known/openid-configuration
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:43 GMT
+Location: ./openid-configuration/
+Via: 1.1 6744171422c4a271f6b0fe32071ae980.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: v1OEUP86wd3NbNgacl3gSbr-6liwktyuWWodcL97quuOcO0cb54svw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

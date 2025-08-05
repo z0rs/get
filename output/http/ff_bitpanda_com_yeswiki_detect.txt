@@ -1,0 +1,52 @@
+[yeswiki-detect] Dumped HTTP request for http://ff.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=ya52bsHeJDbWlUMvXS5vTcuEEBO1DuhMcs6ZfRlwea4-1754398461316-0.0.1.1-604800000; GCLB="e04ab7e7c84ace24"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[yeswiki-detect] Dumped HTTP response http://ff.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 19
+Access-Control-Allow-Methods: GET,HEAD,POST,OPTIONS
+Access-Control-Allow-Origin: *
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6716f9f4c99fb-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:54:26 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: GCLB="4277a240e6bf1dcd"; Max-Age=1; Path=/; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Statsig-Region: gke-us-east5
+
+RBAC: access denied
+[yeswiki-detect] Dumped HTTP response http://ff.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6716f393f0833-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:26 GMT
+Expires: Tue, 05 Aug 2025 13:54:26 GMT
+Location: https://ff.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=AU3OvFQnHANP_UkEXLu6DlSY3MTOfr4G9Sf.GhJP1IY-1754398466469-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

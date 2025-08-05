@@ -1,0 +1,30 @@
+[paloalto-expedition-panel] Dumped HTTP request for https://analytics.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=TSA3DgxYMGlUhPIPQDDrzTLqwIQIG.rBzU0QjdpJyqA-1754398157653-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[paloalto-expedition-panel] Dumped HTTP response https://analytics.bitpanda.com
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e68ba586ef-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:20 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=6dGs..DUQaiUZJv3M9l5lbnSonBmw8UuiOKU6O6z554-1754398160554-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+upstream connect error or disconnect/reset before headers. reset reason: connection termination

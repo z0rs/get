@@ -1,0 +1,48 @@
+[fingerprinthub-web-fingerprints] Dumped HTTP request for http://localization.webhooks.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=tylgXYJJr2k6h_7YfR8FOlrvkUC7AOUuEJOjEDn6s2E-1754398385803-0.0.1.1-604800000; _cfuvid=4wZ0WaFgjYRItX_k7FPsNkG4YC0chb9Va4ulF3O9MsU-1754398385902-0.0.1.1-604800000; _cfuvid=q5BOi4RaCab7XwOO8TBmlvXgl6qlRWc76vLKTVey7fU-1754398398575-0.0.1.1-604800000; _cfuvid=PVmcwVQsmOPn9PFqwV7GgmcssOGu1t7nMA93tvwn9.U-1754398418803-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[fingerprinthub-web-fingerprints] Dumped HTTP response http://localization.webhooks.bitpanda.com
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 22
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a67052ece7c592-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:53:41 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TBWFnsjoEEV0g=
+X-Amzn-Requestid: 9662887e-d2a4-4c11-8dcd-9b77290570e8
+X-Amzn-Trace-Id: Root=1-6891fed5-669d4a7f7810a77718d47eda
+X-Content-Type-Options: nosniff
+
+{"message": "success"}
+[fingerprinthub-web-fingerprints] Dumped HTTP response http://localization.webhooks.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670459fbb0a87-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:38 GMT
+Expires: Tue, 05 Aug 2025 13:53:38 GMT
+Location: https://localization.webhooks.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=o8rK1jxi3x4a.MgYXgAv8DAQ2vBaR9336uM6LtvCL1Y-1754398418858-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

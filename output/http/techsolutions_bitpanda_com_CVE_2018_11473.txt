@@ -1,0 +1,24 @@
+[CVE-2018-11473] Dumped HTTP request for https://techsolutions.bitpanda.com/users/registration
+
+
+GET /users/registration HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2018-11473] Dumped HTTP response https://techsolutions.bitpanda.com/users/registration
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:53:22 GMT
+Location: ./registration/
+Via: 1.1 018bc8ac3ac3155b3d0b36b861811052.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: weRM3gm4CoalzvqB8DX1Oz0N0WmV-VABTqArDp5eMUXLsZLsFYq7PQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

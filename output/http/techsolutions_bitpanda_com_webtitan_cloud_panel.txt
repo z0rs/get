@@ -1,0 +1,31 @@
+[webtitan-cloud-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/login.php
+
+
+GET /login.php HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[webtitan-cloud-panel] Dumped HTTP response https://techsolutions.bitpanda.com/login.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Age: 12
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:28 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 5bab46d8af126fb7ca14b6d331ff182a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: h5I1_5Yos_cBtunAtKX4jRbGGUjVOXh1c31eQao1F9gQNFnbWgpqCQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: eWNKqdsMCf6YRYQsoNy1vEzpTTqcPWCbByw2MdU7Ij9rKWa981ucqR3zYBVpIUITVfOiGdEibkAUYTyJvm+kL0TFJtFNcRIG
+X-Amz-Request-Id: XY8CQH92SMGJDA7C
+X-Cache: Error from cloudfront
+
+Not Found

@@ -1,0 +1,21 @@
+[spf-record-detect] Dumped DNS request for bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 38728
+;; flags: rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 TXT
+
+[spf-record-detect] Dumped DNS response for bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 38728
+;; flags: qr tc rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 1232
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 TXT
+

@@ -1,0 +1,25 @@
+[geth-server-detect] Dumped HTTP request for https://techsolutions.bitpanda.com
+
+
+POST / HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 66
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"method":"web3_clientVersion","params":[],"id":1,"jsonrpc":"2.0"}
+[geth-server-detect] Dumped HTTP response https://techsolutions.bitpanda.com
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 11
+Date: Tue, 05 Aug 2025 12:52:34 GMT
+Via: 1.1 7ba8238566c8641cae9d38ebcb67e0e8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: TKE-ihRENfEttpjmhxa1IE9Xq_pD4PIWCuDKL0KcqHtfFvXFo3rGLg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Bad Request

@@ -1,0 +1,15 @@
+[graphql-wpgraphql-detect] Dumped HTTP request for http://fusion.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: fusion.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/125.0 Safari/537.36
+Connection: close
+Content-Length: 41
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query { alias1$1:__typename }"}

@@ -1,0 +1,56 @@
+[suprema-biostar-panel] Dumped HTTP request for https://blog.bitpanda.com/#/login
+
+
+GET / HTTP/1.1
+Host: blog.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=awGsTfl4HZDPzp6PmXwyoJlQtFEV9FCL6jYwGjjOzQ4-1754398161028-0.0.1.1-604800000; _cfuvid=m4cmJok06UhD2b2fZQNcjmsBRYvFpwq22O5qIDa_r6k-1754398176841-0.0.1.1-604800000; _cfuvid=bryLNWbbh.HP_9FKYVYPBpwiXAqmgHq5ATA17nxWSWs-1754398178816-0.0.1.1-604800000; _cfuvid=Hl7UO2YfdLSICu6Z50ExrOHvYggaOURXgmq0nimU_VQ-1754398190745-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[suprema-biostar-panel] Dumped HTTP response https://blog.bitpanda.com/#/login
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 1633
+Age: 1791
+Cache-Control: max-age=3600, no-transform, public
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66acd9c13e5e6-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:54 GMT
+Etag: "e65297b4066f4e0d44fa7da9186bef00"
+Last-Modified: Fri, 01 Aug 2025 08:56:06 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=AT156pZ7qSVBDROL2q9XO19CMxAKm2WpNheiGQyObpc-1754398194868-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 87e02820e63ff6cf9cd98d9efbaab1fc.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: ICcLViwDH3DAj5_zz9-SC0ECi7X40Bhq7kTYrbAFXOtIf6dibUbaMg==
+X-Amz-Cf-Pop: IAD55-P5
+X-Amz-Version-Id: yOV1RX0LHCxJoUrfUJ9wwX6VAT0ao2ST
+X-Cache: Hit from cloudfront
+X-Content-Type-Options: nosniff
+
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta content="ie=edge" http-equiv=x-ua-compatible><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name=viewport><meta content=origin name=referrer><meta content=article property=og:type><meta content="Bitpanda - Start investing today" property=og:title><meta content="Trade in minutes from only 1€. Your N. 1 European Broker for stocks, crypto, indices, ETFs and precious metals. Trade 24/7." property=og:description><meta content=https://cdn.bitpanda.com/media/og-images-open-graph/bitpanda-og.png property=og:image><title></title><script>let languages = ['en','de','fr','es','it','pl',];
+                let pages = {en: 'https://blog.bitpanda.com/en',de: 'https://blog.bitpanda.com/de',fr: 'https://blog.bitpanda.com/fr',es: 'https://blog.bitpanda.com/es',it: 'https://blog.bitpanda.com/it',pl: 'https://blog.bitpanda.com/pl',};
+                let language = window.navigator.userLanguage || window.navigator.language;
+                let langCode = language.split("-")[0];
+                let referrer = document.referrer;
+                let params = document.location.search;
+                if (referrer && params) {
+                    params = params + '&utm_referrer=' + referrer;
+                } else {
+                    if (referrer) {
+                        params = '?utm_referrer=' + referrer;
+                    }
+                }
+
+                if(!(langCode in pages)) {
+                    langCode = 'en';
+                }
+
+                location.href = pages[langCode] + params + document.location.hash;</script> <body>

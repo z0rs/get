@@ -1,0 +1,74 @@
+[checkmarx-panel-detect] Dumped HTTP request for https://brokerize-api.bitpanda.com/cxrestapi/help/system/version
+
+
+GET /cxrestapi/help/system/version HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.11 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=NqWuLgnGRYD7VrOOehXD49_yTORHH7QodshuRwxgiMU-1754398133169-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[checkmarx-panel-detect] Dumped HTTP response https://brokerize-api.bitpanda.com/cxrestapi/help/system/version
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669509d8b580c-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:48:53 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=JMBvRTZVJ3fy5MqxiCQfzxq0Hwnj_mgdjNT40iPowuk-1754398133966-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[checkmarx-panel-detect] Dumped HTTP request for https://brokerize-api.bitpanda.com/cxwebclient/Login.aspx
+
+
+GET /cxwebclient/Login.aspx HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_7_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=2x2royRafWV6a2GkskwJKSW6ilExAtR44NnjFYbZFtE-1754398141151-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[checkmarx-panel-detect] Dumped HTTP response https://brokerize-api.bitpanda.com/cxwebclient/Login.aspx
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669828aca827a-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:02 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=tkffso9i31s98jTBCT_leCZthJ0.Qk9mjQD57bUyUm0-1754398142008-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[checkmarx-panel-detect] Dumped HTTP request for https://brokerize-api.bitpanda.com/cxrestapi/auth/identity/.well-known/openid-configuration
+
+
+GET /cxrestapi/auth/identity/.well-known/openid-configuration HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

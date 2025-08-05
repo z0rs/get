@@ -1,0 +1,62 @@
+[umami-panel] Dumped HTTP request for https://api-segment.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=YOrQJSdvC11NVtvtIUVVt05Vv7xxvNBA2M9lqz7NgQg-1754398159091-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[umami-panel] Dumped HTTP response https://api-segment.bitpanda.com/login
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669f2fce9c97d-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:19 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=YFbRcI1yRaccPcPKVfatf9l6tG8eFuUzvrdNKNmYlzU-1754398159933-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[umami-panel] Dumped HTTP request for https://api-segment.bitpanda.com/favicon.ico
+
+
+GET /favicon.ico HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=8.3M_7kI4Hkec2vpuLvUf1tpfyP5xHqVjJDNxo1dLeA-1754398165309-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[umami-panel] Dumped HTTP response https://api-segment.bitpanda.com/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Age: 24
+Cache-Control: public, max-age=300
+Cf-Cache-Status: HIT
+Cf-Ray: 96a66a1e8c1113c8-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:26 GMT
+Expires: Tue, 05 Aug 2025 12:54:26 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=SEA1JddVwf.HZ8Wauspb9RnQ4f3iSUvF3nMlGlJfT8s-1754398166846-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

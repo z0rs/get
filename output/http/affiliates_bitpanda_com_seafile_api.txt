@@ -1,0 +1,38 @@
+[seafile-api] Dumped HTTP request for http://affiliates.bitpanda.com/api2/server-info/
+
+
+GET /api2/server-info/ HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/112.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Q41UF.7lJr9xzyyIm61d82G0qJUsyKe2Ej5z1xUpG2o-1754398167810-0.0.1.1-604800000; _cfuvid=3PEQsIyck5hoDFwdOllsTn3vc0bwmSUJuQN9dCtzM6s-1754398183970-0.0.1.1-604800000; _cfuvid=1cgJIkGq7O8sBl2_thKCt7DFuPhujFMfAAuNtxS6pGY-1754398197810-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[seafile-api] Dumped HTTP response http://affiliates.bitpanda.com/api2/server-info/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66aecafe15866-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:59 GMT
+Expires: Tue, 05 Aug 2025 13:49:59 GMT
+Location: https://affiliates.bitpanda.com/api2/server-info/
+Server: cloudflare
+Set-Cookie: _cfuvid=lTXt3w8sSUjmz9jqAqZGej8YyfidcNpeAaQMY17oHvU-1754398199818-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

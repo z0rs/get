@@ -1,0 +1,52 @@
+[metatag-cms] Dumped HTTP request for http://ff.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/107.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=WN.W80tLIXRutPNFyg8.Z4PH.q0CnI4EnLwrdsVSIgQ-1754398425632-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[metatag-cms] Dumped HTTP response http://ff.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 19
+Access-Control-Allow-Methods: GET,HEAD,POST,OPTIONS
+Access-Control-Allow-Origin: *
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670baeb60393a-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:57 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: GCLB="0b718d7130d21157"; Max-Age=1; Path=/; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Statsig-Region: gke-us-east5
+
+RBAC: access denied
+[metatag-cms] Dumped HTTP response http://ff.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670ba8f87de8e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:57 GMT
+Expires: Tue, 05 Aug 2025 13:53:57 GMT
+Location: https://ff.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=eU8zGrUwbLi49ldUFRL_KI4M7a5C.cDQ_Zmo9KCNx3c-1754398437558-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

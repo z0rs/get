@@ -1,0 +1,37 @@
+[wordpress-admin-menu-editor] Dumped HTTP request for https://socket.bitpanda.com/wp-content/plugins/admin-menu-editor/readme.txt
+
+
+GET /wp-content/plugins/admin-menu-editor/readme.txt HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=jQOjzARrHArU6TaW9DBMWKTTGF8tDxlVptQRbph6WSA/75V26yrf2+zl/Xw0RRk4IYgc4wfk3O7kJuRVv0DMVzu80NMW9t0ZDrLaSb7FLm+ZC1b5+f3lapIFpOss; AWSALBCORS=jQOjzARrHArU6TaW9DBMWKTTGF8tDxlVptQRbph6WSA/75V26yrf2+zl/Xw0RRk4IYgc4wfk3O7kJuRVv0DMVzu80NMW9t0ZDrLaSb7FLm+ZC1b5+f3lapIFpOss
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-admin-menu-editor] Dumped HTTP response https://socket.bitpanda.com/wp-content/plugins/admin-menu-editor/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:41 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=uB+k9/iazC+E+5SOEGwV5pHerTwiyJoLLknsbbrR7Ji9LnymqWZ/59gsCwvvAyosrv/pmQMGsxD7qNABqsJFtvhHhg/H0gHyG1Vgz6f1geHScd5g1AgujrRdb9cA; Expires=Tue, 12 Aug 2025 12:52:41 GMT; Path=/
+Set-Cookie: AWSALBCORS=uB+k9/iazC+E+5SOEGwV5pHerTwiyJoLLknsbbrR7Ji9LnymqWZ/59gsCwvvAyosrv/pmQMGsxD7qNABqsJFtvhHhg/H0gHyG1Vgz6f1geHScd5g1AgujrRdb9cA; Expires=Tue, 12 Aug 2025 12:52:41 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 21a5f0e24a694c040922a8766d75a2e0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: K5Xkv_XQ7Gvx_ExG7vJR8Tr3Nnwm0uS4gjPXLtebdaRMUlkWqwz_FQ==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 0
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

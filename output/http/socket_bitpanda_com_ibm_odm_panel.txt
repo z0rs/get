@@ -1,0 +1,38 @@
+[ibm-odm-panel] Dumped HTTP request for https://socket.bitpanda.com/decisioncenter/login
+
+
+GET /decisioncenter/login HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=pTwbsH6D/iU49VxOK9pJOL96oG93eEZjgHESVZSQV13h4nk5PtahVHqOUQWNECKxjGi1WO7I7KQaGvbEZxWH5pdvpWnNfh4pNQnJlJ4EBCn8+C3Z5OUz5tonuzFq; AWSALBCORS=pTwbsH6D/iU49VxOK9pJOL96oG93eEZjgHESVZSQV13h4nk5PtahVHqOUQWNECKxjGi1WO7I7KQaGvbEZxWH5pdvpWnNfh4pNQnJlJ4EBCn8+C3Z5OUz5tonuzFq
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ibm-odm-panel] Dumped HTTP response https://socket.bitpanda.com/decisioncenter/login
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:14 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=I7q5/WGexgupx0ovKmVjk6Sk/80el6Rm4z4YjprcBX8E0T3p8USmlATamteZ4KMC24BN81a5fdBN1C1saGu5x/FbiH5YRGuC1jgZ2Bjb0zAAecBuUB1Ze4vQncNw; Expires=Tue, 12 Aug 2025 12:52:14 GMT; Path=/
+Set-Cookie: AWSALBCORS=I7q5/WGexgupx0ovKmVjk6Sk/80el6Rm4z4YjprcBX8E0T3p8USmlATamteZ4KMC24BN81a5fdBN1C1saGu5x/FbiH5YRGuC1jgZ2Bjb0zAAecBuUB1Ze4vQncNw; Expires=Tue, 12 Aug 2025 12:52:14 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 03c28758fe0abb70088fb45c6855d854.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Rz5-Jv_uT_WG9WZetFxrkGBIXz5vF10JA9Ex0de-snN862OQBqkTRg==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 6
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

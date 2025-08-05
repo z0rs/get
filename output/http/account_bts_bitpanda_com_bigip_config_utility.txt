@@ -1,0 +1,117 @@
+[bigip-config-utility] Dumped HTTP request for https://account.bts.bitpanda.com/tmui/login.jsp
+
+
+GET /tmui/login.jsp HTTP/1.1
+Host: account.bts.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[bigip-config-utility] Dumped HTTP response https://account.bts.bitpanda.com/tmui/login.jsp
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a3dc94f0957-IAD
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:31 GMT
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Server: cloudflare
+Set-Cookie: _cfuvid=oqrO.rc.91iaaRHZQOUBGpIqvhsFjKMGpLM38MAaspU-1754398171929-0.0.1.1-604800000; path=/; domain=.frontegg.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Via: 1.1 e0ed595b39732d9e9972db26854384ec.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 8ttQwuu0YxgeFzaNnEaSZFgfjsaKIcwYOuiRqZAO1hoQcFXg0ah3gg==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+{"errors":["The requested URL was not found on this server."]}
+[bigip-config-utility] Dumped HTTP request for https://account.bts.bitpanda.com/tmui/tmui/login/welcome.jsp
+
+
+GET /tmui/tmui/login/welcome.jsp HTTP/1.1
+Host: account.bts.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[bigip-config-utility] Dumped HTTP response https://account.bts.bitpanda.com/tmui/tmui/login/welcome.jsp
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a5d1f699c84-IAD
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:37 GMT
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Server: cloudflare
+Set-Cookie: _cfuvid=OdmHhi5cf21t7xq9DpV5k2Qaz4wgtoBjGi.hI_79nVw-1754398177225-0.0.1.1-604800000; path=/; domain=.frontegg.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Via: 1.1 8d0bf2975485a7f0e4b8d82ddd378292.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: r4LtTKIYY5fUxojqRHmRgRkap8yad5SDhUoR8KRaV5rnlEWizWUdtA==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+{"errors":["The requested URL was not found on this server."]}
+[bigip-config-utility] Dumped HTTP request for https://account.bts.bitpanda.com/mgmt/tm/sys/management-ip
+
+
+GET /mgmt/tm/sys/management-ip HTTP/1.1
+Host: account.bts.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-en) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[bigip-config-utility] Dumped HTTP response https://account.bts.bitpanda.com/mgmt/tm/sys/management-ip
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a828c1f07ec-IAD
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:43 GMT
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Server: cloudflare
+Set-Cookie: _cfuvid=oIO1e8cDfSBe8MjkCVpLmERTbo2ZMWrmsfBC.93_KR8-1754398183233-0.0.1.1-604800000; path=/; domain=.frontegg.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Via: 1.1 62997e8047323290451b8a864e88914c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: XIzPcdYkE986K7JUzf1B8PeOH1F8YxkP6CbsSA4srb9tL0zeBBxJ3g==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+{"errors":["The requested URL was not found on this server."]}

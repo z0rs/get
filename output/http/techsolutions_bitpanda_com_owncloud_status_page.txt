@@ -1,0 +1,31 @@
+[owncloud-status-page] Dumped HTTP request for https://techsolutions.bitpanda.com/status.php
+
+
+GET /status.php HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[owncloud-status-page] Dumped HTTP response https://techsolutions.bitpanda.com/status.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Age: 8
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:43 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 1e5d213252e38a8aa2e2a927fd3c3754.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: fthCw-ei7h80JstKLj8cvxOA_ZWs8pUUccG4Fjj5cYwTZwX_bGPjjQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: XkepEm0DNCgIkdXCVx0Il0TE/j4xsIbNdW37QfBGMt/+h5i5TlqNToKRFPedrDEPc0dHcGXtPMA=
+X-Amz-Request-Id: EZAB0D3DNSCKG9GC
+X-Cache: Error from cloudfront
+
+Not Found

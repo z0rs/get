@@ -1,0 +1,26 @@
+[CVE-2017-17736] Dumped HTTP request for https://techsolutions.bitpanda.com/CMSInstall/install.aspx
+
+
+GET /CMSInstall/install.aspx HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2017-17736] Dumped HTTP response https://techsolutions.bitpanda.com/CMSInstall/install.aspx
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Location: ./install.aspx/
+Via: 1.1 018bc8ac3ac3155b3d0b36b861811052.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: mlA0kupzamwLAqtlwe8_HHy7sWF3d4QP45Qm0Qc9izsy9REEj6B0-w==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

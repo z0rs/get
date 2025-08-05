@@ -1,0 +1,26 @@
+[sharefile-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/Authentication/Login
+
+
+GET /Authentication/Login HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[sharefile-panel] Dumped HTTP response https://techsolutions.bitpanda.com/Authentication/Login
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:25 GMT
+Location: ./Login/
+Via: 1.1 453fca9bdf51d1b9cd544a035e75d92c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 3AaGPuL9ke1hyNLIFVJRS52uVRjJN7NpoVvl9_IKZpsurSs-9oAaJw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

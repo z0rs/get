@@ -1,0 +1,37 @@
+[wordpress-photo-gallery] Dumped HTTP request for https://socket.bitpanda.com/wp-content/plugins/photo-gallery/readme.txt
+
+
+GET /wp-content/plugins/photo-gallery/readme.txt HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=vfFpVuGokGUlFEXdh7cRmCYaJppxCh7ojxqb93beJXUiRakP3qV2zmA20YfGiTKYbzgwc2ZF7JjgeqaQx/gzGgD4a1N4gjB82WM2qf33Mwkl/LAhANIbzyZpmiUn; AWSALBCORS=vfFpVuGokGUlFEXdh7cRmCYaJppxCh7ojxqb93beJXUiRakP3qV2zmA20YfGiTKYbzgwc2ZF7JjgeqaQx/gzGgD4a1N4gjB82WM2qf33Mwkl/LAhANIbzyZpmiUn
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-photo-gallery] Dumped HTTP response https://socket.bitpanda.com/wp-content/plugins/photo-gallery/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:44 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=x5zkWEAvesP+rSOEkCBG9lyGE1zMx1SRnqieoBCs0dJdzDur9eL/N5L1aj7yxAPz/yTOq8/rnUb57fYbnK5Qfq1MZfQOQCXbbatE5MiYgPxFCtfeQ19k5dKgukL3; Expires=Tue, 12 Aug 2025 12:52:44 GMT; Path=/
+Set-Cookie: AWSALBCORS=x5zkWEAvesP+rSOEkCBG9lyGE1zMx1SRnqieoBCs0dJdzDur9eL/N5L1aj7yxAPz/yTOq8/rnUb57fYbnK5Qfq1MZfQOQCXbbatE5MiYgPxFCtfeQ19k5dKgukL3; Expires=Tue, 12 Aug 2025 12:52:44 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 21a5f0e24a694c040922a8766d75a2e0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 10UHlTC0bWJ-kTarfyZg9gvE3faL_h3kbO3lqHz5M0ngrlDR8X4B8g==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 0
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

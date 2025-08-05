@@ -1,0 +1,34 @@
+[eset-protect-panel] Dumped HTTP request for https://raiffeisen.bitpanda.com/era/webconsole/
+
+
+GET /era/webconsole/ HTTP/1.1
+Host: raiffeisen.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=ystBtCe8OO2Z0Dim71QgyJh9Oe2kc44ppZG57ynKANY-1754398307122-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[eset-protect-panel] Dumped HTTP response https://raiffeisen.bitpanda.com/era/webconsole/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66d8fb81bcc0c-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:51:47 GMT
+Location: /era/webconsole
+Refresh: 0;url=/era/webconsole
+Server: cloudflare
+Set-Cookie: _cfuvid=TTu.D3vEQhIQI6JsquhNnL1QXxkIsU5W60XMEnrh1hM-1754398307840-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::xhdvs-1754398307834-2987139e9579
+
+Redirecting...
+

@@ -1,0 +1,33 @@
+[klog-server-panel] Dumped HTTP request for https://app.bitpanda.com/login.php
+
+
+GET /login.php HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/106.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2F; _cfuvid=vgqyEegp.bpybNLt2IAIXzQQJArZXHgg81sAUMHE12A-1754398143485-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..tjrXOhNTioDhpPruQxtY1A.1hzrCc9tMMGtpDtdqDxH35Uk0JVitXIBcnebtVnyGwOg-cNXlUpci41kEIIILOUqs3jZ_FLZWOFHwpinsxA3xIwelphZGHvxOId8KZ9oXEU4vdfP7UpXYL30cUGxq9t5jLkW4RuiKJZyp8SWaSKlWgzis_maiNgNrRoVIvSSXXEYTXycoPViX-FnmExHWCC7_9-1XURuGQcR72qia1dTmTqrtjfOweDGhVr-OqVu-zCjvsh6Neg3vO32id2zHzJY7pDKEFwkMcpCQxsA-Q-mtdW5UEBbBqCFXgVROIvyYEEbyxWP1wwVPDSz_R1a5k_iPSH0RzWHC7IguyQTA9l3vx7Vip5i0WOTjZiGIdTu7KH_GrlTkFYqdIiAXidjgSCQkKJ9-qI-Q3YwwO4CGJatj1POXJmf2nd5zRT1y2KlmKTuGXqwT1oXY6qPgCtN67zvgG2Ovea1Vkc6pFISp6Lae2Z3g4FOOijwGhzpg8n99qqEkrwzmeIzaM3cBcqot1ZQGq0s7KlB4PoN2wpUTGeMXsd9gGKqttIjTJA2YQgg_5jcSIO-TcOBfGb2FbdCbspawH4NfmSfbAy9zEBWoQZesIUbCqULB0UEAwykDDH_IJjP_ljvjsmh1lWs_CFIvET9p3LkbcZL-JIHbXnEKdB2KmFtTb9RVUPj3eY1gvTsej1X13ZOtExi2yOHl1RFNpT_.3lOU_ho-yrazWkzDumii8aOmWVq83wpeV9drn6whwTs
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[klog-server-panel] Dumped HTTP response https://app.bitpanda.com/login.php
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6698ec80e0631-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:03 GMT
+Location: /api/auth/login?callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2Flogin.php
+Server: cloudflare
+Set-Cookie: _cfuvid=43wXjJaqpQSbWlTZ4gh3eDvnL.9lnBn1UjBBWrr2MJw-1754398143882-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::6qt2b-1754398143843-ed883cc4e67f
+
+Redirecting...
+

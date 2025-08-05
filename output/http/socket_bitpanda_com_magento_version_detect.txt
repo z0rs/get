@@ -1,0 +1,72 @@
+[magento-version-detect] Dumped HTTP request for https://socket.bitpanda.com/magento_version
+
+
+GET /magento_version HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/600.1.17 (KHTML, like Gecko) Version/7.1 Safari/537.85.10
+Connection: close
+Cookie: AWSALB=VJyJtAc+4/Fu99yDzsS025Jdj/fbKVErXEdJwAX+gJ8+vMo9AaW+zf9kFcgrpPfpmhrV54TZJTFSn8FO0/14MIwbuTecyaCEaspV4V1z0U0gI8UkwdLxLkxTALFH; AWSALBCORS=VJyJtAc+4/Fu99yDzsS025Jdj/fbKVErXEdJwAX+gJ8+vMo9AaW+zf9kFcgrpPfpmhrV54TZJTFSn8FO0/14MIwbuTecyaCEaspV4V1z0U0gI8UkwdLxLkxTALFH
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[magento-version-detect] Dumped HTTP response https://socket.bitpanda.com/magento_version
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:32 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=XdGymJjDu7cAE0wa7IaSgW+2vEaGzyb5fhYItuLhefoyTJ919hSy+OsDZ+8B4vApaujg25BGsWRfwtbA9oAIiAH45sqnA0QJ4jwawTkc0pFFc62v7OuMgU7PDjGZ; Expires=Tue, 12 Aug 2025 12:52:32 GMT; Path=/
+Set-Cookie: AWSALBCORS=XdGymJjDu7cAE0wa7IaSgW+2vEaGzyb5fhYItuLhefoyTJ919hSy+OsDZ+8B4vApaujg25BGsWRfwtbA9oAIiAH45sqnA0QJ4jwawTkc0pFFc62v7OuMgU7PDjGZ; Expires=Tue, 12 Aug 2025 12:52:32 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 aa77c72923f68604fa8f6f77bfdaa2dc.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: rwVAKk2ihJ7YYfBzJSqI0NEe63lupa9Zn3oN0yIe4OvzsWSjbJcobw==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 6
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[magento-version-detect] Dumped HTTP request for https://socket.bitpanda.com/skin/frontend/default/default/css/styles.css
+
+
+GET /skin/frontend/default/default/css/styles.css HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.7 Mobile/15E148 Safari/604.1
+Connection: close
+Cookie: AWSALB=ZEbCM/lh8QhcDZZ6e4zNV1ELIw+CuRepZvnEmLoGvAl6xoI3cvPMWZVY1D8AVnBImJODoJXVya25JQUgKsSDu4Xx4recLM5bHYQ6g5PFczpiNOCNN7vgEukr6rwB; AWSALBCORS=ZEbCM/lh8QhcDZZ6e4zNV1ELIw+CuRepZvnEmLoGvAl6xoI3cvPMWZVY1D8AVnBImJODoJXVya25JQUgKsSDu4Xx4recLM5bHYQ6g5PFczpiNOCNN7vgEukr6rwB
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[magento-version-detect] Dumped HTTP response https://socket.bitpanda.com/skin/frontend/default/default/css/styles.css
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:35 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=Kw6rz1NkMdIqYpuupvwriPB4wU7ZymRS5cOlh6WWufZL1gH8YUJoIdmx2Bq6tOG8BeBGfsVjKz5SBJYUcJilqNS3W7G1pbKBjR5jczqvphFgwmvIHyTQzIOlej9C; Expires=Tue, 12 Aug 2025 12:52:35 GMT; Path=/
+Set-Cookie: AWSALBCORS=Kw6rz1NkMdIqYpuupvwriPB4wU7ZymRS5cOlh6WWufZL1gH8YUJoIdmx2Bq6tOG8BeBGfsVjKz5SBJYUcJilqNS3W7G1pbKBjR5jczqvphFgwmvIHyTQzIOlej9C; Expires=Tue, 12 Aug 2025 12:52:35 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 d45137f973d454db77c647196f56613a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: l5cXxyZC5TY9Y-zaHJQ1vly3esZKcIQdIG4BKmnBvbUhW54-fB_Vsg==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 3
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

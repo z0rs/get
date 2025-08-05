@@ -1,0 +1,37 @@
+[cluster-bb5e98ae1d79b14d69e518bc77fe9a64538ea2709a111c7f23dd0f6d6a10de2f] Dumped HTTP request for https://socket.bitpanda.com/fpui/jsp/login.jsp
+
+
+GET /fpui/jsp/login.jsp HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-bb5e98ae1d79b14d69e518bc77fe9a64538ea2709a111c7f23dd0f6d6a10de2f] Dumped HTTP response https://socket.bitpanda.com/fpui/jsp/login.jsp
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:11 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=ePHLwJUtutOo1ihJVXP9uQv6NjtPdLjmGHz9afcCL54oxvnYz+xo2vSvbcnxY8OP6b8qN1dLXhBZSd307SbL857TYgRwmlPtNQwp1H8SBaA/Pb3T7B7dMLZZJIPl; Expires=Tue, 12 Aug 2025 12:52:11 GMT; Path=/
+Set-Cookie: AWSALBCORS=ePHLwJUtutOo1ihJVXP9uQv6NjtPdLjmGHz9afcCL54oxvnYz+xo2vSvbcnxY8OP6b8qN1dLXhBZSd307SbL857TYgRwmlPtNQwp1H8SBaA/Pb3T7B7dMLZZJIPl; Expires=Tue, 12 Aug 2025 12:52:11 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 b69ecbb6800ade3c34d3338365df5612.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 0Key2nUe6annCDqNwL37XRjxSUkGbw8tJlldUxOhSX6D2VauAU7MDQ==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 0
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

@@ -1,0 +1,114 @@
+[mrtg-detect] Dumped HTTP request for http://feedbackai.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=NlAt.rhOIluNzN48IgsYb0nlKh4QBs.jX8RuJR7pSt0-1754398414797-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[mrtg-detect] Dumped HTTP response http://feedbackai.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6702c8eac2d24-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:34 GMT
+Expires: Tue, 05 Aug 2025 13:53:34 GMT
+Location: https://feedbackai.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=gHWBrpje.VTh.4WgiOwxqiq4VQXt_FMbL5IqkUJsXVo-1754398414870-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[mrtg-detect] Dumped HTTP request for http://feedbackai.bitpanda.com/mrtg/
+
+
+GET /mrtg/ HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/601.4.4 (KHTML, like Gecko) Version/9.0.3 Safari/537.86.4
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=gHWBrpje.VTh.4WgiOwxqiq4VQXt_FMbL5IqkUJsXVo-1754398414870-0.0.1.1-604800000; _cfuvid=s8u_.AdVegMjOUzrcUZwXez4L4NN1lqQ9FVwLrC7r3w-1754398430828-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[mrtg-detect] Dumped HTTP response http://feedbackai.bitpanda.com/mrtg/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670cd5ffb825c-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:00 GMT
+Expires: Tue, 05 Aug 2025 13:54:00 GMT
+Location: https://feedbackai.bitpanda.com/mrtg/
+Server: cloudflare
+Set-Cookie: _cfuvid=C73pPEn_EqeK75Tj7qfBp5oTGsR97KbHStGhvPAp1CA-1754398440603-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[mrtg-detect] Dumped HTTP request for http://feedbackai.bitpanda.com/MRTG/
+
+
+GET /MRTG/ HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=C73pPEn_EqeK75Tj7qfBp5oTGsR97KbHStGhvPAp1CA-1754398440603-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[mrtg-detect] Dumped HTTP response http://feedbackai.bitpanda.com/MRTG/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670e09ce97fa2-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:03 GMT
+Expires: Tue, 05 Aug 2025 13:54:03 GMT
+Location: https://feedbackai.bitpanda.com/MRTG/
+Server: cloudflare
+Set-Cookie: _cfuvid=QKCre7vPysQ_AB3rlrppC8m86vFdYuEY65ZHsUvJc7s-1754398443662-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

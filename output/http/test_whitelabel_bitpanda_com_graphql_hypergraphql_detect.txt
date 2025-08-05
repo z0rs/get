@@ -1,0 +1,60 @@
+[graphql-hypergraphql-detect] Dumped HTTP request for http://test.whitelabel.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: test.whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 30
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"zzz { __typename }"}
+[graphql-hypergraphql-detect] Dumped HTTP request for http://test.whitelabel.bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: test.whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 30
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"zzz { __typename }"}
+[graphql-hypergraphql-detect] Dumped HTTP request for http://test.whitelabel.bitpanda.com/query
+
+
+POST /query HTTP/1.1
+Host: test.whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/101.0 Safari/537.36
+Connection: close
+Content-Length: 30
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"zzz { __typename }"}
+[graphql-hypergraphql-detect] Dumped HTTP request for http://test.whitelabel.bitpanda.com/
+
+
+POST / HTTP/1.1
+Host: test.whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Mobile/15E148 Safari/604.1
+Connection: close
+Content-Length: 30
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"zzz { __typename }"}

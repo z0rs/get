@@ -1,0 +1,38 @@
+[accellion-detect] Dumped HTTP request for http://feedbackai.bitpanda.com/cfadmin/
+
+
+GET /cfadmin/ HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=1qMaKy7xIS9_gRo3W6.lB24HDm91YJWb7freqzN.7GA-1754398327846-0.0.1.1-604800000; _cfuvid=UaiD3TqKIU_c7oj.cwPK3oJkW3P3qaOmJcFGxJoKf8g-1754398342852-0.0.1.1-604800000; _cfuvid=1KJk2CsAyFS9otn2j6k4U0smBsMi8DAJkxIicXf1eS8-1754398357839-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[accellion-detect] Dumped HTTP response http://feedbackai.bitpanda.com/cfadmin/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ed4bb735fa6-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:39 GMT
+Expires: Tue, 05 Aug 2025 13:52:39 GMT
+Location: https://feedbackai.bitpanda.com/cfadmin/
+Server: cloudflare
+Set-Cookie: _cfuvid=fGo0xLeuDLT_tRusrw1YEgZkBpHJ41L0zttt0LKp7w0-1754398359830-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

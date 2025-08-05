@@ -1,0 +1,36 @@
+[luxtrust-cosi-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/web/thanks
+
+
+GET /web/thanks HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=eGtMaUlGS3p2M2RoYWI1L3N3VHJ2MFNlV2tjd0VRblZDT1N1N3FNU0ZhemRNRUs2cEM4RG9QNThLR01oWFNhcUpzWFBNVDlvNXBYWDdQYy9iRzh1V3JkMldiUUNYMjRVU0UwSWlObjZyWFplb1gzcytRenNqTjdtUGltdS9MbldNRUUwRkdwQU14Zk1jVW1RQTNIdTBrNFlCUStaS1JVazQxOHZ2bGFFMGduWDlPREpWK3FYUjhOV3RXWGNvVDhpcnowVWNxbkRpOUZZTFJSZDh3d2FxM1RISWFxNkpuckYrVmhId1NGdFRvYz0tLWRIK3ZPQ2JSc1NYdkU4RkdBU1MxeVE9PQ%3D%3D--ee4dc47e46764c5a379a3bdebc7693808b2a816f
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[luxtrust-cosi-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/web/thanks
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 70169655-f737-499d-a91a-23b05e81f271
+Atl-Traceid: 70169655f737499da91a23b05e81f271
+Date: Tue, 05 Aug 2025 12:52:30 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=3,atl-edge-upstream;dur=62,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 429a03d32042afcc39a25586a483feb8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: QottUtIK97qwUvdEik6ETwHg_CtflSuUIvXMt_OZajCGYkiG55z3uQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 143621609
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

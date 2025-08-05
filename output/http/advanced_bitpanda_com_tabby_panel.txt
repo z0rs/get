@@ -1,0 +1,28 @@
+[tabby-panel] Dumped HTTP request for https://advanced.bitpanda.com/auth/signin
+
+
+GET /auth/signin HTTP/1.1
+Host: advanced.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _ava_csrf=MTc1NDM5ODEzMnxJbTFLV2xOYU0xQXpaVk0yTVRnNGQwZE5VVkpDVVRGSFltRklkRGQ1VGtkbFVIZ3ZjRVV2VG1KWloyTTlJZ289fKJP_4w0njSvNJIudSGTj5zmPLvdwX5aErvdGNks_7hG; csrf=MTc1NDM5ODE0NXxLVXlQN2FUdk1OLUhDSWN0MWQ2Zk04bm9SUXhwZEp6LU55M1RFRjlsQ09XOUlUcXk0bDFValEyY2txamJLbzdsSF9VQ2VvVTNVcEVNVDEyUzIyVk9hWGZEX1U1dTJHb0pGWnl5RFhaajdFSHI0NEJWZnN6ckIzaEQxLWM4bTdaZWg3QT18NKmNh_3ygv5O0OdgGpR_1oZNkq62F-Auz2a2BjbL_7Y=
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[tabby-panel] Dumped HTTP response https://advanced.bitpanda.com/auth/signin
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 19
+Alt-Svc: clear
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:13 GMT
+Vary: Origin
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+
+404 page not found
+

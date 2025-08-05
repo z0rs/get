@@ -1,0 +1,29 @@
+[wordpress-enable-media-replace] Dumped HTTP request for https://techsolutions.bitpanda.com/wp-content/plugins/enable-media-replace/readme.txt
+
+
+GET /wp-content/plugins/enable-media-replace/readme.txt HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-enable-media-replace] Dumped HTTP response https://techsolutions.bitpanda.com/wp-content/plugins/enable-media-replace/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:50 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 4d89e7f6870714b602988e2ed1135996.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: SgfW7prSVbnhESWvdi88XLlPOQerZcRJydUrweYZOdoAd3k9uV8x_g==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: T4WCH0qe+heC6OUrgxibFTHuOx8DxR72ipK9DSg9r0zYhKivNkLXT6oz9UTqR72vUC4JZ8O4mem1HwuBsuOQ6K0WojpbANB5
+X-Amz-Request-Id: RDVVBR194946CEPP
+X-Cache: Error from cloudfront
+
+Not Found

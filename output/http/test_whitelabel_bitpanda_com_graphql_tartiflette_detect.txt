@@ -1,0 +1,15 @@
+[graphql-tartiflette-detect] Dumped HTTP request for http://test.whitelabel.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: test.whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36
+Connection: close
+Content-Length: 35
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query @a { __typename }"}

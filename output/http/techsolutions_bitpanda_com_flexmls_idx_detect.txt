@@ -1,0 +1,29 @@
+[flexmls-idx-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/wp-content/plugins/flexmls-idx/readme.txt
+
+
+GET /wp-content/plugins/flexmls-idx/readme.txt HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[flexmls-idx-detect] Dumped HTTP response https://techsolutions.bitpanda.com/wp-content/plugins/flexmls-idx/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:50 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 05ad9135b3542476ff321f9aab1eb6ae.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: oTR3WiQYIFsvmODnJNb7mcvhh3_VvcEWltykozDOBmTPYFTmKPXf4w==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: 25PgKndgqnd5u/+/iMOdGHWtJfFbrUWo2mPMTM3VFy6kQ79s7wPCj8V0Wmx69pmIAeHoxRnW2J8=
+X-Amz-Request-Id: RDVVXF5YD74ZHYR3
+X-Cache: Error from cloudfront
+
+Not Found

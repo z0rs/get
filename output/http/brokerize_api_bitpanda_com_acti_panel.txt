@@ -1,0 +1,29 @@
+[acti-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/cgi-bin/videoconfiguration.cgi
+
+
+GET /cgi-bin/videoconfiguration.cgi HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/109.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[acti-panel] Dumped HTTP response https://brokerize-api.bitpanda.com/cgi-bin/videoconfiguration.cgi
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6694a0f07e5e6-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:48:52 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=uQuSlWUUCCiwbGlqhO1aVPMtHQox7JxRG79VpO0GNjk-1754398132931-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}

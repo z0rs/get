@@ -1,0 +1,37 @@
+[wordpress-complianz-gdpr] Dumped HTTP request for http://ff.bitpanda.com/wp-content/plugins/complianz-gdpr/readme.txt
+
+
+GET /wp-content/plugins/complianz-gdpr/readme.txt HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=cunvqoq1VLdTrDcxVo5v55RXjkdBpq2sLtN3LTA51lU-1754398446300-0.0.1.1-604800000; GCLB="a0d6f7bac8c5e65e"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-complianz-gdpr] Dumped HTTP response http://ff.bitpanda.com/wp-content/plugins/complianz-gdpr/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670f1796aea22-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:06 GMT
+Expires: Tue, 05 Aug 2025 13:54:06 GMT
+Location: https://ff.bitpanda.com/wp-content/plugins/complianz-gdpr/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=gQA1iHV1nsw5IUGtKTiB3UndO5eY.V1rdpXzZc31R7k-1754398446344-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

@@ -1,0 +1,595 @@
+[telerik-dialoghandler-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/cms/portlets/Telerik.Web.UI.DialogHandler.aspx?dp=1
+
+
+GET /cms/portlets/Telerik.Web.UI.DialogHandler.aspx?dp=1 HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686; rv:131.0) Gecko/20100101 Firefox/131.0
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=bDZjdS8vSys2ZGcrYkVTcVNVejV6dDlmR0pNS0l5UkNFZlpiV3psUXlidDJ0SGdPVVBnQVl2YnFPNkFBMXJ4Rm5vUUdTZzFWb3lZSnZ4TGFEZ216dDdEdW5EQno5MkprZnk5U3hCRUVpNjZvSXNYbFFLWkM2UnRvSU9JVUhsd3ZWakVmNzFXQWZrRnprLzlUaEJURk04b0dxWS9WMHo5Q0Y2TkRIK3I3U1BqbnJDSWhUd0FtcERIZ0E0ZTcwL09RM2lOY0VRYWJXR3NZUHM4akozMFpjcTdEWWh5R0FENm5uOTczNSsvY1o1ND0tLVBBMGU0NFRaYll4R2M2NU4wWmYweFE9PQ%3D%3D--57a8d0503f1f32f37de990c801c5a01727a7e3b2
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[telerik-dialoghandler-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/cms/portlets/Telerik.Web.UI.DialogHandler.aspx?dp=1
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 91882a52-27c2-4f65-86ad-d13c0dde78cc
+Atl-Traceid: 91882a5227c24f6586add13c0dde78cc
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=63,atl-edge-internal;dur=4,atl-edge-upstream;dur=61,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 b13c6d10b44fd12a68a8ca01d540a750.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: m8T7-qTSrU48RBb7cy-RAYvs5PPverBOwBwJQtahnt9SERRV33ThCw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 119794946
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[telerik-dialoghandler-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/Modules/CMS/Telerik.Web.UI.DialogHandler.aspx?dp=1
+
+
+GET /Modules/CMS/Telerik.Web.UI.DialogHandler.aspx?dp=1 HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=bDZjdS8vSys2ZGcrYkVTcVNVejV6dDlmR0pNS0l5UkNFZlpiV3psUXlidDJ0SGdPVVBnQVl2YnFPNkFBMXJ4Rm5vUUdTZzFWb3lZSnZ4TGFEZ216dDdEdW5EQno5MkprZnk5U3hCRUVpNjZvSXNYbFFLWkM2UnRvSU9JVUhsd3ZWakVmNzFXQWZrRnprLzlUaEJURk04b0dxWS9WMHo5Q0Y2TkRIK3I3U1BqbnJDSWhUd0FtcERIZ0E0ZTcwL09RM2lOY0VRYWJXR3NZUHM4akozMFpjcTdEWWh5R0FENm5uOTczNSsvY1o1ND0tLVBBMGU0NFRaYll4R2M2NU4wWmYweFE9PQ%3D%3D--57a8d0503f1f32f37de990c801c5a01727a7e3b2
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[telerik-dialoghandler-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/Modules/CMS/Telerik.Web.UI.DialogHandler.aspx?dp=1
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 2d66cff5-691e-4db5-b03b-0a3fe7c33122
+Atl-Traceid: 2d66cff5691e4db5b03b0a3fe7c33122
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=4,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 429a03d32042afcc39a25586a483feb8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: NynJADWSxZXNGEZJt0bBfJjw7v07vapFZHbB3dUcQDlSYV-EIQYouA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 110095048
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[telerik-dialoghandler-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/DesktopModule/UIQuestionControls/UIAskQuestion/Telerik.Web.UI.DialogHandler.aspx?dp=1
+
+
+GET /DesktopModule/UIQuestionControls/UIAskQuestion/Telerik.Web.UI.DialogHandler.aspx?dp=1 HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=bDZjdS8vSys2ZGcrYkVTcVNVejV6dDlmR0pNS0l5UkNFZlpiV3psUXlidDJ0SGdPVVBnQVl2YnFPNkFBMXJ4Rm5vUUdTZzFWb3lZSnZ4TGFEZ216dDdEdW5EQno5MkprZnk5U3hCRUVpNjZvSXNYbFFLWkM2UnRvSU9JVUhsd3ZWakVmNzFXQWZrRnprLzlUaEJURk04b0dxWS9WMHo5Q0Y2TkRIK3I3U1BqbnJDSWhUd0FtcERIZ0E0ZTcwL09RM2lOY0VRYWJXR3NZUHM4akozMFpjcTdEWWh5R0FENm5uOTczNSsvY1o1ND0tLVBBMGU0NFRaYll4R2M2NU4wWmYweFE9PQ%3D%3D--57a8d0503f1f32f37de990c801c5a01727a7e3b2
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[telerik-dialoghandler-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/DesktopModule/UIQuestionControls/UIAskQuestion/Telerik.Web.UI.DialogHandler.aspx?dp=1
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 087261f2-d9b8-4da0-96cc-f447e018c728
+Atl-Traceid: 087261f2d9b84da096ccf447e018c728
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 5beb4c3232a40c8c6a3e48c902092760.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: kfwjr8pK_OgZbTCPVGAxcT_4WB79mGlCS5MOiUF4xJeRS51SEp0c0w==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 73294000
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[telerik-dialoghandler-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/App_Master/Telerik.Web.UI.DialogHandler.aspx?dp=1
+
+
+GET /App_Master/Telerik.Web.UI.DialogHandler.aspx?dp=1 HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=bDZjdS8vSys2ZGcrYkVTcVNVejV6dDlmR0pNS0l5UkNFZlpiV3psUXlidDJ0SGdPVVBnQVl2YnFPNkFBMXJ4Rm5vUUdTZzFWb3lZSnZ4TGFEZ216dDdEdW5EQno5MkprZnk5U3hCRUVpNjZvSXNYbFFLWkM2UnRvSU9JVUhsd3ZWakVmNzFXQWZrRnprLzlUaEJURk04b0dxWS9WMHo5Q0Y2TkRIK3I3U1BqbnJDSWhUd0FtcERIZ0E0ZTcwL09RM2lOY0VRYWJXR3NZUHM4akozMFpjcTdEWWh5R0FENm5uOTczNSsvY1o1ND0tLVBBMGU0NFRaYll4R2M2NU4wWmYweFE9PQ%3D%3D--57a8d0503f1f32f37de990c801c5a01727a7e3b2
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[telerik-dialoghandler-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/App_Master/Telerik.Web.UI.DialogHandler.aspx?dp=1
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 358e6fe6-ee7a-4776-9771-2274955c4d82
+Atl-Traceid: 358e6fe6ee7a477697712274955c4d82
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=4,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 c8c9787916110356915bbdbddd0a32d6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: QDrg7g1SXqVnE3ZUVofQpnQh6YvMQ_jjHZBnBjx5scNHRB7nvoWtOg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 122177251
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[telerik-dialoghandler-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/Admin/ServerSide/Telerik.Web.UI.DialogHandler.aspx?dp=1
+
+
+GET /Admin/ServerSide/Telerik.Web.UI.DialogHandler.aspx?dp=1 HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=bDZjdS8vSys2ZGcrYkVTcVNVejV6dDlmR0pNS0l5UkNFZlpiV3psUXlidDJ0SGdPVVBnQVl2YnFPNkFBMXJ4Rm5vUUdTZzFWb3lZSnZ4TGFEZ216dDdEdW5EQno5MkprZnk5U3hCRUVpNjZvSXNYbFFLWkM2UnRvSU9JVUhsd3ZWakVmNzFXQWZrRnprLzlUaEJURk04b0dxWS9WMHo5Q0Y2TkRIK3I3U1BqbnJDSWhUd0FtcERIZ0E0ZTcwL09RM2lOY0VRYWJXR3NZUHM4akozMFpjcTdEWWh5R0FENm5uOTczNSsvY1o1ND0tLVBBMGU0NFRaYll4R2M2NU4wWmYweFE9PQ%3D%3D--57a8d0503f1f32f37de990c801c5a01727a7e3b2
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[telerik-dialoghandler-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/Admin/ServerSide/Telerik.Web.UI.DialogHandler.aspx?dp=1
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 75007752-a014-48c5-a288-2119f9e3d009
+Atl-Traceid: 75007752a01448c5a2882119f9e3d009
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=63,atl-edge-internal;dur=3,atl-edge-upstream;dur=61,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 6ec872fa8051a500a5a9ab5ec50a79ba.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: vGU5DWAaXmeXcKj9S60uT97x8tSehZyS_ZSJfgvLv4hrPHjnHvby2Q==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 136342276
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[telerik-dialoghandler-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/common/admin/Jobs2/Telerik.Web.UI.DialogHandler.aspx?dp=1
+
+
+GET /common/admin/Jobs2/Telerik.Web.UI.DialogHandler.aspx?dp=1 HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=bDZjdS8vSys2ZGcrYkVTcVNVejV6dDlmR0pNS0l5UkNFZlpiV3psUXlidDJ0SGdPVVBnQVl2YnFPNkFBMXJ4Rm5vUUdTZzFWb3lZSnZ4TGFEZ216dDdEdW5EQno5MkprZnk5U3hCRUVpNjZvSXNYbFFLWkM2UnRvSU9JVUhsd3ZWakVmNzFXQWZrRnprLzlUaEJURk04b0dxWS9WMHo5Q0Y2TkRIK3I3U1BqbnJDSWhUd0FtcERIZ0E0ZTcwL09RM2lOY0VRYWJXR3NZUHM4akozMFpjcTdEWWh5R0FENm5uOTczNSsvY1o1ND0tLVBBMGU0NFRaYll4R2M2NU4wWmYweFE9PQ%3D%3D--57a8d0503f1f32f37de990c801c5a01727a7e3b2
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[telerik-dialoghandler-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/common/admin/Jobs2/Telerik.Web.UI.DialogHandler.aspx?dp=1
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 7d85e31e-2b4c-4191-bd7c-fca2cb9c3c12
+Atl-Traceid: 7d85e31e2b4c4191bd7cfca2cb9c3c12
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=3,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 3924198dd88678a1cab97875f32b6f20.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: JSGvgLHKBIkLgnkFBSAV8shZff6cH-e_BfwNmMpzhGAZsxegouiVpg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 764667013
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[telerik-dialoghandler-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/DesktopModules/TNComments/Telerik.Web.UI.DialogHandler.aspx?dp=1
+
+
+GET /DesktopModules/TNComments/Telerik.Web.UI.DialogHandler.aspx?dp=1 HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=bDZjdS8vSys2ZGcrYkVTcVNVejV6dDlmR0pNS0l5UkNFZlpiV3psUXlidDJ0SGdPVVBnQVl2YnFPNkFBMXJ4Rm5vUUdTZzFWb3lZSnZ4TGFEZ216dDdEdW5EQno5MkprZnk5U3hCRUVpNjZvSXNYbFFLWkM2UnRvSU9JVUhsd3ZWakVmNzFXQWZrRnprLzlUaEJURk04b0dxWS9WMHo5Q0Y2TkRIK3I3U1BqbnJDSWhUd0FtcERIZ0E0ZTcwL09RM2lOY0VRYWJXR3NZUHM4akozMFpjcTdEWWh5R0FENm5uOTczNSsvY1o1ND0tLVBBMGU0NFRaYll4R2M2NU4wWmYweFE9PQ%3D%3D--57a8d0503f1f32f37de990c801c5a01727a7e3b2
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[telerik-dialoghandler-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/DesktopModules/TNComments/Telerik.Web.UI.DialogHandler.aspx?dp=1
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: f7ca3920-5f90-4da4-875f-7737f25602d5
+Atl-Traceid: f7ca39205f904da4875f7737f25602d5
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=2,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 6ec872fa8051a500a5a9ab5ec50a79ba.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: BN_g3In4wR0W5Hoz8oqPi7S1M-83HUAqwXI2oIZpwwdkgBbn4JXpPg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 1029272987
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[telerik-dialoghandler-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/Telerik.Web.UI.DialogHandler.axd?dp=1
+
+
+GET /Telerik.Web.UI.DialogHandler.axd?dp=1 HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/115.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=bDZjdS8vSys2ZGcrYkVTcVNVejV6dDlmR0pNS0l5UkNFZlpiV3psUXlidDJ0SGdPVVBnQVl2YnFPNkFBMXJ4Rm5vUUdTZzFWb3lZSnZ4TGFEZ216dDdEdW5EQno5MkprZnk5U3hCRUVpNjZvSXNYbFFLWkM2UnRvSU9JVUhsd3ZWakVmNzFXQWZrRnprLzlUaEJURk04b0dxWS9WMHo5Q0Y2TkRIK3I3U1BqbnJDSWhUd0FtcERIZ0E0ZTcwL09RM2lOY0VRYWJXR3NZUHM4akozMFpjcTdEWWh5R0FENm5uOTczNSsvY1o1ND0tLVBBMGU0NFRaYll4R2M2NU4wWmYweFE9PQ%3D%3D--57a8d0503f1f32f37de990c801c5a01727a7e3b2
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[telerik-dialoghandler-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/Telerik.Web.UI.DialogHandler.axd?dp=1
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 2bc240bc-7367-415e-8475-b790ee26ca2d
+Atl-Traceid: 2bc240bc7367415e8475b790ee26ca2d
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=67,atl-edge-internal;dur=3,atl-edge-upstream;dur=65,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 6c2e384f59feb64a0c739aee7f890066.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: icBZa6sQ8nfbY56RWZ38-MejU0zjVjFbEDXjCz_nlInrmof7tKQ-iQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 156142572
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[telerik-dialoghandler-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/AsiCommon/Controls/ContentManagement/ContentDesigner/Telerik.Web.UI.DialogHandler.aspx?dp=1
+
+
+GET /AsiCommon/Controls/ContentManagement/ContentDesigner/Telerik.Web.UI.DialogHandler.aspx?dp=1 HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=bDZjdS8vSys2ZGcrYkVTcVNVejV6dDlmR0pNS0l5UkNFZlpiV3psUXlidDJ0SGdPVVBnQVl2YnFPNkFBMXJ4Rm5vUUdTZzFWb3lZSnZ4TGFEZ216dDdEdW5EQno5MkprZnk5U3hCRUVpNjZvSXNYbFFLWkM2UnRvSU9JVUhsd3ZWakVmNzFXQWZrRnprLzlUaEJURk04b0dxWS9WMHo5Q0Y2TkRIK3I3U1BqbnJDSWhUd0FtcERIZ0E0ZTcwL09RM2lOY0VRYWJXR3NZUHM4akozMFpjcTdEWWh5R0FENm5uOTczNSsvY1o1ND0tLVBBMGU0NFRaYll4R2M2NU4wWmYweFE9PQ%3D%3D--57a8d0503f1f32f37de990c801c5a01727a7e3b2
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[telerik-dialoghandler-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/AsiCommon/Controls/ContentManagement/ContentDesigner/Telerik.Web.UI.DialogHandler.aspx?dp=1
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 9803863b-2852-4fef-8876-342f4dcc5e8a
+Atl-Traceid: 9803863b28524fef8876342f4dcc5e8a
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 427271f19372c1be0d143a1d4c76a128.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: TkbKQDnlFON5-knDe5AeRGDZVJE8wAnlhMDvZdjaBhXd6mgZsXj_CQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 170144352
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[telerik-dialoghandler-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/Providers/HtmlEditorProviders/Telerik/Telerik.Web.UI.DialogHandler.aspx?dp=1
+
+
+GET /Providers/HtmlEditorProviders/Telerik/Telerik.Web.UI.DialogHandler.aspx?dp=1 HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=bDZjdS8vSys2ZGcrYkVTcVNVejV6dDlmR0pNS0l5UkNFZlpiV3psUXlidDJ0SGdPVVBnQVl2YnFPNkFBMXJ4Rm5vUUdTZzFWb3lZSnZ4TGFEZ216dDdEdW5EQno5MkprZnk5U3hCRUVpNjZvSXNYbFFLWkM2UnRvSU9JVUhsd3ZWakVmNzFXQWZrRnprLzlUaEJURk04b0dxWS9WMHo5Q0Y2TkRIK3I3U1BqbnJDSWhUd0FtcERIZ0E0ZTcwL09RM2lOY0VRYWJXR3NZUHM4akozMFpjcTdEWWh5R0FENm5uOTczNSsvY1o1ND0tLVBBMGU0NFRaYll4R2M2NU4wWmYweFE9PQ%3D%3D--57a8d0503f1f32f37de990c801c5a01727a7e3b2
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[telerik-dialoghandler-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/Providers/HtmlEditorProviders/Telerik/Telerik.Web.UI.DialogHandler.aspx?dp=1
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 0bbd0bd2-7d5c-4fb5-8972-6e53cc40cc83
+Atl-Traceid: 0bbd0bd27d5c4fb589726e53cc40cc83
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=3,atl-edge-upstream;dur=62,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 8ba3a4becb51f8eb807e5e3697846e1a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: GsZXWZ0cZjfgsfNOEOytyCyLPk-oc3xzCIBhMIDq5SBXWggQjuHWhg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 138294120
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[telerik-dialoghandler-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/common/admin/Calendar/Telerik.Web.UI.DialogHandler.aspx?dp=1
+
+
+GET /common/admin/Calendar/Telerik.Web.UI.DialogHandler.aspx?dp=1 HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=bDZjdS8vSys2ZGcrYkVTcVNVejV6dDlmR0pNS0l5UkNFZlpiV3psUXlidDJ0SGdPVVBnQVl2YnFPNkFBMXJ4Rm5vUUdTZzFWb3lZSnZ4TGFEZ216dDdEdW5EQno5MkprZnk5U3hCRUVpNjZvSXNYbFFLWkM2UnRvSU9JVUhsd3ZWakVmNzFXQWZrRnprLzlUaEJURk04b0dxWS9WMHo5Q0Y2TkRIK3I3U1BqbnJDSWhUd0FtcERIZ0E0ZTcwL09RM2lOY0VRYWJXR3NZUHM4akozMFpjcTdEWWh5R0FENm5uOTczNSsvY1o1ND0tLVBBMGU0NFRaYll4R2M2NU4wWmYweFE9PQ%3D%3D--57a8d0503f1f32f37de990c801c5a01727a7e3b2
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[telerik-dialoghandler-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/common/admin/Calendar/Telerik.Web.UI.DialogHandler.aspx?dp=1
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 32027579-974b-4135-9386-df63cecaa164
+Atl-Traceid: 32027579974b41359386df63cecaa164
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 dd6a13d6510988eea7236b9a3cd830fe.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: oHIaj8u41O3K9v2staFN00W4PhRrB0GJ8CbYxZwtUxdm22HPByTPyA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 148526540
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[telerik-dialoghandler-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/dashboard/UserControl/CMS/Page/Telerik.Web.UI.DialogHandler.aspx/Desktopmodules/Admin/dnnWerk.Users/DialogHandler.aspx?dp=1
+
+
+GET /dashboard/UserControl/CMS/Page/Telerik.Web.UI.DialogHandler.aspx/Desktopmodules/Admin/dnnWerk.Users/DialogHandler.aspx?dp=1 HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=bDZjdS8vSys2ZGcrYkVTcVNVejV6dDlmR0pNS0l5UkNFZlpiV3psUXlidDJ0SGdPVVBnQVl2YnFPNkFBMXJ4Rm5vUUdTZzFWb3lZSnZ4TGFEZ216dDdEdW5EQno5MkprZnk5U3hCRUVpNjZvSXNYbFFLWkM2UnRvSU9JVUhsd3ZWakVmNzFXQWZrRnprLzlUaEJURk04b0dxWS9WMHo5Q0Y2TkRIK3I3U1BqbnJDSWhUd0FtcERIZ0E0ZTcwL09RM2lOY0VRYWJXR3NZUHM4akozMFpjcTdEWWh5R0FENm5uOTczNSsvY1o1ND0tLVBBMGU0NFRaYll4R2M2NU4wWmYweFE9PQ%3D%3D--57a8d0503f1f32f37de990c801c5a01727a7e3b2
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[telerik-dialoghandler-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/dashboard/UserControl/CMS/Page/Telerik.Web.UI.DialogHandler.aspx/Desktopmodules/Admin/dnnWerk.Users/DialogHandler.aspx?dp=1
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 96f33757-e16b-4f0c-bf4d-3a6dc6cfda04
+Atl-Traceid: 96f33757e16b4f0cbf4d3a6dc6cfda04
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 5bbbde7889bb9c7247f5924a32d2fdf0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Uf-Kv5RLy-a6eUwBmLIIAdNPrF3IoBHCNlRsxxjiH6j7xzPKLESJcg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 72677376
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[telerik-dialoghandler-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/common/admin/PhotoGallery2/Telerik.Web.UI.DialogHandler.aspx?dp=1
+
+
+GET /common/admin/PhotoGallery2/Telerik.Web.UI.DialogHandler.aspx?dp=1 HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=bDZjdS8vSys2ZGcrYkVTcVNVejV6dDlmR0pNS0l5UkNFZlpiV3psUXlidDJ0SGdPVVBnQVl2YnFPNkFBMXJ4Rm5vUUdTZzFWb3lZSnZ4TGFEZ216dDdEdW5EQno5MkprZnk5U3hCRUVpNjZvSXNYbFFLWkM2UnRvSU9JVUhsd3ZWakVmNzFXQWZrRnprLzlUaEJURk04b0dxWS9WMHo5Q0Y2TkRIK3I3U1BqbnJDSWhUd0FtcERIZ0E0ZTcwL09RM2lOY0VRYWJXR3NZUHM4akozMFpjcTdEWWh5R0FENm5uOTczNSsvY1o1ND0tLVBBMGU0NFRaYll4R2M2NU4wWmYweFE9PQ%3D%3D--57a8d0503f1f32f37de990c801c5a01727a7e3b2
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[telerik-dialoghandler-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/common/admin/PhotoGallery2/Telerik.Web.UI.DialogHandler.aspx?dp=1
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: c3078d03-9be5-4a9a-9985-8fc9bb490dc6
+Atl-Traceid: c3078d039be54a9a99858fc9bb490dc6
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=2,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 c8c9787916110356915bbdbddd0a32d6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: cHwiwhFiJMfqzzZT_64fmUODGzCaj4bQ7egk5qQSbaUlF51YCWOLiQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 744099068
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[telerik-dialoghandler-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/Telerik.Web.UI.DialogHandler.aspx?dp=1
+
+
+GET /Telerik.Web.UI.DialogHandler.aspx?dp=1 HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=bDZjdS8vSys2ZGcrYkVTcVNVejV6dDlmR0pNS0l5UkNFZlpiV3psUXlidDJ0SGdPVVBnQVl2YnFPNkFBMXJ4Rm5vUUdTZzFWb3lZSnZ4TGFEZ216dDdEdW5EQno5MkprZnk5U3hCRUVpNjZvSXNYbFFLWkM2UnRvSU9JVUhsd3ZWakVmNzFXQWZrRnprLzlUaEJURk04b0dxWS9WMHo5Q0Y2TkRIK3I3U1BqbnJDSWhUd0FtcERIZ0E0ZTcwL09RM2lOY0VRYWJXR3NZUHM4akozMFpjcTdEWWh5R0FENm5uOTczNSsvY1o1ND0tLVBBMGU0NFRaYll4R2M2NU4wWmYweFE9PQ%3D%3D--57a8d0503f1f32f37de990c801c5a01727a7e3b2
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[telerik-dialoghandler-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/Telerik.Web.UI.DialogHandler.aspx?dp=1
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: e9970cc9-a15c-47ff-9750-4494153d8f97
+Atl-Traceid: e9970cc9a15c47ff97504494153d8f97
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=68,atl-edge-internal;dur=4,atl-edge-upstream;dur=65,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 c242c974a465288488c7876cabca7752.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 1hZONWj3idO1HLfF-8RsiKJqQzw-zUHyNYrAzF8h6BsOMaDj3pv8gA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 709100278
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[telerik-dialoghandler-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/desktopmodules/dnnwerk.radeditorprovider/dialoghandler.aspx?dp=1
+
+
+GET /desktopmodules/dnnwerk.radeditorprovider/dialoghandler.aspx?dp=1 HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/120.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=bDZjdS8vSys2ZGcrYkVTcVNVejV6dDlmR0pNS0l5UkNFZlpiV3psUXlidDJ0SGdPVVBnQVl2YnFPNkFBMXJ4Rm5vUUdTZzFWb3lZSnZ4TGFEZ216dDdEdW5EQno5MkprZnk5U3hCRUVpNjZvSXNYbFFLWkM2UnRvSU9JVUhsd3ZWakVmNzFXQWZrRnprLzlUaEJURk04b0dxWS9WMHo5Q0Y2TkRIK3I3U1BqbnJDSWhUd0FtcERIZ0E0ZTcwL09RM2lOY0VRYWJXR3NZUHM4akozMFpjcTdEWWh5R0FENm5uOTczNSsvY1o1ND0tLVBBMGU0NFRaYll4R2M2NU4wWmYweFE9PQ%3D%3D--57a8d0503f1f32f37de990c801c5a01727a7e3b2
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[telerik-dialoghandler-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/desktopmodules/dnnwerk.radeditorprovider/dialoghandler.aspx?dp=1
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 55ce4fb7-ef08-4de2-a642-313cc87d9454
+Atl-Traceid: 55ce4fb7ef084de2a642313cc87d9454
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=3,atl-edge-upstream;dur=62,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 649b4de6ebe50fb3c542f3d95c8ed8ba.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: c5ez4QmkCAf1kdR9-CNmVQRqNGFhzfzaermckaoHe3ZDhLIw1Pc9qw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 155849272
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[telerik-dialoghandler-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/desktopmodules/telerikwebui/radeditorprovider/telerik.web.ui.dialoghandler.aspx?dp=1
+
+
+GET /desktopmodules/telerikwebui/radeditorprovider/telerik.web.ui.dialoghandler.aspx?dp=1 HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=bDZjdS8vSys2ZGcrYkVTcVNVejV6dDlmR0pNS0l5UkNFZlpiV3psUXlidDJ0SGdPVVBnQVl2YnFPNkFBMXJ4Rm5vUUdTZzFWb3lZSnZ4TGFEZ216dDdEdW5EQno5MkprZnk5U3hCRUVpNjZvSXNYbFFLWkM2UnRvSU9JVUhsd3ZWakVmNzFXQWZrRnprLzlUaEJURk04b0dxWS9WMHo5Q0Y2TkRIK3I3U1BqbnJDSWhUd0FtcERIZ0E0ZTcwL09RM2lOY0VRYWJXR3NZUHM4akozMFpjcTdEWWh5R0FENm5uOTczNSsvY1o1ND0tLVBBMGU0NFRaYll4R2M2NU4wWmYweFE9PQ%3D%3D--57a8d0503f1f32f37de990c801c5a01727a7e3b2
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[telerik-dialoghandler-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/desktopmodules/telerikwebui/radeditorprovider/telerik.web.ui.dialoghandler.aspx?dp=1
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 4aa868e2-78c7-4793-8ede-2010dd3d45fc
+Atl-Traceid: 4aa868e278c747938ede2010dd3d45fc
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=2,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 6c2e384f59feb64a0c739aee7f890066.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: gYfkLiRqAg2_zfFytuxFbrnJ-YIWNBCzyPsY4v3igxfYDMHd9cHsRA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 156730446
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[telerik-dialoghandler-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/DesktopModules/Admin/RadEditorProvider/DialogHandler.aspx?dp=1
+
+
+GET /DesktopModules/Admin/RadEditorProvider/DialogHandler.aspx?dp=1 HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:123.0) Gecko/20100101 Firefox/123.0
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=bDZjdS8vSys2ZGcrYkVTcVNVejV6dDlmR0pNS0l5UkNFZlpiV3psUXlidDJ0SGdPVVBnQVl2YnFPNkFBMXJ4Rm5vUUdTZzFWb3lZSnZ4TGFEZ216dDdEdW5EQno5MkprZnk5U3hCRUVpNjZvSXNYbFFLWkM2UnRvSU9JVUhsd3ZWakVmNzFXQWZrRnprLzlUaEJURk04b0dxWS9WMHo5Q0Y2TkRIK3I3U1BqbnJDSWhUd0FtcERIZ0E0ZTcwL09RM2lOY0VRYWJXR3NZUHM4akozMFpjcTdEWWh5R0FENm5uOTczNSsvY1o1ND0tLVBBMGU0NFRaYll4R2M2NU4wWmYweFE9PQ%3D%3D--57a8d0503f1f32f37de990c801c5a01727a7e3b2
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[telerik-dialoghandler-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/DesktopModules/Admin/RadEditorProvider/DialogHandler.aspx?dp=1
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 68265def-d130-4e20-8f83-895c3c470018
+Atl-Traceid: 68265defd1304e208f83895c3c470018
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=4,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 427271f19372c1be0d143a1d4c76a128.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: yWGUVKlXzuFLiykPEZkMZBA6EJ5boG58vRLGLsOqVWqpS5xqMbhjzQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 750961833
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

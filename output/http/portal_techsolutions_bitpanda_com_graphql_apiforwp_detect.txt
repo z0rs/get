@@ -1,0 +1,60 @@
+[graphql-apiforwp-detect] Dumped HTTP request for https://portal.techsolutions.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: portal.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/104.0 Safari/537.36
+Connection: close
+Content-Length: 38
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query aa#aa { __typename }"}
+[graphql-apiforwp-detect] Dumped HTTP request for https://portal.techsolutions.bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: portal.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 38
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query aa#aa { __typename }"}
+[graphql-apiforwp-detect] Dumped HTTP request for https://portal.techsolutions.bitpanda.com/query
+
+
+POST /query HTTP/1.1
+Host: portal.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 38
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query aa#aa { __typename }"}
+[graphql-apiforwp-detect] Dumped HTTP request for https://portal.techsolutions.bitpanda.com/
+
+
+POST / HTTP/1.1
+Host: portal.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.75 Safari/537.36
+Connection: close
+Content-Length: 38
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query aa#aa { __typename }"}

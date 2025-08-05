@@ -1,0 +1,38 @@
+[burp-rest-api-detect] Dumped HTTP request for http://affiliates.bitpanda.com/v0.1/
+
+
+GET /v0.1/ HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=mqStalEVJBOak4lHvtL04WncB6t9gzbzozLGioG2Sps-1754398181923-0.0.1.1-604800000; _cfuvid=1cgJIkGq7O8sBl2_thKCt7DFuPhujFMfAAuNtxS6pGY-1754398197810-0.0.1.1-604800000; _cfuvid=24H2eY81TZGpiRFHgFPu1T1k9iZHqX8ORrhNxBpeCsI-1754398211277-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[burp-rest-api-detect] Dumped HTTP response http://affiliates.bitpanda.com/v0.1/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66b4438a6393e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:13 GMT
+Expires: Tue, 05 Aug 2025 13:50:13 GMT
+Location: https://affiliates.bitpanda.com/v0.1/
+Server: cloudflare
+Set-Cookie: _cfuvid=rZ_.8L6.TY6AjBSKFNbuAmnrkJSfQqVEGgRvZrKw40Y-1754398213846-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

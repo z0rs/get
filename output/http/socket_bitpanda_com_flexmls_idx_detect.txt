@@ -1,0 +1,37 @@
+[flexmls-idx-detect] Dumped HTTP request for https://socket.bitpanda.com/wp-content/plugins/flexmls-idx/readme.txt
+
+
+GET /wp-content/plugins/flexmls-idx/readme.txt HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=sWqT+og/pmps1JHYQzFPKnxjjU3ajv+RgYYJCmPPQC71ZAEgXWBlr4d62UewPzOj2igiYuGoC7UJ55eE7MUr6aIyAG3Sl1KqoeRlxWDh7rnjr197zPGDTciQwMtQ; AWSALBCORS=sWqT+og/pmps1JHYQzFPKnxjjU3ajv+RgYYJCmPPQC71ZAEgXWBlr4d62UewPzOj2igiYuGoC7UJ55eE7MUr6aIyAG3Sl1KqoeRlxWDh7rnjr197zPGDTciQwMtQ
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[flexmls-idx-detect] Dumped HTTP response https://socket.bitpanda.com/wp-content/plugins/flexmls-idx/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:43 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=Wi5Xpje6+lAlWw0NoFlkwI+HicjJkNyCmAs3cRzEs70ytrus44R852NKmO7l700XdJiMTMquSOrcyJwKqOOW+48VT00z05Oxjoi9UaRW/LDgmJsc3PApHmbsXqrB; Expires=Tue, 12 Aug 2025 12:52:43 GMT; Path=/
+Set-Cookie: AWSALBCORS=Wi5Xpje6+lAlWw0NoFlkwI+HicjJkNyCmAs3cRzEs70ytrus44R852NKmO7l700XdJiMTMquSOrcyJwKqOOW+48VT00z05Oxjoi9UaRW/LDgmJsc3PApHmbsXqrB; Expires=Tue, 12 Aug 2025 12:52:43 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 8f37d2a62fbfeba0212cd5ced67c0c16.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Hem7EoFnsiLEXgfvkN69fqRK4dePTz095CyeSB33I7jCtiHDd0IAog==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 0
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

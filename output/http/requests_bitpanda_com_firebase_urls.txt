@@ -1,0 +1,43 @@
+[firebase-urls] Dumped HTTP request for http://requests.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[firebase-urls] Dumped HTTP response http://requests.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 11
+Cache-Control: no-cache
+Content-Security-Policy: default-src 'self' https:; connect-src 'self' https:; font-src 'self' https: data:; img-src 'self' https: data:; object-src 'none'; script-src 'self' https: asset.mojohelpdesk.com app.mojohelpdesk.com *.googleapis.com www.googletagmanager.com *.facebook.net www.google-analytics.com 'unsafe-inline' 'unsafe-eval' *.doubleclick.net code.jquery.com *.smartsuppchat.com *.smartlook.com *.smartsuppcdn.com *.recaptcha.net *.gstatic.com *.gstatic.cn; style-src 'self' https: 'unsafe-inline'
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:08 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Vary: Accept
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: e17665a6-dad7-4b80-a6a5-14fb756ca2e4
+X-Runtime: 0.003022
+X-Ua-Compatible: IE=edge,chrome=1
+X-Xss-Protection: 0
+
+Blocked IP.
+[firebase-urls] Dumped HTTP response http://requests.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:07 GMT
+Location: https://requests.bitpanda.com/
+
+

@@ -1,0 +1,29 @@
+[cisco-expressway-panel] Dumped HTTP request for https://api-segment.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=_mRFlxWVypBQPrufgfBtqRXvp13Mr4kxmMyT61wjgFw-1754398135130-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cisco-expressway-panel] Dumped HTTP response https://api-segment.bitpanda.com/login
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6695ccf2d5001-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:48:55 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=UqOtNImczcAeyU8VBO0vmhCv7pJbaDnJ8qBipnHkY8Q-1754398135904-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

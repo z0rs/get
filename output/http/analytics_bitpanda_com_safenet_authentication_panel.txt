@@ -1,0 +1,29 @@
+[safenet-authentication-panel] Dumped HTTP request for https://analytics.bitpanda.com/selfenrollment/Enrollment.aspx
+
+
+GET /selfenrollment/Enrollment.aspx HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Y0RXbghsDPiwpKL4KJyBV.rT_9ugyBKXh0thfKZtw1U-1754398161931-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[safenet-authentication-panel] Dumped HTTP response https://analytics.bitpanda.com/selfenrollment/Enrollment.aspx
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Content-Length: 19
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a05986b2d22-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:22 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=vJx7kWBLaBd0UJZpmRA1nnPGXZPR0bqAfnE2GoNkgLk-1754398162944-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+
+no healthy upstream

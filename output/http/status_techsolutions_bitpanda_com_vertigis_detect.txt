@@ -1,0 +1,334 @@
+[vertigis-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/536.26.17 (KHTML, like Gecko) Version/6.0.2 Safari/536.26.17
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=VllZUGVpKzU3eWcwaURtS0gycE5MWTQ0a1grZC9HRkJ2MGJqN1RKbTZkZWxxazRvU0RMeWtsc2s4MzQyaThwVk13UUZzS0VnUUpKRnozUm5NMm9sR1U2NGJHUlAyZ1c4RktuczBwcDlHeVE5bTZ6ZFoyL1hkMGVvTEZVbVBrbzdGZVROa2g3c3hYV1AxTXFQdDN2L2hMV1laQ2E0cTJpTC9OSFZyOVNRZVBsVHdrN0s0K2tTeGI3RFlQZDFxQnlFTUxyclp5YmhDM0RKd2huNzdmMFhvVURUYWlYbm9RUHg3WVdQMFdZNWNwRT0tLW1qYzZKVVUrY1Z4QTVZdkxwWWh3NWc9PQ%3D%3D--2168904fc82f1b48896f78f180497b0a3e3f95fd
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/login
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Atl-Request-Id: e34ed28f-44d7-4242-a13d-eb8c596db8a1
+Atl-Traceid: e34ed28f44d74242a13deb8c596db8a1
+Cache-Control: no-cache
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:38 GMT
+Location: https://status.techsolutions.bitpanda.com
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=115,atl-edge-internal;dur=3,atl-edge-upstream;dur=113,atl-edge-pop;desc="aws-us-east-1"
+Set-Cookie: _spsess=SEllNCtjbmVHMEh3ZkRqMTZhK2o1VEdqMjkzT21RSUwvRGMzQnRWQlFUYlQ3anA3WERZRGJPSndwTHI3Qm1XYUpLUVZxZnl3UGxrWjNYbkxvQ3Y5VGdhT2hjZW1wRk1OSWxnMlJFU0dHZFVJTGhicWxDWEZ2akNoRUE3aG5GTENXZzRnMllrZ0RQaHpPWWJGNk5jNUxuUnBzWUk5bXhabWRRL0tvU0hGQVE0a3hWRnhKTG8xWHViUk9SRFc4R3BVVE5Md0I1cDRnNnBMZkc5Q2JUeVFmRkJFeHpCNXF0RmFIcFp6VzhIL1FpMD0tLVI1cDg5YzlZZjdRYXJSRTVySlV6Z1E9PQ%3D%3D--b0bf19b83db1e26bf8468707b0446d7242355060; path=/; expires=Fri, 08 Aug 2025 12:52:38 GMT; secure; HttpOnly; SameSite=Lax
+Strict-Transport-Security: max-age=259200
+Vary: Accept,Accept-Encoding
+Via: 1.1 c37f72766931ae9c3f146ffa54018d1c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Fjb4ROOgD6IChpr9DUIImejfoxQR6C5qEadH1aFKUkEE5UmAOx5sEw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Runtime: 0.037943
+X-Statuspage-Version: 286d2fa8936ee868c90b9a354eeabf8b3176da68
+X-Xss-Protection: 1; mode=block
+
+<html><body>You are being <a href="https://status.techsolutions.bitpanda.com">redirected</a>.</body></html>
+[vertigis-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/GeoManLogin.aspx
+
+
+GET /GeoManLogin.aspx HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 13_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=enZNa3MzVG16RnBwSllqN0tIT09KTkdaWlp1RG1Tbk5OUUtjQWpMWHlUS2FvemZFSWFQbHVEd1JuUlNYWlAwV3p3L3ZJc2tOMkN6eWQwS3hsc1VyVE1MTitGK3BHenBWQzNnMUlmSTlZTWxzWTRhcXcyM1VMU09aNCtoTVZjUFRrR3Z5ZUtuOVlja3lwQ01VdEhlWm4vL3p2SnJXY0htRkl1eWpUaVdKS3FMdHA1TGFQSUZURUFzQ1ZmOW9DYVJVWG40d2NJV2U1aFJZdllRVzZObDFYZnlYemxSR29XMEJCRWVrQVJYa1dLYz0tLWtydTZYNzNyZS9kRytPUmx5N0R0UVE9PQ%3D%3D--b26cf7f4764145fde0c97c25f3f98b721225ceec
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/GeoManLogin.aspx
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 7d7c3681-d9ff-492b-87a2-d174dc1c884b
+Atl-Traceid: 7d7c3681d9ff492b87a2d174dc1c884b
+Date: Tue, 05 Aug 2025 12:52:41 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=3,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 8ba3a4becb51f8eb807e5e3697846e1a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: j028viKLtM9bSq4S3pvZ9zxAD0NxaDpAVFz4XiGn82-fZ4cmGqSh3Q==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 154124092
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[vertigis-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/FM/GeoManLogin.aspx
+
+
+GET /FM/GeoManLogin.aspx HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=enZNa3MzVG16RnBwSllqN0tIT09KTkdaWlp1RG1Tbk5OUUtjQWpMWHlUS2FvemZFSWFQbHVEd1JuUlNYWlAwV3p3L3ZJc2tOMkN6eWQwS3hsc1VyVE1MTitGK3BHenBWQzNnMUlmSTlZTWxzWTRhcXcyM1VMU09aNCtoTVZjUFRrR3Z5ZUtuOVlja3lwQ01VdEhlWm4vL3p2SnJXY0htRkl1eWpUaVdKS3FMdHA1TGFQSUZURUFzQ1ZmOW9DYVJVWG40d2NJV2U1aFJZdllRVzZObDFYZnlYemxSR29XMEJCRWVrQVJYa1dLYz0tLWtydTZYNzNyZS9kRytPUmx5N0R0UVE9PQ%3D%3D--b26cf7f4764145fde0c97c25f3f98b721225ceec
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/FM/GeoManLogin.aspx
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 4d31e376-7e7e-42a5-8e55-ca5d03676d0c
+Atl-Traceid: 4d31e3767e7e42a58e55ca5d03676d0c
+Date: Tue, 05 Aug 2025 12:52:43 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=67,atl-edge-internal;dur=4,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 6d4ee90b03b8194eed74421e603ee2a8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: rc_m_sH9ujyYMxGzsRF-5iOqIZ8An8-gaN92SwNmh6MyNgdmK2XNeg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 61678916
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[vertigis-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/GEBman/GeoManLogin.aspx
+
+
+GET /GEBman/GeoManLogin.aspx HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=enZNa3MzVG16RnBwSllqN0tIT09KTkdaWlp1RG1Tbk5OUUtjQWpMWHlUS2FvemZFSWFQbHVEd1JuUlNYWlAwV3p3L3ZJc2tOMkN6eWQwS3hsc1VyVE1MTitGK3BHenBWQzNnMUlmSTlZTWxzWTRhcXcyM1VMU09aNCtoTVZjUFRrR3Z5ZUtuOVlja3lwQ01VdEhlWm4vL3p2SnJXY0htRkl1eWpUaVdKS3FMdHA1TGFQSUZURUFzQ1ZmOW9DYVJVWG40d2NJV2U1aFJZdllRVzZObDFYZnlYemxSR29XMEJCRWVrQVJYa1dLYz0tLWtydTZYNzNyZS9kRytPUmx5N0R0UVE9PQ%3D%3D--b26cf7f4764145fde0c97c25f3f98b721225ceec
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/GEBman/GeoManLogin.aspx
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 7cb393a1-7655-4f21-9932-3cae74513706
+Atl-Traceid: 7cb393a176554f2199323cae74513706
+Date: Tue, 05 Aug 2025 12:52:45 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=4,atl-edge-upstream;dur=61,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 b051e9c33308597b659c33b8999b521c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 3-7jGG677iL-WuSMR1KkB37MMZse_spGST2RKsGaw_ohrIsa55Hq3Q==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 121076173
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[vertigis-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/Geoportal/synserver
+
+
+GET /Geoportal/synserver HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=NFBLK0FQUWdFeGJPNC93S0NZckhoR2dYYlYwZVNHand0b1Y2N0tOVGlBTEJ4Q3cxMU1tdjZmYlNOTDkxVzdQLzQ0N2JOM2VJcDhhcHhkMzVNdEkxQ2dpTmdMWmtrdE1Wb3hxcW16QnJqcmVIL3ZKdTZkY3hSWU10d3JNZHhNMzNFcEo0eFU4c3E4cGxYVG42aG05YW56RXNQYWo0TEgxeU51Mms0SHY2QWdhSHhLVmFQbk9pWUltbXFjK0tKbnp3dzBUYit5bGpVL0JUOC9rR0pScnptRjVCODNodzlyc25RMjBKbmpJUHl5ND0tLXhDcnZoZHBsNzVqMmJoWTJHNUVWVkE9PQ%3D%3D--1ac98742ef7b67672914caa20c3b5898f8108e92
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/Geoportal/synserver
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 14c1b55a-de0f-4446-b131-e06bde9efe2d
+Atl-Traceid: 14c1b55ade0f4446b131e06bde9efe2d
+Date: Tue, 05 Aug 2025 12:52:47 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=3,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 5beb4c3232a40c8c6a3e48c902092760.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 0KfAv6W3yUDNjpNL8A57a-9kZOM9yBYZwLOUYEa3eXWFu26gxS7vKQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 155493463
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[vertigis-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/vertigisstudio/web/designer/locales/en/translations.json
+
+
+GET /vertigisstudio/web/designer/locales/en/translations.json HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=NFBLK0FQUWdFeGJPNC93S0NZckhoR2dYYlYwZVNHand0b1Y2N0tOVGlBTEJ4Q3cxMU1tdjZmYlNOTDkxVzdQLzQ0N2JOM2VJcDhhcHhkMzVNdEkxQ2dpTmdMWmtrdE1Wb3hxcW16QnJqcmVIL3ZKdTZkY3hSWU10d3JNZHhNMzNFcEo0eFU4c3E4cGxYVG42aG05YW56RXNQYWo0TEgxeU51Mms0SHY2QWdhSHhLVmFQbk9pWUltbXFjK0tKbnp3dzBUYit5bGpVL0JUOC9rR0pScnptRjVCODNodzlyc25RMjBKbmpJUHl5ND0tLXhDcnZoZHBsNzVqMmJoWTJHNUVWVkE9PQ%3D%3D--1ac98742ef7b67672914caa20c3b5898f8108e92
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/vertigisstudio/web/designer/locales/en/translations.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: e9eb2e2d-271f-424a-9a59-43cb4c397eef
+Atl-Traceid: e9eb2e2d271f424a9a5943cb4c397eef
+Date: Tue, 05 Aug 2025 12:52:49 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=4,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 9acd372742573b89975d7dceea2dc950.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: DZCt2-lP3Q7EbDJvbb_sSnJyjWLWkcM3XFF4fFBEiMm3m7gnIBp_ng==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 171551105
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[vertigis-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/vertigisstudio/search/designer/locales/en/translations.json
+
+
+GET /vertigisstudio/search/designer/locales/en/translations.json HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh, Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=NFBLK0FQUWdFeGJPNC93S0NZckhoR2dYYlYwZVNHand0b1Y2N0tOVGlBTEJ4Q3cxMU1tdjZmYlNOTDkxVzdQLzQ0N2JOM2VJcDhhcHhkMzVNdEkxQ2dpTmdMWmtrdE1Wb3hxcW16QnJqcmVIL3ZKdTZkY3hSWU10d3JNZHhNMzNFcEo0eFU4c3E4cGxYVG42aG05YW56RXNQYWo0TEgxeU51Mms0SHY2QWdhSHhLVmFQbk9pWUltbXFjK0tKbnp3dzBUYit5bGpVL0JUOC9rR0pScnptRjVCODNodzlyc25RMjBKbmpJUHl5ND0tLXhDcnZoZHBsNzVqMmJoWTJHNUVWVkE9PQ%3D%3D--1ac98742ef7b67672914caa20c3b5898f8108e92
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/vertigisstudio/search/designer/locales/en/translations.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: f33a396d-8701-4ed0-97dc-20a4fea71a54
+Atl-Traceid: f33a396d87014ed097dc20a4fea71a54
+Date: Tue, 05 Aug 2025 12:52:50 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=3,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 8ba3a4becb51f8eb807e5e3697846e1a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: _IaE6YAkEFC4t_ejjz1K1fljrowHM_n4wOXB50Vc6lDXtGqniS69eA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 713777335
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[vertigis-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/vertigisstudio/mobile/designer/locales/en/translations.json
+
+
+GET /vertigisstudio/mobile/designer/locales/en/translations.json HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6.1 Mobile/15E148 Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=NFBLK0FQUWdFeGJPNC93S0NZckhoR2dYYlYwZVNHand0b1Y2N0tOVGlBTEJ4Q3cxMU1tdjZmYlNOTDkxVzdQLzQ0N2JOM2VJcDhhcHhkMzVNdEkxQ2dpTmdMWmtrdE1Wb3hxcW16QnJqcmVIL3ZKdTZkY3hSWU10d3JNZHhNMzNFcEo0eFU4c3E4cGxYVG42aG05YW56RXNQYWo0TEgxeU51Mms0SHY2QWdhSHhLVmFQbk9pWUltbXFjK0tKbnp3dzBUYit5bGpVL0JUOC9rR0pScnptRjVCODNodzlyc25RMjBKbmpJUHl5ND0tLXhDcnZoZHBsNzVqMmJoWTJHNUVWVkE9PQ%3D%3D--1ac98742ef7b67672914caa20c3b5898f8108e92
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/vertigisstudio/mobile/designer/locales/en/translations.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: beeb3cea-a989-48a1-a35d-14b216117d8c
+Atl-Traceid: beeb3ceaa98948a1a35d14b216117d8c
+Date: Tue, 05 Aug 2025 12:52:51 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=67,atl-edge-internal;dur=3,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 ae3759c8dc48487a424a60bd577ad554.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: ypSi5uMptn355_R3pHjcYLZFoaJ6tvtYATKo_prZwEmtqOEYJOLDgw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 101896447
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[vertigis-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/vertigisstudio/accesscontrol/locales/en/translations.json
+
+
+GET /vertigisstudio/accesscontrol/locales/en/translations.json HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=NFBLK0FQUWdFeGJPNC93S0NZckhoR2dYYlYwZVNHand0b1Y2N0tOVGlBTEJ4Q3cxMU1tdjZmYlNOTDkxVzdQLzQ0N2JOM2VJcDhhcHhkMzVNdEkxQ2dpTmdMWmtrdE1Wb3hxcW16QnJqcmVIL3ZKdTZkY3hSWU10d3JNZHhNMzNFcEo0eFU4c3E4cGxYVG42aG05YW56RXNQYWo0TEgxeU51Mms0SHY2QWdhSHhLVmFQbk9pWUltbXFjK0tKbnp3dzBUYit5bGpVL0JUOC9rR0pScnptRjVCODNodzlyc25RMjBKbmpJUHl5ND0tLXhDcnZoZHBsNzVqMmJoWTJHNUVWVkE9PQ%3D%3D--1ac98742ef7b67672914caa20c3b5898f8108e92
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/vertigisstudio/accesscontrol/locales/en/translations.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 0206e620-ae53-45fe-bfb1-c5ff4f43e301
+Atl-Traceid: 0206e620ae5345febfb1c5ff4f43e301
+Date: Tue, 05 Aug 2025 12:52:52 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=67,atl-edge-internal;dur=4,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 c8c9787916110356915bbdbddd0a32d6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 7ackHz_Jgy--NdWV5igV6CAAd-FwcfAdYLzUcvKa4hlKEa2VACJP9g==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 110734041
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

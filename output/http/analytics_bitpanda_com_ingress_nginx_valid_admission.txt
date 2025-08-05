@@ -1,0 +1,42 @@
+[ingress-nginx-valid-admission] Dumped HTTP request for https://analytics.bitpanda.com/validate
+
+
+POST /validate HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+Content-Length: 555
+Content-Type: application/json
+Cookie: _cfuvid=__SePyCJKQK9mUbTUczoshXOs6tMI_tVIJKeUL7uWOk-1754398169347-0.0.1.1-604800000; _cfuvid=JOVvY4CCUgo03V9_fgugtF3qH1ea6ub4kq_qLc8Evew-1754398185054-0.0.1.1-604800000; _cfuvid=Gs43.MyaOVYgQiHjjFQxX7ZKw5X6j8EcjXC_KvZqKpo-1754398196130-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{
+  "kind": "AdmissionReview",
+  "apiVersion": "admission.k8s.io/v1",
+  "request": {
+    "uid": "wiybh",
+    "kind": {
+      "group": "networking.k8s.io",
+      "version": "v1",
+      "kind": "Ingress"
+    },
+    "operation": "CREATE",
+    "object": {
+      "metadata": {
+        "name": "test-wiybh",
+        "namespace": "default"
+      },
+      "spec": {
+        "rules": [
+          {
+            "host": "example.com",
+            "http": {
+              "paths": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

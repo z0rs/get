@@ -1,0 +1,26 @@
+[oauth2-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/oauth/token
+
+
+POST /oauth/token HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50
+Connection: close
+Content-Length: 117
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+grant_type=authorization_code&client_id=xxx&redirect_uri=https%3A%2F%2Fprojectdiscovery.io&code=xxx&client_secret=xxx
+[oauth2-detect] Dumped HTTP response https://techsolutions.bitpanda.com/oauth/token
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 11
+Date: Tue, 05 Aug 2025 12:52:43 GMT
+Via: 1.1 5087d38c8ed37f537ec0c78e2aeecec8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: u9hhYiEke5B1Qh3zc6RyMaenejgpwC4_9qYSEYdnSMX0WNbDreLhfA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Bad Request

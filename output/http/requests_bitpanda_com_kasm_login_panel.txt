@@ -1,0 +1,44 @@
+[kasm-login-panel] Dumped HTTP request for http://requests.bitpanda.com/#/login
+
+
+GET / HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[kasm-login-panel] Dumped HTTP response http://requests.bitpanda.com/#/login
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:00 GMT
+Location: https://requests.bitpanda.com/
+
+Moved Permanently
+[kasm-login-panel] Dumped HTTP request for http://requests.bitpanda.com/api/login_settings
+
+
+POST /api/login_settings HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Connection: close
+Content-Length: 30
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"token":null,"username":null}
+[kasm-login-panel] Dumped HTTP response http://requests.bitpanda.com/api/login_settings
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 18
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:02 GMT
+Location: https://requests.bitpanda.com/api/login_settings
+
+Permanent Redirect

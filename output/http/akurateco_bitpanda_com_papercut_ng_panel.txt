@@ -1,0 +1,40 @@
+[papercut-ng-panel] Dumped HTTP request for http://akurateco.bitpanda.com/user
+
+
+GET /user HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.3 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[papercut-ng-panel] Dumped HTTP response http://akurateco.bitpanda.com/user
+
+HTTP/1.1 503 Service Temporarily Unavailable
+Connection: close
+Content-Length: 190
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:17 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+<html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body>
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+[papercut-ng-panel] Dumped HTTP response http://akurateco.bitpanda.com/user
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:16 GMT
+Location: https://akurateco.bitpanda.com/user
+
+

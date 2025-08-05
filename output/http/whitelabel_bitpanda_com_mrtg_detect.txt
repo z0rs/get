@@ -1,0 +1,39 @@
+[mrtg-detect] Dumped HTTP request for https://whitelabel.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/109.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[mrtg-detect] Dumped HTTP request for https://whitelabel.bitpanda.com/mrtg/
+
+
+GET /mrtg/ HTTP/1.1
+Host: whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14816.131.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[mrtg-detect] Dumped HTTP request for https://whitelabel.bitpanda.com/MRTG/
+
+
+GET /MRTG/ HTTP/1.1
+Host: whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686; rv:133.0) Gecko/20100101 Firefox/133.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

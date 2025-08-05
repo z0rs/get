@@ -1,0 +1,90 @@
+[tixeo-panel] Dumped HTTP request for http://akurateco.bitpanda.com/meet/services/json/v1/settings
+
+
+GET /meet/services/json/v1/settings HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686; rv:123.0) Gecko/20100101 Firefox/123.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[tixeo-panel] Dumped HTTP response http://akurateco.bitpanda.com/meet/services/json/v1/settings
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:22 GMT
+Location: https://akurateco.bitpanda.com/meet/services/json/v1/settings
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+[tixeo-panel] Dumped HTTP request for http://akurateco.bitpanda.com/meet/login.html
+
+
+GET /meet/login.html HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[tixeo-panel] Dumped HTTP response http://akurateco.bitpanda.com/meet/login.html
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:27 GMT
+Location: https://akurateco.bitpanda.com/meet/login.html
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+[tixeo-panel] Dumped HTTP request for http://akurateco.bitpanda.com/meet/
+
+
+GET /meet/ HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[tixeo-panel] Dumped HTTP response http://akurateco.bitpanda.com/meet/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:33 GMT
+Location: https://akurateco.bitpanda.com/meet
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

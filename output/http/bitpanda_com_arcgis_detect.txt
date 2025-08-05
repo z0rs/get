@@ -1,0 +1,145 @@
+[arcgis-detect] Dumped HTTP request for https://bitpanda.com/portal/sharing/rest
+
+
+GET /portal/sharing/rest HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=HlaBkxj1SWEmyelK9h0dxeItt2vEAl9B8_FFeP3bnx8-1754398189841-0.0.1.1-604800000; _cfuvid=qchNMBSugz2.6LUwJPHzAql9.bXBjECRq4Y8evtM7o4-1754398208224-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[arcgis-detect] Dumped HTTP response https://bitpanda.com/portal/sharing/rest
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66b250b2f8286-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:08 GMT
+Expires: Tue, 05 Aug 2025 13:50:08 GMT
+Location: https://www.bitpanda.com/portal/sharing/rest
+Server: cloudflare
+Set-Cookie: _cfuvid=VLfAePZzZccF5yQ_OxgEbb8qUL1P8ObsKGyHc7RLH4Y-1754398208829-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[arcgis-detect] Dumped HTTP request for https://bitpanda.com/portal/portalhelp/en/rest/
+
+
+GET /portal/portalhelp/en/rest/ HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=A46N4hw.UFOvWlzKdf1T1aKBesMjHVJU3EQOcWup00g-1754398212333-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[arcgis-detect] Dumped HTTP request for https://bitpanda.com/arcgis/rest/services
+
+
+GET /arcgis/rest/services HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=cblKs1MwEvjx75YlxN3n171WZm0xi4pv.vuM5AMohdk-1754398227601-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[arcgis-detect] Dumped HTTP request for https://bitpanda.com/server/rest/services
+
+
+GET /server/rest/services HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=FNUrsNdyRv0Tzv9Zk3o64hmw3XaRqVgBmeYvwezlyKE-1754398241932-0.0.1.1-604800000; _cfuvid=j_E5wR830nUSeXJIojiuLzbUQeTpi6VH0EsQ9HiWTos-1754398257856-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[arcgis-detect] Dumped HTTP response https://bitpanda.com/server/rest/services
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66c9a6ed30aa1-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:51:08 GMT
+Expires: Tue, 05 Aug 2025 13:51:08 GMT
+Location: https://www.bitpanda.com/server/rest/services
+Server: cloudflare
+Set-Cookie: _cfuvid=Dp_KCebrwz8D4rql6P4S8DHNiFCMVGxqU4GQPNv7OGU-1754398268580-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[arcgis-detect] Dumped HTTP request for https://bitpanda.com/arcgis/
+
+
+GET /arcgis/ HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/601.6.17 (KHTML, like Gecko) Version/9.1.1 Safari/601.6.17
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=WC5_7BaQU3ppOWpbK3ZK3lGeixSc3R7eLnB2LNwCzIQ-1754398271726-0.0.1.1-604800000; _cfuvid=X0iRjMcGYkhayrTNTGSLluD6oeF7c_6.eNXOJWrBacw-1754398286835-0.0.1.1-604800000; _cfuvid=JGeeojhF0yQzctDMINKGmGEUxsaLFpdyBdZg736YgIQ-1754398300825-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[arcgis-detect] Dumped HTTP response https://bitpanda.com/arcgis/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66d7078540739-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:51:42 GMT
+Expires: Tue, 05 Aug 2025 13:51:42 GMT
+Location: https://www.bitpanda.com/arcgis/
+Server: cloudflare
+Set-Cookie: _cfuvid=JjwW6e8uCuE3vUd8pRP9IhQUt6CCfMid1h9pmSnQot4-1754398302817-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

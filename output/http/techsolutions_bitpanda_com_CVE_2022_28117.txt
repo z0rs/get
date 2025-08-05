@@ -1,0 +1,28 @@
+[CVE-2022-28117] Dumped HTTP request for https://techsolutions.bitpanda.com/navigate/login.php
+
+
+GET /navigate/login.php HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2022-28117] Dumped HTTP response https://techsolutions.bitpanda.com/navigate/login.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:22 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 31467e378930bcac2417aea59659f7e6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 2eeK__WbargfmNQ7Q8mzMQ9J7I91wBeIhzD5imCUVkcRWarHezlzfA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: kFVliaoP/4P9211BonRof2WORmjnSQc8NavZKitjmvae80FiUUbTGA3mD+hZBPifZA7Vfh4dUTU=
+X-Amz-Request-Id: VE5X45FSTJMEFCZ8
+X-Cache: Error from cloudfront
+
+Not Found

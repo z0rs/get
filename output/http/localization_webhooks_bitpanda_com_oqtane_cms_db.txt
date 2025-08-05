@@ -1,0 +1,48 @@
+[oqtane-cms-db] Dumped HTTP request for http://localization.webhooks.bitpanda.com/api/database
+
+
+GET /api/database HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=5FD1c7j3B3sz.4DmlrWIrCm8qBLA1VbQm21zp8EbFlw-1754398425910-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oqtane-cms-db] Dumped HTTP response http://localization.webhooks.bitpanda.com/api/database
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a67078eb5f2090-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:53:47 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TCTGI0joEEEOA=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 9ce11f53-3243-4bfa-870d-f1035bf7a742
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[oqtane-cms-db] Dumped HTTP response http://localization.webhooks.bitpanda.com/api/database
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670720ab95831-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:45 GMT
+Expires: Tue, 05 Aug 2025 13:53:45 GMT
+Location: https://localization.webhooks.bitpanda.com/api/database
+Server: cloudflare
+Set-Cookie: _cfuvid=8ktygv6VpubHexnF0r3ZEKI9SajS_h.W8SvIav0CzHA-1754398425942-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

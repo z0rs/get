@@ -1,0 +1,50 @@
+[rdweb-panel] Dumped HTTP request for https://bts-custody.bitpanda.com/RDWeb/
+
+
+GET /RDWeb/ HTTP/1.1
+Host: bts-custody.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:130.0) Gecko/20100101 Firefox/130.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=y0nNgBuAd.BLh0kO2gNa5APTP83bM7w.Wf9pIPbB2lk-1754398156987-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[rdweb-panel] Dumped HTTP response https://bts-custody.bitpanda.com/RDWeb/
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Age: 369600
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e68c118245-IAD
+Content-Disposition: inline; filename="index.html"
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:17 GMT
+Last-Modified: Fri, 01 Aug 2025 06:09:17 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=HpMgOgoEbE8xokSAGR_eWpohzwMCYT2J57pxCsu_1GI-1754398157871-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::w4nn2-1754398157864-a965d201a7e7
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bitpanda Custody</title>
+    <script type="module" crossorigin src="/assets/index-CouF3uFo.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-B3jGpFCu.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+

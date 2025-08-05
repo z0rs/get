@@ -1,0 +1,37 @@
+[wordpress-duplicate-page] Dumped HTTP request for http://localization.webhooks.bitpanda.com/wp-content/plugins/duplicate-page/readme.txt
+
+
+GET /wp-content/plugins/duplicate-page/readme.txt HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=I0wtj0GnFOJ1BwPEbPlmQWlNCAlEKR4kDJ9NjbyRWVY-1754398475043-0.0.1.1-604800000; _cfuvid=smHQswzL.vT.5_xKu9b5L3iDF0NKkU_li1qSVUAiKes-1754398492960-0.0.1.1-604800000; _cfuvid=fiB8C7C9g0p5wZ4E7pYmrhVVCiT1owb3oiH5rYURRtg-1754398505265-0.0.1.1-604800000; _cfuvid=YV1dmttW2.YlMiD7GpLqOaq0OLOiprZGDEO0yhVi7uo-1754398523486-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-duplicate-page] Dumped HTTP response http://localization.webhooks.bitpanda.com/wp-content/plugins/duplicate-page/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a672d5bb0d5a27-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:55:23 GMT
+Expires: Tue, 05 Aug 2025 13:55:23 GMT
+Location: https://localization.webhooks.bitpanda.com/wp-content/plugins/duplicate-page/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=_Bv3GENSzNTsEwBugO2Q4WfIv4SkNh0b635ciJh0Dwg-1754398523862-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

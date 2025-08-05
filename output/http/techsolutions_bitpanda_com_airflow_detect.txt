@@ -1,0 +1,26 @@
+[airflow-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/30ruh0Bv5o3nl6lDYL9GMY14Osc
+
+
+GET /30ruh0Bv5o3nl6lDYL9GMY14Osc HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[airflow-detect] Dumped HTTP response https://techsolutions.bitpanda.com/30ruh0Bv5o3nl6lDYL9GMY14Osc
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:29 GMT
+Location: ./30ruh0Bv5o3nl6lDYL9GMY14Osc/
+Via: 1.1 05ad9135b3542476ff321f9aab1eb6ae.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: OMm2gKg--J3vJZo57C-NrhY3m-QMr2Jvq2Qc7kZP25_l-lzkZVRGgA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

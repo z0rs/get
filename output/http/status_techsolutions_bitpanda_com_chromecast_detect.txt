@@ -1,0 +1,67 @@
+[chromecast-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/setup/eureka_info
+
+
+GET /setup/eureka_info HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Cookie: _spsess=NU5HWEJiUXhZbFFSNmNzTS9BMlFJMHBNT1Y4dnBtRnFJUVRZR1QvdHIxdVJ4T1Q4OGpYcW1ta3ZyRTBJR1k0bTg2RGtXS2dEOGZiRTNnWWRvQWh5QkFlQWtFRm1sc0ZaVW90d1pLV1I5N1pYNWd6bHBWVTZXN0pZdEFkaldDNzFHUlBQSFdUTDNGYndLcTFkZi9EQWo4MHJ6WFhoR2p6TVJBUitwOGI4SEl5Uyt2Yk1WbVIycDY2d3o3a3RUbndlbFg2a3liRGg5WWJ5T1FKZExpeHNTTGQwemhXRm42cUFYamlMOVdIYy9XOD0tLW5OL3pNL3I5VWFTWTBxcTA2NzE2WVE9PQ%3D%3D--726eff3134d60bef097ce35e87dc0abb19f92afc
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[chromecast-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/setup/eureka_info
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 9f656cc7-ff7f-4612-9ca8-11a9b938eebf
+Atl-Traceid: 9f656cc7ff7f46129ca811a9b938eebf
+Date: Tue, 05 Aug 2025 12:52:26 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 427271f19372c1be0d143a1d4c76a128.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Ai81xn8tvzl6dbUMkM4p0sieUJGCWw4XmzVm1hFv88t3rVYQqQydPw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 137743809
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[chromecast-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/setup/eureka_info
+
+
+GET /setup/eureka_info HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[chromecast-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/setup/eureka_info
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: ee574e52-c9eb-4feb-a285-24aa35c9511a
+Atl-Traceid: ee574e52c9eb4feba28524aa35c9511a
+Date: Tue, 05 Aug 2025 12:53:15 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=4,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 6ec872fa8051a500a5a9ab5ec50a79ba.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 79UL4FtdCafeiQ4TsbiUYW_a-8eHJVSoy1YKmn-s25i4ecjT9lJZSw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 110820260
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

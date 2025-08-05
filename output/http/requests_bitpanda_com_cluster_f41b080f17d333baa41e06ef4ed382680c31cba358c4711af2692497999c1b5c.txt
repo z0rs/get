@@ -1,0 +1,43 @@
+[cluster-f41b080f17d333baa41e06ef4ed382680c31cba358c4711af2692497999c1b5c] Dumped HTTP request for http://requests.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-f41b080f17d333baa41e06ef4ed382680c31cba358c4711af2692497999c1b5c] Dumped HTTP response http://requests.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 11
+Cache-Control: no-cache
+Content-Security-Policy: default-src 'self' https:; connect-src 'self' https:; font-src 'self' https: data:; img-src 'self' https: data:; object-src 'none'; script-src 'self' https: asset.mojohelpdesk.com app.mojohelpdesk.com *.googleapis.com www.googletagmanager.com *.facebook.net www.google-analytics.com 'unsafe-inline' 'unsafe-eval' *.doubleclick.net code.jquery.com *.smartsuppchat.com *.smartlook.com *.smartsuppcdn.com *.recaptcha.net *.gstatic.com *.gstatic.cn; style-src 'self' https: 'unsafe-inline'
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:07 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Vary: Accept
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Request-Id: ffadecc2-b53b-46ef-9d35-32c1737caf16
+X-Runtime: 0.002948
+X-Ua-Compatible: IE=edge,chrome=1
+X-Xss-Protection: 0
+
+Blocked IP.
+[cluster-f41b080f17d333baa41e06ef4ed382680c31cba358c4711af2692497999c1b5c] Dumped HTTP response http://requests.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:06 GMT
+Location: https://requests.bitpanda.com/
+
+

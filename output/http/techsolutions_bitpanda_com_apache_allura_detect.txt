@@ -1,0 +1,26 @@
+[apache-allura-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/neighborhood
+
+
+GET /neighborhood HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-allura-detect] Dumped HTTP response https://techsolutions.bitpanda.com/neighborhood
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:29 GMT
+Location: ./neighborhood/
+Via: 1.1 453fca9bdf51d1b9cd544a035e75d92c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: euOZ95fjZj6yy3oC7FrJWMrJ2vEGrg1UzSuqs7blIRXYpkItqEzbmg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

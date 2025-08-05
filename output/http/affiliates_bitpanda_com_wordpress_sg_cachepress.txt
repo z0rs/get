@@ -1,0 +1,37 @@
+[wordpress-sg-cachepress] Dumped HTTP request for http://affiliates.bitpanda.com/wp-content/plugins/sg-cachepress/readme.txt
+
+
+GET /wp-content/plugins/sg-cachepress/readme.txt HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=KOdhEqdlBv0_p2bgDmEoYNXGiZruQJqG0MFMzzU0wE8-1754398339824-0.0.1.1-604800000; _cfuvid=F4qhsGt.fXZ95Ltl6Gk2GxRGRnK2FUXizJI.qKRFDFw-1754398351840-0.0.1.1-604800000; _cfuvid=nRQi7eNqLTbaEfmrozicf54nV2M9zg800dnOLVY__UI-1754398371825-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-sg-cachepress] Dumped HTTP response http://affiliates.bitpanda.com/wp-content/plugins/sg-cachepress/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f260f1f0580-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:52 GMT
+Expires: Tue, 05 Aug 2025 13:52:52 GMT
+Location: https://affiliates.bitpanda.com/wp-content/plugins/sg-cachepress/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=bMBN7LFDVZ1tvqqCCrftymovMvdlIj8g4_kTLWBLNc0-1754398372839-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

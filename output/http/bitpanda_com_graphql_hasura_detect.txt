@@ -1,0 +1,64 @@
+[graphql-hasura-detect] Dumped HTTP request for https://bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15
+Connection: close
+Content-Length: 22
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=d2_e0vEijQuB7Ib8xxj9aZ2yQ5vB0uahLZJg2ux2cig-1754398226594-0.0.1.1-604800000; _cfuvid=FNUrsNdyRv0Tzv9Zk3o64hmw3XaRqVgBmeYvwezlyKE-1754398241932-0.0.1.1-604800000; _cfuvid=fBjlKFzxD1PTaF4z_KjRerRPXwjZTzgfdoJkXcVlXrI-1754398256827-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query {aa}"}
+[graphql-hasura-detect] Dumped HTTP request for https://bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15
+Connection: close
+Content-Length: 22
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=3dLsGSQSZHUs4hWOvTs52wH0SezaxH1Z2byCnRQBhXM-1754398274030-0.0.1.1-604800000; _cfuvid=I9FDDLv.QGOQkTx0uxC4YulnDQz8P.Gdkgh5GI0Ns70-1754398287959-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query {aa}"}
+[graphql-hasura-detect] Dumped HTTP request for https://bitpanda.com/query
+
+
+POST /query HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15
+Connection: close
+Content-Length: 22
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=f5NQIqR0cV4mHmWB7wxzkCJBSUdkDHGhBVPCWAOD2nY-1754398305531-0.0.1.1-604800000; _cfuvid=Ykv4RhOT9gC57P7Z.RyhxnOeEUgsreHuPWGzDaIxgzA-1754398321832-0.0.1.1-604800000; _cfuvid=mZIyCsLRFpesfpq4kp6A3Za2xF.BFX8.xFugQVXg0wY-1754398335831-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query {aa}"}
+[graphql-hasura-detect] Dumped HTTP request for https://bitpanda.com/
+
+
+POST / HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/101.0 Safari/537.36
+Connection: close
+Content-Length: 22
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=fOl5khF8p13QcZAw6sjIbAYW2rgPtKOL5snhB3erVvg-1754398351830-0.0.1.1-604800000; _cfuvid=TWvzYVOpohnHixIev8OlpvIJj05Nqt3vOMbKWjSrKLw-1754398367835-0.0.1.1-604800000; _cfuvid=WfLJUY.TnBT5UU.Ox2SMs5C979iNygHNuRbbBzH_KVg-1754398381806-0.0.1.1-604800000; _cfuvid=WPxv_XD.PNuympAjUZ84mUiL3N5eeIC1OpJlwDpMYKg-1754398383831-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query {aa}"}

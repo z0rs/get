@@ -1,0 +1,23 @@
+[csrf-guard-detect] Dumped HTTP request for https://whitelabel.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.2 Safari/605.1.15
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[csrf-guard-detect] Dumped HTTP request for https://whitelabel.bitpanda.com/JavaScriptServlet
+
+
+GET /JavaScriptServlet HTTP/1.1
+Host: whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15
+Connection: close
+Referer: whitelabel.bitpanda.com
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

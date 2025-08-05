@@ -1,0 +1,36 @@
+[oqtane-cms-db] Dumped HTTP request for https://status.techsolutions.bitpanda.com/api/database
+
+
+GET /api/database HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14816.131.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=dnpobEcwQml6WnV4ZDBRek03bHFSbDk4WmN0WUNuaEhPQ2pxUVdaZG0vSk10YndlVGZtM0pGZ1llWmNGa05jWG90cjA4SVBKOUM4VS85dXhmSEVWZ0tjb2Q5T0dwOWxBOE9QTkVZOEI3bEtPaFlYb0U1Y1o4WGpnSi84c0QwZWlnWWJ1NXZsYXZWS3Flelk2ZTIrUmh3aFRBNm10L0N5QTRUaFRGYWszRFZNdytSSTl5YkVVMGxWMVYrdDJZRWdnWk4zc0xCTksyZXpYd2RjdkppWnU3cnJKS2hHSWFYeitHVjNQbnZZNkZ4Yz0tLXhqM0FSZUg4Z2V0d0JwRHFycnJMSkE9PQ%3D%3D--2227959bcb82628d0d718017dba2822bdeeca728
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oqtane-cms-db] Dumped HTTP response https://status.techsolutions.bitpanda.com/api/database
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: a2a9be45-21bf-4754-8878-0d724ef8c46e
+Atl-Traceid: a2a9be4521bf475488780d724ef8c46e
+Date: Tue, 05 Aug 2025 12:52:32 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=3,atl-edge-upstream;dur=62,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 48c70f7a0c91fc5e8cb64d6c71ad9826.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: k5rPs48rIm-muLrntFI451_7znj4BNGaJaJNhrrJq2gYoA39jjqS-Q==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 171258638
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

@@ -1,0 +1,35 @@
+[homebridge-panel] Dumped HTTP request for https://raiffeisen.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: raiffeisen.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_7_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=4pPyd1525UjGTqXs7jJmEQzhb6FreWEfF2Vgy7suSDQ-1754398311712-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[homebridge-panel] Dumped HTTP response https://raiffeisen.bitpanda.com/login
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66da8bdc3c974-IAD
+Content-Security-Policy: frame-src https://docs.google.com/viewer *.bitpanda.com *.staging.waskurzes.com *.bitpanda.dev vercel.live; frame-ancestors 'none'
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:51:51 GMT
+Location: /auth/error
+Server: cloudflare
+Set-Cookie: _cfuvid=.FmC1eeJY1mWQzwghVEbLqrYJSA3HU86oiLKEvL8XgE-1754398311909-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Immediate-Return: 1
+X-Vercel-Id: iad1::8xmts-1754398311847-1cb3871af809
+
+Redirecting...
+

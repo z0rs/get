@@ -1,0 +1,20 @@
+[cobbler-version] Dumped HTTP request for http://test.whitelabel.bitpanda.com/cobbler_api
+
+
+POST /cobbler_api HTTP/1.1
+Host: test.whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 114
+Accept: */*
+Accept-Language: en
+Content-Type: text/xml
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+<?xml version='1.0'?>
+<methodCall>
+<methodName>extended_version</methodName>
+<params></params>
+</methodCall>
+

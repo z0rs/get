@@ -1,0 +1,30 @@
+[safenet-authentication-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/selfenrollment/Enrollment.aspx
+
+
+GET /selfenrollment/Enrollment.aspx HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=IBvnTSxVlsuTi_MfvJ6eoKMQS7w4JXXEAoGisjLl8ZY-1754398156045-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[safenet-authentication-panel] Dumped HTTP response https://brokerize-api.bitpanda.com/selfenrollment/Enrollment.aspx
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e06d97f9a7-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:16 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=ueaOIPrjBa.mwHK7WD.Nuowe2ZvDFWuhbKtdTOwP83E-1754398156969-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}

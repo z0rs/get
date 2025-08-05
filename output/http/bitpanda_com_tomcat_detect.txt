@@ -1,0 +1,92 @@
+[tomcat-detect] Dumped HTTP request for https://bitpanda.com
+
+
+GET / HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/121.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=c82z7jDcK1Id2AXOMNlIN6zWx8RnULr.Llpmh8jsoFg-1754398189038-0.0.1.1-604800000; _cfuvid=HlaBkxj1SWEmyelK9h0dxeItt2vEAl9B8_FFeP3bnx8-1754398189841-0.0.1.1-604800000; _cfuvid=HlaBkxj1SWEmyelK9h0dxeItt2vEAl9B8_FFeP3bnx8-1754398189841-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[tomcat-detect] Dumped HTTP response https://bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ac10d485806-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:52 GMT
+Expires: Tue, 05 Aug 2025 13:49:52 GMT
+Location: https://www.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=cnEwKrJlSYZKJqqHDNGBpHVi51.y45l7HgR3Q1QeOUM-1754398192823-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[tomcat-detect] Dumped HTTP request for https://bitpanda.com/30rugw8DtCpSwiDFhSHQUPpq5YC
+
+
+GET /30rugw8DtCpSwiDFhSHQUPpq5YC HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/109.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=VNVkQZJ0vR4oil8J2DRugUYzMPDESqb0YhDsKkmT0T8-1754398197848-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[tomcat-detect] Dumped HTTP request for https://bitpanda.com/docs/introduction.html
+
+
+GET /docs/introduction.html HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=IKUR13MMuPT0ZkEeAQ8x9Y8yXZoXTPWFXLYBlQGfK9E-1754398215401-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[tomcat-detect] Dumped HTTP response https://bitpanda.com/docs/introduction.html
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66b50b988f24a-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:15 GMT
+Expires: Tue, 05 Aug 2025 13:50:15 GMT
+Location: https://www.bitpanda.com/docs/introduction.html
+Server: cloudflare
+Set-Cookie: _cfuvid=MB5xYQu13HgiIX.wBFuVFL0V3Y1SbWvVW4UeV4NdE90-1754398215822-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

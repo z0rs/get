@@ -1,0 +1,34 @@
+[evlink-panel] Dumped HTTP request for https://www.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: www.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:106.0) Gecko/20100101 Firefox/106.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=DbetRlOWxsN51Rs0o_1yZpWnLW6prlLLF.CzNhiffgY-1754398370661-0.0.1.1-604800000; _cfuvid=m9KJJm6Qr6Bjla3axfQ8EDQWM7bIvEXpkN6Epi3rozo-1754398386596-0.0.1.1-604800000; _cfuvid=qdO54WHuCH1018QiTuccUNbS8GxUer3soD_guCX7A8M-1754398401014-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[evlink-panel] Dumped HTTP response https://www.bitpanda.com
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66fe82bde82a4-IAD
+Content-Security-Policy: frame-ancestors 'self' https://app.storyblok.com;
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Location: /en
+Server: cloudflare
+Set-Cookie: _cfuvid=huAVXXE6Gaj1DbGlF_ZoXuZ1CUCrrlPQRdtQblRlALY-1754398403997-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::tvqkr-1754398403942-68f38d083399
+
+Redirecting...
+

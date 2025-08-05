@@ -1,0 +1,65 @@
+[cluster-c87a64e133a8bda3648f35063d428f44e49cefface9194e7daafc3db432d02db] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=tlELLouwAdT60uN4GxTCiJznlpx5cDTIUg3Qxs_a_ig-1754398136882-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-c87a64e133a8bda3648f35063d428f44e49cefface9194e7daafc3db432d02db] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66969b9ec6fbf-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:48:58 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=2W2.ao.CCRNLpc86qR8SPtWfer_B5qXoVvvl1EOWZAA-1754398138157-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 749e1450fdc7cac18bb91a34e80053aa.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: JkSsUaLsLiJnVrvyczzwxRoaj0o89hUkHkSK22_G0xynMeDaQjowPg==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[cluster-c87a64e133a8bda3648f35063d428f44e49cefface9194e7daafc3db432d02db] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669694b2c060e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:48:57 GMT
+Expires: Tue, 05 Aug 2025 13:48:57 GMT
+Location: https://cdn.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=AFyvPDdV7Fe4qHofz46BLcHlkoWxKVVACUXAVLxdtMw-1754398137848-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[cluster-c87a64e133a8bda3648f35063d428f44e49cefface9194e7daafc3db432d02db] Dumped HTTP request for http://cdn.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=idRw_Dyfq5ayk6EX7h5m8my0B8AtdK_PWqPv30kR2rY-1754398162858-0.0.1.1-604800000; _cfuvid=0IpYwIqnxoSz5TNAdBvKmfRQUOaMpKXeFUDR3.ZWz_0-1754398177907-0.0.1.1-604800000; _cfuvid=hjY7TfDCXsQxxIVke.JN8YwXjrdHGAhr0rnWxObZ1RE-1754398177956-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

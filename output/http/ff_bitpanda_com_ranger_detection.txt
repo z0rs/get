@@ -1,0 +1,76 @@
+[ranger-detection] Dumped HTTP request for http://ff.bitpanda.com/login.jsp
+
+
+GET /login.jsp HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=XCLepd3SlWqfV6dNUUL566mnaHGkX2DKqnJh09Lb.ZU-1754398399604-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ranger-detection] Dumped HTTP response http://ff.bitpanda.com/login.jsp
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67000afb220c3-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:27 GMT
+Expires: Tue, 05 Aug 2025 13:53:27 GMT
+Location: https://ff.bitpanda.com/login.jsp
+Server: cloudflare
+Set-Cookie: _cfuvid=D9u0iHSdPBsqXgUGFB8.2TQi0gArc5HWjtxUDBFr8Wk-1754398407820-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[ranger-detection] Dumped HTTP request for http://ff.bitpanda.com/images/favicon.ico
+
+
+GET /images/favicon.ico HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=KiPk_.bfJOJvgZGS3k18NIoY3NDqUXDLh.y1ngDuRVk-1754398407821-0.0.1.1-604800000; _cfuvid=8oM8aQ4WLiZFbiUOJG2TH8tRUHtgmNfG_1Vo9xEjzSQ-1754398423597-0.0.1.1-604800000; GCLB="282616ccb50393e5"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ranger-detection] Dumped HTTP response http://ff.bitpanda.com/images/favicon.ico
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6706b3f41ae2f-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:44 GMT
+Expires: Tue, 05 Aug 2025 13:53:44 GMT
+Location: https://ff.bitpanda.com/images/favicon.ico
+Server: cloudflare
+Set-Cookie: _cfuvid=HhEc8UZIGBbCRetk0pJOpKAqH1ODSaTTOuOSf9jdqrc-1754398424862-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

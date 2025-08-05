@@ -1,0 +1,213 @@
+[jira-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/secure/Dashboard.jspa
+
+
+GET /secure/Dashboard.jspa HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=bnc1M1VhcHZqUTNrY3lDNmZTRlhFNExhSklFWm8xUzJGMU5yNjlNeENMc1JuRG9RTHkzRWlwRlZHT3ZIalhuSEszTmZMd090amF4cCtJVGJibXU1dE5CYTBzc2p0N0UxYmVTdjRRTS9IamR1OUtnY1VaUWY1aStBNVV2L2s3WCtVcElJUUQzRTlBano1NkpVbHo0TlBiai9zRWE1WEI3QzBONUc1S1p0aVZsMWJXWHhlVEorajhuaE1IemowUUhqajlUUUdGa1dDdk5nMEVCcEdZTmQwUmlWOFpITnZTRDJ6RWE3OGdtNGFXbz0tLWdDYlRvMTgvRVNLTGNxaDJSZnJNZ1E9PQ%3D%3D--9d4d4750ee87aee9447a3cd0ebe9c9bc0885a466
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jira-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/secure/Dashboard.jspa
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: a8dae6aa-de28-42d7-b688-4f61a4858da6
+Atl-Traceid: a8dae6aade2842d7b6884f61a4858da6
+Date: Tue, 05 Aug 2025 12:52:28 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=3,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 8ad5a9cbb864898c238f716c1a12623c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: I24R1jY7pIvozkyW5Qc4WaohNEkXr_EAygNcSjubPjBqpJYOLjEe8g==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 125925289
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[jira-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/jira/secure/Dashboard.jspa
+
+
+GET /jira/secure/Dashboard.jspa HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/117.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=eGtMaUlGS3p2M2RoYWI1L3N3VHJ2MFNlV2tjd0VRblZDT1N1N3FNU0ZhemRNRUs2cEM4RG9QNThLR01oWFNhcUpzWFBNVDlvNXBYWDdQYy9iRzh1V3JkMldiUUNYMjRVU0UwSWlObjZyWFplb1gzcytRenNqTjdtUGltdS9MbldNRUUwRkdwQU14Zk1jVW1RQTNIdTBrNFlCUStaS1JVazQxOHZ2bGFFMGduWDlPREpWK3FYUjhOV3RXWGNvVDhpcnowVWNxbkRpOUZZTFJSZDh3d2FxM1RISWFxNkpuckYrVmhId1NGdFRvYz0tLWRIK3ZPQ2JSc1NYdkU4RkdBU1MxeVE9PQ%3D%3D--ee4dc47e46764c5a379a3bdebc7693808b2a816f
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jira-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/jira/secure/Dashboard.jspa
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 9fd53399-eef6-4af0-bf09-e93859b7556b
+Atl-Traceid: 9fd53399eef64af0bf09e93859b7556b
+Date: Tue, 05 Aug 2025 12:52:30 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=63,atl-edge-internal;dur=3,atl-edge-upstream;dur=62,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 27eb501c8caff149895f88cac34554ae.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: fsqbnxFrGekcgklFgIXGNPKlt0j6nv9qIFh-df-17Q7J0ZcYbrmhQg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 157558130
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[jira-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/login.jsp
+
+
+GET /login.jsp HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=dnpobEcwQml6WnV4ZDBRek03bHFSbDk4WmN0WUNuaEhPQ2pxUVdaZG0vSk10YndlVGZtM0pGZ1llWmNGa05jWG90cjA4SVBKOUM4VS85dXhmSEVWZ0tjb2Q5T0dwOWxBOE9QTkVZOEI3bEtPaFlYb0U1Y1o4WGpnSi84c0QwZWlnWWJ1NXZsYXZWS3Flelk2ZTIrUmh3aFRBNm10L0N5QTRUaFRGYWszRFZNdytSSTl5YkVVMGxWMVYrdDJZRWdnWk4zc0xCTksyZXpYd2RjdkppWnU3cnJKS2hHSWFYeitHVjNQbnZZNkZ4Yz0tLXhqM0FSZUg4Z2V0d0JwRHFycnJMSkE9PQ%3D%3D--2227959bcb82628d0d718017dba2822bdeeca728
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jira-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/login.jsp
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 77f8c94e-79d2-49bc-a71d-89a3a2f1bec7
+Atl-Traceid: 77f8c94e79d249bca71d89a3a2f1bec7
+Date: Tue, 05 Aug 2025 12:52:32 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 8ad5a9cbb864898c238f716c1a12623c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: T-sVZYgNqwowiPl9u478Kax7fu81tYvkt-hxNP71ZXn6ViYqYshcgA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 183111967
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[jira-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/secure/Dashboard.jspa
+
+
+GET /secure/Dashboard.jspa HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jira-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/secure/Dashboard.jspa
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: b3f04171-6ddc-4b1f-95dd-c7b3d1b333eb
+Atl-Traceid: b3f041716ddc4b1f95ddc7b3d1b333eb
+Date: Tue, 05 Aug 2025 12:53:15 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=4,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 32c5b7040885724e78019cc31f0ef3e8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 22zY265DOF_qTpuS6-nk0461VStTQEq0JJHD1KNgWaYrNctSPmaOKQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 183175161
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[jira-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/jira/secure/Dashboard.jspa
+
+
+GET /jira/secure/Dashboard.jspa HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jira-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/jira/secure/Dashboard.jspa
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: a5a229d1-b7f5-4bb7-816e-9250f51d1bcc
+Atl-Traceid: a5a229d1b7f54bb7816e9250f51d1bcc
+Date: Tue, 05 Aug 2025 12:53:15 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=4,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 c37f72766931ae9c3f146ffa54018d1c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: VAXjWDag-5ANx7LUgz9iiaSzUHCaYr3z1C1lxXEBSFVez4udlHKlUw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 1072227751
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[jira-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/login.jsp
+
+
+GET /login.jsp HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.3
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jira-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/login.jsp
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 8f228780-729e-47d7-814b-81b7fe9d0a29
+Atl-Traceid: 8f228780729e47d7814b81b7fe9d0a29
+Date: Tue, 05 Aug 2025 12:53:15 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=63,atl-edge-internal;dur=3,atl-edge-upstream;dur=61,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 5bbbde7889bb9c7247f5924a32d2fdf0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: VA7oVmPMUXQzLeJmckHLWgU08QYTFuiHIdZYI43KloMH1kOgJBzBSQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 700874523
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

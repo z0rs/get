@@ -1,0 +1,70 @@
+[umbraco-login] Dumped HTTP request for http://checkout.bitpanda.com/umbraco
+
+
+GET /umbraco HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[umbraco-login] Dumped HTTP response http://checkout.bitpanda.com/umbraco
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, private
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:23 GMT
+Expires: Tue, 05 Aug 2025 12:49:23 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+{"error_code":0,"error_message":"No route found for \"GET /umbraco\" (from \"http://checkout.bitpanda.com/umbraco\")","errors":[]}
+[umbraco-login] Dumped HTTP response http://checkout.bitpanda.com/umbraco
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:22 GMT
+Location: https://checkout.bitpanda.com/umbraco
+
+
+[umbraco-login] Dumped HTTP request for http://checkout.bitpanda.com/umbraco/login
+
+
+GET /umbraco/login HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[umbraco-login] Dumped HTTP response http://checkout.bitpanda.com/umbraco/login
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, private
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:29 GMT
+Expires: Tue, 05 Aug 2025 12:49:29 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+{"error_code":0,"error_message":"No route found for \"GET /umbraco/login\" (from \"http://checkout.bitpanda.com/umbraco/login\")","errors":[]}
+[umbraco-login] Dumped HTTP response http://checkout.bitpanda.com/umbraco/login
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:28 GMT
+Location: https://checkout.bitpanda.com/umbraco/login
+
+

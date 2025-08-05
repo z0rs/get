@@ -1,0 +1,29 @@
+[wordpress-insert-headers-and-footers] Dumped HTTP request for https://techsolutions.bitpanda.com/wp-content/plugins/insert-headers-and-footers/readme.txt
+
+
+GET /wp-content/plugins/insert-headers-and-footers/readme.txt HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-insert-headers-and-footers] Dumped HTTP response https://techsolutions.bitpanda.com/wp-content/plugins/insert-headers-and-footers/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:50 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 9c8267a15d9ba974cf1dfcbe6981ef96.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: BwOmWtt_DFHpg2u6-vrLAEy09Qdjt8vJHFDzAg3WsdaMrJuF5OE_0Q==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: 4q5FJwVUVcE2EXpEznvkLnwD1ugTS4kHUrrRXbq39bNObhP7VCkozsW0JgHbrcSIRlcP9UUGz3elzM8PmK12yEBh4PecacU5Qf3o6e3HVWs=
+X-Amz-Request-Id: RDVVZ73AATSYCSN4
+X-Cache: Error from cloudfront
+
+Not Found

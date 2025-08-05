@@ -1,0 +1,82 @@
+[favicon-detect] Dumped HTTP request for https://account.bts.bitpanda.com/favicon.ico
+
+
+GET /favicon.ico HTTP/1.1
+Host: account.bts.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[favicon-detect] Dumped HTTP response https://account.bts.bitpanda.com/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Age: 29
+Cf-Cache-Status: HIT
+Cf-Ray: 96a66a5d0e5d3126-IAD
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:36 GMT
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Server: cloudflare
+Set-Cookie: _cfuvid=PfmX_NxfybE4lVOm2FfbTDydw7dAN8TqK1QgXWYRVIs-1754398176826-0.0.1.1-604800000; path=/; domain=.frontegg.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Vary: Accept-Encoding
+Via: 1.1 77dc0904034d14a129bafe4c9d954f08.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Zq9Z7HlYIUx1UM0mcYpXl70GsU5ni2HLzphQl_hp6WpDtPPcsz8D_g==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+{"errors":["The requested URL was not found on this server."]}
+[favicon-detect] Dumped HTTP request for https://account.bts.bitpanda.com/images/favicon.ico
+
+
+GET /images/favicon.ico HTTP/1.1
+Host: account.bts.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Mobile/15E148 Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[favicon-detect] Dumped HTTP response https://account.bts.bitpanda.com/images/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Age: 15
+Cf-Cache-Status: HIT
+Cf-Ray: 96a66a828de87ae9-IAD
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:42 GMT
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Server: cloudflare
+Set-Cookie: _cfuvid=8J9djroBjMiG.MAYDuzegZZ2D6OfYabraW8cpHmR7i0-1754398182834-0.0.1.1-604800000; path=/; domain=.frontegg.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Vary: Accept-Encoding
+Via: 1.1 6306947fb6ab60dc617ca2e025941652.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 8V-3OigIl3vMqokPG3vI2qdL34PGduaTb_hpIv8wU_xu1kCY9CCvig==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+{"errors":["The requested URL was not found on this server."]}

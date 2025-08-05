@@ -1,0 +1,23 @@
+[besu-server-detect] Dumped HTTP request for http://requests.bitpanda.com
+
+
+POST / HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+Connection: close
+Content-Length: 66
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"method":"web3_clientVersion","params":[],"id":1,"jsonrpc":"2.0"}
+[besu-server-detect] Dumped HTTP response http://requests.bitpanda.com
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 18
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:06 GMT
+Location: https://requests.bitpanda.com/
+
+Permanent Redirect

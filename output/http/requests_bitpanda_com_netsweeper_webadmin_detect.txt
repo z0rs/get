@@ -1,0 +1,48 @@
+[netsweeper-webadmin-detect] Dumped HTTP request for http://requests.bitpanda.com/webadmin/start/
+
+
+GET /webadmin/start/ HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Referer: http://requests.bitpanda.com/webadmin/admin/systemstatus_inc_data.php
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[netsweeper-webadmin-detect] Dumped HTTP response http://requests.bitpanda.com/webadmin/start/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:10 GMT
+Location: https://requests.bitpanda.com/webadmin/start/
+
+Moved Permanently
+[netsweeper-webadmin-detect] Dumped HTTP request for http://requests.bitpanda.com/webadmin/tools/systemstatus_remote.php
+
+
+GET /webadmin/tools/systemstatus_remote.php HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Referer: http://requests.bitpanda.com/webadmin/admin/systemstatus_inc_data.php
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[netsweeper-webadmin-detect] Dumped HTTP response http://requests.bitpanda.com/webadmin/tools/systemstatus_remote.php
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:12 GMT
+Location: https://requests.bitpanda.com/webadmin/tools/systemstatus_remote.php
+
+Moved Permanently

@@ -1,0 +1,39 @@
+[cluster-d7106068dc1921394e0af9d72c6a66f9ebb4f25a2aacd5d00e485d676041c7a2] Dumped HTTP request for https://bitpanda.com/signin
+
+
+GET /signin HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 6.2; rv:137.0) Gecko/20100101 Firefox/137.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=EWMb86ngchoZG5ChWrqbFnOv0.T1_s73XJMtbutm3OA-1754398133215-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-d7106068dc1921394e0af9d72c6a66f9ebb4f25a2aacd5d00e485d676041c7a2] Dumped HTTP response https://bitpanda.com/signin
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6696328f7e604-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:48:56 GMT
+Expires: Tue, 05 Aug 2025 13:48:56 GMT
+Location: https://www.bitpanda.com/signin
+Server: cloudflare
+Set-Cookie: _cfuvid=SMxsNJ0ro8LeDNesthJIi.nl9l8LlIypqBGIKWpby2Q-1754398136852-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

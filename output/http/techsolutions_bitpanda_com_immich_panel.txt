@@ -1,0 +1,26 @@
+[immich-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/auth/login
+
+
+GET /auth/login HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[immich-panel] Dumped HTTP response https://techsolutions.bitpanda.com/auth/login
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:19 GMT
+Location: ./login/
+Via: 1.1 6744171422c4a271f6b0fe32071ae980.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Y9wNPN4OntcZaH2fkieKtc3WMAvtc7PS3rBV4eFjGeFMtkxaqkqJFg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

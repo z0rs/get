@@ -1,0 +1,26 @@
+[aws-config] Dumped HTTP request for https://techsolutions.bitpanda.com/.aws/config
+
+
+GET /.aws/config HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[aws-config] Dumped HTTP response https://techsolutions.bitpanda.com/.aws/config
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Location: ./config/
+Via: 1.1 ddba66e53ff633c34296b8e866a481e2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: a0dhOKS5zizjaWUUjeBUARXD0P0YWVbA4VbczahSDw--GZSCa4PYhg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

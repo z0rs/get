@@ -1,0 +1,39 @@
+[quest-panel] Dumped HTTP request for https://clicks.bitpanda.com/cgi-bin/webcm?getpage=../html/login.html
+
+
+GET /cgi-bin/webcm?getpage=../html/login.html HTTP/1.1
+Host: clicks.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/120.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=E4_s9SsnqlW4pCOKlLaZGO38iYhau2nyaE9gVqn4NgM-1754398146859-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[quest-panel] Dumped HTTP response https://clicks.bitpanda.com/cgi-bin/webcm?getpage=../html/login.html
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669ba893e0833-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:10 GMT
+Expires: Tue, 05 Aug 2025 13:49:10 GMT
+Location: https://eu.spgo.io/cgi-bin/webcm?getpage=../html/login.html
+Server: cloudflare
+Set-Cookie: _cfuvid=zqkRnZrAUmB9ANNJrLwjq6FTG9cCuVTf_34y_NyY_zQ-1754398150833-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

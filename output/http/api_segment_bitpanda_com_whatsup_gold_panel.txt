@@ -1,0 +1,58 @@
+[whatsup-gold-panel] Dumped HTTP request for https://api-segment.bitpanda.com/NmConsole
+
+
+GET /NmConsole HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=OeF65dKksoexcEguZ_WhGrf4YjQlCB6eu_FRabMhDS0-1754398160115-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[whatsup-gold-panel] Dumped HTTP response https://api-segment.bitpanda.com/NmConsole
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a058bdcacc6-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:22 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=wQQPITrCOKLwWeJnwKmK_cd4unXW2edxMKE6doY7Tdo-1754398162911-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[whatsup-gold-panel] Dumped HTTP request for https://api-segment.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_7_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=CTAKw4GNrCFpTv3mqyD_8UPwsLrSxfJs1NZAsa3pihM-1754398167304-0.0.1.1-604800000; _cfuvid=5i3BoLmsGNJKxXyTKEN5zRV.X8Kckt5iTS5eU5J9VMA-1754398182682-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[whatsup-gold-panel] Dumped HTTP response https://api-segment.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a88cb270649-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:44 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=_Z3ck3nGpg3NYKwRM8FHAsPQoqc2HvuzaHyB1x7Bd8U-1754398184086-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

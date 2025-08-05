@@ -1,0 +1,28 @@
+[netsweeper-webadmin-detect] Dumped HTTP request for https://auth-bts.bitpanda.com/webadmin/start/
+
+
+GET /webadmin/start/ HTTP/1.1
+Host: auth-bts.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Referer: http://auth-bts.bitpanda.com/webadmin/admin/systemstatus_inc_data.php
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[netsweeper-webadmin-detect] Dumped HTTP request for https://auth-bts.bitpanda.com/webadmin/tools/systemstatus_remote.php
+
+
+GET /webadmin/tools/systemstatus_remote.php HTTP/1.1
+Host: auth-bts.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Referer: http://auth-bts.bitpanda.com/webadmin/admin/systemstatus_inc_data.php
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

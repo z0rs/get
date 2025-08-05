@@ -1,0 +1,61 @@
+[oracle-access-management] Dumped HTTP request for https://analytics.bitpanda.com/oam/pages/login.jsp
+
+
+GET /oam/pages/login.jsp HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=TSA3DgxYMGlUhPIPQDDrzTLqwIQIG.rBzU0QjdpJyqA-1754398157653-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-access-management] Dumped HTTP response https://analytics.bitpanda.com/oam/pages/login.jsp
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e66b46c964-IAD
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:19 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=Um1tFXzRc9lw.De7NCk56al5KkifrZflymxpYI8W2mk-1754398159645-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Powered-By: Express
+
+Bad request
+[oracle-access-management] Dumped HTTP request for https://analytics.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=m4qXDyfKIOibyzofCZttQpp5mxaOmUPu4vHvf9DBNdg-1754398164282-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-access-management] Dumped HTTP response https://analytics.bitpanda.com
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Content-Length: 19
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a1218453b02-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:24 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=vavszAbHTkXM4m77gosfl3wdFJYuHgrZPqX82YbJhWc-1754398164934-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+
+no healthy upstream

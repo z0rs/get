@@ -1,0 +1,108 @@
+[graphql-php-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15
+Connection: close
+Content-Length: 32
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query ! {__typename}"}
+[graphql-php-detect] Dumped HTTP response https://techsolutions.bitpanda.com/graphql
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 11
+Date: Tue, 05 Aug 2025 12:52:35 GMT
+Via: 1.1 c95a705fdf4e3077f715bd100df04b8a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: QricSEtZQEd4F3EZs_ZXGrMpkJtMGtkssiuCQVgGNtgiZIITtYy0bA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Bad Request
+[graphql-php-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Content-Length: 32
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query ! {__typename}"}
+[graphql-php-detect] Dumped HTTP response https://techsolutions.bitpanda.com/api/graphql
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 11
+Date: Tue, 05 Aug 2025 12:52:38 GMT
+Via: 1.1 232d9e401eb3600ef80d948c2dc546b8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: XpzzAHfjCkHVzQT8092yf4YZ_lmlOwg-2ZNzdQV3BkM886KuUQ3RHg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Bad Request
+[graphql-php-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/query
+
+
+POST /query HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 32
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query ! {__typename}"}
+[graphql-php-detect] Dumped HTTP response https://techsolutions.bitpanda.com/query
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 11
+Date: Tue, 05 Aug 2025 12:52:41 GMT
+Via: 1.1 ddba66e53ff633c34296b8e866a481e2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: EJTlHbISTA0al9e-DV47Unwd3hDOjuj-CBaR3DS1Lld3nYLFe8iuZQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Bad Request
+[graphql-php-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/
+
+
+POST / HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 32
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query ! {__typename}"}
+[graphql-php-detect] Dumped HTTP response https://techsolutions.bitpanda.com/
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 11
+Date: Tue, 05 Aug 2025 12:52:43 GMT
+Via: 1.1 de8b5f44ffbaf97a58ad36dbe4a4a7c0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: MlfMUOHCe2OuNqGktKq4rnpPEIcJPwXH_Rx2svsGgEbtytuIzkt0_A==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Bad Request

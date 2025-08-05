@@ -1,0 +1,22 @@
+[wordpress-add-to-any] Dumped HTTP request for http://requests.bitpanda.com/wp-content/plugins/add-to-any/readme.txt
+
+
+GET /wp-content/plugins/add-to-any/readme.txt HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/117.0
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-add-to-any] Dumped HTTP response http://requests.bitpanda.com/wp-content/plugins/add-to-any/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:16 GMT
+Location: https://requests.bitpanda.com/wp-content/plugins/add-to-any/readme.txt
+
+Moved Permanently

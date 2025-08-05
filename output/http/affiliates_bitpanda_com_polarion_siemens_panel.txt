@@ -1,0 +1,38 @@
+[polarion-siemens-panel] Dumped HTTP request for http://affiliates.bitpanda.com/polarion/
+
+
+GET /polarion/ HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=kz_pX6BhYhE4RcJPRxbXEUWV.Map_mxevTAgFHmvQzc-1754398158960-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[polarion-siemens-panel] Dumped HTTP response http://affiliates.bitpanda.com/polarion/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669f2bcb7d697-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:19 GMT
+Expires: Tue, 05 Aug 2025 13:49:19 GMT
+Location: https://affiliates.bitpanda.com/polarion/
+Server: cloudflare
+Set-Cookie: _cfuvid=coW.uWmGBsvSJTSdrFFuKRh6dQe20llEcyFn1TvOJLI-1754398159817-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

@@ -1,0 +1,32 @@
+[webtransfer-client-panel] Dumped HTTP request for https://analytics.bitpanda.com/ThinClient/WTM/public/index.html
+
+
+GET /ThinClient/WTM/public/index.html HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=UBKkfaloLGlmxruZLRg3iFgi7Rw7q1KRx4svYlKjmoY-1754398167333-0.0.1.1-604800000; _cfuvid=HbVeyy.wjG.lP9LhsvbO0QlS8UHD2RKaWvWKEmCeqf0-1754398183745-0.0.1.1-604800000; _cfuvid=JOVvY4CCUgo03V9_fgugtF3qH1ea6ub4kq_qLc8Evew-1754398185054-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[webtransfer-client-panel] Dumped HTTP response https://analytics.bitpanda.com/ThinClient/WTM/public/index.html
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a953cbf8845-IAD
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:46 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=FIkC0vS5KCi6e0MDccQdTwvfmRv5gsisz1oTARh8lJw-1754398186043-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Powered-By: Express
+
+Bad request

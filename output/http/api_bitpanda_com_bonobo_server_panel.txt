@@ -1,0 +1,63 @@
+[bonobo-server-panel] Dumped HTTP request for https://api.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: api.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:130.0) Gecko/20100101 Firefox/130.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[bonobo-server-panel] Dumped HTTP response https://api.bitpanda.com
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Headers: origin, content-type, access-token, x-bitpanda-academy, x-tracking-id, If-None-Match, If-Match, x-bitpanda-app-web, x-datadog-trace-id, x-datadog-parent-id, x-datadog-origin, x-datadog-sampling-priority, bp-broker-user-api-token-id
+Access-Control-Allow-Origin: *
+Cache-Control: no-store, private
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6696fbb2c3450-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:48:58 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=vxZeAJxk1X_Pi1PkSk5ZW9.1Lz6lF.omQ7_hQEnTejk-1754398138963-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+{"data":{"type":"ok","attributes":{}}}
+[bonobo-server-panel] Dumped HTTP request for https://api.bitpanda.com/git
+
+
+GET /git HTTP/1.1
+Host: api.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/118.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=4tsX3tvQRQffeD9WYQmLlC9GIleq.YQLJxbxzqsOEeY-1754398146934-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[bonobo-server-panel] Dumped HTTP response https://api.bitpanda.com/git
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669a7cee3c59a-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:07 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=oqttOM6F2Oggw5Mprg_HBsf0MBDAnNZ_H5TIBn5680Q-1754398147969-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}

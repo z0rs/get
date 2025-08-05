@@ -1,0 +1,105 @@
+[fastapi-docs] Dumped HTTP request for https://status.techsolutions.bitpanda.com/docs
+
+
+GET /docs HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[fastapi-docs] Dumped HTTP response https://status.techsolutions.bitpanda.com/docs
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 052a0b17-8dc9-41a5-b89d-bab7aec1214d
+Atl-Traceid: 052a0b178dc941a5b89dbab7aec1214d
+Date: Tue, 05 Aug 2025 12:52:11 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=63,atl-edge-internal;dur=3,atl-edge-upstream;dur=61,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 6d4ee90b03b8194eed74421e603ee2a8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: sIQi57vEH-vYI38ny4I47Q28UI3NmNuGm5aVwPCgLLhwpYxl21i5pw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 715602178
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[fastapi-docs] Dumped HTTP request for https://status.techsolutions.bitpanda.com/redoc
+
+
+GET /redoc HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/112.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[fastapi-docs] Dumped HTTP response https://status.techsolutions.bitpanda.com/redoc
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: c8d4bfd8-39b8-4b36-ad71-9385ab5da033
+Atl-Traceid: c8d4bfd839b84b36ad719385ab5da033
+Date: Tue, 05 Aug 2025 12:52:13 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=2,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 32c5b7040885724e78019cc31f0ef3e8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: SFHixSlIyGmhxFLE-bmXKZ8It4R4yrwVyYCZSNLVtNQSMZD-UbF8_w==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 751456013
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[fastapi-docs] Dumped HTTP request for https://status.techsolutions.bitpanda.com/openapi.json
+
+
+GET /openapi.json HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[fastapi-docs] Dumped HTTP response https://status.techsolutions.bitpanda.com/openapi.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 3caccc51-14c2-41b7-87b1-b101f1f48bdd
+Atl-Traceid: 3caccc5114c241b787b1b101f1f48bdd
+Date: Tue, 05 Aug 2025 12:52:16 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=4,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 649b4de6ebe50fb3c542f3d95c8ed8ba.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Ct78DXYZGVdgpiKzb13rRELqlm3i6colQjSIANYevENXwrgd0FTTlw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 88278272
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

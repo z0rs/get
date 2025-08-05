@@ -1,0 +1,50 @@
+[apache-tapestry-detect] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=vjM3M6.UeTUo08vwYMyKZaVYluh7wsbeGjFbwqHiq2w-1754398171935-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-tapestry-detect] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a443beed634-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:33 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 8d0bf2975485a7f0e4b8d82ddd378292.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 3KhdREKaXZkoxHWROx-ei2ChSzUqiQURSVvtu1ytciU_iCtDeulH2Q==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[apache-tapestry-detect] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66a43f9b00132-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:32 GMT
+Expires: Tue, 05 Aug 2025 13:49:32 GMT
+Location: https://cdn.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=MKoVxRHZzZxo6VgjNQVaR25T9xD5.NxlEVAsUzNrEV0-1754398172815-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

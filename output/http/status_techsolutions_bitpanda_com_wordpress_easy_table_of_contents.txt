@@ -1,0 +1,35 @@
+[wordpress-easy-table-of-contents] Dumped HTTP request for https://status.techsolutions.bitpanda.com/wp-content/plugins/easy-table-of-contents/readme.txt
+
+
+GET /wp-content/plugins/easy-table-of-contents/readme.txt HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=enZNa3MzVG16RnBwSllqN0tIT09KTkdaWlp1RG1Tbk5OUUtjQWpMWHlUS2FvemZFSWFQbHVEd1JuUlNYWlAwV3p3L3ZJc2tOMkN6eWQwS3hsc1VyVE1MTitGK3BHenBWQzNnMUlmSTlZTWxzWTRhcXcyM1VMU09aNCtoTVZjUFRrR3Z5ZUtuOVlja3lwQ01VdEhlWm4vL3p2SnJXY0htRkl1eWpUaVdKS3FMdHA1TGFQSUZURUFzQ1ZmOW9DYVJVWG40d2NJV2U1aFJZdllRVzZObDFYZnlYemxSR29XMEJCRWVrQVJYa1dLYz0tLWtydTZYNzNyZS9kRytPUmx5N0R0UVE9PQ%3D%3D--b26cf7f4764145fde0c97c25f3f98b721225ceec
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-easy-table-of-contents] Dumped HTTP response https://status.techsolutions.bitpanda.com/wp-content/plugins/easy-table-of-contents/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 9e3bf18b-bdd4-4b83-bdd5-d40fd41411fc
+Atl-Traceid: 9e3bf18bbdd44b83bdd5d40fd41411fc
+Date: Tue, 05 Aug 2025 12:52:41 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=4,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 48c70f7a0c91fc5e8cb64d6c71ad9826.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Gcu5bjG5LcmHMpEJicG5rajdwy4wroAyKpEEkWATmxuXdKg8ltBQQw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 156051979
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

@@ -1,0 +1,22 @@
+[magento-version-detect] Dumped HTTP request for https://whitelabel.bitpanda.com/magento_version
+
+
+GET /magento_version HTTP/1.1
+Host: whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[magento-version-detect] Dumped HTTP request for https://whitelabel.bitpanda.com/skin/frontend/default/default/css/styles.css
+
+
+GET /skin/frontend/default/default/css/styles.css HTTP/1.1
+Host: whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/106.0 Safari/537.36
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

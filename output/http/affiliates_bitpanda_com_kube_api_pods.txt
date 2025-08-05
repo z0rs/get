@@ -1,0 +1,38 @@
+[kube-api-pods] Dumped HTTP request for http://affiliates.bitpanda.com/api/v1/namespaces/default/pods
+
+
+GET /api/v1/namespaces/default/pods HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=McFyxTAXxeUq0AnW6TpKZGQIP2AqTc.V1RRw_TsfqIA-1754398233786-0.0.1.1-604800000; _cfuvid=bDyr_t1i8A4DIDIwBE2.T6ATx3qbs3PHJeyYCNtcs5M-1754398257845-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[kube-api-pods] Dumped HTTP response http://affiliates.bitpanda.com/api/v1/namespaces/default/pods
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66c5d89e512f0-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:58 GMT
+Expires: Tue, 05 Aug 2025 13:50:58 GMT
+Location: https://affiliates.bitpanda.com/api/v1/namespaces/default/pods
+Server: cloudflare
+Set-Cookie: _cfuvid=8EuLdBfXhFlU53OuPWuBLs_ShxywaCJ9VocOeyXwxQY-1754398258832-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

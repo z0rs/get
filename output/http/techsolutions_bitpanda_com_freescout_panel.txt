@@ -1,0 +1,26 @@
+[freescout-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[freescout-panel] Dumped HTTP response https://techsolutions.bitpanda.com/login
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:19 GMT
+Location: ./login/
+Via: 1.1 453fca9bdf51d1b9cd544a035e75d92c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: T_tq-1TiuspfgvXS0d1GHRKpX-k3QpetYp_AEBVELLCplPdpn4629w==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

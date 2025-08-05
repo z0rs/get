@@ -1,0 +1,101 @@
+[apache-axis-detect] Dumped HTTP request for https://app.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2FNmConsole; _cfuvid=5FHgT341YIl1V5_rFTTDHmSdceC3uNI8hc2zX8LPnQA-1754398162938-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..5WNFTvc_UTHyIaY_bVHvHA._dXEiF18g9GwrU2bX-5Ac7rpkeIp-nsm48zNfstJXn4_0_kaKDjPs0CWL4XN9JfMxCBhKQgjh4gqh7JhcFu08nSJGPdKlrX6cCsDUIw2YA_KVzYe9CaeXpWZuOmhQyQNwyXjhKmbZOj35ur9aHJEtE7UJqJ7ua-DV1L9VVhjC2EHJdO18aLG47t2N0FiRnq9eo_fnsVmh_mAA3rfJ9rszlYwZKGITH_H36E1H0BzTexecSQ_1LY6gxfkH0yHnzjCfYxFQQdDcRKkcHbIcBgCr2R_cenGmFcxrlsQi8eATR7lkqFD8YJ8M409Oyq36peJWmikzv7c4iAyIymvyf4baGkmecQxk4m3nMjJ_EAp4jMV7AEYCXdw52BdPsWiL-B-eklOcNR5ESsPh8emDlu3wt3JO9c33FYJv--cXsScJeizrq8THC3iIIsfNuE2Opdp-0d9mcriJ-_tuP7agX6aVuxMd-9OTp_T73qpfl-D8WkbNtrOQd08QWRxcwzy0FR9-PnqYIz5nzCwNh53s0_62LK4hqjJnq6I3IXbYRBCX8gbo5Y12IBtVofXmlTfCpvrOLhDKdx0fF2QB15L4fWJOyFqg5iK-rXBxwsHHM6dzA6lhqiyPMsXx20_pG-VS7TYhuw97sLVe-Y0bSEgh1eyOscUkbTjRbQNo9f-y2tI5dXYbPpYOYsdaGi0Y3bTn8mv.bc0yw9fiimNm895B_hRnszyPZHcyw5QYEFCbPoYPBW8
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-axis-detect] Dumped HTTP response https://app.bitpanda.com
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a0c2f5758ba-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:23 GMT
+Location: /api/auth/login?callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2F
+Server: cloudflare
+Set-Cookie: _cfuvid=RR_6d2rL5CFJXz6U5TfFxJINVTIfk4TtpUf5CODrJck-1754398163946-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::tnjqv-1754398163897-5c24f45084dc
+
+Redirecting...
+
+[apache-axis-detect] Dumped HTTP request for https://app.bitpanda.com/axis2/
+
+
+GET /axis2/ HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2F; _cfuvid=bakYzHz3vBcgEnN52_DyacrqLRuHXnnQrPUTo7qLqIc-1754398168391-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..k5xnrDSJHVCcW7h8VtkjEg.5Gtpg-mp_PYQarF8jCL3g8XcmlD43RuoKysg91BYQDMNQrrJqTB_4By96DnEhwHkMu2WFntqudLRJcTOHctyseekHx9eWpS4U_Bvm07z6Eiu5yO5r25lov7ADO3f2Dyp7YdfwndxtRZR7Fw9HUWuN5dDMKdVvVmo4ggQc5tigUASv6JfB6SqkVMk7-x-kkUVGtIOhdVk2v9QbXQAYc8E0wScNhyrxs-eEMIMOMcI-xq7O-TvArW99c4poBE03R9HPRZoO5xuXSa3ddc_amMZohTXzJAR4uBmBf7h-vbXIpImzq2jTebULPn1XserBtbQ9QSRVK9fFAIaW2S5tgOu-nOhwdn-yuZkuobU1JSS3-pPnBNlGHIthpj31zhFtSUIq8-rr9c0RQcuNGKCdez81uWChPgzo4pE5QTdg1AqgDaiMhP_2p5plQasS9IpOGsQ9Itik0SYmlgUWHeUw3eoZNBc00WzH6W9HqvoCWDnZ_sO5IbD8_jsiQKVhFJK8Nj2RD-uSPG0sR_L428rbVGP8NCZfLZas2LTPBMosUZcbRVf3iDxsvV2hzqTOkZ9ns_uXSLtGlBwXnffnQLSggl0cndgvtGlAjkDX9P0-uTL8-FfjNJJV244FUm_meKTXI2mkiB1jCL_4YS1mzmB5pX_FcctyBNF1uNXCrhyO4Vh3bGI5MAs9-YDYUBaAvX2Cg7L.GaWIT7fFDlZakWn36SB3Y7BiFvNBmx8J8KExtyhe-hk
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-axis-detect] Dumped HTTP response https://app.bitpanda.com/axis2/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a2afda5c98b-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:28 GMT
+Location: /axis2
+Refresh: 0;url=/axis2
+Server: cloudflare
+Set-Cookie: _cfuvid=jPnDa8YE87xtD5HylMA_FJwJLuTLZvT16T3.3t7irkE-1754398168900-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::77956-1754398168857-bdd5249054ef
+
+Redirecting...
+
+[apache-axis-detect] Dumped HTTP request for https://app.bitpanda.com/axis/
+
+
+GET /axis/ HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; he-IL) AppleWebKit/528+ (KHTML, like Gecko) Version/4.0 Safari/528.16
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2Fxphoneconnect%2Fadmin%2FLogin.aspx; _cfuvid=vFIcsHE7HFTN8fm6dhSlCk1JAtepNqFCEr1sw8yFbRg-1754398174388-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..GqTymSRKcFg8J_0a4JC0oA.CNMrQpSY15C2Ue4Bt84dNlX3tjIpyLVZLfKGWXyHCISvPeuKRRM0x8cwV1cvm-f7KKoH0GCx2rcskdcvNr1mvo4uS5lP9X96EfULaOHSAHNu9lfP-lBQZ6RH1JTXlWLoS48xQFQjK0a_Sioa7cRozkKni7VGb-yz9zEaBhJfrARr1InU8uz1vWWJP2jp0-YlsRIcktSKg6-Ysi-m2rlQYHLy57JxB0S-qIJFYRtUWOKhUw5JAkPIAYVxYDAC0CTbUGcY-J5zSDACUk8WZKNh8nkC1-XGSYcs6T_dXWiIaK_kYJoKVT_a4GfUTK2IPvAEE48-zwc5auKTB3bFz_dxmj45WbOjp88eA9Bcd-VmCGc_1UE5eTIzbAKamPyYQ3MGBG9VLywTBPobaulNo_pSDQT6KARBfLD5u69ViDBKhHb22GF75WXbNq4d_thqLq6HbQO5iy6-iHwK6x0M5dRDTxm4zRCcQ0o1019kKyATD6qbpzsAqVqSBTSwj0-9f0f7RRZ9A_Y2KXERk1Zjpi8St-qL0SXAhWMn9pIVLcsjiiXDAMntJdfHzgKYX3r8nnV7-YDimDujrKGPEf00gbKMBgr2AJHpafH-kaZhem1f7ym4DdBc-thohyq50wQrg-hAwJmyBt9v9_cJ4SJoC1nnFsYdu9MKMdZgBslfFtIuLe5Q-D5RJdXQRaQrgFzYQfJW.OdciBVvIc16T3er8SAleuiAWyrpULYm2o51bQZa3Mr4
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-axis-detect] Dumped HTTP response https://app.bitpanda.com/axis/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66aa74f082d0c-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:48 GMT
+Location: /axis
+Refresh: 0;url=/axis
+Server: cloudflare
+Set-Cookie: _cfuvid=zllaoVkURL1M8N5B.4GHBxKBfuXoqy2TAKVm4YGPNg0-1754398188768-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::xss6t-1754398188755-301e09108770
+
+Redirecting...
+

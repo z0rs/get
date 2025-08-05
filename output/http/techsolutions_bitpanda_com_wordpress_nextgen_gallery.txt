@@ -1,0 +1,29 @@
+[wordpress-nextgen-gallery] Dumped HTTP request for https://techsolutions.bitpanda.com/wp-content/plugins/nextgen-gallery/readme.txt
+
+
+GET /wp-content/plugins/nextgen-gallery/readme.txt HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/119.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-nextgen-gallery] Dumped HTTP response https://techsolutions.bitpanda.com/wp-content/plugins/nextgen-gallery/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:51 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 5130f24afa7aed6f49e6e72496306d12.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Mfx-jubZn8OsIH_WIsh5DZj9-PLkgxlzzTvBoKED46dtOIat6xrFqQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: G7uGk3Xaj0u1CDLEVszpyRlfD0+xYm859xTG7pvSoyZN3H4rI+8rBDZ0Rh7pxoNakGOz8IarNwk=
+X-Amz-Request-Id: 9V9552CS2BJ45345
+X-Cache: Error from cloudfront
+
+Not Found

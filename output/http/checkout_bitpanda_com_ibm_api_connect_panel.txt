@@ -1,0 +1,81 @@
+[ibm-api-connect-panel] Dumped HTTP request for http://checkout.bitpanda.com/auth/manager/sign-in/
+
+
+GET /auth/manager/sign-in/ HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ibm-api-connect-panel] Dumped HTTP response http://checkout.bitpanda.com/auth/manager/sign-in/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, private
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:08 GMT
+Expires: Tue, 05 Aug 2025 12:49:08 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+{"error_code":0,"error_message":"No route found for \"GET /auth/manager/sign-in\" (from \"http://checkout.bitpanda.com/auth/manager/sign-in/\")","errors":[]}
+[ibm-api-connect-panel] Dumped HTTP response http://checkout.bitpanda.com/auth/manager/sign-in/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:07 GMT
+Location: https://checkout.bitpanda.com/auth/manager/sign-in
+
+
+[ibm-api-connect-panel] Dumped HTTP request for http://checkout.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ibm-api-connect-panel] Dumped HTTP response http://checkout.bitpanda.com
+
+HTTP/1.1 503 Service Temporarily Unavailable
+Connection: close
+Content-Length: 592
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:16 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+<html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body>
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+
+[ibm-api-connect-panel] Dumped HTTP response http://checkout.bitpanda.com
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:15 GMT
+Location: https://checkout.bitpanda.com
+
+

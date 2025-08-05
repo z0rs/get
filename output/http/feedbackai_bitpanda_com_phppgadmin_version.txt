@@ -1,0 +1,38 @@
+[phppgadmin-version] Dumped HTTP request for http://feedbackai.bitpanda.com/phppgadmin/intro.php
+
+
+GET /phppgadmin/intro.php HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=CrFD.A9daRNqyAqa26kp.dbl2F0.9_ArAEq_a5osqis-1754398424126-0.0.1.1-604800000; _cfuvid=YN4qBQjd5aSCT5hTcV9ALaWc2pIkPAOXicrVF2b78uQ-1754398439596-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phppgadmin-version] Dumped HTTP response http://feedbackai.bitpanda.com/phppgadmin/intro.php
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670cb59e705e9-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:00 GMT
+Expires: Tue, 05 Aug 2025 13:54:00 GMT
+Location: https://feedbackai.bitpanda.com/phppgadmin/intro.php
+Server: cloudflare
+Set-Cookie: _cfuvid=yhYcLQpA9CCxCvVVKEC1dGDKXNSsOHZZ0w_Hx_mhses-1754398440259-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

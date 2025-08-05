@@ -1,0 +1,51 @@
+[firebase-urls] Dumped HTTP request for http://akurateco.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[firebase-urls] Dumped HTTP response http://akurateco.bitpanda.com
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, private
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:41 GMT
+Expires: Tue, 05 Aug 2025 12:49:41 GMT
+Location: https://akurateco.bitpanda.com/login
+Referrer-Policy: no-referrer, strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="refresh" content="0;url='https://akurateco.bitpanda.com/login'" />
+
+        <title>Redirecting to https://akurateco.bitpanda.com/login</title>
+    </head>
+    <body>
+        Redirecting to <a href="https://akurateco.bitpanda.com/login">https://akurateco.bitpanda.com/login</a>.
+    </body>
+</html>
+[firebase-urls] Dumped HTTP response http://akurateco.bitpanda.com
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:40 GMT
+Location: https://akurateco.bitpanda.com
+
+

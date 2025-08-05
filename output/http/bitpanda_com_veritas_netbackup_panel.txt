@@ -1,0 +1,39 @@
+[veritas-netbackup-panel] Dumped HTTP request for https://bitpanda.com/opscenter/
+
+
+GET /opscenter/ HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_6_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=aihiknwc1fysSahy3C1mCxEn6kME0bdFDlxP4lsJjz8-1754398164879-0.0.1.1-604800000; _cfuvid=SRhZmXNzkzLNMOSYvjop4oAG57pgl6y0l5LYS5rgTJg-1754398180829-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[veritas-netbackup-panel] Dumped HTTP response https://bitpanda.com/opscenter/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ac0cd4c205e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:52 GMT
+Expires: Tue, 05 Aug 2025 13:49:52 GMT
+Location: https://www.bitpanda.com/opscenter/
+Server: cloudflare
+Set-Cookie: _cfuvid=GKyDN1VB7ZTOOgi3peZEglIhh8IrwaJq7S08erXztQw-1754398192790-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

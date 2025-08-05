@@ -1,0 +1,30 @@
+[magmi-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/magmi/web/js/magmi_utils.js
+
+
+GET /magmi/web/js/magmi_utils.js HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[magmi-detect] Dumped HTTP response https://techsolutions.bitpanda.com/magmi/web/js/magmi_utils.js
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:40 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 89591c0a75c1346076a8fa452cb3bc52.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: EYQf_whjaOIlWgVnfRk5r7UZ3Ty0dCsaLKfpnjUc2tpHvzo8H5TpyQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: qMUrO7qA9JDYzBCUcBcmXTzLjpczkwB7lV6A9fbTDonilNJl3L4PpzbXtRGmTUUFsmPMnxQy5UZp0ab30vInAw==
+X-Amz-Request-Id: JVM454ASCHQGB9PE
+X-Cache: Error from cloudfront
+
+Not Found

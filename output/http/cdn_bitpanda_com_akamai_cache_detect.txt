@@ -1,0 +1,30 @@
+[akamai-cache-detect] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+HEAD / HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=VPi8utbJovWX.UctrOcHyVPUQ8t0ji7Nczmh4gkm8Lo-1754398169866-0.0.1.1-604800000
+Pragma: akamai-x-cache-on
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+
+
+[akamai-cache-detect] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66a376c22e57e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:30 GMT
+Expires: Tue, 05 Aug 2025 13:49:30 GMT
+Location: https://cdn.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=dzFdAKkQkUv2aupaqx7XOrc35lrLfuR224SxaaKsCvI-1754398170814-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+X-Content-Type-Options: nosniff
+
+

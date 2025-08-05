@@ -1,0 +1,161 @@
+[apache-nifi-detect] Dumped HTTP request for http://requests.bitpanda.com/access/config
+
+
+GET /access/config HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6,2 Mobile/15E148 Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-nifi-detect] Dumped HTTP response http://requests.bitpanda.com/access/config
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:11 GMT
+Location: https://requests.bitpanda.com/access/config
+
+Moved Permanently
+[apache-nifi-detect] Dumped HTTP request for http://requests.bitpanda.com/controller/config
+
+
+GET /controller/config HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-nifi-detect] Dumped HTTP response http://requests.bitpanda.com/controller/config
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:13 GMT
+Location: https://requests.bitpanda.com/controller/config
+
+Moved Permanently
+[apache-nifi-detect] Dumped HTTP request for http://requests.bitpanda.com/controller/registry-clients
+
+
+GET /controller/registry-clients HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-nifi-detect] Dumped HTTP response http://requests.bitpanda.com/controller/registry-clients
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:16 GMT
+Location: https://requests.bitpanda.com/controller/registry-clients
+
+Moved Permanently
+[apache-nifi-detect] Dumped HTTP request for http://requests.bitpanda.com/counters
+
+
+GET /counters HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-nifi-detect] Dumped HTTP response http://requests.bitpanda.com/counters
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:19 GMT
+Location: https://requests.bitpanda.com/counters
+
+Moved Permanently
+[apache-nifi-detect] Dumped HTTP request for http://requests.bitpanda.com/flow/registries
+
+
+GET /flow/registries HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-nifi-detect] Dumped HTTP response http://requests.bitpanda.com/flow/registries
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:22 GMT
+Location: https://requests.bitpanda.com/flow/registries
+
+Moved Permanently
+[apache-nifi-detect] Dumped HTTP request for http://requests.bitpanda.com/system-diagnostics
+
+
+GET /system-diagnostics HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-nifi-detect] Dumped HTTP response http://requests.bitpanda.com/system-diagnostics
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:25 GMT
+Location: https://requests.bitpanda.com/system-diagnostics
+
+Moved Permanently
+[apache-nifi-detect] Dumped HTTP request for http://requests.bitpanda.com/nifi-api/access/config
+
+
+GET /nifi-api/access/config HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-nifi-detect] Dumped HTTP response http://requests.bitpanda.com/nifi-api/access/config
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:27 GMT
+Location: https://requests.bitpanda.com/nifi-api/access/config
+
+Moved Permanently

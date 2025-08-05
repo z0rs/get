@@ -1,0 +1,46 @@
+[arcgis-detect] Dumped HTTP request for https://analytics.bitpanda.com/portal/sharing/rest
+
+
+GET /portal/sharing/rest HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=WTHLNZzNTMTSpXKdWszauKQiuhCKys8vnKW7I_GIzMI-1754398175166-0.0.1.1-604800000; _cfuvid=YGusWZHHg.ryV1qwEDRmjekV7tR6i7Cop3EaG_BvNyY-1754398176050-0.0.1.1-604800000; _cfuvid=0EnSg83wVp9MSSkiLYeZvjlnwunrgyUlv0pyDIQX_HE-1754398178170-0.0.1.1-604800000; _cfuvid=QaVyeLLKWMcDJWSIAQPV5xvdjvnM8Vk9dduFjXkvwPc-1754398181935-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[arcgis-detect] Dumped HTTP response https://analytics.bitpanda.com/portal/sharing/rest
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a828f5d3b92-IAD
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:42 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=mCU1JvusWyZxxTOXYLryHigaA4u1RpwW6sAkPe0KaCE-1754398182970-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Powered-By: Express
+
+Bad request
+[arcgis-detect] Dumped HTTP request for https://analytics.bitpanda.com/portal/portalhelp/en/rest/
+
+
+GET /portal/portalhelp/en/rest/ HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/537.16 (KHTML, like Gecko) Version/8.0 Safari/537.16
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=6DECRHpXyYfOeNelVvAu6GqhJ.MpjO0g.4uYSre5hxc-1754398188052-0.0.1.1-604800000; _cfuvid=sDe8v3Bu_wpNfJsMzAfhnV76TibL4xRwGDmUxAXcY38-1754398189313-0.0.1.1-604800000; _cfuvid=sUyZhB9zAv1iEFg5e8n8ZSF8T.5NGE08Y0DWlizNdIQ-1754398190964-0.0.1.1-604800000; _cfuvid=xk3ASodhqgFQEdFMw02weuEcJdZKpUoeKpOvJyZTK2s-1754398194953-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

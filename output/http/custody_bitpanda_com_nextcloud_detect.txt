@@ -1,0 +1,156 @@
+[nextcloud-detect] Dumped HTTP request for https://custody.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=7lup6QxvPCdU5ErBMw.YOhy5BPTLeoQ422eY4_NwITw-1754398411893-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[nextcloud-detect] Dumped HTTP response https://custody.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670341d2e7ad2-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:36 GMT
+Expires: Tue, 05 Aug 2025 13:53:36 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=yRDwuRJs9xYMmHiLhxVe1TX0kWqMyY5ImyTEG6XGW2Y-1754398416032-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[nextcloud-detect] Dumped HTTP request for https://custody.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/100.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=yRDwuRJs9xYMmHiLhxVe1TX0kWqMyY5ImyTEG6XGW2Y-1754398416032-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[nextcloud-detect] Dumped HTTP response https://custody.bitpanda.com/login
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670345fbb3888-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:36 GMT
+Expires: Tue, 05 Aug 2025 13:53:36 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=lqvXcHPSfP7jAED5NgS0ZZBN0x7.8_hHEAkd9cmHuEs-1754398416082-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[nextcloud-detect] Dumped HTTP request for https://custody.bitpanda.com/nextcloud/login
+
+
+GET /nextcloud/login HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 12.4) AppleWebKit/619.11 (KHTML, like Gecko) Version/17.3.56 Safari/619.11
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=lqvXcHPSfP7jAED5NgS0ZZBN0x7.8_hHEAkd9cmHuEs-1754398416082-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[nextcloud-detect] Dumped HTTP response https://custody.bitpanda.com/nextcloud/login
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670481bc4255f-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:39 GMT
+Expires: Tue, 05 Aug 2025 13:53:39 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=JRxuRlY7Dc.5q9uvOvoOj3LMgZVHHvhuIKIFxauzx6c-1754398419240-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[nextcloud-detect] Dumped HTTP request for https://custody.bitpanda.com/nextcloud/index.php/login
+
+
+GET /nextcloud/index.php/login HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=JRxuRlY7Dc.5q9uvOvoOj3LMgZVHHvhuIKIFxauzx6c-1754398419240-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[nextcloud-detect] Dumped HTTP response https://custody.bitpanda.com/nextcloud/index.php/login
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67053cbb72090-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:41 GMT
+Expires: Tue, 05 Aug 2025 13:53:41 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=RAciuJijaByugByzwERPJX.3oCU3Az8L04eu9VZ7x84-1754398421115-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

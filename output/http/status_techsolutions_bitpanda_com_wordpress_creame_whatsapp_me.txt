@@ -1,0 +1,35 @@
+[wordpress-creame-whatsapp-me] Dumped HTTP request for https://status.techsolutions.bitpanda.com/wp-content/plugins/creame-whatsapp-me/readme.txt
+
+
+GET /wp-content/plugins/creame-whatsapp-me/readme.txt HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=SEllNCtjbmVHMEh3ZkRqMTZhK2o1VEdqMjkzT21RSUwvRGMzQnRWQlFUYlQ3anA3WERZRGJPSndwTHI3Qm1XYUpLUVZxZnl3UGxrWjNYbkxvQ3Y5VGdhT2hjZW1wRk1OSWxnMlJFU0dHZFVJTGhicWxDWEZ2akNoRUE3aG5GTENXZzRnMllrZ0RQaHpPWWJGNk5jNUxuUnBzWUk5bXhabWRRL0tvU0hGQVE0a3hWRnhKTG8xWHViUk9SRFc4R3BVVE5Md0I1cDRnNnBMZkc5Q2JUeVFmRkJFeHpCNXF0RmFIcFp6VzhIL1FpMD0tLVI1cDg5YzlZZjdRYXJSRTVySlV6Z1E9PQ%3D%3D--b0bf19b83db1e26bf8468707b0446d7242355060
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-creame-whatsapp-me] Dumped HTTP response https://status.techsolutions.bitpanda.com/wp-content/plugins/creame-whatsapp-me/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 00ce83c3-4c58-4471-a2d8-fdca0b00d3b5
+Atl-Traceid: 00ce83c34c584471a2d8fdca0b00d3b5
+Date: Tue, 05 Aug 2025 12:52:40 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=3,atl-edge-upstream;dur=62,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 e06a155936c216d176543a7a25710ed0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: USlpJbZccedNN1UCY5wcPwmvdnZQmZ27cTo5HHzVLMIEtbkdg3tLOw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 135837981
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

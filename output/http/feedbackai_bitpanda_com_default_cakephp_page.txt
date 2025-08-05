@@ -1,0 +1,38 @@
+[default-cakephp-page] Dumped HTTP request for http://feedbackai.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh, Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=TQL16XcSPmRE6S0oHRyleWAgGVLaMLQaPjr9l_ai.uM-1754398368863-0.0.1.1-604800000; _cfuvid=LPAVSgIqziUfXXJu.XqobNy4nPwPS6G98bjRCd9hyIA-1754398384986-0.0.1.1-604800000; _cfuvid=75QcnnDKghl93maWb92gLVPEJWtjWjNueG_ALNBk8Mw-1754398398604-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[default-cakephp-page] Dumped HTTP response http://feedbackai.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67000afc43998-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:27 GMT
+Expires: Tue, 05 Aug 2025 13:53:27 GMT
+Location: https://feedbackai.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=GGvycEbdnb5g1RLalVgwwL_T1SwLOMZA.sGH9rJAKBo-1754398407824-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

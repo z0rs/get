@@ -1,0 +1,590 @@
+[oracle-peoplesoft-panel] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=rgsEjOZsA8PpPv89zqy1zU3pO0.axTXVJFcAAqA8jsQ-1754398153860-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669d3bcffc93c-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:15 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=ICyXcO55V1Dji6COhFZInOiAroXfA2WPuBUokFZ4CaY-1754398155083-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 65e185f36e65abff9322e261be3491d4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: vFUNDEBLQm1yB_S3SyNC9U3DEEVQHrEG-WCzZLgTMJc9y6LIlvHBWg==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[oracle-peoplesoft-panel] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669d36f7769ff-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:14 GMT
+Expires: Tue, 05 Aug 2025 13:49:14 GMT
+Location: https://cdn.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=rq_rNb3lvwT1aLb2bI_53UF7niexrAJaj4XNN2SIzHA-1754398154804-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=rgsEjOZsA8PpPv89zqy1zU3pO0.axTXVJFcAAqA8jsQ-1754398153860-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for http://cdn.bitpanda.com/psp/fscmprod/?cmd=login&languageCd=ENG
+
+
+GET /psp/fscmprod/?cmd=login&languageCd=ENG HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3.1 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=rgsEjOZsA8PpPv89zqy1zU3pO0.axTXVJFcAAqA8jsQ-1754398153860-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669d3cc39d6e3-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:15 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 2b74e5ee4d30afba8f9df9907896c5f4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: _llaUsiz-OdmYbbaeY_ahTOa3_4yYJdquvxCWuQ7cHgisECS9S1IVg==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[oracle-peoplesoft-panel] Dumped HTTP response http://cdn.bitpanda.com/psp/fscmprod/?cmd=login&languageCd=ENG
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669d3bb45de83-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:15 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 62997e8047323290451b8a864e88914c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 9zldiukLRBbd-UVLA_qER3TMk61F6YE8wlslfvHGnkYIyhjgUdnlPw==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[oracle-peoplesoft-panel] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669d37c29dfcf-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:14 GMT
+Expires: Tue, 05 Aug 2025 13:49:14 GMT
+Location: https://cdn.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=FqcFdn_l9TWY8FU92LZ_O1hpquMPFIG88rELoeDQLNk-1754398154824-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://cdn.bitpanda.com/psp/fscmprod/?cmd=login&languageCd=ENG
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669d37e11f508-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:14 GMT
+Expires: Tue, 05 Aug 2025 13:49:14 GMT
+Location: https://cdn.bitpanda.com/psp/fscmprod/?cmd=login&languageCd=ENG
+Server: cloudflare
+Set-Cookie: _cfuvid=J853xzOBlyD3exu6GYQeFOMfIE4LJcC.SAO.rPsJh7I-1754398154814-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=rgsEjOZsA8PpPv89zqy1zU3pO0.axTXVJFcAAqA8jsQ-1754398153860-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669d3dcf50f07-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:15 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 c57d1eb27f41d3e95fc5060845849c06.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 6SX3veAmG2CedTvd3S8X8k5uGr8bM2vlHdQoj8azc9PhKz2GhJQsuw==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[oracle-peoplesoft-panel] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669d379b5c59e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:14 GMT
+Expires: Tue, 05 Aug 2025 13:49:14 GMT
+Location: https://cdn.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=UbzlODhwQVWFbP1Hunby9QRPBARJAzAdddG_mm_VBFs-1754398154829-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for http://cdn.bitpanda.com/psp/ps/?cmd=login&languageCd=ENG
+
+
+GET /psp/ps/?cmd=login&languageCd=ENG HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/121.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=rgsEjOZsA8PpPv89zqy1zU3pO0.axTXVJFcAAqA8jsQ-1754398153860-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://cdn.bitpanda.com/psp/ps/?cmd=login&languageCd=ENG
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669d3b921c94e-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:15 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 924c3fd5fff04ef5cac09fbfc470e618.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: ORZpfnHRnukc6eVGjCXgfxpjONVQEjqxOMcSL9JJQq0TdhhLkSgpnA==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[oracle-peoplesoft-panel] Dumped HTTP response http://cdn.bitpanda.com/psp/ps/?cmd=login&languageCd=ENG
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669d37c10d6ec-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:14 GMT
+Expires: Tue, 05 Aug 2025 13:49:14 GMT
+Location: https://cdn.bitpanda.com/psp/ps/?cmd=login&languageCd=ENG
+Server: cloudflare
+Set-Cookie: _cfuvid=DkclECD0Lq6gwiW6ah7JI3iDEzqxHIIg3OSkbbbZvhs-1754398154814-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for http://cdn.bitpanda.com/psp/csprd/?cmd=login&languageCd=ENG
+
+
+GET /psp/csprd/?cmd=login&languageCd=ENG HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686; rv:129.0) Gecko/20100101 Firefox/129.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=rgsEjOZsA8PpPv89zqy1zU3pO0.axTXVJFcAAqA8jsQ-1754398153860-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://cdn.bitpanda.com/psp/csprd/?cmd=login&languageCd=ENG
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669d3d8a2d8b4-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:15 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=2yvfEeStpzFDzSabbu5aQ6j4riIsYyEfkjTesyXMdLA-1754398155130-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 ead5a4c5fbab9ab09302c9bd4c52b4b4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 49-hGdJFcR2H4ii1Dk-esvi_iTlrmKlTC7qBxEyzRC1O_sXWjTli2w==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[oracle-peoplesoft-panel] Dumped HTTP response http://cdn.bitpanda.com/psp/csprd/?cmd=login&languageCd=ENG
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669d37aad211a-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:14 GMT
+Expires: Tue, 05 Aug 2025 13:49:14 GMT
+Location: https://cdn.bitpanda.com/psp/csprd/?cmd=login&languageCd=ENG
+Server: cloudflare
+Set-Cookie: _cfuvid=w79tbZRrFH6VPSayJOXbpw84VmkOGHwoUw8fQXJPqy0-1754398154832-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=rgsEjOZsA8PpPv89zqy1zU3pO0.axTXVJFcAAqA8jsQ-1754398153860-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669d3ec9105d2-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:15 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 48b970169016f7185b7cff9e185ee0b2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: gqL7XKo95zmEkC_c1kT-TrqZgo_Zo6BMRdc0EENQ0WJuQFSaT_K95A==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[oracle-peoplesoft-panel] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669d37c86d673-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:14 GMT
+Expires: Tue, 05 Aug 2025 13:49:14 GMT
+Location: https://cdn.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=ujZeysGJdKEGbJnJ6Hs_2hjqWtXUt8jxYXLROlDUBrA-1754398154844-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for http://cdn.bitpanda.com/psp/retess/?cmd=login&languageCd=ENG
+
+
+GET /psp/retess/?cmd=login&languageCd=ENG HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=rgsEjOZsA8PpPv89zqy1zU3pO0.axTXVJFcAAqA8jsQ-1754398153860-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://cdn.bitpanda.com/psp/retess/?cmd=login&languageCd=ENG
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669d3dbdc3b20-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:15 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 16f689172b396b7e266a396b6b5d6754.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: K4M1hO8mLYtOOA4Qc473oHKQvs6Hf8jtGAqLtbEVBtrM-JO39N4PSg==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[oracle-peoplesoft-panel] Dumped HTTP response http://cdn.bitpanda.com/psp/retess/?cmd=login&languageCd=ENG
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669d37c48242d-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:14 GMT
+Expires: Tue, 05 Aug 2025 13:49:14 GMT
+Location: https://cdn.bitpanda.com/psp/retess/?cmd=login&languageCd=ENG
+Server: cloudflare
+Set-Cookie: _cfuvid=3.HBlPIP5OmPkxEcjbNEDtwNWOnKFjld36JY6lAKFjY-1754398154829-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for http://cdn.bitpanda.com/psp/CT920/?cmd=login&languageCd=ENG
+
+
+GET /psp/CT920/?cmd=login&languageCd=ENG HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh, Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=rgsEjOZsA8PpPv89zqy1zU3pO0.axTXVJFcAAqA8jsQ-1754398153860-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://cdn.bitpanda.com/psp/CT920/?cmd=login&languageCd=ENG
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669d3e81cc596-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:15 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 67711c5cba0352ee130f60f6cc103e0a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: G74nwMTFyyZ6lDZcWHd8sUYOZzpsMjIAY-1MfyTOL0AccM3hCsk8jw==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[oracle-peoplesoft-panel] Dumped HTTP response http://cdn.bitpanda.com/psp/CT920/?cmd=login&languageCd=ENG
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669d37a99064c-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:14 GMT
+Expires: Tue, 05 Aug 2025 13:49:14 GMT
+Location: https://cdn.bitpanda.com/psp/CT920/?cmd=login&languageCd=ENG
+Server: cloudflare
+Set-Cookie: _cfuvid=mDEpm1ntY7asZj6CNSGO1KiWwnQdB6FmF5txvF2F9xA-1754398154839-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=rgsEjOZsA8PpPv89zqy1zU3pO0.axTXVJFcAAqA8jsQ-1754398153860-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669d3ce9d2094-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:15 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 09028890675e48687e2855f3bdad98ea.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: TA2SlPDXf4PIi2cUPs1RJkiK2HmY93EmmeGUdhmlL3o47jtTa7p9vA==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[oracle-peoplesoft-panel] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669d379ccc943-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:14 GMT
+Expires: Tue, 05 Aug 2025 13:49:14 GMT
+Location: https://cdn.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=nqEsWFz4wf6j__PKaUwIhWvDidemQ2F9nsGTFLCABJ4-1754398154820-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 13_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=rgsEjOZsA8PpPv89zqy1zU3pO0.axTXVJFcAAqA8jsQ-1754398153860-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669d41ca452d6-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:15 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 966a4e45512437c14125c564c492a2d6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: m8cAuijsu2UP51hgSCy1xQiQ9YbbYwDYVE2jDTVb42nLGN9IOA2WYg==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[oracle-peoplesoft-panel] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669d37d752f1e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:14 GMT
+Expires: Tue, 05 Aug 2025 13:49:14 GMT
+Location: https://cdn.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=RG9mqpBbQWtBxQDi7h._jFhTx6K4XqfEDgg5FT.Axzc-1754398154867-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for http://cdn.bitpanda.com/psp/esshrprd/?cmd=login&languageCd=ENG
+
+
+GET /psp/esshrprd/?cmd=login&languageCd=ENG HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:126.0) Gecko/20100101 Firefox/126.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=rgsEjOZsA8PpPv89zqy1zU3pO0.axTXVJFcAAqA8jsQ-1754398153860-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response http://cdn.bitpanda.com/psp/esshrprd/?cmd=login&languageCd=ENG
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669d42922cd88-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:15 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 966a4e45512437c14125c564c492a2d6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: YuE7mFRM9ejTpOEIIgy98CORe--H20A919j3PJd5Y7V7I-tS3CfJmA==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[oracle-peoplesoft-panel] Dumped HTTP response http://cdn.bitpanda.com/psp/esshrprd/?cmd=login&languageCd=ENG
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669d37d4ed640-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:14 GMT
+Expires: Tue, 05 Aug 2025 13:49:14 GMT
+Location: https://cdn.bitpanda.com/psp/esshrprd/?cmd=login&languageCd=ENG
+Server: cloudflare
+Set-Cookie: _cfuvid=pw8PCUjZOmbC6wayRQaAv_26e.Tb6kqP.76A4HsOsro-1754398154875-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

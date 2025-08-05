@@ -1,0 +1,60 @@
+[microfocus-filr-panel] Dumped HTTP request for https://api.bitpanda.com/filr/login
+
+
+GET /filr/login HTTP/1.1
+Host: api.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:121.0) Gecko/20100101 Firefox/121.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=e0X7tmEg5VXNeb4pRo9AAMEHsokXGIcMrY8kopX2QCc-1754398155135-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[microfocus-filr-panel] Dumped HTTP response https://api.bitpanda.com/filr/login
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669d9b85f2d85-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:15 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=yXLuURNpSX9zDf1wyupnP7XIv9jxSGHp8GpY5hR0KfM-1754398155908-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[microfocus-filr-panel] Dumped HTTP request for https://api.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: api.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/100.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=eC2dqkNFDNGTKaCzmt.DkCyHUdVSMSiIrlAQdSvrux8-1754398160956-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[microfocus-filr-panel] Dumped HTTP response https://api.bitpanda.com/login
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669ff3ea9b560-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:22 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=TAcARRWbl3v4cuKkcp3vrwWSlDqLRgoS3mg4Qt9L_gU-1754398162097-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}

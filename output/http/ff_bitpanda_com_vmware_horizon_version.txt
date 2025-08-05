@@ -1,0 +1,38 @@
+[vmware-horizon-version] Dumped HTTP request for http://ff.bitpanda.com/portal/info.jsp
+
+
+GET /portal/info.jsp HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=RwCYAF4f1mgpMk5MljVZtCOrJaAPIqNsh8yF3G.uGsk-1754398444649-0.0.1.1-604800000; GCLB="be2be0e31a383716"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vmware-horizon-version] Dumped HTTP response http://ff.bitpanda.com/portal/info.jsp
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670ed2dd9f2e9-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:05 GMT
+Expires: Tue, 05 Aug 2025 13:54:05 GMT
+Location: https://ff.bitpanda.com/portal/info.jsp
+Server: cloudflare
+Set-Cookie: _cfuvid=ShNFHBGTM006VgnXjQN33Da.yx6VUeCkINt0V.n6Gfo-1754398445646-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

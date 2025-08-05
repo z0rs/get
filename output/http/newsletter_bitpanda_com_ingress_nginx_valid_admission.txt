@@ -1,0 +1,41 @@
+[ingress-nginx-valid-admission] Dumped HTTP request for https://newsletter.bitpanda.com/validate
+
+
+POST /validate HTTP/1.1
+Host: newsletter.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Content-Length: 555
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{
+  "kind": "AdmissionReview",
+  "apiVersion": "admission.k8s.io/v1",
+  "request": {
+    "uid": "wiybh",
+    "kind": {
+      "group": "networking.k8s.io",
+      "version": "v1",
+      "kind": "Ingress"
+    },
+    "operation": "CREATE",
+    "object": {
+      "metadata": {
+        "name": "test-wiybh",
+        "namespace": "default"
+      },
+      "spec": {
+        "rules": [
+          {
+            "host": "example.com",
+            "http": {
+              "paths": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}

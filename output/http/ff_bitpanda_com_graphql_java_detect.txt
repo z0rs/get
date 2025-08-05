@@ -1,0 +1,216 @@
+[graphql-java-detect] Dumped HTTP request for http://ff.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/113.0
+Connection: close
+Content-Length: 33
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=sHhJEBUkpboWGLOKcWvCy21qwnj5xo0mfo9EbcX.rrQ-1754398416097-0.0.1.1-604800000; GCLB="69496eadc3aeea6b"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"queryy { __typename }"}
+[graphql-java-detect] Dumped HTTP response http://ff.bitpanda.com/graphql
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 19
+Access-Control-Allow-Methods: GET,HEAD,POST,OPTIONS
+Access-Control-Allow-Origin: *
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6706dab2dd6b5-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:45 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: GCLB="6c77e33f6eaa1a1b"; Max-Age=1; Path=/; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Statsig-Region: gke-us-east5
+
+RBAC: access denied
+[graphql-java-detect] Dumped HTTP response http://ff.bitpanda.com/graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6706d19eb059f-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:45 GMT
+Expires: Tue, 05 Aug 2025 13:53:45 GMT
+Location: https://ff.bitpanda.com/graphql
+Server: cloudflare
+Set-Cookie: _cfuvid=B1fccOv5ov35hifPuxNwACFx48RUwmqb8X.uE6VsU2A-1754398425197-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[graphql-java-detect] Dumped HTTP request for http://ff.bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Mobile/15E148 Safari/604.1
+Connection: close
+Content-Length: 33
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=oTHIgbpSxjvhpVZ43CwaQFhQWU0QS7PGDkmQA35bpbI-1754398425282-0.0.1.1-604800000; GCLB="6c77e33f6eaa1a1b"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"queryy { __typename }"}
+[graphql-java-detect] Dumped HTTP response http://ff.bitpanda.com/api/graphql
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 19
+Access-Control-Allow-Methods: GET,HEAD,POST,OPTIONS
+Access-Control-Allow-Origin: *
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670945c1881d5-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:51 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: GCLB="9b949222d13dee5d"; Max-Age=1; Path=/; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Statsig-Region: gke-us-east5
+
+RBAC: access denied
+[graphql-java-detect] Dumped HTTP response http://ff.bitpanda.com/api/graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67093ec16577c-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:51 GMT
+Expires: Tue, 05 Aug 2025 13:53:51 GMT
+Location: https://ff.bitpanda.com/api/graphql
+Server: cloudflare
+Set-Cookie: _cfuvid=VcMiRxgnmuFFoRmm95ge_ICZUFGG.huiCZ6Wjk1Eaxk-1754398431394-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[graphql-java-detect] Dumped HTTP request for http://ff.bitpanda.com/query
+
+
+POST /query HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 33
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=VcMiRxgnmuFFoRmm95ge_ICZUFGG.huiCZ6Wjk1Eaxk-1754398431394-0.0.1.1-604800000; GCLB="9b949222d13dee5d"; _cfuvid=3Avnc0LdhVKFo_cgZHxHonUde0Grk24NQMy_hgFOzLA-1754398447506-0.0.1.1-604800000; GCLB="5b61e6eb43691881"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"queryy { __typename }"}
+[graphql-java-detect] Dumped HTTP response http://ff.bitpanda.com/query
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 19
+Access-Control-Allow-Methods: GET,HEAD,POST,OPTIONS
+Access-Control-Allow-Origin: *
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670ffef6f96a2-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:54:08 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: GCLB="9cbff5a5de9dd001"; Max-Age=1; Path=/; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Statsig-Region: gke-us-east5
+
+RBAC: access denied
+[graphql-java-detect] Dumped HTTP response http://ff.bitpanda.com/query
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670ffad4af3c4-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:08 GMT
+Expires: Tue, 05 Aug 2025 13:54:08 GMT
+Location: https://ff.bitpanda.com/query
+Server: cloudflare
+Set-Cookie: _cfuvid=lEoRnglo6AH5cF.i3q.Now4sxT_2ysNM53oOHMP.OeM-1754398448609-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[graphql-java-detect] Dumped HTTP request for http://ff.bitpanda.com/
+
+
+POST / HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Connection: close
+Content-Length: 33
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=lEoRnglo6AH5cF.i3q.Now4sxT_2ysNM53oOHMP.OeM-1754398448609-0.0.1.1-604800000; GCLB="9cbff5a5de9dd001"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"queryy { __typename }"}
+[graphql-java-detect] Dumped HTTP response http://ff.bitpanda.com/
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 19
+Access-Control-Allow-Methods: GET,HEAD,POST,OPTIONS
+Access-Control-Allow-Origin: *
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6712dad242d85-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:54:16 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: GCLB="89dca2ca5805eb7f"; Max-Age=1; Path=/; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Statsig-Region: gke-us-east5
+
+RBAC: access denied
+[graphql-java-detect] Dumped HTTP response http://ff.bitpanda.com/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6712d3ffae61f-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:15 GMT
+Expires: Tue, 05 Aug 2025 13:54:15 GMT
+Location: https://ff.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=nUEMFn4TuV.EK2Jlp9wqgc1Atg4v6K9Gjigbsi0r7fU-1754398455922-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

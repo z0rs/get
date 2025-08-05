@@ -1,0 +1,20 @@
+[dns-waf-detect] Dumped DNS request for localization.webhooks.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 62823
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;localization.webhooks.bitpanda.com.	IN	 CNAME
+
+[dns-waf-detect] Dumped DNS request for localization.webhooks.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 65461
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;localization.webhooks.bitpanda.com.	IN	 NS
+

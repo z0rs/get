@@ -1,0 +1,104 @@
+[jenkins-detect] Dumped HTTP request for http://ff.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=B.57D2TT17GSv41Rrhg6Zybwt69uT8pPulyKSsDWinA-1754398424919-0.0.1.1-604800000; GCLB="acff9309ea3a6d11"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jenkins-detect] Dumped HTTP response http://ff.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 19
+Access-Control-Allow-Methods: GET,HEAD,POST,OPTIONS
+Access-Control-Allow-Origin: *
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6706c280fc9af-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:45 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: GCLB="773852eddee181a0"; Max-Age=1; Path=/; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Statsig-Region: gke-us-east5
+
+RBAC: access denied
+[jenkins-detect] Dumped HTTP response http://ff.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6706bdae2e5b4-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:44 GMT
+Expires: Tue, 05 Aug 2025 13:53:44 GMT
+Location: https://ff.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=Pt6Z3hKLqJvrwgMQMOTyOob0wJvYma4IopXacPQo2jI-1754398424961-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[jenkins-detect] Dumped HTTP request for http://ff.bitpanda.com/whoAmI/
+
+
+GET /whoAmI/ HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=8QK2QG.UdShQ9.MoPTIDSV44eGSUjV9TbA342KE8Gy0-1754398425036-0.0.1.1-604800000; GCLB="773852eddee181a0"; _cfuvid=aP4tFkePBtHsp7vcCcL.EXgEaRATTsfEf6BjPeQMhsw-1754398440912-0.0.1.1-604800000; GCLB="dabb80ed04dc7d60"; _cfuvid=murSeMJWqc3.wQWrdOftvv.19NJluVnAi_cHRenvtvQ-1754398456042-0.0.1.1-604800000; GCLB="89dca2ca5805eb7f"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jenkins-detect] Dumped HTTP response http://ff.bitpanda.com/whoAmI/
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 19
+Access-Control-Allow-Methods: GET,HEAD,POST,OPTIONS
+Access-Control-Allow-Origin: *
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a67160cbc5c768-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:54:24 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: GCLB="d2be1f30644492c8"; Max-Age=1; Path=/; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Statsig-Region: gke-us-east5
+
+RBAC: access denied
+[jenkins-detect] Dumped HTTP response http://ff.bitpanda.com/whoAmI/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a671605e00801e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:24 GMT
+Expires: Tue, 05 Aug 2025 13:54:24 GMT
+Location: https://ff.bitpanda.com/whoAmI/
+Server: cloudflare
+Set-Cookie: _cfuvid=36tTVIPSRkzshKtjKM3YpTu_chj0DmNgPXoRiih_uTs-1754398464100-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

@@ -1,0 +1,79 @@
+[jfrog-login] Dumped HTTP request for https://status.techsolutions.bitpanda.com/ui/login/
+
+
+GET /ui/login/ HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/108.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jfrog-login] Dumped HTTP response https://status.techsolutions.bitpanda.com/ui/login/
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Atl-Request-Id: ff7f49e4-6a04-40f4-8a33-ca59cc55ae49
+Atl-Traceid: ff7f49e46a0440f48a33ca59cc55ae49
+Cache-Control: no-cache
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:12 GMT
+Location: https://status.techsolutions.bitpanda.com
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=129,atl-edge-internal;dur=3,atl-edge-upstream;dur=127,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=259200
+Vary: Accept,Accept-Encoding
+Via: 1.1 5beb4c3232a40c8c6a3e48c902092760.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: m2KhrPQLQq2odsGNjJ3AbbE5S8V32WzUdiv-PPu3FXZdGL-aErb5ZA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Runtime: 0.051011
+X-Statuspage-Version: 286d2fa8936ee868c90b9a354eeabf8b3176da68
+X-Xss-Protection: 1; mode=block
+
+<html><body>You are being <a href="https://status.techsolutions.bitpanda.com">redirected</a>.</body></html>
+[jfrog-login] Dumped HTTP request for https://status.techsolutions.bitpanda.com/ui/favicon.ico
+
+
+GET /ui/favicon.ico HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jfrog-login] Dumped HTTP response https://status.techsolutions.bitpanda.com/ui/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 27fa7b3b-55b4-4b59-aa5b-ca891b0a9c4b
+Atl-Traceid: 27fa7b3b55b44b59aa5bca891b0a9c4b
+Date: Tue, 05 Aug 2025 12:52:15 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=2,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 6c2e384f59feb64a0c739aee7f890066.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: w2hMuuSH5ydi_ykGPuKUNDIiAtNKP0GmhuTrycxgZihVVv380cdPAg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 752976767
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

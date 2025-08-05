@@ -1,0 +1,76 @@
+[hikvision-detect] Dumped HTTP request for https://socket.bitpanda.com/favicon.ico
+
+
+GET /favicon.ico HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=JmPmmIvlTZj9VJ+2kxr2L0v5a8rUIkX8u/vlNCm7P1v1G865Bpm5TBp9984wiLJ7mBwCHoaFIWf7d2Mer1nEQ0uaPpvrPsDIBT70Z0lkorv3rExKYYfKP5R/+ij9; AWSALBCORS=JmPmmIvlTZj9VJ+2kxr2L0v5a8rUIkX8u/vlNCm7P1v1G865Bpm5TBp9984wiLJ7mBwCHoaFIWf7d2Mer1nEQ0uaPpvrPsDIBT70Z0lkorv3rExKYYfKP5R/+ij9
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[hikvision-detect] Dumped HTTP response https://socket.bitpanda.com/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:29 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=Xb8EZ7C1pSdkBfHqWN60hsqGa3aPYdQZzdnYdCs5oIJgT04XqB3gLydpmpD7dREjlXuBzTEmh1vfW+iKhfNtq1aC90eW7mUOOD+XvM/uBL+TSN/u+yBwyLEzVonR; Expires=Tue, 12 Aug 2025 12:52:29 GMT; Path=/
+Set-Cookie: AWSALBCORS=Xb8EZ7C1pSdkBfHqWN60hsqGa3aPYdQZzdnYdCs5oIJgT04XqB3gLydpmpD7dREjlXuBzTEmh1vfW+iKhfNtq1aC90eW7mUOOD+XvM/uBL+TSN/u+yBwyLEzVonR; Expires=Tue, 12 Aug 2025 12:52:29 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 87e6563b344d9d0eb9b5aa233652bc74.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: KXI-AouUQlZQ9f-S6wpBBrmL-ZLbhW3ISgs_SsGMpCT6rt-86AW1FQ==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 8
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[hikvision-detect] Dumped HTTP request for https://socket.bitpanda.com/doc/page/login.asp
+
+
+GET /doc/page/login.asp HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686; rv:132.0) Gecko/20100101 Firefox/132.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=VJyJtAc+4/Fu99yDzsS025Jdj/fbKVErXEdJwAX+gJ8+vMo9AaW+zf9kFcgrpPfpmhrV54TZJTFSn8FO0/14MIwbuTecyaCEaspV4V1z0U0gI8UkwdLxLkxTALFH; AWSALBCORS=VJyJtAc+4/Fu99yDzsS025Jdj/fbKVErXEdJwAX+gJ8+vMo9AaW+zf9kFcgrpPfpmhrV54TZJTFSn8FO0/14MIwbuTecyaCEaspV4V1z0U0gI8UkwdLxLkxTALFH
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[hikvision-detect] Dumped HTTP response https://socket.bitpanda.com/doc/page/login.asp
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:32 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=Mo7byFu23tSk+EslMl27ro0X1hCv38p0jDkQ4AR+OrFXByYX84wFcpnWfBY3CEpd618o3UGBAaWGlLJFNPKiZW2jm/6k31jFU6DDoUwCvOo0A1K7heLT6fz/xgUn; Expires=Tue, 12 Aug 2025 12:52:32 GMT; Path=/
+Set-Cookie: AWSALBCORS=Mo7byFu23tSk+EslMl27ro0X1hCv38p0jDkQ4AR+OrFXByYX84wFcpnWfBY3CEpd618o3UGBAaWGlLJFNPKiZW2jm/6k31jFU6DDoUwCvOo0A1K7heLT6fz/xgUn; Expires=Tue, 12 Aug 2025 12:52:32 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 b052b62106bf04b3d8195399a6b77186.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: j9ncFSFh-glCvINTLxwlzfqxflWUuFYPd-1GbKDdOnHWscdBatbmeQ==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 1
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

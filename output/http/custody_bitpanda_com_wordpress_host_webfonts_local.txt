@@ -1,0 +1,38 @@
+[wordpress-host-webfonts-local] Dumped HTTP request for https://custody.bitpanda.com/wp-content/plugins/host-webfonts-local/readme.txt
+
+
+GET /wp-content/plugins/host-webfonts-local/readme.txt HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/117.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=uWr22DIOZBAfnX7EjF3yV3WNWw4dem3jaiY2eSMgNHM-1754398421109-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-host-webfonts-local] Dumped HTTP response https://custody.bitpanda.com/wp-content/plugins/host-webfonts-local/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670606a9d07f5-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:43 GMT
+Expires: Tue, 05 Aug 2025 13:53:43 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=WW6l.9cvk2bmjWnl9h73qqzgs4s2eigbohrH78Ijyq4-1754398423131-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

@@ -1,0 +1,46 @@
+[netflix-conductor-version] Dumped HTTP request for http://requests.bitpanda.com/api/admin/config
+
+
+GET /api/admin/config HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.4 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[netflix-conductor-version] Dumped HTTP response http://requests.bitpanda.com/api/admin/config
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:05 GMT
+Location: https://requests.bitpanda.com/api/admin/config
+
+Moved Permanently
+[netflix-conductor-version] Dumped HTTP request for http://requests.bitpanda.com/api/sys
+
+
+GET /api/sys HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:124.0) Gecko/20100101 Firefox/124.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[netflix-conductor-version] Dumped HTTP response http://requests.bitpanda.com/api/sys
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:06 GMT
+Location: https://requests.bitpanda.com/api/sys
+
+Moved Permanently

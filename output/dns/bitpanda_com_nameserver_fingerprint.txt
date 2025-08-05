@@ -1,0 +1,25 @@
+[nameserver-fingerprint] Dumped DNS request for bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 4986
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 NS
+
+[nameserver-fingerprint] Dumped DNS response for bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 4986
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 512
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 NS
+
+;; ANSWER SECTION:
+bitpanda.com.	21600	IN	NS	marge.ns.cloudflare.com.
+bitpanda.com.	21600	IN	NS	jake.ns.cloudflare.com.
+

@@ -1,0 +1,342 @@
+[vertigis-detect] Dumped HTTP request for http://ff.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=4RBGDpSn78WxGHWpLAnpzGFhTg8JUsDyjkTzDXQv6Uo-1754398444640-0.0.1.1-604800000; GCLB="be2be0e31a383716"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response http://ff.bitpanda.com/login
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670ed2d662006-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:05 GMT
+Expires: Tue, 05 Aug 2025 13:54:05 GMT
+Location: https://ff.bitpanda.com/login
+Server: cloudflare
+Set-Cookie: _cfuvid=etOP3L1Za.dzeCCoI4q5vPWlIko7hcDPNQ60dqHlysU-1754398445735-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[vertigis-detect] Dumped HTTP request for http://ff.bitpanda.com/GeoManLogin.aspx
+
+
+GET /GeoManLogin.aspx HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=etOP3L1Za.dzeCCoI4q5vPWlIko7hcDPNQ60dqHlysU-1754398445735-0.0.1.1-604800000; GCLB="2a55b751ac0d6e94"; _cfuvid=cbxQWYNv6WkZqWUhwGyhDykEXCzdLtQHAU0l43Ri7hU-1754398461385-0.0.1.1-604800000; GCLB="0b0d555814962821"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response http://ff.bitpanda.com/GeoManLogin.aspx
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6717a2eb33afa-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:28 GMT
+Expires: Tue, 05 Aug 2025 13:54:28 GMT
+Location: https://ff.bitpanda.com/GeoManLogin.aspx
+Server: cloudflare
+Set-Cookie: _cfuvid=KsIyPKCgMhF2.bIdMt4vv6SXuTgz5bnmMM66ip999UQ-1754398468239-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[vertigis-detect] Dumped HTTP request for http://ff.bitpanda.com/FM/GeoManLogin.aspx
+
+
+GET /FM/GeoManLogin.aspx HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64; rv:135.0) Gecko/20100101 Firefox/135.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=KsIyPKCgMhF2.bIdMt4vv6SXuTgz5bnmMM66ip999UQ-1754398468239-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response http://ff.bitpanda.com/FM/GeoManLogin.aspx
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6717a98a60ca1-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:28 GMT
+Expires: Tue, 05 Aug 2025 13:54:28 GMT
+Location: https://ff.bitpanda.com/FM/GeoManLogin.aspx
+Server: cloudflare
+Set-Cookie: _cfuvid=SGUGKxT5spNa7qzL5IiWZJGoktnoZ6bRr4APWEZrhjc-1754398468282-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[vertigis-detect] Dumped HTTP request for http://ff.bitpanda.com/GEBman/GeoManLogin.aspx
+
+
+GET /GEBman/GeoManLogin.aspx HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686; rv:127.0) Gecko/20100101 Firefox/127.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=dptpZCDmM17.AcemnGZciz5ESJYV5nunmEx5sngR9DA-1754398468282-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response http://ff.bitpanda.com/GEBman/GeoManLogin.aspx
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6717adc4f5ceb-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:28 GMT
+Expires: Tue, 05 Aug 2025 13:54:28 GMT
+Location: https://ff.bitpanda.com/GEBman/GeoManLogin.aspx
+Server: cloudflare
+Set-Cookie: _cfuvid=CWTKrWENL88RweNBH0p.0sgoKHl.kGGgeGC0RlYwneU-1754398468308-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[vertigis-detect] Dumped HTTP request for http://ff.bitpanda.com/Geoportal/synserver
+
+
+GET /Geoportal/synserver HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=CWTKrWENL88RweNBH0p.0sgoKHl.kGGgeGC0RlYwneU-1754398468308-0.0.1.1-604800000; GCLB="c0a4cb2fcb5746cf"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response http://ff.bitpanda.com/Geoportal/synserver
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6718e3dd88011-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:31 GMT
+Expires: Tue, 05 Aug 2025 13:54:31 GMT
+Location: https://ff.bitpanda.com/Geoportal/synserver
+Server: cloudflare
+Set-Cookie: _cfuvid=sYdQZ8YXsfpjLSWNuMGouq0HzqEJTYxLJ9HTslq4Ass-1754398471441-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[vertigis-detect] Dumped HTTP request for http://ff.bitpanda.com/vertigisstudio/web/designer/locales/en/translations.json
+
+
+GET /vertigisstudio/web/designer/locales/en/translations.json HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=sYdQZ8YXsfpjLSWNuMGouq0HzqEJTYxLJ9HTslq4Ass-1754398471441-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response http://ff.bitpanda.com/vertigisstudio/web/designer/locales/en/translations.json
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a671948a478272-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:32 GMT
+Expires: Tue, 05 Aug 2025 13:54:32 GMT
+Location: https://ff.bitpanda.com/vertigisstudio/web/designer/locales/en/translations.json
+Server: cloudflare
+Set-Cookie: _cfuvid=XjpZaMc2S7i5TlOoxJEGtiQgwtkEdeexvlsHPsNTnZs-1754398472443-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[vertigis-detect] Dumped HTTP request for http://ff.bitpanda.com/vertigisstudio/search/designer/locales/en/translations.json
+
+
+GET /vertigisstudio/search/designer/locales/en/translations.json HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686; rv:128.0) Gecko/20100101 Firefox/128.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=XjpZaMc2S7i5TlOoxJEGtiQgwtkEdeexvlsHPsNTnZs-1754398472443-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response http://ff.bitpanda.com/vertigisstudio/search/designer/locales/en/translations.json
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6719b380ad46d-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:33 GMT
+Expires: Tue, 05 Aug 2025 13:54:33 GMT
+Location: https://ff.bitpanda.com/vertigisstudio/search/designer/locales/en/translations.json
+Server: cloudflare
+Set-Cookie: _cfuvid=wcK_QmtN8q_XXo56vQpaSeUm4Q6q1zQkWJ3yc4RZlkc-1754398473508-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[vertigis-detect] Dumped HTTP request for http://ff.bitpanda.com/vertigisstudio/mobile/designer/locales/en/translations.json
+
+
+GET /vertigisstudio/mobile/designer/locales/en/translations.json HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=wcK_QmtN8q_XXo56vQpaSeUm4Q6q1zQkWJ3yc4RZlkc-1754398473508-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response http://ff.bitpanda.com/vertigisstudio/mobile/designer/locales/en/translations.json
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a671a1bb0ce5f7-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:34 GMT
+Expires: Tue, 05 Aug 2025 13:54:34 GMT
+Location: https://ff.bitpanda.com/vertigisstudio/mobile/designer/locales/en/translations.json
+Server: cloudflare
+Set-Cookie: _cfuvid=OhxMfnnK42_kHpwPnpkw5L28njy5ZhALqLvXd4Edf1g-1754398474527-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[vertigis-detect] Dumped HTTP request for http://ff.bitpanda.com/vertigisstudio/accesscontrol/locales/en/translations.json
+
+
+GET /vertigisstudio/accesscontrol/locales/en/translations.json HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=i4NnYR8eUUY8Vw8xYHr1VqlCbI_2Ral_St3tQxDntf0-1754398474529-0.0.1.1-604800000; GCLB="912fcd6091fa3a05"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vertigis-detect] Dumped HTTP response http://ff.bitpanda.com/vertigisstudio/accesscontrol/locales/en/translations.json
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a671b53d8f28a4-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:37 GMT
+Expires: Tue, 05 Aug 2025 13:54:37 GMT
+Location: https://ff.bitpanda.com/vertigisstudio/accesscontrol/locales/en/translations.json
+Server: cloudflare
+Set-Cookie: _cfuvid=RPrMGxEfkXPux25AXs5xCeciB6g9TCAZD0NqQhMg.qg-1754398477683-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

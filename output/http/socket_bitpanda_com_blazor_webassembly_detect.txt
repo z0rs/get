@@ -1,0 +1,38 @@
+[blazor-webassembly-detect] Dumped HTTP request for https://socket.bitpanda.com/_framework/blazor.boot.json
+
+
+GET /_framework/blazor.boot.json HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=yTLEoalEGSfAC3IbEOeDWe74R9GB251wFz42gb11p+fShJv9w5cox8s88dipCEZjn+3/1k3pWO9k+/ZVx6Xy7WlOPylq1QdcuITa0uXp0y7wINfMwE86rchqKZFD; AWSALBCORS=yTLEoalEGSfAC3IbEOeDWe74R9GB251wFz42gb11p+fShJv9w5cox8s88dipCEZjn+3/1k3pWO9k+/ZVx6Xy7WlOPylq1QdcuITa0uXp0y7wINfMwE86rchqKZFD
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[blazor-webassembly-detect] Dumped HTTP response https://socket.bitpanda.com/_framework/blazor.boot.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:26 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=fCBLqwu+fKyJQgVKRpdkeqsuAfUQfM5Lv7KF9DZL11uwZzEDAp148vbpDtll5edj9mhRTNe63+EsD35Row8BWhhoD0ItWqZMeB+R2CCKYZs5Ow+1GKX2+WSa+kOb; Expires=Tue, 12 Aug 2025 12:52:26 GMT; Path=/
+Set-Cookie: AWSALBCORS=fCBLqwu+fKyJQgVKRpdkeqsuAfUQfM5Lv7KF9DZL11uwZzEDAp148vbpDtll5edj9mhRTNe63+EsD35Row8BWhhoD0ItWqZMeB+R2CCKYZs5Ow+1GKX2+WSa+kOb; Expires=Tue, 12 Aug 2025 12:52:26 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 d7441270a7210a12742f2ba6f1dfb028.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Bfrpi9eKRPuX7aRHb6jUcffDkbFPpHHARiR22JQIQYValL_oeJepQA==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 3
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

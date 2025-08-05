@@ -1,0 +1,55 @@
+[f5-admin-interface] Dumped HTTP request for https://clicks.bitpanda.com/tmui/login.jsp
+
+
+GET /tmui/login.jsp HTTP/1.1
+Host: clicks.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=gSrd33z3lUJaolK1WNxZK2c1QXk0ZG6ZiJtMc7IdiNA-1754398132011-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[f5-admin-interface] Dumped HTTP response https://clicks.bitpanda.com/tmui/login.jsp
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 552
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:48:57 GMT
+Server: msys-et
+
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+
+[f5-admin-interface] Dumped HTTP response https://clicks.bitpanda.com/tmui/login.jsp
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669633ee99c5a-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:48:56 GMT
+Expires: Tue, 05 Aug 2025 13:48:56 GMT
+Location: https://eu.spgo.io/tmui/login.jsp
+Server: cloudflare
+Set-Cookie: _cfuvid=ICrL8jZtSkPW13_NkZcuIJyal8tbFCtnEzQrz7vy6LM-1754398136855-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

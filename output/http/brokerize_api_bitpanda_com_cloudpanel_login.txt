@@ -1,0 +1,30 @@
+[cloudpanel-login] Dumped HTTP request for https://brokerize-api.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=NqWuLgnGRYD7VrOOehXD49_yTORHH7QodshuRwxgiMU-1754398133169-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cloudpanel-login] Dumped HTTP response https://brokerize-api.bitpanda.com/login
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66950996d05f8-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:48:53 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=ciMCdH5kxy6XPbADE0T3Ge4_by0dYmIzgfp_8fEDSCk-1754398133973-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}

@@ -1,0 +1,54 @@
+[stirling-pdf-panel] Dumped HTTP request for https://app.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2Flogin; _cfuvid=RVq_0yXKH08l9S8iYKVBr5.W6I8qEp3KAFnPXoMk6kg-1754398157164-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..5CGZ3Oe8n95WMDme6QQYkA.yPS3eI4WcWmhbhcGtFOAyumZusuUX3PZ7mlDKhj-lPunZ5htdh2_rKerOh_Ll7DbL1k1fZ50SoN7s_yYC7uWK_Wt5KJCkZ3_GYIcEUsUsieR9g9CzBVzgmjcXo8Yw-nGt6dbs8UuC0tm_UI4FtTRyu9aLbUlHS7G7XfpLYE_N_j_DLG8FyCGklcfv08Vxu2-yaLNQJWJ0ouKdBgxI81VebUjVcmjOOpXgnSDQaOn8DqQt4OamrxIt9v5DF3IP7WL25GCG4Vrpitv7Ngtd3pAQpdhVo9KkXQeYliCqeu1rop92BqUHYSE5uxofmRYhKn3k27jqkGy50YOlUNC28qHTdWZa01VmEeNI3L0rf5JzggSQvR8KT1vqfQzNYTz3hrCBBtkDy_9fxQtBHQBr9b2WHmfwy9ng9PStdqgwxxgBv8FYAAVuFt8x_LTowijHcKYFE3sddYh46Pae9oyMVlQfY-Rde2BpyFNvZiYg2kwMf6hP6CGijKBaTa8NiDDKW_nqNd0JzYboJcwfn7gWnPFz8EoynowJKBhYST86pciB1CGt77sMQItb4OkklJLhYiMonBSNIlImOQwl7qEThKakYbNuajp1ujf__rIURvgrQTrYeILTb5WB-WIiqAAM3HGIx-lXNdhfqL945ln-n8-I_UqSjhQAWrLWAhseXq-xLwS3FOI-HCkvJW0o6rjPIfx.pxNm2_dru4EYaJO4BBNMVfa4dc-KiEDenfp_r1ppjMc
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[stirling-pdf-panel] Dumped HTTP response https://app.bitpanda.com
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e77e03174d-IAD
+Date: Tue, 05 Aug 2025 12:49:18 GMT
+Location: https://account.bitpanda.com/authorization/oauth/authorize?response_type=code&client_id=19&redirect_uri=https%3A%2F%2Fapp.bitpanda.com%2Fapi%2Fauth%2Fcallback%2Fbitpanda&state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiZWpxYWRMU1dJdlhub0IyS2VPc3d3a2U2eWhRZDN4aFhGX2hiSGEyTEZCSnJxaklObWRzZnU0WWRERi1icXlkRVMyX1Npal9HamM5RjgxZE94VnBhU1EifQ..fxC1E5_7Kdb-UxmdZgl37g.kAo0_Bm4z-CK49o-Nq3lpkiJJjW71q3XuK7Vwx3bc6Up4d9y4-BE1_jz8Dm83OQqgaeD9dL-bV59E5RKwwmk2LFFP5xCeBVMrT2k96Ob8vMUcZBohFBY0cX_G1jqyShstxSgAOLg6IYI9JDSVNNhmZqFWkZ2gBY7EWMlrovxs1aV-WwcJWZuE93xchpHISMG.sAmes0Cfb6iYKkM9QPLB_2RUxTq3IYoC0iLSNefPeQs&scope=openid+profile+email
+Server: cloudflare
+Set-Cookie: __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2F; Path=/; Secure; HttpOnly; SameSite=lax
+Set-Cookie: __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..rUEs_okyTezvjFgDR-wTpw.f8Dg92DOU3Mbh-q0jzU7b_3WCd_lWPez0lQsxD8liJejuUljrKK4XYW-TDgrMSt9xR6fgmrIAHZ2o3X1m6TXoizsFYfMILBGbULjzRe5sTqv8-45MhC2iAB_T4ecwp44OVQJfoH85Pd4lS0ZIgHlY87Ke-5JKDIyKWlxbPOZYwQWwAjcD4LF4kPrws17ewxJwa6o225D4TFicKCe0gRY8k1UYSCGA9MGAPSmqP_IDctQPddVIO2Ech9agxRmr7TF0zCo7nl8oQj2o5aGmi1NyFoHZxuPZwmQyV_CI-1AEcU5Ne6BemAySJrEdbivm0lABthjaavzCDgR8vLh-6kFABBnD8_PAoUJs5gnJwgmRDVZb5Xo5mbtqmJkW52YodTHIUxHiGeqSfPalLLknY_r2Q4X497zyXICbXoIPWt-QDjn52caSlMOmlQe-3xvyBcbnXFRhgj_dFmKHR0IbZYwkjxnqEsPeMu0qHr7UHk_-tFHCyMf3BXh9djakgt5jJixy8c9LoXw_-YxWKcGJkK2NAItZdYiAh-aLCz20D-ebaMcLEcPePxCeHeV_bsEBzJDOQTw8uYOceYXawTvuF2BtI0iDkopuQuIGRhXQuAn0Y2D2DIV2yBt99uuQpIa7KhENBSLlWbKKQZhx2Pc4oZHFfRue8qVJEnQ8dDsVzMoP5sP9EwfCcIg6M138tA1SGG1.8SXAikXtOmBfN3Ly7FIUFADc7-SO4sTjhcG1cBlh8-k; Path=/; Expires=Tue, 05 Aug 2025 13:04:18 GMT; Max-Age=900; Secure; HttpOnly; SameSite=lax
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+X-Content-Type-Options: nosniff
+X-Matched-Path: /api/auth/login
+X-Vercel-Cache: MISS
+X-Vercel-Id: iad1::dub1::vv4t2-1754398158039-e77076ae43a2
+Content-Length: 0
+
+
+[stirling-pdf-panel] Dumped HTTP response https://app.bitpanda.com
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e68c05579a-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:17 GMT
+Location: /api/auth/login?callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2F
+Server: cloudflare
+Set-Cookie: _cfuvid=F7EKktkpqS2HD52_ciuJ6zSXKz3xaUhPRcQwYu.Skrc-1754398157974-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::gx7z2-1754398157901-ec40a7532b58
+
+

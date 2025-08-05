@@ -1,0 +1,26 @@
+[dell-idrac8-detect] Dumped HTTP request for https://portal.techsolutions.bitpanda.com/data?get=prodServerGen
+
+
+GET /data?get=prodServerGen HTTP/1.1
+Host: portal.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[dell-idrac8-detect] Dumped HTTP request for https://portal.techsolutions.bitpanda.com/session?aimGetProp=fwVersionFull
+
+
+GET /session?aimGetProp=fwVersionFull HTTP/1.1
+Host: portal.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

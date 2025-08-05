@@ -1,0 +1,28 @@
+[CVE-2023-43374] Dumped HTTP request for https://techsolutions.bitpanda.com/hoteldruid/inizio.php
+
+
+GET /hoteldruid/inizio.php HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2023-43374] Dumped HTTP response https://techsolutions.bitpanda.com/hoteldruid/inizio.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:22 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 5d22d4cd27d82c133b77117809cd93b4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: irBB8vSz7nAN2mgYQ6QyJ2pg_aYJIMyL8gnJ2yIJTZNmFMiLBAhtog==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: dg//EcmRJ61f+Ay3NFlP6mN+HsNlM4I4IhM9N/OcMIh/kVKap+anK9z6KEyXnsX+0qQO0OaKUM0=
+X-Amz-Request-Id: VE5ZSMY1JZBVJD4R
+X-Cache: Error from cloudfront
+
+Not Found

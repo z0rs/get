@@ -1,0 +1,35 @@
+[jira-unauthenticated-dashboards] Dumped HTTP request for https://status.techsolutions.bitpanda.com/rest/api/2/dashboard?maxResults=100
+
+
+GET /rest/api/2/dashboard?maxResults=100 HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jira-unauthenticated-dashboards] Dumped HTTP response https://status.techsolutions.bitpanda.com/rest/api/2/dashboard?maxResults=100
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 304c573f-5a80-4b7a-93b8-71428baa5813
+Atl-Traceid: 304c573f5a804b7a93b871428baa5813
+Date: Tue, 05 Aug 2025 12:53:15 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=2,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 9acd372742573b89975d7dceea2dc950.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: NnDBpmCNmqP0JEs9CKBnU7XqWE4aJn_Uj4SXmjuq2t3iuX1Lu86dNQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 139483306
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

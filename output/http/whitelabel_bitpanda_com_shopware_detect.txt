@@ -1,0 +1,26 @@
+[shopware-detect] Dumped HTTP request for https://whitelabel.bitpanda.com/admin
+
+
+GET /admin HTTP/1.1
+Host: whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.7 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[shopware-detect] Dumped HTTP request for https://whitelabel.bitpanda.com/backend
+
+
+GET /backend HTTP/1.1
+Host: whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/110.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

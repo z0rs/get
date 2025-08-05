@@ -1,0 +1,61 @@
+[outsystems-servicecenter-panel] Dumped HTTP request for https://analytics.bitpanda.com/Login.aspx
+
+
+GET /Login.aspx HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=TSA3DgxYMGlUhPIPQDDrzTLqwIQIG.rBzU0QjdpJyqA-1754398157653-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[outsystems-servicecenter-panel] Dumped HTTP response https://analytics.bitpanda.com/Login.aspx
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e66ae6802d-IAD
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:19 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=eqFgWKIycm1UhJ3GKnPgd_xMVuCBvKWQwj0IXy.hWr4-1754398159349-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Powered-By: Express
+
+Bad request
+[outsystems-servicecenter-panel] Dumped HTTP request for https://analytics.bitpanda.com/ServiceCenter/Login.aspx
+
+
+GET /ServiceCenter/Login.aspx HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=m4qXDyfKIOibyzofCZttQpp5mxaOmUPu4vHvf9DBNdg-1754398164282-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[outsystems-servicecenter-panel] Dumped HTTP response https://analytics.bitpanda.com/ServiceCenter/Login.aspx
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Content-Length: 19
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a211dacd667-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:27 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=.P13W624un5Ca_FzrI.yCx2XWuI69tRmfcnwiBMEVto-1754398167323-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+
+no healthy upstream

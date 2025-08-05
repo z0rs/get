@@ -1,0 +1,48 @@
+[sap-web-dispatcher-detection] Dumped HTTP request for http://localization.webhooks.bitpanda.com/inormalydonotexist
+
+
+GET /inormalydonotexist HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:130.0) Gecko/20100101 Firefox/130.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=8m5brbZAAaYULBjouMfuMp2XMXnuKPYCxX5i.ffH3UI-1754398433113-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[sap-web-dispatcher-detection] Dumped HTTP response http://localization.webhooks.bitpanda.com/inormalydonotexist
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670c0ecd6d468-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:53:58 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TEGEVhjoEEKNg=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: c5144cfb-6532-4219-b9db-affdb55e0665
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[sap-web-dispatcher-detection] Dumped HTTP response http://localization.webhooks.bitpanda.com/inormalydonotexist
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670bf3dccc9a3-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:58 GMT
+Expires: Tue, 05 Aug 2025 13:53:58 GMT
+Location: https://localization.webhooks.bitpanda.com/inormalydonotexist
+Server: cloudflare
+Set-Cookie: _cfuvid=zKc7a4VAcUAroXI7BlI8MUrVk4rgbrB87jOI7eSlLng-1754398438298-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

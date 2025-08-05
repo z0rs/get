@@ -1,0 +1,47 @@
+[favicon-detect] Dumped HTTP request for https://api-segment.bitpanda.com/favicon.ico
+
+
+GET /favicon.ico HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=.pZOzB8ZWhS.lL8W98Olr8cjllLzT0OSgb6YcN3f38M-1754398175913-0.0.1.1-604800000; _cfuvid=st5eQwNc3nYhR8XawQ27XMDJGe23EZK0i3Lx_EkiNFU-1754398177091-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[favicon-detect] Dumped HTTP response https://api-segment.bitpanda.com/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Age: 35
+Cache-Control: public, max-age=300
+Cf-Cache-Status: HIT
+Cf-Ray: 96a66a634b39a3be-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:37 GMT
+Expires: Tue, 05 Aug 2025 12:54:37 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=TouHshzqumwceUY5V0o6A_pkGeZUZFDTmbIqbGn5wDg-1754398177824-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[favicon-detect] Dumped HTTP request for https://api-segment.bitpanda.com/images/favicon.ico
+
+
+GET /images/favicon.ico HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=5i3BoLmsGNJKxXyTKEN5zRV.X8Kckt5iTS5eU5J9VMA-1754398182682-0.0.1.1-604800000; _cfuvid=u4xPCRA4fYsO5RgV7YgHc2gAt1kCr60npa4NZzJGQwc-1754398193914-0.0.1.1-604800000; _cfuvid=Mcy4xyE6SWaKrZzFn2ffcHBnNayDwHck3HkHe3qXlTk-1754398212917-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

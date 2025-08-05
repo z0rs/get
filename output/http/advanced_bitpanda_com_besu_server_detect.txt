@@ -1,0 +1,47 @@
+[besu-server-detect] Dumped HTTP request for https://advanced.bitpanda.com
+
+
+POST / HTTP/1.1
+Host: advanced.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 66
+Content-Type: application/json
+Cookie: _ava_csrf=MTc1NDM5ODEzMnxJbTFLV2xOYU0xQXpaVk0yTVRnNGQwZE5VVkpDVVRGSFltRklkRGQ1VGtkbFVIZ3ZjRVV2VG1KWloyTTlJZ289fKJP_4w0njSvNJIudSGTj5zmPLvdwX5aErvdGNks_7hG; csrf=MTc1NDM5ODE1OXxseXdoLUpycDYtNjN6c0JPZ2RwaXNtQnc0MEFUUVEyMU9zZzdIZUhkaXNNRTJ0cnJMVVJ3X2hSWDhubThlbjk2dnhPd2ZSbnZRN0F1RkZTOXNBcjlzVFlKX3JLZVVCY1hOazB1M3pLeE5EblF2Q0tqSG5qRlIyR0NmY0ZFNlg5aVR5ND18Hd1C9eYITb5ic6BcZpGwfvMn2oc6OFopbaLhOugPsek=
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"method":"web3_clientVersion","params":[],"id":1,"jsonrpc":"2.0"}
+[besu-server-detect] Dumped HTTP response https://advanced.bitpanda.com
+
+HTTP/1.1 405 Method Not Allowed
+Connection: close
+Content-Length: 559
+Alt-Svc: clear
+Cache-Control: no-store, no-cache, must-revalidate, proxy-revalidate
+Content-Security-Policy: default-src 'self'; base-uri 'self'; script-src 'self' 'unsafe-inline' https: *.talos.com sentry.io widget.intercom.io js.intercomcdn.com; style-src 'self' 'unsafe-inline' https: fonts.googleapis.com; style-src-elem 'self' 'unsafe-inline' https: fonts.googleapis.com; img-src 'self' data: storage.googleapis.com blob: advanced.bitpanda.com fusion.bitpanda.com fusion.institutional.bitpanda.com cdnjs.cloudflare.com/ajax/libs/twemoji/; font-src 'self' data: fonts.googleapis.com fonts.gstatic.com; frame-src 'self' blob: *.talostrading.com *.talos.com advanced.bitpanda.com fusion.bitpanda.com fusion.institutional.bitpanda.com; worker-src 'self' blob:; connect-src wss: sentry.io *.sentry.io *.datadoghq.com browser-intake-datadoghq.com *.browser-intake-datadoghq.com *.intercom.io *.mixpanel.com cdnjs.cloudflare.com/ajax/libs/twemoji/ advanced.bitpanda.com fusion.bitpanda.com fusion.institutional.bitpanda.com
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:24 GMT
+Expires: 0
+Pragma: no-cache
+Server: nginx/1.29.0
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 google
+X-Cache: uncacheable
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+<html>
+<head><title>405 Not Allowed</title></head>
+<body>
+<center><h1>405 Not Allowed</h1></center>
+<hr><center>nginx/1.29.0</center>
+</body>
+</html>
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+

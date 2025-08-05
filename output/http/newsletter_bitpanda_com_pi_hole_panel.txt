@@ -1,0 +1,52 @@
+[pi-hole-panel] Dumped HTTP request for https://newsletter.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: newsletter.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11_3) AppleWebKit/537.36 (KHTML, like Gecko) Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[pi-hole-panel] Dumped HTTP request for https://newsletter.bitpanda.com/admin/index.php
+
+
+GET /admin/index.php HTTP/1.1
+Host: newsletter.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[pi-hole-panel] Dumped HTTP request for https://newsletter.bitpanda.com/admin/login.php
+
+
+GET /admin/login.php HTTP/1.1
+Host: newsletter.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[pi-hole-panel] Dumped HTTP request for https://newsletter.bitpanda.com/admin/index.php?login
+
+
+GET /admin/index.php?login HTTP/1.1
+Host: newsletter.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh, Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

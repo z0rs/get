@@ -1,0 +1,24 @@
+[kasm-login-panel] Dumped HTTP request for https://whitelabel.bitpanda.com/#/login
+
+
+GET / HTTP/1.1
+Host: whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[kasm-login-panel] Dumped HTTP request for https://whitelabel.bitpanda.com/api/login_settings
+
+
+POST /api/login_settings HTTP/1.1
+Host: whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686; rv:132.0) Gecko/20100101 Firefox/132.0
+Connection: close
+Content-Length: 30
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"token":null,"username":null}

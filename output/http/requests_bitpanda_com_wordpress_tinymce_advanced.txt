@@ -1,0 +1,22 @@
+[wordpress-tinymce-advanced] Dumped HTTP request for http://requests.bitpanda.com/wp-content/plugins/tinymce-advanced/readme.txt
+
+
+GET /wp-content/plugins/tinymce-advanced/readme.txt HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; rv:100.0esr) Gecko/20012409 Firefox/100.0esr
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-tinymce-advanced] Dumped HTTP response http://requests.bitpanda.com/wp-content/plugins/tinymce-advanced/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:22 GMT
+Location: https://requests.bitpanda.com/wp-content/plugins/tinymce-advanced/readme.txt
+
+Moved Permanently

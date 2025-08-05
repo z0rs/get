@@ -1,0 +1,29 @@
+[dell-idrac9-detect] Dumped HTTP request for https://api-segment.bitpanda.com/sysmgmt/2015/bmc/info
+
+
+GET /sysmgmt/2015/bmc/info HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qxFXHuEFs5zCXdC.eFDw5Yon5qJu_sbwJDUK0IOU_Vg-1754398175439-0.0.1.1-604800000; _cfuvid=.pZOzB8ZWhS.lL8W98Olr8cjllLzT0OSgb6YcN3f38M-1754398175913-0.0.1.1-604800000; _cfuvid=UneCN9VhFASCzs.xWanT.nv_HQzuFJ7QCCMbrKPhQ58-1754398178488-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[dell-idrac9-detect] Dumped HTTP response https://api-segment.bitpanda.com/sysmgmt/2015/bmc/info
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a69ac32396a-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:38 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=w.8VIgYAWELbt3od.kDwmgpg9gj.DR0K30ydWDF5PfY-1754398178918-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

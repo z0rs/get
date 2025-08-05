@@ -1,0 +1,58 @@
+[oracle-application-server-panel] Dumped HTTP request for https://api-segment.bitpanda.com/em/console/ias/oc4j/home
+
+
+GET /em/console/ias/oc4j/home HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=A3LJgR6Yt5Wd1lJq1XdYC7DkcLHn2dayD2dWcsBSh1Q-1754398152147-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-application-server-panel] Dumped HTTP response https://api-segment.bitpanda.com/em/console/ias/oc4j/home
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c6f8f328c8-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:12 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=29YUnGp5aVS_J_E_TpMHy6FCAxx7nJLsRdMKcDZjHrI-1754398152903-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[oracle-application-server-panel] Dumped HTTP request for https://api-segment.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=V9uTqDZ_jI0hrOErcNPmsODlmMi_37rW44pCK2vZCzc-1754398158159-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-application-server-panel] Dumped HTTP response https://api-segment.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669ec88c5874c-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:18 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=q68NmkOcRyE_p2Jk9HU.6LV5glt9v4w5iIUs.oxnoQg-1754398158898-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

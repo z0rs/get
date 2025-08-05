@@ -1,0 +1,249 @@
+[datagerry-panel] Dumped HTTP request for http://techsupport.bitpanda.com/auth
+
+
+GET /auth HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686; rv:125.0) Gecko/20100101 Firefox/125.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[datagerry-panel] Dumped HTTP response http://techsupport.bitpanda.com/auth
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, private, must-revalidate
+Cf-Cache-Status: BYPASS
+Cf-Ray: 96a66e41af9e392c-IAD
+Content-Language: en-us
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:16 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Protocol: HTTP/1.1 always
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=GfYlV8BE2HUMa9argPhe39dak5pECyAspNNvisNsAI2xcf%2FgN5NG77gBhtJHqR1as6LZWeUDbcNCPVxHgJk49nTuNN7IV9YRZ%2FU8LaarA2ee3%2FirTz%2Bj0wMGeYEMkzpdf4vu3Ki9Eofxlg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: _help_center_session=OTBXNmlWU1NXNWlwZHlsampuVi9COXNqOUlvTkMveS9iUU42Q0puMXg4N2NVSUM3R3dhaGhZZzNjUE0xQmZJVkg0NHpBY0tWU3pqLzVId2RITkN5b3BtNEFxVzdUVGN6K3VVaHBNa1NHMHB1azRuTjNCcDAyeGljRDBGRk9qR3pHRXZ3aG5ORzI0TnkyWTFTbE9qQ3hqazhnZStlM2djazZJenVJY3pRQjJZc2R4N2hnc1B3VzdTWUlydjJUS1ptNGNJQzF0Vi9kOGV6NnRQQU5jZlBWZz09LS0rY0h3bXdwZWF3aHo2L3Erc2Z2TGRnPT0%3D--564d76d3b24c499342190d23010f1b11da9efa1d; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: __cf_bm=xX9l7GUxJSbSSJwa2Bgm9ppNEFYV8NXfq3CEyI2NXt8-1754398336-1.0.1.1-SwyYxKWe_68ts2WvbqtDHNd.BSbOfeGMldY58tunYaEnTrWfeaADmYyLHOI881lTJXY9WidX35VnWjiAib1IvQOqbDoRBEs8i32HiJ_CHSk; path=/; expires=Tue, 05-Aug-25 13:22:16 GMT; domain=.techsupport.bitpanda.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: _cfuvid=fHO7A6wgcHWGP58_ytwJBhvFeFSs9DA62ChpSehogHQ-1754398336477-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Vary: Accept, Accept-Encoding
+Via: zorg
+X-Envoy-Decorator-Operation: /hc
+X-Envoy-Upstream-Service-Time: 48
+X-Frame-Options: SAMEORIGIN
+X-Request-Id: 96a66e41c428392c-IAD
+X-Runtime: 0.044564
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+X-Zendesk-Origin-Server: app-server-759bdc4498-t72cv
+X-Zendesk-Zorg: yes
+Zendesk-Service: help-center
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+<head>
+  <meta charset="utf-8" />
+  <!-- v26252 -->
+  <title>Bitpanda Tech Solutions - Partner Care</title>
+
+  <meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="hc:meta:server:idrnnfXtJQr3f36ttnnxWcGu0qSgBF7xTwfXA9qWiIlN9NiNjU06hpr0EpmZzQ4JsL0u36MpQLAAvXm3K8fRVw">
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, shrink-to-fit=no" />
+  
+
+  <link rel="icon" type="image/x-icon" href="/hc/theming_assets/01HZPP59CCBEYBERRWQ9Z1Q1T6">
+  <style>
+    body {
+      margin: 0px;
+    }
+
+    .header {
+      border-bottom: 1px solid #eeeeee;
+    }
+
+    .header-inner {
+      margin: auto;
+      width: 986px;
+      display: table;
+      padding: 20px 0px;
+    }
+
+    .logo img {
+      max-height: 30px;
+      border-style: none;
+    }
+  </style>
+
+  <script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-112675170-1', 'auto');
+ga('send', 'pageview');
+
+</script>
+
+</head>
+<body>
+  
+
+
+  <header class="header">
+    <div class="header-inner clearfix">
+      <div class="logo"><a title="Home" href="/hc"><img src="/hc/theming_assets/01HZPP598VZ2NWSM3ZES2BC9V9" alt="Logo"></a></div>
+    </div>
+  </header>
+  <script src="https://bitpanda.zendesk.com/auth/v2/host/without_iframe.js" data-brand-id="5702657527708" data-return-to="https://techsupport.bitpanda.com/hc/404" data-theme="hc" data-locale="en-us" data-action="signin" data-auth-origin="5702657527708,true,true"></script>
+</body>
+</html>
+[datagerry-panel] Dumped HTTP response http://techsupport.bitpanda.com/auth
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache
+Cache-Control: no-cache
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66e3f1c9ebec0-IAD
+Content-Language: en-us
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:16 GMT
+Location: https://techsupport.bitpanda.com/hc/restricted?return_to=https%3A%2F%2Ftechsupport.bitpanda.com%2Fhc%2F404
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Protocol: HTTP/1.1 always
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=kZppT4CYenlVBxY8FjR8ORVXofIJ1BVVCEZFLLxexz13kjA21dks7OSwJ8hkKdMakRktXGQbVdwmO%2BBktYYeIVzFPe9YqoIy9r8TTVoRufC%2FQOI8oNRvX1EibTGu%2Fj7I761%2F1ZyedT4%2BdQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: _zendesk_authenticated=; path=/; expires=Thu, 01 Jan 1970 00:00:00 GMT; secure; HttpOnly; SameSite=None
+Set-Cookie: _zendesk_session=MRnCAArZ9DgSibwsqFAWh22ZMNSyXfOwkqGGJehZrcAD42g%2FQ%2Fqh%2Bn38XCaqPFkFpKKZKDvIcSLSX4gIRcclgtPPKqO8PHO7Tn29GYlhV%2F8RgxyH8RyeHq%2Bt9rGi%2F%2FxDApWTSu29G8orYRPy%2FBRHpPaiNxEI%2BmBj2x2IZzpGu3Zqf1bAKVf%2FqPg5nymIceHUqiw7JSCt4dGAJgtwa6OhAfcV0GXneoqVsBeXhQinWARypblX--WiGol21Bw%2B1ZKRsh--MlOQUEwoyoADnWGNC1jUPA%3D%3D; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: _help_center_session=REc3bktYRm0vRHhaejZRY254V3RwdGJobnFhRjhTMThUOXZYUUdrR1BxK3FDV0twMjd3MUMwY1h3SVRNNnBnMGtteVk5dmVUNTZwcWhJbWNsY3k5dU83T2VmWGQwbDJUWHhBRElpOWZvZy9IbCtkbzBjVHRma1FjY2J1eXhBeWgtLW5RdG9XRFBsSnduOG9WSUhYRFFRT0E9PQ%3D%3D--03e95eaf08d412e3deef758d21c40793f57f7ad5; path=/; secure; HttpOnly; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: zorg
+X-Envoy-Decorator-Operation: /hc/404
+X-Envoy-Upstream-Service-Time: 41
+X-Request-Id: 96a66e3f1c9ebec0-FRA
+X-Runtime: 0.035514
+X-Ua-Compatible: IE=edge
+X-Zendesk-Origin-Server: app-server-759bdc4498-kmv4n
+X-Zendesk-Processed-Host-Header: techsupport.bitpanda.com
+X-Zendesk-Zorg: yes
+Zendesk-Service: help-center
+
+
+[datagerry-panel] Dumped HTTP response http://techsupport.bitpanda.com/auth
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66e3eca1bc926-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:15 GMT
+Expires: Tue, 05 Aug 2025 13:52:15 GMT
+Location: https://techsupport.bitpanda.com/auth
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=F%2FG75MSsoikOkez6eW%2BTQioRoWJ%2FLOxtXqWmwjGZt8vD%2BtGwxmERYi9PLTQRYjtB6LX2rtZbTHg1PubBc3aQmF0zbDsZDfRkX2w5bxanpUHwAEhDbffbzq1VEyoUp5KCxpSBIDT6dqD6rg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=UGbjqJYqfWOxscX5K1r3gKlOt80GlyWreN8WK.hRoi4-1754398335-1.0.1.1-q8yiivg1Y1jHFV_j24hUC4x.OvjqQMtFtUf5gGFgJunsexQG6Dczm.UjuZxsUdlMBEYShkyY5ha6_GMvvImLdXDOiirKbteDgCkrc7hpUqI; path=/; expires=Tue, 05-Aug-25 13:22:15 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=1v_lAO5bjVSFeq7QvK.U.hwtLqcloERjlCvwxoxyeoA-1754398335825-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+
+[datagerry-panel] Dumped HTTP request for http://techsupport.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[datagerry-panel] Dumped HTTP response http://techsupport.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, public
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66e53094e7af0-IAD
+Content-Language: en-us
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:19 GMT
+Location: https://techsupport.bitpanda.com/hc/en-us
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Protocol: HTTP/1.1 always
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=vs1rxxb1QUJ7KAWxIJWM03Mst%2F%2BWE4t7wk8ZN0zsQBOmzDhiH83cVzkUV17MSasQyeJIYp0Z8xD8203ta%2FkIzumSpFR37TN4vIyr5Ik3asSIcknB%2Bm4NB12i85%2FjYNTA4z3vUh33aEGjoA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=mCwGOS.KWAuhq8rsmzf.AIfY4eJSpnjxwrLnG2_Xy_g-1754398339-1.0.1.1-QHGoFdUlbShPq6kCrJgrHmlbw3QlSAN9.X1lpTk2yRw_0BvY8iIc031FgIBd1ErZd5k6ma9xMQzyVD7xuA2niCnw7edW4tw492QNQx3ya9c; path=/; expires=Tue, 05-Aug-25 13:22:19 GMT; domain=.techsupport.bitpanda.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: _cfuvid=lnX.u83LFJjkUszw6Mz8BBYUjJIMhKS.mS2lpXQK1jM-1754398339244-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: zorg
+X-Envoy-Decorator-Operation: /hc
+X-Envoy-Upstream-Service-Time: 38
+X-Frame-Options: SAMEORIGIN
+X-Request-Id: 96a66e53094e7af0-IAD
+X-Runtime: 0.029404
+X-Ua-Compatible: IE=edge
+X-Xss-Protection: 1; mode=block
+X-Zendesk-Origin-Server: app-server-759bdc4498-9vxnr
+X-Zendesk-Zorg: yes
+Zendesk-Service: help-center
+
+
+[datagerry-panel] Dumped HTTP response http://techsupport.bitpanda.com
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66e51caf71779-IAD
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:19 GMT
+Location: https://techsupport.bitpanda.com/hc
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=i3IA4dNEBteNc3qw2A5iHp3%2FTk2i7C7AO63W4g6r5Oh%2FzrKhq%2BpG%2FueFhs2wsvaJYGt7aIbGCXPS%2BZVksyKgMtVYhRMke%2BuT1QgDaPmZci%2FB7vGpN6fN5vAEquw93OtrimFFuO1m8XPdgw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: _help_center_session=S3VHcG5IbXUrTW05N204S2N3VUxvMXFuUmNpT0FnUmlHTy9DcXF5bTZFYnVTRkhnNjdhTS9PQ3lXSXI3cDBMQUp2QmwvSi9FOGRnYStrLzNDeCt3T0tUUEtTdFAveWU5RTJNdEk5b2tmQ1VKMm1qT2JURWdwWVRtVkczZnJOb1VUWkZubU15TndEQWdjYzNpNkM2SGNnK1BnRlVLcWFJYnJMMzREcDU4aS8xbWFjSmpaczZMUHUvTjNWZlhvY0J0UjJ2WitwZzgyNzRic2NETUluUm8rQT09LS1nZmJCMjU0NUdRZkYrU252Nm1icUtBPT0%3D--cfa46ddca617a641a6bef3ed67c8b879438a8fae; path=/; secure; HttpOnly; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: zorg
+X-Envoy-Decorator-Operation: /
+X-Envoy-Upstream-Service-Time: 23
+X-Request-Id: 96a66e51caf71779-FRA
+X-Runtime: 0.018960
+X-Ua-Compatible: IE=edge
+X-Zendesk-Origin-Server: app-server-759bdc4498-9vscj
+X-Zendesk-Processed-Host-Header: techsupport.bitpanda.com
+X-Zendesk-Zorg: yes
+Zendesk-Service: help-center
+
+
+[datagerry-panel] Dumped HTTP response http://techsupport.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66e517912d6d5-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:18 GMT
+Expires: Tue, 05 Aug 2025 13:52:18 GMT
+Location: https://techsupport.bitpanda.com/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=gH9GO4yBNxh4ipPc0tz3nLx6MLnUKKbCUQIVYAHNfL1k3iUCf0COpxRf1nmYVF4BYlodYenxE9N1IZfzIioZm98OlnAFQYBKAHlGFTxhDF1N%2BtAB%2Fs%2BfUG%2FErBmQijsywQGUslHnUoaP8w%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=dxEdVSiM60RuhhukoqkdbiXK4xBwKEAdk7mPl46acP0-1754398338-1.0.1.1-Z6d6Vx7ai9ehyWOkWQZHKhFx2my3t7zKatkKTCb0VCutPCMfmCTM5vZbZOmoCOl0Lqab.pO7D0jR8JjQpELTkKdDwzBpr7Ek4JVXdTqfeA4; path=/; expires=Tue, 05-Aug-25 13:22:18 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=o1.Uk0tDhUWshe6uZLHSruiKhVdNygmufI3gJOljcJs-1754398338809-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+

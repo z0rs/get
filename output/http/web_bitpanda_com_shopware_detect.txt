@@ -1,0 +1,72 @@
+[shopware-detect] Dumped HTTP request for http://web.bitpanda.com/admin
+
+
+GET /admin HTTP/1.1
+Host: web.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[shopware-detect] Dumped HTTP response http://web.bitpanda.com/admin
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a672dd9ec2c997-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:55:25 GMT
+Expires: Tue, 05 Aug 2025 13:55:25 GMT
+Location: https://web.bitpanda.com/admin
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[shopware-detect] Dumped HTTP request for http://web.bitpanda.com/backend
+
+
+GET /backend HTTP/1.1
+Host: web.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[shopware-detect] Dumped HTTP response http://web.bitpanda.com/backend
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a672fe0cd77048-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:55:30 GMT
+Expires: Tue, 05 Aug 2025 13:55:30 GMT
+Location: https://web.bitpanda.com/backend
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

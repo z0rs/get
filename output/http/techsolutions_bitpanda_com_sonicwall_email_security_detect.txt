@@ -1,0 +1,31 @@
+[sonicwall-email-security-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/favicon.ico
+
+
+GET /favicon.ico HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[sonicwall-email-security-detect] Dumped HTTP response https://techsolutions.bitpanda.com/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Age: 27
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:46 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 6744171422c4a271f6b0fe32071ae980.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: DHx1R1mDojg7w9Uw_zjw6hYGtEF2TqA035nQGoIPzEeeRfmy4MHxEA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: eaaG2/2K3iw8vuV08TOmJnBEmche2GhZbPWlsdVeG36r+W0EQg9PNRNLlp5CIp3KJJRX4q3MVsE=
+X-Amz-Request-Id: XQ7RQWXRQ740CY4W
+X-Cache: Error from cloudfront
+
+Not Found

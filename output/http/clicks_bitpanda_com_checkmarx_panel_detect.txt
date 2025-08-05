@@ -1,0 +1,116 @@
+[checkmarx-panel-detect] Dumped HTTP request for https://clicks.bitpanda.com/cxrestapi/help/system/version
+
+
+GET /cxrestapi/help/system/version HTTP/1.1
+Host: clicks.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[checkmarx-panel-detect] Dumped HTTP response https://clicks.bitpanda.com/cxrestapi/help/system/version
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66944af09e76c-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:48:51 GMT
+Expires: Tue, 05 Aug 2025 13:48:51 GMT
+Location: https://eu.spgo.io/cxrestapi/help/system/version
+Server: cloudflare
+Set-Cookie: _cfuvid=xukb7F1qoWPu8AjBG_BjGJ6BQAHXA6RD3dEftNy_4_8-1754398131959-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[checkmarx-panel-detect] Dumped HTTP request for https://clicks.bitpanda.com/cxwebclient/Login.aspx
+
+
+GET /cxwebclient/Login.aspx HTTP/1.1
+Host: clicks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=gSrd33z3lUJaolK1WNxZK2c1QXk0ZG6ZiJtMc7IdiNA-1754398132011-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[checkmarx-panel-detect] Dumped HTTP response https://clicks.bitpanda.com/cxwebclient/Login.aspx
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6696349fb0ca1-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:48:56 GMT
+Expires: Tue, 05 Aug 2025 13:48:56 GMT
+Location: https://eu.spgo.io/cxwebclient/Login.aspx
+Server: cloudflare
+Set-Cookie: _cfuvid=v3SVbF4PF.G2Q9CYLGjFsbMDvEHvPSyxVbJ.1sKFm3Q-1754398136858-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[checkmarx-panel-detect] Dumped HTTP request for https://clicks.bitpanda.com/cxrestapi/auth/identity/.well-known/openid-configuration
+
+
+GET /cxrestapi/auth/identity/.well-known/openid-configuration HTTP/1.1
+Host: clicks.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=XdvJoG9Qlr20GcfcW7uU.a7zcpl3r9Xdao.DwYuxnJU-1754398141870-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[checkmarx-panel-detect] Dumped HTTP response https://clicks.bitpanda.com/cxrestapi/auth/identity/.well-known/openid-configuration
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669951c01d1bc-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:04 GMT
+Expires: Tue, 05 Aug 2025 13:49:04 GMT
+Location: https://eu.spgo.io/cxrestapi/auth/identity/.well-known/openid-configuration
+Server: cloudflare
+Set-Cookie: _cfuvid=LTBHlzoXbvH1DRmw6KAAa5tACLaQDe6WBVoQKY1C.Jk-1754398144829-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

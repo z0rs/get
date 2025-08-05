@@ -1,0 +1,76 @@
+[thinkphp-detect] Dumped HTTP request for http://ff.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=a2xz4lgJwXVUjw9VGHFI7DRhvyteZNtywZgrOxLtJ0Y-1754398443646-0.0.1.1-604800000; GCLB="f70770fde54d0876"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[thinkphp-detect] Dumped HTTP response http://ff.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670ed2f42d641-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:05 GMT
+Expires: Tue, 05 Aug 2025 13:54:05 GMT
+Location: https://ff.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=aRCvIDvb7wIi9ZBXPux1bZHNr5pbiqfOdOoeYoH_L0g-1754398445641-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[thinkphp-detect] Dumped HTTP request for http://ff.bitpanda.com/?s=30rugxjE3kDnnOiVI5afn5QjRsY&c=30rugxjE3kDnnOiVI5afn5QjRsY&a=30rugxjE3kDnnOiVI5afn5QjRsY&m=30rugxjE3kDnnOiVI5afn5QjRsY
+
+
+GET /?s=30rugxjE3kDnnOiVI5afn5QjRsY&c=30rugxjE3kDnnOiVI5afn5QjRsY&a=30rugxjE3kDnnOiVI5afn5QjRsY&m=30rugxjE3kDnnOiVI5afn5QjRsY HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=aRCvIDvb7wIi9ZBXPux1bZHNr5pbiqfOdOoeYoH_L0g-1754398445641-0.0.1.1-604800000; GCLB="d54b31bbffa5ac2c"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[thinkphp-detect] Dumped HTTP response http://ff.bitpanda.com/?s=30rugxjE3kDnnOiVI5afn5QjRsY&c=30rugxjE3kDnnOiVI5afn5QjRsY&a=30rugxjE3kDnnOiVI5afn5QjRsY&m=30rugxjE3kDnnOiVI5afn5QjRsY
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6711a0e7cc974-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:12 GMT
+Expires: Tue, 05 Aug 2025 13:54:12 GMT
+Location: https://ff.bitpanda.com/?s=30rugxjE3kDnnOiVI5afn5QjRsY&c=30rugxjE3kDnnOiVI5afn5QjRsY&a=30rugxjE3kDnnOiVI5afn5QjRsY&m=30rugxjE3kDnnOiVI5afn5QjRsY
+Server: cloudflare
+Set-Cookie: _cfuvid=sI5ZT0.vLXrNBamoei5suABv2eut54JFJQP82_c9TZs-1754398452960-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

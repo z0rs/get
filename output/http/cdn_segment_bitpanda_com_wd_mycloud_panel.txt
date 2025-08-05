@@ -1,0 +1,44 @@
+[wd-mycloud-panel] Dumped HTTP request for https://cdn-segment.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: cdn-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=IvFHyD.eMUrF6V4Un8i7EUkj8tuWg2NjlSwjytMc63I-1754398175414-0.0.1.1-604800000; _cfuvid=GEIYF0dWMZqKRy9cypZeUfz6f_JPs4o65C5FHxqPjUc-1754398176606-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wd-mycloud-panel] Dumped HTTP response https://cdn-segment.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Methods: GET, HEAD
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 3000
+Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a5d0898825c-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:36 GMT
+Etag: W/"328257380186d550f96adf638ff85092"
+Last-Modified: Fri, 27 Jun 2025 03:51:28 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=ZstoxXy5VtPVB1Hm_hdMi.Ijjb1Vtf.o4eZyERYxUsc-1754398176917-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: accept-encoding
+Via: 1.1 6784ac36b8d920a78daf15294a50025e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: gTYQPY5cVSBapMC5o29Lkt4bvt_fpDRBAecHnZCgfc6B7YNV25mEhw==
+X-Amz-Cf-Pop: IAD79-C3
+X-Amz-Replication-Status: COMPLETED
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: 6NYlJnma9WPyl0MUFm2tNo8C1GzqJZih
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+Cannot GET - Invalid path or write key provided.
+

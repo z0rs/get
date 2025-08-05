@@ -1,0 +1,38 @@
+[apache-ozone-detect] Dumped HTTP request for https://advanced.bitpanda.com/static/
+
+
+GET /static/ HTTP/1.1
+Host: advanced.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _ava_csrf=MTc1NDM5ODEzMnxJbTFLV2xOYU0xQXpaVk0yTVRnNGQwZE5VVkpDVVRGSFltRklkRGQ1VGtkbFVIZ3ZjRVV2VG1KWloyTTlJZ289fKJP_4w0njSvNJIudSGTj5zmPLvdwX5aErvdGNks_7hG; csrf=MTc1NDM5ODE0NXxLVXlQN2FUdk1OLUhDSWN0MWQ2Zk04bm9SUXhwZEp6LU55M1RFRjlsQ09XOUlUcXk0bDFValEyY2txamJLbzdsSF9VQ2VvVTNVcEVNVDEyUzIyVk9hWGZEX1U1dTJHb0pGWnl5RFhaajdFSHI0NEJWZnN6ckIzaEQxLWM4bTdaZWg3QT18NKmNh_3ygv5O0OdgGpR_1oZNkq62F-Auz2a2BjbL_7Y=
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-ozone-detect] Dumped HTTP response https://advanced.bitpanda.com/static/
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 153
+Alt-Svc: clear
+Content-Security-Policy: default-src 'self'; base-uri 'self'; script-src 'self' 'unsafe-inline' https: *.talos.com sentry.io widget.intercom.io js.intercomcdn.com; style-src 'self' 'unsafe-inline' https: fonts.googleapis.com; style-src-elem 'self' 'unsafe-inline' https: fonts.googleapis.com; img-src 'self' data: storage.googleapis.com blob: advanced.bitpanda.com fusion.bitpanda.com fusion.institutional.bitpanda.com cdnjs.cloudflare.com/ajax/libs/twemoji/; font-src 'self' data: fonts.googleapis.com fonts.gstatic.com; frame-src 'self' blob: *.talostrading.com *.talos.com advanced.bitpanda.com fusion.bitpanda.com fusion.institutional.bitpanda.com; worker-src 'self' blob:; connect-src wss: sentry.io *.sentry.io *.datadoghq.com browser-intake-datadoghq.com *.browser-intake-datadoghq.com *.intercom.io *.mixpanel.com cdnjs.cloudflare.com/ajax/libs/twemoji/ advanced.bitpanda.com fusion.bitpanda.com fusion.institutional.bitpanda.com
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:19 GMT
+Server: nginx/1.29.0
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 google
+X-Cache: miss
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+<html>
+<head><title>403 Forbidden</title></head>
+<body>
+<center><h1>403 Forbidden</h1></center>
+<hr><center>nginx/1.29.0</center>
+</body>
+</html>
+

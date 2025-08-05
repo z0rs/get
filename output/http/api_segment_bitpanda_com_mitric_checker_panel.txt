@@ -1,0 +1,58 @@
+[mitric-checker-panel] Dumped HTTP request for https://api-segment.bitpanda.com/QSA/Login.aspx
+
+
+GET /QSA/Login.aspx HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=SGLm4tMj5Y53suo5tWu6yL1GUiFdDgrTXxB9ys4Vq.g-1754398144097-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[mitric-checker-panel] Dumped HTTP response https://api-segment.bitpanda.com/QSA/Login.aspx
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c0faac2896-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:11 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=MREPQ5dPpWbU6NsfWCH9N31Ii4_4v1sealaD2dKSiss-1754398151966-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[mitric-checker-panel] Dumped HTTP request for https://api-segment.bitpanda.com/API/External/GetPrivacy
+
+
+GET /API/External/GetPrivacy HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=MdzEB06xh0_Rrx3.VqjA7FwEA5LD5rF2mn50rLGaYbM-1754398154116-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[mitric-checker-panel] Dumped HTTP response https://api-segment.bitpanda.com/API/External/GetPrivacy
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e67cea598c-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:17 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=20q56BfpenpYwiOWSi41tRwTohcqgS4VhVSQQe2zXZQ-1754398157939-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

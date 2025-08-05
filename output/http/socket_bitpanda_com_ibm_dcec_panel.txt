@@ -1,0 +1,38 @@
+[ibm-dcec-panel] Dumped HTTP request for https://socket.bitpanda.com/teamserver/faces/login.jsp
+
+
+GET /teamserver/faces/login.jsp HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=pTwbsH6D/iU49VxOK9pJOL96oG93eEZjgHESVZSQV13h4nk5PtahVHqOUQWNECKxjGi1WO7I7KQaGvbEZxWH5pdvpWnNfh4pNQnJlJ4EBCn8+C3Z5OUz5tonuzFq; AWSALBCORS=pTwbsH6D/iU49VxOK9pJOL96oG93eEZjgHESVZSQV13h4nk5PtahVHqOUQWNECKxjGi1WO7I7KQaGvbEZxWH5pdvpWnNfh4pNQnJlJ4EBCn8+C3Z5OUz5tonuzFq
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ibm-dcec-panel] Dumped HTTP response https://socket.bitpanda.com/teamserver/faces/login.jsp
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:14 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=DQwmDPE/O1EtiqtvkFL/SRmE5L4DvCL1QN/XtrjgH3wIvEkDe6IK9xn6YmhGk+bOZG/GKqpFQmTVcjWuPOt7xWUm2h98SJgVNgvnPnhj0km+noLkR65fz8y8YrGD; Expires=Tue, 12 Aug 2025 12:52:14 GMT; Path=/
+Set-Cookie: AWSALBCORS=DQwmDPE/O1EtiqtvkFL/SRmE5L4DvCL1QN/XtrjgH3wIvEkDe6IK9xn6YmhGk+bOZG/GKqpFQmTVcjWuPOt7xWUm2h98SJgVNgvnPnhj0km+noLkR65fz8y8YrGD; Expires=Tue, 12 Aug 2025 12:52:14 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 b052b62106bf04b3d8195399a6b77186.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: ecdOSdT9Jpx_a5iZiK6FVv8OpRmk6NyGO0NKHX_Kjnv9GWzWXjDJ1w==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 2
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

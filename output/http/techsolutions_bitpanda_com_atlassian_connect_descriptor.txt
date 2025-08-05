@@ -1,0 +1,30 @@
+[atlassian-connect-descriptor] Dumped HTTP request for https://techsolutions.bitpanda.com/atlassian-connect.json
+
+
+GET /atlassian-connect.json HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/111.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[atlassian-connect-descriptor] Dumped HTTP response https://techsolutions.bitpanda.com/atlassian-connect.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:31 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 6744171422c4a271f6b0fe32071ae980.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 1xRUpKUE2HJTwIWeTA95wkLjX0lVESs3PQn24_62qdF-o4Pe-oXttQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: lnuprZdxHtoJMsSjbqK+CbnkVWSxwPdRRtQCecQOX4PANlNK5O99rXjk6FqcCry0P62M6NoRsXz0Wu35kGo0Kw==
+X-Amz-Request-Id: W303DX01CJ4N6SA7
+X-Cache: Error from cloudfront
+
+Not Found

@@ -1,0 +1,44 @@
+[webtransfer-client-panel] Dumped HTTP request for https://cdn-segment.bitpanda.com/ThinClient/WTM/public/index.html
+
+
+GET /ThinClient/WTM/public/index.html HTTP/1.1
+Host: cdn-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=IvFHyD.eMUrF6V4Un8i7EUkj8tuWg2NjlSwjytMc63I-1754398175414-0.0.1.1-604800000; _cfuvid=GEIYF0dWMZqKRy9cypZeUfz6f_JPs4o65C5FHxqPjUc-1754398176606-0.0.1.1-604800000; _cfuvid=ZstoxXy5VtPVB1Hm_hdMi.Ijjb1Vtf.o4eZyERYxUsc-1754398176917-0.0.1.1-604800000; _cfuvid=uMMrkWnXFONTFREsxFjtwuPsH7YmE4TTeVa6_fRzTzg-1754398182215-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[webtransfer-client-panel] Dumped HTTP response https://cdn-segment.bitpanda.com/ThinClient/WTM/public/index.html
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Methods: GET, HEAD
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 3000
+Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a829b5c2051-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:43 GMT
+Etag: W/"328257380186d550f96adf638ff85092"
+Last-Modified: Fri, 27 Jun 2025 03:51:28 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=R6BVxYpLo0H635nNFPhKP_xGBB3Cs7AaDq3tnJ5xRk0-1754398183216-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: accept-encoding
+Via: 1.1 a0042b5b0abdf83ac753e9d8be59e4e4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 8BeOyNUjV-kArqXQsnNjpM68QesbToGX_1j5lOvwpVsYeOQg04H_Rw==
+X-Amz-Cf-Pop: IAD79-C3
+X-Amz-Replication-Status: COMPLETED
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: 6NYlJnma9WPyl0MUFm2tNo8C1GzqJZih
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+Cannot GET - Invalid path or write key provided.
+

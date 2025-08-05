@@ -1,0 +1,76 @@
+[ivanti-epm-detect] Dumped HTTP request for https://socket.bitpanda.com/favicon.ico
+
+
+GET /favicon.ico HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=qPBD4lwSv/Ak5rGYZbFLPzffB0gmiNGj8vFlEFJD20wjT0Cy/IHQ6n+dp6qLmghRNhSKj145T0DghTroq3iqnHB64TvfiwxKUIgiwI5I+lQIBZWGO/gG/okjDvlE; AWSALBCORS=qPBD4lwSv/Ak5rGYZbFLPzffB0gmiNGj8vFlEFJD20wjT0Cy/IHQ6n+dp6qLmghRNhSKj145T0DghTroq3iqnHB64TvfiwxKUIgiwI5I+lQIBZWGO/gG/okjDvlE
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ivanti-epm-detect] Dumped HTTP response https://socket.bitpanda.com/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:31 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=/EVAgt71h8lYZ0toVA9NtD57HCTSyTiz/Wlrfu45VtjjO8bhxdxN6jD3zzoTWQnqJPTqXE+BNKIwdsMLJxdlpa1AvcPxFR3LfCYZAa1+r06RbcQIcRgUaGfXBml1; Expires=Tue, 12 Aug 2025 12:52:31 GMT; Path=/
+Set-Cookie: AWSALBCORS=/EVAgt71h8lYZ0toVA9NtD57HCTSyTiz/Wlrfu45VtjjO8bhxdxN6jD3zzoTWQnqJPTqXE+BNKIwdsMLJxdlpa1AvcPxFR3LfCYZAa1+r06RbcQIcRgUaGfXBml1; Expires=Tue, 12 Aug 2025 12:52:31 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 ff071fa99e74a44c6556cef90e125ca8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: FmT4aHa5t6AEGFrThXh4op5GBAUW_i_-sc1to3FgEfjadcJl6ziSRw==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 4
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[ivanti-epm-detect] Dumped HTTP request for https://socket.bitpanda.com/images/favicon.ico
+
+
+GET /images/favicon.ico HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_16) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=5QJ0hAKp7ccguS4kN0k44r1ccB51nO/HgCFK0uszLrNpxOwfumCPNxdEWM6y/bzGlbbnhRtPGKoiODqGd/Pddp7SDp5yUzSOunnCzFF2a/1oBsAMTDoB7ISdtKVm; AWSALBCORS=5QJ0hAKp7ccguS4kN0k44r1ccB51nO/HgCFK0uszLrNpxOwfumCPNxdEWM6y/bzGlbbnhRtPGKoiODqGd/Pddp7SDp5yUzSOunnCzFF2a/1oBsAMTDoB7ISdtKVm
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ivanti-epm-detect] Dumped HTTP response https://socket.bitpanda.com/images/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:33 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=12jNbEuO6LS/68j5MMT88HvRSE+K8ZgjEyNjuq1GIeuLSOnGb0vXiiKSdG7vDUBWSAnyZPtwyh8uFTYBu7H8d4GyRZWr9wBZhX8Whh6K7PMBD4WYlCC3hrYCS/zZ; Expires=Tue, 12 Aug 2025 12:52:33 GMT; Path=/
+Set-Cookie: AWSALBCORS=12jNbEuO6LS/68j5MMT88HvRSE+K8ZgjEyNjuq1GIeuLSOnGb0vXiiKSdG7vDUBWSAnyZPtwyh8uFTYBu7H8d4GyRZWr9wBZhX8Whh6K7PMBD4WYlCC3hrYCS/zZ; Expires=Tue, 12 Aug 2025 12:52:33 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 359b6b96f5bc39c3c18c245a5430d31c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: aVI5yomt90IfWjGlNzca1nxL6D6XEsExEUgxGiXRoLNfOzvhLWZ9yQ==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 6
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

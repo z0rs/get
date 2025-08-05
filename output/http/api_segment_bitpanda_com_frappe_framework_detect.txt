@@ -1,0 +1,43 @@
+[frappe-framework-detect] Dumped HTTP request for https://api-segment.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=st5eQwNc3nYhR8XawQ27XMDJGe23EZK0i3Lx_EkiNFU-1754398177091-0.0.1.1-604800000; _cfuvid=UneCN9VhFASCzs.xWanT.nv_HQzuFJ7QCCMbrKPhQ58-1754398178488-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[frappe-framework-detect] Dumped HTTP response https://api-segment.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a698e30c981-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:38 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=ZWEep7nIpOS6vj6tXI3QlgGDcgoNuVHsQp2zpmpLIsU-1754398178921-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[frappe-framework-detect] Dumped HTTP request for https://api-segment.bitpanda.com/about
+
+
+GET /about HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/117.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=SkEHEDh.DT3NFiCF9RL0fYj6C0rRzLvSSQj4SUIADik-1754398184670-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

@@ -1,0 +1,30 @@
+[wiki-js-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/_assets/js/app.js
+
+
+GET /_assets/js/app.js HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wiki-js-detect] Dumped HTTP response https://techsolutions.bitpanda.com/_assets/js/app.js
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:48 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 cb2d413167decc675714b9b5dec4ad88.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: N48F-oRUTE2W8scNIzYcZRLkZurrdHU_v_GHAzFNrv4rbSfRPPXHww==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: FybQ3NlFl3d71Ul5RvF/PBcuEC+KDRzvtVnVcqkB2LVhfC2/VnlQNWCwzinpkfrBmOzi+TI+wIQDDFT5TY6BEKPLv7HMEi8/
+X-Amz-Request-Id: XXNR3QEC8T08N3P8
+X-Cache: Error from cloudfront
+
+Not Found

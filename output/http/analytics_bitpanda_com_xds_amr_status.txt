@@ -1,0 +1,29 @@
+[xds-amr-status] Dumped HTTP request for https://analytics.bitpanda.com/login.php
+
+
+GET /login.php HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=UBKkfaloLGlmxruZLRg3iFgi7Rw7q1KRx4svYlKjmoY-1754398167333-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[xds-amr-status] Dumped HTTP response https://analytics.bitpanda.com/login.php
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Content-Length: 19
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a275a3adda6-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:28 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=STY85_1J_Pi.MO_nbE00eyzStHkMvR2.IkX_jM9FC50-1754398168330-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+
+no healthy upstream

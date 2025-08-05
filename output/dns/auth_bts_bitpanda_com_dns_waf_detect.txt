@@ -1,0 +1,34 @@
+[dns-waf-detect] Dumped DNS request for auth-bts.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 33320
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;auth-bts.bitpanda.com.	IN	 CNAME
+
+[dns-waf-detect] Dumped DNS response for auth-bts.bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 33320
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 512
+
+;; QUESTION SECTION:
+;auth-bts.bitpanda.com.	IN	 CNAME
+
+;; ANSWER SECTION:
+auth-bts.bitpanda.com.	300	IN	CNAME	d2aarpggca4khg.cloudfront.net.
+
+[dns-waf-detect] Dumped DNS request for auth-bts.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 43659
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;auth-bts.bitpanda.com.	IN	 NS
+

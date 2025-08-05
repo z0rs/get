@@ -1,0 +1,64 @@
+[graphql-wpgraphql-detect] Dumped HTTP request for https://bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0
+Connection: close
+Content-Length: 41
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ooZVFcmEPbbMxOFD3xpOsANFs6pQVByWT48C39JEmmc-1754398228825-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query { alias1$1:__typename }"}
+[graphql-wpgraphql-detect] Dumped HTTP request for https://bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 41
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=jvpapqLYwqNAH0cfoe7mEy_s6iWfjhjZ1EyWsISEXy0-1754398243824-0.0.1.1-604800000; _cfuvid=KjGDjLQJCUnrJ88IKq8A8zw1XB.KjsaVqTLhhijEjhY-1754398258959-0.0.1.1-604800000; _cfuvid=.g6RgPO8soA_6CSF7BkRxOxK76UzIcQupQsomKsrHHs-1754398274794-0.0.1.1-604800000; _cfuvid=.g6RgPO8soA_6CSF7BkRxOxK76UzIcQupQsomKsrHHs-1754398274794-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query { alias1$1:__typename }"}
+[graphql-wpgraphql-detect] Dumped HTTP request for https://bitpanda.com/query
+
+
+POST /query HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.1 Safari/605.1.15
+Connection: close
+Content-Length: 41
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=I9FDDLv.QGOQkTx0uxC4YulnDQz8P.Gdkgh5GI0Ns70-1754398287959-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query { alias1$1:__typename }"}
+[graphql-wpgraphql-detect] Dumped HTTP request for https://bitpanda.com/
+
+
+POST / HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0
+Connection: close
+Content-Length: 41
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=usU4WRjUKqppHecydu8Dn9gc6ZKzA51HW_UYQDSYLSw-1754398306563-0.0.1.1-604800000; _cfuvid=CPEZ2TwX0HSw73FS7HJ12Wjj5wylK1_7RrOlQczUIMc-1754398321920-0.0.1.1-604800000; _cfuvid=mZIyCsLRFpesfpq4kp6A3Za2xF.BFX8.xFugQVXg0wY-1754398335831-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query { alias1$1:__typename }"}

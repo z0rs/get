@@ -1,0 +1,70 @@
+[gcloud-access-token] Dumped HTTP request for https://status.techsolutions.bitpanda.com/access_tokens.db
+
+
+GET /access_tokens.db HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/121.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[gcloud-access-token] Dumped HTTP response https://status.techsolutions.bitpanda.com/access_tokens.db
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 6d146d72-c55e-4948-ba91-b060ddcc7a67
+Atl-Traceid: 6d146d72c55e4948ba91b060ddcc7a67
+Date: Tue, 05 Aug 2025 12:53:15 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=4,atl-edge-upstream;dur=62,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 6c2e384f59feb64a0c739aee7f890066.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: UtIDKIH0O38Ey_0r8Yr3OSXVZKq4rFRLZvItPb1z_8JtzhamY5NhdQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 148526775
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[gcloud-access-token] Dumped HTTP request for https://status.techsolutions.bitpanda.com/.config/gcloud/access_tokens.db
+
+
+GET /.config/gcloud/access_tokens.db HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh: Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[gcloud-access-token] Dumped HTTP response https://status.techsolutions.bitpanda.com/.config/gcloud/access_tokens.db
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: f4b784e4-e9ba-4117-832f-e5e8b8e4ec8f
+Atl-Traceid: f4b784e4e9ba4117832fe5e8b8e4ec8f
+Date: Tue, 05 Aug 2025 12:53:15 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=3,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 b13c6d10b44fd12a68a8ca01d540a750.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: dtUstx7_-Mil6rEbrzd5RqQY6GT4Jst1hEst6bK2qkyfWR4mYfyuhg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 87763470
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

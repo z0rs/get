@@ -1,0 +1,35 @@
+[kenesto-login] Dumped HTTP request for https://status.techsolutions.bitpanda.com/Kenesto/Account/LogOn?ReturnUrl=%2fkenesto
+
+
+GET /Kenesto/Account/LogOn?ReturnUrl=%2fkenesto HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686; rv:127.0) Gecko/20100101 Firefox/127.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[kenesto-login] Dumped HTTP response https://status.techsolutions.bitpanda.com/Kenesto/Account/LogOn?ReturnUrl=%2fkenesto
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 0269befe-468f-417f-a259-97cab47b0ba0
+Atl-Traceid: 0269befe468f417fa25997cab47b0ba0
+Date: Tue, 05 Aug 2025 12:52:12 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 5bbbde7889bb9c7247f5924a32d2fdf0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: EuHK-8PpX8QvuKOXcUd11N-vl5ePln1yOgx7ZX0qdt0hUGw16QBIkQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 166307689
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

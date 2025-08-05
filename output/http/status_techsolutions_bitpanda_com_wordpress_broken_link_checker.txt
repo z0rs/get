@@ -1,0 +1,35 @@
+[wordpress-broken-link-checker] Dumped HTTP request for https://status.techsolutions.bitpanda.com/wp-content/plugins/broken-link-checker/readme.txt
+
+
+GET /wp-content/plugins/broken-link-checker/readme.txt HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/107.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=VllZUGVpKzU3eWcwaURtS0gycE5MWTQ0a1grZC9HRkJ2MGJqN1RKbTZkZWxxazRvU0RMeWtsc2s4MzQyaThwVk13UUZzS0VnUUpKRnozUm5NMm9sR1U2NGJHUlAyZ1c4RktuczBwcDlHeVE5bTZ6ZFoyL1hkMGVvTEZVbVBrbzdGZVROa2g3c3hYV1AxTXFQdDN2L2hMV1laQ2E0cTJpTC9OSFZyOVNRZVBsVHdrN0s0K2tTeGI3RFlQZDFxQnlFTUxyclp5YmhDM0RKd2huNzdmMFhvVURUYWlYbm9RUHg3WVdQMFdZNWNwRT0tLW1qYzZKVVUrY1Z4QTVZdkxwWWh3NWc9PQ%3D%3D--2168904fc82f1b48896f78f180497b0a3e3f95fd
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-broken-link-checker] Dumped HTTP response https://status.techsolutions.bitpanda.com/wp-content/plugins/broken-link-checker/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 7427fa05-b1a9-474a-afd1-1e2f7424b6a3
+Atl-Traceid: 7427fa05b1a9474aafd11e2f7424b6a3
+Date: Tue, 05 Aug 2025 12:52:38 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=67,atl-edge-internal;dur=4,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 ffa8ec5cfe61dcaaebc108ff8c867054.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: l21pRHyzV7A0dkYvaQwK44r964Pi5c1-t4jtuNcl5Z9zwvNBvO4pLQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 150832732
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

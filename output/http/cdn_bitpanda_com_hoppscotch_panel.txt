@@ -1,0 +1,50 @@
+[hoppscotch-panel] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/601.6.17 (KHTML, like Gecko) Version/9.1.1 Safari/601.6.17
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=JrpMD3auRS0aQw6liNbLWwODmOhUtFH3hGY39W8j2bI-1754398144828-0.0.1.1-604800000; _cfuvid=8aaqf7d4LENQMAC0Cb7MStyyfVTnVaOBMaFE4HucoL0-1754398161810-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[hoppscotch-panel] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669ffbfb7d70b-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:21 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 c57d1eb27f41d3e95fc5060845849c06.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: SWUt1UJS_X4_MVw9OexItXQU9mmGPcsfLPg2lNUkx9VuouqgxDdzDg==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[hoppscotch-panel] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669ff6a9dd67c-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:21 GMT
+Expires: Tue, 05 Aug 2025 13:49:21 GMT
+Location: https://cdn.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=gAh_7aUbukEbrhptzFaGpTjR3_jlpGAhKyOoBHhBApM-1754398161850-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

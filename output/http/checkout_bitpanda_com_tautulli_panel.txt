@@ -1,0 +1,129 @@
+[tautulli-panel] Dumped HTTP request for http://checkout.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[tautulli-panel] Dumped HTTP response http://checkout.bitpanda.com
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, private
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:22 GMT
+Expires: Tue, 05 Aug 2025 12:49:22 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <title>Checkout</title>
+
+        <meta charset="UTF-8">
+        <meta name="google" content="nopagereadaloud">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        
+                    <link rel="stylesheet" href="/build/app.8a283fe8.css">
+            <link rel="shortcut icon" href="#" />
+        
+                </head>
+    <body>
+            <div id="app">
+        <app></app>
+    </div>
+                                                                                    <script src="/build/runtime.44efdefd.js" integrity="sha256-os63CDs/i4eXdhn8sCtTFJ4L2D5OGdmF/E/9VK0ce5Q= sha384-oUnaxxD5U7ieDQvT/BSwf1V8kcZPZsBuloYMlsxQM7mhw8q79Unqis7uaxTLN1XZ" crossorigin="anonymous"></script>
+                                                                                            <script src="/build/app.54d57dc4.js" integrity="sha256-ZdEs7XmQjnY2FSSsu7J2RX7Cw/zQDA9i8FHrG+KhddE= sha384-b6k+5b51t0FnB+aG9VA60f1t2JUpXDBMfrW2DGz6iK/Rr22i5uxNDyI/3kVRA6LN" crossorigin="anonymous"></script>
+                                                </body>
+</html>
+
+[tautulli-panel] Dumped HTTP response http://checkout.bitpanda.com
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:21 GMT
+Location: https://checkout.bitpanda.com
+
+
+[tautulli-panel] Dumped HTTP request for http://checkout.bitpanda.com/auth/login
+
+
+GET /auth/login HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[tautulli-panel] Dumped HTTP response http://checkout.bitpanda.com/auth/login
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, private
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:28 GMT
+Expires: Tue, 05 Aug 2025 12:49:28 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <title>Checkout</title>
+
+        <meta charset="UTF-8">
+        <meta name="google" content="nopagereadaloud">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+        
+                    <link rel="stylesheet" href="/build/app.8a283fe8.css">
+            <link rel="shortcut icon" href="#" />
+        
+            </head>
+    <body>
+            <main>
+        <section class="section section-shaped section-lg mx-0">
+            <div class="container pt-lg-md my-auto">
+                <div class="row justify-content-center">
+                    <div class="col-lg-5 access-denied">
+                        <div class="text-center" style="color: #757575;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="currentColor" class="bi bi-hourglass-split" viewBox="0 0 16 16">
+                                <path d="M2.5 15a.5.5 0 1 1 0-1h1v-1a4.5 4.5 0 0 1 2.557-4.06c.29-.139.443-.377.443-.59v-.7c0-.213-.154-.451-.443-.59A4.5 4.5 0 0 1 3.5 3V2h-1a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-1v1a4.5 4.5 0 0 1-2.557 4.06c-.29.139-.443.377-.443.59v.7c0 .213.154.451.443.59A4.5 4.5 0 0 1 12.5 13v1h1a.5.5 0 0 1 0 1h-11zm2-13v1c0 .537.12 1.045.337 1.5h6.326c.216-.455.337-.963.337-1.5V2h-7zm3 6.35c0 .701-.478 1.236-1.011 1.492A3.5 3.5 0 0 0 4.5 13s.866-1.299 3-1.48V8.35zm1 0v3.17c2.134.181 3 1.48 3 1.48a3.5 3.5 0 0 0-1.989-3.158C8.978 9.586 8.5 9.052 8.5 8.351z"/>
+                            </svg>
+                        </div>
+                        <div class="text-center">
+                            <h3 class="primary-text opacity-7" style="color: #757575;">Your session has expired</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    </body>
+</html>
+
+[tautulli-panel] Dumped HTTP response http://checkout.bitpanda.com/auth/login
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:27 GMT
+Location: https://checkout.bitpanda.com/auth/login
+
+

@@ -1,0 +1,26 @@
+[syfadis-xperience-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/Directory/Login/Login.aspx
+
+
+GET /Directory/Login/Login.aspx HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686; rv:125.0) Gecko/20100101 Firefox/125.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[syfadis-xperience-panel] Dumped HTTP response https://techsolutions.bitpanda.com/Directory/Login/Login.aspx
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:25 GMT
+Location: ./Login.aspx/
+Via: 1.1 5b0b018dc5d72a42f205b24b17f4f56e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: m5z3okUu-iBzUCCcTZmwlh8alnJev-0z8tId7t0bbKYhJZQRHEAoHg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

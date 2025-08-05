@@ -1,0 +1,108 @@
+[web-suite-detect] Dumped HTTP request for http://web.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: web.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[web-suite-detect] Dumped HTTP response http://web.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67335eea58843-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:55:39 GMT
+Expires: Tue, 05 Aug 2025 13:55:39 GMT
+Location: https://web.bitpanda.com/
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[web-suite-detect] Dumped HTTP request for http://web.bitpanda.com/ws2020/
+
+
+GET /ws2020/ HTTP/1.1
+Host: web.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[web-suite-detect] Dumped HTTP response http://web.bitpanda.com/ws2020/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a673d4cab187ac-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:56:04 GMT
+Expires: Tue, 05 Aug 2025 13:56:04 GMT
+Location: https://web.bitpanda.com/ws2020/
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[web-suite-detect] Dumped HTTP request for http://web.bitpanda.com/ws2021/
+
+
+GET /ws2021/ HTTP/1.1
+Host: web.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/116.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[web-suite-detect] Dumped HTTP response http://web.bitpanda.com/ws2021/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67438f902d640-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:56:20 GMT
+Expires: Tue, 05 Aug 2025 13:56:20 GMT
+Location: https://web.bitpanda.com/ws2021/
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

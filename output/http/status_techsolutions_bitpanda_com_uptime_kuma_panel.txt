@@ -1,0 +1,35 @@
+[uptime-kuma-panel] Dumped HTTP request for https://status.techsolutions.bitpanda.com/dashboard
+
+
+GET /dashboard HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[uptime-kuma-panel] Dumped HTTP response https://status.techsolutions.bitpanda.com/dashboard
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: de5f856e-916c-4286-b7b4-2e34257043d7
+Atl-Traceid: de5f856e916c4286b7b42e34257043d7
+Date: Tue, 05 Aug 2025 12:52:17 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 3924198dd88678a1cab97875f32b6f20.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: u-aX8WkCDJQSfOe4ifBciihA-S7TycZTH90ik9hZuXN5j1rN64QmLw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 154905674
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

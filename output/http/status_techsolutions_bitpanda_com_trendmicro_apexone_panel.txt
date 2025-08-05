@@ -1,0 +1,35 @@
+[trendmicro-apexone-panel] Dumped HTTP request for https://status.techsolutions.bitpanda.com/officescan/console/html/cgi/cgiChkMasterPwd.exe
+
+
+GET /officescan/console/html/cgi/cgiChkMasterPwd.exe HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686; rv:124.0) Gecko/20100101 Firefox/124.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[trendmicro-apexone-panel] Dumped HTTP response https://status.techsolutions.bitpanda.com/officescan/console/html/cgi/cgiChkMasterPwd.exe
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: d5be94e5-4184-47a2-8d1e-3d36e5bed1be
+Atl-Traceid: d5be94e5418447a28d1e3d36e5bed1be
+Date: Tue, 05 Aug 2025 12:52:17 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=2,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 b13c6d10b44fd12a68a8ca01d540a750.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: -Bj_mvA0KveOwHfjVsF5TQNc1QGFMVBHjuHqyxcAHJLDqQr33yHR5Q==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 706693711
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

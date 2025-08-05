@@ -1,0 +1,44 @@
+[appsuite-panel] Dumped HTTP request for https://cdn-segment.bitpanda.com/appsuite/
+
+
+GET /appsuite/ HTTP/1.1
+Host: cdn-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=rqfQ4vx1USpprjmqWbzznAhmQrqsaMjh1OwkDxe_o.s-1754398134214-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[appsuite-panel] Dumped HTTP response https://cdn-segment.bitpanda.com/appsuite/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Methods: GET, HEAD
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 3000
+Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66956cc11e5e5-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:48:55 GMT
+Etag: W/"328257380186d550f96adf638ff85092"
+Last-Modified: Fri, 27 Jun 2025 03:51:28 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=qHlm.jCm_.M7jO1CmOiOTwLX6tldPpmQvksG1uyv4Ro-1754398135087-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: accept-encoding
+Via: 1.1 6784ac36b8d920a78daf15294a50025e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 1NdXCaZUbqkv_HOYXo2aJV6sLl1HC0AUymd9PEMXO_pYN6E4A4huXg==
+X-Amz-Cf-Pop: IAD79-C3
+X-Amz-Replication-Status: COMPLETED
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: 6NYlJnma9WPyl0MUFm2tNo8C1GzqJZih
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+Cannot GET - Invalid path or write key provided.
+

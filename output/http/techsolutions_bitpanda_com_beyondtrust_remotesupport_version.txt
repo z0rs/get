@@ -1,0 +1,26 @@
+[beyondtrust-remotesupport-version] Dumped HTTP request for https://techsolutions.bitpanda.com/get_rdf?comp=sdcust&locale_code=en-us
+
+
+GET /get_rdf?comp=sdcust&locale_code=en-us HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[beyondtrust-remotesupport-version] Dumped HTTP response https://techsolutions.bitpanda.com/get_rdf?comp=sdcust&locale_code=en-us
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:31 GMT
+Location: ./get_rdf/?comp=sdcust&locale_code=en-us
+Via: 1.1 556fb8386f039ca8ee6a5b3f9ad1828c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: veNhZmJpDVR3ggpqB2Y5E8i5NZ0aXskgKiAu4tsDNijzwOAuW6W_Fg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

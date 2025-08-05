@@ -1,0 +1,23 @@
+[cluster-83c0ec1be6918d9ee3bc214248dab0f9135c238f0e5155c9dbad80c50c5c35b6] Dumped HTTP request for http://requests.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-83c0ec1be6918d9ee3bc214248dab0f9135c238f0e5155c9dbad80c50c5c35b6] Dumped HTTP response http://requests.bitpanda.com/login
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:51:58 GMT
+Location: https://requests.bitpanda.com/login
+
+Moved Permanently

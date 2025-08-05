@@ -1,0 +1,15 @@
+[graphql-flutter-detect] Dumped HTTP request for http://fusion.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: fusion.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_7_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15
+Connection: close
+Content-Length: 44
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query { __typename @deprecated }"}

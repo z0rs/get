@@ -1,0 +1,30 @@
+[xenforo-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/index.php
+
+
+GET /index.php HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[xenforo-detect] Dumped HTTP response https://techsolutions.bitpanda.com/index.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:52 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 556fb8386f039ca8ee6a5b3f9ad1828c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: rkow0l3AZOc_Qo5ppO3ZeN2tLCmOv-eRyjtwJPb1yjvvrxEElPBqQQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: pwtuy+HElhbEPRmeUJ8H5/9MxWSeFkdHqRGTUKAorDz8puoc7iTy8baDl80mAL6MDHszGGpKw54=
+X-Amz-Request-Id: TAW9JMGMAR0YH45C
+X-Cache: Error from cloudfront
+
+Not Found

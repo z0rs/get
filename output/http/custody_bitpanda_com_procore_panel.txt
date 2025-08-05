@@ -1,0 +1,92 @@
+[procore-panel] Dumped HTTP request for https://custody.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/121.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=oWu_w2Cq9JLtv2rq32FBKRlirVZ6gw6zyK9k.8B2Sw4-1754398350856-0.0.1.1-604800000; _cfuvid=9f9zlS7Sd3TvFnhRKDGFiBpNtpuruv_WXbJh3Xbq4UU-1754398366837-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[procore-panel] Dumped HTTP response https://custody.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f06baaf7411-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:47 GMT
+Expires: Tue, 05 Aug 2025 13:52:47 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=roH9XGYYkY4GwNsiI4By.XUFscxxCXTjE.3o5iimC7w-1754398367823-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[procore-panel] Dumped HTTP request for https://custody.bitpanda.com/favicon.ico
+
+
+GET /favicon.ico HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Qbv.4qSfA.2GBQ25fQ0jN5DaY0jWffnPodehP_aULkc-1754398368852-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[procore-panel] Dumped HTTP request for https://custody.bitpanda.com/images/favicon.ico
+
+
+GET /images/favicon.ico HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Ht2LtfJt.ypDbc_eMfQS2zLdobuOAivDdHAHYsv73_k-1754398383841-0.0.1.1-604800000; _cfuvid=GjIA0.Cac9mAYN_ehbPw4cxZncXRupvq.sODpPUoe54-1754398384807-0.0.1.1-604800000; _cfuvid=O18hSliefztYCwJPnXLNuRjMD5U4k9SEgWeCL16VpHY-1754398401843-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[procore-panel] Dumped HTTP response https://custody.bitpanda.com/images/favicon.ico
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700d9f46d70b-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:29 GMT
+Expires: Tue, 05 Aug 2025 13:53:29 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=wzExeJDCU_cw.H6pS8Gc60NtyyQ6CcHGgn7qvueEGjo-1754398409880-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

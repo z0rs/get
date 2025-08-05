@@ -1,0 +1,58 @@
+[mitel-micollab-panel] Dumped HTTP request for https://api-segment.bitpanda.com/wd/en-us/wapplink.asp
+
+
+GET /wd/en-us/wapplink.asp HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=SGLm4tMj5Y53suo5tWu6yL1GUiFdDgrTXxB9ys4Vq.g-1754398144097-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[mitel-micollab-panel] Dumped HTTP response https://api-segment.bitpanda.com/wd/en-us/wapplink.asp
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c0fa9ec96a-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:11 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=SzNDzfCJmYekP3WhWzD4ChBN.X.iEC73W39R4rGEEUs-1754398151929-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[mitel-micollab-panel] Dumped HTTP request for https://api-segment.bitpanda.com/portal/
+
+
+GET /portal/ HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=MdzEB06xh0_Rrx3.VqjA7FwEA5LD5rF2mn50rLGaYbM-1754398154116-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[mitel-micollab-panel] Dumped HTTP response https://api-segment.bitpanda.com/portal/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e65b202720-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:17 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=ssU5prNDCz_t.Qf4qhAJhjEpFbnNQVdjSH0sYSqiAsU-1754398157917-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

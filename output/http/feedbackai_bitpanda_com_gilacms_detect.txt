@@ -1,0 +1,76 @@
+[gilacms-detect] Dumped HTTP request for http://feedbackai.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Vy5m9EbV2U30pi_G_8DkAeH86UKAUdEVGIoCaoMFUrs-1754398380841-0.0.1.1-604800000; _cfuvid=75QcnnDKghl93maWb92gLVPEJWtjWjNueG_ALNBk8Mw-1754398398604-0.0.1.1-604800000; _cfuvid=7cgG3dRN5T4_AZVgbpnBBNIpVQMLuBvVNzQFi14gvMA-1754398414045-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[gilacms-detect] Dumped HTTP response http://feedbackai.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67032db96c948-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:35 GMT
+Expires: Tue, 05 Aug 2025 13:53:35 GMT
+Location: https://feedbackai.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=GfDcCg5pdU.hXzYrRjjVFsjGGwcQMSIn.sD13nx_gSw-1754398415832-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[gilacms-detect] Dumped HTTP request for http://feedbackai.bitpanda.com/user
+
+
+GET /user HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686; rv:127.0) Gecko/20100101 Firefox/127.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=GfDcCg5pdU.hXzYrRjjVFsjGGwcQMSIn.sD13nx_gSw-1754398415832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[gilacms-detect] Dumped HTTP response http://feedbackai.bitpanda.com/user
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670330b8ac9a8-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:35 GMT
+Expires: Tue, 05 Aug 2025 13:53:35 GMT
+Location: https://feedbackai.bitpanda.com/user
+Server: cloudflare
+Set-Cookie: _cfuvid=DmVDyJaiqpxvmygXqy_rimKTWXlk5JZ2Qa.j33Otoy4-1754398415866-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

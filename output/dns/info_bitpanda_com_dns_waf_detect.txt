@@ -1,0 +1,34 @@
+[dns-waf-detect] Dumped DNS request for info.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 855
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;info.bitpanda.com.	IN	 CNAME
+
+[dns-waf-detect] Dumped DNS response for info.bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 855
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 1232
+
+;; QUESTION SECTION:
+;info.bitpanda.com.	IN	 CNAME
+
+;; ANSWER SECTION:
+info.bitpanda.com.	300	IN	CNAME	eu.sparkpostmail.com.
+
+[dns-waf-detect] Dumped DNS request for info.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 8547
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;info.bitpanda.com.	IN	 NS
+

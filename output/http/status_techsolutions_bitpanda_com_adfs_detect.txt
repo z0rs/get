@@ -1,0 +1,35 @@
+[adfs-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/adfs/ls/idpinitiatedsignon.aspx
+
+
+GET /adfs/ls/idpinitiatedsignon.aspx HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/103.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[adfs-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/adfs/ls/idpinitiatedsignon.aspx
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: d87804c5-8caf-48a9-863a-2a242a0b94e5
+Atl-Traceid: d87804c58caf48a9863a2a242a0b94e5
+Date: Tue, 05 Aug 2025 12:52:20 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=4,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 32c5b7040885724e78019cc31f0ef3e8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: QcwxqYj4IsUERH2Tf2JLW6RBFETCV1dVaEXB5rkHONZPeKFIO_0-eg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 171066594
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

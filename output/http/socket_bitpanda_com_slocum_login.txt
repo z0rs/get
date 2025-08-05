@@ -1,0 +1,38 @@
+[slocum-login] Dumped HTTP request for https://socket.bitpanda.com/sfmc/login
+
+
+GET /sfmc/login HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=9oQKxhudDQK2tQiV4BxfJLsjHXBmhKuRNG37OBgKINYhqBq+KgHVGhMHWoCLFlv9vMLwuQgPYA9EXBHjisUJkINxEb3VXhrI+q3DL98dGxyso//tp1dQ05AobHSk; AWSALBCORS=9oQKxhudDQK2tQiV4BxfJLsjHXBmhKuRNG37OBgKINYhqBq+KgHVGhMHWoCLFlv9vMLwuQgPYA9EXBHjisUJkINxEb3VXhrI+q3DL98dGxyso//tp1dQ05AobHSk
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[slocum-login] Dumped HTTP response https://socket.bitpanda.com/sfmc/login
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:19 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=Vo1aZqB5j9CtfrABoQ59dBxG+LZCsLunnoRPgSBB3Ye0EarQAtb2rmQqv8JSpEb07uIdAZeR2KaTZOxd996/AbXwb0PMJtld8GWngBYDBjO/WN3lxAgubjAEVhNk; Expires=Tue, 12 Aug 2025 12:52:19 GMT; Path=/
+Set-Cookie: AWSALBCORS=Vo1aZqB5j9CtfrABoQ59dBxG+LZCsLunnoRPgSBB3Ye0EarQAtb2rmQqv8JSpEb07uIdAZeR2KaTZOxd996/AbXwb0PMJtld8GWngBYDBjO/WN3lxAgubjAEVhNk; Expires=Tue, 12 Aug 2025 12:52:19 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 8a66d5eadee9b730a388e117efe2af72.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: RpZvx0hs7vyHhdG_HDgYHTYbENuvEAP6fA7REYFTgOJuE8Vu65BM0w==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 11
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

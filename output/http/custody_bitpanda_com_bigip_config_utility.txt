@@ -1,0 +1,117 @@
+[bigip-config-utility] Dumped HTTP request for https://custody.bitpanda.com/tmui/login.jsp
+
+
+GET /tmui/login.jsp HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=D5qWGblzQTwqOh.NWxyQOXQ21KeKa7OPB8zZAd3XSpI-1754398395830-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[bigip-config-utility] Dumped HTTP response https://custody.bitpanda.com/tmui/login.jsp
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67000cc6a07d4-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:27 GMT
+Expires: Tue, 05 Aug 2025 13:53:27 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=UuQSWcCWpkioXoiJAN1WpMh8F9PEjOe577Y3YaDSr_g-1754398407835-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[bigip-config-utility] Dumped HTTP request for https://custody.bitpanda.com/tmui/tmui/login/welcome.jsp
+
+
+GET /tmui/tmui/login/welcome.jsp HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=UuQSWcCWpkioXoiJAN1WpMh8F9PEjOe577Y3YaDSr_g-1754398407835-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[bigip-config-utility] Dumped HTTP response https://custody.bitpanda.com/tmui/tmui/login/welcome.jsp
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670072bab05a5-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:28 GMT
+Expires: Tue, 05 Aug 2025 13:53:28 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=81HYYNUTw_MXI2MVNwfB_jERflSPyAX6uEROwKo_Lxw-1754398408860-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[bigip-config-utility] Dumped HTTP request for https://custody.bitpanda.com/mgmt/tm/sys/management-ip
+
+
+GET /mgmt/tm/sys/management-ip HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=38fc5rqPajIEumrSf1mOvEywAKv3Lk5L75XsyVGVcbU-1754398408860-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[bigip-config-utility] Dumped HTTP response https://custody.bitpanda.com/mgmt/tm/sys/management-ip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700d8db3ffbc-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:29 GMT
+Expires: Tue, 05 Aug 2025 13:53:29 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=dO1F_BYQ0aXqfvpKzonbBEVuH0j5LxozVgCOdFKCCUE-1754398409864-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

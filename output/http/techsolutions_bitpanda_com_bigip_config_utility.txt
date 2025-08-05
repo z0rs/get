@@ -1,0 +1,78 @@
+[bigip-config-utility] Dumped HTTP request for https://techsolutions.bitpanda.com/tmui/login.jsp
+
+
+GET /tmui/login.jsp HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[bigip-config-utility] Dumped HTTP response https://techsolutions.bitpanda.com/tmui/login.jsp
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:31 GMT
+Location: ./login.jsp/
+Via: 1.1 5b0b018dc5d72a42f205b24b17f4f56e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: jdQf_WHvwxD2oxonyXDs2vIbcN9sIK2xSk8a7KIYt3LaJw4zJd0v1A==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[bigip-config-utility] Dumped HTTP request for https://techsolutions.bitpanda.com/tmui/tmui/login/welcome.jsp
+
+
+GET /tmui/tmui/login/welcome.jsp HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[bigip-config-utility] Dumped HTTP response https://techsolutions.bitpanda.com/tmui/tmui/login/welcome.jsp
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:34 GMT
+Location: ./welcome.jsp/
+Via: 1.1 5130f24afa7aed6f49e6e72496306d12.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: qrkXp_RVaEgaiYLDcMH3kCLE8TsCCJ0AAK01hfMjjv-oheujd5axew==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[bigip-config-utility] Dumped HTTP request for https://techsolutions.bitpanda.com/mgmt/tm/sys/management-ip
+
+
+GET /mgmt/tm/sys/management-ip HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[bigip-config-utility] Dumped HTTP response https://techsolutions.bitpanda.com/mgmt/tm/sys/management-ip
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Location: ./management-ip/
+Via: 1.1 f96e72cfd61c675b75ea8547da63de24.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: rpMg3B4e1nZaNMLtKlGitIdyeoCVcjvN7asuJnIFA_FIwA2FGCJbVw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

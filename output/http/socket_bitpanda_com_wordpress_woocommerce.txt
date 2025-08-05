@@ -1,0 +1,37 @@
+[wordpress-woocommerce] Dumped HTTP request for https://socket.bitpanda.com/wp-content/plugins/woocommerce/readme.txt
+
+
+GET /wp-content/plugins/woocommerce/readme.txt HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=iPfHVv5nI+aitT6dVNkaE9nOAkB5RgnCcRAfZZ/ar7jZPlFhLkn1Bh+O0G2mLVQu70Nq+2vttxPC74L20Q8LQDJvMB0typrR/jDc6h+PgnBEtxxi41B2OfX+9TJ0; AWSALBCORS=iPfHVv5nI+aitT6dVNkaE9nOAkB5RgnCcRAfZZ/ar7jZPlFhLkn1Bh+O0G2mLVQu70Nq+2vttxPC74L20Q8LQDJvMB0typrR/jDc6h+PgnBEtxxi41B2OfX+9TJ0
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-woocommerce] Dumped HTTP response https://socket.bitpanda.com/wp-content/plugins/woocommerce/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:46 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=/TGoBJuQ0LJK2HWP9cVJDwAgJqh9BcQ8oE4ID1Gw8Xlr/iFb24m3VzFn7xYwmElizZG8wOB1UdNek4iJyt31Jj64YkxvbtXdisgtGQ6BEHiMQC8o4cKdKwPGfKXk; Expires=Tue, 12 Aug 2025 12:52:46 GMT; Path=/
+Set-Cookie: AWSALBCORS=/TGoBJuQ0LJK2HWP9cVJDwAgJqh9BcQ8oE4ID1Gw8Xlr/iFb24m3VzFn7xYwmElizZG8wOB1UdNek4iJyt31Jj64YkxvbtXdisgtGQ6BEHiMQC8o4cKdKwPGfKXk; Expires=Tue, 12 Aug 2025 12:52:46 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 d907e6ff1d7c4efa4a8fcfcbb0b5531c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 3oVV_G0Su_WzOFVbgPEt3F6c0Xzrt1WxOCWMG5cU0PVl0Cqx-TkEXQ==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 5
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

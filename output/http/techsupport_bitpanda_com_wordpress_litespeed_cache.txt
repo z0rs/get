@@ -1,0 +1,38 @@
+[wordpress-litespeed-cache] Dumped HTTP request for http://techsupport.bitpanda.com/wp-content/plugins/litespeed-cache/readme.txt
+
+
+GET /wp-content/plugins/litespeed-cache/readme.txt HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-litespeed-cache] Dumped HTTP response http://techsupport.bitpanda.com/wp-content/plugins/litespeed-cache/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f006cd1f4ca-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:46 GMT
+Expires: Tue, 05 Aug 2025 13:52:46 GMT
+Location: https://techsupport.bitpanda.com/wp-content/plugins/litespeed-cache/readme.txt
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=d%2BX02pWZVvV6AG7nVIjYSlDT2ukSvq5rJBYBiwjhSJY98E%2BFBbjMwAZbiPsOlp%2F54hZ2V6uBeWCdTlNKjWZbxz%2BAWmXnsp5%2FmNOcksWXOZjfUSti%2Buevt2%2FpuWF82RB2jDIvtGN2vmZ%2F5g%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=wewothOYU0KkUTHwSBvrkjORl5ye1XZfEqUVdzUfpmg-1754398366-1.0.1.1-YflaBmDwQEvFHeGA.R6DZQ3SQm8zzchkYpk6H740oEEflm4vYt6YS3ckhUVL0T9PkK1FeErKMwgVkDCkwK.WFNeKEDttX.8NJOqk5jKzBfg; path=/; expires=Tue, 05-Aug-25 13:22:46 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=.f8Kmq2uyXBO_RsfbgbbVRM.SjZR2qozIdeuQw1t7rI-1754398366806-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

@@ -1,0 +1,52 @@
+[microfocus-admin-server] Dumped HTTP request for https://newsletter.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: newsletter.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[microfocus-admin-server] Dumped HTTP request for https://newsletter.bitpanda.com/nps/servlet/portalservice
+
+
+GET /nps/servlet/portalservice HTTP/1.1
+Host: newsletter.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[microfocus-admin-server] Dumped HTTP request for https://newsletter.bitpanda.com/nds
+
+
+GET /nds HTTP/1.1
+Host: newsletter.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/110.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[microfocus-admin-server] Dumped HTTP request for https://newsletter.bitpanda.com/_LOGIN_SERVER_
+
+
+GET /_LOGIN_SERVER_ HTTP/1.1
+Host: newsletter.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

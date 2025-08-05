@@ -1,0 +1,35 @@
+[microfocus-lifecycle-panel] Dumped HTTP request for https://status.techsolutions.bitpanda.com/qcbin/
+
+
+GET /qcbin/ HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[microfocus-lifecycle-panel] Dumped HTTP response https://status.techsolutions.bitpanda.com/qcbin/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 4466377f-9d87-4b9c-bbdf-e2374dd3adb7
+Atl-Traceid: 4466377f9d874b9cbbdfe2374dd3adb7
+Date: Tue, 05 Aug 2025 12:52:14 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=63,atl-edge-internal;dur=4,atl-edge-upstream;dur=61,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 8ad5a9cbb864898c238f716c1a12623c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: UWeg6AfRP6GVM1vE0R_rpSFbAIWJNtUpbp0wCU0A04sLz8Ycc4A8xg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 122761319
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

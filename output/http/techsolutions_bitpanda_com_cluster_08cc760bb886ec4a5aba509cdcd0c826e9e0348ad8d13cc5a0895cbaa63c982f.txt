@@ -1,0 +1,30 @@
+[cluster-08cc760bb886ec4a5aba509cdcd0c826e9e0348ad8d13cc5a0895cbaa63c982f] Dumped HTTP request for https://techsolutions.bitpanda.com/login.php
+
+
+GET /login.php HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_6_8) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-08cc760bb886ec4a5aba509cdcd0c826e9e0348ad8d13cc5a0895cbaa63c982f] Dumped HTTP response https://techsolutions.bitpanda.com/login.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:16 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 6744171422c4a271f6b0fe32071ae980.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: X5zElqXs1UdGYOzSFDnY7kKl6BMX3ezaC4EFDAPAS9-uAyTJAPYc1A==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: eWNKqdsMCf6YRYQsoNy1vEzpTTqcPWCbByw2MdU7Ij9rKWa981ucqR3zYBVpIUITVfOiGdEibkAUYTyJvm+kL0TFJtFNcRIG
+X-Amz-Request-Id: XY8CQH92SMGJDA7C
+X-Cache: Error from cloudfront
+
+Not Found

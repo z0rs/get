@@ -1,0 +1,37 @@
+[wordpress-contact-form-7-honeypot] Dumped HTTP request for http://ff.bitpanda.com/wp-content/plugins/contact-form-7-honeypot/readme.txt
+
+
+GET /wp-content/plugins/contact-form-7-honeypot/readme.txt HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:133.0) Gecko/20100101 Firefox/133.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=gQA1iHV1nsw5IUGtKTiB3UndO5eY.V1rdpXzZc31R7k-1754398446344-0.0.1.1-604800000; GCLB="a0d6f7bac8c5e65e"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-contact-form-7-honeypot] Dumped HTTP response http://ff.bitpanda.com/wp-content/plugins/contact-form-7-honeypot/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6710b3dba2078-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:10 GMT
+Expires: Tue, 05 Aug 2025 13:54:10 GMT
+Location: https://ff.bitpanda.com/wp-content/plugins/contact-form-7-honeypot/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=WGeJ2lHPCw0rJuAnJrTxHAtTykzYBLnLbcFVtY972YM-1754398450488-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

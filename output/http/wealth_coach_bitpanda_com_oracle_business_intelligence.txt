@@ -1,0 +1,85 @@
+[oracle-business-intelligence] Dumped HTTP request for http://wealth-coach.bitpanda.com/saw.dll?bieehome&startPage=1
+
+
+GET /saw.dll?bieehome&startPage=1 HTTP/1.1
+Host: wealth-coach.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:129.0) Gecko/20100101 Firefox/129.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-business-intelligence] Dumped HTTP response http://wealth-coach.bitpanda.com/saw.dll?bieehome&startPage=1
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67078082605a5-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:46 GMT
+Expires: Tue, 05 Aug 2025 13:53:46 GMT
+Location: https://coach.bitpanda.com/saw.dll
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[oracle-business-intelligence] Dumped HTTP request for http://wealth-coach.bitpanda.com/analytics/saw.dll?bieehome&startPage=1
+
+
+GET /analytics/saw.dll?bieehome&startPage=1 HTTP/1.1
+Host: wealth-coach.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-business-intelligence] Dumped HTTP request for http://wealth-coach.bitpanda.com/analytics/saw.dll?Dashboard
+
+
+GET /analytics/saw.dll?Dashboard HTTP/1.1
+Host: wealth-coach.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-business-intelligence] Dumped HTTP response http://wealth-coach.bitpanda.com/analytics/saw.dll?Dashboard
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67228583238e8-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:56 GMT
+Expires: Tue, 05 Aug 2025 13:54:56 GMT
+Location: https://coach.bitpanda.com/analytics/saw.dll
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

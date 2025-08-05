@@ -1,0 +1,15 @@
+[graphql-graphene-detect] Dumped HTTP request for http://maintenance.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: maintenance.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/102.0 Safari/537.36
+Connection: close
+Content-Length: 15
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"aaa"}

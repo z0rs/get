@@ -1,0 +1,35 @@
+[wordpress-gdpr-cookie-compliance] Dumped HTTP request for http://web.bitpanda.com/wp-content/plugins/gdpr-cookie-compliance/readme.txt
+
+
+GET /wp-content/plugins/gdpr-cookie-compliance/readme.txt HTTP/1.1
+Host: web.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:135.0) Gecko/20100101 Firefox/135.0
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-gdpr-cookie-compliance] Dumped HTTP response http://web.bitpanda.com/wp-content/plugins/gdpr-cookie-compliance/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a673b90f3f8062-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:56:00 GMT
+Expires: Tue, 05 Aug 2025 13:56:00 GMT
+Location: https://web.bitpanda.com/wp-content/plugins/gdpr-cookie-compliance/readme.txt
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

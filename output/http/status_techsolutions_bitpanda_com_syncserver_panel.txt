@@ -1,0 +1,35 @@
+[syncserver-panel] Dumped HTTP request for https://status.techsolutions.bitpanda.com/login.php
+
+
+GET /login.php HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[syncserver-panel] Dumped HTTP response https://status.techsolutions.bitpanda.com/login.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Age: 7
+Atl-Request-Id: f3541c86-091f-470c-8fe0-cde5e45078e1
+Atl-Traceid: f3541c86091f470c8fe0cde5e45078e1
+Date: Tue, 05 Aug 2025 12:52:10 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 5bbbde7889bb9c7247f5924a32d2fdf0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: iXumz3Alty6rd-ftSkmy9ocWP8yI28mV08y3cI08dqH4ZTJGuRIAGQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 9608727
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

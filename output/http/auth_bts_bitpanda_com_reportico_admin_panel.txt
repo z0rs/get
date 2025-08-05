@@ -1,0 +1,26 @@
+[reportico-admin-panel] Dumped HTTP request for https://auth-bts.bitpanda.com/run.php?project=admin&execute_mode=ADMIN&clear_session=1
+
+
+GET /run.php?project=admin&execute_mode=ADMIN&clear_session=1 HTTP/1.1
+Host: auth-bts.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[reportico-admin-panel] Dumped HTTP request for https://auth-bts.bitpanda.com/reportico/run.php?project=admin&execute_mode=ADMIN&clear_session=1
+
+
+GET /reportico/run.php?project=admin&execute_mode=ADMIN&clear_session=1 HTTP/1.1
+Host: auth-bts.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686; rv:133.0) Gecko/20100101 Firefox/133.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

@@ -1,0 +1,37 @@
+[wordpress-velvet-blues-update-urls] Dumped HTTP request for https://socket.bitpanda.com/wp-content/plugins/velvet-blues-update-urls/readme.txt
+
+
+GET /wp-content/plugins/velvet-blues-update-urls/readme.txt HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64; rv:135.0) Gecko/20100101 Firefox/135.0
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=iPfHVv5nI+aitT6dVNkaE9nOAkB5RgnCcRAfZZ/ar7jZPlFhLkn1Bh+O0G2mLVQu70Nq+2vttxPC74L20Q8LQDJvMB0typrR/jDc6h+PgnBEtxxi41B2OfX+9TJ0; AWSALBCORS=iPfHVv5nI+aitT6dVNkaE9nOAkB5RgnCcRAfZZ/ar7jZPlFhLkn1Bh+O0G2mLVQu70Nq+2vttxPC74L20Q8LQDJvMB0typrR/jDc6h+PgnBEtxxi41B2OfX+9TJ0
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-velvet-blues-update-urls] Dumped HTTP response https://socket.bitpanda.com/wp-content/plugins/velvet-blues-update-urls/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:46 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=WWvz/2EPm9ItaPTu7bYW6I9DC4iXEPBJmKQulf4YdPHAKRvyjPiF/mjEC/NvXdQrFgy/ay//bLEMa0abw5ppjiEDU0+qXuAvKco8FEIXT03mHD/gG5N2MbQP3Kmq; Expires=Tue, 12 Aug 2025 12:52:46 GMT; Path=/
+Set-Cookie: AWSALBCORS=WWvz/2EPm9ItaPTu7bYW6I9DC4iXEPBJmKQulf4YdPHAKRvyjPiF/mjEC/NvXdQrFgy/ay//bLEMa0abw5ppjiEDU0+qXuAvKco8FEIXT03mHD/gG5N2MbQP3Kmq; Expires=Tue, 12 Aug 2025 12:52:46 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 3200e279ff99ad1800a0dd3b3c8e2d10.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: N6esn3VpKzi2uYtBjMl_2h9cu_y7A-Cv8S27rcLudjvAynNCUtvq3A==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 23
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

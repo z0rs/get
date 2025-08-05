@@ -1,0 +1,39 @@
+[vmware-detect] Dumped HTTP request for http://checkout.bitpanda.com/sdk/
+
+
+POST /sdk/ HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586
+Connection: close
+Content-Length: 538
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+<?xml version="1.0" encoding="UTF-8"?>
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <soap:Header>
+      <operationID>00000001-00000001</operationID>
+   </soap:Header>
+   <soap:Body>
+      <RetrieveServiceContent xmlns="urn:internalvim25">
+         <_this xsi:type="ManagedObjectReference" type="ServiceInstance">ServiceInstance</_this>
+      </RetrieveServiceContent>
+   </soap:Body>
+</soap:Envelope>
+[vmware-detect] Dumped HTTP response http://checkout.bitpanda.com/sdk/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:07 GMT
+Location: https://checkout.bitpanda.com/sdk
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

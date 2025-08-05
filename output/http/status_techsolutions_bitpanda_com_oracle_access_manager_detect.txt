@@ -1,0 +1,36 @@
+[oracle-access-manager-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/oamfed/idp/soap
+
+
+GET /oamfed/idp/soap HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=dnpobEcwQml6WnV4ZDBRek03bHFSbDk4WmN0WUNuaEhPQ2pxUVdaZG0vSk10YndlVGZtM0pGZ1llWmNGa05jWG90cjA4SVBKOUM4VS85dXhmSEVWZ0tjb2Q5T0dwOWxBOE9QTkVZOEI3bEtPaFlYb0U1Y1o4WGpnSi84c0QwZWlnWWJ1NXZsYXZWS3Flelk2ZTIrUmh3aFRBNm10L0N5QTRUaFRGYWszRFZNdytSSTl5YkVVMGxWMVYrdDJZRWdnWk4zc0xCTksyZXpYd2RjdkppWnU3cnJKS2hHSWFYeitHVjNQbnZZNkZ4Yz0tLXhqM0FSZUg4Z2V0d0JwRHFycnJMSkE9PQ%3D%3D--2227959bcb82628d0d718017dba2822bdeeca728
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-access-manager-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/oamfed/idp/soap
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 4997c234-ed58-4954-8e48-7bfe57cf805c
+Atl-Traceid: 4997c234ed5849548e487bfe57cf805c
+Date: Tue, 05 Aug 2025 12:52:32 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 ae3759c8dc48487a424a60bd577ad554.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: pRRtO4Cr2v0B96n_IDYrO4mIDMBOA5iegv-ye53VcMP1lIir9nVwxw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 137520791
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

@@ -1,0 +1,60 @@
+[cisco-webui-login] Dumped HTTP request for https://brokerize-api.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=NqWuLgnGRYD7VrOOehXD49_yTORHH7QodshuRwxgiMU-1754398133169-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cisco-webui-login] Dumped HTTP response https://brokerize-api.bitpanda.com
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669509b9fb296-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:48:53 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=9zlcXHFREtFHi9Dx7NOQzVm3VgNGxtrUTaHo.2mPwuk-1754398133973-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[cisco-webui-login] Dumped HTTP request for https://brokerize-api.bitpanda.com/webui/
+
+
+GET /webui/ HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=2x2royRafWV6a2GkskwJKSW6ilExAtR44NnjFYbZFtE-1754398141151-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cisco-webui-login] Dumped HTTP response https://brokerize-api.bitpanda.com/webui/
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669827c7c15cd-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:01 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=nDqoqGrZlsZRYtREJonrxudpIzSLIrSSfgt9mLEGIso-1754398141959-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}

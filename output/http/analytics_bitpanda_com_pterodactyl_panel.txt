@@ -1,0 +1,32 @@
+[pterodactyl-panel] Dumped HTTP request for https://analytics.bitpanda.com/auth/login
+
+
+GET /auth/login HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=pH9XNWVMdyl89s2YAZ2UpdMjryn9uRJ6jhrtF8A7Tnw-1754398158758-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[pterodactyl-panel] Dumped HTTP response https://analytics.bitpanda.com/auth/login
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669ec8bf6c59e-IAD
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:20 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=6DLSjY6tzGPyLPO8bqvpxh.nfq2Um9WJ.ToZb7uZYcA-1754398160056-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Powered-By: Express
+
+Bad request

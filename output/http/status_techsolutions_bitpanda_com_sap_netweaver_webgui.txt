@@ -1,0 +1,36 @@
+[sap-netweaver-webgui] Dumped HTTP request for https://status.techsolutions.bitpanda.com/sap/bc/gui/sap/its/webgui
+
+
+GET /sap/bc/gui/sap/its/webgui HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=WU1kQzZMUTdOby82Rk93VVlQcWxWNTQyaDBIQXJDRlJjclhLRWZpc3Z2TDZBMkpGUFF2Z1BWaTBEUHBKL2p3WjFOK2R5enpsd1czcnZpaWd4UW5ZdmZ4U0lXMEJjRzIxRkp4Y1I1Z28zdTBpeWM5R0xNZVZQR25RNEdNSFlsYzJBVTRBMkRVd0hVS3ZOWlZTNHR2VDV5MHRyMGtjZkNlTUFhK2MzRmdOb2ozTFdMZEFzYmlWUXRSVXpibzM0WlV0WVk4NTlXalg2dmZveXlVLzIwRHUvM0tFZTExRkcwSi90R1hJaEM1QzZkcz0tLWswd3NTTjFYaXpHRGNzRXozL2VabUE9PQ%3D%3D--bfa50bfef8e9e97eb88fe70259c71ef5ea9242e3
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[sap-netweaver-webgui] Dumped HTTP response https://status.techsolutions.bitpanda.com/sap/bc/gui/sap/its/webgui
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: d586671f-0b31-4043-8d83-ad47be69b4d8
+Atl-Traceid: d586671f0b3140438d83ad47be69b4d8
+Date: Tue, 05 Aug 2025 12:52:35 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 5bbbde7889bb9c7247f5924a32d2fdf0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: W9vsp1myhVxYYtTTjM4iR95zO4H11m0q1V6-UQ033XtO3ZF3cPnnSQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 133059358
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

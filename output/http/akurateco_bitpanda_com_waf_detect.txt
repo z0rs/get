@@ -1,0 +1,30 @@
+[waf-detect] Dumped HTTP request for http://akurateco.bitpanda.com
+
+
+POST / HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 27
+Content-Type: application/x-www-form-urlencoded
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+_=<script>alert(1)</script>
+[waf-detect] Dumped HTTP response http://akurateco.bitpanda.com
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:07 GMT
+Location: https://akurateco.bitpanda.com
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>[32mn[0m[32mg[0m[32mi[0m[32mn[0m[32mx[0m</center>
+</body>
+</html>
+

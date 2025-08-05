@@ -1,0 +1,52 @@
+[yourls-detect] Dumped HTTP request for http://ff.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; sv-SE) AppleWebKit/533.19.4 (KHTML, like Gecko) Version/5.0.3 Safari/533.19.4
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=cbxQWYNv6WkZqWUhwGyhDykEXCzdLtQHAU0l43Ri7hU-1754398461385-0.0.1.1-604800000; GCLB="0b0d555814962821"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[yourls-detect] Dumped HTTP response http://ff.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 19
+Access-Control-Allow-Methods: GET,HEAD,POST,OPTIONS
+Access-Control-Allow-Origin: *
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6717a7ad30835-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:54:28 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: GCLB="a18fcab568d64c54"; Max-Age=1; Path=/; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Statsig-Region: gke-us-east5
+
+RBAC: access denied
+[yourls-detect] Dumped HTTP response http://ff.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6717a2b75aa75-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:28 GMT
+Expires: Tue, 05 Aug 2025 13:54:28 GMT
+Location: https://ff.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=YVw9HPeTLe9aTtNJ0k_iz3hoV7sQetF045vWtpynwuw-1754398468208-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

@@ -1,0 +1,60 @@
+[fusionauth-admin-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/112.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=ePeNI1y.MZas64JmpD_RGyehhcF58XfFYnaw1JSSJMc-1754398134219-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[fusionauth-admin-panel] Dumped HTTP response https://brokerize-api.bitpanda.com
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6697c1c54d6cb-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:00 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=f.Wk6ubeUR3FGhXMKmSYxL1iuLKuvpFFCqJHEao7AcM-1754398140926-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[fusionauth-admin-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/oauth2/authorize
+
+
+GET /oauth2/authorize HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/106.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Iu1IE6iwGgRtiZVwsd9x6beobgY9KYxwQ1aMVjVc4pM-1754398142806-0.0.1.1-604800000; _cfuvid=M.Wk8B2d7vduA7o2vjS4xnG4PjmiLx61e0ZGwmuXqAA-1754398164010-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[fusionauth-admin-panel] Dumped HTTP response https://brokerize-api.bitpanda.com/oauth2/authorize
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a185cf558c0-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:25 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=QmuksGkNRS3IjFlgqqU9MAdrK2jrUgoRfA0uqVOiiBQ-1754398165939-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}

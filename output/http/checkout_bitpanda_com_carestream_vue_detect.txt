@@ -1,0 +1,70 @@
+[carestream-vue-detect] Dumped HTTP request for http://checkout.bitpanda.com/portal/favicon.ico
+
+
+GET /portal/favicon.ico HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[carestream-vue-detect] Dumped HTTP response http://checkout.bitpanda.com/portal/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, private
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:34 GMT
+Expires: Tue, 05 Aug 2025 12:49:34 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+{"error_code":0,"error_message":"No route found for \"GET /portal/favicon.ico\" (from \"http://checkout.bitpanda.com/portal/favicon.ico\")","errors":[]}
+[carestream-vue-detect] Dumped HTTP response http://checkout.bitpanda.com/portal/favicon.ico
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:33 GMT
+Location: https://checkout.bitpanda.com/portal/favicon.ico
+
+
+[carestream-vue-detect] Dumped HTTP request for http://checkout.bitpanda.com/portal/images/MyVue/MyVueHelp.png
+
+
+GET /portal/images/MyVue/MyVueHelp.png HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[carestream-vue-detect] Dumped HTTP response http://checkout.bitpanda.com/portal/images/MyVue/MyVueHelp.png
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, private
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:40 GMT
+Expires: Tue, 05 Aug 2025 12:49:40 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+{"error_code":0,"error_message":"No route found for \"GET /portal/images/MyVue/MyVueHelp.png\" (from \"http://checkout.bitpanda.com/portal/images/MyVue/MyVueHelp.png\")","errors":[]}
+[carestream-vue-detect] Dumped HTTP response http://checkout.bitpanda.com/portal/images/MyVue/MyVueHelp.png
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:39 GMT
+Location: https://checkout.bitpanda.com/portal/images/MyVue/MyVueHelp.png
+
+

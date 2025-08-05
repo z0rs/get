@@ -1,0 +1,51 @@
+[dns-waf-detect] Dumped DNS request for akurateco.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 54580
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;akurateco.bitpanda.com.	IN	 CNAME
+
+[dns-waf-detect] Dumped DNS response for akurateco.bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 54580
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 1232
+
+;; QUESTION SECTION:
+;akurateco.bitpanda.com.	IN	 CNAME
+
+;; ANSWER SECTION:
+akurateco.bitpanda.com.	300	IN	CNAME	admin.rafinita.com.
+
+[dns-waf-detect] Dumped DNS request for akurateco.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 26782
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;akurateco.bitpanda.com.	IN	 NS
+
+[dns-waf-detect] Dumped DNS response for akurateco.bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 26782
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 1232
+
+;; QUESTION SECTION:
+;akurateco.bitpanda.com.	IN	 NS
+
+;; ANSWER SECTION:
+akurateco.bitpanda.com.	300	IN	CNAME	admin.rafinita.com.
+
+;; AUTHORITY SECTION:
+rafinita.com.	1800	IN	SOA	mike.ns.cloudflare.com. dns.cloudflare.com. 2379883548 10000 2400 604800 1800
+

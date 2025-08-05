@@ -1,0 +1,39 @@
+[springboot-actuator] Dumped HTTP request for http://fusion.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: fusion.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[springboot-actuator] Dumped HTTP request for http://fusion.bitpanda.com/actuator
+
+
+GET /actuator HTTP/1.1
+Host: fusion.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[springboot-actuator] Dumped HTTP request for http://fusion.bitpanda.com/favicon.ico
+
+
+GET /favicon.ico HTTP/1.1
+Host: fusion.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

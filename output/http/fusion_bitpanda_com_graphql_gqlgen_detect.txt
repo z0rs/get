@@ -1,0 +1,15 @@
+[graphql-gqlgen-detect] Dumped HTTP request for http://fusion.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: fusion.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0
+Connection: close
+Content-Length: 34
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query { __typename { }"}

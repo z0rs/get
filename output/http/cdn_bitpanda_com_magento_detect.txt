@@ -1,0 +1,52 @@
+[magento-detect] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=tAX.dDAX74n5bSkRD0JRhNZtJsMklRFXTtU.exjjlQc-1754398245856-0.0.1.1-604800000; _cfuvid=vGBOvnPNmIihaHjnGA8QF36qouxGGn0LG3j1uV1nOrw-1754398261818-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[magento-detect] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66c70ab74c93f-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:51:01 GMT
+Expires: Tue, 05 Aug 2025 13:51:01 GMT
+Location: https://cdn.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=E1HBmlFl3v.aFog4rsUfwBVFf4dp8Of5.2LReqFwIGw-1754398261908-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[magento-detect] Dumped HTTP request for http://cdn.bitpanda.com/graphql?query=+{customerDownloadableProducts+{+items+{+date+download_url}}+}
+
+
+GET /graphql?query=+{customerDownloadableProducts+{+items+{+date+download_url}}+} HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=aCaCpZdUUFq5s2.qU4Fh7sOfDttGl9nP6oNB7TLGelg-1754398263813-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

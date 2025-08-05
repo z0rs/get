@@ -1,0 +1,69 @@
+[tixeo-panel] Dumped HTTP request for http://requests.bitpanda.com/meet/services/json/v1/settings
+
+
+GET /meet/services/json/v1/settings HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[tixeo-panel] Dumped HTTP response http://requests.bitpanda.com/meet/services/json/v1/settings
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:03 GMT
+Location: https://requests.bitpanda.com/meet/services/json/v1/settings
+
+Moved Permanently
+[tixeo-panel] Dumped HTTP request for http://requests.bitpanda.com/meet/login.html
+
+
+GET /meet/login.html HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[tixeo-panel] Dumped HTTP response http://requests.bitpanda.com/meet/login.html
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:05 GMT
+Location: https://requests.bitpanda.com/meet/login.html
+
+Moved Permanently
+[tixeo-panel] Dumped HTTP request for http://requests.bitpanda.com/meet/
+
+
+GET /meet/ HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[tixeo-panel] Dumped HTTP response http://requests.bitpanda.com/meet/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:06 GMT
+Location: https://requests.bitpanda.com/meet/
+
+Moved Permanently

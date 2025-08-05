@@ -1,0 +1,36 @@
+[cluster-cf573780b3271212d3a979a2c35bf1e1687872a5c76e033e650030a44d8837a4] Dumped HTTP request for https://status.techsolutions.bitpanda.com/welcome
+
+
+GET /welcome HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=eGtMaUlGS3p2M2RoYWI1L3N3VHJ2MFNlV2tjd0VRblZDT1N1N3FNU0ZhemRNRUs2cEM4RG9QNThLR01oWFNhcUpzWFBNVDlvNXBYWDdQYy9iRzh1V3JkMldiUUNYMjRVU0UwSWlObjZyWFplb1gzcytRenNqTjdtUGltdS9MbldNRUUwRkdwQU14Zk1jVW1RQTNIdTBrNFlCUStaS1JVazQxOHZ2bGFFMGduWDlPREpWK3FYUjhOV3RXWGNvVDhpcnowVWNxbkRpOUZZTFJSZDh3d2FxM1RISWFxNkpuckYrVmhId1NGdFRvYz0tLWRIK3ZPQ2JSc1NYdkU4RkdBU1MxeVE9PQ%3D%3D--ee4dc47e46764c5a379a3bdebc7693808b2a816f
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-cf573780b3271212d3a979a2c35bf1e1687872a5c76e033e650030a44d8837a4] Dumped HTTP response https://status.techsolutions.bitpanda.com/welcome
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 8b3b5214-e3fd-48aa-8aca-242fb8717dd3
+Atl-Traceid: 8b3b5214e3fd48aa8aca242fb8717dd3
+Date: Tue, 05 Aug 2025 12:52:30 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 6c2e384f59feb64a0c739aee7f890066.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: GpHyw9zq2aYzTvcVlxamYx4rf2_b-_o7W3W0B-HhQOvTMja4zsfhQA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 94126602
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

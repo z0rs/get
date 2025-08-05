@@ -1,0 +1,34 @@
+[cloudflare-external-image-resize] Dumped HTTP request for https://status.techsolutions.bitpanda.com/cdn-cgi/image/width/https://d28vs52us8n0rrg3ds8047xj13ftbq36x.oast.me
+
+
+GET /cdn-cgi/image/width/https://d28vs52us8n0rrg3ds8047xj13ftbq36x.oast.me HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15
+Connection: close
+Accept: */*
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cloudflare-external-image-resize] Dumped HTTP response https://status.techsolutions.bitpanda.com/cdn-cgi/image/width/https://d28vs52us8n0rrg3ds8047xj13ftbq36x.oast.me
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: b7778152-05ac-4854-9245-967f1e0af871
+Atl-Traceid: b777815205ac48549245967f1e0af871
+Date: Tue, 05 Aug 2025 12:53:15 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=80,atl-edge-internal;dur=16,atl-edge-upstream;dur=66,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 c242c974a465288488c7876cabca7752.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: D357g-epuVEIF6BHBuWITGYHMli8-p3aA9cZIUthCveu7tX7ZBLnVw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 122409474
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

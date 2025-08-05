@@ -1,0 +1,48 @@
+[sitecore-cms] Dumped HTTP request for http://localization.webhooks.bitpanda.com/-/media/doo-doo.ashx
+
+
+GET /-/media/doo-doo.ashx HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=U1pghyyFV.zoe1WGeLyBz1QqVGBPPo_Si6CidVH3TFI-1754398433865-0.0.1.1-604800000; _cfuvid=iBX.UdVyePpZZ3UxmUEfgdF3vDmPpQf6j2HJKj6QcCw-1754398448346-0.0.1.1-604800000; _cfuvid=nt79nupJg2xbtNvO9nHy17Cf26Rsb9aw9vKuJTiWQBY-1754398456465-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[sitecore-cms] Dumped HTTP response http://localization.webhooks.bitpanda.com/-/media/doo-doo.ashx
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a671791e4982fc-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:54:28 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TItGYVDoEEXuw=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: c8418855-cd24-45b1-85df-971e65afe197
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[sitecore-cms] Dumped HTTP response http://localization.webhooks.bitpanda.com/-/media/doo-doo.ashx
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67178d86c3d1c-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:27 GMT
+Expires: Tue, 05 Aug 2025 13:54:27 GMT
+Location: https://localization.webhooks.bitpanda.com/-/media/doo-doo.ashx
+Server: cloudflare
+Set-Cookie: _cfuvid=f88i6azfTifua4BD4zEt6QMCoZaO4WrzoiF9X8fvWnc-1754398467993-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

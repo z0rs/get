@@ -1,0 +1,30 @@
+[emqx-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/static/emq.ico
+
+
+GET /static/emq.ico HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[emqx-detect] Dumped HTTP response https://techsolutions.bitpanda.com/static/emq.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:34 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 5130f24afa7aed6f49e6e72496306d12.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: A1wZc7R9YPL-Ej9jg0hy42st8mjB-y6lzJWLleYApVTWjre19ozZcg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: X0kV1MLtX6Yt2XwcKoIMztd0YhNgklo2la567Pm3fNZ/09pbLGQ9hKsMKpU7dJTOF5zJPju7JyU=
+X-Amz-Request-Id: 5Y3Y2N4N1NN9GGAY
+X-Cache: Error from cloudfront
+
+Not Found

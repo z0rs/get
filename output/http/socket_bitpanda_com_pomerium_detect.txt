@@ -1,0 +1,38 @@
+[pomerium-detect] Dumped HTTP request for https://socket.bitpanda.com/.pomerium/index.js
+
+
+GET /.pomerium/index.js HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=rHygQINROfUP/a9FyritoHs+QNImn/w3nGg5umQqYzixa7A+o6WQV7tZwL3l17rpH2E2hyFwTebsTZ+55XgsGwUzUGImvrK6cZwEHA4WDNUzTHmrcL5B0kT7g29W; AWSALBCORS=rHygQINROfUP/a9FyritoHs+QNImn/w3nGg5umQqYzixa7A+o6WQV7tZwL3l17rpH2E2hyFwTebsTZ+55XgsGwUzUGImvrK6cZwEHA4WDNUzTHmrcL5B0kT7g29W
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[pomerium-detect] Dumped HTTP response https://socket.bitpanda.com/.pomerium/index.js
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=pGL590n86Qu8xnEdzBOf2d6eRgJwpfWh9zIJR8RGoD3ehvkFGKQjz+zggD+UwctvQ1+2k1ebjnXLrNIZmcop8JIgAKTwx5zqvRTD6k0Xt4/s9D9Y0QseycIKmlY0; Expires=Tue, 12 Aug 2025 12:52:37 GMT; Path=/
+Set-Cookie: AWSALBCORS=pGL590n86Qu8xnEdzBOf2d6eRgJwpfWh9zIJR8RGoD3ehvkFGKQjz+zggD+UwctvQ1+2k1ebjnXLrNIZmcop8JIgAKTwx5zqvRTD6k0Xt4/s9D9Y0QseycIKmlY0; Expires=Tue, 12 Aug 2025 12:52:37 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 3200e279ff99ad1800a0dd3b3c8e2d10.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: phaaBE3LeNjkBB1c0FuMkjuMRjCkMgGYbeFkYYE3dUJxqe9Y5gAUWQ==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 7
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

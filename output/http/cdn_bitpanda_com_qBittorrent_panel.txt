@@ -1,0 +1,50 @@
+[qBittorrent-panel] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[qBittorrent-panel] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669f31d11c9b7-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:20 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=OH9DcqcfSe6i1ciGjPIFFBqD8Otf1E6.frTpqQOj9TE-1754398160121-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 ec22576e88e707bf58c11e0ee75d019c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: rIHuwDE66BkmkYziP2HNhK6M4jCYl4AUddT6HygpkEV1cH_wk3SzSw==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[qBittorrent-panel] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669f2cac20632-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:19 GMT
+Expires: Tue, 05 Aug 2025 13:49:19 GMT
+Location: https://cdn.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=JcJZCpocJzZHlYEm3.2LtZmwdzQ7KD7pvh5KDqKL2n8-1754398159827-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

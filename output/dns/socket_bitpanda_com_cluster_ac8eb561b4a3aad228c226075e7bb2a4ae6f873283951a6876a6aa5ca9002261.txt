@@ -1,0 +1,28 @@
+[cluster-ac8eb561b4a3aad228c226075e7bb2a4ae6f873283951a6876a6aa5ca9002261] Dumped DNS request for socket.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 9595
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;socket.bitpanda.com.	IN	 A
+
+[cluster-ac8eb561b4a3aad228c226075e7bb2a4ae6f873283951a6876a6aa5ca9002261] Dumped DNS response for socket.bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 9595
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 1232
+
+;; QUESTION SECTION:
+;socket.bitpanda.com.	IN	 A
+
+;; ANSWER SECTION:
+socket.bitpanda.com.	300	IN	CNAME	d3psbw2342r39t.cloudfront.net.
+d3psbw2342r39t.cloudfront.net.	60	IN	A	3.162.112.36
+d3psbw2342r39t.cloudfront.net.	60	IN	A	3.162.112.43
+d3psbw2342r39t.cloudfront.net.	60	IN	A	3.162.112.56
+d3psbw2342r39t.cloudfront.net.	60	IN	A	3.162.112.120
+

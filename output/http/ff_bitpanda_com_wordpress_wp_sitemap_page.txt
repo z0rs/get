@@ -1,0 +1,37 @@
+[wordpress-wp-sitemap-page] Dumped HTTP request for http://ff.bitpanda.com/wp-content/plugins/wp-sitemap-page/readme.txt
+
+
+GET /wp-content/plugins/wp-sitemap-page/readme.txt HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/108.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=7L7rFowVmcxJQmjntJ2FkdLUUF8RqN9YZpC7IcfxudY-1754398459246-0.0.1.1-604800000; GCLB="8cb9c42b08a6b1b9"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-wp-sitemap-page] Dumped HTTP response http://ff.bitpanda.com/wp-content/plugins/wp-sitemap-page/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a671875af73882-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:30 GMT
+Expires: Tue, 05 Aug 2025 13:54:30 GMT
+Location: https://ff.bitpanda.com/wp-content/plugins/wp-sitemap-page/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=oztmO.B7XiQRzeOgmfqg5NgNwqc4utJvYrB0SRXboc0-1754398470333-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

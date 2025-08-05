@@ -1,0 +1,26 @@
+[kubelet-stats] Dumped HTTP request for https://techsolutions.bitpanda.com/stats/summary
+
+
+GET /stats/summary HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 Edge/16.16299
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[kubelet-stats] Dumped HTTP response https://techsolutions.bitpanda.com/stats/summary
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:40 GMT
+Location: ./summary/
+Via: 1.1 46ac2c9f87eca5473c2cb27cfe0168a4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: q0rc3CelGcrbhrn7c6N2yrg50jw9empHExRUteqz78h2feYO63fH2g==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

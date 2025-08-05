@@ -1,0 +1,60 @@
+[appwrite-panel] Dumped HTTP request for http://checkout.bitpanda.com/images/favicon.png
+
+
+GET /images/favicon.png HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[appwrite-panel] Dumped HTTP response http://checkout.bitpanda.com/images/favicon.png
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:48:59 GMT
+Location: https://checkout.bitpanda.com/images/favicon.png
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+[appwrite-panel] Dumped HTTP request for http://checkout.bitpanda.com/favicon.png
+
+
+GET /favicon.png HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[appwrite-panel] Dumped HTTP response http://checkout.bitpanda.com/favicon.png
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:07 GMT
+Location: https://checkout.bitpanda.com/favicon.png
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

@@ -1,0 +1,27 @@
+[mx-service-detector] Dumped DNS request for socket.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 6340
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;socket.bitpanda.com.	IN	 MX
+
+[mx-service-detector] Dumped DNS response for socket.bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 6340
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 512
+
+;; QUESTION SECTION:
+;socket.bitpanda.com.	IN	 MX
+
+;; ANSWER SECTION:
+socket.bitpanda.com.	235	IN	CNAME	d3psbw2342r39t.cloudfront.net.
+
+;; AUTHORITY SECTION:
+d3psbw2342r39t.cloudfront.net.	60	IN	SOA	ns-1406.awsdns-47.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+

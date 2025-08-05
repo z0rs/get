@@ -1,0 +1,30 @@
+[privategpt-detect] Dumped HTTP request for https://analytics.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=pH9XNWVMdyl89s2YAZ2UpdMjryn9uRJ6jhrtF8A7Tnw-1754398158758-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[privategpt-detect] Dumped HTTP response https://analytics.bitpanda.com
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669ec7a80b964-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:20 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=Kn1Sh.rAJq2.BcdBgl4gqvfHuVwOapQNXNbH0Lov8mg-1754398160549-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+upstream connect error or disconnect/reset before headers. reset reason: connection termination

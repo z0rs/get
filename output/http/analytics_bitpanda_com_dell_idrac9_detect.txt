@@ -1,0 +1,32 @@
+[dell-idrac9-detect] Dumped HTTP request for https://analytics.bitpanda.com/sysmgmt/2015/bmc/info
+
+
+GET /sysmgmt/2015/bmc/info HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=SUpg7Jm8.DpY48AwpfnSnOc504eRsJavTaoCFqB4Q58-1754398193973-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[dell-idrac9-detect] Dumped HTTP response https://analytics.bitpanda.com/sysmgmt/2015/bmc/info
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66acd8c31df73-IAD
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:54 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=xk3ASodhqgFQEdFMw02weuEcJdZKpUoeKpOvJyZTK2s-1754398194953-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Powered-By: Express
+
+Bad request

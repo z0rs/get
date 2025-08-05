@@ -1,0 +1,38 @@
+[synology-web-station] Dumped HTTP request for https://socket.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=gfPKVhkJQN2+hSzD3cbHOVQPVEPOHW/dL1J2BoCFjX5RTMSkLBMDd9nJTfCOL6EzE8J/aL5u7UVxMBMehNl2Mmw6vPonFPhAW0WNy0n42Pc9/so2AtWc43cnqWNo; AWSALBCORS=gfPKVhkJQN2+hSzD3cbHOVQPVEPOHW/dL1J2BoCFjX5RTMSkLBMDd9nJTfCOL6EzE8J/aL5u7UVxMBMehNl2Mmw6vPonFPhAW0WNy0n42Pc9/so2AtWc43cnqWNo
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[synology-web-station] Dumped HTTP response https://socket.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:40 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=q6wb7+xhpzXGNfAuo2+i1Pm7qLqss8iWnEkJjL5rvr+srU97OMe7n+DR3CkZ3c37GLaqMd+w8l/39QcvbfeA702OXUMnl12GxMLXYwDxs8NGT8MJm2Vt0F46ZogE; Expires=Tue, 12 Aug 2025 12:52:40 GMT; Path=/
+Set-Cookie: AWSALBCORS=q6wb7+xhpzXGNfAuo2+i1Pm7qLqss8iWnEkJjL5rvr+srU97OMe7n+DR3CkZ3c37GLaqMd+w8l/39QcvbfeA702OXUMnl12GxMLXYwDxs8NGT8MJm2Vt0F46ZogE; Expires=Tue, 12 Aug 2025 12:52:40 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 03c28758fe0abb70088fb45c6855d854.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 8ia_KEn6vLyZIU7ns7vW9BiSvHNQ4sf-rxNvS4O2b-mMGoff8ByQAg==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 21
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

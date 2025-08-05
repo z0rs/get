@@ -1,0 +1,60 @@
+[fanruanoa-detect] Dumped HTTP request for http://akurateco.bitpanda.com/WebReport/ReportServer
+
+
+GET /WebReport/ReportServer HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[fanruanoa-detect] Dumped HTTP response http://akurateco.bitpanda.com/WebReport/ReportServer
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:38 GMT
+Location: https://akurateco.bitpanda.com/WebReport/ReportServer
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+[fanruanoa-detect] Dumped HTTP request for http://akurateco.bitpanda.com/ReportServer
+
+
+GET /ReportServer HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686; rv:127.0) Gecko/20100101 Firefox/127.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[fanruanoa-detect] Dumped HTTP response http://akurateco.bitpanda.com/ReportServer
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:44 GMT
+Location: https://akurateco.bitpanda.com/ReportServer
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

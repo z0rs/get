@@ -1,0 +1,88 @@
+[phpldapadmin-panel] Dumped HTTP request for https://cdn-segment.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: cdn-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14.3) AppleWebKit/614.31.14 (KHTML, like Gecko) Version/17.0.96 Safari/614.31.14
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=tIQpCTBX728l6DHlivhv.Ga1kJ62o3GQXTkvd6pAeyE-1754398159242-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpldapadmin-panel] Dumped HTTP response https://cdn-segment.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Methods: GET, HEAD
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 3000
+Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669f2ff848845-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:19 GMT
+Etag: W/"328257380186d550f96adf638ff85092"
+Last-Modified: Fri, 27 Jun 2025 03:51:28 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=M_T3VIsermjY0tUfI7FBIMMFWnz9P_tybdwBAxxNuSE-1754398159933-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: accept-encoding
+Via: 1.1 798fb06c416f07d7eaba25e2728dc5ac.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: zd9yjyPQd9ad-Obyw-m98lWPJ6P5KYrwqHYIjARM9yvblIL7HuskLg==
+X-Amz-Cf-Pop: IAD79-C3
+X-Amz-Replication-Status: COMPLETED
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: 6NYlJnma9WPyl0MUFm2tNo8C1GzqJZih
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+Cannot GET - Invalid path or write key provided.
+
+[phpldapadmin-panel] Dumped HTTP request for https://cdn-segment.bitpanda.com/phpldapadmin
+
+
+GET /phpldapadmin HTTP/1.1
+Host: cdn-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh: Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=H4zpTQdIeD_2fXvP_Skq7ZjS9O_FgRxM_KbhHcuqetA-1754398165223-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpldapadmin-panel] Dumped HTTP response https://cdn-segment.bitpanda.com/phpldapadmin
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Methods: GET, HEAD
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 3000
+Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a5a3dd2a568-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:36 GMT
+Etag: W/"328257380186d550f96adf638ff85092"
+Last-Modified: Fri, 27 Jun 2025 03:51:28 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=GEIYF0dWMZqKRy9cypZeUfz6f_JPs4o65C5FHxqPjUc-1754398176606-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: accept-encoding
+Via: 1.1 29bea082286af4a231cfc553e1b23886.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: ThabIjA_YDk26Wemh57orQiZmVsS0X2czTG0WoQd8NOvy2AycoAlIw==
+X-Amz-Cf-Pop: IAD79-C3
+X-Amz-Replication-Status: COMPLETED
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: 6NYlJnma9WPyl0MUFm2tNo8C1GzqJZih
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+Cannot GET - Invalid path or write key provided.
+

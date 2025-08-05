@@ -1,0 +1,74 @@
+[netsweeper-webadmin-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/webadmin/start/
+
+
+GET /webadmin/start/ HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh, Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=dnpobEcwQml6WnV4ZDBRek03bHFSbDk4WmN0WUNuaEhPQ2pxUVdaZG0vSk10YndlVGZtM0pGZ1llWmNGa05jWG90cjA4SVBKOUM4VS85dXhmSEVWZ0tjb2Q5T0dwOWxBOE9QTkVZOEI3bEtPaFlYb0U1Y1o4WGpnSi84c0QwZWlnWWJ1NXZsYXZWS3Flelk2ZTIrUmh3aFRBNm10L0N5QTRUaFRGYWszRFZNdytSSTl5YkVVMGxWMVYrdDJZRWdnWk4zc0xCTksyZXpYd2RjdkppWnU3cnJKS2hHSWFYeitHVjNQbnZZNkZ4Yz0tLXhqM0FSZUg4Z2V0d0JwRHFycnJMSkE9PQ%3D%3D--2227959bcb82628d0d718017dba2822bdeeca728
+Referer: http://status.techsolutions.bitpanda.com/webadmin/admin/systemstatus_inc_data.php
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[netsweeper-webadmin-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/webadmin/start/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: fb089886-23c0-44e1-b0ae-2bf3eeae04b8
+Atl-Traceid: fb08988623c044e1b0ae2bf3eeae04b8
+Date: Tue, 05 Aug 2025 12:52:32 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=3,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 c5bb940b2890383b4ca2d8b74b68699a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: xTkU5on2SiNj7MLxVNUmNizvfvFERuFzJOI-YMJY0BNtiuJ5WxIsNw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 4422785
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[netsweeper-webadmin-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/webadmin/tools/systemstatus_remote.php
+
+
+GET /webadmin/tools/systemstatus_remote.php HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13 Safari/608.2.11
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=WU1kQzZMUTdOby82Rk93VVlQcWxWNTQyaDBIQXJDRlJjclhLRWZpc3Z2TDZBMkpGUFF2Z1BWaTBEUHBKL2p3WjFOK2R5enpsd1czcnZpaWd4UW5ZdmZ4U0lXMEJjRzIxRkp4Y1I1Z28zdTBpeWM5R0xNZVZQR25RNEdNSFlsYzJBVTRBMkRVd0hVS3ZOWlZTNHR2VDV5MHRyMGtjZkNlTUFhK2MzRmdOb2ozTFdMZEFzYmlWUXRSVXpibzM0WlV0WVk4NTlXalg2dmZveXlVLzIwRHUvM0tFZTExRkcwSi90R1hJaEM1QzZkcz0tLWswd3NTTjFYaXpHRGNzRXozL2VabUE9PQ%3D%3D--bfa50bfef8e9e97eb88fe70259c71ef5ea9242e3
+Referer: http://status.techsolutions.bitpanda.com/webadmin/admin/systemstatus_inc_data.php
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[netsweeper-webadmin-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/webadmin/tools/systemstatus_remote.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 8f0fec05-a159-45b4-b26c-2912c8003be2
+Atl-Traceid: 8f0fec05a15945b4b26c2912c8003be2
+Date: Tue, 05 Aug 2025 12:52:35 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=2,atl-edge-upstream;dur=65,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 966d01179c7098b0cf2a20ba8c352dee.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: BV_1AePwwloazXfYpt-Zl20ZqQcCJdxT8jfWq8bCQAlbEMeYjP9QBQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 178191331
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

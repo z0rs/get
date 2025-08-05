@@ -1,0 +1,32 @@
+[adfs-detect] Dumped HTTP request for https://analytics.bitpanda.com/adfs/ls/idpinitiatedsignon.aspx
+
+
+GET /adfs/ls/idpinitiatedsignon.aspx HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=IT_Bw7R3.WE5sIFa40_v7V6ZinqjDimFJBsPAKQSCDU-1754398169934-0.0.1.1-604800000; _cfuvid=F4BVFA.hgMh1YvT2SnUc8hYgh1VUJYkYJP8Wv7qf8W8-1754398171093-0.0.1.1-604800000; _cfuvid=M9MyHT.fsn6PGsRxVk7BZAS8Jbclq6nPiEVEa9MqLSo-1754398172919-0.0.1.1-604800000; _cfuvid=MC8hcooBGxM_W4G7s9LBPK9ihnqxAvwUX6IH84BEEEQ-1754398176973-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[adfs-detect] Dumped HTTP response https://analytics.bitpanda.com/adfs/ls/idpinitiatedsignon.aspx
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a635be77a4d-IAD
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:37 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=C67E_NlFfhBxiEKh1gp.H7V59GV49FsKN0STcaz1MGo-1754398177964-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Powered-By: Express
+
+Bad request

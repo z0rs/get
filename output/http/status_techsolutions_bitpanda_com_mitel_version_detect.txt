@@ -1,0 +1,36 @@
+[mitel-version-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/ucs/micollab/version.json
+
+
+GET /ucs/micollab/version.json HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh: Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=SGU4VWM1R1JqZFBGS0JkYk5QOGpqdnJmVlpzYzZzNUZidDhDY0c4cllBY1BrbnBuZExlS3Rsdkw3ZXpKQUdzN3d3Rm11Q2xVNEp0ZVZBMmRBL2plaWpmZS9tWURNdkxDUks2TFVYNEtCNnNrejhlWjRwRFQ3dStWNTlJVDYwc1preHNOTUV1aDFnelpUU042UEpkdzd2NnlZcnl4bEVNSzhQM21QbG9tVmQ2b1kzL2tsUWY0dUFCSkh4bWlVU0l6Ryt4ZklJSHh0VzBPWVVzRGRuQklld0J1TkhhVzhmRzFyZkovL0tLMUtQQT0tLUxhLzh2VWpUSVArbFVuVmJYQ3RGNUE9PQ%3D%3D--4b32f818713a80d54b1aa82e06650b8eb1928ba8
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[mitel-version-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/ucs/micollab/version.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 3f9e1322-5173-434d-982b-f59445ae2ec6
+Atl-Traceid: 3f9e13225173434d982bf59445ae2ec6
+Date: Tue, 05 Aug 2025 12:52:31 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=4,atl-edge-upstream;dur=62,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 8ad5a9cbb864898c238f716c1a12623c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: nc8SxSVsScYh4t4tanDLfh9l_47U97TP_JhO_z-yRb27a7RSOa0NkQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 752913622
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

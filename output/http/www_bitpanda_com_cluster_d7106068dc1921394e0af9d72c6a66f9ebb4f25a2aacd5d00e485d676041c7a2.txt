@@ -1,0 +1,34 @@
+[cluster-d7106068dc1921394e0af9d72c6a66f9ebb4f25a2aacd5d00e485d676041c7a2] Dumped HTTP request for https://www.bitpanda.com/signin
+
+
+GET /signin HTTP/1.1
+Host: www.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=yLifivFjySsKZmiWMvv6AtRfNc781dZLoDK4Q7.yihQ-1754398371220-0.0.1.1-604800000; _cfuvid=swsML0XNBicE3HwtMxI27ms0UZBDIujABXNphXalJ7c-1754398387682-0.0.1.1-604800000; _cfuvid=rAkT5yBE6atsjQyNjJ90R0LPUUHokktpIyI07DIVdOw-1754398402191-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-d7106068dc1921394e0af9d72c6a66f9ebb4f25a2aacd5d00e485d676041c7a2] Dumped HTTP response https://www.bitpanda.com/signin
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66fe6b83b198a-IAD
+Content-Security-Policy: frame-ancestors 'self' https://app.storyblok.com;
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Location: /en/signin
+Server: cloudflare
+Set-Cookie: _cfuvid=HVIfWk9YdmsV8oUyIC5Vmz8qNa7PHU0b8sn5rnjx33w-1754398403798-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::bbtwf-1754398403697-4580b716c230
+
+Redirecting...
+

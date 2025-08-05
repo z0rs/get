@@ -1,0 +1,33 @@
+[cloudflare-external-image-resize] Dumped HTTP request for http://ff.bitpanda.com/cdn-cgi/image/width/https://d28vs52us8n0rrg3ds80mg33pb7c4zpcu.oast.me
+
+
+GET /cdn-cgi/image/width/https://d28vs52us8n0rrg3ds80mg33pb7c4zpcu.oast.me HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Connection: close
+Accept: */*
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cloudflare-external-image-resize] Dumped HTTP response http://ff.bitpanda.com/cdn-cgi/image/width/https://d28vs52us8n0rrg3ds80mg33pb7c4zpcu.oast.me
+
+HTTP/1.1 415 Unsupported Media Type
+Connection: close
+Content-Length: 170
+Cache-Control: private
+Cf-Cache-Status: MISS
+Cf-Ray: 96a67241cc1ab8b1-IAD
+Cf-Resized: err=9412 wv=2025.6.0
+Content-Security-Policy: default-src 'none'; navigate-to 'none'; form-action 'none'
+Content-Type: text/plain;charset=utf-8
+Date: Tue, 05 Aug 2025 12:55:01 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=kuEJqCPlWTq632j6JarxDJQTdnMfRQy_Xcg6XUMA1k0-1754398501297-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept, Accept-Encoding
+X-Content-Type-Options: nosniff
+
+ERROR 9412: Could not resize the image: The requested file is not an image. Please make sure the server always serves an image (e.g. not an error page, or a login page)
+
+

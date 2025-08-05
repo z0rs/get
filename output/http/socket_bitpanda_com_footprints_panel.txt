@@ -1,0 +1,76 @@
+[footprints-panel] Dumped HTTP request for https://socket.bitpanda.com/MRcgi/MRlogin.pl
+
+
+GET /MRcgi/MRlogin.pl HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=S87VdeCVP5uTssQqwYIPIPrlWnnmH3c4xDdBfnNNBCB9vN99m2CfsqOwHF75fOnDvLFJRA4MZhGSw5JHmP4Yga1bJhzf+Be1GcCRgdlerwX0U+raScOlB37ZJwK+; AWSALBCORS=S87VdeCVP5uTssQqwYIPIPrlWnnmH3c4xDdBfnNNBCB9vN99m2CfsqOwHF75fOnDvLFJRA4MZhGSw5JHmP4Yga1bJhzf+Be1GcCRgdlerwX0U+raScOlB37ZJwK+
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[footprints-panel] Dumped HTTP response https://socket.bitpanda.com/MRcgi/MRlogin.pl
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:12 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=wXcoHGEZ+BPecDSUy1G1VyNV3QSVrFhUnk6ucB48t4K+97Tq+7FR/ZF3JcsEzCVpA5Aj6a8GnL/7bZeCAfnnrZQcGkGTdOv0j3XeqojWY/i58klu0PdjvJ1l5EQ2; Expires=Tue, 12 Aug 2025 12:52:12 GMT; Path=/
+Set-Cookie: AWSALBCORS=wXcoHGEZ+BPecDSUy1G1VyNV3QSVrFhUnk6ucB48t4K+97Tq+7FR/ZF3JcsEzCVpA5Aj6a8GnL/7bZeCAfnnrZQcGkGTdOv0j3XeqojWY/i58klu0PdjvJ1l5EQ2; Expires=Tue, 12 Aug 2025 12:52:12 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 03c28758fe0abb70088fb45c6855d854.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: yxFQJmB0bU1JwNoN5vQK3RDdopYSHJudSgq7XWaJ0gOK1it6sGp8Hw==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 12
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[footprints-panel] Dumped HTTP request for https://socket.bitpanda.com/MRcgi/MRentrancePage.pl
+
+
+GET /MRcgi/MRentrancePage.pl HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=pTwbsH6D/iU49VxOK9pJOL96oG93eEZjgHESVZSQV13h4nk5PtahVHqOUQWNECKxjGi1WO7I7KQaGvbEZxWH5pdvpWnNfh4pNQnJlJ4EBCn8+C3Z5OUz5tonuzFq; AWSALBCORS=pTwbsH6D/iU49VxOK9pJOL96oG93eEZjgHESVZSQV13h4nk5PtahVHqOUQWNECKxjGi1WO7I7KQaGvbEZxWH5pdvpWnNfh4pNQnJlJ4EBCn8+C3Z5OUz5tonuzFq
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[footprints-panel] Dumped HTTP response https://socket.bitpanda.com/MRcgi/MRentrancePage.pl
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:15 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=H4YdBsd68s8PwcOvLnYwcgVWKXmSd1hE1YZhtNiK/Qco5itY2k49lXRfhq6oPyX7MQ1r8h2I/cxCNL5v5SV/bR29yP/MHP+R/KZcLZaHLOVNfJIsEyuEf41uRztc; Expires=Tue, 12 Aug 2025 12:52:14 GMT; Path=/
+Set-Cookie: AWSALBCORS=H4YdBsd68s8PwcOvLnYwcgVWKXmSd1hE1YZhtNiK/Qco5itY2k49lXRfhq6oPyX7MQ1r8h2I/cxCNL5v5SV/bR29yP/MHP+R/KZcLZaHLOVNfJIsEyuEf41uRztc; Expires=Tue, 12 Aug 2025 12:52:14 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 d45137f973d454db77c647196f56613a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: ugbWNP_5FC_wm1uUa52Fpfyj7ZUBeJ9AZVbQVC3DTV3imzgTOlR-Cg==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 34
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

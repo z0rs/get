@@ -1,0 +1,33 @@
+[cloudflare-external-image-resize] Dumped HTTP request for http://feedbackai.bitpanda.com/cdn-cgi/image/width/https://d28vs52us8n0rrg3ds80763tztigcqc5j.oast.me
+
+
+GET /cdn-cgi/image/width/https://d28vs52us8n0rrg3ds80763tztigcqc5j.oast.me HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15
+Connection: close
+Accept: */*
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cloudflare-external-image-resize] Dumped HTTP response http://feedbackai.bitpanda.com/cdn-cgi/image/width/https://d28vs52us8n0rrg3ds80763tztigcqc5j.oast.me
+
+HTTP/1.1 415 Unsupported Media Type
+Connection: close
+Content-Length: 170
+Cache-Control: private
+Cf-Cache-Status: MISS
+Cf-Ray: 96a671e889b5396d-IAD
+Cf-Resized: err=9412 wv=2025.6.0
+Content-Security-Policy: default-src 'none'; navigate-to 'none'; form-action 'none'
+Content-Type: text/plain;charset=utf-8
+Date: Tue, 05 Aug 2025 12:54:46 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=CTTgqcoqQhr3q_uduIina1Xjf6Tuwol0NgOkNqyhGek-1754398486782-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept, Accept-Encoding
+X-Content-Type-Options: nosniff
+
+ERROR 9412: Could not resize the image: The requested file is not an image. Please make sure the server always serves an image (e.g. not an error page, or a login page)
+
+

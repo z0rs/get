@@ -1,0 +1,39 @@
+[apache-nifi-detect] Dumped HTTP request for http://maintenance.bitpanda.com/access/config
+
+
+GET /access/config HTTP/1.1
+Host: maintenance.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-nifi-detect] Dumped HTTP request for http://maintenance.bitpanda.com/controller/config
+
+
+GET /controller/config HTTP/1.1
+Host: maintenance.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-nifi-detect] Dumped HTTP request for http://maintenance.bitpanda.com/controller/registry-clients
+
+
+GET /controller/registry-clients HTTP/1.1
+Host: maintenance.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686; rv:129.0) Gecko/20100101 Firefox/129.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

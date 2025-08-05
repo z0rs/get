@@ -1,0 +1,26 @@
+[n8n-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/signin
+
+
+GET /signin HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[n8n-panel] Dumped HTTP response https://techsolutions.bitpanda.com/signin
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:22 GMT
+Location: ./signin/
+Via: 1.1 5d22d4cd27d82c133b77117809cd93b4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 9JfqQjLC-cZlfCGYPjTQhC_DQjaT6UB3J0Ru7XAYmK-FQo3mcWRRrg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

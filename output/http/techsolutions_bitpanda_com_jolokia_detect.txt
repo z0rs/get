@@ -1,0 +1,52 @@
+[jolokia-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/jolokia/version
+
+
+GET /jolokia/version HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jolokia-detect] Dumped HTTP response https://techsolutions.bitpanda.com/jolokia/version
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:38 GMT
+Location: ./version/
+Via: 1.1 9c8267a15d9ba974cf1dfcbe6981ef96.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: yvB2d46pQQRZrJEWvv4pwglrJktA_QS_O8wdWxjkqRCTJonfIG_ltg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[jolokia-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/actuator/jolokia/version
+
+
+GET /actuator/jolokia/version HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jolokia-detect] Dumped HTTP response https://techsolutions.bitpanda.com/actuator/jolokia/version
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:41 GMT
+Location: ./version/
+Via: 1.1 43c5eacfec80b6882109ae0d62894a64.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 5HVI5DEYFvaey836oWUDObBfurxVgLiL_sFYhLpKdk4vMIMOV-hWVA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

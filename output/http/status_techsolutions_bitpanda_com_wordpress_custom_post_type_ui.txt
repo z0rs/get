@@ -1,0 +1,35 @@
+[wordpress-custom-post-type-ui] Dumped HTTP request for https://status.techsolutions.bitpanda.com/wp-content/plugins/custom-post-type-ui/readme.txt
+
+
+GET /wp-content/plugins/custom-post-type-ui/readme.txt HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=SEllNCtjbmVHMEh3ZkRqMTZhK2o1VEdqMjkzT21RSUwvRGMzQnRWQlFUYlQ3anA3WERZRGJPSndwTHI3Qm1XYUpLUVZxZnl3UGxrWjNYbkxvQ3Y5VGdhT2hjZW1wRk1OSWxnMlJFU0dHZFVJTGhicWxDWEZ2akNoRUE3aG5GTENXZzRnMllrZ0RQaHpPWWJGNk5jNUxuUnBzWUk5bXhabWRRL0tvU0hGQVE0a3hWRnhKTG8xWHViUk9SRFc4R3BVVE5Md0I1cDRnNnBMZkc5Q2JUeVFmRkJFeHpCNXF0RmFIcFp6VzhIL1FpMD0tLVI1cDg5YzlZZjdRYXJSRTVySlV6Z1E9PQ%3D%3D--b0bf19b83db1e26bf8468707b0446d7242355060
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-custom-post-type-ui] Dumped HTTP response https://status.techsolutions.bitpanda.com/wp-content/plugins/custom-post-type-ui/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 6ceb27c5-e959-4ab2-a889-f709c0fa8d40
+Atl-Traceid: 6ceb27c5e9594ab2a889f709c0fa8d40
+Date: Tue, 05 Aug 2025 12:52:40 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 ffa8ec5cfe61dcaaebc108ff8c867054.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: ifL8wWHHlRrZtvj1wObMIW8qU1NRtpn5RRdY3pv0EgyU5V4ICTkPdw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 183112045
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

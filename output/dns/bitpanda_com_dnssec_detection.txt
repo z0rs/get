@@ -1,0 +1,24 @@
+[dnssec-detection] Dumped DNS request for bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 36672
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 DS
+
+[dnssec-detection] Dumped DNS response for bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 36672
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 1232
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 DS
+
+;; ANSWER SECTION:
+bitpanda.com.	86400	IN	DS	2371 13 2 021BB67986EA089D1D9170609642EB167DAA0CD62789E07BD0D25A44C2A54669
+

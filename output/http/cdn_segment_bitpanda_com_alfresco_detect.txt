@@ -1,0 +1,44 @@
+[alfresco-detect] Dumped HTTP request for https://cdn-segment.bitpanda.com/alfresco/api/-default-/public/cmis/versions/1.1/atom
+
+
+GET /alfresco/api/-default-/public/cmis/versions/1.1/atom HTTP/1.1
+Host: cdn-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686; rv:132.0) Gecko/20100101 Firefox/132.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=rqfQ4vx1USpprjmqWbzznAhmQrqsaMjh1OwkDxe_o.s-1754398134214-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[alfresco-detect] Dumped HTTP response https://cdn-segment.bitpanda.com/alfresco/api/-default-/public/cmis/versions/1.1/atom
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Methods: GET, HEAD
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 3000
+Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66956c87ee646-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:48:55 GMT
+Etag: W/"328257380186d550f96adf638ff85092"
+Last-Modified: Fri, 27 Jun 2025 03:51:28 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=uRP1e8Kyp3Yy.TBjheIWhu97yKbKb_xaiWwVj_C8OZk-1754398135088-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: accept-encoding
+Via: 1.1 3ebe5e903d733a5e00724b1dfdba02bc.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: oDAqe-xnvQQpqgRrP-u60LQ6LR4UVFtL7bnkLGGp2g27Y7uZdUPX0A==
+X-Amz-Cf-Pop: IAD79-C3
+X-Amz-Replication-Status: COMPLETED
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: 6NYlJnma9WPyl0MUFm2tNo8C1GzqJZih
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+Cannot GET - Invalid path or write key provided.
+

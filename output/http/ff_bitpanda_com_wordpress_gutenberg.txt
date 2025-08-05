@@ -1,0 +1,37 @@
+[wordpress-gutenberg] Dumped HTTP request for http://ff.bitpanda.com/wp-content/plugins/gutenberg/readme.txt
+
+
+GET /wp-content/plugins/gutenberg/readme.txt HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:91.0) Gecko/20100101 Firefox/91.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=ELAZT7Fn0J2avXoIlw3XaIcZ5BuIiynxf93g6Q78euU-1754398449892-0.0.1.1-604800000; GCLB="2e31d563c0458179"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-gutenberg] Dumped HTTP response http://ff.bitpanda.com/wp-content/plugins/gutenberg/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67113efb6592f-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:11 GMT
+Expires: Tue, 05 Aug 2025 13:54:11 GMT
+Location: https://ff.bitpanda.com/wp-content/plugins/gutenberg/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=0mYt3TzPxFaDT1eSkaqupZc96QIaPvRqMU9KbzoCB04-1754398451875-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

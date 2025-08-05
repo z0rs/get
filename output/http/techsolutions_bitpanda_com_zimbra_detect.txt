@@ -1,0 +1,30 @@
+[zimbra-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/js/zimbraMail/share/model/ZmSettings.js
+
+
+GET /js/zimbraMail/share/model/ZmSettings.js HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[zimbra-detect] Dumped HTTP response https://techsolutions.bitpanda.com/js/zimbraMail/share/model/ZmSettings.js
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:52 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 556fb8386f039ca8ee6a5b3f9ad1828c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: D0UaJsUEuVnq58whcvd1lNJUsD2eu0nEAQLfJJQk1uPYsjwfYUOfFg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: V+5naKJhKE/1ZCitB4p2SszMIXzh4GddaJeHIV7WXUZK4P+EBxh95WvQ/Jwz8eqSxUGv0QU5FXA=
+X-Amz-Request-Id: TAW60C1BQJZCWE7V
+X-Cache: Error from cloudfront
+
+Not Found

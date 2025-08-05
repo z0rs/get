@@ -1,0 +1,300 @@
+[oracle-peoplesoft-panel] Dumped HTTP request for https://api.bitpanda.com/psp/retess/?cmd=login&languageCd=ENG
+
+
+GET /psp/retess/?cmd=login&languageCd=ENG HTTP/1.1
+Host: api.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 13_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=eC2dqkNFDNGTKaCzmt.DkCyHUdVSMSiIrlAQdSvrux8-1754398160956-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response https://api.bitpanda.com/psp/retess/?cmd=login&languageCd=ENG
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669ff4a183879-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:21 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=d0gk1oC8RgJE8HiIPLUTNHz8n5QJE.LOvsPr979_eZY-1754398161921-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[oracle-peoplesoft-panel] Dumped HTTP request for https://api.bitpanda.com/psp/CT920/?cmd=login&languageCd=ENG
+
+
+GET /psp/CT920/?cmd=login&languageCd=ENG HTTP/1.1
+Host: api.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=eC2dqkNFDNGTKaCzmt.DkCyHUdVSMSiIrlAQdSvrux8-1754398160956-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response https://api.bitpanda.com/psp/CT920/?cmd=login&languageCd=ENG
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669ff4d510947-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:21 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=5q4QwhgY6z606hVwv2WA7NHVsr7lO2Zzopbv2xyXyVA-1754398161925-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[oracle-peoplesoft-panel] Dumped HTTP request for https://api.bitpanda.com/psp/esshrprd/?cmd=login&languageCd=ENG
+
+
+GET /psp/esshrprd/?cmd=login&languageCd=ENG HTTP/1.1
+Host: api.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686; rv:132.0) Gecko/20100101 Firefox/132.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=eC2dqkNFDNGTKaCzmt.DkCyHUdVSMSiIrlAQdSvrux8-1754398160956-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response https://api.bitpanda.com/psp/esshrprd/?cmd=login&languageCd=ENG
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669ff4992f276-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:21 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=n7.p4kUzV3EQzYU1lX.1LI08omuq9zOpq.i_NY9egL0-1754398161933-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[oracle-peoplesoft-panel] Dumped HTTP request for https://api.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: api.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_5) AppleWebKit/601.4.4 (KHTML, like Gecko) Version/9.0.3 Safari/537.86.4
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=eC2dqkNFDNGTKaCzmt.DkCyHUdVSMSiIrlAQdSvrux8-1754398160956-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response https://api.bitpanda.com
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Headers: origin, content-type, access-token, x-bitpanda-academy, x-tracking-id, If-None-Match, If-Match, x-bitpanda-app-web, x-datadog-trace-id, x-datadog-parent-id, x-datadog-origin, x-datadog-sampling-priority, bp-broker-user-api-token-id
+Access-Control-Allow-Origin: *
+Cache-Control: no-store, private
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669ff4a9f3975-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:22 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=Qet32nrB231Cqx47wtCF3kAU.MyzKlsYjBx7LJeMutE-1754398162121-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+{"data":{"type":"ok","attributes":{}}}
+[oracle-peoplesoft-panel] Dumped HTTP request for https://api.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: api.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=eC2dqkNFDNGTKaCzmt.DkCyHUdVSMSiIrlAQdSvrux8-1754398160956-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response https://api.bitpanda.com
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Headers: origin, content-type, access-token, x-bitpanda-academy, x-tracking-id, If-None-Match, If-Match, x-bitpanda-app-web, x-datadog-trace-id, x-datadog-parent-id, x-datadog-origin, x-datadog-sampling-priority, bp-broker-user-api-token-id
+Access-Control-Allow-Origin: *
+Cache-Control: no-store, private
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669ff4cd70811-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:22 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=U55gfQITPuubPqxEpJw_5NX4SEcifYEINPeGi74cB.Y-1754398162166-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+{"data":{"type":"ok","attributes":{}}}
+[oracle-peoplesoft-panel] Dumped HTTP request for https://api.bitpanda.com/psp/csprd/?cmd=login&languageCd=ENG
+
+
+GET /psp/csprd/?cmd=login&languageCd=ENG HTTP/1.1
+Host: api.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=eC2dqkNFDNGTKaCzmt.DkCyHUdVSMSiIrlAQdSvrux8-1754398160956-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for https://api.bitpanda.com/psp/ps/?cmd=login&languageCd=ENG
+
+
+GET /psp/ps/?cmd=login&languageCd=ENG HTTP/1.1
+Host: api.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=eC2dqkNFDNGTKaCzmt.DkCyHUdVSMSiIrlAQdSvrux8-1754398160956-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for https://api.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: api.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/123.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=eC2dqkNFDNGTKaCzmt.DkCyHUdVSMSiIrlAQdSvrux8-1754398160956-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for https://api.bitpanda.com/psp/fscmprod/?cmd=login&languageCd=ENG
+
+
+GET /psp/fscmprod/?cmd=login&languageCd=ENG HTTP/1.1
+Host: api.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/109.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=eC2dqkNFDNGTKaCzmt.DkCyHUdVSMSiIrlAQdSvrux8-1754398160956-0.0.1.1-604800000; _cfuvid=1VTQTw_gIzphGZvXPiZCzgzU_v_SfK6Vnr2yckCXUuM-1754398174092-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response https://api.bitpanda.com/psp/fscmprod/?cmd=login&languageCd=ENG
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a634ed08847-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:37 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=AZlKq0q_QLk5FholW23zrw0yRT6jILFCH12_AwawzHo-1754398177925-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[oracle-peoplesoft-panel] Dumped HTTP request for https://api.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: api.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686; rv:122.0) Gecko/20100101 Firefox/122.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=eC2dqkNFDNGTKaCzmt.DkCyHUdVSMSiIrlAQdSvrux8-1754398160956-0.0.1.1-604800000; _cfuvid=1VTQTw_gIzphGZvXPiZCzgzU_v_SfK6Vnr2yckCXUuM-1754398174092-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response https://api.bitpanda.com
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Headers: origin, content-type, access-token, x-bitpanda-academy, x-tracking-id, If-None-Match, If-Match, x-bitpanda-app-web, x-datadog-trace-id, x-datadog-parent-id, x-datadog-origin, x-datadog-sampling-priority, bp-broker-user-api-token-id
+Access-Control-Allow-Origin: *
+Cache-Control: no-store, private
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a634bf08062-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:37 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=OSXkV8z5LSXa8bAh4kZnZvHgTg1o_2VcPXzln1aMSOw-1754398177928-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+{"data":{"type":"ok","attributes":{}}}
+[oracle-peoplesoft-panel] Dumped HTTP request for https://api.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: api.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=eC2dqkNFDNGTKaCzmt.DkCyHUdVSMSiIrlAQdSvrux8-1754398160956-0.0.1.1-604800000; _cfuvid=1VTQTw_gIzphGZvXPiZCzgzU_v_SfK6Vnr2yckCXUuM-1754398174092-0.0.1.1-604800000; _cfuvid=dGG4FIHZieyMEGwU7lYhib4SFIvIUjhP0IMTJG4MH78-1754398178943-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response https://api.bitpanda.com
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Headers: origin, content-type, access-token, x-bitpanda-academy, x-tracking-id, If-None-Match, If-Match, x-bitpanda-app-web, x-datadog-trace-id, x-datadog-parent-id, x-datadog-origin, x-datadog-sampling-priority, bp-broker-user-api-token-id
+Access-Control-Allow-Origin: *
+Cache-Control: no-store, private
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a6fdd5cc975-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:39 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=NtOnKKds6oSAxJ3hIew0AA5rt1aEpyo_fGMPzxlYuHM-1754398179948-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+{"data":{"type":"ok","attributes":{}}}
+[oracle-peoplesoft-panel] Dumped HTTP request for https://api.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: api.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=eC2dqkNFDNGTKaCzmt.DkCyHUdVSMSiIrlAQdSvrux8-1754398160956-0.0.1.1-604800000; _cfuvid=1VTQTw_gIzphGZvXPiZCzgzU_v_SfK6Vnr2yckCXUuM-1754398174092-0.0.1.1-604800000; _cfuvid=dGG4FIHZieyMEGwU7lYhib4SFIvIUjhP0IMTJG4MH78-1754398178943-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

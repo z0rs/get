@@ -1,0 +1,37 @@
+[wordpress-google-site-kit] Dumped HTTP request for http://cdn.bitpanda.com/wp-content/plugins/google-site-kit/readme.txt
+
+
+GET /wp-content/plugins/google-site-kit/readme.txt HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.168 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=GTQGuKi6xP67DMKQhZSetOmKm5rZe32USgY.BMyzMgY-1754398323863-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-google-site-kit] Dumped HTTP response http://cdn.bitpanda.com/wp-content/plugins/google-site-kit/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66df9eec0311e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:04 GMT
+Expires: Tue, 05 Aug 2025 13:52:04 GMT
+Location: https://cdn.bitpanda.com/wp-content/plugins/google-site-kit/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=Zr4S8VvbThhgRqnMvUEOgZskVsJcte0z5XMGnscAwAc-1754398324808-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

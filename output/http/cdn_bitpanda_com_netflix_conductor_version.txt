@@ -1,0 +1,52 @@
+[netflix-conductor-version] Dumped HTTP request for http://cdn.bitpanda.com/api/admin/config
+
+
+GET /api/admin/config HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=gBmiJRVtXe6DVznqKLa0n23qHFdLwLE0yV4mxx48duk-1754398168234-0.0.1.1-604800000; _cfuvid=NEkQoQ9.64m2ogVXAsTJZ._0vqhhGt0zqsQNOYsb7cI-1754398184091-0.0.1.1-604800000; _cfuvid=tSwRwoZJkG0TWt6qcVkUhkjiDbSlb15rxg5LU5GBHAo-1754398197856-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[netflix-conductor-version] Dumped HTTP request for http://cdn.bitpanda.com/api/sys
+
+
+GET /api/sys HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=fuGyrO1WBfEdj49waH5YnLUQgHav_kjFYY1jeXGPkWk-1754398214878-0.0.1.1-604800000; _cfuvid=hao5t2ZqZTviTNiejbE6Gk13cMl23K4LkXDOsvCx19E-1754398230807-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[netflix-conductor-version] Dumped HTTP response http://cdn.bitpanda.com/api/sys
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66bb4bdc1083a-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:31 GMT
+Expires: Tue, 05 Aug 2025 13:50:31 GMT
+Location: https://cdn.bitpanda.com/api/sys
+Server: cloudflare
+Set-Cookie: _cfuvid=gOE1J2zeba7.b9.n07bDsx7bSCUVrlAHL3HOf1iPLeI-1754398231832-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

@@ -1,0 +1,70 @@
+[ibm-advanced-system-management] Dumped HTTP request for https://status.techsolutions.bitpanda.com/cgi-bin/cgi?form=1
+
+
+GET /cgi-bin/cgi?form=1 HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ibm-advanced-system-management] Dumped HTTP response https://status.techsolutions.bitpanda.com/cgi-bin/cgi?form=1
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 8623223e-2785-4aa3-ab1e-49f390166d93
+Atl-Traceid: 8623223e27854aa3ab1e49f390166d93
+Date: Tue, 05 Aug 2025 12:52:12 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=3,atl-edge-upstream;dur=62,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 a97d638d4e395a6f27b927572cf3bfda.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: vGO9321hd4VwRYXWb1bTjuerNdJC0SBNX3dMrv6qj13WvZii81V-SQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 126269881
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[ibm-advanced-system-management] Dumped HTTP request for https://status.techsolutions.bitpanda.com/cgi-bin/cgi
+
+
+GET /cgi-bin/cgi HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.7 Mobile/15E148 Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ibm-advanced-system-management] Dumped HTTP response https://status.techsolutions.bitpanda.com/cgi-bin/cgi
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: be583ae7-935e-4bf8-8a15-fdf579d1ea45
+Atl-Traceid: be583ae7935e4bf88a15fdf579d1ea45
+Date: Tue, 05 Aug 2025 12:52:14 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=2,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 5beb4c3232a40c8c6a3e48c902092760.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: g6jawfVMEGMCyBnYBRxXRec9SzXN4lXd2upCoABhMXuMpsnIgTbW1g==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 150026738
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

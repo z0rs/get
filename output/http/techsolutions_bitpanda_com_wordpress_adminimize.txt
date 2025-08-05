@@ -1,0 +1,29 @@
+[wordpress-adminimize] Dumped HTTP request for https://techsolutions.bitpanda.com/wp-content/plugins/adminimize/readme.txt
+
+
+GET /wp-content/plugins/adminimize/readme.txt HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-adminimize] Dumped HTTP response https://techsolutions.bitpanda.com/wp-content/plugins/adminimize/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:48 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 5b0b018dc5d72a42f205b24b17f4f56e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: m44iq6a-GfBoJTwxOjWd2e8h9WDknnl2vkKPo5z5aVzoAw6SOxahdw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: mWDj0yfNyuOht8JUgMVfoWZbYKvQXS7qkOKI4G1qEhmrQwjKUKHlEJJ7j53PPgM/5waPf7QyRPQ=
+X-Amz-Request-Id: XXNHCG0TMQJKZ28Q
+X-Cache: Error from cloudfront
+
+Not Found

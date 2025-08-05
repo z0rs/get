@@ -1,0 +1,831 @@
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/graphiql.css
+
+
+POST /graphiql.css HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response http://affiliates.bitpanda.com/graphiql.css
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66b9b9f1c54bb-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:27 GMT
+Expires: Tue, 05 Aug 2025 13:50:27 GMT
+Location: https://affiliates.bitpanda.com/graphiql.css
+Server: cloudflare
+Set-Cookie: _cfuvid=DowArEfpUdJHaabXfMIarPauNpoGaqFB1TDhERSZrPo-1754398227801-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response http://affiliates.bitpanda.com/api/graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66b9b9a1905d4-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:27 GMT
+Expires: Tue, 05 Aug 2025 13:50:27 GMT
+Location: https://affiliates.bitpanda.com/api/graphql
+Server: cloudflare
+Set-Cookie: _cfuvid=BCaBFGipCUjE9w4dS5.dOitkYYo9urUwDExX.eUgK1Y-1754398227807-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/graphiql.js
+
+
+POST /graphiql.js HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/9.1.2 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response http://affiliates.bitpanda.com/graphiql.js
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66b9b9f88d704-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:27 GMT
+Expires: Tue, 05 Aug 2025 13:50:27 GMT
+Location: https://affiliates.bitpanda.com/graphiql.js
+Server: cloudflare
+Set-Cookie: _cfuvid=CGh350w1ppThUawxlqGYxnq7htQPP83Jg5SDpb6_Ics-1754398227812-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response http://affiliates.bitpanda.com/graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66b9babfe391f-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:27 GMT
+Expires: Tue, 05 Aug 2025 13:50:27 GMT
+Location: https://affiliates.bitpanda.com/graphql
+Server: cloudflare
+Set-Cookie: _cfuvid=FEL0CUkq4MuKeVyj8K7Mo6RSNEhlsX27Z8062nzgKYs-1754398227817-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/graphql/schema.xml
+
+
+POST /graphql/schema.xml HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:109.0) Gecko/20100101 Firefox/117.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=FEL0CUkq4MuKeVyj8K7Mo6RSNEhlsX27Z8062nzgKYs-1754398227817-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response http://affiliates.bitpanda.com/graphql/schema.xml
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66b9beae2d6d8-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:27 GMT
+Expires: Tue, 05 Aug 2025 13:50:27 GMT
+Location: https://affiliates.bitpanda.com/graphql/schema.xml
+Server: cloudflare
+Set-Cookie: _cfuvid=gWX1h6tOM81Iy7VNiaoPoJEiE8JekH.3Qf4MPa6.AR8-1754398227854-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/graphql/graphql-playground
+
+
+POST /graphql/graphql-playground HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=BCaBFGipCUjE9w4dS5.dOitkYYo9urUwDExX.eUgK1Y-1754398227807-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response http://affiliates.bitpanda.com/graphql/graphql-playground
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66b9bdf1eb76a-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:27 GMT
+Expires: Tue, 05 Aug 2025 13:50:27 GMT
+Location: https://affiliates.bitpanda.com/graphql/graphql-playground
+Server: cloudflare
+Set-Cookie: _cfuvid=nMGQeZ7YZHhSe_rFTWu4qN8S4b.Xrc.rehYtMErHJkY-1754398227858-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/graphql/v1
+
+
+POST /graphql/v1 HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=nMGQeZ7YZHhSe_rFTWu4qN8S4b.Xrc.rehYtMErHJkY-1754398227858-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response http://affiliates.bitpanda.com/graphql/v1
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66b9c3d2c2d85-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:27 GMT
+Expires: Tue, 05 Aug 2025 13:50:27 GMT
+Location: https://affiliates.bitpanda.com/graphql/v1
+Server: cloudflare
+Set-Cookie: _cfuvid=B4g3uBXstfA6QVEwzaN8jcFcgXV00L9tSzEZJK2kvNk-1754398227890-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/je/graphql
+
+
+POST /je/graphql HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=B4g3uBXstfA6QVEwzaN8jcFcgXV00L9tSzEZJK2kvNk-1754398227890-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response http://affiliates.bitpanda.com/je/graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66b9c6e0a20a8-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:27 GMT
+Expires: Tue, 05 Aug 2025 13:50:27 GMT
+Location: https://affiliates.bitpanda.com/je/graphql
+Server: cloudflare
+Set-Cookie: _cfuvid=1cAWPMNw_kppBP3PRrDOTNY_zaV3.CSEVoRcSFu2N48-1754398227944-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/graph
+
+
+POST /graph HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:128.0) Gecko/20100101 Firefox/128.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/altair
+
+
+POST /altair HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:124.0) Gecko/20100101 Firefox/124.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/graph_cms
+
+
+POST /graph_cms HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.75 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/graphiql.php
+
+
+POST /graphiql.php HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/graphiql/finland
+
+
+POST /graphiql/finland HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686; rv:130.0) Gecko/20100101 Firefox/130.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/express-graphql
+
+
+POST /express-graphql HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686; rv:128.0) Gecko/20100101 Firefox/128.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/api/graphql/v1
+
+
+POST /api/graphql/v1 HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/graphql.php
+
+
+POST /graphql.php HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/104.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/___graphql
+
+
+POST /___graphql HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/graphiql
+
+
+POST /graphiql HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686; rv:125.0) Gecko/20100101 Firefox/125.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/graphiql.min.js
+
+
+POST /graphiql.min.js HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:96.0) Gecko/20100101 Firefox/96.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/graphiql.min.css
+
+
+POST /graphiql.min.css HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/graphql-explorer
+
+
+POST /graphql-explorer HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686; rv:134.0) Gecko/20100101 Firefox/134.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/explorer
+
+
+POST /explorer HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000; _cfuvid=McFyxTAXxeUq0AnW6TpKZGQIP2AqTc.V1RRw_TsfqIA-1754398233786-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/gql
+
+
+POST /gql HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000; _cfuvid=McFyxTAXxeUq0AnW6TpKZGQIP2AqTc.V1RRw_TsfqIA-1754398233786-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/graphql-console
+
+
+POST /graphql-console HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000; _cfuvid=McFyxTAXxeUq0AnW6TpKZGQIP2AqTc.V1RRw_TsfqIA-1754398233786-0.0.1.1-604800000; _cfuvid=bDyr_t1i8A4DIDIwBE2.T6ATx3qbs3PHJeyYCNtcs5M-1754398257845-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response http://affiliates.bitpanda.com/graphql-console
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66c5d7ff0c9bf-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:58 GMT
+Expires: Tue, 05 Aug 2025 13:50:58 GMT
+Location: https://affiliates.bitpanda.com/graphql-console
+Server: cloudflare
+Set-Cookie: _cfuvid=s6xM_B5v9NqkD1hdpw6Ze45ZgXJlie055ICLcnlPAPo-1754398258821-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/graphql-devtools
+
+
+POST /graphql-devtools HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000; _cfuvid=McFyxTAXxeUq0AnW6TpKZGQIP2AqTc.V1RRw_TsfqIA-1754398233786-0.0.1.1-604800000; _cfuvid=bDyr_t1i8A4DIDIwBE2.T6ATx3qbs3PHJeyYCNtcs5M-1754398257845-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response http://affiliates.bitpanda.com/graphql-devtools
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66c5d7b391b39-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:58 GMT
+Expires: Tue, 05 Aug 2025 13:50:58 GMT
+Location: https://affiliates.bitpanda.com/graphql-devtools
+Server: cloudflare
+Set-Cookie: _cfuvid=ztRPy6PRPDzGAIptWMv.BcA.na2XbqnqCE6CQkNxYNQ-1754398258823-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/graphql-playground-html
+
+
+POST /graphql-playground-html HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:135.0) Gecko/20100101 Firefox/135.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000; _cfuvid=McFyxTAXxeUq0AnW6TpKZGQIP2AqTc.V1RRw_TsfqIA-1754398233786-0.0.1.1-604800000; _cfuvid=bDyr_t1i8A4DIDIwBE2.T6ATx3qbs3PHJeyYCNtcs5M-1754398257845-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response http://affiliates.bitpanda.com/graphql-playground-html
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66c5d7f3fd6a9-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:58 GMT
+Expires: Tue, 05 Aug 2025 13:50:58 GMT
+Location: https://affiliates.bitpanda.com/graphql-playground-html
+Server: cloudflare
+Set-Cookie: _cfuvid=9Em8hTtLdS5FYe7.X4nN3FFOpyl9L1mRY.LbC4e4rhA-1754398258838-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/HyperGraphQL
+
+
+POST /HyperGraphQL HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/110.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000; _cfuvid=McFyxTAXxeUq0AnW6TpKZGQIP2AqTc.V1RRw_TsfqIA-1754398233786-0.0.1.1-604800000; _cfuvid=bDyr_t1i8A4DIDIwBE2.T6ATx3qbs3PHJeyYCNtcs5M-1754398257845-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response http://affiliates.bitpanda.com/HyperGraphQL
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66c5d7dbe3b7e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:58 GMT
+Expires: Tue, 05 Aug 2025 13:50:58 GMT
+Location: https://affiliates.bitpanda.com/HyperGraphQL
+Server: cloudflare
+Set-Cookie: _cfuvid=PxwTRjoU2d4D3QdQYUFNGXUpdjLft7D3r_tslp4VpP8-1754398258855-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/graphql/schema.json
+
+
+POST /graphql/schema.json HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:120.0) Gecko/20100101 Firefox/120.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=CGh350w1ppThUawxlqGYxnq7htQPP83Jg5SDpb6_Ics-1754398227812-0.0.1.1-604800000; _cfuvid=McFyxTAXxeUq0AnW6TpKZGQIP2AqTc.V1RRw_TsfqIA-1754398233786-0.0.1.1-604800000; _cfuvid=bDyr_t1i8A4DIDIwBE2.T6ATx3qbs3PHJeyYCNtcs5M-1754398257845-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response http://affiliates.bitpanda.com/graphql/schema.json
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66c5dafec58ae-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:58 GMT
+Expires: Tue, 05 Aug 2025 13:50:58 GMT
+Location: https://affiliates.bitpanda.com/graphql/schema.json
+Server: cloudflare
+Set-Cookie: _cfuvid=dR9_Aq8XhSQ4aR9Npdak8Gr4._qK6Mo1dZDOuwwM7pM-1754398258905-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/graphql/schema.yaml
+
+
+POST /graphql/schema.yaml HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; fr-FR) AppleWebKit/528.16 (KHTML, like Gecko) Version/4.0 Safari/528.16
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=gWX1h6tOM81Iy7VNiaoPoJEiE8JekH.3Qf4MPa6.AR8-1754398227854-0.0.1.1-604800000; _cfuvid=McFyxTAXxeUq0AnW6TpKZGQIP2AqTc.V1RRw_TsfqIA-1754398233786-0.0.1.1-604800000; _cfuvid=PxwTRjoU2d4D3QdQYUFNGXUpdjLft7D3r_tslp4VpP8-1754398258855-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response http://affiliates.bitpanda.com/graphql/schema.yaml
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66c5dec538be3-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:58 GMT
+Expires: Tue, 05 Aug 2025 13:50:58 GMT
+Location: https://affiliates.bitpanda.com/graphql/schema.yaml
+Server: cloudflare
+Set-Cookie: _cfuvid=2xRwIBvRv2o2.dKqg.ShFy2KCxv4_Iq5jQJvdyhVY.A-1754398258910-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/graphql-playground
+
+
+POST /graphql-playground HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/127.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000; _cfuvid=McFyxTAXxeUq0AnW6TpKZGQIP2AqTc.V1RRw_TsfqIA-1754398233786-0.0.1.1-604800000; _cfuvid=bDyr_t1i8A4DIDIwBE2.T6ATx3qbs3PHJeyYCNtcs5M-1754398257845-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/graphql/console
+
+
+POST /graphql/console HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=DowArEfpUdJHaabXfMIarPauNpoGaqFB1TDhERSZrPo-1754398227801-0.0.1.1-604800000; _cfuvid=McFyxTAXxeUq0AnW6TpKZGQIP2AqTc.V1RRw_TsfqIA-1754398233786-0.0.1.1-604800000; _cfuvid=bDyr_t1i8A4DIDIwBE2.T6ATx3qbs3PHJeyYCNtcs5M-1754398257845-0.0.1.1-604800000; _cfuvid=iM1lIwL5xErsi7Q6SI_Pik3YpV2xdBj5EAwAN0SwFzs-1754398270814-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/api/cask/graphql-playground
+
+
+POST /api/cask/graphql-playground HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000; _cfuvid=McFyxTAXxeUq0AnW6TpKZGQIP2AqTc.V1RRw_TsfqIA-1754398233786-0.0.1.1-604800000; _cfuvid=bDyr_t1i8A4DIDIwBE2.T6ATx3qbs3PHJeyYCNtcs5M-1754398257845-0.0.1.1-604800000; _cfuvid=iM1lIwL5xErsi7Q6SI_Pik3YpV2xdBj5EAwAN0SwFzs-1754398270814-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP request for http://affiliates.bitpanda.com/laravel-graphql-playground
+
+
+POST /laravel-graphql-playground HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=1cAWPMNw_kppBP3PRrDOTNY_zaV3.CSEVoRcSFu2N48-1754398227944-0.0.1.1-604800000; _cfuvid=McFyxTAXxeUq0AnW6TpKZGQIP2AqTc.V1RRw_TsfqIA-1754398233786-0.0.1.1-604800000; _cfuvid=2xRwIBvRv2o2.dKqg.ShFy2KCxv4_Iq5jQJvdyhVY.A-1754398258910-0.0.1.1-604800000; _cfuvid=iM1lIwL5xErsi7Q6SI_Pik3YpV2xdBj5EAwAN0SwFzs-1754398270814-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}

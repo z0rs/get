@@ -1,0 +1,78 @@
+[mitel-micollab-panel] Dumped HTTP request for https://clicks.bitpanda.com/wd/en-us/wapplink.asp
+
+
+GET /wd/en-us/wapplink.asp HTTP/1.1
+Host: clicks.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=XdvJoG9Qlr20GcfcW7uU.a7zcpl3r9Xdao.DwYuxnJU-1754398141870-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[mitel-micollab-panel] Dumped HTTP response https://clicks.bitpanda.com/wd/en-us/wapplink.asp
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669951a201fee-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:04 GMT
+Expires: Tue, 05 Aug 2025 13:49:04 GMT
+Location: https://eu.spgo.io/wd/en-us/wapplink.asp
+Server: cloudflare
+Set-Cookie: _cfuvid=sfQeLCTySkwF7wRDIRHtt6R9m67hKjGig0leep0MVTA-1754398144849-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[mitel-micollab-panel] Dumped HTTP request for https://clicks.bitpanda.com/portal/
+
+
+GET /portal/ HTTP/1.1
+Host: clicks.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:127.0) Gecko/20100101 Firefox/127.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=zqkRnZrAUmB9ANNJrLwjq6FTG9cCuVTf_34y_NyY_zQ-1754398150833-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[mitel-micollab-panel] Dumped HTTP response https://clicks.bitpanda.com/portal/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669cd6abea5b8-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:13 GMT
+Expires: Tue, 05 Aug 2025 13:49:13 GMT
+Location: https://eu.spgo.io/portal/
+Server: cloudflare
+Set-Cookie: _cfuvid=r8zxrNZiHR4VGdAz6nx48c8IE5BUDbmrVdwEXC.wv6c-1754398153850-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

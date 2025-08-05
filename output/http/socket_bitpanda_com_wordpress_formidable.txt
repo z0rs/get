@@ -1,0 +1,37 @@
+[wordpress-formidable] Dumped HTTP request for https://socket.bitpanda.com/wp-content/plugins/formidable/readme.txt
+
+
+GET /wp-content/plugins/formidable/readme.txt HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/104.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=vfFpVuGokGUlFEXdh7cRmCYaJppxCh7ojxqb93beJXUiRakP3qV2zmA20YfGiTKYbzgwc2ZF7JjgeqaQx/gzGgD4a1N4gjB82WM2qf33Mwkl/LAhANIbzyZpmiUn; AWSALBCORS=vfFpVuGokGUlFEXdh7cRmCYaJppxCh7ojxqb93beJXUiRakP3qV2zmA20YfGiTKYbzgwc2ZF7JjgeqaQx/gzGgD4a1N4gjB82WM2qf33Mwkl/LAhANIbzyZpmiUn
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-formidable] Dumped HTTP response https://socket.bitpanda.com/wp-content/plugins/formidable/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:44 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=3ZnZxsY7BQ5DwEbttY1Cg2egxOgqGvJ473CReJS/RzAJ58POGj+aBGpNZs2LLuo4oQNYy3rQzmNiZJzf8RFh8Y1Wh2c8rMRarT1MrmKQEPPAMoO4L+ZbY1vQKHMX; Expires=Tue, 12 Aug 2025 12:52:44 GMT; Path=/
+Set-Cookie: AWSALBCORS=3ZnZxsY7BQ5DwEbttY1Cg2egxOgqGvJ473CReJS/RzAJ58POGj+aBGpNZs2LLuo4oQNYy3rQzmNiZJzf8RFh8Y1Wh2c8rMRarT1MrmKQEPPAMoO4L+ZbY1vQKHMX; Expires=Tue, 12 Aug 2025 12:52:44 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 58de144297b2ef277d1d9fd26ad452dc.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: yVMmrDHlyprZ7M4PYU0-CuRBlfRZA03_JTAD8mSKXsGfn0AxvTOeeA==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 18
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

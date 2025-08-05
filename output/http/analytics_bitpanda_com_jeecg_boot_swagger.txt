@@ -1,0 +1,29 @@
+[jeecg-boot-swagger] Dumped HTTP request for https://analytics.bitpanda.com/jeecg-boot/
+
+
+GET /jeecg-boot/ HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=hfI1ZkpzbcdGcCW.Mt00nANwTmxX0KMQarl03YAzPqU-1754398168330-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jeecg-boot-swagger] Dumped HTTP response https://analytics.bitpanda.com/jeecg-boot/
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Content-Length: 19
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a2afe6f1743-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:28 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=3rSf_0Q3bfAFvD2DInJkqnJQit3K0semrbcYYzg1EXg-1754398168922-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+
+no healthy upstream

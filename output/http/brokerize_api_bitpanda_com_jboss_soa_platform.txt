@@ -1,0 +1,60 @@
+[jboss-soa-platform] Dumped HTTP request for https://brokerize-api.bitpanda.com/css/footer.js
+
+
+GET /css/footer.js HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=2x2royRafWV6a2GkskwJKSW6ilExAtR44NnjFYbZFtE-1754398141151-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jboss-soa-platform] Dumped HTTP response https://brokerize-api.bitpanda.com/css/footer.js
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: MISS
+Cf-Ray: 96a6698279fc38fd-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:01 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=51lD_mBjADGPacxpBvOA17w_oWWUFriNJdWGT5.qZlo-1754398141959-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[jboss-soa-platform] Dumped HTTP request for https://brokerize-api.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jboss-soa-platform] Dumped HTTP response https://brokerize-api.bitpanda.com
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669ba8dac28c0-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:11 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=1qsm0Q4fTUDsjkqf2QDYeCg8qZFseroy6jVXA0rMPpQ-1754398151103-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}

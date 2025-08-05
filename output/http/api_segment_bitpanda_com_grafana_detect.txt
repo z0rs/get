@@ -1,0 +1,58 @@
+[grafana-detect] Dumped HTTP request for https://api-segment.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=46qNPKoDqAcn7ZSuooXxNKl2Xf8AH9nA1GpB_xmR8C8-1754398136166-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[grafana-detect] Dumped HTTP response https://api-segment.bitpanda.com/login
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669889c00c56e-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:02 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=0Ph_5NOVt2M9psEEjlMnXGo4N4rE3.51Foa3xH9T00c-1754398142933-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[grafana-detect] Dumped HTTP request for https://api-segment.bitpanda.com/graph/login
+
+
+GET /graph/login HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; it-it) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=SGLm4tMj5Y53suo5tWu6yL1GUiFdDgrTXxB9ys4Vq.g-1754398144097-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[grafana-detect] Dumped HTTP response https://api-segment.bitpanda.com/graph/login
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c10926fa2f-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:11 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=65pDKO5vQ3RioFrzaS0CrjslSh6WnPIncnefm9zQbro-1754398151945-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

@@ -1,0 +1,92 @@
+[octobercms-detect] Dumped HTTP request for http://feedbackai.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686; rv:133.0) Gecko/20100101 Firefox/133.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=A5dHAGAROF4exC25xwchbrA_Sj1mDRTSpRha1q78K1g-1754398416085-0.0.1.1-604800000; _cfuvid=yt2u_6upHPgfXLpSJaFwXqcnRhn8vAwjRgkFlT72J6M-1754398431387-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[octobercms-detect] Dumped HTTP response http://feedbackai.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670c789c0c99b-IAD
+Date: Tue, 05 Aug 2025 12:53:59 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[octobercms-detect] Dumped HTTP response http://feedbackai.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670c72b8282f3-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:59 GMT
+Expires: Tue, 05 Aug 2025 13:53:59 GMT
+Location: https://feedbackai.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=DikzyJ7pO7NTwcdMhAfg7KHLsrH34p4LP_EOXTrmk9k-1754398439580-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[octobercms-detect] Dumped HTTP request for http://feedbackai.bitpanda.com/modules/system/assets/js/framework.combined-min.js
+
+
+GET /modules/system/assets/js/framework.combined-min.js HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=YN4qBQjd5aSCT5hTcV9ALaWc2pIkPAOXicrVF2b78uQ-1754398439596-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[octobercms-detect] Dumped HTTP response http://feedbackai.bitpanda.com/modules/system/assets/js/framework.combined-min.js
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cache-Control: public, max-age=300
+Cf-Cache-Status: MISS
+Cf-Ray: 96a670e6ffa029bb-IAD
+Date: Tue, 05 Aug 2025 12:54:04 GMT
+Expires: Tue, 05 Aug 2025 12:59:04 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[octobercms-detect] Dumped HTTP response http://feedbackai.bitpanda.com/modules/system/assets/js/framework.combined-min.js
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670e09f94c98d-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:03 GMT
+Expires: Tue, 05 Aug 2025 13:54:03 GMT
+Location: https://feedbackai.bitpanda.com/modules/system/assets/js/framework.combined-min.js
+Server: cloudflare
+Set-Cookie: _cfuvid=2KCAK7hAoWyqpX4t0t_njZzjas8n.MOAYuYhnoorFw4-1754398443632-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

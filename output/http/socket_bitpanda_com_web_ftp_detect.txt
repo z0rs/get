@@ -1,0 +1,38 @@
+[web-ftp-detect] Dumped HTTP request for https://socket.bitpanda.com/cgi-bin/upload/web-ftp.cgi
+
+
+GET /cgi-bin/upload/web-ftp.cgi HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=jQOjzARrHArU6TaW9DBMWKTTGF8tDxlVptQRbph6WSA/75V26yrf2+zl/Xw0RRk4IYgc4wfk3O7kJuRVv0DMVzu80NMW9t0ZDrLaSb7FLm+ZC1b5+f3lapIFpOss; AWSALBCORS=jQOjzARrHArU6TaW9DBMWKTTGF8tDxlVptQRbph6WSA/75V26yrf2+zl/Xw0RRk4IYgc4wfk3O7kJuRVv0DMVzu80NMW9t0ZDrLaSb7FLm+ZC1b5+f3lapIFpOss
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[web-ftp-detect] Dumped HTTP response https://socket.bitpanda.com/cgi-bin/upload/web-ftp.cgi
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:41 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=+FZlLgR3Hwc1hntvpGmgCwnJ5dr1pfb74PR20KU5RrHNguNk+WjKJ6IORdkWFxEJTXZOpv+br2JBosLXoKEnjntVkrSwyBk5kPP6VIbmicjdKkP1zN4tIXWaSw7M; Expires=Tue, 12 Aug 2025 12:52:41 GMT; Path=/
+Set-Cookie: AWSALBCORS=+FZlLgR3Hwc1hntvpGmgCwnJ5dr1pfb74PR20KU5RrHNguNk+WjKJ6IORdkWFxEJTXZOpv+br2JBosLXoKEnjntVkrSwyBk5kPP6VIbmicjdKkP1zN4tIXWaSw7M; Expires=Tue, 12 Aug 2025 12:52:41 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 87e6563b344d9d0eb9b5aa233652bc74.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: EENsa-NgwiUg4hwA-slbHqumT8RUIJFcUzptAjE_3fjNRyOuShF-3Q==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 10
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

@@ -1,0 +1,29 @@
+[wordpress-wp-super-cache] Dumped HTTP request for https://techsolutions.bitpanda.com/wp-content/plugins/wp-super-cache/readme.txt
+
+
+GET /wp-content/plugins/wp-super-cache/readme.txt HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/113.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-wp-super-cache] Dumped HTTP response https://techsolutions.bitpanda.com/wp-content/plugins/wp-super-cache/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:52 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 1e5d213252e38a8aa2e2a927fd3c3754.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: KmJ8lrtQLWUxJ-cOmz06mAyQAdJ2MYkDd7Y5XaNeRT8FTTWahX0Yvw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: jEYErxQB8pfvij8/RnSvXtD4c+YpE+PzefOH+SKqx1+NwrQkrKYyzJh3pP+1e+3OhTfxf6csSftHHDvPiI0T7bkvDa+O1FQV
+X-Amz-Request-Id: TAW2156Q5M7R9ZYZ
+X-Cache: Error from cloudfront
+
+Not Found

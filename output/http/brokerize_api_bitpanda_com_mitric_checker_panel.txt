@@ -1,0 +1,60 @@
+[mitric-checker-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/QSA/Login.aspx
+
+
+GET /QSA/Login.aspx HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Iu1IE6iwGgRtiZVwsd9x6beobgY9KYxwQ1aMVjVc4pM-1754398142806-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[mitric-checker-panel] Dumped HTTP response https://brokerize-api.bitpanda.com/QSA/Login.aspx
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669b43ed4c9ac-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:09 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=FkmWkPWNlg9vomiTX6vC3vTAZh4U5yPUEmlJFIZxD5E-1754398149912-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[mitric-checker-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/API/External/GetPrivacy
+
+
+GET /API/External/GetPrivacy HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=IBvnTSxVlsuTi_MfvJ6eoKMQS7w4JXXEAoGisjLl8ZY-1754398156045-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[mitric-checker-panel] Dumped HTTP response https://brokerize-api.bitpanda.com/API/External/GetPrivacy
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e07ad3825c-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:16 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=j4Nng1Ou7M2ndgp9BGAKNil1Jd20fahKDV.6Zk7DxU4-1754398156992-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}

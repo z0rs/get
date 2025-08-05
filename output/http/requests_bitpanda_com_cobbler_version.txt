@@ -1,0 +1,30 @@
+[cobbler-version] Dumped HTTP request for http://requests.bitpanda.com/cobbler_api
+
+
+POST /cobbler_api HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Content-Length: 114
+Accept: */*
+Accept-Language: en
+Content-Type: text/xml
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+<?xml version='1.0'?>
+<methodCall>
+<methodName>extended_version</methodName>
+<params></params>
+</methodCall>
+
+[cobbler-version] Dumped HTTP response http://requests.bitpanda.com/cobbler_api
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 18
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:06 GMT
+Location: https://requests.bitpanda.com/cobbler_api
+
+Permanent Redirect

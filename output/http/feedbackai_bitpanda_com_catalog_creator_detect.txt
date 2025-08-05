@@ -1,0 +1,59 @@
+[catalog-creator-detect] Dumped HTTP request for http://feedbackai.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=ri7kjqIibJCjd5h0s_Kue2m7eAq2XE334cHTjAmd4kc-1754398361875-0.0.1.1-604800000; _cfuvid=G.Q._tmSGI.UQrI9i9C8GuhvvFP61c3g_PfYd9yCtiM-1754398372827-0.0.1.1-604800000; _cfuvid=mPnagOF1seyFc7.bI8Rd1o_YHYG3_PFSZIRPDyipXGs-1754398391833-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[catalog-creator-detect] Dumped HTTP request for http://feedbackai.bitpanda.com/index.php
+
+
+GET /index.php HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=JyETIro.n1ddaLyfcUG5KgAbB.M3oVpYVzygTaBMoQ4-1754398406824-0.0.1.1-604800000; _cfuvid=Li7BWTCDIAfeJKq6vkzJl33YkmOkTZiwPuyVmHKtxss-1754398423110-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[catalog-creator-detect] Dumped HTTP response http://feedbackai.bitpanda.com/index.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6706b8c2fd739-IAD
+Date: Tue, 05 Aug 2025 12:53:45 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[catalog-creator-detect] Dumped HTTP response http://feedbackai.bitpanda.com/index.php
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6706b3cffc9b1-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:44 GMT
+Expires: Tue, 05 Aug 2025 13:53:44 GMT
+Location: https://feedbackai.bitpanda.com/index.php
+Server: cloudflare
+Set-Cookie: _cfuvid=60kBZev2Pwa.2Lgi_E_otOGd9vzUIkc6nWG54gVNJ2s-1754398424860-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

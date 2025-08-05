@@ -1,0 +1,40 @@
+[quest-panel] Dumped HTTP request for https://beta.bitpanda.com/cgi-bin/webcm?getpage=../html/login.html
+
+
+GET /cgi-bin/webcm?getpage=../html/login.html HTTP/1.1
+Host: beta.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10) AppleWebKit/537.16 (KHTML, like Gecko) Version/8.0 Safari/537.16
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: CF_AppSession=n063dd65a04ac2c1e; _cfuvid=mbsBZdtLetrMu3jNA3gCXd4qSjBS0fnG_hg.3Z9r.8A-1754398145829-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[quest-panel] Dumped HTTP response https://beta.bitpanda.com/cgi-bin/webcm?getpage=../html/login.html
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 143
+Access-Control-Allow-Credentials: true
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 96a669a80b8c0a89-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:07 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://bitpanda-gate.cloudflareaccess.com/cdn-cgi/access/login/beta.bitpanda.com?kid=0ca506b0194b79b07437443821678862b0fc2c1e1a8cb6d26b1a8c52a0bc1420&redirect_url=%2Fcgi-bin%2Fwebcm%3Fgetpage%3D..%2Fhtml%2Flogin.html&meta=eyJraWQiOiIwOTY4MTE1OWQ4NmM1NDQ2YzlhZmFiM2ZjMzExNzU5ZDdiM2FmZDkyNjA2ZDAyYzdjYmM5YTkzMDMwMjJiOTYyIiwiYWxnIjoiUlMyNTYiLCJ0eXAiOiJKV1QifQ.eyJzZXJ2aWNlX3Rva2VuX3N0YXR1cyI6ZmFsc2UsImlhdCI6MTc1NDM5ODE0Nywic2VydmljZV90b2tlbl9pZCI6IiIsImF1ZCI6IjBjYTUwNmIwMTk0Yjc5YjA3NDM3NDQzODIxNjc4ODYyYjBmYzJjMWUxYThjYjZkMjZiMWE4YzUyYTBiYzE0MjAiLCJob3N0bmFtZSI6ImJldGEuYml0cGFuZGEuY29tIiwiYXBwX3Nlc3Npb25faGFzaCI6IjkxM2FkNjQ1Y2IzN2EyMTJhM2UzZDRhOTM4OTllYzg2MmM1OWExMTJhNDY0NGQ3YWJiOWU3OTY3NWM2NTU3MGIiLCJuYmYiOjE3NTQzOTgxNDcsImlzX3dhcnAiOmZhbHNlLCJpc19nYXRld2F5IjpmYWxzZSwidHlwZSI6Im1ldGEiLCJyZWRpcmVjdF91cmwiOiJcL2NnaS1iaW5cL3dlYmNtP2dldHBhZ2U9Li5cL2h0bWxcL2xvZ2luLmh0bWwiLCJtdGxzX2F1dGgiOnsiY2VydF9pc3N1ZXJfc2tpIjoiIiwiY2VydF9wcmVzZW50ZWQiOmZhbHNlLCJjZXJ0X3NlcmlhbCI6IiIsImNlcnRfaXNzdWVyX2RuIjoiIiwiYXV0aF9zdGF0dXMiOiJOT05FIn0sImF1dGhfc3RhdHVzIjoiTk9ORSJ9.JG6xW8GYVGgQtcnoQ0CRg8vuCv4UdAXGpuGODCU5uoLQrIKkBfo0ExcJCuHaCwWO5jKq5YcoGNhI6ekWwE8H2zpgg7_9t7mFP-ITyXhXSLoiyhIV_-mLYWersOwlEFye1pelU4Bo3Mj3WQp6VK5ZVy2R30kNUPZdTZeuGgPnXc35iyw5oYwJXioZlWCvUB6M2p27d8iyfX1M_a7bpcFHjXzTbKHFsNXQKylgABLuXMOLpK_oUJ5y8opfrnIVg6bOecEUd0p7NFGa6yoVrl6oGESX1H9tA1khqEkp5H7OSJNyIfRDxqwitSomPEJuGrf2ClsG08eGMyKpzh8AQSkGlg
+Server: cloudflare
+Set-Cookie: _cfuvid=vIQZmcQxp088Qrk4HUdOXG1uumVFqChrggNhx4.n.LQ-1754398147860-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

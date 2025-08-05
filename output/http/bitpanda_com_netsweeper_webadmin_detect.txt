@@ -1,0 +1,30 @@
+[netsweeper-webadmin-detect] Dumped HTTP request for https://bitpanda.com/webadmin/start/
+
+
+GET /webadmin/start/ HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=yUT2uf1cLPgoeQfKPYXULNdCvQhdHgF4yBS12zSITAE-1754398281014-0.0.1.1-604800000
+Referer: http://bitpanda.com/webadmin/admin/systemstatus_inc_data.php
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[netsweeper-webadmin-detect] Dumped HTTP request for https://bitpanda.com/webadmin/tools/systemstatus_remote.php
+
+
+GET /webadmin/tools/systemstatus_remote.php HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=2Zjyo5H4bRVXMoHfa95trg1r0oyQoYr0CdEFh65BSZM-1754398295826-0.0.1.1-604800000
+Referer: http://bitpanda.com/webadmin/admin/systemstatus_inc_data.php
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

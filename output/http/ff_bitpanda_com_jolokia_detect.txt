@@ -1,0 +1,76 @@
+[jolokia-detect] Dumped HTTP request for http://ff.bitpanda.com/jolokia/version
+
+
+GET /jolokia/version HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/105.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=_Een7alzGHWxgEV5UEnkQD.i3yT5sHnEDz00Bma2sIo-1754398424942-0.0.1.1-604800000; GCLB="acff9309ea3a6d11"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jolokia-detect] Dumped HTTP response http://ff.bitpanda.com/jolokia/version
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6706bfc1950b1-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:44 GMT
+Expires: Tue, 05 Aug 2025 13:53:44 GMT
+Location: https://ff.bitpanda.com/jolokia/version
+Server: cloudflare
+Set-Cookie: _cfuvid=jq2bdm4ll8bruEaAcaGmBMpPo_71.lVOO9PLZss6OL0-1754398424985-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[jolokia-detect] Dumped HTTP request for http://ff.bitpanda.com/actuator/jolokia/version
+
+
+GET /actuator/jolokia/version HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.1
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=jq2bdm4ll8bruEaAcaGmBMpPo_71.lVOO9PLZss6OL0-1754398424985-0.0.1.1-604800000; GCLB="acff9309ea3a6d11"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jolokia-detect] Dumped HTTP response http://ff.bitpanda.com/actuator/jolokia/version
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670b26d32f30f-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:56 GMT
+Expires: Tue, 05 Aug 2025 13:53:56 GMT
+Location: https://ff.bitpanda.com/actuator/jolokia/version
+Server: cloudflare
+Set-Cookie: _cfuvid=uOHIit1xDqmeWPtYm2yky1MjZFJnEaFwhJo8I_LGq3A-1754398436250-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

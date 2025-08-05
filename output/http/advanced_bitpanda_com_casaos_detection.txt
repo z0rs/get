@@ -1,0 +1,28 @@
+[casaos-detection] Dumped HTTP request for https://advanced.bitpanda.com/v1/sys/debug
+
+
+GET /v1/sys/debug HTTP/1.1
+Host: advanced.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _ava_csrf=MTc1NDM5ODEzMnxJbTFLV2xOYU0xQXpaVk0yTVRnNGQwZE5VVkpDVVRGSFltRklkRGQ1VGtkbFVIZ3ZjRVV2VG1KWloyTTlJZ289fKJP_4w0njSvNJIudSGTj5zmPLvdwX5aErvdGNks_7hG; csrf=MTc1NDM5ODE1OXxseXdoLUpycDYtNjN6c0JPZ2RwaXNtQnc0MEFUUVEyMU9zZzdIZUhkaXNNRTJ0cnJMVVJ3X2hSWDhubThlbjk2dnhPd2ZSbnZRN0F1RkZTOXNBcjlzVFlKX3JLZVVCY1hOazB1M3pLeE5EblF2Q0tqSG5qRlIyR0NmY0ZFNlg5aVR5ND18Hd1C9eYITb5ic6BcZpGwfvMn2oc6OFopbaLhOugPsek=
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[casaos-detection] Dumped HTTP response https://advanced.bitpanda.com/v1/sys/debug
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 19
+Alt-Svc: clear
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:24 GMT
+Vary: Origin
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+
+404 page not found
+

@@ -1,0 +1,38 @@
+[terraform-detect] Dumped HTTP request for http://ff.bitpanda.com/provider.tf
+
+
+GET /provider.tf HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6,2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=xGmy28gQkERWnXMB3bh5chBQDvHv8Akdpi3689TjnSQ-1754398443645-0.0.1.1-604800000; GCLB="f70770fde54d0876"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[terraform-detect] Dumped HTTP response http://ff.bitpanda.com/provider.tf
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67127799ef508-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:14 GMT
+Expires: Tue, 05 Aug 2025 13:54:14 GMT
+Location: https://ff.bitpanda.com/provider.tf
+Server: cloudflare
+Set-Cookie: _cfuvid=Zya.83BdNVUjD_ZCOapOZwoertB0wrsQUgCARru66Ls-1754398454978-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

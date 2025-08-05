@@ -1,0 +1,60 @@
+[nacos-version] Dumped HTTP request for http://checkout.bitpanda.com/v1/console/server/state?accessToken&username
+
+
+GET /v1/console/server/state?accessToken&username HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[nacos-version] Dumped HTTP response http://checkout.bitpanda.com/v1/console/server/state?accessToken&username
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:51 GMT
+Location: https://checkout.bitpanda.com/v1/console/server/state?accessToken&username
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+[nacos-version] Dumped HTTP request for http://checkout.bitpanda.com/nacos/v1/console/server/state?accessToken&username
+
+
+GET /nacos/v1/console/server/state?accessToken&username HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[nacos-version] Dumped HTTP response http://checkout.bitpanda.com/nacos/v1/console/server/state?accessToken&username
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:57 GMT
+Location: https://checkout.bitpanda.com/nacos/v1/console/server/state?accessToken&username
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

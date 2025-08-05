@@ -1,0 +1,44 @@
+[ms-exchange-web-service] Dumped HTTP request for https://api.bitpanda.com/EWS/Exchange.asmx
+
+
+GET /EWS/Exchange.asmx HTTP/1.1
+Host: api.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=e0X7tmEg5VXNeb4pRo9AAMEHsokXGIcMrY8kopX2QCc-1754398155135-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ms-exchange-web-service] Dumped HTTP response https://api.bitpanda.com/EWS/Exchange.asmx
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669d9b87ea606-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:15 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=6Z0OCVoOhbHP0qhXfTPTaKNPteLUm_QPkxAbE6l7RjM-1754398155908-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[ms-exchange-web-service] Dumped HTTP request for https://api.bitpanda.com/owa/service.svc
+
+
+GET /owa/service.svc HTTP/1.1
+Host: api.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=eC2dqkNFDNGTKaCzmt.DkCyHUdVSMSiIrlAQdSvrux8-1754398160956-0.0.1.1-604800000; _cfuvid=1VTQTw_gIzphGZvXPiZCzgzU_v_SfK6Vnr2yckCXUuM-1754398174092-0.0.1.1-604800000; _cfuvid=dGG4FIHZieyMEGwU7lYhib4SFIvIUjhP0IMTJG4MH78-1754398178943-0.0.1.1-604800000; _cfuvid=5chRNMEtdotzrKG5gavv95O_Aig8PlrADdvuq2ESSYA-1754398189920-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

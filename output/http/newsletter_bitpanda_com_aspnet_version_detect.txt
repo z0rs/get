@@ -1,0 +1,26 @@
+[aspnet-version-detect] Dumped HTTP request for https://newsletter.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: newsletter.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[aspnet-version-detect] Dumped HTTP request for https://newsletter.bitpanda.com/?
+
+
+GET /%3f HTTP/1.1
+Host: newsletter.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

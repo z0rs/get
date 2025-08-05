@@ -1,0 +1,29 @@
+[dufs-detect] Dumped HTTP request for https://api-segment.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/17.17134
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qxFXHuEFs5zCXdC.eFDw5Yon5qJu_sbwJDUK0IOU_Vg-1754398175439-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[dufs-detect] Dumped HTTP response https://api-segment.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a56cb6b0848-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:35 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=.pZOzB8ZWhS.lL8W98Olr8cjllLzT0OSgb6YcN3f38M-1754398175913-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

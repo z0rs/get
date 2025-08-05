@@ -1,0 +1,36 @@
+[phppgadmin-version] Dumped HTTP request for https://status.techsolutions.bitpanda.com/phppgadmin/intro.php
+
+
+GET /phppgadmin/intro.php HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 13_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=OXVPRVdnYndBVy9DbGViRFpZZjkxaGNja3Y5NW1MQnJUdUkrQVNRblJCUFUwNUcrcjYzdjJsNzBQR1RvcDliNWs4cEpiVVozQi9QVTFYTW9KSUxpcHF1Wjg3TUZvZFc1d2VWUHhGcGptdzk3NzljV2RYTEpSbktMTFllSkNJWXdTMFBZYzhDWlRjUDBTOGpQaTFMR2RzU00rS0xmSkNuMUg1V21zRktqN3dBWEExQSt0RnNDNmJrZHo3c09oUW5qVklhYzBnWENFSWVpTUtpYndnMmFsUm1UOWR3OHpMeUpMQTAzSUg3aHQwRT0tLW5iQXc5c0kvNTc2bzNSdEFJN2VKc3c9PQ%3D%3D--9d1a8a29d8d8b8f8ec0e71f9d979a94cf5e0e368
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phppgadmin-version] Dumped HTTP response https://status.techsolutions.bitpanda.com/phppgadmin/intro.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: f2a58053-5354-4cab-8cbc-327cfe8df5a0
+Atl-Traceid: f2a5805353544cab8cbc327cfe8df5a0
+Date: Tue, 05 Aug 2025 12:52:34 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=3,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 e06a155936c216d176543a7a25710ed0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: B6Wr9NstGHZusuNycCuJXYyhIoN2nmFVdUs--Sf0mRYER23MJhZmtg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 155881575
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

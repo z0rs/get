@@ -1,0 +1,30 @@
+[amazon-docker-config] Dumped HTTP request for https://techsolutions.bitpanda.com/Dockerrun.aws.json
+
+
+GET /Dockerrun.aws.json HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:109.0) Gecko/20100101 Firefox/115.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[amazon-docker-config] Dumped HTTP response https://techsolutions.bitpanda.com/Dockerrun.aws.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 cc5a019539e6efe2b661a72253272ed6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 615dcF3P43CBbAyHm1zjkWny8CeXIbOPemd_jau6hlAqBx1Q6m9kTA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: /PGJa6QVOOjRYfmdbnFlfUwdEnYsFQiYZUwJMJv2WH4rOkEZ91Hlnkw/OOU1yhFxmPeAccpLJ+0=
+X-Amz-Request-Id: 41Z1QDJ3BHEP4JZQ
+X-Cache: Error from cloudfront
+
+Not Found

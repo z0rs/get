@@ -1,0 +1,26 @@
+[redmine-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[redmine-panel] Dumped HTTP response https://techsolutions.bitpanda.com/login
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:25 GMT
+Location: ./login/
+Via: 1.1 5e79d089f5701b7938b599fdf4db1b52.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: C8SRgdBFgFfHDb3USsmRrj27970oh8AhkOIygvTXrxGTwh_1Gc5eng==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

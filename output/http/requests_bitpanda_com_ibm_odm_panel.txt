@@ -1,0 +1,23 @@
+[ibm-odm-panel] Dumped HTTP request for http://requests.bitpanda.com/decisioncenter/login
+
+
+GET /decisioncenter/login HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh, Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ibm-odm-panel] Dumped HTTP response http://requests.bitpanda.com/decisioncenter/login
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:00 GMT
+Location: https://requests.bitpanda.com/decisioncenter/login
+
+Moved Permanently

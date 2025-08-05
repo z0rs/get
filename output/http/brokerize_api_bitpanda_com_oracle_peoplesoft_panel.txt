@@ -1,0 +1,252 @@
+[oracle-peoplesoft-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/psp/csprd/?cmd=login&languageCd=ENG
+
+
+GET /psp/csprd/?cmd=login&languageCd=ENG HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/106.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response https://brokerize-api.bitpanda.com/psp/csprd/?cmd=login&languageCd=ENG
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669ba8c5be5ec-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:10 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=wldJv2bRz7t0xldpvVeyU2UcUwoGVVcyaUzMKHQEqc4-1754398150922-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[oracle-peoplesoft-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/psp/ps/?cmd=login&languageCd=ENG
+
+
+GET /psp/ps/?cmd=login&languageCd=ENG HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh, Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response https://brokerize-api.bitpanda.com/psp/ps/?cmd=login&languageCd=ENG
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669ba8f18c97b-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:10 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=YHDSaC4wrQreHfKzam3kRCZ0iX8DiP0CCcq4VZVirHs-1754398150932-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[oracle-peoplesoft-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11_3) AppleWebKit/537.36 (KHTML, like Gecko) Safari/604.1
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/psp/CT920/?cmd=login&languageCd=ENG
+
+
+GET /psp/CT920/?cmd=login&languageCd=ENG HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/17.1.15
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/psp/fscmprod/?cmd=login&languageCd=ENG
+
+
+GET /psp/fscmprod/?cmd=login&languageCd=ENG HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.7 Mobile/15E148 Safari/604.1
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/psp/retess/?cmd=login&languageCd=ENG
+
+
+GET /psp/retess/?cmd=login&languageCd=ENG HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000; _cfuvid=K1F1Z.3IxXiqdcwvMIULVdvvsXjRaRIDAMzW9TcgUs4-1754398166133-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response https://brokerize-api.bitpanda.com/psp/retess/?cmd=login&languageCd=ENG
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a1e8e8d0ca1-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:26 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=xIunpUg27MQe2qFIISJJnccL6mG1wbZYL3w7LK7EWn4-1754398166918-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[oracle-peoplesoft-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000; _cfuvid=K1F1Z.3IxXiqdcwvMIULVdvvsXjRaRIDAMzW9TcgUs4-1754398166133-0.0.1.1-604800000; _cfuvid=3PKavczuo6lNFDHxb.p9XozuA.wOp71M3EaQOdR6dEs-1754398180963-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response https://brokerize-api.bitpanda.com
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a7c4a973b24-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:41 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=JAU8RE8QuRJSejdreUI37xi0Mq2dIglLFR7V9Z4C1fc-1754398181919-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[oracle-peoplesoft-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/psp/esshrprd/?cmd=login&languageCd=ENG
+
+
+GET /psp/esshrprd/?cmd=login&languageCd=ENG HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.10 Safari/605.1.1
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000; _cfuvid=K1F1Z.3IxXiqdcwvMIULVdvvsXjRaRIDAMzW9TcgUs4-1754398166133-0.0.1.1-604800000; _cfuvid=3PKavczuo6lNFDHxb.p9XozuA.wOp71M3EaQOdR6dEs-1754398180963-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response https://brokerize-api.bitpanda.com/psp/esshrprd/?cmd=login&languageCd=ENG
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a7c49f081c3-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:41 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=L4d9x2JAE926CnHPdn26zbmPT1EMls13tKR3iZqtkC4-1754398181933-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[oracle-peoplesoft-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686; rv:121.0) Gecko/20100101 Firefox/121.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000; _cfuvid=K1F1Z.3IxXiqdcwvMIULVdvvsXjRaRIDAMzW9TcgUs4-1754398166133-0.0.1.1-604800000; _cfuvid=3PKavczuo6lNFDHxb.p9XozuA.wOp71M3EaQOdR6dEs-1754398180963-0.0.1.1-604800000; _cfuvid=0IKkPyETML8jguaM3oFmzTtAp7wdI6Bwtuo58rW1JJc-1754398195935-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-peoplesoft-panel] Dumped HTTP response https://brokerize-api.bitpanda.com
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66ad9fdffc97b-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:56 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=akn2qe88epJIj9zIAtFsvgKD0mqXsGLuYnyXtZ0zoCc-1754398196911-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}

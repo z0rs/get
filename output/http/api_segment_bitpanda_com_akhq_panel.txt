@@ -1,0 +1,28 @@
+[akhq-panel] Dumped HTTP request for https://api-segment.bitpanda.com/ui/login
+
+
+GET /ui/login HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[akhq-panel] Dumped HTTP response https://api-segment.bitpanda.com/ui/login
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66956cc11d6cd-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:48:54 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=X7wKXlYHY7dG6hwGIAXTv3Qqi.vwB0AtkfRj5EFgxVQ-1754398134945-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

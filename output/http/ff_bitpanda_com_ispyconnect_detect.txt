@@ -1,0 +1,38 @@
+[ispyconnect-detect] Dumped HTTP request for http://ff.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.7 Mobile/15E148 Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=nGOyEoESsUnxNY0ZPkB1jICKkJHOzqhFKIkE7_lZUMc-1754398424043-0.0.1.1-604800000; GCLB="282616ccb50393e5"; _cfuvid=XYZqBv_mKQwJPNo2tC7bPB6hO.roDSIHVLagfGq1xJI-1754398439601-0.0.1.1-604800000; GCLB="fef3b7bc1c0a725f"; _cfuvid=aMhUcodnfqU54MTPR0JplIleJIwba2j2C.1cgzlNLTM-1754398455018-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ispyconnect-detect] Dumped HTTP response http://ff.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67128188ff784-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:15 GMT
+Expires: Tue, 05 Aug 2025 13:54:15 GMT
+Location: https://ff.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=N0yAK2YbbkuY39h7v4DArkfS0CtwaD2GUY5DMB6bQao-1754398455068-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

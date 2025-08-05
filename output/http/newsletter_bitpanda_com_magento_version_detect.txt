@@ -1,0 +1,22 @@
+[magento-version-detect] Dumped HTTP request for https://newsletter.bitpanda.com/magento_version
+
+
+GET /magento_version HTTP/1.1
+Host: newsletter.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:98.0) Gecko/20100101 Firefox/98.0
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[magento-version-detect] Dumped HTTP request for https://newsletter.bitpanda.com/skin/frontend/default/default/css/styles.css
+
+
+GET /skin/frontend/default/default/css/styles.css HTTP/1.1
+Host: newsletter.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686; rv:123.0) Gecko/20100101 Firefox/123.0
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

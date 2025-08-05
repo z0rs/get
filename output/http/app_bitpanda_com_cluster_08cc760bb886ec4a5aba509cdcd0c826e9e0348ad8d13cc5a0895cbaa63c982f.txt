@@ -1,0 +1,34 @@
+[cluster-08cc760bb886ec4a5aba509cdcd0c826e9e0348ad8d13cc5a0895cbaa63c982f] Dumped HTTP request for https://app.bitpanda.com/login.php
+
+
+GET /login.php HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-08cc760bb886ec4a5aba509cdcd0c826e9e0348ad8d13cc5a0895cbaa63c982f] Dumped HTTP response https://app.bitpanda.com/login.php
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669509b6220a8-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:48:55 GMT
+Location: /api/auth/login?callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2Flogin.php
+Server: cloudflare
+Set-Cookie: __Host-authjs.csrf-token=d4a3c0302c461ea3f55899eaab48a190951042388a0ec2cdd88a60cabed720c9%7C609a8a8d4cc37829fabd0304f18a47e16b2b059a5fbdbc194531ef26c3cdcc68; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: _cfuvid=N26cM4U4VsO1oN5sGOrSNdqjgzQiO1.LABu94sn1rq0-1754398135124-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::78g7w-1754398133905-b069676e198e
+
+Redirecting...
+

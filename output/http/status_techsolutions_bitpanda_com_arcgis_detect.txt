@@ -1,0 +1,179 @@
+[arcgis-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/portal/sharing/rest
+
+
+GET /portal/sharing/rest HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[arcgis-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/portal/sharing/rest
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 798fd659-998d-4566-a794-99528605e458
+Atl-Traceid: 798fd659998d4566a79499528605e458
+Date: Tue, 05 Aug 2025 12:52:22 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=67,atl-edge-internal;dur=4,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 8ba3a4becb51f8eb807e5e3697846e1a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: WOIcfZ1Q_37vBPXR5y0PdUW0amYVv2MmclmUhu9vqAm1jWW_iAKPpQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 153401300
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[arcgis-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/portal/portalhelp/en/rest/
+
+
+GET /portal/portalhelp/en/rest/ HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=NU5HWEJiUXhZbFFSNmNzTS9BMlFJMHBNT1Y4dnBtRnFJUVRZR1QvdHIxdVJ4T1Q4OGpYcW1ta3ZyRTBJR1k0bTg2RGtXS2dEOGZiRTNnWWRvQWh5QkFlQWtFRm1sc0ZaVW90d1pLV1I5N1pYNWd6bHBWVTZXN0pZdEFkaldDNzFHUlBQSFdUTDNGYndLcTFkZi9EQWo4MHJ6WFhoR2p6TVJBUitwOGI4SEl5Uyt2Yk1WbVIycDY2d3o3a3RUbndlbFg2a3liRGg5WWJ5T1FKZExpeHNTTGQwemhXRm42cUFYamlMOVdIYy9XOD0tLW5OL3pNL3I5VWFTWTBxcTA2NzE2WVE9PQ%3D%3D--726eff3134d60bef097ce35e87dc0abb19f92afc
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[arcgis-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/portal/portalhelp/en/rest/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: fff8ade6-08c4-46eb-8c9d-35fbf38489da
+Atl-Traceid: fff8ade608c446eb8c9d35fbf38489da
+Date: Tue, 05 Aug 2025 12:52:25 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=3,atl-edge-upstream;dur=62,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 5bbbde7889bb9c7247f5924a32d2fdf0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: QJQZlGYbJoaQStSQN_Li1SMmeD1pn4lSky-y7tj43hSBW3Uu4b39sg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 742798932
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[arcgis-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/arcgis/rest/services
+
+
+GET /arcgis/rest/services HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=Z1JVeWRDTWNOL09GR0lrdmRrbHlNTWZzMXZZeFdBaG9ha01jZ3VwUVJuMTV4bnRXZEg0dVY5UzNKOGxTdzI3LzBPL3piUFhzNkJOMmdmK0IyRG42Z1pMMTdxWkR6a1pmMnZGZFBVR0VjbnRxLzVxT21YYTErUThNRXQ2a0tNWVRUR1kvcXFndEVoQ1NTYU1aU0djZVB5Nm5uR2gya2hTMmRnNy9iQUNEamxkV2l4NHlGbEYrbUxqY1lmZkVVengzY09JSEFzcmZ4SldKdTVpM2puSHU0Mjh1SnVuaEZmZ1VqcDRURG84U1lQRT0tLWZpbW1hQTNKVDVseTYvWStrL0hDWnc9PQ%3D%3D--032e4a810364b54f997cbde0f2a56e2afb7d7fb0
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[arcgis-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/arcgis/rest/services
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: f0916f71-d3b3-487f-9390-ee6842e1811d
+Atl-Traceid: f0916f71d3b3487f9390ee6842e1811d
+Date: Tue, 05 Aug 2025 12:52:27 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 c242c974a465288488c7876cabca7752.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: lw_pEMD6HXVq01NZGazbJRgAD2cckBjKMiL7X9uCE5a6HNBg3ku-pg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 130992331
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[arcgis-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/server/rest/services
+
+
+GET /server/rest/services HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=STB6UXNpOHpGdFJkSUhMV2VwTndJZDZLU0M5TiswSGxOd05xdlllV2MzYUhwU2NsaktsRHNxdTltTnNKaEF1NGcvM2h2MFByK3QwejlaTTR6WVZwSnZNd3VKL01HRnBBTjI2emRmczEzaFkvY1g2M2ZYY3ZDWXpPbFJMeEZucnJDSi9BaSswZEFmcStKVXJkUHJaV2FaVHFSQ0VGcENqK2VQQVpEemxGbjFyT3VnYXNsdSsrMXdtRGJIYnNYYjBmdDZMQXRxZGtyVDJVY1JpcUpvRUlMeGpOLzRUNE1xbzgzcmIwT2piYTNkYz0tLXRIeHhmSU9ibXJqdngwMUxYb0FKK2c9PQ%3D%3D--acc6fddeaa83c7032cf90c817b31b7280fc0db09
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[arcgis-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/server/rest/services
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: eb27620b-d11f-4ba2-b917-0c22df8f2f6a
+Atl-Traceid: eb27620bd11f4ba2b9170c22df8f2f6a
+Date: Tue, 05 Aug 2025 12:52:29 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=4,atl-edge-upstream;dur=62,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 d19e64e406af1f88f7f96d9dcb2393ca.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: xt-VScRMghJTRDHwG2Oa_KlZIs6Lnb514TJVmxlnlk9qpcRwa7kumw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 72870803
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[arcgis-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/arcgis/
+
+
+GET /arcgis/ HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=dnpobEcwQml6WnV4ZDBRek03bHFSbDk4WmN0WUNuaEhPQ2pxUVdaZG0vSk10YndlVGZtM0pGZ1llWmNGa05jWG90cjA4SVBKOUM4VS85dXhmSEVWZ0tjb2Q5T0dwOWxBOE9QTkVZOEI3bEtPaFlYb0U1Y1o4WGpnSi84c0QwZWlnWWJ1NXZsYXZWS3Flelk2ZTIrUmh3aFRBNm10L0N5QTRUaFRGYWszRFZNdytSSTl5YkVVMGxWMVYrdDJZRWdnWk4zc0xCTksyZXpYd2RjdkppWnU3cnJKS2hHSWFYeitHVjNQbnZZNkZ4Yz0tLXhqM0FSZUg4Z2V0d0JwRHFycnJMSkE9PQ%3D%3D--2227959bcb82628d0d718017dba2822bdeeca728
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[arcgis-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/arcgis/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: c9d6866f-5be6-4e31-9b0b-050a1fdd69cd
+Atl-Traceid: c9d6866f5be64e319b0b050a1fdd69cd
+Date: Tue, 05 Aug 2025 12:52:32 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=4,atl-edge-upstream;dur=62,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 8ad5a9cbb864898c238f716c1a12623c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: SIATEeulkprMz1pF1fuEblozk7Vu1bdfISzHqvrvcGz5Q7gUelQ-Gg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 162497698
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

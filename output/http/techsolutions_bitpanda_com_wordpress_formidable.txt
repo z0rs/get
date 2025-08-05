@@ -1,0 +1,29 @@
+[wordpress-formidable] Dumped HTTP request for https://techsolutions.bitpanda.com/wp-content/plugins/formidable/readme.txt
+
+
+GET /wp-content/plugins/formidable/readme.txt HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686; rv:122.0) Gecko/20100101 Firefox/122.0
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-formidable] Dumped HTTP response https://techsolutions.bitpanda.com/wp-content/plugins/formidable/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:50 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 472d0d56eebf04200b994d89c556bce0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: kzKnB92-6qrEPJ-IfUW22ik1Uaw0os605aLkV30vfA1hAZQAZH5O-g==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: dD5cC+ilVZ7XKsNCAS98QPml3bAV3XWjkvLV0GyX/A3h0Cototdbao0ZahC/LVfARuRk3vXZEZdshd/GzlfeoFW8YsrtYEAiNbvAaWog+Gw=
+X-Amz-Request-Id: RDVVW0J47K7QMQ48
+X-Cache: Error from cloudfront
+
+Not Found

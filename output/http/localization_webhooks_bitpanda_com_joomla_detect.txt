@@ -1,0 +1,206 @@
+[joomla-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/administrator/manifests/files/joomla.xml
+
+
+GET /administrator/manifests/files/joomla.xml HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) Gecko/20100101 Firefox/91.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=IRqYpCvZX352TvnazwNfkQFmH0u7jH5H6vuU6FV8AkA-1754398409857-0.0.1.1-604800000; _cfuvid=Vy5pLWbLoVY.wiEFryY4VZSAHyPjCPVnSUhDfNZ7k0U-1754398425011-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[joomla-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/administrator/manifests/files/joomla.xml
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670a71eb552d6-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:53:54 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TDcGK7joEEsvw=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 75167ab1-4d5b-485c-ab4e-ced057d302af
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[joomla-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/administrator/manifests/files/joomla.xml
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67071ba432070-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:45 GMT
+Expires: Tue, 05 Aug 2025 13:53:45 GMT
+Location: https://localization.webhooks.bitpanda.com/administrator/manifests/files/joomla.xml
+Server: cloudflare
+Set-Cookie: _cfuvid=3rYTsnbwsKPx2OCZU6mjdoZGP3rNEkNB8EqXex6DHjg-1754398425904-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[joomla-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/language/en-GB/en-GB.xml
+
+
+GET /language/en-GB/en-GB.xml HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=bwkyXgMsyFjTIDAXegHVtoKHGVuz96HWnHaHooqSe1M-1754398434274-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[joomla-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/language/en-GB/en-GB.xml
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670ce2ebf05b3-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:54:00 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TEbH-HjoEEAeg=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 859e551d-3b29-4adf-b2ec-8121d2348e30
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[joomla-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/language/en-GB/en-GB.xml
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670c0df6bd701-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:58 GMT
+Expires: Tue, 05 Aug 2025 13:53:58 GMT
+Location: https://localization.webhooks.bitpanda.com/language/en-GB/en-GB.xml
+Server: cloudflare
+Set-Cookie: _cfuvid=LzJJlB20lhuUN5XyhkvAtNQpU88VC2EmH6vNriUZafE-1754398438553-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[joomla-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/README.txt
+
+
+GET /README.txt HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=lU8JC9W49uttZ_xSzbGybaxqh.k_wcILPMFQmwtlWRM-1754398440689-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[joomla-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/README.txt
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670cf6c60e5f3-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:54:00 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TEdEwXDoEEq0g=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 4fccd5d7-43be-45c4-aa0c-5d2f65c79ce9
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[joomla-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/README.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670cf1f96c573-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:00 GMT
+Expires: Tue, 05 Aug 2025 13:54:00 GMT
+Location: https://localization.webhooks.bitpanda.com/README.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=xSsQqAiy8ZTfxiZS4q0usikGE2qw3qhf8rjZUa2Hkd8-1754398440844-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[joomla-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/modules/custom.xml
+
+
+GET /modules/custom.xml HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=xSsQqAiy8ZTfxiZS4q0usikGE2qw3qhf8rjZUa2Hkd8-1754398440844-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[joomla-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/modules/custom.xml
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670d3ce7b0808-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:54:01 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TEkFvMjoEESFQ=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 92dc66b2-feb1-44ff-bd9d-c65d4e48897d
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[joomla-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/modules/custom.xml
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670d03a875bfb-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:01 GMT
+Expires: Tue, 05 Aug 2025 13:54:01 GMT
+Location: https://localization.webhooks.bitpanda.com/modules/custom.xml
+Server: cloudflare
+Set-Cookie: _cfuvid=qCh2p9lxBusnCNWJqPR9MNcD8LwldR8PJQweMXWP6oE-1754398441026-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[joomla-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qCh2p9lxBusnCNWJqPR9MNcD8LwldR8PJQweMXWP6oE-1754398441026-0.0.1.1-604800000; _cfuvid=nt79nupJg2xbtNvO9nHy17Cf26Rsb9aw9vKuJTiWQBY-1754398456465-0.0.1.1-604800000; _cfuvid=mUd3ht1Sifu8QNl9_CJpX.WoRmadq5yxiVXTy3U5AaA-1754398471423-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

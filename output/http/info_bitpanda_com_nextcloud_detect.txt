@@ -1,0 +1,52 @@
+[nextcloud-detect] Dumped HTTP request for https://info.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: info.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[nextcloud-detect] Dumped HTTP request for https://info.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: info.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[nextcloud-detect] Dumped HTTP request for https://info.bitpanda.com/nextcloud/login
+
+
+GET /nextcloud/login HTTP/1.1
+Host: info.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686; rv:132.0) Gecko/20100101 Firefox/132.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[nextcloud-detect] Dumped HTTP request for https://info.bitpanda.com/nextcloud/index.php/login
+
+
+GET /nextcloud/index.php/login HTTP/1.1
+Host: info.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686; rv:121.0) Gecko/20100101 Firefox/121.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

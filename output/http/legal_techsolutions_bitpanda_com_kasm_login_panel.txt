@@ -1,0 +1,26 @@
+[kasm-login-panel] Dumped HTTP request for http://legal.techsolutions.bitpanda.com/#/login
+
+
+GET / HTTP/1.1
+Host: legal.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:137.0) Gecko/20100101 Firefox/137.0
+Connection: close
+Cookie: _cfuvid=CnvWNjP9eJbjX1DMbSL0k8GojMhwoZ.89lYkjhotyqs-1754398253908-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[kasm-login-panel] Dumped HTTP request for http://legal.techsolutions.bitpanda.com/api/login_settings
+
+
+POST /api/login_settings HTTP/1.1
+Host: legal.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15
+Connection: close
+Content-Length: 30
+Content-Type: application/json
+Cookie: _cfuvid=CnvWNjP9eJbjX1DMbSL0k8GojMhwoZ.89lYkjhotyqs-1754398253908-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"token":null,"username":null}

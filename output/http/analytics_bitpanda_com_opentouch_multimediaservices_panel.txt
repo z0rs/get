@@ -1,0 +1,61 @@
+[opentouch-multimediaservices-panel] Dumped HTTP request for https://analytics.bitpanda.com/authenticationform/login
+
+
+GET /authenticationform/login HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=TSA3DgxYMGlUhPIPQDDrzTLqwIQIG.rBzU0QjdpJyqA-1754398157653-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[opentouch-multimediaservices-panel] Dumped HTTP response https://analytics.bitpanda.com/authenticationform/login
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e6488b0787-IAD
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:19 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=MQ_ZsAVlXui5veaRVPwAkA9Exutss86hKHjFPakKuLo-1754398159050-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Powered-By: Express
+
+Bad request
+[opentouch-multimediaservices-panel] Dumped HTTP request for https://analytics.bitpanda.com/authenticationform/jsp/logonWeb.jsp
+
+
+GET /authenticationform/jsp/logonWeb.jsp HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=m4qXDyfKIOibyzofCZttQpp5mxaOmUPu4vHvf9DBNdg-1754398164282-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[opentouch-multimediaservices-panel] Dumped HTTP response https://analytics.bitpanda.com/authenticationform/jsp/logonWeb.jsp
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Content-Length: 19
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a1218338021-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:25 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=1.uww7ht2ySnrVkVCYj_c0YUDkTVErLDAj3NZhZOEVw-1754398165009-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+
+no healthy upstream

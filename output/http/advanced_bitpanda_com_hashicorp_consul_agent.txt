@@ -1,0 +1,28 @@
+[hashicorp-consul-agent] Dumped HTTP request for https://advanced.bitpanda.com/v1/agent/self
+
+
+GET /v1/agent/self HTTP/1.1
+Host: advanced.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _ava_csrf=MTc1NDM5ODEzMnxJbTFLV2xOYU0xQXpaVk0yTVRnNGQwZE5VVkpDVVRGSFltRklkRGQ1VGtkbFVIZ3ZjRVV2VG1KWloyTTlJZ289fKJP_4w0njSvNJIudSGTj5zmPLvdwX5aErvdGNks_7hG; csrf=MTc1NDM5ODEzMnw2bGUwTDBjV1Q2aXI2UGo2WHMwWEdXVHpKVFRGUTdMWFFEZXNtSDBJUE1lYkZJRHlhMDktblZCcExyUTNPdUs2bVRKV2s0dmhHNkdieTh2S0FJLW50eUhMTkk4dXdwelQtQ0czYnZ2SVdFQkhXUWh0dGtQUWdNMTE0VkUyRUFPR2FBOD18PgRaU06astIPZyeswqMHIxEuC3ccwhO2gkCMPDZHRso=
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[hashicorp-consul-agent] Dumped HTTP response https://advanced.bitpanda.com/v1/agent/self
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 19
+Alt-Svc: clear
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:48:56 GMT
+Vary: Origin
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+
+404 page not found
+

@@ -1,0 +1,252 @@
+[apache-nifi-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/access/config
+
+
+GET /access/config HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/603.3.8 (KHTML, like Gecko) Version/10.1.2 Safari/603.3.8
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=dnpobEcwQml6WnV4ZDBRek03bHFSbDk4WmN0WUNuaEhPQ2pxUVdaZG0vSk10YndlVGZtM0pGZ1llWmNGa05jWG90cjA4SVBKOUM4VS85dXhmSEVWZ0tjb2Q5T0dwOWxBOE9QTkVZOEI3bEtPaFlYb0U1Y1o4WGpnSi84c0QwZWlnWWJ1NXZsYXZWS3Flelk2ZTIrUmh3aFRBNm10L0N5QTRUaFRGYWszRFZNdytSSTl5YkVVMGxWMVYrdDJZRWdnWk4zc0xCTksyZXpYd2RjdkppWnU3cnJKS2hHSWFYeitHVjNQbnZZNkZ4Yz0tLXhqM0FSZUg4Z2V0d0JwRHFycnJMSkE9PQ%3D%3D--2227959bcb82628d0d718017dba2822bdeeca728
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-nifi-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/access/config
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 3587549d-5dac-4e32-be85-b29839a84924
+Atl-Traceid: 3587549d5dac4e32be85b29839a84924
+Date: Tue, 05 Aug 2025 12:52:32 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=63,atl-edge-internal;dur=2,atl-edge-upstream;dur=61,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 427271f19372c1be0d143a1d4c76a128.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 7eOEK7UWUjRYekykLfsN2rO589BUNfZ1K4W7AeUKx0dze1QSHdZijA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 108679208
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[apache-nifi-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/controller/config
+
+
+GET /controller/config HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=WU1kQzZMUTdOby82Rk93VVlQcWxWNTQyaDBIQXJDRlJjclhLRWZpc3Z2TDZBMkpGUFF2Z1BWaTBEUHBKL2p3WjFOK2R5enpsd1czcnZpaWd4UW5ZdmZ4U0lXMEJjRzIxRkp4Y1I1Z28zdTBpeWM5R0xNZVZQR25RNEdNSFlsYzJBVTRBMkRVd0hVS3ZOWlZTNHR2VDV5MHRyMGtjZkNlTUFhK2MzRmdOb2ozTFdMZEFzYmlWUXRSVXpibzM0WlV0WVk4NTlXalg2dmZveXlVLzIwRHUvM0tFZTExRkcwSi90R1hJaEM1QzZkcz0tLWswd3NTTjFYaXpHRGNzRXozL2VabUE9PQ%3D%3D--bfa50bfef8e9e97eb88fe70259c71ef5ea9242e3
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-nifi-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/controller/config
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 429d9d5d-b4a3-4165-806f-e2285128127d
+Atl-Traceid: 429d9d5db4a34165806fe2285128127d
+Date: Tue, 05 Aug 2025 12:52:35 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=3,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 27eb501c8caff149895f88cac34554ae.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: VAWVkV7-gaqSjRwbuv8hi2tzFn6Evqgro9T7-qMN9WswZQas5L4KEg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 1049197772
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[apache-nifi-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/controller/registry-clients
+
+
+GET /controller/registry-clients HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=VllZUGVpKzU3eWcwaURtS0gycE5MWTQ0a1grZC9HRkJ2MGJqN1RKbTZkZWxxazRvU0RMeWtsc2s4MzQyaThwVk13UUZzS0VnUUpKRnozUm5NMm9sR1U2NGJHUlAyZ1c4RktuczBwcDlHeVE5bTZ6ZFoyL1hkMGVvTEZVbVBrbzdGZVROa2g3c3hYV1AxTXFQdDN2L2hMV1laQ2E0cTJpTC9OSFZyOVNRZVBsVHdrN0s0K2tTeGI3RFlQZDFxQnlFTUxyclp5YmhDM0RKd2huNzdmMFhvVURUYWlYbm9RUHg3WVdQMFdZNWNwRT0tLW1qYzZKVVUrY1Z4QTVZdkxwWWh3NWc9PQ%3D%3D--2168904fc82f1b48896f78f180497b0a3e3f95fd
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-nifi-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/controller/registry-clients
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 53dc03f3-6e42-485f-b6c7-ae730eb0e1ea
+Atl-Traceid: 53dc03f36e42485fb6c7ae730eb0e1ea
+Date: Tue, 05 Aug 2025 12:52:38 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=2,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 4b0f0fc4315eea23426f6074a7254a8c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: lx4mTbhBbLklIUowe0h1hzHFwcG84HLByiobg7e1rNUXgFUFiEAFUg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 1065438136
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[apache-nifi-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/counters
+
+
+GET /counters HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686; rv:128.0) Gecko/20100101 Firefox/128.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=enZNa3MzVG16RnBwSllqN0tIT09KTkdaWlp1RG1Tbk5OUUtjQWpMWHlUS2FvemZFSWFQbHVEd1JuUlNYWlAwV3p3L3ZJc2tOMkN6eWQwS3hsc1VyVE1MTitGK3BHenBWQzNnMUlmSTlZTWxzWTRhcXcyM1VMU09aNCtoTVZjUFRrR3Z5ZUtuOVlja3lwQ01VdEhlWm4vL3p2SnJXY0htRkl1eWpUaVdKS3FMdHA1TGFQSUZURUFzQ1ZmOW9DYVJVWG40d2NJV2U1aFJZdllRVzZObDFYZnlYemxSR29XMEJCRWVrQVJYa1dLYz0tLWtydTZYNzNyZS9kRytPUmx5N0R0UVE9PQ%3D%3D--b26cf7f4764145fde0c97c25f3f98b721225ceec
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-nifi-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/counters
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 131ca381-5982-47b8-938c-26a3abe6b441
+Atl-Traceid: 131ca381598247b8938c26a3abe6b441
+Date: Tue, 05 Aug 2025 12:52:41 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=3,atl-edge-upstream;dur=62,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 429a03d32042afcc39a25586a483feb8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Y9c39wL60BNBe5jNVdoorvkg3wG0a8gYD4oiihCJVjcv7G2_gcjZ-w==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 61678896
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[apache-nifi-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/flow/registries
+
+
+GET /flow/registries HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=enZNa3MzVG16RnBwSllqN0tIT09KTkdaWlp1RG1Tbk5OUUtjQWpMWHlUS2FvemZFSWFQbHVEd1JuUlNYWlAwV3p3L3ZJc2tOMkN6eWQwS3hsc1VyVE1MTitGK3BHenBWQzNnMUlmSTlZTWxzWTRhcXcyM1VMU09aNCtoTVZjUFRrR3Z5ZUtuOVlja3lwQ01VdEhlWm4vL3p2SnJXY0htRkl1eWpUaVdKS3FMdHA1TGFQSUZURUFzQ1ZmOW9DYVJVWG40d2NJV2U1aFJZdllRVzZObDFYZnlYemxSR29XMEJCRWVrQVJYa1dLYz0tLWtydTZYNzNyZS9kRytPUmx5N0R0UVE9PQ%3D%3D--b26cf7f4764145fde0c97c25f3f98b721225ceec
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-nifi-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/flow/registries
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: f75d7362-e059-4959-8ca5-67a64aef2cde
+Atl-Traceid: f75d7362e05949598ca567a64aef2cde
+Date: Tue, 05 Aug 2025 12:52:43 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=63,atl-edge-internal;dur=3,atl-edge-upstream;dur=61,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 429a03d32042afcc39a25586a483feb8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: ed6m_-dJ1xX6WKkg_30xVxRvy83yBnUkDX_5qyl16tOzYQsG3cLEMw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 108355048
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[apache-nifi-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/system-diagnostics
+
+
+GET /system-diagnostics HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.1
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=enZNa3MzVG16RnBwSllqN0tIT09KTkdaWlp1RG1Tbk5OUUtjQWpMWHlUS2FvemZFSWFQbHVEd1JuUlNYWlAwV3p3L3ZJc2tOMkN6eWQwS3hsc1VyVE1MTitGK3BHenBWQzNnMUlmSTlZTWxzWTRhcXcyM1VMU09aNCtoTVZjUFRrR3Z5ZUtuOVlja3lwQ01VdEhlWm4vL3p2SnJXY0htRkl1eWpUaVdKS3FMdHA1TGFQSUZURUFzQ1ZmOW9DYVJVWG40d2NJV2U1aFJZdllRVzZObDFYZnlYemxSR29XMEJCRWVrQVJYa1dLYz0tLWtydTZYNzNyZS9kRytPUmx5N0R0UVE9PQ%3D%3D--b26cf7f4764145fde0c97c25f3f98b721225ceec
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-nifi-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/system-diagnostics
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: dee200f4-62a3-46a0-9cd5-7ecf6c1e36aa
+Atl-Traceid: dee200f462a346a09cd57ecf6c1e36aa
+Date: Tue, 05 Aug 2025 12:52:45 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 966d01179c7098b0cf2a20ba8c352dee.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 939kuRJrZpsO3JtY0HCUEwuv9hZdDUVECFKYjr-UeSBaLInYbx4I1A==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 9861902
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[apache-nifi-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/nifi-api/access/config
+
+
+GET /nifi-api/access/config HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686; rv:132.0) Gecko/20100101 Firefox/132.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=NFBLK0FQUWdFeGJPNC93S0NZckhoR2dYYlYwZVNHand0b1Y2N0tOVGlBTEJ4Q3cxMU1tdjZmYlNOTDkxVzdQLzQ0N2JOM2VJcDhhcHhkMzVNdEkxQ2dpTmdMWmtrdE1Wb3hxcW16QnJqcmVIL3ZKdTZkY3hSWU10d3JNZHhNMzNFcEo0eFU4c3E4cGxYVG42aG05YW56RXNQYWo0TEgxeU51Mms0SHY2QWdhSHhLVmFQbk9pWUltbXFjK0tKbnp3dzBUYit5bGpVL0JUOC9rR0pScnptRjVCODNodzlyc25RMjBKbmpJUHl5ND0tLXhDcnZoZHBsNzVqMmJoWTJHNUVWVkE9PQ%3D%3D--1ac98742ef7b67672914caa20c3b5898f8108e92
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-nifi-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/nifi-api/access/config
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 6fffb1ec-6f7e-4a4f-a825-83a7809bc12d
+Atl-Traceid: 6fffb1ec6f7e4a4fa82583a7809bc12d
+Date: Tue, 05 Aug 2025 12:52:47 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=3,atl-edge-upstream;dur=61,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 6c2e384f59feb64a0c739aee7f890066.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: n43KBpCdWNTvtBYvao81TpJwDPNGojALPvgOZNaXComgz8xdfkrprA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 119890880
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

@@ -1,0 +1,28 @@
+[mitric-checker-panel] Dumped HTTP request for https://custody.bitpanda.com/QSA/Login.aspx
+
+
+GET /QSA/Login.aspx HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.10 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=kn91QNCufbDxO2kmGL5XwsViw039XqDXil5FOxk6LeU-1754398328149-0.0.1.1-604800000; _cfuvid=UvyWftuJRYatiCW5qc3Hllnrr1gvYIF_KhqliN_8D38-1754398343842-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[mitric-checker-panel] Dumped HTTP request for https://custody.bitpanda.com/API/External/GetPrivacy
+
+
+GET /API/External/GetPrivacy HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=3O1ymPq4XI88WRFCjIVyN62gShCggQnXdsHWFRnmdRM-1754398361727-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

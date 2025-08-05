@@ -1,0 +1,38 @@
+[redmine-cli-detect] Dumped HTTP request for http://ff.bitpanda.com/.redmine-cli
+
+
+GET /.redmine-cli HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/103.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=CJV8JJHScpH0JHkM8U.hkc3NUx5Lhf4wIiEkglIWLkk-1754398440560-0.0.1.1-604800000; GCLB="fef3b7bc1c0a725f"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[redmine-cli-detect] Dumped HTTP response http://ff.bitpanda.com/.redmine-cli
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670e6ea13fa2f-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:04 GMT
+Expires: Tue, 05 Aug 2025 13:54:04 GMT
+Location: https://ff.bitpanda.com/.redmine-cli
+Server: cloudflare
+Set-Cookie: _cfuvid=3n3c9PhAQWjAbWDk1P68WwttqYKsvYLoh3nu2Vge7dY-1754398444639-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

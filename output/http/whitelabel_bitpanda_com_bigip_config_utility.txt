@@ -1,0 +1,39 @@
+[bigip-config-utility] Dumped HTTP request for https://whitelabel.bitpanda.com/tmui/login.jsp
+
+
+GET /tmui/login.jsp HTTP/1.1
+Host: whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[bigip-config-utility] Dumped HTTP request for https://whitelabel.bitpanda.com/tmui/tmui/login/welcome.jsp
+
+
+GET /tmui/tmui/login/welcome.jsp HTTP/1.1
+Host: whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[bigip-config-utility] Dumped HTTP request for https://whitelabel.bitpanda.com/mgmt/tm/sys/management-ip
+
+
+GET /mgmt/tm/sys/management-ip HTTP/1.1
+Host: whitelabel.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

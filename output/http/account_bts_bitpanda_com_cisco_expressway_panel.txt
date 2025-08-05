@@ -1,0 +1,39 @@
+[cisco-expressway-panel] Dumped HTTP request for https://account.bts.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: account.bts.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_16) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cisco-expressway-panel] Dumped HTTP response https://account.bts.bitpanda.com/login
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6696fc8eb05ef-IAD
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:48:59 GMT
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Server: cloudflare
+Set-Cookie: _cfuvid=Unh5Ccd8G.aCR6yhzxRxVc3FtcnFEayLrUmYIqaO_js-1754398139255-0.0.1.1-604800000; path=/; domain=.frontegg.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Via: 1.1 df08ba5d249ec7fb2513313ea66b59f8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: mIdSiq_tx5Twoo5FTglEWHIT7QM2KbCZ9LvY2CB8o0kMuqw8O85SYQ==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+{"errors":["The requested URL was not found on this server."]}

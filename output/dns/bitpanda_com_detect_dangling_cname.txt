@@ -1,0 +1,25 @@
+[detect-dangling-cname] Dumped DNS request for bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 32628
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 A
+
+[detect-dangling-cname] Dumped DNS response for bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 32628
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 1232
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 A
+
+;; ANSWER SECTION:
+bitpanda.com.	300	IN	A	104.18.33.70
+bitpanda.com.	300	IN	A	172.64.154.186
+

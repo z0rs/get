@@ -1,0 +1,21 @@
+[chromecast-detect] Dumped HTTP request for http://requests.bitpanda.com/setup/eureka_info
+
+
+GET /setup/eureka_info HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[chromecast-detect] Dumped HTTP response http://requests.bitpanda.com/setup/eureka_info
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:07 GMT
+Location: https://requests.bitpanda.com/setup/eureka_info
+
+Moved Permanently

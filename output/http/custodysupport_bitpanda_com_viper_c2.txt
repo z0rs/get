@@ -1,0 +1,43 @@
+[viper-c2] Dumped HTTP request for https://custodysupport.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: custodysupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686; rv:123.0) Gecko/20100101 Firefox/123.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[viper-c2] Dumped HTTP response https://custodysupport.bitpanda.com
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66c1bb833149e-IAD
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:50:48 GMT
+Location: https://custodysupport.bitpanda.com/hc
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=NmLnG0uvl8xP7CjH%2BFDM22uA78wRAZGDDKtrMtxK1tn4o8kt8hprM4FlaBlDhDdOf92OsHyJ3BEJ%2FsuGDuPz9N26DiXq24pFfJucWPljeAxoCjctJ%2B%2F2f0iJPpndd1hBHWQ5Ikjws9nv%2BTplNw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: _help_center_session=VGkwZkEwYTRCYTFxSkI3alpVcGFtOVJoMW5PU0FqRFRVUGNad2lNWnRBZTMrZ3hRSWQzOTV4eFVrWmRIOWs3aDhkUjE3bzM1SG1qQ05xeG1EcDYwenc9PS0taGtWNW10b2ZTblYybmxkckE4d2tmdz09--a449d4db4b98b530b688b18fc2c20bd293277c9e; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: __cf_bm=Sr7le_suKkYp4Fa1jkA8Qslo30Megp1bToQo34_U4oQ-1754398248-1.0.1.1-6VqKWVm8hVGkRfWPaEyScFUQm2i8.ukO3BXwVsjZ7Xjmx46dzT2.A_0paVxG3jffV9SwtWb10sRRH.m8cHKaZBuygJvrNb9MQ7RfFr6CRI8; path=/; expires=Tue, 05-Aug-25 13:20:48 GMT; domain=.custodysupport.bitpanda.com; HttpOnly; Secure; SameSite=None
+Set-Cookie: _cfuvid=g_INYe.5LmUzvdd_Pg.kH9bTs0aF33dF5w0g6pRaX58-1754398248441-0.0.1.1-604800000; path=/; domain=.custodysupport.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: zorg
+X-Envoy-Decorator-Operation: /
+X-Envoy-Upstream-Service-Time: 26
+X-Request-Id: 96a66c1bb833149e-FRA
+X-Runtime: 0.020510
+X-Ua-Compatible: IE=edge
+X-Zendesk-Origin-Server: app-server-759bdc4498-xc4wn
+X-Zendesk-Processed-Host-Header: custodysupport.bitpanda.com
+X-Zendesk-Zorg: yes
+Zendesk-Service: help-center
+
+

@@ -1,0 +1,28 @@
+[aspnet-version-detect] Dumped HTTP request for https://bitpanda.com
+
+
+GET / HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686; rv:123.0) Gecko/20100101 Firefox/123.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=heX..jqCwM3UHbbTI7rzktMvEV.C5mTpO1zKB.xyNec-1754398267555-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[aspnet-version-detect] Dumped HTTP request for https://bitpanda.com/?
+
+
+GET /%3f HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=HKU3Jm3t67dq6T5wCDuJ8xXiB5lyC1WDpwd8W7XPU4g-1754398283893-0.0.1.1-604800000; _cfuvid=HKU3Jm3t67dq6T5wCDuJ8xXiB5lyC1WDpwd8W7XPU4g-1754398283893-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

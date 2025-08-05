@@ -1,0 +1,92 @@
+[checkmarx-panel-detect] Dumped HTTP request for https://custody.bitpanda.com/cxrestapi/help/system/version
+
+
+GET /cxrestapi/help/system/version HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh: Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=84QCDv5s33RbLCzaNg1JZlct6MMGG631tFOrnpmdkl0-1754398318945-0.0.1.1-604800000; _cfuvid=HKZ.V4uMoQw9DPx8gdbT5YuvDGV_sm2AQ3.Mhll0V_g-1754398334264-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[checkmarx-panel-detect] Dumped HTTP request for https://custody.bitpanda.com/cxwebclient/Login.aspx
+
+
+GET /cxwebclient/Login.aspx HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=LSmBILsfoo4PAgQvIQoZRDcQ23RD8rWWT6IC9vYxfzg-1754398349933-0.0.1.1-604800000; _cfuvid=Y1jFahoDMhCFi58XjhxHfYoOyOuS5xYwOAoSpt5bzfc-1754398365832-0.0.1.1-604800000; _cfuvid=tlyslZNSOKT5TaBRsNQuN6PYkfZnftaPr61x.tGZahk-1754398379898-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[checkmarx-panel-detect] Dumped HTTP response https://custody.bitpanda.com/cxwebclient/Login.aspx
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f5e4dc71fe0-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:01 GMT
+Expires: Tue, 05 Aug 2025 13:53:01 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=OviZ_oAEUAgpOWx4OaVETnOgLOnC.ZR8sbeUBPma3Yk-1754398381838-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[checkmarx-panel-detect] Dumped HTTP request for https://custody.bitpanda.com/cxrestapi/auth/identity/.well-known/openid-configuration
+
+
+GET /cxrestapi/auth/identity/.well-known/openid-configuration HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=OviZ_oAEUAgpOWx4OaVETnOgLOnC.ZR8sbeUBPma3Yk-1754398381838-0.0.1.1-604800000; _cfuvid=uUE2PV4vETAlu43SIsLVCbkzNrGS599xV6g0k_n3uc0-1754398398673-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[checkmarx-panel-detect] Dumped HTTP response https://custody.bitpanda.com/cxrestapi/auth/identity/.well-known/openid-configuration
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ff41e7099fb-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:25 GMT
+Expires: Tue, 05 Aug 2025 13:53:25 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=G7Qiq8x9rc8ooM0jDJDNcc5hJjKmSg_lMztt_OmmxYs-1754398405820-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

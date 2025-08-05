@@ -1,0 +1,39 @@
+[avideo-detect] Dumped HTTP request for https://custody.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=joZ1w3Ja2r_ZP_6Q4b20IW1jrYmYw2z_lk3ipOQqHSg-1754398392817-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[avideo-detect] Dumped HTTP response https://custody.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66fe6cda23b78-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Expires: Tue, 05 Aug 2025 13:53:23 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=3RQ_N3YnP9gs3Wb30lK9G0TkP9AXcLvVzT3Ze7eCK4c-1754398403670-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

@@ -1,0 +1,17 @@
+[apollo-server-detect] Dumped HTTP request for http://affiliates.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/119.0 Safari/537.36
+Connection: close
+Content-Length: 747
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=crz3Q0fdy.iwnGmcP.X9fSEuEZKzHJTQXG3Z24DjWfY-1754398176997-0.0.1.1-604800000; _cfuvid=ydGj3cSn0YLPvZCTiv_wQhZ2EmFOXchGZVHd86FvT2g-1754398192809-0.0.1.1-604800000; _cfuvid=lTXt3w8sSUjmz9jqAqZGej8YyfidcNpeAaQMY17oHvU-1754398199818-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema{queryType{name}mutationType{name}subscriptionType{name}types{...FullType}directives{name description locations args{...InputValue}}}}fragment FullType on __Type{kind name description fields(includeDeprecated:true){name description args{...InputValue}type{...TypeRef}isDeprecated deprecationReason}inputFields{...InputValue}interfaces{...TypeRef}enumValues(includeDeprecated:true){name description isDeprecated deprecationReason}possibleTypes{...TypeRef}}fragment InputValue on __InputValue{name description type{...TypeRef}defaultValue}fragment TypeRef on __Type{kind name ofType{kind name ofType{kind name ofType{kind name ofType{kind name ofType{kind name ofType{kind name ofType{kind name}}}}}}}}"}
+

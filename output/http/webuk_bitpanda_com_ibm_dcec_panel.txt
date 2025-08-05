@@ -1,0 +1,37 @@
+[ibm-dcec-panel] Dumped HTTP request for https://webuk.bitpanda.com/teamserver/faces/login.jsp
+
+
+GET /teamserver/faces/login.jsp HTTP/1.1
+Host: webuk.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_7_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=KnX9Np9FHdkxXX4fxdXMDX2gGTo8d9t0Lx_Xpr1O6Qo-1754398374926-0.0.1.1-604800000; _cfuvid=kC_5yeUy3w5xX_ABchUDOc4Mz..u.Egfp44TStIfIeU-1754398388847-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ibm-dcec-panel] Dumped HTTP response https://webuk.bitpanda.com/teamserver/faces/login.jsp
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66fcd6f5207dd-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:53:19 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=70pdAASvZ9IOuvEIwdKJV_OcO1tb3d1ch3e8ap4EhMY-1754398399634-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Error: NOT_FOUND
+X-Vercel-Id: iad1::d8r89-1754398399629-0a2a80f56e86
+
+The page could not be found
+
+NOT_FOUND
+
+iad1::d8r89-1754398399629-0a2a80f56e86
+

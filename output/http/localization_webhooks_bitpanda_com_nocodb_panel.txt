@@ -1,0 +1,52 @@
+[nocodb-panel] Dumped HTTP request for http://localization.webhooks.bitpanda.com/dashboard/#/signin
+
+
+GET /dashboard/ HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:130.0) Gecko/20100101 Firefox/130.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=8MG4zjlpuGWOUH.EHPOh4l4d4g6VqHesAwp0Rwhw57o-1754398301861-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[nocodb-panel] Dumped HTTP response http://localization.webhooks.bitpanda.com/dashboard/#/signin
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66d705c8738f9-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:51:42 GMT
+Expires: Tue, 05 Aug 2025 13:51:42 GMT
+Location: https://localization.webhooks.bitpanda.com/dashboard/
+Server: cloudflare
+Set-Cookie: _cfuvid=52bgnFwCqYSN7qwLjSZnC5gQ3jUpzkGZ8i42idq6MXI-1754398302814-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[nocodb-panel] Dumped HTTP request for http://localization.webhooks.bitpanda.com/dashboard/favicon.ico
+
+
+GET /dashboard/favicon.ico HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.3 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=lr0Xn.nEpEOSwrVx_DxO3H_VRTrBbkz_Ta.baaWFDrk-1754398302834-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

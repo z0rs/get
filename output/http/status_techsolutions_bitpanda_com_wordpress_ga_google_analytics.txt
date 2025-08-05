@@ -1,0 +1,35 @@
+[wordpress-ga-google-analytics] Dumped HTTP request for https://status.techsolutions.bitpanda.com/wp-content/plugins/ga-google-analytics/readme.txt
+
+
+GET /wp-content/plugins/ga-google-analytics/readme.txt HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686; rv:134.0) Gecko/20100101 Firefox/134.0
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=enZNa3MzVG16RnBwSllqN0tIT09KTkdaWlp1RG1Tbk5OUUtjQWpMWHlUS2FvemZFSWFQbHVEd1JuUlNYWlAwV3p3L3ZJc2tOMkN6eWQwS3hsc1VyVE1MTitGK3BHenBWQzNnMUlmSTlZTWxzWTRhcXcyM1VMU09aNCtoTVZjUFRrR3Z5ZUtuOVlja3lwQ01VdEhlWm4vL3p2SnJXY0htRkl1eWpUaVdKS3FMdHA1TGFQSUZURUFzQ1ZmOW9DYVJVWG40d2NJV2U1aFJZdllRVzZObDFYZnlYemxSR29XMEJCRWVrQVJYa1dLYz0tLWtydTZYNzNyZS9kRytPUmx5N0R0UVE9PQ%3D%3D--b26cf7f4764145fde0c97c25f3f98b721225ceec
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-ga-google-analytics] Dumped HTTP response https://status.techsolutions.bitpanda.com/wp-content/plugins/ga-google-analytics/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: d27830df-71ff-42a9-a8e3-0ce8dc914be6
+Atl-Traceid: d27830df71ff42a9a8e30ce8dc914be6
+Date: Tue, 05 Aug 2025 12:52:41 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=4,atl-edge-upstream;dur=61,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 ae3759c8dc48487a424a60bd577ad554.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: WMvV0gOMBwTKiLBw6TDdYKj59pFfOoDm_r7PebxqrrFB0VM04ODBzg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 173731824
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

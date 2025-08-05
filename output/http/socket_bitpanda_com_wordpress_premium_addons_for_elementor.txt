@@ -1,0 +1,37 @@
+[wordpress-premium-addons-for-elementor] Dumped HTTP request for https://socket.bitpanda.com/wp-content/plugins/premium-addons-for-elementor/readme.txt
+
+
+GET /wp-content/plugins/premium-addons-for-elementor/readme.txt HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/116.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=ey1bri4dJnAMdTnElwNKto6Lt4oiSZ4Ef7sn9GtxsAypAweQ36VelD74lWZyNKPnXHPuG0v2HhqFctzZJZ57nlF6iNK3IEugzNM5lV2D4jGNoa4gcGp+pibFN6Up; AWSALBCORS=ey1bri4dJnAMdTnElwNKto6Lt4oiSZ4Ef7sn9GtxsAypAweQ36VelD74lWZyNKPnXHPuG0v2HhqFctzZJZ57nlF6iNK3IEugzNM5lV2D4jGNoa4gcGp+pibFN6Up
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-premium-addons-for-elementor] Dumped HTTP response https://socket.bitpanda.com/wp-content/plugins/premium-addons-for-elementor/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:45 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=1B/AbVilcmQ6FJW9nhK6t0LE+1kCE9GlU7E/49uvhhiJ8Z7hY6yfRPcpbdGsfckbchZKjw1QFrlRjkqE440yRrzoF/Kiyu/4mKD0hpayZwQO/wLiOObzpwmZOGJm; Expires=Tue, 12 Aug 2025 12:52:45 GMT; Path=/
+Set-Cookie: AWSALBCORS=1B/AbVilcmQ6FJW9nhK6t0LE+1kCE9GlU7E/49uvhhiJ8Z7hY6yfRPcpbdGsfckbchZKjw1QFrlRjkqE440yRrzoF/Kiyu/4mKD0hpayZwQO/wLiOObzpwmZOGJm; Expires=Tue, 12 Aug 2025 12:52:45 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 d907e6ff1d7c4efa4a8fcfcbb0b5531c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: jUOdF5UnjA1jKuC-27sloCVdBfqO1GoDEzw8lH1F9m3mTn_TEk9blA==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 2
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

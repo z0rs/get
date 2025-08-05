@@ -1,0 +1,36 @@
+[appsuite-panel] Dumped HTTP request for http://checkout.bitpanda.com/appsuite/
+
+
+GET /appsuite/ HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[appsuite-panel] Dumped HTTP response http://checkout.bitpanda.com/appsuite/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, private
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:48:59 GMT
+Expires: Tue, 05 Aug 2025 12:48:59 GMT
+Set-Cookie: PHPSESSID=6fmi3vt1e3ttgf3382suuimk91; path=/; secure; HttpOnly; SameSite=lax
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+{"error_code":0,"error_message":"No route found for \"GET /appsuite\" (from \"http://checkout.bitpanda.com/appsuite/\")","errors":[]}
+[appsuite-panel] Dumped HTTP response http://checkout.bitpanda.com/appsuite/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:48:59 GMT
+Location: https://checkout.bitpanda.com/appsuite
+
+

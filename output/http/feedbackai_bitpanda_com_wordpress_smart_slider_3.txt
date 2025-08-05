@@ -1,0 +1,37 @@
+[wordpress-smart-slider-3] Dumped HTTP request for http://feedbackai.bitpanda.com/wp-content/plugins/smart-slider-3/readme.txt
+
+
+GET /wp-content/plugins/smart-slider-3/readme.txt HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.75 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=ayXSQI0zsel0OG7KmuQvn5Oh3G6_HoDww_hgAjKzUoM-1754398445654-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-smart-slider-3] Dumped HTTP response http://feedbackai.bitpanda.com/wp-content/plugins/smart-slider-3/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670f399cd44a6-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:06 GMT
+Expires: Tue, 05 Aug 2025 13:54:06 GMT
+Location: https://feedbackai.bitpanda.com/wp-content/plugins/smart-slider-3/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=AXhqjmDVkJVoAyPDrEEmG8YhwqZDaQ.GuPDxcAVf3Q8-1754398446670-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

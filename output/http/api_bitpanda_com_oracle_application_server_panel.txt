@@ -1,0 +1,44 @@
+[oracle-application-server-panel] Dumped HTTP request for https://api.bitpanda.com/em/console/ias/oc4j/home
+
+
+GET /em/console/ias/oc4j/home HTTP/1.1
+Host: api.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=eC2dqkNFDNGTKaCzmt.DkCyHUdVSMSiIrlAQdSvrux8-1754398160956-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-application-server-panel] Dumped HTTP response https://api.bitpanda.com/em/console/ias/oc4j/home
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669ff49ae2720-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:21 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=IcSiJfr4mKToMm4eXhZDpQy8UUFv2ioUz0ldID0yuUE-1754398161917-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[oracle-application-server-panel] Dumped HTTP request for https://api.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: api.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=IhlaFEF7o5Y5v_8RoQ5hWhY.yk9Mhqb_hCfTuwykTCE-1754398164163-0.0.1.1-604800000; _cfuvid=S9syqOC1dlIhx4WMonU19VKpjSab9RxUtKWse6LHQTU-1754398180659-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

@@ -1,0 +1,76 @@
+[netflix-conductor-version] Dumped HTTP request for https://socket.bitpanda.com/api/admin/config
+
+
+GET /api/admin/config HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=AXp8ouPln/HCPUt7WqD3bTbkYzdLI+uKezj8IGsOxCaUqkhX/2gf6b6G8YCutgAj4ETBZ3sN5E2KIiHL4A3m3tlRMif3Xdws+DqoCT7whpsbtrHoMIqj2pp4l/0F; AWSALBCORS=AXp8ouPln/HCPUt7WqD3bTbkYzdLI+uKezj8IGsOxCaUqkhX/2gf6b6G8YCutgAj4ETBZ3sN5E2KIiHL4A3m3tlRMif3Xdws+DqoCT7whpsbtrHoMIqj2pp4l/0F
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[netflix-conductor-version] Dumped HTTP response https://socket.bitpanda.com/api/admin/config
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:22 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=gGU5ni/I2WbX931qpS4g9DuZMsLEP72iBE6yySUvJ69z9UGLpFVPQSKgqr4Wev56hSnlzSfQ19tHQvbzMGIF5aRCt46WXBZU3EElseH7cG+JX3rdecJ9tGNNciTH; Expires=Tue, 12 Aug 2025 12:52:22 GMT; Path=/
+Set-Cookie: AWSALBCORS=gGU5ni/I2WbX931qpS4g9DuZMsLEP72iBE6yySUvJ69z9UGLpFVPQSKgqr4Wev56hSnlzSfQ19tHQvbzMGIF5aRCt46WXBZU3EElseH7cG+JX3rdecJ9tGNNciTH; Expires=Tue, 12 Aug 2025 12:52:22 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 362048055e32798c3baf11d093fb4a46.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: b1ouwqKd6wcZ8ZiJBrOe7k6YSIGbWETDlYCzxDcyznqKXxfGlRgGjw==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 15
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[netflix-conductor-version] Dumped HTTP request for https://socket.bitpanda.com/api/sys
+
+
+GET /api/sys HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=pRaeNKj+hiAfe4Fo3M7bPGNGstZNH8+o2iirHh4aVWNKgTnwtejz1ou+Ycihz9o6qDkU1la6es0KK0yVGVxfwFV2BFpZKZAT6y6APq/2HXzmFpsz2bC6gzbDBx/3; AWSALBCORS=pRaeNKj+hiAfe4Fo3M7bPGNGstZNH8+o2iirHh4aVWNKgTnwtejz1ou+Ycihz9o6qDkU1la6es0KK0yVGVxfwFV2BFpZKZAT6y6APq/2HXzmFpsz2bC6gzbDBx/3
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[netflix-conductor-version] Dumped HTTP response https://socket.bitpanda.com/api/sys
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:25 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=YU14fkncBEhsi9iNzbVhG28qTMszhY6qSEJfa2GDsdJL+2gko21JmJzThwLx+ruNPHSkpPjhvoWrrqTqVzqFvP+iZn/uHgLHLWif3kP0yUAbqMLsjjZk/+W2l05p; Expires=Tue, 12 Aug 2025 12:52:25 GMT; Path=/
+Set-Cookie: AWSALBCORS=YU14fkncBEhsi9iNzbVhG28qTMszhY6qSEJfa2GDsdJL+2gko21JmJzThwLx+ruNPHSkpPjhvoWrrqTqVzqFvP+iZn/uHgLHLWif3kP0yUAbqMLsjjZk/+W2l05p; Expires=Tue, 12 Aug 2025 12:52:25 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 7eec4b899788ee4df5c41267e91dcf8a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: o4p1Pzpy1fYtql9XSrCWTAqbuCY-MuDvWZt1I4CLM08HGPx8eWYsTQ==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 3
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

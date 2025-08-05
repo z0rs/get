@@ -1,0 +1,23 @@
+[csrf-guard-detect] Dumped HTTP request for https://info.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: info.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686; rv:128.0) Gecko/20100101 Firefox/128.0
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[csrf-guard-detect] Dumped HTTP request for https://info.bitpanda.com/JavaScriptServlet
+
+
+GET /JavaScriptServlet HTTP/1.1
+Host: info.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Referer: info.bitpanda.com
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

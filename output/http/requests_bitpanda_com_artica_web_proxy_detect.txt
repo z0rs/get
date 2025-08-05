@@ -1,0 +1,23 @@
+[artica-web-proxy-detect] Dumped HTTP request for http://requests.bitpanda.com/fw.login.php
+
+
+GET /fw.login.php HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[artica-web-proxy-detect] Dumped HTTP response http://requests.bitpanda.com/fw.login.php
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:06 GMT
+Location: https://requests.bitpanda.com/fw.login.php
+
+Moved Permanently

@@ -1,0 +1,116 @@
+[appspace-panel] Dumped HTTP request for https://custody.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[appspace-panel] Dumped HTTP response https://custody.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66d76bc9b4e70-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:51:43 GMT
+Expires: Tue, 05 Aug 2025 13:51:43 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=_aUNCPyqA0.i1oSQEK9eO1g8oThtonyHBmaVG72Xa7k-1754398303843-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[appspace-panel] Dumped HTTP request for https://custody.bitpanda.com/app/login.aspx
+
+
+GET /app/login.aspx HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/119.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Cf04mffd2gw8_AXH4_9MHJz0OMKAcu0TI5UaaYCKhbA-1754398303843-0.0.1.1-604800000; _cfuvid=mjnpxSiQl5uzCdqJ1WjbShvKrjSBZBMklkMl25TfdUQ-1754398319852-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[appspace-panel] Dumped HTTP response https://custody.bitpanda.com/app/login.aspx
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66de74f0fa0ca-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:01 GMT
+Expires: Tue, 05 Aug 2025 13:52:01 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=_2Rm0qo4bphSYkxP7tQ.oh74GXKAPiPcjei1dpRPrJw-1754398321828-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[appspace-panel] Dumped HTTP request for https://custody.bitpanda.com/signin/#!/login?returnUrl=%2Fapp%2Fdefault.aspx
+
+
+GET /signin/ HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686; rv:125.0) Gecko/20100101 Firefox/125.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=utvJqaJr5OHi7qj82VSkTP2T7BFZGxbLVvC9szGz36w-1754398322884-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[appspace-panel] Dumped HTTP response https://custody.bitpanda.com/signin/#!/login?returnUrl=%2Fapp%2Fdefault.aspx
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66e13bf5e0649-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:08 GMT
+Expires: Tue, 05 Aug 2025 13:52:08 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=pE4nRu1y_lv.ClVX9F2VmpYHsNVo0jHX43GNoKVXeyQ-1754398328936-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

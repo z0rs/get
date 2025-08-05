@@ -1,0 +1,79 @@
+[phpldapadmin-panel] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=pIEXuKQQCrDE4nIZGQCQq9g9dQrB4q01PIMGm4m1oMk-1754398155815-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpldapadmin-panel] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669ecbad186f4-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:19 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=yoRpmk6QfWRcjYcyxh1BWKwvrqOKPU8HB8tIKFVEFE0-1754398159118-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 d01a0cfc47d6e412dd81c986ff5d69da.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: IzkfDjzDE1mwvigYt85XU0bTUozB0zHYa7O0JcWTruOF2QET8RePSA==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[phpldapadmin-panel] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669ec7b6f1320-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:18 GMT
+Expires: Tue, 05 Aug 2025 13:49:18 GMT
+Location: https://cdn.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=hTszmvpive404NYXH_SDbT6tEOBH2nSpLtXPYBecAxg-1754398158813-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[phpldapadmin-panel] Dumped HTTP request for http://cdn.bitpanda.com/phpldapadmin
+
+
+GET /phpldapadmin HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=xZIzU5mcxjakAugvgtWMUy9IjKDtF7mxXXpXyw5gabw-1754398163883-0.0.1.1-604800000; _cfuvid=7NEbX82SDL0yCX4SAXpqioCbqScZh2I667gf1pMcMFw-1754398178004-0.0.1.1-604800000; _cfuvid=b5GxYO5MQhZH3q_qEShruorqxBYE4Xs4JCCoc2zDA8E-1754398182862-0.0.1.1-604800000; _cfuvid=A.X91u0Z3zt2Z0_5xAgqyJIXBBExB5WUHEk5nG4GhCM-1754398186851-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpldapadmin-panel] Dumped HTTP request for http://cdn.bitpanda.com/htdocs/index.php
+
+
+GET /htdocs/index.php HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0  Macintosh  Intel Mac OS X 10_15_7  AppleWebKit/605.1.15  KHTML  like Gecko  Version/18.3.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=BV0yWWMQifUppkkWVIrjjzOXB9WsmEvNMHobc2pf6JE-1754398199824-0.0.1.1-604800000; _cfuvid=8GguuEuUOy9K9O1Ne7yiTx29kiMdKbYiQRvCXl2_6JI-1754398221895-0.0.1.1-604800000; _cfuvid=m6XS3t_qpGihceXN0PbTh1LRFYfAqHeK_KRtEd.iXIk-1754398233796-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

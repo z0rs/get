@@ -1,0 +1,46 @@
+[carestream-vue-detect] Dumped HTTP request for https://analytics.bitpanda.com/portal/favicon.ico
+
+
+GET /portal/favicon.ico HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=a4qBBEOY7DUTreS1TtmLiNwaYEXzeUtKqLuxqipPKts-1754398180357-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[carestream-vue-detect] Dumped HTTP response https://analytics.bitpanda.com/portal/favicon.ico
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Cf-Cache-Status: MISS
+Cf-Ray: 96a66a75e87d8de6-IAD
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:40 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=7iLRQolGVHedh6J2uvIX78dGgsILiaGKfgTnIx1jXps-1754398180964-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin, Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Powered-By: Express
+
+Bad request
+[carestream-vue-detect] Dumped HTTP request for https://analytics.bitpanda.com/portal/images/MyVue/MyVueHelp.png
+
+
+GET /portal/images/MyVue/MyVueHelp.png HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=fhsdQV3cQyc5zxvBMBdzden.ClWWIfxVQaVeiL5kQnI-1754398186066-0.0.1.1-604800000; _cfuvid=Gs43.MyaOVYgQiHjjFQxX7ZKw5X6j8EcjXC_KvZqKpo-1754398196130-0.0.1.1-604800000; _cfuvid=5ETeRD4ZqBtSEUOF32FluqbI8D1n.dJBLzg0Od5M.dw-1754398217142-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

@@ -1,0 +1,46 @@
+[tiny-file-manager-unauth] Dumped HTTP request for http://akurateco.bitpanda.com/index.php
+
+
+GET /index.php HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[tiny-file-manager-unauth] Dumped HTTP response http://akurateco.bitpanda.com/index.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 548
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:28 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+<!-- a padding to disable MSIE and Chrome friendly error page -->
+
+[tiny-file-manager-unauth] Dumped HTTP response http://akurateco.bitpanda.com/index.php
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:27 GMT
+Location: https://akurateco.bitpanda.com/index.php
+
+

@@ -1,0 +1,36 @@
+[kube-api-version] Dumped HTTP request for https://status.techsolutions.bitpanda.com/version
+
+
+GET /version HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=STB6UXNpOHpGdFJkSUhMV2VwTndJZDZLU0M5TiswSGxOd05xdlllV2MzYUhwU2NsaktsRHNxdTltTnNKaEF1NGcvM2h2MFByK3QwejlaTTR6WVZwSnZNd3VKL01HRnBBTjI2emRmczEzaFkvY1g2M2ZYY3ZDWXpPbFJMeEZucnJDSi9BaSswZEFmcStKVXJkUHJaV2FaVHFSQ0VGcENqK2VQQVpEemxGbjFyT3VnYXNsdSsrMXdtRGJIYnNYYjBmdDZMQXRxZGtyVDJVY1JpcUpvRUlMeGpOLzRUNE1xbzgzcmIwT2piYTNkYz0tLXRIeHhmSU9ibXJqdngwMUxYb0FKK2c9PQ%3D%3D--acc6fddeaa83c7032cf90c817b31b7280fc0db09
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[kube-api-version] Dumped HTTP response https://status.techsolutions.bitpanda.com/version
+
+HTTP/1.1 404 Not Found
+Connection: close
+Age: 1
+Atl-Request-Id: fd25b727-1e2f-4161-be1e-cb9d511d7a4d
+Atl-Traceid: fd25b7271e2f4161be1ecb9d511d7a4d
+Date: Tue, 05 Aug 2025 12:52:28 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 966d01179c7098b0cf2a20ba8c352dee.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: k0lgvqsay4jMq-QCeSnTZu5z7ZKVnDZYEZ4lNIsqgpgcLvW0KmX2qg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 698438544
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

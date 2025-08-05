@@ -1,0 +1,34 @@
+[nexus-panel] Dumped HTTP request for https://api.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: api.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=mAtnJidxL9b7xw_6kHlEqtGi_uaRfiC03UHznANvdQ4-1754398157176-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[nexus-panel] Dumped HTTP response https://api.bitpanda.com
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Headers: origin, content-type, access-token, x-bitpanda-academy, x-tracking-id, If-None-Match, If-Match, x-bitpanda-app-web, x-datadog-trace-id, x-datadog-parent-id, x-datadog-origin, x-datadog-sampling-priority, bp-broker-user-api-token-id
+Access-Control-Allow-Origin: *
+Cache-Control: no-store, private
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669f918f820ae-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:20 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=eC2dqkNFDNGTKaCzmt.DkCyHUdVSMSiIrlAQdSvrux8-1754398160956-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+{"data":{"type":"ok","attributes":{}}}

@@ -1,0 +1,104 @@
+[powerbi-report-server-detect] Dumped HTTP request for http://ff.bitpanda.com/reports/api/v2.0/System
+
+
+GET /reports/api/v2.0/System HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=s.i3iAenDDSV_Ij74uIICke4m4yeNsxCzwI35uGDafM-1754398430280-0.0.1.1-604800000; GCLB="ae2e149d6229ae9f"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[powerbi-report-server-detect] Dumped HTTP response http://ff.bitpanda.com/reports/api/v2.0/System
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 19
+Access-Control-Allow-Methods: GET,HEAD,POST,OPTIONS
+Access-Control-Allow-Origin: *
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670da3dfaf30f-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:54:02 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: GCLB="1872b0bc9b6afb75"; Max-Age=1; Path=/; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Statsig-Region: gke-us-east5
+
+RBAC: access denied
+[powerbi-report-server-detect] Dumped HTTP response http://ff.bitpanda.com/reports/api/v2.0/System
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670d9fd69c97d-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:02 GMT
+Expires: Tue, 05 Aug 2025 13:54:02 GMT
+Location: https://ff.bitpanda.com/reports/api/v2.0/System
+Server: cloudflare
+Set-Cookie: _cfuvid=Odqtn8SuZgiOHmtHOwzar0gTzjWjmh2IjMspRC4fDKk-1754398442575-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[powerbi-report-server-detect] Dumped HTTP request for http://ff.bitpanda.com/reports/browse
+
+
+GET /reports/browse HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=QJflYhidNpNlEk.e4326wEfxyEmmcAihEyxhoTtHoHM-1754398442652-0.0.1.1-604800000; GCLB="1872b0bc9b6afb75"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[powerbi-report-server-detect] Dumped HTTP response http://ff.bitpanda.com/reports/browse
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 19
+Access-Control-Allow-Methods: GET,HEAD,POST,OPTIONS
+Access-Control-Allow-Origin: *
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a671142df7879a-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:54:11 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: GCLB="6e50bc514457645a"; Max-Age=1; Path=/; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Statsig-Region: gke-us-east5
+
+RBAC: access denied
+[powerbi-report-server-detect] Dumped HTTP response http://ff.bitpanda.com/reports/browse
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67113ec9f1281-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:11 GMT
+Expires: Tue, 05 Aug 2025 13:54:11 GMT
+Location: https://ff.bitpanda.com/reports/browse
+Server: cloudflare
+Set-Cookie: _cfuvid=Kr0WYw8EG95EBNI59VfzJU0wPVEz39ploFzEc_MdlEY-1754398451844-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

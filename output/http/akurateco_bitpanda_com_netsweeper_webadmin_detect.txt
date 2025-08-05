@@ -1,0 +1,62 @@
+[netsweeper-webadmin-detect] Dumped HTTP request for http://akurateco.bitpanda.com/webadmin/start/
+
+
+GET /webadmin/start/ HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Referer: http://akurateco.bitpanda.com/webadmin/admin/systemstatus_inc_data.php
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[netsweeper-webadmin-detect] Dumped HTTP response http://akurateco.bitpanda.com/webadmin/start/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:53 GMT
+Location: https://akurateco.bitpanda.com/webadmin/start
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+[netsweeper-webadmin-detect] Dumped HTTP request for http://akurateco.bitpanda.com/webadmin/tools/systemstatus_remote.php
+
+
+GET /webadmin/tools/systemstatus_remote.php HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/42.0.2311.135 Safari/537.36 Edge/12.10240
+Connection: close
+Accept: */*
+Accept-Language: en
+Referer: http://akurateco.bitpanda.com/webadmin/admin/systemstatus_inc_data.php
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[netsweeper-webadmin-detect] Dumped HTTP response http://akurateco.bitpanda.com/webadmin/tools/systemstatus_remote.php
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:59 GMT
+Location: https://akurateco.bitpanda.com/webadmin/tools/systemstatus_remote.php
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

@@ -1,0 +1,50 @@
+[torrent-magnet-detect] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=gBmiJRVtXe6DVznqKLa0n23qHFdLwLE0yV4mxx48duk-1754398168234-0.0.1.1-604800000; _cfuvid=NEkQoQ9.64m2ogVXAsTJZ._0vqhhGt0zqsQNOYsb7cI-1754398184091-0.0.1.1-604800000; _cfuvid=1erGetpaBEck1kIqMtFm0kRGoZYXvbkXhHE0czwYi5M-1754398186803-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[torrent-magnet-detect] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a9be8ed058e-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:47 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 d5710f445906ae917df909d01c495c9e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: DhkjTgwPbuq-su-1wg3ULKG4AuZe-g14BHAbvMWSNUW1kcpqP9gUEw==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[torrent-magnet-detect] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66a9b9a30c96b-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:46 GMT
+Expires: Tue, 05 Aug 2025 13:49:46 GMT
+Location: https://cdn.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=8bd3NWY0xcQ_qXKR_aybPa324u0YGKPoUV8hAI48FN8-1754398186837-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

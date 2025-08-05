@@ -1,0 +1,92 @@
+[sysaid-panel] Dumped HTTP request for https://bitpanda.com/Login.jsp
+
+
+GET /Login.jsp HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/120.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Fu6gU3ueoE5ljVeK1VhDLHMaveUjHPA1EGg_Tumu_y4-1754398157839-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[sysaid-panel] Dumped HTTP response https://bitpanda.com/Login.jsp
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669f2fccd96a2-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:19 GMT
+Expires: Tue, 05 Aug 2025 13:49:19 GMT
+Location: https://www.bitpanda.com/Login.jsp
+Server: cloudflare
+Set-Cookie: _cfuvid=F8Rajaq14VpfUi0d4PFV1eQIst6ymgdw0F54fvH5KZQ-1754398159845-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[sysaid-panel] Dumped HTTP request for https://bitpanda.com/InvalidAccount.jsp
+
+
+GET /InvalidAccount.jsp HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/113.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=vfi2IwqLCuXKr.OVVwRrD4Xrgwk8EHxgln3Y2RXvLP8-1754398162870-0.0.1.1-604800000; _cfuvid=Fyd.eMgydkpozrKrpQpXPmx.eceP41HyUpjoilGphv0-1754398180542-0.0.1.1-604800000; _cfuvid=uVDMoMuZ6HpDqpCzx_apXi4zqlazUjnqmPkHHMvCjqk-1754398181837-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[sysaid-panel] Dumped HTTP response https://bitpanda.com/InvalidAccount.jsp
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66a82895f82da-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:42 GMT
+Expires: Tue, 05 Aug 2025 13:49:42 GMT
+Location: https://www.bitpanda.com/InvalidAccount.jsp
+Server: cloudflare
+Set-Cookie: _cfuvid=51P366QdBlx_YLrhBsYYyBbwYj_Krc9SL7KhnV24aAs-1754398182840-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[sysaid-panel] Dumped HTTP request for https://bitpanda.com/favicon.ico
+
+
+GET /favicon.ico HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686; rv:125.0) Gecko/20100101 Firefox/125.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=oPN0VSqbsb8Wzs2BC6SCNDdibyASq603WMg0_unatFE-1754398188016-0.0.1.1-604800000; _cfuvid=c82z7jDcK1Id2AXOMNlIN6zWx8RnULr.Llpmh8jsoFg-1754398189038-0.0.1.1-604800000; _cfuvid=HlaBkxj1SWEmyelK9h0dxeItt2vEAl9B8_FFeP3bnx8-1754398189841-0.0.1.1-604800000; _cfuvid=JFm3I6eivTnrbAqhCXR94NoPZjQ3n4xU8KR3oRcZKo0-1754398194835-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

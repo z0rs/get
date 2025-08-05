@@ -1,0 +1,13 @@
+[openethereum-server] Dumped HTTP request for https://auth-bts.bitpanda.com
+
+
+POST / HTTP/1.1
+Host: auth-bts.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko)Safari/537.36
+Connection: close
+Content-Length: 66
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"method":"web3_clientVersion","params":[],"id":1,"jsonrpc":"2.0"}

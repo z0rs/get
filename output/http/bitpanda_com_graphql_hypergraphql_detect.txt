@@ -1,0 +1,64 @@
+[graphql-hypergraphql-detect] Dumped HTTP request for https://bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686; rv:125.0) Gecko/20100101 Firefox/125.0
+Connection: close
+Content-Length: 30
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=cblKs1MwEvjx75YlxN3n171WZm0xi4pv.vuM5AMohdk-1754398227601-0.0.1.1-604800000; _cfuvid=TyP5cFrZWl5VZ_Tx.otkx8y86NRsDKpcTN7hn5zb5Yg-1754398242917-0.0.1.1-604800000; _cfuvid=j_E5wR830nUSeXJIojiuLzbUQeTpi6VH0EsQ9HiWTos-1754398257856-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"zzz { __typename }"}
+[graphql-hypergraphql-detect] Dumped HTTP request for https://bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:124.0) Gecko/20100101 Firefox/124.0
+Connection: close
+Content-Length: 30
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=3dLsGSQSZHUs4hWOvTs52wH0SezaxH1Z2byCnRQBhXM-1754398274030-0.0.1.1-604800000; _cfuvid=I9FDDLv.QGOQkTx0uxC4YulnDQz8P.Gdkgh5GI0Ns70-1754398287959-0.0.1.1-604800000; _cfuvid=f5NQIqR0cV4mHmWB7wxzkCJBSUdkDHGhBVPCWAOD2nY-1754398305531-0.0.1.1-604800000; _cfuvid=f5NQIqR0cV4mHmWB7wxzkCJBSUdkDHGhBVPCWAOD2nY-1754398305531-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"zzz { __typename }"}
+[graphql-hypergraphql-detect] Dumped HTTP request for https://bitpanda.com/query
+
+
+POST /query HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 30
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=usU4WRjUKqppHecydu8Dn9gc6ZKzA51HW_UYQDSYLSw-1754398306563-0.0.1.1-604800000; _cfuvid=CPEZ2TwX0HSw73FS7HJ12Wjj5wylK1_7RrOlQczUIMc-1754398321920-0.0.1.1-604800000; _cfuvid=mZIyCsLRFpesfpq4kp6A3Za2xF.BFX8.xFugQVXg0wY-1754398335831-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"zzz { __typename }"}
+[graphql-hypergraphql-detect] Dumped HTTP request for https://bitpanda.com/
+
+
+POST / HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+Content-Length: 30
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=KTGzGVgf2QnYQfnkOTUUmXMiLvfE_INC8O1DuxvYDFA-1754398352843-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"zzz { __typename }"}

@@ -1,0 +1,26 @@
+[jolokia-detect] Dumped HTTP request for https://info.bitpanda.com/jolokia/version
+
+
+GET /jolokia/version HTTP/1.1
+Host: info.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.7 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jolokia-detect] Dumped HTTP request for https://info.bitpanda.com/actuator/jolokia/version
+
+
+GET /actuator/jolokia/version HTTP/1.1
+Host: info.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

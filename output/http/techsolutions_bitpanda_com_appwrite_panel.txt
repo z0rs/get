@@ -1,0 +1,60 @@
+[appwrite-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/images/favicon.png
+
+
+GET /images/favicon.png HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 12.4) AppleWebKit/619.11 (KHTML, like Gecko) Version/17.3.56 Safari/619.11
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[appwrite-panel] Dumped HTTP response https://techsolutions.bitpanda.com/images/favicon.png
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:16 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 6744171422c4a271f6b0fe32071ae980.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: rjOz-FDsiLpLUMq88Z_-f-vLXSC733Aqn-S-N1F9LYXX5J4aI60CBA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: Dzqqi/dhiHD0VttaHDkEouLgIAAMCIkyePDtQiHWSEo7NsyWtIZ2WEZWqMq324CRISxH1vcQ+lbGdA3Pl/GaF/2hc+lFwNcB
+X-Amz-Request-Id: XY84ZMXGBDJG6D0V
+X-Cache: Error from cloudfront
+
+Not Found
+[appwrite-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/favicon.png
+
+
+GET /favicon.png HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[appwrite-panel] Dumped HTTP response https://techsolutions.bitpanda.com/favicon.png
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:19 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 5bab46d8af126fb7ca14b6d331ff182a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: caUomHK33Fmwt40RbVR0L5FW24pzoL4oxHoJYQ0N2W-Inzg1cdGU1Q==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: qx5QNH6yg3l56VD5AzymJ533IQ8EQ5S9yz3Lfhjq1EZvb12aa4BwT8QsT6+5LwLumumJAxpgQS8=
+X-Amz-Request-Id: XQ7MC8T5P48KB3M2
+X-Cache: Error from cloudfront
+
+Not Found

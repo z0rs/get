@@ -1,0 +1,74 @@
+[gitlab-explore] Dumped HTTP request for https://blog.bitpanda.com/explore
+
+
+GET /explore HTTP/1.1
+Host: blog.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=QE5VnTrCTsFyzCCTKgEK96L6LZnbhPS17tfP0dIvRVY-1754398137977-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[gitlab-explore] Dumped HTTP response https://blog.bitpanda.com/explore
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 1309
+Cache-Control: max-age=3600, no-transform, public
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6696fbd1ee5f7-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:48:58 GMT
+Etag: "78e2357df5414ccc96a4dd3419a9fe77"
+Last-Modified: Wed, 15 Feb 2023 14:39:43 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=j6sAiJlnaYFA2Z3wK431iYrGBFn5HbH8hBvMx3yUhyg-1754398138982-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 6cf4081c1099e7ccfdba44532a13bc54.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 5Oxk7A-HKtUX42SahouuX0WwQTzuPbuK8u59D7pyp2KkbrrcS36J6g==
+X-Amz-Cf-Pop: IAD55-P5
+X-Amz-Error-Code: NoSuchKey
+X-Amz-Error-Detail-Key: explore
+X-Amz-Error-Message: The specified key does not exist.
+X-Amz-Version-Id: yR6rYC_OKaJnEAv9WrVQ56zvOAhJJ3Hl
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta content="ie=edge" http-equiv=x-ua-compatible><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name=viewport><title></title><script>var languages = ['en','de','fr','es','it','pl',];
+                var pages = {en: 'https://blog.bitpanda.com/en/error',de: 'https://blog.bitpanda.com/de/error',fr: 'https://blog.bitpanda.com/fr/error',es: 'https://blog.bitpanda.com/es/error',it: 'https://blog.bitpanda.com/it/error',pl: 'https://blog.bitpanda.com/pl/error',};
+                var language = window.navigator.userLanguage || window.navigator.language;
+                var langCode = language.split("-")[0];
+
+                var hasLanguage = false;
+                for (var i = 0; i < languages.length; i++) {
+                    if(window.location.pathname.startsWith("/" + languages[i])) {
+                        hasLanguage = true;
+                    }
+                }
+
+                if (!hasLanguage) {
+                    location.href = window.location.origin + "/en" + window.location.pathname;
+                } else {
+                   if(!(langCode in pages)) {
+                        langCode = "en";
+                    }
+
+                    location.href = pages[langCode];
+                }</script> <body>
+[gitlab-explore] Dumped HTTP request for https://blog.bitpanda.com/api/v4/projects
+
+
+GET /api/v4/projects HTTP/1.1
+Host: blog.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/129.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=U.fKQ96yAJA3iqyNJVB3MUXJCWe9fiLXfnM1NSoDBCA-1754398147031-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

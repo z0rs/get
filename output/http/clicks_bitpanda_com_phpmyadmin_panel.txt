@@ -1,0 +1,545 @@
+[phpmyadmin-panel] Dumped HTTP request for https://clicks.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: clicks.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/113.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=BhCRKOMj.10R12YPA.HXvOQQZCHd6KJ9nwGhGl8HOzg-1754398145830-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP request for https://clicks.bitpanda.com/admin/phpmyadmin/
+
+
+GET /admin/phpmyadmin/ HTTP/1.1
+Host: clicks.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=BhCRKOMj.10R12YPA.HXvOQQZCHd6KJ9nwGhGl8HOzg-1754398145830-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://clicks.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669a17817d67c-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:06 GMT
+Expires: Tue, 05 Aug 2025 13:49:06 GMT
+Location: https://eu.spgo.io/
+Server: cloudflare
+Set-Cookie: _cfuvid=7WH7MDCY1r0NJ44e2ACepJ3C.uL.oVt933cnbLevQ34-1754398146814-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[phpmyadmin-panel] Dumped HTTP response https://clicks.bitpanda.com/admin/phpmyadmin/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669a18b8a5774-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:06 GMT
+Expires: Tue, 05 Aug 2025 13:49:06 GMT
+Location: https://eu.spgo.io/admin/phpmyadmin/
+Server: cloudflare
+Set-Cookie: _cfuvid=.9yqGu2rnjIv2YkkL_hEfD0wywUiKS5eSDxeEQbz7M0-1754398146815-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[phpmyadmin-panel] Dumped HTTP request for https://clicks.bitpanda.com/blog/phpmyadmin/
+
+
+GET /blog/phpmyadmin/ HTTP/1.1
+Host: clicks.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=BhCRKOMj.10R12YPA.HXvOQQZCHd6KJ9nwGhGl8HOzg-1754398145830-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://clicks.bitpanda.com/blog/phpmyadmin/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669a17c4ec5b9-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:06 GMT
+Expires: Tue, 05 Aug 2025 13:49:06 GMT
+Location: https://eu.spgo.io/blog/phpmyadmin/
+Server: cloudflare
+Set-Cookie: _cfuvid=2cTmrk2UwQUCjle6_R_9IWFEdspdWQDvfKP8D.8cf20-1754398146816-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[phpmyadmin-panel] Dumped HTTP request for https://clicks.bitpanda.com/apache-default/phpmyadmin/
+
+
+GET /apache-default/phpmyadmin/ HTTP/1.1
+Host: clicks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=BhCRKOMj.10R12YPA.HXvOQQZCHd6KJ9nwGhGl8HOzg-1754398145830-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://clicks.bitpanda.com/apache-default/phpmyadmin/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669a17d7181d3-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:06 GMT
+Expires: Tue, 05 Aug 2025 13:49:06 GMT
+Location: https://eu.spgo.io/apache-default/phpmyadmin/
+Server: cloudflare
+Set-Cookie: _cfuvid=6ajLAp1A.I0n4MqRR9jYxANASTDTSqJPpbZM9wXT_Pc-1754398146818-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[phpmyadmin-panel] Dumped HTTP request for https://clicks.bitpanda.com/phpmyadmin/
+
+
+GET /phpmyadmin/ HTTP/1.1
+Host: clicks.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=BhCRKOMj.10R12YPA.HXvOQQZCHd6KJ9nwGhGl8HOzg-1754398145830-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://clicks.bitpanda.com/phpmyadmin/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669a178715f12-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:06 GMT
+Expires: Tue, 05 Aug 2025 13:49:06 GMT
+Location: https://eu.spgo.io/phpmyadmin/
+Server: cloudflare
+Set-Cookie: _cfuvid=o41RnJzs6c__VMzXQD0yENqlA5_.skMHZhSaGRT8C6g-1754398146819-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[phpmyadmin-panel] Dumped HTTP request for https://clicks.bitpanda.com/administrator/components/com_joommyadmin/phpmyadmin/
+
+
+GET /administrator/components/com_joommyadmin/phpmyadmin/ HTTP/1.1
+Host: clicks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14.5) AppleWebKit/618.3.5 (KHTML, like Gecko) Version/17.4 Safari/618.3.5
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=BhCRKOMj.10R12YPA.HXvOQQZCHd6KJ9nwGhGl8HOzg-1754398145830-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://clicks.bitpanda.com/administrator/components/com_joommyadmin/phpmyadmin/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669a18cc105e4-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:06 GMT
+Expires: Tue, 05 Aug 2025 13:49:06 GMT
+Location: https://eu.spgo.io/administrator/components/com_joommyadmin/phpmyadmin/
+Server: cloudflare
+Set-Cookie: _cfuvid=Dfvz5hI4UACSO5.B29ZLDQwzN56h8p7YV_h7L0RXwk8-1754398146821-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[phpmyadmin-panel] Dumped HTTP request for https://clicks.bitpanda.com/_phpmyadmin/
+
+
+GET /_phpmyadmin/ HTTP/1.1
+Host: clicks.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=BhCRKOMj.10R12YPA.HXvOQQZCHd6KJ9nwGhGl8HOzg-1754398145830-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://clicks.bitpanda.com/_phpmyadmin/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669a18c648286-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:06 GMT
+Expires: Tue, 05 Aug 2025 13:49:06 GMT
+Location: https://eu.spgo.io/_phpmyadmin/
+Server: cloudflare
+Set-Cookie: _cfuvid=O7fBmRWQzUWo2CbhyjS9rFQqIh7X4s3KtZsuN0SGayA-1754398146821-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[phpmyadmin-panel] Dumped HTTP request for https://clicks.bitpanda.com/forum/phpmyadmin/
+
+
+GET /forum/phpmyadmin/ HTTP/1.1
+Host: clicks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh, Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=BhCRKOMj.10R12YPA.HXvOQQZCHd6KJ9nwGhGl8HOzg-1754398145830-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://clicks.bitpanda.com/forum/phpmyadmin/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669a178d0e5fb-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:06 GMT
+Expires: Tue, 05 Aug 2025 13:49:06 GMT
+Location: https://eu.spgo.io/forum/phpmyadmin/
+Server: cloudflare
+Set-Cookie: _cfuvid=Im.N.imz7CqN_.3d7Z8mVqhAe9JUTGKya4TVV0pmSGk-1754398146823-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[phpmyadmin-panel] Dumped HTTP request for https://clicks.bitpanda.com/typo3/phpmyadmin/
+
+
+GET /typo3/phpmyadmin/ HTTP/1.1
+Host: clicks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.8.1 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=BhCRKOMj.10R12YPA.HXvOQQZCHd6KJ9nwGhGl8HOzg-1754398145830-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://clicks.bitpanda.com/typo3/phpmyadmin/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669a17e95c92f-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:06 GMT
+Expires: Tue, 05 Aug 2025 13:49:06 GMT
+Location: https://eu.spgo.io/typo3/phpmyadmin/
+Server: cloudflare
+Set-Cookie: _cfuvid=MNCZUosT9G4xR.fuE3NpDRvVMv4oYuJXkGhvovrNSQc-1754398146826-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[phpmyadmin-panel] Dumped HTTP request for https://clicks.bitpanda.com/xampp/phpmyadmin/
+
+
+GET /xampp/phpmyadmin/ HTTP/1.1
+Host: clicks.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=BhCRKOMj.10R12YPA.HXvOQQZCHd6KJ9nwGhGl8HOzg-1754398145830-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://clicks.bitpanda.com/xampp/phpmyadmin/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669a17a22170d-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:06 GMT
+Expires: Tue, 05 Aug 2025 13:49:06 GMT
+Location: https://eu.spgo.io/xampp/phpmyadmin/
+Server: cloudflare
+Set-Cookie: _cfuvid=5CsjrXI5JcQEVDhs9_uxLk70litPpc5TXQlyYMfK4vs-1754398146831-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[phpmyadmin-panel] Dumped HTTP request for https://clicks.bitpanda.com/php/phpmyadmin/
+
+
+GET /php/phpmyadmin/ HTTP/1.1
+Host: clicks.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=BhCRKOMj.10R12YPA.HXvOQQZCHd6KJ9nwGhGl8HOzg-1754398145830-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://clicks.bitpanda.com/php/phpmyadmin/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669a17a541216-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:06 GMT
+Expires: Tue, 05 Aug 2025 13:49:06 GMT
+Location: https://eu.spgo.io/php/phpmyadmin/
+Server: cloudflare
+Set-Cookie: _cfuvid=xlHWa2EJITC4Kj22U7EE2RuRJkMxSudD7fl5JljpCrU-1754398146839-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[phpmyadmin-panel] Dumped HTTP request for https://clicks.bitpanda.com/phpMyAdmin/
+
+
+GET /phpMyAdmin/ HTTP/1.1
+Host: clicks.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/116.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=BhCRKOMj.10R12YPA.HXvOQQZCHd6KJ9nwGhGl8HOzg-1754398145830-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://clicks.bitpanda.com/phpMyAdmin/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669a178253922-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:06 GMT
+Expires: Tue, 05 Aug 2025 13:49:06 GMT
+Location: https://eu.spgo.io/phpMyAdmin/
+Server: cloudflare
+Set-Cookie: _cfuvid=RgOXGcmS8TQopKM9823.dmcx9H.r5d66wFwNgPOr0Wk-1754398146841-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[phpmyadmin-panel] Dumped HTTP request for https://clicks.bitpanda.com/web/phpmyadmin/
+
+
+GET /web/phpmyadmin/ HTTP/1.1
+Host: clicks.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=BhCRKOMj.10R12YPA.HXvOQQZCHd6KJ9nwGhGl8HOzg-1754398145830-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://clicks.bitpanda.com/web/phpmyadmin/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669a17de582ec-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:06 GMT
+Expires: Tue, 05 Aug 2025 13:49:06 GMT
+Location: https://eu.spgo.io/web/phpmyadmin/
+Server: cloudflare
+Set-Cookie: _cfuvid=dTV_EuJ_4XQmGUMRnJbvqAmGpNodC8v0RdUjOHtfepE-1754398146847-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[phpmyadmin-panel] Dumped HTTP request for https://clicks.bitpanda.com/phpma/
+
+
+GET /phpma/ HTTP/1.1
+Host: clicks.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=BhCRKOMj.10R12YPA.HXvOQQZCHd6KJ9nwGhGl8HOzg-1754398145830-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://clicks.bitpanda.com/phpma/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669a17b3ae614-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:06 GMT
+Expires: Tue, 05 Aug 2025 13:49:06 GMT
+Location: https://eu.spgo.io/phpma/
+Server: cloudflare
+Set-Cookie: _cfuvid=NXqRmXI7KbPK1lU73OvdoFuwmQ9G4dFr.IS5jcRKhbo-1754398146851-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[phpmyadmin-panel] Dumped HTTP request for https://clicks.bitpanda.com/phpMyAdmin/index.php
+
+
+GET /phpMyAdmin/index.php HTTP/1.1
+Host: clicks.bitpanda.com
+User-Agent: Mozilla/5.0  Macintosh  Intel Mac OS X 10_15_7  AppleWebKit/605.1.15  KHTML  like Gecko  Version/18.4 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=BhCRKOMj.10R12YPA.HXvOQQZCHd6KJ9nwGhGl8HOzg-1754398145830-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

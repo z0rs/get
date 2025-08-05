@@ -1,0 +1,32 @@
+[onedev-panel] Dumped HTTP request for https://analytics.bitpanda.com/~login
+
+
+GET /~login HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/118.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=LaTB8nN_C6Xdd2EMFyFvIOLZMfjTCp298e0WtY4bpTs-1754398156119-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[onedev-panel] Dumped HTTP response https://analytics.bitpanda.com/~login
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e0791d37bf-IAD
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:17 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=LARE.wS0jt2s1sOBtU690NPfU_L.osXBfk5Ui3aAuDI-1754398157373-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Powered-By: Express
+
+Bad request

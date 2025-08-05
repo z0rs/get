@@ -1,0 +1,29 @@
+[cluster-34197abecc954fbaa069049065545f8bab761e1077189544dfa9370f7c387ea7] Dumped HTTP request for https://api-segment.bitpanda.com/status.php
+
+
+GET /status.php HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=UneCN9VhFASCzs.xWanT.nv_HQzuFJ7QCCMbrKPhQ58-1754398178488-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-34197abecc954fbaa069049065545f8bab761e1077189544dfa9370f7c387ea7] Dumped HTTP response https://api-segment.bitpanda.com/status.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a697d685767-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:38 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=tndVMYYUNFbiWTsGC.rrPdB4a1DqpjVp3FAhO2Fmuco-1754398178890-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

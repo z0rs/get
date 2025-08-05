@@ -1,0 +1,26 @@
+[wmw-enterprise-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/en/login
+
+
+GET /en/login HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wmw-enterprise-panel] Dumped HTTP response https://techsolutions.bitpanda.com/en/login
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:28 GMT
+Location: ./login/
+Via: 1.1 1a5ddecdee7139ebf663ea7d3699cd88.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: c-0PLANNRcIOvLHkyoI-iHgX-hbZlvk8j6wJW6D_e52jrboxMfRlTw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

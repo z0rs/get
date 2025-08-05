@@ -1,0 +1,29 @@
+[wordpress-imsanity] Dumped HTTP request for https://techsolutions.bitpanda.com/wp-content/plugins/imsanity/readme.txt
+
+
+GET /wp-content/plugins/imsanity/readme.txt HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-imsanity] Dumped HTTP response https://techsolutions.bitpanda.com/wp-content/plugins/imsanity/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:50 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 5bab46d8af126fb7ca14b6d331ff182a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: mpQQDVYJlwiVDyDWoW1FFQRf3ipECBCeG4MX3uSBH-TtnLoiocIYzQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: 9yeUm0hk14w/wKsk2xTggKJLr7MkCn/Q2dRkoVMkKJ7GDbNBtsz4+UdNtCcgyT8ZKLpdmBW5W04=
+X-Amz-Request-Id: RDVG1DN6R1Q00AD6
+X-Cache: Error from cloudfront
+
+Not Found

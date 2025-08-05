@@ -1,0 +1,35 @@
+[gradle-develocity-panel] Dumped HTTP request for https://raiffeisen.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: raiffeisen.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=AmbLF8O03ahSXV1PZDbFj7DqHn1H0EzLihSn5WDm8qU-1754398308951-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[gradle-develocity-panel] Dumped HTTP response https://raiffeisen.bitpanda.com
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66d9c4e4e0637-IAD
+Content-Security-Policy: frame-src https://docs.google.com/viewer *.bitpanda.com *.staging.waskurzes.com *.bitpanda.dev vercel.live; frame-ancestors 'none'
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:51:49 GMT
+Location: /auth/error
+Server: cloudflare
+Set-Cookie: _cfuvid=0enOu7w6XU6uEmcQbev7Ri16Y9zl41vV5Okcl2HATNU-1754398309889-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Immediate-Return: 1
+X-Vercel-Id: iad1::lgkpw-1754398309838-9f93af071c0e
+
+Redirecting...
+

@@ -1,0 +1,39 @@
+[papercut-ng-panel] Dumped HTTP request for https://custody.bitpanda.com/user
+
+
+GET /user HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/95.0.4638.69 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=S9Pg7zMZ4BSfZyg2fPioGnTB6APX_xU_MkI1UIP_Or0-1754398348999-0.0.1.1-604800000; _cfuvid=vqjDOirX58J2awV099Z.r9pCFu6Hy7HEt5DbifR0u4A-1754398364831-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[papercut-ng-panel] Dumped HTTP response https://custody.bitpanda.com/user
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66efa4e860801-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:45 GMT
+Expires: Tue, 05 Aug 2025 13:52:45 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=Y1jFahoDMhCFi58XjhxHfYoOyOuS5xYwOAoSpt5bzfc-1754398365832-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

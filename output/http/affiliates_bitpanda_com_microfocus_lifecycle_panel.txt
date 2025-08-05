@@ -1,0 +1,45 @@
+[microfocus-lifecycle-panel] Dumped HTTP request for http://affiliates.bitpanda.com/qcbin/
+
+
+GET /qcbin/ HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=WbQTamb_cg_wJebTeDHQqO61alG.wAa2iX13ucbpDWc-1754398169826-0.0.1.1-604800000; _cfuvid=sTBkyE.6vq8SRvCpQh3RISHEURpAhUY0saU.rVFcLUs-1754398184832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[microfocus-lifecycle-panel] Dumped HTTP response http://affiliates.bitpanda.com/qcbin/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a8fe841cc0c-IAD
+Date: Tue, 05 Aug 2025 12:49:45 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[microfocus-lifecycle-panel] Dumped HTTP response http://affiliates.bitpanda.com/qcbin/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66a8f6efac553-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:44 GMT
+Expires: Tue, 05 Aug 2025 13:49:44 GMT
+Location: https://affiliates.bitpanda.com/qcbin/
+Server: cloudflare
+Set-Cookie: _cfuvid=8wR.GdNrh5L7HuEPBIPD7OnK2k0BHp13ImBYpxP6blU-1754398184923-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

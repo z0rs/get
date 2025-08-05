@@ -1,0 +1,29 @@
+[wordpress-wp-google-maps] Dumped HTTP request for https://techsolutions.bitpanda.com/wp-content/plugins/wp-google-maps/readme.txt
+
+
+GET /wp-content/plugins/wp-google-maps/readme.txt HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/120.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-wp-google-maps] Dumped HTTP response https://techsolutions.bitpanda.com/wp-content/plugins/wp-google-maps/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:52 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 4d89e7f6870714b602988e2ed1135996.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: z6dgCv0ARsMrf-1KmD1CjRICb9Z0pM-o6vSLGeu8i84FK5ypGlTPjA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: Sdwst0jmCAKqdIB+0+vn+HJzQhxu/Jgc4Ea447hdpETxV3I5dZJWI9DtS/noWQ7TPAesSX9E20M=
+X-Amz-Request-Id: TAWFT5HM841V2NQB
+X-Cache: Error from cloudfront
+
+Not Found

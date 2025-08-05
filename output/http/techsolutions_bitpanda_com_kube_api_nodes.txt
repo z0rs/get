@@ -1,0 +1,26 @@
+[kube-api-nodes] Dumped HTTP request for https://techsolutions.bitpanda.com/api/v1/nodes
+
+
+GET /api/v1/nodes HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[kube-api-nodes] Dumped HTTP response https://techsolutions.bitpanda.com/api/v1/nodes
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:40 GMT
+Location: ./nodes/
+Via: 1.1 7ba8238566c8641cae9d38ebcb67e0e8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: cI4PNY4hgbqdAaHiO9zYU_yVbUGbjaT7LOKCMlH0yqIDDrnL6kopeQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

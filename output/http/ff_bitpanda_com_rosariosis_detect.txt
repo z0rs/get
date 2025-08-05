@@ -1,0 +1,38 @@
+[rosariosis-detect] Dumped HTTP request for http://ff.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=ZKgLAYJ4SXXV01XvORSebWsnOZ4IyPaxNHerj4.qnmo-1754398440568-0.0.1.1-604800000; GCLB="fef3b7bc1c0a725f"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[rosariosis-detect] Dumped HTTP response http://ff.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670d9f8a4e5ba-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:02 GMT
+Expires: Tue, 05 Aug 2025 13:54:02 GMT
+Location: https://ff.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=s8_C4AX4R0L8LfpUHj01DM8pmrR5XYVD5D928yBsUfE-1754398442585-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

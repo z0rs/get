@@ -1,0 +1,39 @@
+[kube-api-namespaces] Dumped HTTP request for https://account.bts.bitpanda.com/api/v1/namespaces
+
+
+GET /api/v1/namespaces HTTP/1.1
+Host: account.bts.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[kube-api-namespaces] Dumped HTTP response https://account.bts.bitpanda.com/api/v1/namespaces
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a88ba9d3929-IAD
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:43 GMT
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Server: cloudflare
+Set-Cookie: _cfuvid=nWxoGYHko3mrfXcfjj6F8sWTk_K04B5D9sLbDW6Kvvk-1754398183905-0.0.1.1-604800000; path=/; domain=.frontegg.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Via: 1.1 5451b84324d9bca0bdd03e4c4009ae10.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: NpjevQc-1_u5nDSWdvVMSXNBf-02AP_tDF1FdILYqhrGVYChv_e89A==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+{"errors":["The requested URL was not found on this server."]}

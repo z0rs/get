@@ -1,0 +1,70 @@
+[kiali-panel] Dumped HTTP request for http://checkout.bitpanda.com/kiali/api/status
+
+
+GET /kiali/api/status HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[kiali-panel] Dumped HTTP response http://checkout.bitpanda.com/kiali/api/status
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, private
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:08 GMT
+Expires: Tue, 05 Aug 2025 12:49:08 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+{"error_code":0,"error_message":"No route found for \"GET /kiali/api/status\" (from \"http://checkout.bitpanda.com/kiali/api/status\")","errors":[]}
+[kiali-panel] Dumped HTTP response http://checkout.bitpanda.com/kiali/api/status
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:07 GMT
+Location: https://checkout.bitpanda.com/kiali/api/status
+
+
+[kiali-panel] Dumped HTTP request for http://checkout.bitpanda.com/kiali/
+
+
+GET /kiali/ HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0.1 Mobile/15E148 Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[kiali-panel] Dumped HTTP response http://checkout.bitpanda.com/kiali/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, private
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:16 GMT
+Expires: Tue, 05 Aug 2025 12:49:16 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+{"error_code":0,"error_message":"No route found for \"GET /kiali\" (from \"http://checkout.bitpanda.com/kiali/\")","errors":[]}
+[kiali-panel] Dumped HTTP response http://checkout.bitpanda.com/kiali/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:15 GMT
+Location: https://checkout.bitpanda.com/kiali
+
+

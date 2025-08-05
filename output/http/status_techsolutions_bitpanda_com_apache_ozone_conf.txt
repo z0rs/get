@@ -1,0 +1,35 @@
+[apache-ozone-conf] Dumped HTTP request for https://status.techsolutions.bitpanda.com/conf
+
+
+GET /conf HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-ozone-conf] Dumped HTTP response https://status.techsolutions.bitpanda.com/conf
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 45b1d478-cca4-4e63-b309-7e67d19abb37
+Atl-Traceid: 45b1d478cca44e63b3097e67d19abb37
+Date: Tue, 05 Aug 2025 12:52:20 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=4,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 5bbbde7889bb9c7247f5924a32d2fdf0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: n19c12XcVAYk8lkMHJ2DCbJQIOcqCz-XDFYVlhQHP2bDtmAn4uwR6Q==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 155146803
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

@@ -1,0 +1,78 @@
+[whatsup-gold-panel] Dumped HTTP request for https://custody.bitpanda.com/NmConsole
+
+
+GET /NmConsole HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Qbv.4qSfA.2GBQ25fQ0jN5DaY0jWffnPodehP_aULkc-1754398368852-0.0.1.1-604800000; _cfuvid=GjIA0.Cac9mAYN_ehbPw4cxZncXRupvq.sODpPUoe54-1754398384807-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[whatsup-gold-panel] Dumped HTTP response https://custody.bitpanda.com/NmConsole
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f774ddaf286-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:05 GMT
+Expires: Tue, 05 Aug 2025 13:53:05 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=6pa5p_TUec1kbPtTh6A0CmEOA9fLzz4aPQ52YgDALbE-1754398385823-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[whatsup-gold-panel] Dumped HTTP request for https://custody.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686; rv:123.0) Gecko/20100101 Firefox/123.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=6pa5p_TUec1kbPtTh6A0CmEOA9fLzz4aPQ52YgDALbE-1754398385823-0.0.1.1-604800000; _cfuvid=Kuq8jhmHdzFq373jYxga3_6HnUECNnXljOXgyWPulK8-1754398386082-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[whatsup-gold-panel] Dumped HTTP response https://custody.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f7ddfa3d6d5-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:06 GMT
+Expires: Tue, 05 Aug 2025 13:53:06 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=aXc6FiVBcHP6A4PMYNHSVVxVbEtjk.tv22rQcnQPlu4-1754398386867-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

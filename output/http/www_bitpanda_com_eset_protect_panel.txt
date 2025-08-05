@@ -1,0 +1,39 @@
+[eset-protect-panel] Dumped HTTP request for https://www.bitpanda.com/era/webconsole/
+
+
+GET /era/webconsole/ HTTP/1.1
+Host: www.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=DbetRlOWxsN51Rs0o_1yZpWnLW6prlLLF.CzNhiffgY-1754398370661-0.0.1.1-604800000; _cfuvid=m9KJJm6Qr6Bjla3axfQ8EDQWM7bIvEXpkN6Epi3rozo-1754398386596-0.0.1.1-604800000; _cfuvid=qdO54WHuCH1018QiTuccUNbS8GxUer3soD_guCX7A8M-1754398401014-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[eset-protect-panel] Dumped HTTP response https://www.bitpanda.com/era/webconsole/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66fe6ca810608-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Expires: Tue, 05 Aug 2025 13:53:23 GMT
+Location: https://www.bitpanda.com/era/webconsole
+Server: cloudflare
+Set-Cookie: _cfuvid=JHwAtAXdTdVkpRjZsLIho3aQjUTwrAtCZAsL3IyqjnE-1754398403709-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

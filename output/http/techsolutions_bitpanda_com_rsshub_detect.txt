@@ -1,0 +1,31 @@
+[rsshub-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/favicon.ico
+
+
+GET /favicon.ico HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[rsshub-detect] Dumped HTTP response https://techsolutions.bitpanda.com/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Age: 26
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:45 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 e96ed109dde78412c6b4651755281804.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: oUDpQDlz2DLAIgXhCTiYkNqoyab8Dc7ngwbpJh27r-EyHfHZmAQYbg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: eaaG2/2K3iw8vuV08TOmJnBEmche2GhZbPWlsdVeG36r+W0EQg9PNRNLlp5CIp3KJJRX4q3MVsE=
+X-Amz-Request-Id: XQ7RQWXRQ740CY4W
+X-Cache: Error from cloudfront
+
+Not Found

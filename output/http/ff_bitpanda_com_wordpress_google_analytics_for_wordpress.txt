@@ -1,0 +1,37 @@
+[wordpress-google-analytics-for-wordpress] Dumped HTTP request for http://ff.bitpanda.com/wp-content/plugins/google-analytics-for-wordpress/readme.txt
+
+
+GET /wp-content/plugins/google-analytics-for-wordpress/readme.txt HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/122.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=nB0JJ4A6QH6M2bJecbsad6rl7pmkc1Ul2HiaU9oGiKU-1754398449851-0.0.1.1-604800000; GCLB="d95bf0766eefcc1f"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-google-analytics-for-wordpress] Dumped HTTP response http://ff.bitpanda.com/wp-content/plugins/google-analytics-for-wordpress/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a671341ebc6e25-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:17 GMT
+Expires: Tue, 05 Aug 2025 13:54:17 GMT
+Location: https://ff.bitpanda.com/wp-content/plugins/google-analytics-for-wordpress/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=RO1j8WfTrBadQc3t8Vce1bNAnWqaSDShN8gSwoV5Kg8-1754398457006-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

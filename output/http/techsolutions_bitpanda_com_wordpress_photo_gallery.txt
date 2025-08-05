@@ -1,0 +1,29 @@
+[wordpress-photo-gallery] Dumped HTTP request for https://techsolutions.bitpanda.com/wp-content/plugins/photo-gallery/readme.txt
+
+
+GET /wp-content/plugins/photo-gallery/readme.txt HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh, Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.6 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-photo-gallery] Dumped HTTP response https://techsolutions.bitpanda.com/wp-content/plugins/photo-gallery/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:51 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 c95a705fdf4e3077f715bd100df04b8a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: tV5o_V_yOwm8FBiBa8jBMZDKlsfII0BKVQHOh7brBR3xJoM7n0ULWw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: e4FXmsWMXoDWG5fBHu6xpYMi1cwhuHhRXhS+wAe1ko4j0ZtDioxRCjBLw5TwFSGaV8Fs5olesq8=
+X-Amz-Request-Id: 9V9DAN2S76PQW927
+X-Cache: Error from cloudfront
+
+Not Found

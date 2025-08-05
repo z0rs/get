@@ -1,0 +1,37 @@
+[wordpress-complianz-gdpr] Dumped HTTP request for https://socket.bitpanda.com/wp-content/plugins/complianz-gdpr/readme.txt
+
+
+GET /wp-content/plugins/complianz-gdpr/readme.txt HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 15_3_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=fOmkiiXgRu4BQIRmtxrqaAaJ72a+ozPLZgAkmCS1m6Jk+E9a5lAuKmBVT/c38zSWZRrTOU5QoArWV2x6zaP1UlfSIEo+apv6p5fenTvYX11VOZqF5xS9VJHcXrSq; AWSALBCORS=fOmkiiXgRu4BQIRmtxrqaAaJ72a+ozPLZgAkmCS1m6Jk+E9a5lAuKmBVT/c38zSWZRrTOU5QoArWV2x6zaP1UlfSIEo+apv6p5fenTvYX11VOZqF5xS9VJHcXrSq
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-complianz-gdpr] Dumped HTTP response https://socket.bitpanda.com/wp-content/plugins/complianz-gdpr/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:42 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=jN/dhmzk+FzFa37Avu+UrmGCfVkUgzg5I3NsSVBLd4MOTnXkCswfrkRv4+hYweOhXD5GeavBf+CiDY37bm2F2hVAp7n5bK0/fv/wcYm9FN4hsIGGNZEs02aX+WAV; Expires=Tue, 12 Aug 2025 12:52:42 GMT; Path=/
+Set-Cookie: AWSALBCORS=jN/dhmzk+FzFa37Avu+UrmGCfVkUgzg5I3NsSVBLd4MOTnXkCswfrkRv4+hYweOhXD5GeavBf+CiDY37bm2F2hVAp7n5bK0/fv/wcYm9FN4hsIGGNZEs02aX+WAV; Expires=Tue, 12 Aug 2025 12:52:42 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 d45137f973d454db77c647196f56613a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: xSMsD7CATy0PdE9IYG3Yx8NE8Bo7pL0UB7IkAcAMC0fAH2IjXPnqDQ==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 7
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

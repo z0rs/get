@@ -1,0 +1,48 @@
+[akamai-cache-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com
+
+
+HEAD / HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Pragma: akamai-x-cache-on
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+
+
+[akamai-cache-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com
+
+HTTP/1.1 200 OK
+Connection: close
+Accept-Ranges: bytes
+Access-Control-Allow-Origin: *
+Atl-Request-Id: bbf4b12c-8fe7-4f2a-9d1c-30f89f982000
+Atl-Traceid: bbf4b12c8fe74f2a9d1c30f89f982000
+Cache-Control: max-age=3, public
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:20 GMT
+Etag: W/"323f96b63209fd2f87eeda835859e995"
+Link: <https://dka575ofm4ao0.cloudfront.net/assets/register_subscription_form-589b657fec607087fc5c740c568270907310bc4f6aaa20256e70f01b103025ca.js>; rel=preload; as=script; nopush,<https://dka575ofm4ao0.cloudfront.net/assets/status_common-c1b99d73ee7ab0fea796bd170723c1daac1381095a7dd7501a38ce6f333d86b3.js>; rel=preload; as=script; nopush,<https://dka575ofm4ao0.cloudfront.net/packs/0.076d36a21dada6e9b8ca.css>; rel=preload; as=style; nopush,<https://dka575ofm4ao0.cloudfront.net/packs/191.076d36a21dada6e9b8ca.css>; rel=preload; as=style; nopush,<https://dka575ofm4ao0.cloudfront.net/assets/status/status_manifest-e5fd07250d5426b6c15214a184a78f72bd224c0f158f2ca1f35a3cf1ee9c1783.css>; rel=preload; as=style; nopush,<https://dka575ofm4ao0.cloudfront.net/assets/jquery-3.5.1.min-729e416557a365062a8a20f0562f18aa171da57298005d392312670c706c68de.js>; rel=preload; as=script; nopush,<https://dka575ofm4ao0.cloudfront.net/assets/status_manifest-6a7ae3a8e2e1b1e1d9466495faa0851c3f5fff938743f6501c900aa2a8792e8c.js>; rel=preload; as=script; nopush,<https://dka575ofm4ao0.cloudfront.net/packs/common-4d053c18cbeef079deb0.chunk.js>; rel=preload; as=script; nopush,<https://dka575ofm4ao0.cloudfront.net/packs/globals-f39f1afbe40d8b149e0b.chunk.js>; rel=preload; as=script; nopush,<https://dka575ofm4ao0.cloudfront.net/packs/runtime-315523c15b4d55375eca.js>; rel=preload; as=script; nopush,<https://dka575ofm4ao0.cloudfront.net/packs/status-605cc5e06d8e861d8ea1.chunk.js>; rel=preload; as=script; nopush
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=192,atl-edge-internal;dur=4,atl-edge-upstream;dur=190,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=259200
+Vary: Accept,Accept-Encoding
+Via: 1.1 427271f19372c1be0d143a1d4c76a128.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: fn-6Mzgf8f26m7tcAmClH-bpw2-L11hpeYR5956b5GpZghoissDvzA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+X-Pollinator-Metadata-Service: status-page-web-pages
+X-Runtime: 0.115906
+X-Statuspage-Skip-Logging: true
+X-Statuspage-Version: 286d2fa8936ee868c90b9a354eeabf8b3176da68
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

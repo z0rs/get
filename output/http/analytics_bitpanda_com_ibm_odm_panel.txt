@@ -1,0 +1,32 @@
+[ibm-odm-panel] Dumped HTTP request for https://analytics.bitpanda.com/decisioncenter/login
+
+
+GET /decisioncenter/login HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=HrWMgRYZozF.Z0cSSie7VlSZa1lkMZrxuNp6J2YxQDI-1754398150658-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ibm-odm-panel] Dumped HTTP response https://analytics.bitpanda.com/decisioncenter/login
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669ba8d72172d-IAD
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:11 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=UoN0aVtE_r59ZfjuXdOEhlVKejjK5UpdjcY1BrXfu08-1754398151273-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Powered-By: Express
+
+Bad request

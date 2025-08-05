@@ -1,0 +1,100 @@
+[rcdevs-webadm-panel] Dumped HTTP request for https://bts-custody.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: bts-custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh, Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=y0nNgBuAd.BLh0kO2gNa5APTP83bM7w.Wf9pIPbB2lk-1754398156987-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[rcdevs-webadm-panel] Dumped HTTP response https://bts-custody.bitpanda.com
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Age: 406075
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e67b2a3b92-IAD
+Content-Disposition: inline
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:17 GMT
+Last-Modified: Thu, 31 Jul 2025 20:01:22 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=MtF0.Lxa95o5BjiE.IbS.zQYRxjCA_PeyIixt1qZOYg-1754398157869-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::hj8fk-1754398157856-a6331be062c3
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bitpanda Custody</title>
+    <script type="module" crossorigin src="/assets/index-CouF3uFo.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-B3jGpFCu.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96a669e67b2a3b92',t:'MTc1NDM5ODE1Ny4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+
+[rcdevs-webadm-panel] Dumped HTTP request for https://bts-custody.bitpanda.com/webapps/index.php
+
+
+GET /webapps/index.php HTTP/1.1
+Host: bts-custody.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686; rv:124.0) Gecko/20100101 Firefox/124.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=6pnuYipIIXdBzxUGbXOabLVZyAD4nJFXYkBCKqh1Lwg-1754398158822-0.0.1.1-604800000; _cfuvid=8TsfuatvDkqrEfJPLSrW_zLv9XEMZ2RGueVOd3c0b8k-1754398173966-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[rcdevs-webadm-panel] Dumped HTTP response https://bts-custody.bitpanda.com/webapps/index.php
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Age: 369621
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a697b20a9d6-IAD
+Content-Disposition: inline; filename="index.html"
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:38 GMT
+Last-Modified: Fri, 01 Aug 2025 06:09:17 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=IPktI70kI0nx_HXcKQV1I9KrKnn_CQowfoAMenY_wUs-1754398178851-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::rfwtz-1754398178820-826cea71acd2
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bitpanda Custody</title>
+    <script type="module" crossorigin src="/assets/index-CouF3uFo.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-B3jGpFCu.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+

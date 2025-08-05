@@ -1,0 +1,115 @@
+[datagerry-panel] Dumped HTTP request for https://blog.bitpanda.com/auth
+
+
+GET /auth HTTP/1.1
+Host: blog.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[datagerry-panel] Dumped HTTP response https://blog.bitpanda.com/auth
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 1309
+Cache-Control: max-age=3600, no-transform, public
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66944cb223950-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:48:52 GMT
+Etag: "78e2357df5414ccc96a4dd3419a9fe77"
+Last-Modified: Wed, 15 Feb 2023 14:39:43 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=WwNCXSbcrB7CHRDTAlLO7IsZatzD0_V7Te4iC1XIucU-1754398132199-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 1814689e6a53bd70e892d4abd59ed626.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: riLnSOIFiGTyWZHS5pF_y24IVcHR2PM1AFiucvLMUDtYxuKgT0Dkvw==
+X-Amz-Cf-Pop: IAD55-P5
+X-Amz-Error-Code: NoSuchKey
+X-Amz-Error-Detail-Key: auth
+X-Amz-Error-Message: The specified key does not exist.
+X-Amz-Version-Id: yR6rYC_OKaJnEAv9WrVQ56zvOAhJJ3Hl
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta content="ie=edge" http-equiv=x-ua-compatible><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name=viewport><title></title><script>var languages = ['en','de','fr','es','it','pl',];
+                var pages = {en: 'https://blog.bitpanda.com/en/error',de: 'https://blog.bitpanda.com/de/error',fr: 'https://blog.bitpanda.com/fr/error',es: 'https://blog.bitpanda.com/es/error',it: 'https://blog.bitpanda.com/it/error',pl: 'https://blog.bitpanda.com/pl/error',};
+                var language = window.navigator.userLanguage || window.navigator.language;
+                var langCode = language.split("-")[0];
+
+                var hasLanguage = false;
+                for (var i = 0; i < languages.length; i++) {
+                    if(window.location.pathname.startsWith("/" + languages[i])) {
+                        hasLanguage = true;
+                    }
+                }
+
+                if (!hasLanguage) {
+                    location.href = window.location.origin + "/en" + window.location.pathname;
+                } else {
+                   if(!(langCode in pages)) {
+                        langCode = "en";
+                    }
+
+                    location.href = pages[langCode];
+                }</script> <body>
+[datagerry-panel] Dumped HTTP request for https://blog.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: blog.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686; rv:130.0) Gecko/20100101 Firefox/130.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=vQ0vKyxf_7biQwx7SeP3QxGCYhy1j.bTD_KlMNjkO_M-1754398139131-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[datagerry-panel] Dumped HTTP response https://blog.bitpanda.com
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 1633
+Age: 1736
+Cache-Control: max-age=3600, no-transform, public
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66975b864c9a8-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:48:59 GMT
+Etag: "e65297b4066f4e0d44fa7da9186bef00"
+Last-Modified: Fri, 01 Aug 2025 08:56:06 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=Xkz4AQcF2bqPp8KMy3GnPw4DLj6ljMmiH6HQLilUwY8-1754398139824-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 5d1a51a1eb09caa5b28051dd961c7c40.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Uii05ztBInia27vBBnbOEfZHYhhA7tVG7K8e24z-Q4Ifw5CK5EKZew==
+X-Amz-Cf-Pop: IAD55-P5
+X-Amz-Version-Id: yOV1RX0LHCxJoUrfUJ9wwX6VAT0ao2ST
+X-Cache: Hit from cloudfront
+X-Content-Type-Options: nosniff
+
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta content="ie=edge" http-equiv=x-ua-compatible><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name=viewport><meta content=origin name=referrer><meta content=article property=og:type><meta content="Bitpanda - Start investing today" property=og:title><meta content="Trade in minutes from only 1€. Your N. 1 European Broker for stocks, crypto, indices, ETFs and precious metals. Trade 24/7." property=og:description><meta content=https://cdn.bitpanda.com/media/og-images-open-graph/bitpanda-og.png property=og:image><title></title><script>let languages = ['en','de','fr','es','it','pl',];
+                let pages = {en: 'https://blog.bitpanda.com/en',de: 'https://blog.bitpanda.com/de',fr: 'https://blog.bitpanda.com/fr',es: 'https://blog.bitpanda.com/es',it: 'https://blog.bitpanda.com/it',pl: 'https://blog.bitpanda.com/pl',};
+                let language = window.navigator.userLanguage || window.navigator.language;
+                let langCode = language.split("-")[0];
+                let referrer = document.referrer;
+                let params = document.location.search;
+                if (referrer && params) {
+                    params = params + '&utm_referrer=' + referrer;
+                } else {
+                    if (referrer) {
+                        params = '?utm_referrer=' + referrer;
+                    }
+                }
+
+                if(!(langCode in pages)) {
+                    langCode = 'en';
+                }
+
+                location.href = pages[langCode] + params + document.location.hash;</script> <body>

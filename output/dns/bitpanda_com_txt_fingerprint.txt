@@ -1,0 +1,21 @@
+[txt-fingerprint] Dumped DNS request for bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 51286
+;; flags: rd ad; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 TXT
+
+[txt-fingerprint] Dumped DNS response for bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 51286
+;; flags: qr tc rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 512
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 TXT
+

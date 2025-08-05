@@ -1,0 +1,26 @@
+[dell-idrac7-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/data?get=prodServerGen
+
+
+GET /data?get=prodServerGen HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:121.0) Gecko/20100101 Firefox/121.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[dell-idrac7-detect] Dumped HTTP response https://techsolutions.bitpanda.com/data?get=prodServerGen
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:34 GMT
+Location: ./data/?get=prodServerGen
+Via: 1.1 ddba66e53ff633c34296b8e866a481e2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 1lqH-emd5hZNEId2nR70QqOAYpOncwoCRaJZ1i8kDgWVDRf2CHZ8OQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

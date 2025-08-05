@@ -1,0 +1,72 @@
+[domibus-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/domibus/rest/application/info
+
+
+GET /domibus/rest/application/info HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=NU5HWEJiUXhZbFFSNmNzTS9BMlFJMHBNT1Y4dnBtRnFJUVRZR1QvdHIxdVJ4T1Q4OGpYcW1ta3ZyRTBJR1k0bTg2RGtXS2dEOGZiRTNnWWRvQWh5QkFlQWtFRm1sc0ZaVW90d1pLV1I5N1pYNWd6bHBWVTZXN0pZdEFkaldDNzFHUlBQSFdUTDNGYndLcTFkZi9EQWo4MHJ6WFhoR2p6TVJBUitwOGI4SEl5Uyt2Yk1WbVIycDY2d3o3a3RUbndlbFg2a3liRGg5WWJ5T1FKZExpeHNTTGQwemhXRm42cUFYamlMOVdIYy9XOD0tLW5OL3pNL3I5VWFTWTBxcTA2NzE2WVE9PQ%3D%3D--726eff3134d60bef097ce35e87dc0abb19f92afc
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[domibus-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/domibus/rest/application/info
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 85b2f285-bb36-4608-bd52-e444d514f3c6
+Atl-Traceid: 85b2f285bb364608bd52e444d514f3c6
+Date: Tue, 05 Aug 2025 12:52:26 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 ca8d1424de70ce439236d37048e65f54.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: qOCaTBo4L06IQtqHDL0FKzwCwbtTCddoBcP-hDpCUk0ovyYfk1_ZYw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 682594758
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[domibus-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/domibus/
+
+
+GET /domibus/ HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=bnc1M1VhcHZqUTNrY3lDNmZTRlhFNExhSklFWm8xUzJGMU5yNjlNeENMc1JuRG9RTHkzRWlwRlZHT3ZIalhuSEszTmZMd090amF4cCtJVGJibXU1dE5CYTBzc2p0N0UxYmVTdjRRTS9IamR1OUtnY1VaUWY1aStBNVV2L2s3WCtVcElJUUQzRTlBano1NkpVbHo0TlBiai9zRWE1WEI3QzBONUc1S1p0aVZsMWJXWHhlVEorajhuaE1IemowUUhqajlUUUdGa1dDdk5nMEVCcEdZTmQwUmlWOFpITnZTRDJ6RWE3OGdtNGFXbz0tLWdDYlRvMTgvRVNLTGNxaDJSZnJNZ1E9PQ%3D%3D--9d4d4750ee87aee9447a3cd0ebe9c9bc0885a466
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[domibus-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/domibus/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 33a754d0-4642-46db-bf29-b2a3c9d7765b
+Atl-Traceid: 33a754d0464246dbbf29b2a3c9d7765b
+Date: Tue, 05 Aug 2025 12:52:28 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=3,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 b13c6d10b44fd12a68a8ca01d540a750.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 80iAv-6Yk5a3QzB3efdiWng8lLLSkOok1P9y-OMe-Aog7-snl_1gvw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 765236591
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

@@ -1,0 +1,57 @@
+[hikvision-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/favicon.ico
+
+
+GET /favicon.ico HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[hikvision-detect] Dumped HTTP response https://techsolutions.bitpanda.com/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Age: 18
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 cb2d413167decc675714b9b5dec4ad88.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Sc3rdLhA5tUMFzfJA_HnnARLUq3gZ9h51ygC-VSDIY3mefp1oAwL1w==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: eaaG2/2K3iw8vuV08TOmJnBEmche2GhZbPWlsdVeG36r+W0EQg9PNRNLlp5CIp3KJJRX4q3MVsE=
+X-Amz-Request-Id: XQ7RQWXRQ740CY4W
+X-Cache: Error from cloudfront
+
+Not Found
+[hikvision-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/doc/page/login.asp
+
+
+GET /doc/page/login.asp HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[hikvision-detect] Dumped HTTP response https://techsolutions.bitpanda.com/doc/page/login.asp
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:40 GMT
+Location: ./login.asp/
+Via: 1.1 9c8267a15d9ba974cf1dfcbe6981ef96.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: gBR5styxBo-bX0M1Bb9LZP7psV1ATeR2S9lIU5T4CZFnZowP8QIrpA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

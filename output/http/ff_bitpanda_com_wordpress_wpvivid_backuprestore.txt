@@ -1,0 +1,37 @@
+[wordpress-wpvivid-backuprestore] Dumped HTTP request for http://ff.bitpanda.com/wp-content/plugins/wpvivid-backuprestore/readme.txt
+
+
+GET /wp-content/plugins/wpvivid-backuprestore/readme.txt HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_7_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=5OZflAQ7T0jHZhKUGslAnyrnsIiIg._eaTT.1JXIVQU-1754398460839-0.0.1.1-604800000; GCLB="2417a05e9575d362"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-wpvivid-backuprestore] Dumped HTTP response http://ff.bitpanda.com/wp-content/plugins/wpvivid-backuprestore/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a671606b858302-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:24 GMT
+Expires: Tue, 05 Aug 2025 13:54:24 GMT
+Location: https://ff.bitpanda.com/wp-content/plugins/wpvivid-backuprestore/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=vxph4YQPMJ8LS3Z3v69Ad3NHykchlUamyejq48JEFpE-1754398464102-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

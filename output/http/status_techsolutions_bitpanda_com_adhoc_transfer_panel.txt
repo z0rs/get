@@ -1,0 +1,35 @@
+[adhoc-transfer-panel] Dumped HTTP request for https://status.techsolutions.bitpanda.com/AHT/
+
+
+GET /AHT/ HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:124.0) Gecko/20100101 Firefox/129.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[adhoc-transfer-panel] Dumped HTTP response https://status.techsolutions.bitpanda.com/AHT/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 1c03c473-8afc-41da-bb7d-30c564bd0ad3
+Atl-Traceid: 1c03c4738afc41dabb7d30c564bd0ad3
+Date: Tue, 05 Aug 2025 12:52:10 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=4,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 bc60bbe1d8a8b7017a4f9b63ff273dec.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: sq89x4UbL-ZAFoiiXXUs3CLHoWTeb9hy1mf2lBIZYBwA1fh4fJOrqA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 704320507
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

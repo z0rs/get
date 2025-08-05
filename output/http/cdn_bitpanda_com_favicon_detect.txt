@@ -1,0 +1,102 @@
+[favicon-detect] Dumped HTTP request for http://cdn.bitpanda.com/favicon.ico
+
+
+GET /favicon.ico HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.9 Mobile/15E148 Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=jsYgupayxDHQEF7jhqtELI6Ta2bj11Ii26e5.nAYQCw-1754398220803-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[favicon-detect] Dumped HTTP response http://cdn.bitpanda.com/favicon.ico
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: MISS
+Cf-Ray: 96a66b769c850614-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:50:22 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 e67eec39bafe7d4b59266632bc2a9886.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: PX-qzzk98CBXyzgjKCIWeamaD3SlWk3aQj48iZ8wsXBslxSezPNBqg==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[favicon-detect] Dumped HTTP response http://cdn.bitpanda.com/favicon.ico
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66b76296b81a0-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:21 GMT
+Expires: Tue, 05 Aug 2025 13:50:21 GMT
+Location: https://cdn.bitpanda.com/favicon.ico
+Server: cloudflare
+Set-Cookie: _cfuvid=nYtc1b3jZuO3ao6OH32gibGD9J9D3G5.WE8yAiRUvgc-1754398221829-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[favicon-detect] Dumped HTTP request for http://cdn.bitpanda.com/images/favicon.ico
+
+
+GET /images/favicon.ico HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=8GguuEuUOy9K9O1Ne7yiTx29kiMdKbYiQRvCXl2_6JI-1754398221895-0.0.1.1-604800000; _cfuvid=m6XS3t_qpGihceXN0PbTh1LRFYfAqHeK_KRtEd.iXIk-1754398233796-0.0.1.1-604800000; _cfuvid=OY18woWlQ5evzprqYyPTNfRUaQMtpqiChrV2hoMRbHQ-1754398252819-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[favicon-detect] Dumped HTTP response http://cdn.bitpanda.com/images/favicon.ico
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: MISS
+Cf-Ray: 96a66c3a786e5813-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:50:53 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 5451b84324d9bca0bdd03e4c4009ae10.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: gCxAYBkqsdqicon-UvooKoBmvZ8-3s6Dn4rFaSNX-uolUiXDjJvWtw==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[favicon-detect] Dumped HTTP response http://cdn.bitpanda.com/images/favicon.ico
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66c3a2e89d6b5-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:53 GMT
+Expires: Tue, 05 Aug 2025 13:50:53 GMT
+Location: https://cdn.bitpanda.com/images/favicon.ico
+Server: cloudflare
+Set-Cookie: _cfuvid=W8q169WQ3CSlFICQVzMkzyO8kwIQs5I.PtnGpCJE4CA-1754398253173-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

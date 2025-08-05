@@ -1,0 +1,28 @@
+[mx-service-detector] Dumped DNS request for status.techsolutions.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 53259
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;status.techsolutions.bitpanda.com.	IN	 MX
+
+[mx-service-detector] Dumped DNS response for status.techsolutions.bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 53259
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 1232
+
+;; QUESTION SECTION:
+;status.techsolutions.bitpanda.com.	IN	 MX
+
+;; ANSWER SECTION:
+status.techsolutions.bitpanda.com.	300	IN	CNAME	y642rkvphdys.stspg-customer.com.
+y642rkvphdys.stspg-customer.com.	60	IN	CNAME	status-techsolutions-bitp-919f4b7e-2346-47e7-a26e-91d0acfba940.saas.atlassian.com.
+
+;; AUTHORITY SECTION:
+saas.atlassian.com.	900	IN	SOA	ns-1208.awsdns-23.org. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 120
+

@@ -1,0 +1,114 @@
+[oracle-business-intelligence] Dumped HTTP request for https://socket.bitpanda.com/saw.dll?bieehome&startPage=1
+
+
+GET /saw.dll?bieehome&startPage=1 HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:135.0) Gecko/20100101 Firefox/135.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=Kv4x8fOfAP2pSUw0StOUKdSLyJc3LaWpKoxUqLHkVJHU04FOhhrT+GamE/E4kLByQe8X7XDu/qWfBnoOtJpq/pEbHyVkASdFm/fs8R8AfNlMCf6vsHdSBJfZ6x3f; AWSALBCORS=Kv4x8fOfAP2pSUw0StOUKdSLyJc3LaWpKoxUqLHkVJHU04FOhhrT+GamE/E4kLByQe8X7XDu/qWfBnoOtJpq/pEbHyVkASdFm/fs8R8AfNlMCf6vsHdSBJfZ6x3f
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-business-intelligence] Dumped HTTP response https://socket.bitpanda.com/saw.dll?bieehome&startPage=1
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:17 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=X1N4CSFfXC02VB+PKTHzwuIlrQfyMuHz40fdxeOwnYSRGMeFMIERQnsm5m3B/hYsziRe7vzpr3gI29GLlqZiR1JDYTJWLf/5t4MCoYF6kDsOQCXZiRUGWjZtQDTw; Expires=Tue, 12 Aug 2025 12:52:17 GMT; Path=/
+Set-Cookie: AWSALBCORS=X1N4CSFfXC02VB+PKTHzwuIlrQfyMuHz40fdxeOwnYSRGMeFMIERQnsm5m3B/hYsziRe7vzpr3gI29GLlqZiR1JDYTJWLf/5t4MCoYF6kDsOQCXZiRUGWjZtQDTw; Expires=Tue, 12 Aug 2025 12:52:17 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 9cd85e528eb96b937681f7f81aea46c8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: zAXRJh6ymSKqRDTld3sXhx6EbT81sXWHTX6dF4obM8iNf6dOAXfRsw==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 5
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[oracle-business-intelligence] Dumped HTTP request for https://socket.bitpanda.com/analytics/saw.dll?bieehome&startPage=1
+
+
+GET /analytics/saw.dll?bieehome&startPage=1 HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 12_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=yzP3uu1nCIxE7u2H2kVBgskAlQk30r37z/mkDjFoQwPHvwbj74UAnuJzv7hVweYqlGtafbWi3GJqYgY34Y0D2dM/wrMX3xdBYgP3Mxz768YsLH28hyKZ7BvQkXpC; AWSALBCORS=yzP3uu1nCIxE7u2H2kVBgskAlQk30r37z/mkDjFoQwPHvwbj74UAnuJzv7hVweYqlGtafbWi3GJqYgY34Y0D2dM/wrMX3xdBYgP3Mxz768YsLH28hyKZ7BvQkXpC
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-business-intelligence] Dumped HTTP response https://socket.bitpanda.com/analytics/saw.dll?bieehome&startPage=1
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:20 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=fRtILlXtu3TsDQImqNmv1dkGIjT4rCJTWdRW27KY2ny19hRwJ9a8yMShiHF18VFYy/byixDFdsyx/XwIX/0w593MOT9EsVTJEHcE+XlOSqgZhuLtjQz08L8HHUS4; Expires=Tue, 12 Aug 2025 12:52:20 GMT; Path=/
+Set-Cookie: AWSALBCORS=fRtILlXtu3TsDQImqNmv1dkGIjT4rCJTWdRW27KY2ny19hRwJ9a8yMShiHF18VFYy/byixDFdsyx/XwIX/0w593MOT9EsVTJEHcE+XlOSqgZhuLtjQz08L8HHUS4; Expires=Tue, 12 Aug 2025 12:52:20 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 b052b62106bf04b3d8195399a6b77186.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: xa3bj_3XGGV9eZFVpT4mSxUWiIX_ftm_DDWrMvjyB4xAhOrtiJz4NA==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 2
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[oracle-business-intelligence] Dumped HTTP request for https://socket.bitpanda.com/analytics/saw.dll?Dashboard
+
+
+GET /analytics/saw.dll?Dashboard HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/117.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=NtPgjv9vbky52BLiqUgGEdjXMMT3Hghyc43AfM22+JSN523biySjTcLMzOleBz4qnSYPQVJ5WdC/d/JnaWLvQ73rGHC57bsDx7d1qPZGF0oaMjG4OFI4l80oHPT6; AWSALBCORS=NtPgjv9vbky52BLiqUgGEdjXMMT3Hghyc43AfM22+JSN523biySjTcLMzOleBz4qnSYPQVJ5WdC/d/JnaWLvQ73rGHC57bsDx7d1qPZGF0oaMjG4OFI4l80oHPT6
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oracle-business-intelligence] Dumped HTTP response https://socket.bitpanda.com/analytics/saw.dll?Dashboard
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:23 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=IBnOeFx+v+44ww+i+5m8sE+18U68XTZxvnOQ8zDk/fzL3LZZFuk3JwYbYN6IP+tSrOvltnLXWwaOmjCfUa+lGypnnzuw5TItmzx0EYPidFELU8b2TAFa5OhCEEM8; Expires=Tue, 12 Aug 2025 12:52:23 GMT; Path=/
+Set-Cookie: AWSALBCORS=IBnOeFx+v+44ww+i+5m8sE+18U68XTZxvnOQ8zDk/fzL3LZZFuk3JwYbYN6IP+tSrOvltnLXWwaOmjCfUa+lGypnnzuw5TItmzx0EYPidFELU8b2TAFa5OhCEEM8; Expires=Tue, 12 Aug 2025 12:52:23 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 fe40bff56d1483fa61dd95ff72f0b9c0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: JplBUmOUtFnkL_li8C3ibWmDyDHOmuXeAD22jjhh7qvFoocCaQq0cw==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 34
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

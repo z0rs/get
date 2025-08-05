@@ -1,0 +1,38 @@
+[redmine-cli-detect] Dumped HTTP request for http://feedbackai.bitpanda.com/.redmine-cli
+
+
+GET /.redmine-cli HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=xtTzPpf5cxZTlQ1K5oBKWuOmSUuvO4QtDb9kQ.keGPA-1754398424915-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[redmine-cli-detect] Dumped HTTP response http://feedbackai.bitpanda.com/.redmine-cli
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6706bcf5cd65b-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:44 GMT
+Expires: Tue, 05 Aug 2025 13:53:44 GMT
+Location: https://feedbackai.bitpanda.com/.redmine-cli
+Server: cloudflare
+Set-Cookie: _cfuvid=EyyAl8fvMv_XPNHU7vrUfCILGo5ka.gVC6YB6A161To-1754398424957-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

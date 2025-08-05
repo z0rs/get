@@ -1,0 +1,46 @@
+[lucee-detect] Dumped HTTP request for http://requests.bitpanda.com/lucee/doc/functions.cfm
+
+
+GET /lucee/doc/functions.cfm HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[lucee-detect] Dumped HTTP response http://requests.bitpanda.com/lucee/doc/functions.cfm
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:09 GMT
+Location: https://requests.bitpanda.com/lucee/doc/functions.cfm
+
+Moved Permanently
+[lucee-detect] Dumped HTTP request for http://requests.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686; rv:133.0) Gecko/20100101 Firefox/133.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[lucee-detect] Dumped HTTP response http://requests.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:11 GMT
+Location: https://requests.bitpanda.com/
+
+Moved Permanently

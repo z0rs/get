@@ -1,0 +1,58 @@
+[security-onion-panel] Dumped HTTP request for https://analytics.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Ly8HvxHDuwlmZUxahb4gea4wAv3cqvG5dgfPI0IAa90-1754398163261-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[security-onion-panel] Dumped HTTP response https://analytics.bitpanda.com
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Content-Length: 19
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a0c2bed6fa3-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:23 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=5jjxSwvPOSsP68OT9w7N326alQNKm5VREGH6HFMr6jE-1754398163977-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+
+no healthy upstream
+[security-onion-panel] Dumped HTTP request for https://analytics.bitpanda.com/login/
+
+
+GET /login/ HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686; rv:124.0) Gecko/20100101 Firefox/124.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=__SePyCJKQK9mUbTUczoshXOs6tMI_tVIJKeUL7uWOk-1754398169347-0.0.1.1-604800000; _cfuvid=IT_Bw7R3.WE5sIFa40_v7V6ZinqjDimFJBsPAKQSCDU-1754398169934-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[security-onion-panel] Dumped HTTP response https://analytics.bitpanda.com/login/
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Content-Length: 19
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a378fd7c9a5-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:30 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=g0wgSagQIjc9iymFyBY1s.YLka1Y7tINykKon_cLx18-1754398170915-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+
+no healthy upstream

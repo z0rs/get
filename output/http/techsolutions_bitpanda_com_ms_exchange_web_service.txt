@@ -1,0 +1,52 @@
+[ms-exchange-web-service] Dumped HTTP request for https://techsolutions.bitpanda.com/EWS/Exchange.asmx
+
+
+GET /EWS/Exchange.asmx HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:133.0) Gecko/20100101 Firefox/133.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ms-exchange-web-service] Dumped HTTP response https://techsolutions.bitpanda.com/EWS/Exchange.asmx
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:22 GMT
+Location: ./Exchange.asmx/
+Via: 1.1 f28664317eb9628b30397afa3d6b821c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: ZHWLFEiFGYZY8wkC96ocd1QEpmZQiv7QvApZYpz-on2lAAndgYomFg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[ms-exchange-web-service] Dumped HTTP request for https://techsolutions.bitpanda.com/owa/service.svc
+
+
+GET /owa/service.svc HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:132.0) Gecko/20100101 Firefox/132.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ms-exchange-web-service] Dumped HTTP response https://techsolutions.bitpanda.com/owa/service.svc
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:25 GMT
+Location: ./service.svc/
+Via: 1.1 5d22d4cd27d82c133b77117809cd93b4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: kOSWR8RpUvuH_Xkq47Agn8pU_ErC8zkajCWibiO6f7UOS8DtUxQLtg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

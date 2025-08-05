@@ -1,0 +1,90 @@
+[apache-axis-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=knLYVEijim6rLZkK0rhlwt4E6uzvBsEK4XJNRg6UUQc-1754398351954-0.0.1.1-604800000; _cfuvid=Q6RUVoEhPRWJxQD3Zw3NA5y9eeEPLa0.hrCY60lW6D4-1754398368850-0.0.1.1-604800000; _cfuvid=Gjyzn7PgOcIi62pXT5vJe8B3MQjolIR.QKgd8LYSavw-1754398383859-0.0.1.1-604800000; _cfuvid=Gjyzn7PgOcIi62pXT5vJe8B3MQjolIR.QKgd8LYSavw-1754398383859-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-axis-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/axis2/
+
+
+GET /axis2/ HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=tsYdCWK9YdAqDQv_fWu8PupUyhtJ55P4Gf915jKQIXo-1754398384837-0.0.1.1-604800000; _cfuvid=q5BOi4RaCab7XwOO8TBmlvXgl6qlRWc76vLKTVey7fU-1754398398575-0.0.1.1-604800000; _cfuvid=G4qCygitgsb8Ehbx7kW1mRnaZYLNq7SZYqCo1hJUFOI-1754398416118-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-axis-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/axis2/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6703f3ff5c07e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:37 GMT
+Expires: Tue, 05 Aug 2025 13:53:37 GMT
+Location: https://localization.webhooks.bitpanda.com/axis2/
+Server: cloudflare
+Set-Cookie: _cfuvid=G3DMKwlIk4.96h_t5aBsrVUvz6Gll_Cy1Fkhn4Kkqts-1754398417823-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[apache-axis-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/axis/
+
+
+GET /axis/ HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Mobile/15E148 Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=G3DMKwlIk4.96h_t5aBsrVUvz6Gll_Cy1Fkhn4Kkqts-1754398417823-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-axis-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/axis/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670460dd15a5e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:38 GMT
+Expires: Tue, 05 Aug 2025 13:53:38 GMT
+Location: https://localization.webhooks.bitpanda.com/axis/
+Server: cloudflare
+Set-Cookie: _cfuvid=2wI5b0HWtqrnV1PKA2PVBQQWWpuUVyWvQ_Qp_VuFiKg-1754398418925-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

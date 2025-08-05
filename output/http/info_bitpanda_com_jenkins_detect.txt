@@ -1,0 +1,26 @@
+[jenkins-detect] Dumped HTTP request for https://info.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: info.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:135.0) Gecko/20100101 Firefox/135.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jenkins-detect] Dumped HTTP request for https://info.bitpanda.com/whoAmI/
+
+
+GET /whoAmI/ HTTP/1.1
+Host: info.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

@@ -1,0 +1,45 @@
+[stirling-pdf-panel] Dumped HTTP request for http://affiliates.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=gQlrRPxdRhpDCBbjQDLnUol64aIjigPx5kVbK2lzyJ4-1754398163872-0.0.1.1-604800000; _cfuvid=fWtWxHSCvnJS3bd_RF8mWdeDLu0TwUHe1ns3A2o6zZY-1754398177986-0.0.1.1-604800000; _cfuvid=5.P0QZ2Z4xZspV.ALJ7e88AmJlsPsUr_mqFxZ8yyQIc-1754398182865-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[stirling-pdf-panel] Dumped HTTP response http://affiliates.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a8359a3e6f2-IAD
+Date: Tue, 05 Aug 2025 12:49:43 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[stirling-pdf-panel] Dumped HTTP response http://affiliates.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66a831867778a-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:42 GMT
+Expires: Tue, 05 Aug 2025 13:49:42 GMT
+Location: https://affiliates.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=XEUGkwabFOxYYOOdb5e26bY17yr9bYavEHfnU1vRYuI-1754398182919-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

@@ -1,0 +1,72 @@
+[reportico-admin-panel] Dumped HTTP request for http://web.bitpanda.com/run.php?project=admin&execute_mode=ADMIN&clear_session=1
+
+
+GET /run.php?project=admin&execute_mode=ADMIN&clear_session=1 HTTP/1.1
+Host: web.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[reportico-admin-panel] Dumped HTTP response http://web.bitpanda.com/run.php?project=admin&execute_mode=ADMIN&clear_session=1
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67098091ee5f6-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:52 GMT
+Expires: Tue, 05 Aug 2025 13:53:52 GMT
+Location: https://web.bitpanda.com/run.php?project=admin&execute_mode=ADMIN&clear_session=1
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[reportico-admin-panel] Dumped HTTP request for http://web.bitpanda.com/reportico/run.php?project=admin&execute_mode=ADMIN&clear_session=1
+
+
+GET /reportico/run.php?project=admin&execute_mode=ADMIN&clear_session=1 HTTP/1.1
+Host: web.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[reportico-admin-panel] Dumped HTTP response http://web.bitpanda.com/reportico/run.php?project=admin&execute_mode=ADMIN&clear_session=1
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670aba86e39b5-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:55 GMT
+Expires: Tue, 05 Aug 2025 13:53:55 GMT
+Location: https://web.bitpanda.com/reportico/run.php?project=admin&execute_mode=ADMIN&clear_session=1
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

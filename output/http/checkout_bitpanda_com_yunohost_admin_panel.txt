@@ -1,0 +1,35 @@
+[yunohost-admin-panel] Dumped HTTP request for http://checkout.bitpanda.com/yunohost/admin
+
+
+GET /yunohost/admin HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[yunohost-admin-panel] Dumped HTTP response http://checkout.bitpanda.com/yunohost/admin
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, private
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:27 GMT
+Expires: Tue, 05 Aug 2025 12:49:27 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+{"error_code":0,"error_message":"No route found for \"GET /yunohost/admin\" (from \"http://checkout.bitpanda.com/yunohost/admin\")","errors":[]}
+[yunohost-admin-panel] Dumped HTTP response http://checkout.bitpanda.com/yunohost/admin
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:26 GMT
+Location: https://checkout.bitpanda.com/yunohost/admin
+
+

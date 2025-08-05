@@ -1,0 +1,48 @@
+[sap-netweaver-webgui] Dumped HTTP request for http://localization.webhooks.bitpanda.com/sap/bc/gui/sap/its/webgui
+
+
+GET /sap/bc/gui/sap/its/webgui HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=kLBjiG0nEe_lInuADX8TxFTqpx6MWjxr.Q2h5Et8TCk-1754398432895-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[sap-netweaver-webgui] Dumped HTTP response http://localization.webhooks.bitpanda.com/sap/bc/gui/sap/its/webgui
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670aaea567246-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:53:55 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TDiENsjoEEMmQ=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 28f1a687-fd0e-47ab-87fb-ea3e16cef6dd
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[sap-netweaver-webgui] Dumped HTTP response http://localization.webhooks.bitpanda.com/sap/bc/gui/sap/its/webgui
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670a409fed67c-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:53 GMT
+Expires: Tue, 05 Aug 2025 13:53:53 GMT
+Location: https://localization.webhooks.bitpanda.com/sap/bc/gui/sap/its/webgui
+Server: cloudflare
+Set-Cookie: _cfuvid=XPOAZhOzaWBiijNDIKf0rIjo66TJs7IelQwF_n78RPg-1754398433949-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

@@ -1,0 +1,52 @@
+[s3-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/%ef%bf%bd
+
+
+GET /%c0 HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686; rv:121.0) Gecko/20100101 Firefox/121.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[s3-detect] Dumped HTTP response https://techsolutions.bitpanda.com/%ef%bf%bd
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:45 GMT
+Location: ./%c0/
+Via: 1.1 4e5ef522edce25e792d546b5e8b93a9a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: qD6HW9E1d0Co1C6ktwWvhmvGXmGs7cyUE8q_5NM3g0MnLZWSLaO7kQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[s3-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/%ef%bf%bd
+
+
+GET /%c0 HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/116.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[s3-detect] Dumped HTTP response https://techsolutions.bitpanda.com/%ef%bf%bd
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:53:24 GMT
+Location: ./%c0/
+Via: 1.1 472d0d56eebf04200b994d89c556bce0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: GLaFAvYU_A8fqvgdUkRr3U3tvTE5JQ1CWYk_USrG-7upLpYjJgU77w==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

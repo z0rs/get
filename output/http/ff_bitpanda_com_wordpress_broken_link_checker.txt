@@ -1,0 +1,37 @@
+[wordpress-broken-link-checker] Dumped HTTP request for http://ff.bitpanda.com/wp-content/plugins/broken-link-checker/readme.txt
+
+
+GET /wp-content/plugins/broken-link-checker/readme.txt HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=ewSLoP_6VIZtqkrUBMNrvOPkUc9T6EZFQVACyWP6a7U-1754398445710-0.0.1.1-604800000; GCLB="d54b31bbffa5ac2c"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-broken-link-checker] Dumped HTTP response http://ff.bitpanda.com/wp-content/plugins/broken-link-checker/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6712dccb5ef64-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:15 GMT
+Expires: Tue, 05 Aug 2025 13:54:15 GMT
+Location: https://ff.bitpanda.com/wp-content/plugins/broken-link-checker/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=t71yXWo78hmdHmisO1A9Ne1qZ.d4HJ0YoByD_Ebj0R8-1754398455993-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

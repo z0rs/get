@@ -1,0 +1,32 @@
+[kiteworks-pcn-panel] Dumped HTTP request for https://analytics.bitpanda.com/login/locales/login_en.json
+
+
+GET /login/locales/login_en.json HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=4IQ9.eCUPoXrP5RMkkw.CeDK9nJgCoV1TqbAaMgSm1I-1754398151581-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[kiteworks-pcn-panel] Dumped HTTP response https://analytics.bitpanda.com/login/locales/login_en.json
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c0fc269c67-IAD
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:12 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=oncWdEzHnlUCHL1jK3HAieo53h_8H.elR4zPu7kRoGA-1754398152362-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Powered-By: Express
+
+Bad request

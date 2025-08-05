@@ -1,0 +1,44 @@
+[cluster-9f9b0e35e1e05c292a4d88d255af58060fdfda8469043973381858417f20464b] Dumped HTTP request for https://cdn-segment.bitpanda.com/ui/login.action
+
+
+GET /ui/login.action HTTP/1.1
+Host: cdn-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=p4Cx1eFVPW3wJRt7YRmxMBahcqU9oQotY5IR7BP_HRA-1754398174220-0.0.1.1-604800000; _cfuvid=eS96mklSkgn.2Cvk_6XyfoAkwvbp7uAqMvXTM9jk8QI-1754398188888-0.0.1.1-604800000; _cfuvid=DV6d2ZwXI9W11SiqoJPEOLG1uqLLGF.NsCVBZE40r5c-1754398200214-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-9f9b0e35e1e05c292a4d88d255af58060fdfda8469043973381858417f20464b] Dumped HTTP response https://cdn-segment.bitpanda.com/ui/login.action
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Methods: GET, HEAD
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 3000
+Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66b2bbbd805c3-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:50:10 GMT
+Etag: W/"328257380186d550f96adf638ff85092"
+Last-Modified: Fri, 27 Jun 2025 03:51:28 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=XndlkWvp1dBbpf8Z.i4Zh2hBRbLs8osD4b80EVZInKU-1754398210222-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: accept-encoding
+Via: 1.1 6115ccbf06ce7bea7cea8806dfa86752.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 0fvRYonOudD8CXU58JhUM6RC1wUftR1utT2SP0P9Hxo-UXxDTIKdEg==
+X-Amz-Cf-Pop: IAD79-C3
+X-Amz-Replication-Status: COMPLETED
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: 6NYlJnma9WPyl0MUFm2tNo8C1GzqJZih
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+Cannot GET - Invalid path or write key provided.
+

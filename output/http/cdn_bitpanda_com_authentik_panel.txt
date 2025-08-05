@@ -1,0 +1,101 @@
+[authentik-panel] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh: Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=tlELLouwAdT60uN4GxTCiJznlpx5cDTIUg3Qxs_a_ig-1754398136882-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[authentik-panel] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6696999e31459-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:48:58 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 5893c71b6cde828b408a700f9c0673b0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 5gN8XyGOSwTL-OtYSG3A4Ptoqj7jStJ_WgII3GELI5F1Ii2p2oSc1g==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[authentik-panel] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669694d7868ed-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:48:57 GMT
+Expires: Tue, 05 Aug 2025 13:48:57 GMT
+Location: https://cdn.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=LHFN91.OfTRIVh7.jL6dHJ9NogPU1_YC.bQx5dSA_R0-1754398137822-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[authentik-panel] Dumped HTTP request for http://cdn.bitpanda.com/static/dist/assets/icons/icon.png
+
+
+GET /static/dist/assets/icons/icon.png HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh: Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Hh44_x1mMcyXcj2bRb_sZ.uEH0qx2kBu9gg8DlljtZQ-1754398161934-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[authentik-panel] Dumped HTTP response http://cdn.bitpanda.com/static/dist/assets/icons/icon.png
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: MISS
+Cf-Ray: 96a66a32e89d5001-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:30 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 929cbb64d024a9973633b197e2a23482.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: NL0PfX4kGhiO6J4kcda1qLjHzMCU598idRP9YbCsFr565Ad2r7u1QQ==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[authentik-panel] Dumped HTTP response http://cdn.bitpanda.com/static/dist/assets/icons/icon.png
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66a05ac763976-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:22 GMT
+Expires: Tue, 05 Aug 2025 13:49:22 GMT
+Location: https://cdn.bitpanda.com/static/dist/assets/icons/icon.png
+Server: cloudflare
+Set-Cookie: _cfuvid=YnHE7BVXspaSyTHZDio5gYdpuv1.TCSvYdcPdrCIxWI-1754398162846-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

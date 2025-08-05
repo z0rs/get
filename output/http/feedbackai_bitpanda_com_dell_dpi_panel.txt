@@ -1,0 +1,38 @@
+[dell-dpi-panel] Dumped HTTP request for http://feedbackai.bitpanda.com/index2.html
+
+
+GET /index2.html HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=G.Q._tmSGI.UQrI9i9C8GuhvvFP61c3g_PfYd9yCtiM-1754398372827-0.0.1.1-604800000; _cfuvid=An7GU4gsxvBKaIVYpQQegAMjXaTghWjcF6Rvatnrvac-1754398385852-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[dell-dpi-panel] Dumped HTTP response http://feedbackai.bitpanda.com/index2.html
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f903fc5c940-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:09 GMT
+Expires: Tue, 05 Aug 2025 13:53:09 GMT
+Location: https://feedbackai.bitpanda.com/index2.html
+Server: cloudflare
+Set-Cookie: _cfuvid=Pn5OGLvIAGZDjHOgo_s0qj7gimRdg8ScsiomOwgBAkE-1754398389821-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

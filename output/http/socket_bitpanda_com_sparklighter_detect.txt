@@ -1,0 +1,38 @@
+[sparklighter-detect] Dumped HTTP request for https://socket.bitpanda.com/lighter/api
+
+
+GET /lighter/api HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=QBq4Ve/mriKHUH5CX7LB7faTUuJFRmpcsSNQzV6+W6+rBBDZDUGh4eKb7so2BlB3R0QDFLeA8yg2YUnBgMpb9yxoGeC7g37U61iizlq1aAby5Y7/2nFQiMBMw6xO; AWSALBCORS=QBq4Ve/mriKHUH5CX7LB7faTUuJFRmpcsSNQzV6+W6+rBBDZDUGh4eKb7so2BlB3R0QDFLeA8yg2YUnBgMpb9yxoGeC7g37U61iizlq1aAby5Y7/2nFQiMBMw6xO
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[sparklighter-detect] Dumped HTTP response https://socket.bitpanda.com/lighter/api
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:39 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=2QkFXjJ1rDrqvTa3jMPO26xK/XPBAKCV76HN2zWJ46P/p55Du+5v80e/ErLaw/gloYLAujZzoGuYp7Xes1c9Db72Skmnn4+XO9w7v5on9NkBhc7ySqRnNivlS4pi; Expires=Tue, 12 Aug 2025 12:52:39 GMT; Path=/
+Set-Cookie: AWSALBCORS=2QkFXjJ1rDrqvTa3jMPO26xK/XPBAKCV76HN2zWJ46P/p55Du+5v80e/ErLaw/gloYLAujZzoGuYp7Xes1c9Db72Skmnn4+XO9w7v5on9NkBhc7ySqRnNivlS4pi; Expires=Tue, 12 Aug 2025 12:52:39 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 ee9b452ef78932123abe17295c8c65be.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: _DlZmIEC48eHVi47fU88du-ZcOWQuan7dTBZvTBeN8grgFg4zxOYNw==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 3
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

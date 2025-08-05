@@ -1,0 +1,35 @@
+[ibm-note-login] Dumped HTTP request for https://raiffeisen.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: raiffeisen.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14.5) AppleWebKit/618.3.5 (KHTML, like Gecko) Version/17.4 Safari/618.3.5
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=PHNJAx7HEnd6XApHdBovAEjale_rjoV_.BGfSzPmczI-1754398314163-0.0.1.1-604800000; _cfuvid=KY09wdEacHB5u_Oq1cHiqP7_yh.tZYoxIXDwbHvCn00-1754398329074-0.0.1.1-604800000; _cfuvid=pooj5aJ80dY5qtn3rUlVdhZeAXztqSWbhcQg5xsp.Kk-1754398345268-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ibm-note-login] Dumped HTTP response https://raiffeisen.bitpanda.com
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66e83aae85752-IAD
+Content-Security-Policy: frame-src https://docs.google.com/viewer *.bitpanda.com *.staging.waskurzes.com *.bitpanda.dev vercel.live; frame-ancestors 'none'
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:26 GMT
+Location: /auth/error
+Server: cloudflare
+Set-Cookie: _cfuvid=I88M_LivCKHYxbDe7wPrF0ol2EhTXSy9LlkhEt2YQn4-1754398346909-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Immediate-Return: 1
+X-Vercel-Id: iad1::8llkj-1754398346857-df9d01d5869b
+
+Redirecting...
+

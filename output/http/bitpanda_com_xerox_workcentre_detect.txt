@@ -1,0 +1,39 @@
+[xerox-workcentre-detect] Dumped HTTP request for https://bitpanda.com/index.dhtml
+
+
+GET /index.dhtml HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=TG4fDpVHwjjYwpg7Puiwe_Ss9.Zje0unLVh8R3fTwkc-1754398388816-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[xerox-workcentre-detect] Dumped HTTP response https://bitpanda.com/index.dhtml
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66fa9b94207f0-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:13 GMT
+Expires: Tue, 05 Aug 2025 13:53:13 GMT
+Location: https://www.bitpanda.com/index.dhtml
+Server: cloudflare
+Set-Cookie: _cfuvid=B43pajZc1kpMZ.2fYSnacBe1XTESQSu2kc6kp1HM86I-1754398393899-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

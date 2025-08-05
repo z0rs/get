@@ -1,0 +1,62 @@
+[kiali-panel] Dumped HTTP request for https://analytics.bitpanda.com/kiali/api/status
+
+
+GET /kiali/api/status HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.10 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=4IQ9.eCUPoXrP5RMkkw.CeDK9nJgCoV1TqbAaMgSm1I-1754398151581-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[kiali-panel] Dumped HTTP response https://analytics.bitpanda.com/kiali/api/status
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c0ff9ef685-IAD
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:12 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=KkAA4VeqaACXT4NhYnpG7ZGQ2lFtml0rW5NSnwEGpYI-1754398152342-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Powered-By: Express
+
+Bad request
+[kiali-panel] Dumped HTTP request for https://analytics.bitpanda.com/kiali/
+
+
+GET /kiali/ HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=TSA3DgxYMGlUhPIPQDDrzTLqwIQIG.rBzU0QjdpJyqA-1754398157653-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[kiali-panel] Dumped HTTP response https://analytics.bitpanda.com/kiali/
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e67d7b787b-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:20 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=nH8LGGPGEcaer1n1W4y.WyrXuF9.lqXnjYL4CVDQ_Xk-1754398160554-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+upstream connect error or disconnect/reset before headers. reset reason: connection termination

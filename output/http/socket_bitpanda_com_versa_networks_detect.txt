@@ -1,0 +1,304 @@
+[versa-networks-detect] Dumped HTTP request for https://socket.bitpanda.com/favicon.ico
+
+
+GET /favicon.ico HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:106.0) Gecko/20100101 Firefox/106.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=jQOjzARrHArU6TaW9DBMWKTTGF8tDxlVptQRbph6WSA/75V26yrf2+zl/Xw0RRk4IYgc4wfk3O7kJuRVv0DMVzu80NMW9t0ZDrLaSb7FLm+ZC1b5+f3lapIFpOss; AWSALBCORS=jQOjzARrHArU6TaW9DBMWKTTGF8tDxlVptQRbph6WSA/75V26yrf2+zl/Xw0RRk4IYgc4wfk3O7kJuRVv0DMVzu80NMW9t0ZDrLaSb7FLm+ZC1b5+f3lapIFpOss
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[versa-networks-detect] Dumped HTTP response https://socket.bitpanda.com/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:41 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=1Y3GEejLlqt34CPgiUQconJGAOrknYn30VvcQvJXZpmGuKwUXa2CggY97pKfHix9xOQWs8oKLTMdN56FNg6b27mPg/tUosmwRS6eYmOZaUh4UxicTbQVIujsnvJx; Expires=Tue, 12 Aug 2025 12:52:41 GMT; Path=/
+Set-Cookie: AWSALBCORS=1Y3GEejLlqt34CPgiUQconJGAOrknYn30VvcQvJXZpmGuKwUXa2CggY97pKfHix9xOQWs8oKLTMdN56FNg6b27mPg/tUosmwRS6eYmOZaUh4UxicTbQVIujsnvJx; Expires=Tue, 12 Aug 2025 12:52:41 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 753abf75c4fb02577e3748ad81a5ead0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 9nFJyv5YN6AbPy_eE1_-r_Kkr4QFR5WVpsANG7MuYdx6WHUjzrjQ9Q==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 3
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[versa-networks-detect] Dumped HTTP request for https://socket.bitpanda.com/favicon.png
+
+
+GET /favicon.png HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=sWqT+og/pmps1JHYQzFPKnxjjU3ajv+RgYYJCmPPQC71ZAEgXWBlr4d62UewPzOj2igiYuGoC7UJ55eE7MUr6aIyAG3Sl1KqoeRlxWDh7rnjr197zPGDTciQwMtQ; AWSALBCORS=sWqT+og/pmps1JHYQzFPKnxjjU3ajv+RgYYJCmPPQC71ZAEgXWBlr4d62UewPzOj2igiYuGoC7UJ55eE7MUr6aIyAG3Sl1KqoeRlxWDh7rnjr197zPGDTciQwMtQ
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[versa-networks-detect] Dumped HTTP response https://socket.bitpanda.com/favicon.png
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:43 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=RVM5ekurkJtlax1aca1c+iU3MMUuJONphOKSn43LnQRuqUTcow74t1BJxYgvf5obLSDWGAzZWY/kSa4rnneCiXua9KFvuuC/54Qx6G+EVClhkIArQSru2H2ciJqE; Expires=Tue, 12 Aug 2025 12:52:43 GMT; Path=/
+Set-Cookie: AWSALBCORS=RVM5ekurkJtlax1aca1c+iU3MMUuJONphOKSn43LnQRuqUTcow74t1BJxYgvf5obLSDWGAzZWY/kSa4rnneCiXua9KFvuuC/54Qx6G+EVClhkIArQSru2H2ciJqE; Expires=Tue, 12 Aug 2025 12:52:43 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 ff071fa99e74a44c6556cef90e125ca8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: J3I58WMeZAok9_9-fkejKoonxv1K4bisrKhHr5lGaAy6-YCyv_5jzA==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 1
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[versa-networks-detect] Dumped HTTP request for https://socket.bitpanda.com/images/versalogo.png
+
+
+GET /images/versalogo.png HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=ey1bri4dJnAMdTnElwNKto6Lt4oiSZ4Ef7sn9GtxsAypAweQ36VelD74lWZyNKPnXHPuG0v2HhqFctzZJZ57nlF6iNK3IEugzNM5lV2D4jGNoa4gcGp+pibFN6Up; AWSALBCORS=ey1bri4dJnAMdTnElwNKto6Lt4oiSZ4Ef7sn9GtxsAypAweQ36VelD74lWZyNKPnXHPuG0v2HhqFctzZJZ57nlF6iNK3IEugzNM5lV2D4jGNoa4gcGp+pibFN6Up
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[versa-networks-detect] Dumped HTTP response https://socket.bitpanda.com/images/versalogo.png
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:45 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=WfHFboJpfUU9AB747VVrJ5M8iGRlWbmPKXQy7cBW8LpUOQ29wmJz4+2EPcI5UFtEjjnXHdIl8bVzwy2T9oJvwVs3SCf7cDk7SotlFGhLukhqAf9AqlzSeLr/T3f0; Expires=Tue, 12 Aug 2025 12:52:45 GMT; Path=/
+Set-Cookie: AWSALBCORS=WfHFboJpfUU9AB747VVrJ5M8iGRlWbmPKXQy7cBW8LpUOQ29wmJz4+2EPcI5UFtEjjnXHdIl8bVzwy2T9oJvwVs3SCf7cDk7SotlFGhLukhqAf9AqlzSeLr/T3f0; Expires=Tue, 12 Aug 2025 12:52:45 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 87e6563b344d9d0eb9b5aa233652bc74.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: P6d5n7lCMHSN-etLXtjJlfWatLBK7bbInjjDuylWgKoUZ8c4UbzqgA==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 2
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[versa-networks-detect] Dumped HTTP request for https://socket.bitpanda.com/images/versalogo2.png
+
+
+GET /images/versalogo2.png HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=ZW28nUDS8L86I4uttQueLLkDeP2+fdHX09wBcXtOzl9/z2bJ20WwWDyccixC843twvF85Re44lpKBwjn7h6lUc6/mgkEXdueNgA0JzAbWLfPgCZjBOSLxf+IU5Gz; AWSALBCORS=ZW28nUDS8L86I4uttQueLLkDeP2+fdHX09wBcXtOzl9/z2bJ20WwWDyccixC843twvF85Re44lpKBwjn7h6lUc6/mgkEXdueNgA0JzAbWLfPgCZjBOSLxf+IU5Gz
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[versa-networks-detect] Dumped HTTP response https://socket.bitpanda.com/images/versalogo2.png
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:47 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=JCa1+gJL58AGMXyfJXZVug9NQOiTDaDLSsH/skjX5w/7xVz1dQdDOzelgTm/ZettO9HmSfMxqOVxYnpcE39eyYosn6XF0AG6YzG5VPtN/frYpxVj5peYvBtmveZq; Expires=Tue, 12 Aug 2025 12:52:47 GMT; Path=/
+Set-Cookie: AWSALBCORS=JCa1+gJL58AGMXyfJXZVug9NQOiTDaDLSsH/skjX5w/7xVz1dQdDOzelgTm/ZettO9HmSfMxqOVxYnpcE39eyYosn6XF0AG6YzG5VPtN/frYpxVj5peYvBtmveZq; Expires=Tue, 12 Aug 2025 12:52:47 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 ded2db8c78a1ad7377261200a0bb44fa.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: -nZ1KpoZHx3GHnP1uvFYjeWZCi1cOkoxmcdEi2XSsLTxg7jsombJEA==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 4
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[versa-networks-detect] Dumped HTTP request for https://socket.bitpanda.com/common/images/Logo.png
+
+
+GET /common/images/Logo.png HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:133.0) Gecko/20100101 Firefox/133.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=wAA0Ds0x5bSEi+gfpkqOtQ+zgoia7GomTJLa+YF2cMvM6c2EzL3lBpuLELQoE+xqI0EwtI3ibgeclSDs0JBIhncYP3tK2H+7nS6xmN6uaHgdipeax+DT3P62c7tc; AWSALBCORS=wAA0Ds0x5bSEi+gfpkqOtQ+zgoia7GomTJLa+YF2cMvM6c2EzL3lBpuLELQoE+xqI0EwtI3ibgeclSDs0JBIhncYP3tK2H+7nS6xmN6uaHgdipeax+DT3P62c7tc
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[versa-networks-detect] Dumped HTTP response https://socket.bitpanda.com/common/images/Logo.png
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:49 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=jsDihn37LvEvNIyjDS891knivU8XNP0h5SvGKd/4bvelpQt5lcLyqgY+RwrBFXD6nNDeDFYj7PCwaieHGcY13tSU81R8uAbNdKsELFy1WLSwaayvk//lTaoIa+80; Expires=Tue, 12 Aug 2025 12:52:49 GMT; Path=/
+Set-Cookie: AWSALBCORS=jsDihn37LvEvNIyjDS891knivU8XNP0h5SvGKd/4bvelpQt5lcLyqgY+RwrBFXD6nNDeDFYj7PCwaieHGcY13tSU81R8uAbNdKsELFy1WLSwaayvk//lTaoIa+80; Expires=Tue, 12 Aug 2025 12:52:49 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 1448cc53c16b560cf86c5348358d4682.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Q9jctMdN99lvHj5Q5xUqBy5fYVggaL2RJNBTq6bSzYl_hBPvCTsVLQ==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 0
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[versa-networks-detect] Dumped HTTP request for https://socket.bitpanda.com/versa/dist/images/versa-logo.png
+
+
+GET /versa/dist/images/versa-logo.png HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686; rv:128.0) Gecko/20100101 Firefox/128.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=jsDihn37LvEvNIyjDS891knivU8XNP0h5SvGKd/4bvelpQt5lcLyqgY+RwrBFXD6nNDeDFYj7PCwaieHGcY13tSU81R8uAbNdKsELFy1WLSwaayvk//lTaoIa+80; AWSALBCORS=jsDihn37LvEvNIyjDS891knivU8XNP0h5SvGKd/4bvelpQt5lcLyqgY+RwrBFXD6nNDeDFYj7PCwaieHGcY13tSU81R8uAbNdKsELFy1WLSwaayvk//lTaoIa+80
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[versa-networks-detect] Dumped HTTP response https://socket.bitpanda.com/versa/dist/images/versa-logo.png
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:50 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=8DWpXy1sSeasJVnlkscBSRD3nHxbcNVISvZz09RULy09S0oMFWEVDRmFVQHceh34B99C6wRL3OnYMJ2vcmtXPTRMRzms6FlGdQ4pd+NTIwR9TCQJNY+115PTIirF; Expires=Tue, 12 Aug 2025 12:52:50 GMT; Path=/
+Set-Cookie: AWSALBCORS=8DWpXy1sSeasJVnlkscBSRD3nHxbcNVISvZz09RULy09S0oMFWEVDRmFVQHceh34B99C6wRL3OnYMJ2vcmtXPTRMRzms6FlGdQ4pd+NTIwR9TCQJNY+115PTIirF; Expires=Tue, 12 Aug 2025 12:52:50 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 1ffcb4016d0c1224c9505d74a866e6a8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: B9SjNSYsihaN3D_sENMrP2aN-LeH1zTCe7cIO7vxswYJEeIysGeHKA==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 0
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[versa-networks-detect] Dumped HTTP request for https://socket.bitpanda.com/versa/styles/img/versa-logo.png
+
+
+GET /versa/styles/img/versa-logo.png HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=GKDBfMo2Odzlet5xirE2xBdWWzecdfR9ankc7P8nWRnUpTVt5gUR8iKnv0BCgqj8k9eZP9bAQsQAEQBCzRo0haYiYVvi+QAHi9AOYhJqqkM7xobg8aZTlutAfaX4; AWSALBCORS=GKDBfMo2Odzlet5xirE2xBdWWzecdfR9ankc7P8nWRnUpTVt5gUR8iKnv0BCgqj8k9eZP9bAQsQAEQBCzRo0haYiYVvi+QAHi9AOYhJqqkM7xobg8aZTlutAfaX4
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[versa-networks-detect] Dumped HTTP response https://socket.bitpanda.com/versa/styles/img/versa-logo.png
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:51 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=uaz2+XSRX+6JAgPSXe0MzuAiW5VNoahx0le/b4eziIUlNIKebBnZ0s2V8nobrRvMuRXMqOwwJBQxbQ9QgBDjcToO1PEP5Tz5um7Ft2ouYy1Su6+StY+G8PCXEKNa; Expires=Tue, 12 Aug 2025 12:52:51 GMT; Path=/
+Set-Cookie: AWSALBCORS=uaz2+XSRX+6JAgPSXe0MzuAiW5VNoahx0le/b4eziIUlNIKebBnZ0s2V8nobrRvMuRXMqOwwJBQxbQ9QgBDjcToO1PEP5Tz5um7Ft2ouYy1Su6+StY+G8PCXEKNa; Expires=Tue, 12 Aug 2025 12:52:51 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 ff071fa99e74a44c6556cef90e125ca8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: n_ZZdK88mtwXJ-X2ZWDfZm3-7M2WfKG1pBKe3t6dVaTFA71aWbBS3w==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 1
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[versa-networks-detect] Dumped HTTP request for https://socket.bitpanda.com/versa/app/img/versa-logo.png
+
+
+GET /versa/app/img/versa-logo.png HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=qpGNhczxipJli6ilS8/htvAbX8IqpIWk4JGMkylT77dxw3QLIdVaIOa4JTdzJR2kygp9vx7ltl2yVN1GFvW3N3Uj1KjK/pGvbHn3vCG7waBTOWR22nTG/DBLSOpY; AWSALBCORS=qpGNhczxipJli6ilS8/htvAbX8IqpIWk4JGMkylT77dxw3QLIdVaIOa4JTdzJR2kygp9vx7ltl2yVN1GFvW3N3Uj1KjK/pGvbHn3vCG7waBTOWR22nTG/DBLSOpY
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[versa-networks-detect] Dumped HTTP response https://socket.bitpanda.com/versa/app/img/versa-logo.png
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:52 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=+cBtJPVG6Jhgq0zNg8yuv+3eJj/gNkFPVthNH/ZIHYtP2sdGAlmofywhgW1p6PcMIQi1lbBzeTerSHpwYIhBx+R6qfsa0qCVcKAIgx56a78oKp9Snf2zuyMlm4Rf; Expires=Tue, 12 Aug 2025 12:52:52 GMT; Path=/
+Set-Cookie: AWSALBCORS=+cBtJPVG6Jhgq0zNg8yuv+3eJj/gNkFPVthNH/ZIHYtP2sdGAlmofywhgW1p6PcMIQi1lbBzeTerSHpwYIhBx+R6qfsa0qCVcKAIgx56a78oKp9Snf2zuyMlm4Rf; Expires=Tue, 12 Aug 2025 12:52:52 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 7c52bc60e0da5f557ed6047264a41c18.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: lzsp4b85zFob5HaoSuDXbgalzQ85HEfBAbFcWNeMzKTQMxkm8NyT6w==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 0
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

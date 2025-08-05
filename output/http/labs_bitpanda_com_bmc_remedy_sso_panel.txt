@@ -1,0 +1,142 @@
+[bmc-remedy-sso-panel] Dumped HTTP request for https://labs.bitpanda.com/arsys/
+
+
+GET /arsys/ HTTP/1.1
+Host: labs.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[bmc-remedy-sso-panel] Dumped HTTP response https://labs.bitpanda.com/arsys/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Age: 0
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66c4ce87c0622-IAD
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:50:56 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=rIEKuGcVFXzoYAd7UR2NzCmc.EoRn0A0xGXjo8V2wco-1754398256211-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 varnish
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Content-Type-Options: nosniff
+X-Fastly-Request-Id: 57ff92d3542402b9edf1e28426fb52fb1c400743
+X-Github-Request-Id: 607E:177B1B:13A1FC8:14B0890:6891FE2E
+X-Proxy-Cache: MISS
+X-Served-By: cache-iad-kiad7000048-IAD
+X-Timer: S1754398256.189792,VS0,VE18
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bitpanda Labs</title>
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <header>
+    <nav class="nav-container">
+      <div class="nav-brand">
+        <a href="/" class="brand-link">
+          <img src="/assets/Bitpanda_Lettermark_white_RGB.png" alt="Bitpanda Labs" class="logo">
+          <span class="site-title">Labs</span>
+        </a>
+      </div>
+      <div class="nav-links">
+        <a href="/" class="nav-link" data-section="">Home</a>
+        <a href="/#experiments" class="nav-link" data-section="experiments">Experiments</a>
+        <a href="/#about" class="nav-link" data-section="about">About</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <style type="text/css" media="screen">
+  .container {
+    margin: 10px auto;
+    max-width: 600px;
+    text-align: center;
+  }
+  h1 {
+    margin: 30px 0;
+    font-size: 4em;
+    line-height: 1;
+    letter-spacing: -1px;
+  }
+</style>
+
+<div class="container">
+  <h1>404</h1>
+
+  <p><strong>Page not found :(</strong></p>
+  <p>The requested page could not be found.</p>
+</div>
+
+  </main>
+  <footer>
+    <ul>
+      <li><a href="https://www.bitpanda.com/?utm_source=bitpanda_labs&utm_medium=website&utm_campaign=labs_footer" target="_blank">Go to Bitpanda.com</a></li>
+      <li><a href="https://www.bitpanda.com/en/about-us" target="_blank">About</a></li>
+      <li><a href="https://www.bitpanda.com/en/career" target="_blank">Careers at Bitpanda</a></li>
+      <li><a href="https://www.bitpanda.com/en/press-downloads" target="_blank">Press</a></li>
+      <li><a href="https://blog.bitpanda.com/en" target="_blank">Blog</a></li>
+      <li><a href="https://support.bitpanda.com/hc/en-us" target="_blank">Help</a></li>
+    </ul>
+  </footer>
+  <script>
+    // Handle active state and smooth scrolling for navigation links
+    function updateActiveLink() {
+      const hash = window.location.hash.slice(1) || '';
+      const links = document.querySelectorAll('.nav-link');
+      
+      links.forEach(link => {
+        const section = link.getAttribute('data-section');
+        if ((hash === '' && section === '') || (hash === section)) {
+          link.classList.add('active');
+        } else {
+          link.classList.remove('active');
+        }
+      });
+    }
+
+    // Handle smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetId = this.getAttribute('href').slice(1);
+        if (!targetId) return;
+        
+        const targetElement = document.getElementById(targetId);
+        if (!targetElement) return;
+
+        const headerOffset = 100; // Adjust this value based on your header height
+        const elementPosition = targetElement.getBoundingClientRect().top;
+        const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+        window.scrollTo({
+          top: offsetPosition,
+          behavior: 'smooth'
+        });
+
+        // Update URL without scrolling
+        history.pushState(null, null, this.getAttribute('href'));
+        updateActiveLink();
+      });
+    });
+
+    // Update active link on page load and hash change
+    window.addEventListener('load', updateActiveLink);
+    window.addEventListener('hashchange', updateActiveLink);
+  </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'96a66c4ce87c0622',t:'MTc1NDM5ODI1Ni4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html> 

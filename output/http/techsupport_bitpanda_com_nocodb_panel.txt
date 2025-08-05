@@ -1,0 +1,78 @@
+[nocodb-panel] Dumped HTTP request for http://techsupport.bitpanda.com/dashboard/#/signin
+
+
+GET /dashboard/ HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686; rv:127.0) Gecko/20100101 Firefox/127.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[nocodb-panel] Dumped HTTP response http://techsupport.bitpanda.com/dashboard/#/signin
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66e57b977c97c-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:19 GMT
+Expires: Tue, 05 Aug 2025 13:52:19 GMT
+Location: https://techsupport.bitpanda.com/dashboard/
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=OO5NCRLb8gfnMiLz5%2BAYw1qYlI7MAjdwkGg2aqX7C6J0BUV2hh6hXfiV3q6YZ42%2FKF1Dp6%2Fq4AJufUWYYNXTidAyE%2FqzIoxopG%2FQUq9cJhF4RUhOK3B%2BDXHK7p1s%2BmLhpGHDij0OLJdJQA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=72s1x8f.OIseGxhwvC.SBBlxG9rgE3gihvuXUeakPrw-1754398339-1.0.1.1-k2aBLxS9b7Ncac2u0bW0EIoE1Mxcy59Np5QdqTxQMP9kkQ0gsONpdqjMO.mOfOExG.8w3dMQtzG0PhDw2.n1qr8IYLsS41SfFXhflKD3Zgo; path=/; expires=Tue, 05-Aug-25 13:22:19 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=enr2f5unsrZhFG4kNDt6ZdolOM9qS6.qP3bZRlMm4Yk-1754398339814-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[nocodb-panel] Dumped HTTP request for http://techsupport.bitpanda.com/dashboard/favicon.ico
+
+
+GET /dashboard/favicon.ico HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[nocodb-panel] Dumped HTTP response http://techsupport.bitpanda.com/dashboard/favicon.ico
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66e6a8bc12063-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:22 GMT
+Expires: Tue, 05 Aug 2025 13:52:22 GMT
+Location: https://techsupport.bitpanda.com/dashboard/favicon.ico
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=VZpmxAz4%2BrMFzmJgZmXpeijVfl7v8LbYaQAFOlR7qcSXlOhGrBYH%2BE4UGgF0ybIYILxVBRZDVPf3bBP8jDks8sXlgc67M2TAyA0pzic8kkoGG8%2BcDZMVbG5%2FUZRFPPKjuTmbbH%2BW1eg5yA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=WlDyv9NQFNnqLFFl3ER8yau_rac3kbb68sgixJj3cNs-1754398342-1.0.1.1-.sPZsbbxMpV73GLXuq_IoA.Fy9Glv3hpA89xWcJUYuqxlW34Q46Y1jW3gdI6rccWIarB.3eac7SCGQodEAyTVh.eDEhECTeWY3xHynT2IvQ; path=/; expires=Tue, 05-Aug-25 13:22:22 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=Bt10mh8tE9oQJ7u.eCB67x_bx1H2XCCwAs8mMqlmQ7E-1754398342832-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

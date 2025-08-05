@@ -1,0 +1,20 @@
+[dns-waf-detect] Dumped DNS request for statuspage-old.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 23958
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;statuspage-old.bitpanda.com.	IN	 CNAME
+
+[dns-waf-detect] Dumped DNS request for statuspage-old.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 7988
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;statuspage-old.bitpanda.com.	IN	 NS
+

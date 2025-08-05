@@ -1,0 +1,37 @@
+[wordpress-black-studio-tinymce-widget] Dumped HTTP request for https://socket.bitpanda.com/wp-content/plugins/black-studio-tinymce-widget/readme.txt
+
+
+GET /wp-content/plugins/black-studio-tinymce-widget/readme.txt HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=fOmkiiXgRu4BQIRmtxrqaAaJ72a+ozPLZgAkmCS1m6Jk+E9a5lAuKmBVT/c38zSWZRrTOU5QoArWV2x6zaP1UlfSIEo+apv6p5fenTvYX11VOZqF5xS9VJHcXrSq; AWSALBCORS=fOmkiiXgRu4BQIRmtxrqaAaJ72a+ozPLZgAkmCS1m6Jk+E9a5lAuKmBVT/c38zSWZRrTOU5QoArWV2x6zaP1UlfSIEo+apv6p5fenTvYX11VOZqF5xS9VJHcXrSq
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-black-studio-tinymce-widget] Dumped HTTP response https://socket.bitpanda.com/wp-content/plugins/black-studio-tinymce-widget/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:42 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=Co9m0IpeMZPs6/Wk48g3MkGfRKX10I2C+cFu54WadWEbsEGiAo93a6OsgI81jClHMgavSpxb2cxf+1suRyZjhBB2z9R98E5JaOF8trnFEBh1hS90XBJ6FSZHP4ve; Expires=Tue, 12 Aug 2025 12:52:42 GMT; Path=/
+Set-Cookie: AWSALBCORS=Co9m0IpeMZPs6/Wk48g3MkGfRKX10I2C+cFu54WadWEbsEGiAo93a6OsgI81jClHMgavSpxb2cxf+1suRyZjhBB2z9R98E5JaOF8trnFEBh1hS90XBJ6FSZHP4ve; Expires=Tue, 12 Aug 2025 12:52:42 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 03c28758fe0abb70088fb45c6855d854.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: YiHMIbqR0TEDpXcJB4suLGrPNwa4-vZX5rm007ygVyaGK9K67zclkA==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 2
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

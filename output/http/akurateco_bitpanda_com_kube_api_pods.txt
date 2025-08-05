@@ -1,0 +1,30 @@
+[kube-api-pods] Dumped HTTP request for http://akurateco.bitpanda.com/api/v1/namespaces/default/pods
+
+
+GET /api/v1/namespaces/default/pods HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[kube-api-pods] Dumped HTTP response http://akurateco.bitpanda.com/api/v1/namespaces/default/pods
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:49 GMT
+Location: https://akurateco.bitpanda.com/api/v1/namespaces/default/pods
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

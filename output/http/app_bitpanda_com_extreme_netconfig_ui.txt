@@ -1,0 +1,34 @@
+[extreme-netconfig-ui] Dumped HTTP request for https://app.bitpanda.com/index.php5
+
+
+GET /index.php5 HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[extreme-netconfig-ui] Dumped HTTP response https://app.bitpanda.com/index.php5
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66950995ed46d-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:48:55 GMT
+Location: /api/auth/login?callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2Findex.php5
+Server: cloudflare
+Set-Cookie: __Host-authjs.csrf-token=10008f9c7191f2f2fa50a94f055efa1e97655087b67ec00a1432ae3c9f73f984%7Cbc111a2665f44707bf9da9b9786fa35d789cb9f65acbcf75a205b5ed974eac48; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: _cfuvid=P_hsrlbC2gUmQUsfn0qaJThsx0lDBf.4f9S1vwsIerk-1754398135043-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::lq889-1754398133894-7af36cd050eb
+
+Redirecting...
+

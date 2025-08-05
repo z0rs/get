@@ -1,0 +1,56 @@
+[tactical-rmm-panel] Dumped HTTP request for https://blog.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: blog.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/608.2.11 (KHTML, like Gecko) Version/13 Safari/608.2.11
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=awGsTfl4HZDPzp6PmXwyoJlQtFEV9FCL6jYwGjjOzQ4-1754398161028-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[tactical-rmm-panel] Dumped HTTP response https://blog.bitpanda.com
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 1633
+Age: 1758
+Cache-Control: max-age=3600, no-transform, public
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669ff4a6b82fc-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:21 GMT
+Etag: "e65297b4066f4e0d44fa7da9186bef00"
+Last-Modified: Fri, 01 Aug 2025 08:56:06 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=2qMAhqG3bM8fKvFxhGmxoF9zkjVOSMRe0AwdIYOOKeA-1754398161833-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 ddf6879aa6c2007b075baebb295e9494.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: UkcmNyuvXLzpQqWK5X2zLfmv4oyJ-RhmCn7vE7J1w_ZailIis5xQqQ==
+X-Amz-Cf-Pop: IAD55-P5
+X-Amz-Version-Id: yOV1RX0LHCxJoUrfUJ9wwX6VAT0ao2ST
+X-Cache: Hit from cloudfront
+X-Content-Type-Options: nosniff
+
+<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta content="ie=edge" http-equiv=x-ua-compatible><meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name=viewport><meta content=origin name=referrer><meta content=article property=og:type><meta content="Bitpanda - Start investing today" property=og:title><meta content="Trade in minutes from only 1€. Your N. 1 European Broker for stocks, crypto, indices, ETFs and precious metals. Trade 24/7." property=og:description><meta content=https://cdn.bitpanda.com/media/og-images-open-graph/bitpanda-og.png property=og:image><title></title><script>let languages = ['en','de','fr','es','it','pl',];
+                let pages = {en: 'https://blog.bitpanda.com/en',de: 'https://blog.bitpanda.com/de',fr: 'https://blog.bitpanda.com/fr',es: 'https://blog.bitpanda.com/es',it: 'https://blog.bitpanda.com/it',pl: 'https://blog.bitpanda.com/pl',};
+                let language = window.navigator.userLanguage || window.navigator.language;
+                let langCode = language.split("-")[0];
+                let referrer = document.referrer;
+                let params = document.location.search;
+                if (referrer && params) {
+                    params = params + '&utm_referrer=' + referrer;
+                } else {
+                    if (referrer) {
+                        params = '?utm_referrer=' + referrer;
+                    }
+                }
+
+                if(!(langCode in pages)) {
+                    langCode = 'en';
+                }
+
+                location.href = pages[langCode] + params + document.location.hash;</script> <body>

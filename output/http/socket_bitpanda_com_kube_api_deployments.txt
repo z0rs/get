@@ -1,0 +1,38 @@
+[kube-api-deployments] Dumped HTTP request for https://socket.bitpanda.com/apis/apps/v1/namespaces/default/deployments
+
+
+GET /apis/apps/v1/namespaces/default/deployments HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=VJyJtAc+4/Fu99yDzsS025Jdj/fbKVErXEdJwAX+gJ8+vMo9AaW+zf9kFcgrpPfpmhrV54TZJTFSn8FO0/14MIwbuTecyaCEaspV4V1z0U0gI8UkwdLxLkxTALFH; AWSALBCORS=VJyJtAc+4/Fu99yDzsS025Jdj/fbKVErXEdJwAX+gJ8+vMo9AaW+zf9kFcgrpPfpmhrV54TZJTFSn8FO0/14MIwbuTecyaCEaspV4V1z0U0gI8UkwdLxLkxTALFH
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[kube-api-deployments] Dumped HTTP response https://socket.bitpanda.com/apis/apps/v1/namespaces/default/deployments
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:32 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=TcPL6xFbPXJCOOwFZLTbnVSUYbcoQAn8NS67wO7iKMa4aue2r7oOe2IoAqP2hvuG14IRPM0W7yeDycvMKCOp9uPOd2PU4Pkall7K/RtvSJKRarCnKzAzK6unx3C5; Expires=Tue, 12 Aug 2025 12:52:32 GMT; Path=/
+Set-Cookie: AWSALBCORS=TcPL6xFbPXJCOOwFZLTbnVSUYbcoQAn8NS67wO7iKMa4aue2r7oOe2IoAqP2hvuG14IRPM0W7yeDycvMKCOp9uPOd2PU4Pkall7K/RtvSJKRarCnKzAzK6unx3C5; Expires=Tue, 12 Aug 2025 12:52:32 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 1fecb697c6f121d7ce54a35628ac154e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: qTMhRYM1s8HsR4aUD0rSZcJCWmVJPvKEwWigaIR0eFHq7ST5Koih_A==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 2
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

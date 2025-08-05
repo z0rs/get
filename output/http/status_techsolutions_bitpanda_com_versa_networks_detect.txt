@@ -1,0 +1,288 @@
+[versa-networks-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/favicon.ico
+
+
+GET /favicon.ico HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=VllZUGVpKzU3eWcwaURtS0gycE5MWTQ0a1grZC9HRkJ2MGJqN1RKbTZkZWxxazRvU0RMeWtsc2s4MzQyaThwVk13UUZzS0VnUUpKRnozUm5NMm9sR1U2NGJHUlAyZ1c4RktuczBwcDlHeVE5bTZ6ZFoyL1hkMGVvTEZVbVBrbzdGZVROa2g3c3hYV1AxTXFQdDN2L2hMV1laQ2E0cTJpTC9OSFZyOVNRZVBsVHdrN0s0K2tTeGI3RFlQZDFxQnlFTUxyclp5YmhDM0RKd2huNzdmMFhvVURUYWlYbm9RUHg3WVdQMFdZNWNwRT0tLW1qYzZKVVUrY1Z4QTVZdkxwWWh3NWc9PQ%3D%3D--2168904fc82f1b48896f78f180497b0a3e3f95fd
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[versa-networks-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Age: 3
+Atl-Request-Id: 1a54ee1e-b1bc-41e5-b83a-d56adbfdad3d
+Atl-Traceid: 1a54ee1eb1bc41e5b83ad56adbfdad3d
+Date: Tue, 05 Aug 2025 12:52:35 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 32c5b7040885724e78019cc31f0ef3e8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: HmDVApidmTX6DYUUHo-3_O8ujGSw2RH1mOhoaSyZLAYZuqzh-KC60A==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 157811635
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[versa-networks-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/favicon.png
+
+
+GET /favicon.png HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=SEllNCtjbmVHMEh3ZkRqMTZhK2o1VEdqMjkzT21RSUwvRGMzQnRWQlFUYlQ3anA3WERZRGJPSndwTHI3Qm1XYUpLUVZxZnl3UGxrWjNYbkxvQ3Y5VGdhT2hjZW1wRk1OSWxnMlJFU0dHZFVJTGhicWxDWEZ2akNoRUE3aG5GTENXZzRnMllrZ0RQaHpPWWJGNk5jNUxuUnBzWUk5bXhabWRRL0tvU0hGQVE0a3hWRnhKTG8xWHViUk9SRFc4R3BVVE5Md0I1cDRnNnBMZkc5Q2JUeVFmRkJFeHpCNXF0RmFIcFp6VzhIL1FpMD0tLVI1cDg5YzlZZjdRYXJSRTVySlV6Z1E9PQ%3D%3D--b0bf19b83db1e26bf8468707b0446d7242355060
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[versa-networks-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/favicon.png
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: bc62650c-ad3a-42f5-b203-6c3cb651a63f
+Atl-Traceid: bc62650cad3a42f5b2036c3cb651a63f
+Date: Tue, 05 Aug 2025 12:52:40 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=3,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 ca8d1424de70ce439236d37048e65f54.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: RoTlCBdHN1Prptw6QNd6YVUBEzmMGFysGKl1-RAjmEaAqSlnXOJlig==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 112566858
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[versa-networks-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/images/versalogo.png
+
+
+GET /images/versalogo.png HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=enZNa3MzVG16RnBwSllqN0tIT09KTkdaWlp1RG1Tbk5OUUtjQWpMWHlUS2FvemZFSWFQbHVEd1JuUlNYWlAwV3p3L3ZJc2tOMkN6eWQwS3hsc1VyVE1MTitGK3BHenBWQzNnMUlmSTlZTWxzWTRhcXcyM1VMU09aNCtoTVZjUFRrR3Z5ZUtuOVlja3lwQ01VdEhlWm4vL3p2SnJXY0htRkl1eWpUaVdKS3FMdHA1TGFQSUZURUFzQ1ZmOW9DYVJVWG40d2NJV2U1aFJZdllRVzZObDFYZnlYemxSR29XMEJCRWVrQVJYa1dLYz0tLWtydTZYNzNyZS9kRytPUmx5N0R0UVE9PQ%3D%3D--b26cf7f4764145fde0c97c25f3f98b721225ceec
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[versa-networks-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/images/versalogo.png
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 4b40e339-c5d5-451a-978b-a930864886af
+Atl-Traceid: 4b40e339c5d5451a978ba930864886af
+Date: Tue, 05 Aug 2025 12:52:42 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=2,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 427271f19372c1be0d143a1d4c76a128.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: jTJIMHPLQroz8K4uH4nUaH4Wsse7vIOJmoRiOvGI27k2KxxdkcAgNQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 873448043
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[versa-networks-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/images/versalogo2.png
+
+
+GET /images/versalogo2.png HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Mobile/15E148 Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=enZNa3MzVG16RnBwSllqN0tIT09KTkdaWlp1RG1Tbk5OUUtjQWpMWHlUS2FvemZFSWFQbHVEd1JuUlNYWlAwV3p3L3ZJc2tOMkN6eWQwS3hsc1VyVE1MTitGK3BHenBWQzNnMUlmSTlZTWxzWTRhcXcyM1VMU09aNCtoTVZjUFRrR3Z5ZUtuOVlja3lwQ01VdEhlWm4vL3p2SnJXY0htRkl1eWpUaVdKS3FMdHA1TGFQSUZURUFzQ1ZmOW9DYVJVWG40d2NJV2U1aFJZdllRVzZObDFYZnlYemxSR29XMEJCRWVrQVJYa1dLYz0tLWtydTZYNzNyZS9kRytPUmx5N0R0UVE9PQ%3D%3D--b26cf7f4764145fde0c97c25f3f98b721225ceec
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[versa-networks-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/images/versalogo2.png
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 858bb578-e036-4283-b9dc-b1228bf0d961
+Atl-Traceid: 858bb578e0364283b9dcb1228bf0d961
+Date: Tue, 05 Aug 2025 12:52:44 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=2,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 8ad5a9cbb864898c238f716c1a12623c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: IH_o5qqmbSwHe56GyLaX3DBP6xOi2EQKyyLarZiV_mpRACMMMrHvQA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 80432369
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[versa-networks-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/common/images/Logo.png
+
+
+GET /common/images/Logo.png HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=NFBLK0FQUWdFeGJPNC93S0NZckhoR2dYYlYwZVNHand0b1Y2N0tOVGlBTEJ4Q3cxMU1tdjZmYlNOTDkxVzdQLzQ0N2JOM2VJcDhhcHhkMzVNdEkxQ2dpTmdMWmtrdE1Wb3hxcW16QnJqcmVIL3ZKdTZkY3hSWU10d3JNZHhNMzNFcEo0eFU4c3E4cGxYVG42aG05YW56RXNQYWo0TEgxeU51Mms0SHY2QWdhSHhLVmFQbk9pWUltbXFjK0tKbnp3dzBUYit5bGpVL0JUOC9rR0pScnptRjVCODNodzlyc25RMjBKbmpJUHl5ND0tLXhDcnZoZHBsNzVqMmJoWTJHNUVWVkE9PQ%3D%3D--1ac98742ef7b67672914caa20c3b5898f8108e92
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[versa-networks-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/common/images/Logo.png
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 4e2aba03-2694-4c14-9be6-a490c294e927
+Atl-Traceid: 4e2aba0326944c149be6a490c294e927
+Date: Tue, 05 Aug 2025 12:52:46 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=3,atl-edge-upstream;dur=62,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 e06a155936c216d176543a7a25710ed0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: jIL7MGLvQwkiggJ14Uju2saCr6jJl_p423mUh3rHIMpMW1261XWhbQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 162146304
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[versa-networks-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/versa/dist/images/versa-logo.png
+
+
+GET /versa/dist/images/versa-logo.png HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64; rv:127.0) Gecko/20100101 Firefox/127.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=NFBLK0FQUWdFeGJPNC93S0NZckhoR2dYYlYwZVNHand0b1Y2N0tOVGlBTEJ4Q3cxMU1tdjZmYlNOTDkxVzdQLzQ0N2JOM2VJcDhhcHhkMzVNdEkxQ2dpTmdMWmtrdE1Wb3hxcW16QnJqcmVIL3ZKdTZkY3hSWU10d3JNZHhNMzNFcEo0eFU4c3E4cGxYVG42aG05YW56RXNQYWo0TEgxeU51Mms0SHY2QWdhSHhLVmFQbk9pWUltbXFjK0tKbnp3dzBUYit5bGpVL0JUOC9rR0pScnptRjVCODNodzlyc25RMjBKbmpJUHl5ND0tLXhDcnZoZHBsNzVqMmJoWTJHNUVWVkE9PQ%3D%3D--1ac98742ef7b67672914caa20c3b5898f8108e92
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[versa-networks-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/versa/dist/images/versa-logo.png
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 621dd6e4-d112-43ef-ac89-96925ef7a672
+Atl-Traceid: 621dd6e4d11243efac8996925ef7a672
+Date: Tue, 05 Aug 2025 12:52:48 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=67,atl-edge-internal;dur=3,atl-edge-upstream;dur=65,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 6ec872fa8051a500a5a9ab5ec50a79ba.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: VZ9FzitruE2BPHBGgEaA-CJI4KswleImBXldWGV8yWXRaEhP7F3rWg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 156052032
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[versa-networks-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/versa/styles/img/versa-logo.png
+
+
+GET /versa/styles/img/versa-logo.png HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=NFBLK0FQUWdFeGJPNC93S0NZckhoR2dYYlYwZVNHand0b1Y2N0tOVGlBTEJ4Q3cxMU1tdjZmYlNOTDkxVzdQLzQ0N2JOM2VJcDhhcHhkMzVNdEkxQ2dpTmdMWmtrdE1Wb3hxcW16QnJqcmVIL3ZKdTZkY3hSWU10d3JNZHhNMzNFcEo0eFU4c3E4cGxYVG42aG05YW56RXNQYWo0TEgxeU51Mms0SHY2QWdhSHhLVmFQbk9pWUltbXFjK0tKbnp3dzBUYit5bGpVL0JUOC9rR0pScnptRjVCODNodzlyc25RMjBKbmpJUHl5ND0tLXhDcnZoZHBsNzVqMmJoWTJHNUVWVkE9PQ%3D%3D--1ac98742ef7b67672914caa20c3b5898f8108e92
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[versa-networks-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/versa/styles/img/versa-logo.png
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: f7a85e67-8cac-4a41-91ea-4f0c75df16a7
+Atl-Traceid: f7a85e678cac4a4191ea4f0c75df16a7
+Date: Tue, 05 Aug 2025 12:52:49 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=4,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 32c5b7040885724e78019cc31f0ef3e8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: T3U4GzJLSv5EiT_lEcI9l93-WNo6oN1j8orejwsc92ugIUGkXn0Ihw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 119420607
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[versa-networks-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/versa/app/img/versa-logo.png
+
+
+GET /versa/app/img/versa-logo.png HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=NFBLK0FQUWdFeGJPNC93S0NZckhoR2dYYlYwZVNHand0b1Y2N0tOVGlBTEJ4Q3cxMU1tdjZmYlNOTDkxVzdQLzQ0N2JOM2VJcDhhcHhkMzVNdEkxQ2dpTmdMWmtrdE1Wb3hxcW16QnJqcmVIL3ZKdTZkY3hSWU10d3JNZHhNMzNFcEo0eFU4c3E4cGxYVG42aG05YW56RXNQYWo0TEgxeU51Mms0SHY2QWdhSHhLVmFQbk9pWUltbXFjK0tKbnp3dzBUYit5bGpVL0JUOC9rR0pScnptRjVCODNodzlyc25RMjBKbmpJUHl5ND0tLXhDcnZoZHBsNzVqMmJoWTJHNUVWVkE9PQ%3D%3D--1ac98742ef7b67672914caa20c3b5898f8108e92
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[versa-networks-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/versa/app/img/versa-logo.png
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 46ed6c78-0438-4c96-91ea-eb790e32c9dc
+Atl-Traceid: 46ed6c7804384c9691eaeb790e32c9dc
+Date: Tue, 05 Aug 2025 12:52:50 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=2,atl-edge-upstream;dur=65,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 8ad5a9cbb864898c238f716c1a12623c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: m64sOHUEJlYxpRvEs3Du-YA8ivC9ndi_CYbLtpxvfQTqFDxaIVg-zA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 2686116
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

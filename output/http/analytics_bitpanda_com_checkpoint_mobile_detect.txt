@@ -1,0 +1,32 @@
+[checkpoint-mobile-detect] Dumped HTTP request for https://analytics.bitpanda.com/sslvpn/Login
+
+
+GET /sslvpn/Login HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=aDrEh7kXfrmQNZdBq2pJV7DWlyZ4JEppzHeDp20J3b8-1754398181243-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[checkpoint-mobile-detect] Dumped HTTP response https://analytics.bitpanda.com/sslvpn/Login
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a7c2bb0e643-IAD
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:41 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=QaVyeLLKWMcDJWSIAQPV5xvdjvnM8Vk9dduFjXkvwPc-1754398181935-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Powered-By: Express
+
+Bad request

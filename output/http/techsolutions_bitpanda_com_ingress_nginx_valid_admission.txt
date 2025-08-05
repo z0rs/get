@@ -1,0 +1,53 @@
+[ingress-nginx-valid-admission] Dumped HTTP request for https://techsolutions.bitpanda.com/validate
+
+
+POST /validate HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+Content-Length: 555
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{
+  "kind": "AdmissionReview",
+  "apiVersion": "admission.k8s.io/v1",
+  "request": {
+    "uid": "wiybh",
+    "kind": {
+      "group": "networking.k8s.io",
+      "version": "v1",
+      "kind": "Ingress"
+    },
+    "operation": "CREATE",
+    "object": {
+      "metadata": {
+        "name": "test-wiybh",
+        "namespace": "default"
+      },
+      "spec": {
+        "rules": [
+          {
+            "host": "example.com",
+            "http": {
+              "paths": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}
+[ingress-nginx-valid-admission] Dumped HTTP response https://techsolutions.bitpanda.com/validate
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 11
+Date: Tue, 05 Aug 2025 12:52:28 GMT
+Via: 1.1 de8b5f44ffbaf97a58ad36dbe4a4a7c0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: NX7MXDrJaYhjIKhjDcBZBgB99quzqSehdoVuRrQnq61VM4bTiaS8Jw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Bad Request

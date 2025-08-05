@@ -1,0 +1,30 @@
+[apache-guacamole] Dumped HTTP request for https://techsolutions.bitpanda.com/translations/en.json
+
+
+GET /translations/en.json HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-guacamole] Dumped HTTP response https://techsolutions.bitpanda.com/translations/en.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:29 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 1a5ddecdee7139ebf663ea7d3699cd88.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: wwSVO77JhgtfXab5vWvL9v1I-ic0bxXk0V_7IoHgthVHdsPTGCWrUw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: zxp2UogS01DyrbcMZg4R6mQpqk8rfTgkgOuowt962MIktskyHZgvNJdf1Hvpoi91PA/PR1bNnzs=
+X-Amz-Request-Id: D6NG1WZ9GTX5VKE7
+X-Cache: Error from cloudfront
+
+Not Found

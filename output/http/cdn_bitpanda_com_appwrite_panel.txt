@@ -1,0 +1,76 @@
+[appwrite-panel] Dumped HTTP request for http://cdn.bitpanda.com/images/favicon.png
+
+
+GET /images/favicon.png HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/121.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=tlELLouwAdT60uN4GxTCiJznlpx5cDTIUg3Qxs_a_ig-1754398136882-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[appwrite-panel] Dumped HTTP response http://cdn.bitpanda.com/images/favicon.png
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6696938165992-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:48:57 GMT
+Expires: Tue, 05 Aug 2025 13:48:57 GMT
+Location: https://cdn.bitpanda.com/images/favicon.png
+Server: cloudflare
+Set-Cookie: _cfuvid=N76LQ_8YjnRerHnaCEe_UeJQqGFP33UGBvqAVPfrUbw-1754398137855-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[appwrite-panel] Dumped HTTP request for http://cdn.bitpanda.com/favicon.png
+
+
+GET /favicon.png HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=JrpMD3auRS0aQw6liNbLWwODmOhUtFH3hGY39W8j2bI-1754398144828-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[appwrite-panel] Dumped HTTP response http://cdn.bitpanda.com/favicon.png
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6699b39fa3886-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:05 GMT
+Expires: Tue, 05 Aug 2025 13:49:05 GMT
+Location: https://cdn.bitpanda.com/favicon.png
+Server: cloudflare
+Set-Cookie: _cfuvid=UotYIYyr1ZyQynn4ix8sDDIHIOhNC3LBXKxHlcEhDAM-1754398145822-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

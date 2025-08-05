@@ -1,0 +1,29 @@
+[wordpress-classic-widgets] Dumped HTTP request for https://techsolutions.bitpanda.com/wp-content/plugins/classic-widgets/readme.txt
+
+
+GET /wp-content/plugins/classic-widgets/readme.txt HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/109.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-classic-widgets] Dumped HTTP response https://techsolutions.bitpanda.com/wp-content/plugins/classic-widgets/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:49 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 4e5ef522edce25e792d546b5e8b93a9a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 6ETTyMsX9YScLFnzQdQi95uTmvrSgGVy1dGvFgKs2FB-HjQ2IYQ37A==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: +Q1VJBtPWXbcwZabSUG9DUHJTG/QWTpKAJ+GBX16iMLbhWrhG4OlmioAEv+zgnGrWprAlRpA0d4=
+X-Amz-Request-Id: 6GQPDHXTCWW4088B
+X-Cache: Error from cloudfront
+
+Not Found

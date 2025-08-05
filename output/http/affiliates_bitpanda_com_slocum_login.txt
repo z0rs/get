@@ -1,0 +1,38 @@
+[slocum-login] Dumped HTTP request for http://affiliates.bitpanda.com/sfmc/login
+
+
+GET /sfmc/login HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Op9T6xUnWxzJUGy4HYMUEZgFvzTv_wzc5XTjZIi2L3o-1754398161892-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[slocum-login] Dumped HTTP response http://affiliates.bitpanda.com/sfmc/login
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66a057c6dfe99-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:22 GMT
+Expires: Tue, 05 Aug 2025 13:49:22 GMT
+Location: https://affiliates.bitpanda.com/sfmc/login
+Server: cloudflare
+Set-Cookie: _cfuvid=VaTcMqEeEUHRbThJrsetjTCR3zejTwCr8XeogYNPqsU-1754398162810-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

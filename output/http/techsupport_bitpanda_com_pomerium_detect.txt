@@ -1,0 +1,39 @@
+[pomerium-detect] Dumped HTTP request for http://techsupport.bitpanda.com/.pomerium/index.js
+
+
+GET /.pomerium/index.js HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[pomerium-detect] Dumped HTTP response http://techsupport.bitpanda.com/.pomerium/index.js
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ed4be328840-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:39 GMT
+Expires: Tue, 05 Aug 2025 13:52:39 GMT
+Location: https://techsupport.bitpanda.com/.pomerium/index.js
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=1EqbreXRVjd0YBPk0bsor2TomJ%2BMrYM90cNYjycbR3ieFtustDoUnMUFBfm7UTakCKbGC0mILDQLEhj6g4i1ktZ8ltpxwqdtf5uBaHf%2BGGUvHCu6RtKrd5pbO4qYdJm5le0mzAbmzXMa%2FQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=ttY8tNhoOECtKy5q7_yH_uGk54.b0DsKFh1Eh6cGNQ0-1754398359-1.0.1.1-T4QNPiyW9JwLJH_tgQE0R6KoCE_2HswwbYOjWDS0mtHc63EPEz5ruNN4xJLScKy7h8YxVZ3CDHpjNo.8px65hq4qcJLwIGFMPfq62S3cmG8; path=/; expires=Tue, 05-Aug-25 13:22:39 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=LsiDTZ4eIbkwyI7yYKYiMb8XLaDqjPUxpn_5aZHj6js-1754398359895-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

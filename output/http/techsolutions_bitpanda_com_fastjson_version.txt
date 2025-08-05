@@ -1,0 +1,25 @@
+[fastjson-version] Dumped HTTP request for https://techsolutions.bitpanda.com
+
+
+POST / HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:132.0) Gecko/20100101 Firefox/132.0
+Connection: close
+Content-Length: 34
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"@type":"java.lang.AutoCloseable"
+[fastjson-version] Dumped HTTP response https://techsolutions.bitpanda.com
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 11
+Date: Tue, 05 Aug 2025 12:52:34 GMT
+Via: 1.1 f96e72cfd61c675b75ea8547da63de24.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: tj5wqsCOFuQkNY3jF9H20QG1jrLJyC35jKXIqSUDd8tDQHtKQrNMmQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Bad Request

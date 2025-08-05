@@ -1,0 +1,37 @@
+[extreme-netconfig-ui] Dumped HTTP request for https://socket.bitpanda.com/index.php5
+
+
+GET /index.php5 HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[extreme-netconfig-ui] Dumped HTTP response https://socket.bitpanda.com/index.php5
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:11 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=FYK58FaSZehRDiMqX7MXZx7vuc1rnC6dzuAX7U79zlglljUfMT/VBPVWlTfDAB48CVM8Szp6C3EUww/s6jR5AqyuLVvce459yY9ibHPJZNEDely6QB6oJ+UqKXSd; Expires=Tue, 12 Aug 2025 12:52:11 GMT; Path=/
+Set-Cookie: AWSALBCORS=FYK58FaSZehRDiMqX7MXZx7vuc1rnC6dzuAX7U79zlglljUfMT/VBPVWlTfDAB48CVM8Szp6C3EUww/s6jR5AqyuLVvce459yY9ibHPJZNEDely6QB6oJ+UqKXSd; Expires=Tue, 12 Aug 2025 12:52:11 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 87e6563b344d9d0eb9b5aa233652bc74.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: vxVg836V48RD_pJXgB2bDW-AZboCycR1tUZWB0SoKinoF2BDrjrupw==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 2
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

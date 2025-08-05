@@ -1,0 +1,39 @@
+[gitea-detect] Dumped HTTP request for https://account.bts.bitpanda.com/user/login
+
+
+GET /user/login HTTP/1.1
+Host: account.bts.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[gitea-detect] Dumped HTTP response https://account.bts.bitpanda.com/user/login
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a5d0c671625-IAD
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:36 GMT
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Server: cloudflare
+Set-Cookie: _cfuvid=ly4lebN51mzWOVSZgqpVQPIv58Ub1M5iLHj06G5TGPs-1754398176919-0.0.1.1-604800000; path=/; domain=.frontegg.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Via: 1.1 d01a0cfc47d6e412dd81c986ff5d69da.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Oe72jEM-ab8gr44jKhn5z3BabpveR336baAyqW9hI6Nm8PdIh6NplQ==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+{"errors":["The requested URL was not found on this server."]}

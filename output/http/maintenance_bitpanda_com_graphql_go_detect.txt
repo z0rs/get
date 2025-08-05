@@ -1,0 +1,30 @@
+[graphql-go-detect] Dumped HTTP request for http://maintenance.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: maintenance.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/126.0 Safari/537.36
+Connection: close
+Content-Length: 12
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":""}
+[graphql-go-detect] Dumped HTTP request for http://maintenance.bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: maintenance.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.10 Mobile/15E148 Safari/604.1
+Connection: close
+Content-Length: 12
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":""}

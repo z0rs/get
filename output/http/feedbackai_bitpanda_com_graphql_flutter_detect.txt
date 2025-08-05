@@ -1,0 +1,63 @@
+[graphql-flutter-detect] Dumped HTTP request for http://feedbackai.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 44
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=An7GU4gsxvBKaIVYpQQegAMjXaTghWjcF6Rvatnrvac-1754398385852-0.0.1.1-604800000; _cfuvid=75QcnnDKghl93maWb92gLVPEJWtjWjNueG_ALNBk8Mw-1754398398604-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query { __typename @deprecated }"}
+[graphql-flutter-detect] Dumped HTTP response http://feedbackai.bitpanda.com/graphql
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6700d9d3b0590-IAD
+Date: Tue, 05 Aug 2025 12:53:29 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[graphql-flutter-detect] Dumped HTTP response http://feedbackai.bitpanda.com/graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67000ab7e5fa6-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:27 GMT
+Expires: Tue, 05 Aug 2025 13:53:27 GMT
+Location: https://feedbackai.bitpanda.com/graphql
+Server: cloudflare
+Set-Cookie: _cfuvid=BTWQvUdeGKI1hiYFilF0gVt6wnHVFtI59Y1EpXLoCbY-1754398407806-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[graphql-flutter-detect] Dumped HTTP request for http://feedbackai.bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1
+Connection: close
+Content-Length: 44
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=xSIwO0YgiZxiLR0tP7qpsZ33ebAVsOkXn0G7Qco8VNE-1754398409883-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query { __typename @deprecated }"}

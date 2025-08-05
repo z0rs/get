@@ -1,0 +1,22 @@
+[wordpress-code-snippets] Dumped HTTP request for http://requests.bitpanda.com/wp-content/plugins/code-snippets/readme.txt
+
+
+GET /wp-content/plugins/code-snippets/readme.txt HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 15_3_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-code-snippets] Dumped HTTP response http://requests.bitpanda.com/wp-content/plugins/code-snippets/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:17 GMT
+Location: https://requests.bitpanda.com/wp-content/plugins/code-snippets/readme.txt
+
+Moved Permanently

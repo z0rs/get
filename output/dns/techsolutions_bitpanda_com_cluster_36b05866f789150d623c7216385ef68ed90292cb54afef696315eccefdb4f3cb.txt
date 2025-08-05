@@ -1,0 +1,24 @@
+[cluster-36b05866f789150d623c7216385ef68ed90292cb54afef696315eccefdb4f3cb] Dumped DNS request for techsolutions.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 27783
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;techsolutions.bitpanda.com.	IN	 CNAME
+
+[cluster-36b05866f789150d623c7216385ef68ed90292cb54afef696315eccefdb4f3cb] Dumped DNS response for techsolutions.bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 27783
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 512
+
+;; QUESTION SECTION:
+;techsolutions.bitpanda.com.	IN	 CNAME
+
+;; ANSWER SECTION:
+techsolutions.bitpanda.com.	300	IN	CNAME	ssl.redocly.com.
+

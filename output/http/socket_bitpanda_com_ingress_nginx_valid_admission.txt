@@ -1,0 +1,66 @@
+[ingress-nginx-valid-admission] Dumped HTTP request for https://socket.bitpanda.com/validate
+
+
+POST /validate HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:124.0) Gecko/20100101 Firefox/124.0
+Connection: close
+Content-Length: 555
+Content-Type: application/json
+Cookie: AWSALB=AXp8ouPln/HCPUt7WqD3bTbkYzdLI+uKezj8IGsOxCaUqkhX/2gf6b6G8YCutgAj4ETBZ3sN5E2KIiHL4A3m3tlRMif3Xdws+DqoCT7whpsbtrHoMIqj2pp4l/0F; AWSALBCORS=AXp8ouPln/HCPUt7WqD3bTbkYzdLI+uKezj8IGsOxCaUqkhX/2gf6b6G8YCutgAj4ETBZ3sN5E2KIiHL4A3m3tlRMif3Xdws+DqoCT7whpsbtrHoMIqj2pp4l/0F
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{
+  "kind": "AdmissionReview",
+  "apiVersion": "admission.k8s.io/v1",
+  "request": {
+    "uid": "wiybh",
+    "kind": {
+      "group": "networking.k8s.io",
+      "version": "v1",
+      "kind": "Ingress"
+    },
+    "operation": "CREATE",
+    "object": {
+      "metadata": {
+        "name": "test-wiybh",
+        "namespace": "default"
+      },
+      "spec": {
+        "rules": [
+          {
+            "host": "example.com",
+            "http": {
+              "paths": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}
+[ingress-nginx-valid-admission] Dumped HTTP response https://socket.bitpanda.com/validate
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:22 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=9GGNkpOOfdCedfft+TlUnEJusg+pDyjptM8bKUyxXIdHsSJ5Mxc1HXiXuaEGjYbQvnk4+9psZHdhzyC8CH2/AC38Gn+vSbwB0PTCKXQhs/CTzGD3ReaZyNqRY/bU; Expires=Tue, 12 Aug 2025 12:52:22 GMT; Path=/
+Set-Cookie: AWSALBCORS=9GGNkpOOfdCedfft+TlUnEJusg+pDyjptM8bKUyxXIdHsSJ5Mxc1HXiXuaEGjYbQvnk4+9psZHdhzyC8CH2/AC38Gn+vSbwB0PTCKXQhs/CTzGD3ReaZyNqRY/bU; Expires=Tue, 12 Aug 2025 12:52:22 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 753abf75c4fb02577e3748ad81a5ead0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: kZTqMSWlwHEN_X4w0iR2rD-PAGkMBSDRifpcClK7v4bYItnrNsCJ7Q==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 7
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

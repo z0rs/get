@@ -1,0 +1,22 @@
+[wordpress-optinmonster] Dumped HTTP request for http://requests.bitpanda.com/wp-content/plugins/optinmonster/readme.txt
+
+
+GET /wp-content/plugins/optinmonster/readme.txt HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-optinmonster] Dumped HTTP response http://requests.bitpanda.com/wp-content/plugins/optinmonster/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:21 GMT
+Location: https://requests.bitpanda.com/wp-content/plugins/optinmonster/readme.txt
+
+Moved Permanently

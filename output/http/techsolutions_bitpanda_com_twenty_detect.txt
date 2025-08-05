@@ -1,0 +1,26 @@
+[twenty-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/welcome
+
+
+GET /welcome HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[twenty-detect] Dumped HTTP response https://techsolutions.bitpanda.com/welcome
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:46 GMT
+Location: ./welcome/
+Via: 1.1 fe187ea749e98273cf22180445286f22.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: btLB61nlT2JYRFwbrM9yOptdd1cyrp1iUxqs0B8QuUYuRk5pZZ-4Mw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

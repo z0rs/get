@@ -1,0 +1,30 @@
+[mitel-version-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/ucs/micollab/version.json
+
+
+GET /ucs/micollab/version.json HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[mitel-version-detect] Dumped HTTP response https://techsolutions.bitpanda.com/ucs/micollab/version.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:41 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 cb2d413167decc675714b9b5dec4ad88.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: couNb0BBqIRiGEeNfX5AFaWZa1OBaT12IVRupaXPwsj0zQ9TIwgiPA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: B//bfy1V9UIV8rGOBFKqMET3HlKQKzeOuW9txiFTEES3lA6z7M15dlK8/KybnqBQaELkP2hBtFg68vXPt0qpS54/dLbmuVHHBp7Sda7bJCE=
+X-Amz-Request-Id: PC9DRTS6M8AEYHW5
+X-Cache: Error from cloudfront
+
+Not Found

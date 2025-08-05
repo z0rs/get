@@ -1,0 +1,34 @@
+[cluster-67e95b15371b63d8f10d6d995b7a96da80f62d6f6dc3e03ab6f3eb68ff126355] Dumped HTTP request for https://sbcdn.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: sbcdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-67e95b15371b63d8f10d6d995b7a96da80f62d6f6dc3e03ab6f3eb68ff126355] Dumped HTTP response https://sbcdn.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: MISS
+Cf-Ray: 96a66de75a62f45a-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:52:01 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=w_Huep6pWzIBNg.av4joGuTUz4iRBRvfaIZX1B0kfp0-1754398321871-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 23c9ec01b6f4151f654547c0190aeebe.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: fOAP6V73-5uS6YtVBkcwS5j1PHzozxX4YWfgJ6Cf3zGdPaqImc5kdg==
+X-Amz-Cf-Pop: IAD89-C3
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>BJRRBJPBD7ECDNHM</RequestId><HostId>J7OgWHbWvflwzM9G3I8xy1nY7hhYqOoPExCEUs+xkvkkCJuyV5WJWoM96RYkR8CyoMnGpCdvPUo=</HostId></Error>

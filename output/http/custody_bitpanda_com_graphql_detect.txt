@@ -1,0 +1,4959 @@
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/graph_cms
+
+
+POST /graph_cms HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/graph_cms
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ff49a10c940-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:25 GMT
+Expires: Tue, 05 Aug 2025 13:53:25 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=1RoEbEg31TIybnAAL3FbD.FSBwQVnGubec48B9TmizQ-1754398405872-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/___graphql
+
+
+POST /___graphql HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/___graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ff49f55827a-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:25 GMT
+Expires: Tue, 05 Aug 2025 13:53:25 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/graphql-explorer
+
+
+POST /graphql-explorer HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/graphql-explorer
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ff49ca005ab-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:25 GMT
+Expires: Tue, 05 Aug 2025 13:53:25 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=FWzQ5wxhnGpzS2q_Mfa7ikBYlAqCMT0uxm.jpqfZjoY-1754398405886-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/express-graphql
+
+
+POST /express-graphql HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6,2 Mobile/15E148 Safari/604.1
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/express-graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ff499641752-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:25 GMT
+Expires: Tue, 05 Aug 2025 13:53:25 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=oqA03v_EWtUtaMLgsJGtYn1SpBd0.32oLLOdHI5oeNI-1754398405912-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/graphql/console
+
+
+POST /graphql/console HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=1RoEbEg31TIybnAAL3FbD.FSBwQVnGubec48B9TmizQ-1754398405872-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/graphql/console
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ffa6b97c96c-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:26 GMT
+Expires: Tue, 05 Aug 2025 13:53:26 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=r3JaNUO.cxgPfOutFsn2Wwm38nxxsc_ThrICIB0Feuw-1754398406801-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:135.0) Gecko/20100101 Firefox/135.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/api/graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ffa6f51d468-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:26 GMT
+Expires: Tue, 05 Aug 2025 13:53:26 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=6sLfSnz.82BUmYDg.hVN5Fkk3Z_teHvRtD2MWZstF_c-1754398406809-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/graphql-devtools
+
+
+POST /graphql-devtools HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686; rv:120.0) Gecko/20100101 Firefox/120.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/graphql-devtools
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ffa7b57879a-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:26 GMT
+Expires: Tue, 05 Aug 2025 13:53:26 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=MvJksaYiRFAsF7wv3ULwIERv10t_GDqRjVIxG_o2lPU-1754398406814-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/graphiql.min.css
+
+
+POST /graphiql.min.css HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/graphiql.min.css
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ffa7b37c94f-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:26 GMT
+Expires: Tue, 05 Aug 2025 13:53:26 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=glK6AnX371erV.ofceyaWLyMypMBOKUJQvl7VsWokik-1754398406821-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/graphql/graphql-playground
+
+
+POST /graphql/graphql-playground HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=1RoEbEg31TIybnAAL3FbD.FSBwQVnGubec48B9TmizQ-1754398405872-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/graphql/graphql-playground
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ffa7822818c-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:26 GMT
+Expires: Tue, 05 Aug 2025 13:53:26 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=jj027mDakGHFZsHammCkReyER7iBFbuAh3M3V2.QP6Q-1754398406857-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/je/graphql
+
+
+POST /je/graphql HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 15_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=MvJksaYiRFAsF7wv3ULwIERv10t_GDqRjVIxG_o2lPU-1754398406814-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/je/graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ffabf7fd471-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:26 GMT
+Expires: Tue, 05 Aug 2025 13:53:26 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=sfIJ_3GSFNmsBs6USxSh.0BgmpGmcooQSQn8qoQJPXA-1754398406858-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/playground
+
+
+POST /playground HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18362
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=jj027mDakGHFZsHammCkReyER7iBFbuAh3M3V2.QP6Q-1754398406857-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/playground
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ffafa0b7048-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:26 GMT
+Expires: Tue, 05 Aug 2025 13:53:26 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=rDEwNlob493j9oIhcJWQNQjlG8o3CF.1jUm4TcYtBfA-1754398406895-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/graphiql/finland
+
+
+POST /graphiql/finland HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/graphiql/finland
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67000bd0e585a-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:27 GMT
+Expires: Tue, 05 Aug 2025 13:53:27 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=6Tz1wyeM5mExU1Hg9xCO7qrHaEukjJvUJJkHhcb_mPA-1754398407813-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/HyperGraphQL
+
+
+POST /HyperGraphQL HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/HyperGraphQL
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670072fd1ec0a-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:28 GMT
+Expires: Tue, 05 Aug 2025 13:53:28 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=_EaLcfkm.Gy5dLIguF_nmIWcAlhm2o2ka45RKssLAnY-1754398408842-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/graphiql.js
+
+
+POST /graphiql.js HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/120.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/graphiql.js
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670072c423ec9-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:28 GMT
+Expires: Tue, 05 Aug 2025 13:53:28 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=kVF3iANaylY8EA.9gACPB0ymJ8U9fVTbUJE93CzQLDE-1754398408845-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670072b417ad2-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:28 GMT
+Expires: Tue, 05 Aug 2025 13:53:28 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=cC2LNGggWHb6CsL2wlcVfOeTYnsAHTxpKFgaE.6JhN0-1754398408853-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/api/cask/graphql-playground
+
+
+POST /api/cask/graphql-playground HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/api/cask/graphql-playground
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700728115702-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:28 GMT
+Expires: Tue, 05 Aug 2025 13:53:28 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=0TRxzhmZXKhiTbfvHJ9xe84GN4fxOMujiGR5VSxNkgY-1754398408857-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/graphql-playground
+
+
+POST /graphql-playground HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/600.1.25 (KHTML, like Gecko) Version/8.0 Safari/600.1.25
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/graphql-playground
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670072a0781f7-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:28 GMT
+Expires: Tue, 05 Aug 2025 13:53:28 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=2qNXbjB50fnPbPDxxmrzJdFdsBOJL_.g.N6.CEEMUDA-1754398408857-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/query-api
+
+
+POST /query-api HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Mobile/15E148 Safari/604.1
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=6Tz1wyeM5mExU1Hg9xCO7qrHaEukjJvUJJkHhcb_mPA-1754398407813-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/query-api
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670072f1e393e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:28 GMT
+Expires: Tue, 05 Aug 2025 13:53:28 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=OW8tE4z.XUyDjdmDuYK4rxTCXwtQqGPnFT55NuyO0kU-1754398408858-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/explorer
+
+
+POST /explorer HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/explorer
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670072e225884-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:28 GMT
+Expires: Tue, 05 Aug 2025 13:53:28 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=xGjOuVvN84Ec0.9f0e74mrcoPzdUfau87.wCn9LNo94-1754398408862-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/graphiql
+
+
+POST /graphiql HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.7 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/graphiql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670072f36d69d-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:28 GMT
+Expires: Tue, 05 Aug 2025 13:53:28 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=v70jfhg7aP.ndpDtMSyO4aWsRPv3zSio6F7cf.zIp3Y-1754398408866-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/altair
+
+
+POST /altair HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/altair
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670073da8c5c0-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:28 GMT
+Expires: Tue, 05 Aug 2025 13:53:28 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=Hut.EwMrtaCTYs.LMgvVeU8Po3Bvp8MooJuGFa3eFcI-1754398408870-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/graphiql.min.js
+
+
+POST /graphiql.min.js HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/graphiql.min.js
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670072cacc928-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:28 GMT
+Expires: Tue, 05 Aug 2025 13:53:28 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=JY464NOydxTXIWFvrmgAmUKdF6Z.bhzTndwM.K3BqwU-1754398408877-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/query
+
+
+POST /query HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=rDEwNlob493j9oIhcJWQNQjlG8o3CF.1jUm4TcYtBfA-1754398406895-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/query
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700728ee311e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:28 GMT
+Expires: Tue, 05 Aug 2025 13:53:28 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=jsWNWlav5ExSILoC36Ut5ADC6QtakF7oKyYxSEaMkB8-1754398408885-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/gql
+
+
+POST /gql HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/gql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67007bf3be5be-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:28 GMT
+Expires: Tue, 05 Aug 2025 13:53:28 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=H6mOpr3HuChaC2NWw0YewtoPOjWhkqEikx34GzG26VE-1754398408929-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/graphql/schema.yaml
+
+
+POST /graphql/schema.yaml HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=r3JaNUO.cxgPfOutFsn2Wwm38nxxsc_ThrICIB0Feuw-1754398406801-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/graphql/schema.yaml
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67007bc01f28b-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:28 GMT
+Expires: Tue, 05 Aug 2025 13:53:28 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=qJuBtXySyvRBW7JGOLeKypP9y5LJufssHy.1tLwGD8g-1754398408933-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v1/graphiql
+
+
+POST /v1/graphiql HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=JY464NOydxTXIWFvrmgAmUKdF6Z.bhzTndwM.K3BqwU-1754398408877-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v1/graphiql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700d8c68c957-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:29 GMT
+Expires: Tue, 05 Aug 2025 13:53:29 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=_._B0RFl0MTMH22qdo9GUCdUsdQbG2UD3UrUu0hI0NA-1754398409861-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v1/graph
+
+
+POST /v1/graph HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Hut.EwMrtaCTYs.LMgvVeU8Po3Bvp8MooJuGFa3eFcI-1754398408870-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v1/graph
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700d9e63c93f-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:29 GMT
+Expires: Tue, 05 Aug 2025 13:53:29 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=wO7kfD7jUvjkzMud4jVVSppEiLM6px9i5dtoFukPyCo-1754398409871-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/portal-graphql
+
+
+POST /portal-graphql HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=rWSk64bWc5yXLOaO8wu9MOYXG3q2cE6O.CpAbQMrjBI-1754398406858-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/portal-graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700d9d305813-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:29 GMT
+Expires: Tue, 05 Aug 2025 13:53:29 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=6mLWGDONrycQYdhSLowEI_mvFZZotuMxqzgdZcTR6HQ-1754398409873-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v1/graphiql.css
+
+
+POST /v1/graphiql.css HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=jsWNWlav5ExSILoC36Ut5ADC6QtakF7oKyYxSEaMkB8-1754398408885-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v1/graphiql.css
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700d8ca50581-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:29 GMT
+Expires: Tue, 05 Aug 2025 13:53:29 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=i1pwYIKHXfv01Fk9yD4OlEHwHk4uX.NVSLmxFzPaoLU-1754398409873-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/graphiql.css
+
+
+POST /graphiql.css HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686; rv:130.0) Gecko/20100101 Firefox/130.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/graphiql.css
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700d989ce5b8-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:29 GMT
+Expires: Tue, 05 Aug 2025 13:53:29 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=pa5.JQgVMMe6z3eqwbQPcjQXA3FrQ31DuCOExpFFDk4-1754398409873-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/sphinx-graphiql
+
+
+POST /sphinx-graphiql HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=cC2LNGggWHb6CsL2wlcVfOeTYnsAHTxpKFgaE.6JhN0-1754398408853-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/sphinx-graphiql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700d8bdfe643-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:29 GMT
+Expires: Tue, 05 Aug 2025 13:53:29 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=5wTBUQndrCna1SxEiJi.ViTtoW35wrOo8X7BiLxtcXU-1754398409874-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/query-laravel
+
+
+POST /query-laravel HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_3_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=kVF3iANaylY8EA.9gACPB0ymJ8U9fVTbUJE93CzQLDE-1754398408845-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/query-laravel
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700d99f8826f-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:29 GMT
+Expires: Tue, 05 Aug 2025 13:53:29 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=JER..jx98wXc7GeRD6S14CqOhM8fuOAHGKAk4mjHxl0-1754398409876-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/graphql.php
+
+
+POST /graphql.php HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/graphql.php
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700d9bc1f784-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:29 GMT
+Expires: Tue, 05 Aug 2025 13:53:29 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=3SXRY3F6cVmYEQfILGjTpugIhoAMaSHm3nE3wU_pfFY-1754398409877-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v1/explorer
+
+
+POST /v1/explorer HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=v70jfhg7aP.ndpDtMSyO4aWsRPv3zSio6F7cf.zIp3Y-1754398408866-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v1/explorer
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700d8ef5201c-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:29 GMT
+Expires: Tue, 05 Aug 2025 13:53:29 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=sH.AZRpVwaI2BJu8Zq8gI4jHq23NkOQ97zMCI73PbFE-1754398409877-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/graphql/v1
+
+
+POST /graphql/v1 HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_7_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=RV1uO2N63KJFCFKvrlf74JVjyb61e1GpP6nt4SsrYoc-1754398406812-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/graphql/v1
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700daf7d9c42-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:29 GMT
+Expires: Tue, 05 Aug 2025 13:53:29 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=jd2_wQ4aDvVDHWGiaAAc4HZ0zOKgwr9gsfoqKV7S6vY-1754398409880-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v1/graphiql.js
+
+
+POST /v1/graphiql.js HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=H6mOpr3HuChaC2NWw0YewtoPOjWhkqEikx34GzG26VE-1754398408929-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v1/graphiql.js
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700d9b97c98c-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:29 GMT
+Expires: Tue, 05 Aug 2025 13:53:29 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=rGxUlzYgI1yOBD_39CWMIWVmsoJZY8NiJU0Oz.ZScm4-1754398409882-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v1/api/graphql
+
+
+POST /v1/api/graphql HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=xGjOuVvN84Ec0.9f0e74mrcoPzdUfau87.wCn9LNo94-1754398408862-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v1/api/graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700d989f22ef-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:29 GMT
+Expires: Tue, 05 Aug 2025 13:53:29 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=3wGmTmY6yz0IY1hyNdMuDVg5.vWoFQxbT6ypahg13gQ-1754398409884-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/graphql/schema.json
+
+
+POST /graphql/schema.json HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=FWzQ5wxhnGpzS2q_Mfa7ikBYlAqCMT0uxm.jpqfZjoY-1754398405886-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/graphql/schema.json
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700d9a159c3c-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:29 GMT
+Expires: Tue, 05 Aug 2025 13:53:29 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=wswYXek2z1UQpT_nOzTBpRKIgmIe8ZNIEMWgU2CV5eo-1754398409885-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/graphiql.php
+
+
+POST /graphiql.php HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/graphiql.php
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700d9c40c978-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:29 GMT
+Expires: Tue, 05 Aug 2025 13:53:29 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=ovcG5FrL.52XMOrMuwMy6Maeh3szLChRSjEgqUd.ni4-1754398409887-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/api/graphql/v1
+
+
+POST /api/graphql/v1 HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/api/graphql/v1
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700d99887ff9-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:29 GMT
+Expires: Tue, 05 Aug 2025 13:53:29 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=RMOpUxqxs1LuReckLwSWpdMEfpNGChA1nmClFhjC3Wc-1754398409889-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/query-explorer
+
+
+POST /query-explorer HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=_EaLcfkm.Gy5dLIguF_nmIWcAlhm2o2ka45RKssLAnY-1754398408842-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/query-explorer
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700dbf94255f-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:29 GMT
+Expires: Tue, 05 Aug 2025 13:53:29 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=RErbjnr1DHfGSB3gCjqWSxdzwmIsONVuPXCgYinyan0-1754398409897-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v1/graphiql/finland
+
+
+POST /v1/graphiql/finland HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/127.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=i1pwYIKHXfv01Fk9yD4OlEHwHk4uX.NVSLmxFzPaoLU-1754398409873-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v1/graphiql/finland
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700ddca67223-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:29 GMT
+Expires: Tue, 05 Aug 2025 13:53:29 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=v0M7vGxeqUMKwOgupzSf5Amb4NcqrpzINui4jo2GXQE-1754398409910-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v1/graphql/schema.yaml
+
+
+POST /v1/graphql/schema.yaml HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=wzExeJDCU_cw.H6pS8Gc60NtyyQ6CcHGgn7qvueEGjo-1754398409880-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v1/graphql/schema.yaml
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700de8ced691-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:29 GMT
+Expires: Tue, 05 Aug 2025 13:53:29 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=w6yHwEYn5xvwoVDbYkz5hehLfWzQAkeJXyeC.XVQPwc-1754398409915-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v2/graphiql
+
+
+POST /v2/graphiql HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=w6yHwEYn5xvwoVDbYkz5hehLfWzQAkeJXyeC.XVQPwc-1754398409915-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v2/graphiql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700e19343b7e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:29 GMT
+Expires: Tue, 05 Aug 2025 13:53:29 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=LV_RB.QvQv885ZhOcvis.E2s9x1hPwsuhN9PfLY40Hs-1754398409970-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v2/graphiql.css
+
+
+POST /v2/graphiql.css HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:122.0) Gecko/20100101 Firefox/122.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=LV_RB.QvQv885ZhOcvis.E2s9x1hPwsuhN9PfLY40Hs-1754398409970-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v2/graphiql.css
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6700e7cc4c5b2-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:30 GMT
+Expires: Tue, 05 Aug 2025 13:53:30 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=eyEPdezvJV.clLg2nTjhhq36_kIZUJ6Va.1TlPU_ras-1754398410021-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v2/graph
+
+
+POST /v2/graph HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=v0M7vGxeqUMKwOgupzSf5Amb4NcqrpzINui4jo2GXQE-1754398409910-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v2/graph
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67013e8a0f784-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:30 GMT
+Expires: Tue, 05 Aug 2025 13:53:30 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=UzDHIPzaWeeqlUKcXeofXNKdZzuXu6c_gj8U4W5AIos-1754398410877-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v1/graphiql.php
+
+
+POST /v1/graphiql.php HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/107.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=wO7kfD7jUvjkzMud4jVVSppEiLM6px9i5dtoFukPyCo-1754398409871-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v1/graphiql.php
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67013e884e5cb-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:30 GMT
+Expires: Tue, 05 Aug 2025 13:53:30 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=j9QuBoYflgmRaYhc9UnQtWB.VPcVC2DD0Ep_UGjkvcU-1754398410877-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v1/graphql/schema.xml
+
+
+POST /v1/graphql/schema.xml HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=sH.AZRpVwaI2BJu8Zq8gI4jHq23NkOQ97zMCI73PbFE-1754398409877-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v1/graphql/schema.xml
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67013ec8b50e5-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:30 GMT
+Expires: Tue, 05 Aug 2025 13:53:30 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=SgnelbZqSAcbw8rUFuTSrivtRogt.8VyvJiCDdt0jTU-1754398410878-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v2
+
+
+POST /v2 HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=wswYXek2z1UQpT_nOzTBpRKIgmIe8ZNIEMWgU2CV5eo-1754398409885-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v2
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67013eda9e644-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:30 GMT
+Expires: Tue, 05 Aug 2025 13:53:30 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=k9FyS3sCpik2H1xGyYQ8lb0c_HM.1kevr.6ySnrLdHw-1754398410887-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v1/subscriptions
+
+
+POST /v1/subscriptions HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=XKv93sOGWysgPrn029NGDyiaS4RIgCdonYvg5a302oc-1754398409884-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v1/subscriptions
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67013ee867abe-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:30 GMT
+Expires: Tue, 05 Aug 2025 13:53:30 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=qjgKFwl_XEqR0FUCsr_zvfvQAmoFuznDtIuCiFoRzl4-1754398410888-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/graphql-console
+
+
+POST /graphql-console HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/graphql-playground-html
+
+
+POST /graphql-playground-html HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:109.0) Gecko/20100101 Firefox/118.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/graphql-console
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67013fc11d6c1-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:30 GMT
+Expires: Tue, 05 Aug 2025 13:53:30 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=UmFjGgH6dZM3Lx_up1.2SknJH57UnseVA4.V4dJ3pYE-1754398410889-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/graphql-playground-html
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67013fe4ac998-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:30 GMT
+Expires: Tue, 05 Aug 2025 13:53:30 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=bs3Q7OpjwR2P69JuUDhGXnrUZpfXa43n9oJYpGMoPug-1754398410889-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v1/graphql.php
+
+
+POST /v1/graphql.php HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=41NMQPETkN4Hj2Yl9xNc5vflPFG1.TXZgdPiunGemko-1754398409875-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v1/graphql.php
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67013eeac0813-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:30 GMT
+Expires: Tue, 05 Aug 2025 13:53:30 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=Tfuq25hNC2F4..kWKNf1zaGA4mKttKEg7KEqjpaRHEM-1754398410924-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v1/graphql-explorer
+
+
+POST /v1/graphql-explorer HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=OmIBSmVT7umjRzbSST_QeAg9ioAjW3FQhzLCcULP7oc-1754398409873-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v1/graphql-explorer
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670148f489c19-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:30 GMT
+Expires: Tue, 05 Aug 2025 13:53:30 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=WveugCvPJLDp9gjyv8Y1zRVPma5WeyocznW6cZFSiAE-1754398410979-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/laravel-graphql-playground
+
+
+POST /laravel-graphql-playground HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=IjBel6NimhenXnT6_a0UaUhN1lrYhUil7rZTRbyAuqk-1754398406821-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/laravel-graphql-playground
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670148c5dbec0-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:30 GMT
+Expires: Tue, 05 Aug 2025 13:53:30 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=hnBwxPeEq.4nSMsaLb_5Azgp9TZfQIzFEHd8.nDv0lU-1754398410984-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/graph
+
+
+POST /graph HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686; rv:134.0) Gecko/20100101 Firefox/134.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Oyi78MdbnQQK.IUNd..w.NYQf1qE2qKxDRdXjrxEatA-1754398405832-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/graph
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670148ed18844-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:30 GMT
+Expires: Tue, 05 Aug 2025 13:53:30 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=.C_gxGtr1FBSGc0ZmsDyVoChBPof3nh3tnKCsyfTt2Y-1754398410987-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v1/graphql
+
+
+POST /v1/graphql HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.1 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=pa5.JQgVMMe6z3eqwbQPcjQXA3FrQ31DuCOExpFFDk4-1754398409873-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v1/graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670148b7ec553-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:31 GMT
+Expires: Tue, 05 Aug 2025 13:53:30 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=Ys0oQiqv2ZTKdBhMuATCx_k57Akj0xNb3_K6lVx1cGU-1754398411002-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/graphql/schema.xml
+
+
+POST /graphql/schema.xml HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Mobile/15E148 Safari/604.1
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=oqA03v_EWtUtaMLgsJGtYn1SpBd0.32oLLOdHI5oeNI-1754398405912-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/graphql/schema.xml
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670155f2105fb-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:31 GMT
+Expires: Tue, 05 Aug 2025 13:53:31 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=BGwIDapPYurbtmXol7I2s0NmYDjVOZXxaWDgEPTDuuA-1754398411125-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v2/subscriptions
+
+
+POST /v2/subscriptions HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=BGwIDapPYurbtmXol7I2s0NmYDjVOZXxaWDgEPTDuuA-1754398411125-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v2/subscriptions
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67015ab68393d-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:31 GMT
+Expires: Tue, 05 Aug 2025 13:53:31 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=feI.4rO0FAWfHHrtxLTR9Twiz99J__GDIosRXgPt2ec-1754398411194-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v2/graphql
+
+
+POST /v2/graphql HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=qjgKFwl_XEqR0FUCsr_zvfvQAmoFuznDtIuCiFoRzl4-1754398410888-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v2/graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6701a3c32acc6-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:31 GMT
+Expires: Tue, 05 Aug 2025 13:53:31 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=4ZHCYIpUFscVc_JO1NjXFQhCv6EucwS4k6pnew5GZsw-1754398411887-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v1/graphiql.min.js
+
+
+POST /v1/graphiql.min.js HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.2 Mobile/15E148 Safari/604.1
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=_._B0RFl0MTMH22qdo9GUCdUsdQbG2UD3UrUu0hI0NA-1754398409861-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v1/graphiql.min.js
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6701a3a260f07-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:31 GMT
+Expires: Tue, 05 Aug 2025 13:53:31 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=JXiyc1ywfDYzwgPjn79Ms2UnArJxhSoqyr_Xdqr5STQ-1754398411889-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v2/graphql/schema.yaml
+
+
+POST /v2/graphql/schema.yaml HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=.C_gxGtr1FBSGc0ZmsDyVoChBPof3nh3tnKCsyfTt2Y-1754398410987-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v2/graphql/schema.yaml
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6701a3f8ec9b0-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:31 GMT
+Expires: Tue, 05 Aug 2025 13:53:31 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=0pIZdAmoIjNKy7rJL9vrOwweEKe1Ib36mU0wVgMX4kU-1754398411908-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v2/graphiql.min.js
+
+
+POST /v2/graphiql.min.js HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=j9QuBoYflgmRaYhc9UnQtWB.VPcVC2DD0Ep_UGjkvcU-1754398410877-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v2/graphiql.min.js
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6701a386fe5e4-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:31 GMT
+Expires: Tue, 05 Aug 2025 13:53:31 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=msp_eC8NBaavKMgoz7VQ6OEA0_.TF2NxLnobYXO3OXA-1754398411913-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v3/altair
+
+
+POST /v3/altair HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.32 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=4ZHCYIpUFscVc_JO1NjXFQhCv6EucwS4k6pnew5GZsw-1754398411887-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v3/altair
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6701a6b3ae607-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:31 GMT
+Expires: Tue, 05 Aug 2025 13:53:31 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=VimmMLYEinyy869pyJWj9rYLZ.ipfqQePahsnezT62Q-1754398411924-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v3/api/graphql
+
+
+POST /v3/api/graphql HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686; rv:134.0) Gecko/20100101 Firefox/134.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=JXiyc1ywfDYzwgPjn79Ms2UnArJxhSoqyr_Xdqr5STQ-1754398411889-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v3/api/graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6701a6863c975-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:31 GMT
+Expires: Tue, 05 Aug 2025 13:53:31 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=m9p2K2Id5fJ_.opaokR6X15ll_DdENlC2Xu4xymiXr0-1754398411928-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v2/graphiql.min.css
+
+
+POST /v2/graphiql.min.css HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=UzDHIPzaWeeqlUKcXeofXNKdZzuXu6c_gj8U4W5AIos-1754398410877-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v2/graphiql.min.css
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670208f0d4f16-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:32 GMT
+Expires: Tue, 05 Aug 2025 13:53:32 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=8arKyYkeKcXv_L8nDm6UTDgEKVwdvq612pxw4pHA9aM-1754398412900-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v2/graphql-explorer
+
+
+POST /v2/graphql-explorer HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=UmFjGgH6dZM3Lx_up1.2SknJH57UnseVA4.V4dJ3pYE-1754398410889-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v2/graphql/schema.json
+
+
+POST /v2/graphql/schema.json HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=WveugCvPJLDp9gjyv8Y1zRVPma5WeyocznW6cZFSiAE-1754398410979-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v2/graphql-explorer
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670208eda3e6c-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:32 GMT
+Expires: Tue, 05 Aug 2025 13:53:32 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=62u3s.wkHelwPPbxvI0AcRZu1HiFCHINNWNu.V3MFU4-1754398412905-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v2/graphql/schema.json
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670208c6c8e10-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:32 GMT
+Expires: Tue, 05 Aug 2025 13:53:32 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=6W5cFMRvzg62aYdjUAbae0Hrmw027fwOEPs8.d.ZZ70-1754398412906-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v2/graphiql.php
+
+
+POST /v2/graphiql.php HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=SgnelbZqSAcbw8rUFuTSrivtRogt.8VyvJiCDdt0jTU-1754398410878-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v2/graphiql.php
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670208aa0d6af-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:32 GMT
+Expires: Tue, 05 Aug 2025 13:53:32 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=9IYSD_G7vr4ZFHOOMhU_25Ljbgh.Q3tLLUfrt_8Yf5I-1754398412908-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v3
+
+
+POST /v3 HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=feI.4rO0FAWfHHrtxLTR9Twiz99J__GDIosRXgPt2ec-1754398411194-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v3
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670209face63f-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:32 GMT
+Expires: Tue, 05 Aug 2025 13:53:32 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=oJt8h9l.CDEGdLp9kAZI.BGPEJQGIZrLmLfXR0MWs0g-1754398412909-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v3/explorer
+
+
+POST /v3/explorer HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=qFAqaexO338fqRlUEZW2Bv7QMXgzuoSEnDF9osx3Ilo-1754398411909-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v3/explorer
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670208eb3289e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:32 GMT
+Expires: Tue, 05 Aug 2025 13:53:32 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=9iIg_xS_gVtgO9N8dg4xTsbvnumk_6hmY_WWh_diJSM-1754398412910-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v2/graphiql.js
+
+
+POST /v2/graphiql.js HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) Gecko/20100101 Firefox/91.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=eyEPdezvJV.clLg2nTjhhq36_kIZUJ6Va.1TlPU_ras-1754398410021-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v2/graphiql.js
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670208b54387a-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:32 GMT
+Expires: Tue, 05 Aug 2025 13:53:32 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=8Gkqt.iXn1EpxVY4gNBivzjE_pR.bfGnaND8P6VIV8s-1754398412913-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/subscriptions
+
+
+POST /subscriptions HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=0TRxzhmZXKhiTbfvHJ9xe84GN4fxOMujiGR5VSxNkgY-1754398408857-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/subscriptions
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670208abee5be-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:32 GMT
+Expires: Tue, 05 Aug 2025 13:53:32 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=nPzNPXEwhDEtZckWrvZcEcQKktsS4e27vs21gm.tOVo-1754398412915-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v1/graphql/console
+
+
+POST /v1/graphql/console HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=JER..jx98wXc7GeRD6S14CqOhM8fuOAHGKAk4mjHxl0-1754398409876-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v1/graphql/console
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670209b81177d-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:32 GMT
+Expires: Tue, 05 Aug 2025 13:53:32 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=Idqrg02SyeiCD5alEICIaIogmiQ.cpdi085aDHYbNYE-1754398412925-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v2/explorer
+
+
+POST /v2/explorer HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh, Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=RErbjnr1DHfGSB3gCjqWSxdzwmIsONVuPXCgYinyan0-1754398409897-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v2/explorer
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670209e4c595b-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:32 GMT
+Expires: Tue, 05 Aug 2025 13:53:32 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=5f3SURrUvWM4zwfDflQk9SGS6IvKWgAnfXRu846BG4U-1754398412941-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v3/graphiql/finland
+
+
+POST /v3/graphiql/finland HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=gcI_eYZ1UL4bxURJ_.7SfXRd3QPdaYcgE2JkKXux034-1754398412909-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v3/graphiql/finland
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67020ca5dc9b4-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:32 GMT
+Expires: Tue, 05 Aug 2025 13:53:32 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=EbE7KofVc.vzrfhoO.NVmbEm3U8itDIkPUFSBKTbJOc-1754398412948-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v3/graphiql.min.js
+
+
+POST /v3/graphiql.min.js HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=6W5cFMRvzg62aYdjUAbae0Hrmw027fwOEPs8.d.ZZ70-1754398412906-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v3/graphiql.min.js
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67020c8dcb83d-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:32 GMT
+Expires: Tue, 05 Aug 2025 13:53:32 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=BOfWnayeXxx6RmbmttVCVuOQeyBKvIaOFI8Blm.CsLs-1754398412958-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v3/graphql/schema.xml
+
+
+POST /v3/graphql/schema.xml HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=EbE7KofVc.vzrfhoO.NVmbEm3U8itDIkPUFSBKTbJOc-1754398412948-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v3/graphql/schema.xml
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670211ff8064d-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:33 GMT
+Expires: Tue, 05 Aug 2025 13:53:33 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=MlqsWmptL4eX0Txzd8e3_.l5c7HKLcyFy4IbXGuhQ1U-1754398413006-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v3/playground
+
+
+POST /v3/playground HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.99 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=MlqsWmptL4eX0Txzd8e3_.l5c7HKLcyFy4IbXGuhQ1U-1754398413006-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v3/playground
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67021691b061e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:33 GMT
+Expires: Tue, 05 Aug 2025 13:53:33 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=If.hGqzt.OsJ3NU4K8NMlV9YHbGp2GxB598wGc5j7vU-1754398413059-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v3/graphql/schema.json
+
+
+POST /v3/graphql/schema.json HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:121.0) Gecko/20100101 Firefox/121.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=5f3SURrUvWM4zwfDflQk9SGS6IvKWgAnfXRu846BG4U-1754398412941-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v3/graphql/schema.json
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670274bdad6e5-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:33 GMT
+Expires: Tue, 05 Aug 2025 13:53:33 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=YVuK2z0B80ZvX3HTUt7KRMROzGaS7jtE6q7QW2GlweU-1754398413984-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v3/graphql/schema.yaml
+
+
+POST /v3/graphql/schema.yaml HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:100.0) Gecko/20100101 Firefox/100.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=BOfWnayeXxx6RmbmttVCVuOQeyBKvIaOFI8Blm.CsLs-1754398412958-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v3/graphql/schema.yaml
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670276ea9d321-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:34 GMT
+Expires: Tue, 05 Aug 2025 13:53:34 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=prDDf1VxQUqYEPNGX.yI0YxwMmhUIOzxyczAAO4Xqj8-1754398414004-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v3/graphiql.php
+
+
+POST /v3/graphiql.php HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=IGY6EkVQG25k2FBjHvfvmFmEFzFn3ROic3s7G_Pd3K4-1754398412907-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v3/graphiql.php
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670276ea8c940-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:34 GMT
+Expires: Tue, 05 Aug 2025 13:53:34 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=grwK87Na9h8kqkzalGG2xJPNo0Jslx0HLGmmYaSOrZE-1754398414004-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v3/graphql/console
+
+
+POST /v3/graphql/console HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh, Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Idqrg02SyeiCD5alEICIaIogmiQ.cpdi085aDHYbNYE-1754398412925-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v3/graphql/console
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670275cc88224-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:34 GMT
+Expires: Tue, 05 Aug 2025 13:53:34 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=hJ0awcrevCURz_64XxlF.4uTQ_fc7RNpSQGSsf8fsTM-1754398414009-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v2/graphiql/finland
+
+
+POST /v2/graphiql/finland HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686; rv:134.0) Gecko/20100101 Firefox/134.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=FK.zQKsplea8WgKmms34MlGMGybMjSYwXqcdbjXzLvs-1754398410887-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v2/graphiql/finland
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670276f2a200f-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:34 GMT
+Expires: Tue, 05 Aug 2025 13:53:34 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=6CVCtSbwQoUdtXKbsNYAULt4PetXhd85CluNzqyJ3sg-1754398414010-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v2/graphql/schema.xml
+
+
+POST /v2/graphql/schema.xml HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:123.0) Gecko/20100101 Firefox/123.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=hnBwxPeEq.4nSMsaLb_5Azgp9TZfQIzFEHd8.nDv0lU-1754398410984-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v2/graphql/schema.xml
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670277db03287-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:34 GMT
+Expires: Tue, 05 Aug 2025 13:53:34 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=.4WX_hrKsuUyfMAbqRePmXi7c6i6jyqJd2NAEQ86mgk-1754398414011-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v2/graphql.php
+
+
+POST /v2/graphql.php HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64; rv:133.0) Gecko/20100101 Firefox/133.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=UmFjGgH6dZM3Lx_up1.2SknJH57UnseVA4.V4dJ3pYE-1754398410889-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v2/graphql.php
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6702759278a7d-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:34 GMT
+Expires: Tue, 05 Aug 2025 13:53:34 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=2nFqftUp54onp8ONB9z0a_arrTKH56gAzkKnpZoRuJM-1754398414026-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v4/explorer
+
+
+POST /v4/explorer HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=b.qkjz76WgWuO6nNR2AXULwYDoxFa_d9n3qWSqfLJIc-1754398414004-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v4/explorer
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67027afe7916d-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:34 GMT
+Expires: Tue, 05 Aug 2025 13:53:34 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=PIEnYykoRu4bA1Im6VD91vNv4YNLe2dx3ZYcbYETd.g-1754398414042-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v4/api/graphql
+
+
+POST /v4/api/graphql HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ehj_eT8i8IYEXTek1HCwOZ7KhooDQN5jVrAbQC8e9DI-1754398414004-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v4/api/graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67027affee642-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:34 GMT
+Expires: Tue, 05 Aug 2025 13:53:34 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=Vb_guGiLtpi6a1FD99y7Fjd5c9gk2qgGGRe5b3YXfeA-1754398414042-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v4/graph
+
+
+POST /v4/graph HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Mobile/15E148 Safari/604.1
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=hJ0awcrevCURz_64XxlF.4uTQ_fc7RNpSQGSsf8fsTM-1754398414009-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v4/graph
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67027a9ea8bda-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:34 GMT
+Expires: Tue, 05 Aug 2025 13:53:34 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=LToDMx6P_7TMuEAiZVHg46GE7jT6UKTsv_9Ina9Kj9k-1754398414043-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v4/graphiql.php
+
+
+POST /v4/graphiql.php HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=LToDMx6P_7TMuEAiZVHg46GE7jT6UKTsv_9Ina9Kj9k-1754398414043-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v4/graphiql.php
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67027eb035666-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:34 GMT
+Expires: Tue, 05 Aug 2025 13:53:34 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=IUESM4TSsUdSPEUJumz4_YKkZvTtGfvL2gI.q8lY3Wo-1754398414087-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v4/graphiql/finland
+
+
+POST /v4/graphiql/finland HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=IUESM4TSsUdSPEUJumz4_YKkZvTtGfvL2gI.q8lY3Wo-1754398414087-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v4/graphiql/finland
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6702829bbe5c3-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:34 GMT
+Expires: Tue, 05 Aug 2025 13:53:34 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=cxN1Ae6utBq_glEbMVR4TbFWq_L1dbcZuDTiwOoVnwM-1754398414131-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v3/graphiql
+
+
+POST /v3/graphiql HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=VimmMLYEinyy869pyJWj9rYLZ.ipfqQePahsnezT62Q-1754398411924-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v3/graphiql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6702dcb3550e2-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:35 GMT
+Expires: Tue, 05 Aug 2025 13:53:35 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=4SK2t3OcDStYfcUedA0XWMUZJwm0fIfW9a69p84A1ss-1754398415022-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v3/graph
+
+
+POST /v3/graph HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_16) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.3 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=msp_eC8NBaavKMgoz7VQ6OEA0_.TF2NxLnobYXO3OXA-1754398411913-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v3/graph
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6702dc9c1828c-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:35 GMT
+Expires: Tue, 05 Aug 2025 13:53:35 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=4b_nQuC4TL6ZgQBPEaxGPd_wU6eY4pupOaeJBqyZu1A-1754398415024-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v2/playground
+
+
+POST /v2/playground HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:102.0) Gecko/20100101 Firefox/102.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Ys0oQiqv2ZTKdBhMuATCx_k57Akj0xNb3_K6lVx1cGU-1754398411002-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v2/playground
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6702dc9f31281-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:35 GMT
+Expires: Tue, 05 Aug 2025 13:53:35 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=3H61rO8sgrupKpUIhOk98sFcvLbfn.VwHSiCAA9mnbc-1754398415029-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v3/graphiql.js
+
+
+POST /v3/graphiql.js HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=8arKyYkeKcXv_L8nDm6UTDgEKVwdvq612pxw4pHA9aM-1754398412900-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v3/graphiql.js
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6702dcc0607cf-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:35 GMT
+Expires: Tue, 05 Aug 2025 13:53:35 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=8Io6U2tl9KpLqqxy.UBapROQAVMsCbXcQzPsH23vUXo-1754398415039-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v3/graphql-explorer
+
+
+POST /v3/graphql-explorer HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=8Gkqt.iXn1EpxVY4gNBivzjE_pR.bfGnaND8P6VIV8s-1754398412913-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v3/graphql-explorer
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6702dc9433adc-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:35 GMT
+Expires: Tue, 05 Aug 2025 13:53:35 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=y25uGHA6sGzdL8bsP.j2ZKCDN8EHVex3KthIovADxvg-1754398415050-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v3/graphql.php
+
+
+POST /v3/graphql.php HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=nPzNPXEwhDEtZckWrvZcEcQKktsS4e27vs21gm.tOVo-1754398412915-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v3/graphql.php
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670341bb3a124-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:36 GMT
+Expires: Tue, 05 Aug 2025 13:53:36 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=QJNQIOR2KD5giJb4lw0326XHb1Zi2.gjHEbawuWYdng-1754398416026-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v4/graphiql.min.js
+
+
+POST /v4/graphiql.min.js HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:127.0) Gecko/20100101 Firefox/127.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Vb_guGiLtpi6a1FD99y7Fjd5c9gk2qgGGRe5b3YXfeA-1754398414042-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v4/graphiql.min.js
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670340e64c948-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:36 GMT
+Expires: Tue, 05 Aug 2025 13:53:36 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=MwymmYMn53DQ8ti14LIb_3qFwo69yDHeiGQc2k6QjF4-1754398416028-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v3/graphiql.min.css
+
+
+POST /v3/graphiql.min.css HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.10 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=6W5cFMRvzg62aYdjUAbae0Hrmw027fwOEPs8.d.ZZ70-1754398412906-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v3/graphiql.min.css
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670341827c964-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:36 GMT
+Expires: Tue, 05 Aug 2025 13:53:36 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=eEnfiYih8FErUVbCT6OQKsNNZ4Hdk0J5AmSmsGYsxjM-1754398416028-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v4/graphiql.css
+
+
+POST /v4/graphiql.css HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:133.0) Gecko/20100101 Firefox/133.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=stibN.U7PiLgWg0Bwel5gszDwdjTCsM6ajEU9G6Ejhc-1754398414011-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v4/graphiql.css
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6703418d305dc-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:36 GMT
+Expires: Tue, 05 Aug 2025 13:53:36 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=0zY5NH_AxRWGnh5sR0eLxPeSZJelDPH.R1g.WNoz2go-1754398416034-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v2/api/graphql
+
+
+POST /v2/api/graphql HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=RMOpUxqxs1LuReckLwSWpdMEfpNGChA1nmClFhjC3Wc-1754398409889-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v2/api/graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670341b4f6fbf-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:36 GMT
+Expires: Tue, 05 Aug 2025 13:53:36 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=3tGDWq6YfZnF7pjyfHAvptYETYcca2sLTumg16KWRm8-1754398416035-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v4/graphql.php
+
+
+POST /v4/graphql.php HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=OLwpVKKHDneJQA8yPb6bsa4q4DgtVqXTBbyWqEYnvRo-1754398415025-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v4/graphql.php
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67034090d81af-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:36 GMT
+Expires: Tue, 05 Aug 2025 13:53:36 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=4OEo_.uX6rPYzgo1PHNv.ZajKzxewAudhm_VZkf8EOU-1754398416035-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v4/graphiql.min.css
+
+
+POST /v4/graphiql.min.css HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686; rv:124.0) Gecko/20100101 Firefox/124.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=PIEnYykoRu4bA1Im6VD91vNv4YNLe2dx3ZYcbYETd.g-1754398414042-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v4/graphiql.min.css
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67034083abec0-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:36 GMT
+Expires: Tue, 05 Aug 2025 13:53:36 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=CNo_PZBcJ5ik_CtDivXhQgYggBvyiimV57LXw3FL0KA-1754398416036-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v2/graphql/console
+
+
+POST /v2/graphql/console HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:122.0) Gecko/20100101 Firefox/122.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=Tfuq25hNC2F4..kWKNf1zaGA4mKttKEg7KEqjpaRHEM-1754398410924-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v2/graphql/console
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670341c403b08-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:36 GMT
+Expires: Tue, 05 Aug 2025 13:53:36 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=FLhuhdF1NO16iCPffEynaEAOfA7ytQpDIg1IdHx1u1M-1754398416039-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v1/playground
+
+
+POST /v1/playground HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686; rv:122.0) Gecko/20100101 Firefox/122.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=rGxUlzYgI1yOBD_39CWMIWVmsoJZY8NiJU0Oz.ZScm4-1754398409882-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v1/playground
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670341d6b201c-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:36 GMT
+Expires: Tue, 05 Aug 2025 13:53:36 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=b0ebIIhA75iQH4d4vEXRupFuLJAxJs.vdThsTVP80Yo-1754398416044-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v4/subscriptions
+
+
+POST /v4/subscriptions HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_7_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4.1 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=eEnfiYih8FErUVbCT6OQKsNNZ4Hdk0J5AmSmsGYsxjM-1754398416028-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v4/subscriptions
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67034492cc94b-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:36 GMT
+Expires: Tue, 05 Aug 2025 13:53:36 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=lmFVqVlHXq8lkx.SlSu3WvhbHCMRDGfXVORORkAEr7A-1754398416063-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v4/graphql/schema.json
+
+
+POST /v4/graphql/schema.json HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:135.0) Gecko/20100101 Firefox/135.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=8Io6U2tl9KpLqqxy.UBapROQAVMsCbXcQzPsH23vUXo-1754398415039-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v4/graphql/schema.json
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670348c685985-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:36 GMT
+Expires: Tue, 05 Aug 2025 13:53:36 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=XtOsJK0zTjYWHexHcdADykmQWolixWi1T0NcF3cFkTY-1754398416103-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v4/graphql/schema.xml
+
+
+POST /v4/graphql/schema.xml HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=y25uGHA6sGzdL8bsP.j2ZKCDN8EHVex3KthIovADxvg-1754398415050-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v4/graphql/schema.xml
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670348dc705ce-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:36 GMT
+Expires: Tue, 05 Aug 2025 13:53:36 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=e351UPpKct6ZQOLUdzJ_x9Y1Z2iHqRLQIEEVWsOeIFw-1754398416109-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v1/graphiql.min.css
+
+
+POST /v1/graphiql.min.css HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=qJuBtXySyvRBW7JGOLeKypP9y5LJufssHy.1tLwGD8g-1754398408933-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v1/graphiql.min.css
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67034edaf05bb-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:36 GMT
+Expires: Tue, 05 Aug 2025 13:53:36 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=doDmrxpDIlIupQ7lJx0jf991a75_QyInDmTI0nF1PWY-1754398416203-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v4/graphql
+
+
+POST /v4/graphql HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=cxN1Ae6utBq_glEbMVR4TbFWq_L1dbcZuDTiwOoVnwM-1754398414131-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v4/graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6703a68207abe-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:37 GMT
+Expires: Tue, 05 Aug 2025 13:53:37 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=rz7H7B_A1jO7S4090v4HiPjQpGZcbCXxkrZhEA_y9d0-1754398417039-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v3/graphql
+
+
+POST /v3/graphql HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=MV7qvFFfgdTIbuhpn8R3rf5U8iiX6BwSD4TP7tz485I-1754398412911-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v3/graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6703a6a74879a-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:37 GMT
+Expires: Tue, 05 Aug 2025 13:53:37 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=him_pxgCdq7IJudhYgq63Y4DuZ1jz1dwpdAouDfeA_E-1754398417040-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v4/graphql-explorer
+
+
+POST /v4/graphql-explorer HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=4SK2t3OcDStYfcUedA0XWMUZJwm0fIfW9a69p84A1ss-1754398415022-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v4/graphql-explorer
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6703a5dbe9c19-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:37 GMT
+Expires: Tue, 05 Aug 2025 13:53:37 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=ICzEk0aRk6LImmY8YY56n7GG.ex4TFnPH3ipYOyhYFA-1754398417044-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v4/altair
+
+
+POST /v4/altair HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=YVuK2z0B80ZvX3HTUt7KRMROzGaS7jtE6q7QW2GlweU-1754398413984-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v4/altair
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6703a6a4bf268-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:37 GMT
+Expires: Tue, 05 Aug 2025 13:53:37 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=udLBeCUkVuQZfdNYwh2B13qpkTElpmU6yZPRHZ7m4_s-1754398417047-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v1/graphql/schema.json
+
+
+POST /v1/graphql/schema.json HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:96.0) Gecko/20100101 Firefox/96.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=wC7TaZou0FdeKT.NspfY7lmxy59qvLlqs5rGmzM8Vis-1754398409877-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v1/graphql/schema.json
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6703a69324944-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:37 GMT
+Expires: Tue, 05 Aug 2025 13:53:37 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=R6uUxmy8UMZSUWj8SncC.2DIdVoYcu.tAG5oXvpcCyo-1754398417048-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v4/graphiql
+
+
+POST /v4/graphiql HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:135.0) Gecko/20100101 Firefox/135.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=6CVCtSbwQoUdtXKbsNYAULt4PetXhd85CluNzqyJ3sg-1754398414010-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v4/graphiql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6703a6b6a07ed-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:37 GMT
+Expires: Tue, 05 Aug 2025 13:53:37 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=.2NoF52wFpbfKAhA2gDOknZ5B4onOiyQgFAqP3rAkq4-1754398417060-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v1
+
+
+POST /v1 HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=2qNXbjB50fnPbPDxxmrzJdFdsBOJL_.g.N6.CEEMUDA-1754398408857-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v1
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6703a6aae07f5-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:37 GMT
+Expires: Tue, 05 Aug 2025 13:53:37 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=oMJdL8yQVxBZDuIYtDxA6e0sgRtFjTnG36z26CQJYuU-1754398417071-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v4/graphiql.js
+
+
+POST /v4/graphiql.js HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686; rv:133.0) Gecko/20100101 Firefox/133.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=HvShvoS_WgroX3P.6R_A225uTHJapVo3RjJXJ748qeQ-1754398414027-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v4/graphiql.js
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6703a6da30830-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:37 GMT
+Expires: Tue, 05 Aug 2025 13:53:37 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=Yn8K7sejb3VR9t1LTWSAfROlk4LzIedoOll3kiYB6S4-1754398417074-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v4/graphql/console
+
+
+POST /v4/graphql/console HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=3H61rO8sgrupKpUIhOk98sFcvLbfn.VwHSiCAA9mnbc-1754398415029-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v4/graphql/console
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6703a5b1d2d08-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:37 GMT
+Expires: Tue, 05 Aug 2025 13:53:37 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=chC.L3eqIVlszPCnNBRJhqlnyZA.lByY6V.9R1Mkj_M-1754398417075-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v3/subscriptions
+
+
+POST /v3/subscriptions HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686; rv:134.0) Gecko/20100101 Firefox/134.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=If.hGqzt.OsJ3NU4K8NMlV9YHbGp2GxB598wGc5j7vU-1754398413059-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v3/subscriptions
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6703b5dd881d9-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:37 GMT
+Expires: Tue, 05 Aug 2025 13:53:37 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=nRCxPRxHWfk8XFY97Gkc3XQEcUfMj1celnJIcUtUMO0-1754398417203-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v4/playground
+
+
+POST /v4/playground HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686; rv:127.0) Gecko/20100101 Firefox/127.0
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=UT93zgqNhyAIjFR8SlUdYqmSK57h5BUfciNE6ovc3VQ-1754398416028-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v4/playground
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670415b65397a-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:38 GMT
+Expires: Tue, 05 Aug 2025 13:53:38 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=qGgCI5k_y.R4OqsPOxNAREIaYo_mJ19FkG73D3FXyI8-1754398418153-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v1/altair
+
+
+POST /v1/altair HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=OW8tE4z.XUyDjdmDuYK4rxTCXwtQqGPnFT55NuyO0kU-1754398408858-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v1/altair
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67047092f064d-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:39 GMT
+Expires: Tue, 05 Aug 2025 13:53:39 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=TGlENe8HXck7FDDlmoEZuojgDAGmAxKoWkjii6tB2Ww-1754398419066-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v4/graphql/schema.yaml
+
+
+POST /v4/graphql/schema.yaml HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/117.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=jSQgYd_A.QEiPQnmnO1MfIEe7UZ2kkCBG7EbWWb1HZc-1754398416026-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v4/graphql/schema.yaml
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6704d59ec05df-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:40 GMT
+Expires: Tue, 05 Aug 2025 13:53:40 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=cS0JClxEOZNx2vaDper7IUtGs9EvoQ8Pqlxj2ZcjvW8-1754398420102-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v3/graphiql.css
+
+
+POST /v3/graphiql.css HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=lf6YQEfFpwx21h8MTafyHKpNMZk7UIgK.tq.CUmxBG4-1754398411928-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v3/graphiql.css
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67053db99c950-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:41 GMT
+Expires: Tue, 05 Aug 2025 13:53:41 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=megENQLdvKwimBSwLis1.ZayFBVNyyq7qEkBiympu7k-1754398421137-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[graphql-detect] Dumped HTTP request for https://custody.bitpanda.com/v2/altair
+
+
+POST /v2/altair HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Content-Length: 67
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ovcG5FrL.52XMOrMuwMy6Maeh3szLChRSjEgqUd.ni4-1754398409887-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query IntrospectionQuery{__schema {queryType { name }}}"}
+[graphql-detect] Dumped HTTP response https://custody.bitpanda.com/v2/altair
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670541c2ce5ff-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:41 GMT
+Expires: Tue, 05 Aug 2025 13:53:41 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=azjcmlbD2NDuIKT0MLptEA2dF_uWsOnnE6VCJJJ5xZM-1754398421151-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

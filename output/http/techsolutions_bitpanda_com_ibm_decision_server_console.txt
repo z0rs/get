@@ -1,0 +1,26 @@
+[ibm-decision-server-console] Dumped HTTP request for https://techsolutions.bitpanda.com/res/login.jsf
+
+
+GET /res/login.jsf HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ibm-decision-server-console] Dumped HTTP response https://techsolutions.bitpanda.com/res/login.jsf
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:19 GMT
+Location: ./login.jsf/
+Via: 1.1 5130f24afa7aed6f49e6e72496306d12.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: vHs7Ngk8mMnX6B_B0U9ymT2DogyDBU5XMS3niD-r2QzPlvgKLR96Tg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

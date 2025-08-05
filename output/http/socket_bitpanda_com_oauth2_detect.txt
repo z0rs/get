@@ -1,0 +1,39 @@
+[oauth2-detect] Dumped HTTP request for https://socket.bitpanda.com/oauth/token
+
+
+POST /oauth/token HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 117
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=ZEbCM/lh8QhcDZZ6e4zNV1ELIw+CuRepZvnEmLoGvAl6xoI3cvPMWZVY1D8AVnBImJODoJXVya25JQUgKsSDu4Xx4recLM5bHYQ6g5PFczpiNOCNN7vgEukr6rwB; AWSALBCORS=ZEbCM/lh8QhcDZZ6e4zNV1ELIw+CuRepZvnEmLoGvAl6xoI3cvPMWZVY1D8AVnBImJODoJXVya25JQUgKsSDu4Xx4recLM5bHYQ6g5PFczpiNOCNN7vgEukr6rwB
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+grant_type=authorization_code&client_id=xxx&redirect_uri=https%3A%2F%2Fprojectdiscovery.io&code=xxx&client_secret=xxx
+[oauth2-detect] Dumped HTTP response https://socket.bitpanda.com/oauth/token
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:35 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=B7SJ9j1PuiWjqxBtkJEuFAnSv7yAemLp9sedpFGxqHLn4otcC+JcWNd82YG/fGnJbYj751ZEGT/tXbdwikl/5JsdN9dKL/xjfHVnz49NC7OlFpE8yzaZZDpPKrWp; Expires=Tue, 12 Aug 2025 12:52:35 GMT; Path=/
+Set-Cookie: AWSALBCORS=B7SJ9j1PuiWjqxBtkJEuFAnSv7yAemLp9sedpFGxqHLn4otcC+JcWNd82YG/fGnJbYj751ZEGT/tXbdwikl/5JsdN9dKL/xjfHVnz49NC7OlFpE8yzaZZDpPKrWp; Expires=Tue, 12 Aug 2025 12:52:35 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 999e0c944d96e4c2945aab8389961e9c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: xIJHH0l8uTxhkatFRLHYc5kDGwYPp1W5AAWVHBS-mwBDnAA5szFvvw==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 11
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

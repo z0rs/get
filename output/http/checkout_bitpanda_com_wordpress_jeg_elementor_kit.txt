@@ -1,0 +1,29 @@
+[wordpress-jeg-elementor-kit] Dumped HTTP request for http://checkout.bitpanda.com/wp-content/plugins/jeg-elementor-kit/readme.txt
+
+
+GET /wp-content/plugins/jeg-elementor-kit/readme.txt HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686; rv:125.0) Gecko/20100101 Firefox/125.0
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-jeg-elementor-kit] Dumped HTTP response http://checkout.bitpanda.com/wp-content/plugins/jeg-elementor-kit/readme.txt
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:12 GMT
+Location: https://checkout.bitpanda.com/wp-content/plugins/jeg-elementor-kit/readme.txt
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

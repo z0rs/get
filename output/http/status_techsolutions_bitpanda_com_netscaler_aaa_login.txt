@@ -1,0 +1,35 @@
+[netscaler-aaa-login] Dumped HTTP request for https://status.techsolutions.bitpanda.com/logon/LogonPoint/tmindex.html
+
+
+GET /logon/LogonPoint/tmindex.html HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[netscaler-aaa-login] Dumped HTTP response https://status.techsolutions.bitpanda.com/logon/LogonPoint/tmindex.html
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 0cc202c9-1b93-490a-bdeb-71e4a651f286
+Atl-Traceid: 0cc202c91b93490abdeb71e4a651f286
+Date: Tue, 05 Aug 2025 12:52:14 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=68,atl-edge-internal;dur=4,atl-edge-upstream;dur=66,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 ffa8ec5cfe61dcaaebc108ff8c867054.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: NYPKo1YK2DWuTym5nRfgEWlgsnZJAenQ2aJiU_LisUSf-XaNd97G1g==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 157262480
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

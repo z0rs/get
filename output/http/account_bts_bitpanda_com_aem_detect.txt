@@ -1,0 +1,40 @@
+[aem-detect] Dumped HTTP request for https://account.bts.bitpanda.com/libs/granite/core/content/login/favicon.ico
+
+
+GET /libs/granite/core/content/login/favicon.ico HTTP/1.1
+Host: account.bts.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.6 Mobile/15E148 Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[aem-detect] Dumped HTTP response https://account.bts.bitpanda.com/libs/granite/core/content/login/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: MISS
+Cf-Ray: 96a66a1e7d92c950-IAD
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:27 GMT
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Server: cloudflare
+Set-Cookie: _cfuvid=9MwiZhWIypVzA.CkQYik1l4eFdjjlIU6Q2tMUU6AXdU-1754398167199-0.0.1.1-604800000; path=/; domain=.frontegg.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Vary: Accept-Encoding
+Via: 1.1 e67eec39bafe7d4b59266632bc2a9886.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: khEtfkLJLYqaWjNp_lRTImqfI1xusGqoXSptwpFKC8XIplWTtuVt4g==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+{"errors":["The requested URL was not found on this server."]}

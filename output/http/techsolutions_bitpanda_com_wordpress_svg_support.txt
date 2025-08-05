@@ -1,0 +1,29 @@
+[wordpress-svg-support] Dumped HTTP request for https://techsolutions.bitpanda.com/wp-content/plugins/svg-support/readme.txt
+
+
+GET /wp-content/plugins/svg-support/readme.txt HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_6_1) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-svg-support] Dumped HTTP response https://techsolutions.bitpanda.com/wp-content/plugins/svg-support/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:51 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 e401756dd494b6bbc4d871b5300eb096.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: B2eUMI1o5aUuVXPTLDzCU7w3mO0BReltH5xXWIuAF3g7mY0H5XKW9Q==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: ksMWd76+FFJ25QAJV827ponFkYAk/tOOqqLHbkkdg9dJmqVb1RIuxDxiKE33/mDwDPPDlWE0oUE=
+X-Amz-Request-Id: 9V959X8826SAJKMR
+X-Cache: Error from cloudfront
+
+Not Found

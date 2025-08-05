@@ -1,0 +1,26 @@
+[bolt-cms-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/bolt/login
+
+
+GET /bolt/login HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.4 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[bolt-cms-panel] Dumped HTTP response https://techsolutions.bitpanda.com/bolt/login
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Location: ./login/
+Via: 1.1 ef81d2c0d5984a166a5467acd7c2d88a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: TnrMZu78oqXGcPB-lH93LMLsy4PbQQyqDPmgqkXRevZC4YUFItIbww==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

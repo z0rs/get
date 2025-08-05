@@ -1,0 +1,20 @@
+[dns-waf-detect] Dumped DNS request for lbbwsupport.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 47431
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;lbbwsupport.bitpanda.com.	IN	 CNAME
+
+[dns-waf-detect] Dumped DNS request for lbbwsupport.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 20005
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;lbbwsupport.bitpanda.com.	IN	 NS
+

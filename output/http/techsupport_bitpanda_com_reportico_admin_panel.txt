@@ -1,0 +1,78 @@
+[reportico-admin-panel] Dumped HTTP request for http://techsupport.bitpanda.com/run.php?project=admin&execute_mode=ADMIN&clear_session=1
+
+
+GET /run.php?project=admin&execute_mode=ADMIN&clear_session=1 HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[reportico-admin-panel] Dumped HTTP response http://techsupport.bitpanda.com/run.php?project=admin&execute_mode=ADMIN&clear_session=1
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66e6a8c29e2ca-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:22 GMT
+Expires: Tue, 05 Aug 2025 13:52:22 GMT
+Location: https://techsupport.bitpanda.com/run.php?project=admin&execute_mode=ADMIN&clear_session=1
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=L5bB1SU1yCSebiBy2duMkCo2Iz6nBHm07gz%2BDSk%2B8318fZ7G%2BRjMgO3MVL%2BEJdkHlXtz%2FHIT7xlCjODlOzJ8fJmp0oeAQn%2B1TT3LYAMZGcAc2nQLBduA1NP%2BZyS%2Bs3OyPEL2HLpa9MUMgQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=QqKyNFeHGA.xW_AItI5rbu.pgYyoCBj4Z2WvSpY7J_8-1754398342-1.0.1.1-pFhpMEBCF6e23E.z.He.ptXh8pjXhAD6R8XoEiu_VpkbPdBZrfwS6CVJzacXg1Yavw1Kk9AFYncHB1wjkzlgpRybwQCF47DMahHGs9lwO5M; path=/; expires=Tue, 05-Aug-25 13:22:22 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=ZEpV6ivybPhGnWXqaQ8vPcHNMIGKQ4KTsxIOKTb71XQ-1754398342827-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[reportico-admin-panel] Dumped HTTP request for http://techsupport.bitpanda.com/reportico/run.php?project=admin&execute_mode=ADMIN&clear_session=1
+
+
+GET /reportico/run.php?project=admin&execute_mode=ADMIN&clear_session=1 HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686; rv:127.0) Gecko/20100101 Firefox/127.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[reportico-admin-panel] Dumped HTTP response http://techsupport.bitpanda.com/reportico/run.php?project=admin&execute_mode=ADMIN&clear_session=1
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66e7d3c49e5b6-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:25 GMT
+Expires: Tue, 05 Aug 2025 13:52:25 GMT
+Location: https://techsupport.bitpanda.com/reportico/run.php?project=admin&execute_mode=ADMIN&clear_session=1
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=6frTHD8VYBZSeFV3aqosn5FTkh5LEV1rWCTPhjEKyKBr3ywhpc191M7wS4C1hzISn1%2BYAuiOd3FknJKQalVa6qKhU%2F2IKkVOy7Jou7oOWvyqHPqGQojasVm8QuA3rb4Jq%2FlGU5U4jVoWcg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=SGRSuC5rVK3KOz1nA47P9RPJ7VaFifZFPrhzuKvw6Uw-1754398345-1.0.1.1-uawdAcnncVQsByYcE0mOiOjrrNSB6a4TxbsI.Q0aYR338.pNrHKsczHn.bjAI6bss_WP9r7Zw5bYh2ek5aogpYE9.S31wKXte8BVjKgIQ.I; path=/; expires=Tue, 05-Aug-25 13:22:25 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=O47z0oEE15l0VfEIiZfTAAZ7qSND7tJMoY6oeThqwoU-1754398345824-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

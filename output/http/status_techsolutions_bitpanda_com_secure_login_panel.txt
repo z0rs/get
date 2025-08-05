@@ -1,0 +1,35 @@
+[secure-login-panel] Dumped HTTP request for https://status.techsolutions.bitpanda.com/login/sls/auth
+
+
+GET /login/sls/auth HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[secure-login-panel] Dumped HTTP response https://status.techsolutions.bitpanda.com/login/sls/auth
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 66944f03-e1a6-4854-b48f-f2bf56e16266
+Atl-Traceid: 66944f03e1a64854b48ff2bf56e16266
+Date: Tue, 05 Aug 2025 12:53:15 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=4,atl-edge-upstream;dur=62,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 6ec872fa8051a500a5a9ab5ec50a79ba.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: LJTPkFCRfW2fusHz4bgVmyhO1E-pF0l9YhEVVJx8CH9HblEKw4NZ9g==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 706694140
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

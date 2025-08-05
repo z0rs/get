@@ -1,0 +1,30 @@
+[pterodactyl-panel] Dumped HTTP request for https://advanced.bitpanda.com/auth/login
+
+
+GET /auth/login HTTP/1.1
+Host: advanced.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/17.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _ava_csrf=MTc1NDM5ODEzMnxJbTFLV2xOYU0xQXpaVk0yTVRnNGQwZE5VVkpDVVRGSFltRklkRGQ1VGtkbFVIZ3ZjRVV2VG1KWloyTTlJZ289fKJP_4w0njSvNJIudSGTj5zmPLvdwX5aErvdGNks_7hG; csrf=MTc1NDM5ODEzNnxyTnQ1VnF3NG9QQ0QwMTdlNnc1bzFpbFJQMjBKYVdOUmNDTXlGeDNZUkMycHI3R3NLazlTSjlIX1dtYWdtNU9BZG9ENTFYQW1PdkdEelp0bjk5aTEybjlHRjJDaUh6cG1Uc3J4ekpFRzVPd0JnZDJjOVNuMldFcmtraFRDcVdrdklpQT18WT2aDNxKAs6kI7zJFPtqpnJuVkkhj15utaUTuGunNvY=
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[pterodactyl-panel] Dumped HTTP response https://advanced.bitpanda.com/auth/login
+
+HTTP/1.1 302 Found
+Connection: close
+Alt-Svc: clear
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:05 GMT
+Location: https://account.bitpanda.com/authorization/oauth/authorize?client_id=14&redirect_uri=https%3A%2F%2Ffusion.bitpanda.com%2Fauth%2Fcallback&response_type=code&scope=openid+profile+email&state=aa130364-ebd0-40ad-ad4f-edfb7a939120
+Set-Cookie: csrf=MTc1NDM5ODE0NXxLVXlQN2FUdk1OLUhDSWN0MWQ2Zk04bm9SUXhwZEp6LU55M1RFRjlsQ09XOUlUcXk0bDFValEyY2txamJLbzdsSF9VQ2VvVTNVcEVNVDEyUzIyVk9hWGZEX1U1dTJHb0pGWnl5RFhaajdFSHI0NEJWZnN6ckIzaEQxLWM4bTdaZWg3QT18NKmNh_3ygv5O0OdgGpR_1oZNkq62F-Auz2a2BjbL_7Y=; Path=/; Expires=Tue, 05 Aug 2025 12:54:05 GMT; Max-Age=300; HttpOnly; Secure
+Vary: Origin
+Vary: Cookie
+Via: 1.1 google
+X-Csrf-Token: ZS1/Mx7S3D9SKQ1UPhm4nT6FG60PgPp/F/mR/yVSNhr9uy1UbSWlEefawVIPHfnebx5z1nRIK+Eo5njs1glUHQ==
+Content-Length: 0
+
+

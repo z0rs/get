@@ -1,0 +1,50 @@
+[osasi-panel] Dumped HTTP request for https://bts-custody.bitpanda.com/users/login
+
+
+GET /users/login HTTP/1.1
+Host: bts-custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/107.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=g0yyZqjqJqLmMjqLxLa94Z3pCPH7iw9AWHxCz6eV4j8-1754398150883-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[osasi-panel] Dumped HTTP response https://bts-custody.bitpanda.com/users/login
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Age: 369594
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c10ce37071-IAD
+Content-Disposition: inline; filename="index.html"
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:11 GMT
+Last-Modified: Fri, 01 Aug 2025 06:09:17 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=S6a3BOa7mzX7SivX1C2RzUw2jjLCMyTB0qecfdsc.Tg-1754398151879-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::lbmvt-1754398151867-5607fb81cea3
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bitpanda Custody</title>
+    <script type="module" crossorigin src="/assets/index-CouF3uFo.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-B3jGpFCu.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+

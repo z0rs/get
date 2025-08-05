@@ -1,0 +1,37 @@
+[wordpress-wps-hide-login] Dumped HTTP request for http://localization.webhooks.bitpanda.com/wp-content/plugins/wps-hide-login/readme.txt
+
+
+GET /wp-content/plugins/wps-hide-login/readme.txt HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=7RRu7a9vXiYSoiYrQlVMD8vzc.mEbCNU3hC7rhLaoxA-1754398530206-0.0.1.1-604800000; _cfuvid=reY6TpS.slYnIS0eJx2PH1C2udU5TgkTxxnQd1S77dE-1754398546082-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-wps-hide-login] Dumped HTTP response http://localization.webhooks.bitpanda.com/wp-content/plugins/wps-hide-login/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a673a74c2781b8-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:55:57 GMT
+Expires: Tue, 05 Aug 2025 13:55:57 GMT
+Location: https://localization.webhooks.bitpanda.com/wp-content/plugins/wps-hide-login/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=EgqQDu7Uho9tLDC.JwEpkfOXu9BcrzCU1BlGUvmMTn8-1754398557398-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

@@ -1,0 +1,291 @@
+[phpmyadmin-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/phpMyAdmin/
+
+
+GET /phpMyAdmin/ HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686; rv:125.0) Gecko/20100101 Firefox/125.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://brokerize-api.bitpanda.com/phpMyAdmin/
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669ba7eedd6d1-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:10 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=jROCBENPNVPmmUwzrhqg3600mb2wI.d0LFJi.tc1XDw-1754398150906-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[phpmyadmin-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://brokerize-api.bitpanda.com
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c10d577fc3-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:11 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=RRYkiV12SOigcsUBUyNYPHPu.tB.WNcju1LVqzrwunc-1754398151965-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[phpmyadmin-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/administrator/components/com_joommyadmin/phpmyadmin/
+
+
+GET /administrator/components/com_joommyadmin/phpmyadmin/ HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://brokerize-api.bitpanda.com/administrator/components/com_joommyadmin/phpmyadmin/
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669da8b84e6ec-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:16 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=IBvnTSxVlsuTi_MfvJ6eoKMQS7w4JXXEAoGisjLl8ZY-1754398156045-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[phpmyadmin-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/blog/phpmyadmin/
+
+
+GET /blog/phpmyadmin/ HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/forum/phpmyadmin/
+
+
+GET /forum/phpmyadmin/ HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/php/phpmyadmin/
+
+
+GET /php/phpmyadmin/ HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/web/phpmyadmin/
+
+
+GET /web/phpmyadmin/ HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686; rv:127.0) Gecko/20100101 Firefox/127.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/typo3/phpmyadmin/
+
+
+GET /typo3/phpmyadmin/ HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/phpMyAdmin/index.php
+
+
+GET /phpMyAdmin/index.php HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/admin/phpmyadmin/
+
+
+GET /admin/phpmyadmin/ HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/105.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000; _cfuvid=K1F1Z.3IxXiqdcwvMIULVdvvsXjRaRIDAMzW9TcgUs4-1754398166133-0.0.1.1-604800000; _cfuvid=3PKavczuo6lNFDHxb.p9XozuA.wOp71M3EaQOdR6dEs-1754398180963-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://brokerize-api.bitpanda.com/admin/phpmyadmin/
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a7c3df6f3ed-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:41 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=CtZuJgLr.JmnJvmU61F6TpBmbwj3P5X3iZqIz5D5qk0-1754398181912-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[phpmyadmin-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/_phpmyadmin/
+
+
+GET /_phpmyadmin/ HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686; rv:130.0) Gecko/20100101 Firefox/130.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000; _cfuvid=K1F1Z.3IxXiqdcwvMIULVdvvsXjRaRIDAMzW9TcgUs4-1754398166133-0.0.1.1-604800000; _cfuvid=3PKavczuo6lNFDHxb.p9XozuA.wOp71M3EaQOdR6dEs-1754398180963-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://brokerize-api.bitpanda.com/_phpmyadmin/
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a7c3b5b0aa1-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:41 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=lxABjDmE74Cm3FTEVw3OTdli3C1oGmQHGxxQC2SoAqg-1754398181912-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[phpmyadmin-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/xampp/phpmyadmin/
+
+
+GET /xampp/phpmyadmin/ HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000; _cfuvid=K1F1Z.3IxXiqdcwvMIULVdvvsXjRaRIDAMzW9TcgUs4-1754398166133-0.0.1.1-604800000; _cfuvid=3PKavczuo6lNFDHxb.p9XozuA.wOp71M3EaQOdR6dEs-1754398180963-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://brokerize-api.bitpanda.com/xampp/phpmyadmin/
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66aa75cdf1769-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:49 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=y1MPo81ki4b4juybP4du4NnA4_HkMEQa8ZAOon8.u0s-1754398189018-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[phpmyadmin-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/apache-default/phpmyadmin/
+
+
+GET /apache-default/phpmyadmin/ HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000; _cfuvid=K1F1Z.3IxXiqdcwvMIULVdvvsXjRaRIDAMzW9TcgUs4-1754398166133-0.0.1.1-604800000; _cfuvid=3PKavczuo6lNFDHxb.p9XozuA.wOp71M3EaQOdR6dEs-1754398180963-0.0.1.1-604800000; _cfuvid=0IKkPyETML8jguaM3oFmzTtAp7wdI6Bwtuo58rW1JJc-1754398195935-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/phpma/
+
+
+GET /phpma/ HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000; _cfuvid=K1F1Z.3IxXiqdcwvMIULVdvvsXjRaRIDAMzW9TcgUs4-1754398166133-0.0.1.1-604800000; _cfuvid=3PKavczuo6lNFDHxb.p9XozuA.wOp71M3EaQOdR6dEs-1754398180963-0.0.1.1-604800000; _cfuvid=0IKkPyETML8jguaM3oFmzTtAp7wdI6Bwtuo58rW1JJc-1754398195935-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/phpmyadmin/
+
+
+GET /phpmyadmin/ HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000; _cfuvid=K1F1Z.3IxXiqdcwvMIULVdvvsXjRaRIDAMzW9TcgUs4-1754398166133-0.0.1.1-604800000; _cfuvid=3PKavczuo6lNFDHxb.p9XozuA.wOp71M3EaQOdR6dEs-1754398180963-0.0.1.1-604800000; _cfuvid=0IKkPyETML8jguaM3oFmzTtAp7wdI6Bwtuo58rW1JJc-1754398195935-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

@@ -1,0 +1,38 @@
+[tools4ever-ssrpm-panel] Dumped HTTP request for http://affiliates.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=20Joq7IrkJZX7ge68vM8S9JILcKvKA1RjuK4jv2_Pj0-1754398164883-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[tools4ever-ssrpm-panel] Dumped HTTP response http://affiliates.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66a1a9af607b0-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:26 GMT
+Expires: Tue, 05 Aug 2025 13:49:26 GMT
+Location: https://affiliates.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=OCh3EYgGU2N1b9RzgaUCA69_H_YOiu7TJSoLQstJDQQ-1754398166205-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

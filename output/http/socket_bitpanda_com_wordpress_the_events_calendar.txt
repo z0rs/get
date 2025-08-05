@@ -1,0 +1,37 @@
+[wordpress-the-events-calendar] Dumped HTTP request for https://socket.bitpanda.com/wp-content/plugins/the-events-calendar/readme.txt
+
+
+GET /wp-content/plugins/the-events-calendar/readme.txt HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=iPfHVv5nI+aitT6dVNkaE9nOAkB5RgnCcRAfZZ/ar7jZPlFhLkn1Bh+O0G2mLVQu70Nq+2vttxPC74L20Q8LQDJvMB0typrR/jDc6h+PgnBEtxxi41B2OfX+9TJ0; AWSALBCORS=iPfHVv5nI+aitT6dVNkaE9nOAkB5RgnCcRAfZZ/ar7jZPlFhLkn1Bh+O0G2mLVQu70Nq+2vttxPC74L20Q8LQDJvMB0typrR/jDc6h+PgnBEtxxi41B2OfX+9TJ0
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-the-events-calendar] Dumped HTTP response https://socket.bitpanda.com/wp-content/plugins/the-events-calendar/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:46 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=awwLU8VBmUCDbLNSZoRCf2PUtOrTJCsraeVhCx1ipGy0I72w5mnyJj621G8rKJTLbBhyQoCWJXDf5bNn4Tes7/TGWeFHE2I31H00/WSzzht1odWV2dfFOMb/Rm2B; Expires=Tue, 12 Aug 2025 12:52:46 GMT; Path=/
+Set-Cookie: AWSALBCORS=awwLU8VBmUCDbLNSZoRCf2PUtOrTJCsraeVhCx1ipGy0I72w5mnyJj621G8rKJTLbBhyQoCWJXDf5bNn4Tes7/TGWeFHE2I31H00/WSzzht1odWV2dfFOMb/Rm2B; Expires=Tue, 12 Aug 2025 12:52:46 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 7c52bc60e0da5f557ed6047264a41c18.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: l0Be3b7jRfHgU8GmTxY7rapbSFHlb2Z3Z-2nEkX4stTzY3JPnPQneQ==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 4
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

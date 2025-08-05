@@ -1,0 +1,89 @@
+[oidc-detect] Dumped HTTP request for https://account.bts.bitpanda.com/.well-known/openid-configuration
+
+
+GET /.well-known/openid-configuration HTTP/1.1
+Host: account.bts.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oidc-detect] Dumped HTTP response https://account.bts.bitpanda.com/.well-known/openid-configuration
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 914
+Accept-Ranges: bytes
+Cache-Control: no-transform
+Cf-Cache-Status: MISS
+Cf-Ray: 96a66ac738d3b83d-IAD
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:54 GMT
+Frontegg-Trace-Id: 08d0922d16e2b2bc47fd3e9772d1f0a4
+Last-Modified: Tue, 05 Aug 2025 12:49:54 GMT
+Origin-Agent-Cluster: ?1
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: _cfuvid=aDmkyE7wS5mnS7ZxjH.Yl09RTexR5ZZsrgF40gTWons-1754398194206-0.0.1.1-604800000; path=/; domain=.frontegg.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Vary: Accept-Encoding
+Via: 1.1 e67eec39bafe7d4b59266632bc2a9886.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: M3ayhMT9nwe4IHjscpZbcyCOsoW6adnKA681Ew1HTSHARlU22QAU8A==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+{"issuer":"https://account.bts.bitpanda.com","authorization_endpoint":"https://account.bts.bitpanda.com/oauth/authorize","token_endpoint":"https://account.bts.bitpanda.com/oauth/token","userinfo_endpoint":"https://account.bts.bitpanda.com/identity/resources/users/v2/me","jwks_uri":"https://account.bts.bitpanda.com/.well-known/jwks.json","scopes_supported":["openid","profile","email"],"response_types_supported":["code"],"response_modes_supported":["query"],"grant_types_supported":["authorization_code","refresh_token","client_credentials","urn:ietf:params:oauth:grant-type:token-exchange"],"subject_types_supported":["public"],"id_token_signing_alg_values_supported":["RS256","ES256"],"token_endpoint_auth_methods_supported":["client_secret_basic","client_secret_post"],"token_endpoint_auth_signing_alg_values_supported":["RS256","ES256"],"end_session_endpoint":"https://account.bts.bitpanda.com/oauth/logout"}
+[oidc-detect] Dumped HTTP request for https://account.bts.bitpanda.com/.well-known/openid-configuration
+
+
+GET /.well-known/openid-configuration HTTP/1.1
+Host: account.bts.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[oidc-detect] Dumped HTTP response https://account.bts.bitpanda.com/.well-known/openid-configuration
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 914
+Accept-Ranges: bytes
+Age: 51
+Cache-Control: no-transform
+Cf-Cache-Status: HIT
+Cf-Ray: 96a66c07b9bb0583-IAD
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:50:45 GMT
+Frontegg-Trace-Id: 08d0922d16e2b2bc47fd3e9772d1f0a4
+Last-Modified: Tue, 05 Aug 2025 12:49:54 GMT
+Origin-Agent-Cluster: ?1
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: _cfuvid=CjbQ2jar.u6GXif7nuHQUTdJALe21_b20dW2iyAKHVY-1754398245143-0.0.1.1-604800000; path=/; domain=.frontegg.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Vary: Accept-Encoding
+Via: 1.1 ec809871438c11b540493503de981368.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 2iDXDGhAFb-fIvkAdCpQuCEmZG2LX190HxkYrXue6wqtYBpuhQQL2g==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+{"issuer":"https://account.bts.bitpanda.com","authorization_endpoint":"https://account.bts.bitpanda.com/oauth/authorize","token_endpoint":"https://account.bts.bitpanda.com/oauth/token","userinfo_endpoint":"https://account.bts.bitpanda.com/identity/resources/users/v2/me","jwks_uri":"https://account.bts.bitpanda.com/.well-known/jwks.json","scopes_supported":["openid","profile","email"],"response_types_supported":["code"],"response_modes_supported":["query"],"grant_types_supported":["authorization_code","refresh_token","client_credentials","urn:ietf:params:oauth:grant-type:token-exchange"],"subject_types_supported":["public"],"id_token_signing_alg_values_supported":["RS256","ES256"],"token_endpoint_auth_methods_supported":["client_secret_basic","client_secret_post"],"token_endpoint_auth_signing_alg_values_supported":["RS256","ES256"],"end_session_endpoint":"https://account.bts.bitpanda.com/oauth/logout"}

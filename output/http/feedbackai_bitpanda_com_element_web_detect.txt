@@ -1,0 +1,90 @@
+[element-web-detect] Dumped HTTP request for http://feedbackai.bitpanda.com/manifest.json
+
+
+GET /manifest.json HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/107.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=G.Q._tmSGI.UQrI9i9C8GuhvvFP61c3g_PfYd9yCtiM-1754398372827-0.0.1.1-604800000; _cfuvid=mPnagOF1seyFc7.bI8Rd1o_YHYG3_PFSZIRPDyipXGs-1754398391833-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[element-web-detect] Dumped HTTP response http://feedbackai.bitpanda.com/manifest.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a67013fc88f24a-IAD
+Date: Tue, 05 Aug 2025 12:53:31 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[element-web-detect] Dumped HTTP response http://feedbackai.bitpanda.com/manifest.json
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67000ae6d6fa3-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:27 GMT
+Expires: Tue, 05 Aug 2025 13:53:27 GMT
+Location: https://feedbackai.bitpanda.com/manifest.json
+Server: cloudflare
+Set-Cookie: _cfuvid=Yr9snZ_JbotY8DpR1lmWGCNCE4L4QxXzgiZgaexQMrw-1754398407848-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[element-web-detect] Dumped HTTP request for http://feedbackai.bitpanda.com/version
+
+
+GET /version HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=PFjUvoNGBaUxz9NIWuSD.QeOzxDWyt77WtnLF4kZ30Y-1754398410039-0.0.1.1-604800000; _cfuvid=oyRsewHfoJ0mXIwaDthidZ6dffMilXz2HXhkVLN1H18-1754398427179-0.0.1.1-604800000; _cfuvid=.uk0CqLqDfOvI4BTe7zbPbKispbl40GXigsgGEcsC9k-1754398441927-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[element-web-detect] Dumped HTTP response http://feedbackai.bitpanda.com/version
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670da5c925944-IAD
+Date: Tue, 05 Aug 2025 12:54:02 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[element-web-detect] Dumped HTTP response http://feedbackai.bitpanda.com/version
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670da0860dab8-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:02 GMT
+Expires: Tue, 05 Aug 2025 13:54:02 GMT
+Location: https://feedbackai.bitpanda.com/version
+Server: cloudflare
+Set-Cookie: _cfuvid=zSUTsvt_zXYcA4TGWYAfSikPj6R.x7kPOrBsA.db9Ys-1754398442594-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

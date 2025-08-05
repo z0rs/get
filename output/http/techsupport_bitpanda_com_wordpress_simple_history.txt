@@ -1,0 +1,39 @@
+[wordpress-simple-history] Dumped HTTP request for http://techsupport.bitpanda.com/wp-content/plugins/simple-history/readme.txt
+
+
+GET /wp-content/plugins/simple-history/readme.txt HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: __cf_bm=.82EytjUvxZvQlWGoxB_4OL5MtGyetk1QCGvpCJfhQs-1754398366-1.0.1.1-YoQ6kpAYGN9YYoajICVR4q3Lu8zLr8xuR3SS0fAYYHRoHR4WzXS_opLEgatstWHNGY4ES2RmvcLzdwSJ6ANHKRhWNO_udaWtrMCyv8OptwM; _cfuvid=7R0IaCj2VBRvB7rDydoviVfkOniFu8pNCOeQo5bwi7U-1754398366854-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-simple-history] Dumped HTTP response http://techsupport.bitpanda.com/wp-content/plugins/simple-history/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f06bfbab4ba-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:47 GMT
+Expires: Tue, 05 Aug 2025 13:52:47 GMT
+Location: https://techsupport.bitpanda.com/wp-content/plugins/simple-history/readme.txt
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=IrOaNQJ94qfPvW%2BBWVo0GMvykOFenGEozji7SOpmxO7eBraS76JDsOeji9Yyc0ZwOWz%2BJQgYfUWvs0hb8JcOEa%2Bc9AwnhPdFSprYV%2B8mr0PFqNDJp%2FnAF%2BtyaCHnCjjFDMhgVNh2OHnrhQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=6Fwva1EtmZ_i03gNNrYV1_iPlSiyRUJr_l4Zv8iNhR8-1754398367-1.0.1.1-dZmuaztfugNJ.yWkpEEtz.V8Ip0OQ_hN0gGDu14x_Ukqhdqmtkj2Ng4.bplK9LO5seAN6bxdaCuGZZvrKqCm1irDagYCti5Kv_OiSTRbkjQ; path=/; expires=Tue, 05-Aug-25 13:22:47 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=yAmx632sv7DlK.yUeZhc_PT4WkAcZhzc9yo0zWryL18-1754398367829-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

@@ -1,0 +1,70 @@
+[s3-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/%ef%bf%bd
+
+
+GET /%c0 HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=WU1kQzZMUTdOby82Rk93VVlQcWxWNTQyaDBIQXJDRlJjclhLRWZpc3Z2TDZBMkpGUFF2Z1BWaTBEUHBKL2p3WjFOK2R5enpsd1czcnZpaWd4UW5ZdmZ4U0lXMEJjRzIxRkp4Y1I1Z28zdTBpeWM5R0xNZVZQR25RNEdNSFlsYzJBVTRBMkRVd0hVS3ZOWlZTNHR2VDV5MHRyMGtjZkNlTUFhK2MzRmdOb2ozTFdMZEFzYmlWUXRSVXpibzM0WlV0WVk4NTlXalg2dmZveXlVLzIwRHUvM0tFZTExRkcwSi90R1hJaEM1QzZkcz0tLWswd3NTTjFYaXpHRGNzRXozL2VabUE9PQ%3D%3D--bfa50bfef8e9e97eb88fe70259c71ef5ea9242e3
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[s3-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/%ef%bf%bd
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 52328dce-4e59-4a1c-86c8-2c5d6fe23cf1
+Atl-Traceid: 52328dce4e594a1c86c82c5d6fe23cf1
+Date: Tue, 05 Aug 2025 12:52:35 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 c5bb940b2890383b4ca2d8b74b68699a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: tXVSwY9eRP64xqbvlQBVGaNZg3pZbx-nO0w6EPR3lm2xJfgY2sO94g==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 752007643
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[s3-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/%ef%bf%bd
+
+
+GET /%c0 HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/127.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[s3-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/%ef%bf%bd
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: c614989c-ede2-4fbd-b593-f33a6188ff9b
+Atl-Traceid: c614989cede24fbdb593f33a6188ff9b
+Date: Tue, 05 Aug 2025 12:53:15 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 6c2e384f59feb64a0c739aee7f890066.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: kIbcp-E0L5heV6sQS8C29yQst2UV30XEoqc4JXYpjDneyuVwAYDHew==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 765044696
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

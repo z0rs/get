@@ -1,0 +1,37 @@
+[wordpress-members] Dumped HTTP request for http://feedbackai.bitpanda.com/wp-content/plugins/members/readme.txt
+
+
+GET /wp-content/plugins/members/readme.txt HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2.1 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=3w8dlLoMTIzm7oJySXWnjvmRoJutNHlOqU.z6xxICDw-1754398444645-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-members] Dumped HTTP response http://feedbackai.bitpanda.com/wp-content/plugins/members/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670ed2e16787b-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:05 GMT
+Expires: Tue, 05 Aug 2025 13:54:05 GMT
+Location: https://feedbackai.bitpanda.com/wp-content/plugins/members/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=oSSjf0rqLTXQZyO7.ugs0yiE03vW9RxpeS12vUPjBjc-1754398445654-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

@@ -1,0 +1,35 @@
+[cluster-bb5e98ae1d79b14d69e518bc77fe9a64538ea2709a111c7f23dd0f6d6a10de2f] Dumped HTTP request for https://status.techsolutions.bitpanda.com/fpui/jsp/login.jsp
+
+
+GET /fpui/jsp/login.jsp HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-bb5e98ae1d79b14d69e518bc77fe9a64538ea2709a111c7f23dd0f6d6a10de2f] Dumped HTTP response https://status.techsolutions.bitpanda.com/fpui/jsp/login.jsp
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: b66e85c8-ca05-43fc-b2d2-b3e96fdfc2d5
+Atl-Traceid: b66e85c8ca0543fcb2d2b3e96fdfc2d5
+Date: Tue, 05 Aug 2025 12:52:11 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=2,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 a20436c6d109fe9002d093f519ad4398.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: CH8g5m6LxgXUu2oqEe4TrbaaZZ6EIN-nPYwGiFgZ5Wl9-RjKpWz4tA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 27359158
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

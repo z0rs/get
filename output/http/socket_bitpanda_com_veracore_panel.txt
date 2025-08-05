@@ -1,0 +1,38 @@
+[veracore-panel] Dumped HTTP request for https://socket.bitpanda.com/veracore/Home/#systems
+
+
+GET /veracore/Home/ HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=yzP3uu1nCIxE7u2H2kVBgskAlQk30r37z/mkDjFoQwPHvwbj74UAnuJzv7hVweYqlGtafbWi3GJqYgY34Y0D2dM/wrMX3xdBYgP3Mxz768YsLH28hyKZ7BvQkXpC; AWSALBCORS=yzP3uu1nCIxE7u2H2kVBgskAlQk30r37z/mkDjFoQwPHvwbj74UAnuJzv7hVweYqlGtafbWi3GJqYgY34Y0D2dM/wrMX3xdBYgP3Mxz768YsLH28hyKZ7BvQkXpC
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[veracore-panel] Dumped HTTP response https://socket.bitpanda.com/veracore/Home/#systems
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:20 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=nRCCDlVwc5gG79pN+eKxIrWLtMHeXx1GdwagEPf+IZqDz9GwJUWfTuEtFmVyFxsAEfQJCSYzwXk9D9lETx9hPNc88y/vk/KIMoJsUb2Gh9PsmRd/fswJrW4uKepu; Expires=Tue, 12 Aug 2025 12:52:20 GMT; Path=/
+Set-Cookie: AWSALBCORS=nRCCDlVwc5gG79pN+eKxIrWLtMHeXx1GdwagEPf+IZqDz9GwJUWfTuEtFmVyFxsAEfQJCSYzwXk9D9lETx9hPNc88y/vk/KIMoJsUb2Gh9PsmRd/fswJrW4uKepu; Expires=Tue, 12 Aug 2025 12:52:20 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 db190417d0f5689511af25059af21b3a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: SXPl55kT5mLSalh4KTNFaryvnqEcQzxLEtHMUSJHkyUkxz8HkLypqA==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 3
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

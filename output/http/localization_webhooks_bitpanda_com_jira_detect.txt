@@ -1,0 +1,144 @@
+[jira-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/secure/Dashboard.jspa
+
+
+GET /secure/Dashboard.jspa HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0  Macintosh  Intel Mac OS X 10_15_7  AppleWebKit/605.1.15  KHTML  like Gecko  Version/18.3 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=dFBY0Jl_3sJmywsrSafAYFhGZAXu_02ehRl3O62GsOc-1754398409826-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jira-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/secure/Dashboard.jspa
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6702deac5d6a9-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:53:35 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TAbEJ8joEEcQw=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: ebeb4ef1-dcb6-4b1f-aa86-75c04ebeee9d
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[jira-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/secure/Dashboard.jspa
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6702daebf8bc3-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:35 GMT
+Expires: Tue, 05 Aug 2025 13:53:35 GMT
+Location: https://localization.webhooks.bitpanda.com/secure/Dashboard.jspa
+Server: cloudflare
+Set-Cookie: _cfuvid=pxc2p0cl3UnWmS2XRP3Auvq.Ak3vbrhRuJX4lt7tB0c-1754398415007-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[jira-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/jira/secure/Dashboard.jspa
+
+
+GET /jira/secure/Dashboard.jspa HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=PCyC440tKPVNOFKARe98PWEMqB7SPSJWY57XxxEuJ8g-1754398415013-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jira-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/jira/secure/Dashboard.jspa
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6703419d3e5fe-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:53:36 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TAmFSpDoEEV7g=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 758a5a16-c8f9-48fc-9e9d-64c391fb6ecd
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[jira-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/jira/secure/Dashboard.jspa
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6702eceba81db-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:35 GMT
+Expires: Tue, 05 Aug 2025 13:53:35 GMT
+Location: https://localization.webhooks.bitpanda.com/jira/secure/Dashboard.jspa
+Server: cloudflare
+Set-Cookie: _cfuvid=G6lzqgDUlmOcd.f9VewvdnIlLuafvdJLbkZ7CVMotB4-1754398415203-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[jira-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/login.jsp
+
+
+GET /login.jsp HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=G4qCygitgsb8Ehbx7kW1mRnaZYLNq7SZYqCo1hJUFOI-1754398416118-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jira-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/login.jsp
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a67043ac4e8192-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:53:38 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TA-FkbjoEEWYw=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 1ed4cfab-43b3-42e6-aff7-510248e6e1dc
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[jira-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/login.jsp
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670433872575e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:38 GMT
+Expires: Tue, 05 Aug 2025 13:53:38 GMT
+Location: https://localization.webhooks.bitpanda.com/login.jsp
+Server: cloudflare
+Set-Cookie: _cfuvid=OndS4e2P88oXKeQ1eYu.R.ggjKJCGcQw0VpPzJ2aJ.M-1754398418477-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

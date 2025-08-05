@@ -1,0 +1,50 @@
+[skeepers-panel] Dumped HTTP request for https://bts-custody.bitpanda.com/backend/login
+
+
+GET /backend/login HTTP/1.1
+Host: bts-custody.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=6pnuYipIIXdBzxUGbXOabLVZyAD4nJFXYkBCKqh1Lwg-1754398158822-0.0.1.1-604800000; _cfuvid=8TsfuatvDkqrEfJPLSrW_zLv9XEMZ2RGueVOd3c0b8k-1754398173966-0.0.1.1-604800000; _cfuvid=vlWJIIOEQs_DFdShWLLTPDg9v1iYsoT33ZRVzY_ll1Q-1754398178883-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[skeepers-panel] Dumped HTTP response https://bts-custody.bitpanda.com/backend/login
+
+HTTP/1.1 200 OK
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Origin: *
+Age: 369630
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66aa0ed10f3ed-IAD
+Content-Disposition: inline; filename="index.html"
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:47 GMT
+Last-Modified: Fri, 01 Aug 2025 06:09:17 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=.t6Vcxp3RCkH_k2_V3N.x2bFcFJ4mz39r8kdYFCysHY-1754398187688-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Cache: HIT
+X-Vercel-Id: iad1::7k4bt-1754398187680-aeff2aee152a
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bitpanda Custody</title>
+    <script type="module" crossorigin src="/assets/index-CouF3uFo.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-B3jGpFCu.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+

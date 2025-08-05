@@ -1,0 +1,52 @@
+[openshift-oauth-proxy-panel] Dumped HTTP request for http://affiliates.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:128.0) Gecko/20100101 Firefox/128.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=iibg3OBkT.7FpCaYMNsWLVODSYobh_WxFc2NYZr9Z1Y-1754398153869-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[openshift-oauth-proxy-panel] Dumped HTTP response http://affiliates.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669d37977e5e5-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:14 GMT
+Expires: Tue, 05 Aug 2025 13:49:14 GMT
+Location: https://affiliates.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=Z2lHYcFQUT63wx9tVyh2KAp_mm3KLPliRQI55hz9AHI-1754398154818-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[openshift-oauth-proxy-panel] Dumped HTTP request for http://affiliates.bitpanda.com:9001
+
+
+GET / HTTP/1.1
+Host: affiliates.bitpanda.com:9001
+User-Agent: Mozilla/5.0 (CentOS; Linux i686; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=.3dMDLdaXxrMp_7MFQn6lVaQF5CmFajOHIuMCGBtyjw-1754398175856-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

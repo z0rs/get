@@ -1,0 +1,98 @@
+[cloudlog-panel] Dumped HTTP request for http://akurateco.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh: Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cloudlog-panel] Dumped HTTP response http://akurateco.bitpanda.com
+
+HTTP/1.1 503 Service Temporarily Unavailable
+Connection: close
+Content-Length: 190
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:00 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+<html>
+<head><title>503 Service Temporarily Unavailable</title></head>
+<body>
+<center><h1>503 Service Temporarily Unavailable</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+[cloudlog-panel] Dumped HTTP response http://akurateco.bitpanda.com
+
+HTTP/1.1 302 Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, private
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:00 GMT
+Expires: Tue, 05 Aug 2025 12:49:00 GMT
+Location: https://akurateco.bitpanda.com/login
+Referrer-Policy: no-referrer, strict-origin-when-cross-origin
+Set-Cookie: PHPSESSID=49lmdrq6l43tfqmh4ku0u2oirm; path=/; secure; HttpOnly; SameSite=lax
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+
+[cloudlog-panel] Dumped HTTP response http://akurateco.bitpanda.com
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:48:59 GMT
+Location: https://akurateco.bitpanda.com
+
+
+[cloudlog-panel] Dumped HTTP request for http://akurateco.bitpanda.com/index.php/user/login
+
+
+GET /index.php/user/login HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cloudlog-panel] Dumped HTTP response http://akurateco.bitpanda.com/index.php/user/login
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 146
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:09 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+[cloudlog-panel] Dumped HTTP response http://akurateco.bitpanda.com/index.php/user/login
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:08 GMT
+Location: https://akurateco.bitpanda.com/index.php/user/login
+
+

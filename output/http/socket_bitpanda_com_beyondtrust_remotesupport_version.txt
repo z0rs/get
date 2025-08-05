@@ -1,0 +1,38 @@
+[beyondtrust-remotesupport-version] Dumped HTTP request for https://socket.bitpanda.com/get_rdf?comp=sdcust&locale_code=en-us
+
+
+GET /get_rdf?comp=sdcust&locale_code=en-us HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.3 Mobile/15E148 Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=pRaeNKj+hiAfe4Fo3M7bPGNGstZNH8+o2iirHh4aVWNKgTnwtejz1ou+Ycihz9o6qDkU1la6es0KK0yVGVxfwFV2BFpZKZAT6y6APq/2HXzmFpsz2bC6gzbDBx/3; AWSALBCORS=pRaeNKj+hiAfe4Fo3M7bPGNGstZNH8+o2iirHh4aVWNKgTnwtejz1ou+Ycihz9o6qDkU1la6es0KK0yVGVxfwFV2BFpZKZAT6y6APq/2HXzmFpsz2bC6gzbDBx/3
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[beyondtrust-remotesupport-version] Dumped HTTP response https://socket.bitpanda.com/get_rdf?comp=sdcust&locale_code=en-us
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:25 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=tdKCiidqh5BSLVzjVS3DTOrEOaAuGzRPRZsQssS6SIhUCS7uphcL8k8ZCBCWOtUx3zgdwaAmeoM49+oFYZC2dMssQkWs2eZYNxpizZMlKFf6a0pPui4FtT9I4j8A; Expires=Tue, 12 Aug 2025 12:52:25 GMT; Path=/
+Set-Cookie: AWSALBCORS=tdKCiidqh5BSLVzjVS3DTOrEOaAuGzRPRZsQssS6SIhUCS7uphcL8k8ZCBCWOtUx3zgdwaAmeoM49+oFYZC2dMssQkWs2eZYNxpizZMlKFf6a0pPui4FtT9I4j8A; Expires=Tue, 12 Aug 2025 12:52:25 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 753abf75c4fb02577e3748ad81a5ead0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: XtMZjGmWMykoPPT9szjKE8NXFjjkiE2Av4VSGB_LMvpvrxxR0k2YUA==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 1
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

@@ -1,0 +1,41 @@
+[cluster-e1145a389f093b9484652cf03ca8a570bc5e74ae53fde9776928c767b72a21ab] Dumped HTTP request for https://account.bts.bitpanda.com/favicon.ico
+
+
+GET /favicon.ico HTTP/1.1
+Host: account.bts.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.7 Mobile/15E148 Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-e1145a389f093b9484652cf03ca8a570bc5e74ae53fde9776928c767b72a21ab] Dumped HTTP response https://account.bts.bitpanda.com/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Age: 41
+Cf-Cache-Status: HIT
+Cf-Ray: 96a66aa7fe057ae9-IAD
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:48 GMT
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Server: cloudflare
+Set-Cookie: _cfuvid=2X04vfyzN2eRC94Ng.qPsjMdTUL7BlvDwVusL.r0Gts-1754398188814-0.0.1.1-604800000; path=/; domain=.frontegg.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Vary: Accept-Encoding
+Via: 1.1 6306947fb6ab60dc617ca2e025941652.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: b7qfCrgmJD2mlKS1i4EsS4bMNKrwyjYAJons77P6t0VWafaGsOUoVQ==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+{"errors":["The requested URL was not found on this server."]}

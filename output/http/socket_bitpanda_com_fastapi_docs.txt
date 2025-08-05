@@ -1,0 +1,113 @@
+[fastapi-docs] Dumped HTTP request for https://socket.bitpanda.com/docs
+
+
+GET /docs HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[fastapi-docs] Dumped HTTP response https://socket.bitpanda.com/docs
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:11 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=5h/ucjzU24hDLReXZXzNpMHyJJovrwF/yu3bnZe2PjhmfPTq+i7KULxOx42nzxEGYdE9oXWKOurnPDJWCSJA4SA1n4ffypAMcih+lJEhRmkceuUi2wHUFE0pC8NI; Expires=Tue, 12 Aug 2025 12:52:11 GMT; Path=/
+Set-Cookie: AWSALBCORS=5h/ucjzU24hDLReXZXzNpMHyJJovrwF/yu3bnZe2PjhmfPTq+i7KULxOx42nzxEGYdE9oXWKOurnPDJWCSJA4SA1n4ffypAMcih+lJEhRmkceuUi2wHUFE0pC8NI; Expires=Tue, 12 Aug 2025 12:52:11 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 1ffcb4016d0c1224c9505d74a866e6a8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: MyI0vV99JaScMXJ7hBhumLSJCgJL8NFBwAfpmxhLpKTbqt0HWrcv9g==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 0
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[fastapi-docs] Dumped HTTP request for https://socket.bitpanda.com/redoc
+
+
+GET /redoc HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=wXcoHGEZ+BPecDSUy1G1VyNV3QSVrFhUnk6ucB48t4K+97Tq+7FR/ZF3JcsEzCVpA5Aj6a8GnL/7bZeCAfnnrZQcGkGTdOv0j3XeqojWY/i58klu0PdjvJ1l5EQ2; AWSALBCORS=wXcoHGEZ+BPecDSUy1G1VyNV3QSVrFhUnk6ucB48t4K+97Tq+7FR/ZF3JcsEzCVpA5Aj6a8GnL/7bZeCAfnnrZQcGkGTdOv0j3XeqojWY/i58klu0PdjvJ1l5EQ2
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[fastapi-docs] Dumped HTTP response https://socket.bitpanda.com/redoc
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:13 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=QIKzzPl1LZVx0/CBcc7a6eDRdKw2v+9ShdQ4jPQ6NDgQz+fefRl0/ts4qHt+g8s8z2SLr8VwJULtwDS6wN3yYzsbw9r9Ozm+HuQjXxC6AI18CV0djCj9YHv6hnPc; Expires=Tue, 12 Aug 2025 12:52:13 GMT; Path=/
+Set-Cookie: AWSALBCORS=QIKzzPl1LZVx0/CBcc7a6eDRdKw2v+9ShdQ4jPQ6NDgQz+fefRl0/ts4qHt+g8s8z2SLr8VwJULtwDS6wN3yYzsbw9r9Ozm+HuQjXxC6AI18CV0djCj9YHv6hnPc; Expires=Tue, 12 Aug 2025 12:52:13 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 02db209838c99b1e3d9f7e6b74ddf272.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: ofz9ofw7joKk77g4Lzhb0h35PpmhbFY3BoME3W300mGDqIPGrCnM-w==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 6
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[fastapi-docs] Dumped HTTP request for https://socket.bitpanda.com/openapi.json
+
+
+GET /openapi.json HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:125.0) Gecko/20100101 Firefox/125.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=Q9sbjXsjogLIq3Kv4nrI2TIOlc3VKfbo9Bl7Tayddag8EMsUt3w82pCorj4bd4G0QeP5pUEYbvwO2D2nqAFUzKRXdfp8d3q1S1zuBZg07jy7ndn+9Gewmepi5bWg; AWSALBCORS=Q9sbjXsjogLIq3Kv4nrI2TIOlc3VKfbo9Bl7Tayddag8EMsUt3w82pCorj4bd4G0QeP5pUEYbvwO2D2nqAFUzKRXdfp8d3q1S1zuBZg07jy7ndn+9Gewmepi5bWg
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[fastapi-docs] Dumped HTTP response https://socket.bitpanda.com/openapi.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:16 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=yhr8OUgWO9aEanwkNddn0rW8v2Llinmu1xYd4/YkIp4AptetdJ64+m3yX8oj0ZnCpOePdKCN8FYLruLvu8JQiOeePzNqagR+ex+E4QpDCGhRAATc8OVNqhZ4Hdew; Expires=Tue, 12 Aug 2025 12:52:16 GMT; Path=/
+Set-Cookie: AWSALBCORS=yhr8OUgWO9aEanwkNddn0rW8v2Llinmu1xYd4/YkIp4AptetdJ64+m3yX8oj0ZnCpOePdKCN8FYLruLvu8JQiOeePzNqagR+ex+E4QpDCGhRAATc8OVNqhZ4Hdew; Expires=Tue, 12 Aug 2025 12:52:16 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 a1b25b0d3d9a8dc90e047cb69c24f48c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: vBisqXQPS6p_NTxuYwTimuTXi2G4tL__aRHseq8kgltkfNJn5tiBCQ==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 2
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

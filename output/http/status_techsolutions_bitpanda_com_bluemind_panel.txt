@@ -1,0 +1,35 @@
+[bluemind-panel] Dumped HTTP request for https://status.techsolutions.bitpanda.com/login/native
+
+
+GET /login/native HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[bluemind-panel] Dumped HTTP response https://status.techsolutions.bitpanda.com/login/native
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: ad7a06f6-c22f-406b-8294-a931695806b1
+Atl-Traceid: ad7a06f6c22f406b8294a931695806b1
+Date: Tue, 05 Aug 2025 12:52:10 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=4,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 237bd7e86f7f99cead16dc4ecb5fed20.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: XtFJz4MRnl80lxklVMr63LNjMGPVWiGRqnHdo_6s5Y2RrrzqL8D1OQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 182790094
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

@@ -1,0 +1,44 @@
+[openshift-oauth-proxy-panel] Dumped HTTP request for https://analytics.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:132.0) Gecko/20100101 Firefox/132.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=TSA3DgxYMGlUhPIPQDDrzTLqwIQIG.rBzU0QjdpJyqA-1754398157653-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[openshift-oauth-proxy-panel] Dumped HTTP response https://analytics.bitpanda.com
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e67ddac997-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:20 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=CPAzkGhWPRwAhMqi.BNzWgqZ90iZzLgpuji4JXj6Wmw-1754398160549-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+upstream connect error or disconnect/reset before headers. reset reason: connection termination
+[openshift-oauth-proxy-panel] Dumped HTTP request for https://analytics.bitpanda.com:9001
+
+
+GET / HTTP/1.1
+Host: analytics.bitpanda.com:9001
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=cTL6UYD.n7C9h0QjdRGT.7jJYaBYzyrCC6RcfeQrziU-1754398165321-0.0.1.1-604800000; _cfuvid=aDrEh7kXfrmQNZdBq2pJV7DWlyZ4JEppzHeDp20J3b8-1754398181243-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

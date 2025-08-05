@@ -1,0 +1,39 @@
+[filebrowser-login-panel] Dumped HTTP request for http://web.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: web.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[filebrowser-login-panel] Dumped HTTP request for http://web.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: web.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[filebrowser-login-panel] Dumped HTTP request for http://web.bitpanda.com/static/img/icons/favicon-32x32.png
+
+
+GET /static/img/icons/favicon-32x32.png HTTP/1.1
+Host: web.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

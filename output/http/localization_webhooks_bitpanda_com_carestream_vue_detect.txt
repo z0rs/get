@@ -1,0 +1,62 @@
+[carestream-vue-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/portal/favicon.ico
+
+
+GET /portal/favicon.ico HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Kl1Kyi64klQsi.wugOk1RTwv9f5ZC9v6yVS28wZGUdg-1754398369835-0.0.1.1-604800000; _cfuvid=FNurEauIVzxd5AYwjmTo1hrqMRyz5nfg1GaFVTaa1bI-1754398386830-0.0.1.1-604800000; _cfuvid=q5BOi4RaCab7XwOO8TBmlvXgl6qlRWc76vLKTVey7fU-1754398398575-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[carestream-vue-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/portal/images/MyVue/MyVueHelp.png
+
+
+GET /portal/images/MyVue/MyVueHelp.png HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/127.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=G6lzqgDUlmOcd.f9VewvdnIlLuafvdJLbkZ7CVMotB4-1754398415203-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[carestream-vue-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/portal/images/MyVue/MyVueHelp.png
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670795cac3988-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:53:47 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TCTGtDDoEEMag=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: d8de8dbb-1d55-4edb-b15a-ef96a72ba8c8
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[carestream-vue-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/portal/images/MyVue/MyVueHelp.png
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67078dd6f0649-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:47 GMT
+Expires: Tue, 05 Aug 2025 13:53:47 GMT
+Location: https://localization.webhooks.bitpanda.com/portal/images/MyVue/MyVueHelp.png
+Server: cloudflare
+Set-Cookie: _cfuvid=kXMidToH8FyHXf15rUL_1HjltSEmyf9CRoQhcGW2JBA-1754398427073-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

@@ -1,0 +1,34 @@
+[chemotargets-clarityvista-panel] Dumped HTTP request for https://sbcdn.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: sbcdn.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[chemotargets-clarityvista-panel] Dumped HTTP response https://sbcdn.bitpanda.com/login
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: MISS
+Cf-Ray: 96a66de74e7e9d2e-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:52:01 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=hDVDVH7v8.iv5Goxl5Kpa72HDryFCGxnal9BSCdzSpo-1754398321868-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 f37f104903bda438e8b0547be6e0c192.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: emHQX6N7jRY1KtnqgHnS9pXRVmxOpxDdEPIESFO1bH5FUu6TKhmpZA==
+X-Amz-Cf-Pop: IAD89-C3
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>BJRMSQ87K4TY10C0</RequestId><HostId>egWo1LU4xAITi9HY+1EeEnID0jm0uzhtqM4zsbvC3NRD5cjd8yQmD4296bzmjjO+fHCtmvq9temrtWEFqz/XVboCB0lEDsawRtwk8ennHf8=</HostId></Error>

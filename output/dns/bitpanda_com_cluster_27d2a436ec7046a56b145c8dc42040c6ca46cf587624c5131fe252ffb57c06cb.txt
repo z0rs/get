@@ -1,0 +1,28 @@
+[cluster-27d2a436ec7046a56b145c8dc42040c6ca46cf587624c5131fe252ffb57c06cb] Dumped DNS request for bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 3092
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 MX
+
+[cluster-27d2a436ec7046a56b145c8dc42040c6ca46cf587624c5131fe252ffb57c06cb] Dumped DNS response for bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 3092
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 1232
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 MX
+
+;; ANSWER SECTION:
+bitpanda.com.	300	IN	MX	1 aspmx.l.google.com.
+bitpanda.com.	300	IN	MX	5 alt1.aspmx.l.google.com.
+bitpanda.com.	300	IN	MX	5 alt2.aspmx.l.google.com.
+bitpanda.com.	300	IN	MX	10 alt3.aspmx.l.google.com.
+bitpanda.com.	300	IN	MX	10 alt4.aspmx.l.google.com.
+

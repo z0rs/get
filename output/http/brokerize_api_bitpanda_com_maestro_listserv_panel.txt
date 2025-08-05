@@ -1,0 +1,30 @@
+[maestro-listserv-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/lui/
+
+
+GET /lui/ HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:78.0) Gecko/20100101 Firefox/78.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Iu1IE6iwGgRtiZVwsd9x6beobgY9KYxwQ1aMVjVc4pM-1754398142806-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[maestro-listserv-panel] Dumped HTTP response https://brokerize-api.bitpanda.com/lui/
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669c10881d6b8-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:11 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=cxmfNuzuAXEoxvbYv0qMawfaMBjp84ifmQOil6pygyk-1754398151963-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}

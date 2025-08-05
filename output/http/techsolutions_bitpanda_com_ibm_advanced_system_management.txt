@@ -1,0 +1,52 @@
+[ibm-advanced-system-management] Dumped HTTP request for https://techsolutions.bitpanda.com/cgi-bin/cgi?form=1
+
+
+GET /cgi-bin/cgi?form=1 HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:128.0) Gecko/20100101 Firefox/128.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ibm-advanced-system-management] Dumped HTTP response https://techsolutions.bitpanda.com/cgi-bin/cgi?form=1
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:19 GMT
+Location: ./cgi/?form=1
+Via: 1.1 89591c0a75c1346076a8fa452cb3bc52.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: ArOBw9bRtluCzzTgIn4dskpklaL5sfIstSTyFOvQpvgoTE42RFvfDw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[ibm-advanced-system-management] Dumped HTTP request for https://techsolutions.bitpanda.com/cgi-bin/cgi
+
+
+GET /cgi-bin/cgi HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ibm-advanced-system-management] Dumped HTTP response https://techsolutions.bitpanda.com/cgi-bin/cgi
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:22 GMT
+Location: ./cgi/
+Via: 1.1 556fb8386f039ca8ee6a5b3f9ad1828c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: SaTbLTQf2Jpf6tDRFLTYZFSZQwbbPxN8zOlZo3y3gKebuxSSgXgAOg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

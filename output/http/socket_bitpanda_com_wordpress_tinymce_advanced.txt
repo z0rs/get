@@ -1,0 +1,37 @@
+[wordpress-tinymce-advanced] Dumped HTTP request for https://socket.bitpanda.com/wp-content/plugins/tinymce-advanced/readme.txt
+
+
+GET /wp-content/plugins/tinymce-advanced/readme.txt HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14816.131.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=iPfHVv5nI+aitT6dVNkaE9nOAkB5RgnCcRAfZZ/ar7jZPlFhLkn1Bh+O0G2mLVQu70Nq+2vttxPC74L20Q8LQDJvMB0typrR/jDc6h+PgnBEtxxi41B2OfX+9TJ0; AWSALBCORS=iPfHVv5nI+aitT6dVNkaE9nOAkB5RgnCcRAfZZ/ar7jZPlFhLkn1Bh+O0G2mLVQu70Nq+2vttxPC74L20Q8LQDJvMB0typrR/jDc6h+PgnBEtxxi41B2OfX+9TJ0
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-tinymce-advanced] Dumped HTTP response https://socket.bitpanda.com/wp-content/plugins/tinymce-advanced/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:46 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=rsgu85Xe8c0YYVfTs/cMf8wWZRdXysMa7jK0PKludwVKiN2Shhb8m5XOUU7Y1psUj2E+YOZyPbJ7PgPqtyUyofJhR/E7nX1wDTMWVUX3B3zh1VUZHOhZffJnXfYU; Expires=Tue, 12 Aug 2025 12:52:46 GMT; Path=/
+Set-Cookie: AWSALBCORS=rsgu85Xe8c0YYVfTs/cMf8wWZRdXysMa7jK0PKludwVKiN2Shhb8m5XOUU7Y1psUj2E+YOZyPbJ7PgPqtyUyofJhR/E7nX1wDTMWVUX3B3zh1VUZHOhZffJnXfYU; Expires=Tue, 12 Aug 2025 12:52:46 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 7eec4b899788ee4df5c41267e91dcf8a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: grsGZcOCIgIftF1dus0iUcmYYX0QKClpMdCuHGel_dc3MwbvVjqlTg==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 22
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

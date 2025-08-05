@@ -1,0 +1,70 @@
+[element-web-detect] Dumped HTTP request for http://checkout.bitpanda.com/manifest.json
+
+
+GET /manifest.json HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[element-web-detect] Dumped HTTP response http://checkout.bitpanda.com/manifest.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, private
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:38 GMT
+Expires: Tue, 05 Aug 2025 12:49:38 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+{"error_code":0,"error_message":"No route found for \"GET /manifest.json\" (from \"http://checkout.bitpanda.com/manifest.json\")","errors":[]}
+[element-web-detect] Dumped HTTP response http://checkout.bitpanda.com/manifest.json
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:37 GMT
+Location: https://checkout.bitpanda.com/manifest.json
+
+
+[element-web-detect] Dumped HTTP request for http://checkout.bitpanda.com/version
+
+
+GET /version HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[element-web-detect] Dumped HTTP response http://checkout.bitpanda.com/version
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: max-age=0, must-revalidate, private
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:44 GMT
+Expires: Tue, 05 Aug 2025 12:49:44 GMT
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+
+{"error_code":0,"error_message":"No route found for \"GET /version\" (from \"http://checkout.bitpanda.com/version\")","errors":[]}
+[element-web-detect] Dumped HTTP response http://checkout.bitpanda.com/version
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:43 GMT
+Location: https://checkout.bitpanda.com/version
+
+

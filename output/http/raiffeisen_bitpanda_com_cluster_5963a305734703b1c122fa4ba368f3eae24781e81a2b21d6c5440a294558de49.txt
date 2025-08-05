@@ -1,0 +1,34 @@
+[cluster-5963a305734703b1c122fa4ba368f3eae24781e81a2b21d6c5440a294558de49] Dumped HTTP request for https://raiffeisen.bitpanda.com/ui/
+
+
+GET /ui/ HTTP/1.1
+Host: raiffeisen.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=XxyifAMc8qmJmvKxtPOmC8evPgPDHqqYY9FRRiNXbMw-1754398315902-0.0.1.1-604800000; _cfuvid=L_ZxkvgZy1y17wg2spPgTUJBfrLMXYfofCWaaLQFRJk-1754398332263-0.0.1.1-604800000; _cfuvid=I88M_LivCKHYxbDe7wPrF0ol2EhTXSy9LlkhEt2YQn4-1754398346909-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-5963a305734703b1c122fa4ba368f3eae24781e81a2b21d6c5440a294558de49] Dumped HTTP response https://raiffeisen.bitpanda.com/ui/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66e903bd7059f-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:28 GMT
+Location: /ui
+Refresh: 0;url=/ui
+Server: cloudflare
+Set-Cookie: _cfuvid=Q8R1w_qHiMa0.JXpoAXOgaTQxMKA5lDiKX_Zful8OMg-1754398348910-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::rm9n2-1754398348888-601f1d324b29
+
+Redirecting...
+

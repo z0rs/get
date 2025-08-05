@@ -1,0 +1,37 @@
+[flexmls-idx-detect] Dumped HTTP request for http://cdn.bitpanda.com/wp-content/plugins/flexmls-idx/readme.txt
+
+
+GET /wp-content/plugins/flexmls-idx/readme.txt HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686; rv:120.0) Gecko/20100101 Firefox/120.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=beFmjoxxDhAqSDiUJoT7rfb1e4dXGK8wj735GSMzjFA-1754398321872-0.0.1.1-604800000; _cfuvid=Bev_yv7stIFJDosCTdfxTLY9F5CmZzgqPvhWGG0WKKk-1754398338855-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[flexmls-idx-detect] Dumped HTTP response http://cdn.bitpanda.com/wp-content/plugins/flexmls-idx/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66e57be636fa1-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:19 GMT
+Expires: Tue, 05 Aug 2025 13:52:19 GMT
+Location: https://cdn.bitpanda.com/wp-content/plugins/flexmls-idx/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=qQ0GcVlE_UbC3n0Qn5BpYzYER9lQNCfrCfI9zTHuDOk-1754398339813-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

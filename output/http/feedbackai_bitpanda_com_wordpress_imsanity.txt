@@ -1,0 +1,37 @@
+[wordpress-imsanity] Dumped HTTP request for http://feedbackai.bitpanda.com/wp-content/plugins/imsanity/readme.txt
+
+
+GET /wp-content/plugins/imsanity/readme.txt HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/107.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=31FuCMMJS5IKN8aP.txX5_XuawENVYMzZpNvuu6I5Ec-1754398442647-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-imsanity] Dumped HTTP response http://feedbackai.bitpanda.com/wp-content/plugins/imsanity/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670e6ee02a504-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:04 GMT
+Expires: Tue, 05 Aug 2025 13:54:04 GMT
+Location: https://feedbackai.bitpanda.com/wp-content/plugins/imsanity/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=XcmbRtZRjVkFzXM9mCVHczsjA4xryDR1d9jCb6rI_cw-1754398444650-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

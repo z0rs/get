@@ -1,0 +1,36 @@
+[telerik-fileupload-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/Telerik.Web.UI.WebResource.axd?type=rau
+
+
+GET /Telerik.Web.UI.WebResource.axd?type=rau HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=bDZjdS8vSys2ZGcrYkVTcVNVejV6dDlmR0pNS0l5UkNFZlpiV3psUXlidDJ0SGdPVVBnQVl2YnFPNkFBMXJ4Rm5vUUdTZzFWb3lZSnZ4TGFEZ216dDdEdW5EQno5MkprZnk5U3hCRUVpNjZvSXNYbFFLWkM2UnRvSU9JVUhsd3ZWakVmNzFXQWZrRnprLzlUaEJURk04b0dxWS9WMHo5Q0Y2TkRIK3I3U1BqbnJDSWhUd0FtcERIZ0E0ZTcwL09RM2lOY0VRYWJXR3NZUHM4akozMFpjcTdEWWh5R0FENm5uOTczNSsvY1o1ND0tLVBBMGU0NFRaYll4R2M2NU4wWmYweFE9PQ%3D%3D--57a8d0503f1f32f37de990c801c5a01727a7e3b2
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[telerik-fileupload-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/Telerik.Web.UI.WebResource.axd?type=rau
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 16fb29ec-c390-46fc-bebf-4db5748c9f72
+Atl-Traceid: 16fb29ecc39046fcbebf4db5748c9f72
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=3,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 649b4de6ebe50fb3c542f3d95c8ed8ba.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: ciKsgov-vvYU49ALChOoZXi7eW2kJwHfd2n6N3c2Ig9yCfNNd0uh9g==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 130577496
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

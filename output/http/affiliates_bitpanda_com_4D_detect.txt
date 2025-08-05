@@ -1,0 +1,45 @@
+[4D-detect] Dumped HTTP request for http://affiliates.bitpanda.com/
+
+
+GET / HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=OxQ0ZF9vDphbcIQvzEYkVMZsTkCvmy2FtWp5NikX7Rc-1754398169877-0.0.1.1-604800000; _cfuvid=6o1_tPNE.SbuP5zPnLrF_nWfENsSNxzELnXpcb8AUkA-1754398171805-0.0.1.1-604800000; _cfuvid=R3C_UK0N8unxKK1Na_z9YkBGWdKjPKxG.AzyusRJaX4-1754398173842-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[4D-detect] Dumped HTTP response http://affiliates.bitpanda.com/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a4afce1ea88-IAD
+Date: Tue, 05 Aug 2025 12:49:34 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[4D-detect] Dumped HTTP response http://affiliates.bitpanda.com/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66a4aadec5878-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:33 GMT
+Expires: Tue, 05 Aug 2025 13:49:33 GMT
+Location: https://affiliates.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=UzjRPnpZIk_uIPxcurre3UTU1hKrO2TT0kepCQYNr9k-1754398173896-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

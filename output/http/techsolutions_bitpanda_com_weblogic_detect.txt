@@ -1,0 +1,26 @@
+[weblogic-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/30ruh19kJW6gQaRSNcFHfHdOzwv
+
+
+GET /30ruh19kJW6gQaRSNcFHfHdOzwv HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[weblogic-detect] Dumped HTTP response https://techsolutions.bitpanda.com/30ruh19kJW6gQaRSNcFHfHdOzwv
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:48 GMT
+Location: ./30ruh19kJW6gQaRSNcFHfHdOzwv/
+Via: 1.1 f96e72cfd61c675b75ea8547da63de24.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: G2fyy2K0qfo1E4rNGMfslpD15I3TSbhjXthitAq7mRqBP0qwNyrJAQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

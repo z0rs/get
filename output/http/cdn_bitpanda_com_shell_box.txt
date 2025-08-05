@@ -1,0 +1,49 @@
+[shell-box] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh, Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[shell-box] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669f948f16fe9-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:21 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 df08ba5d249ec7fb2513313ea66b59f8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 0yOTA3TEtg0u3QYcUx7J8p-_Yt6UnfsOB-L1eJGe2KCmDshytdrf7A==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[shell-box] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669f90ebeea88-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:20 GMT
+Expires: Tue, 05 Aug 2025 13:49:20 GMT
+Location: https://cdn.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=4QH5dJIQ8AWIOWF5HO3LNQrSWQx9lLlfIQRAMK9ujuc-1754398160818-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

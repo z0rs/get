@@ -1,0 +1,37 @@
+[wordpress-ultimate-addons-for-gutenberg] Dumped HTTP request for https://socket.bitpanda.com/wp-content/plugins/ultimate-addons-for-gutenberg/readme.txt
+
+
+GET /wp-content/plugins/ultimate-addons-for-gutenberg/readme.txt HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=iPfHVv5nI+aitT6dVNkaE9nOAkB5RgnCcRAfZZ/ar7jZPlFhLkn1Bh+O0G2mLVQu70Nq+2vttxPC74L20Q8LQDJvMB0typrR/jDc6h+PgnBEtxxi41B2OfX+9TJ0; AWSALBCORS=iPfHVv5nI+aitT6dVNkaE9nOAkB5RgnCcRAfZZ/ar7jZPlFhLkn1Bh+O0G2mLVQu70Nq+2vttxPC74L20Q8LQDJvMB0typrR/jDc6h+PgnBEtxxi41B2OfX+9TJ0
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-ultimate-addons-for-gutenberg] Dumped HTTP response https://socket.bitpanda.com/wp-content/plugins/ultimate-addons-for-gutenberg/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:46 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=DjYadjRBM5fHVwq3Gh1x+ZepGgkhlM51EhpZkArMz7w7LNxWHianUIMAxDLsH5Oulsn4q174warQKkh11v71XvqZr8H4Sz0IykOjqMavNllbhgUOV3p9ug86+hI4; Expires=Tue, 12 Aug 2025 12:52:46 GMT; Path=/
+Set-Cookie: AWSALBCORS=DjYadjRBM5fHVwq3Gh1x+ZepGgkhlM51EhpZkArMz7w7LNxWHianUIMAxDLsH5Oulsn4q174warQKkh11v71XvqZr8H4Sz0IykOjqMavNllbhgUOV3p9ug86+hI4; Expires=Tue, 12 Aug 2025 12:52:46 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 0bdcc10f69b746cb367ceb51e88a3d1c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 3OpaJdkgjU9LzUFfOPlE_StEKFRcUl5qGf40WL3PeMCONUFbd0wulg==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 24
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

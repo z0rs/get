@@ -1,0 +1,314 @@
+[versa-networks-detect] Dumped HTTP request for http://techsupport.bitpanda.com/favicon.ico
+
+
+GET /favicon.ico HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[versa-networks-detect] Dumped HTTP response http://techsupport.bitpanda.com/favicon.ico
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ee77eafc960-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:42 GMT
+Expires: Tue, 05 Aug 2025 13:52:42 GMT
+Location: https://techsupport.bitpanda.com/favicon.ico
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=LyrusZCHx6zvilmjKx3OnvQ46tPcLPA4u4wQg0FBLVG%2FuLrksICjcpaeoLLrFuunY3jpmMQKWVQ2XOParY0nNhWTs24%2Fk7lZQY0hV19WPkbwZcOCAtGTLcJvY2%2BHA2jd6Rwjgs7%2B4XRsBQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=ODi_drvbQM2AJu35eoHiWkmpc9k_BIpdzs1dumziAQQ-1754398362-1.0.1.1-iqas8xS1_p3yltO_DJyX6DB7gDIUTMxr.SO9h5zCFarLlhIv2nmTaapoEYjtwm9odRZamcK_VsAyXxzsSIf._f.04XYPDwbdrbZpDio9g40; path=/; expires=Tue, 05-Aug-25 13:22:42 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=uvN4dZuq2lwBTy5Ya0gcdmVilmY58XOXApVrNY0aYA8-1754398362814-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[versa-networks-detect] Dumped HTTP request for http://techsupport.bitpanda.com/favicon.png
+
+
+GET /favicon.png HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:109.0) Gecko/20100101 Firefox/117.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[versa-networks-detect] Dumped HTTP response http://techsupport.bitpanda.com/favicon.png
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ef3ea123b7a-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:44 GMT
+Expires: Tue, 05 Aug 2025 13:52:44 GMT
+Location: https://techsupport.bitpanda.com/favicon.png
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=HyyyE95d49V3ZMyyZbXWmLvzLaFZ9qAa95ED42akoazEsFXythd0Tj0HDOIj1GcK4X75UgET0FUguiVPeitc81S9e397zVgvEpP3dQFVq8xaNm8htMaajWBvBY52R%2FxJx%2BlrBupWbYRUVg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=H1c_ETyrTK2DWINsE1ZYXsFZ0SCh21m.lTJOGRUb7ys-1754398364-1.0.1.1-n3At45zUlNFfH_e6DaO8kpbJGjY6.NP8hqa8omu2k1NllimCfKqQu72WzlK6Ax4ofjb78JShrM4WB0EFvbn9FjAaG.7dz5LSe8mJLrGsW.I; path=/; expires=Tue, 05-Aug-25 13:22:44 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=QdCqfJwUHyM6R.xlnD9eU4dnmJYZ6wwOwYL1oMjkIM0-1754398364813-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[versa-networks-detect] Dumped HTTP request for http://techsupport.bitpanda.com/images/versalogo.png
+
+
+GET /images/versalogo.png HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[versa-networks-detect] Dumped HTTP response http://techsupport.bitpanda.com/images/versalogo.png
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f006cdd81f9-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:46 GMT
+Expires: Tue, 05 Aug 2025 13:52:46 GMT
+Location: https://techsupport.bitpanda.com/images/versalogo.png
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=avqBbfzxuCdBeFoLyk%2FKWQ%2Bub4opRn0Nil7rflknl7Uwq%2FGXqxKegMfqLR7XenS4tISFbKj5kWhewE2xmno65L3%2F3dLG2FkKme6kdoESqe0jJRChbqgo7djtnQkMblx%2FoIMPb4vRHJgtQw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=sFABe4dacl3Mso15pGubhAD_S3iMNDY4Ebn31GaTXaU-1754398366-1.0.1.1-CED9WfjKLRxHwwiOw2JpSH7Hi0dfCvOwZwzpAI.Z2oqtDbrME4Wn4rFcG4_WQVdIVG9oV97SBL6RNjfZG2TSg80snoWNt9svJig8posCaZo; path=/; expires=Tue, 05-Aug-25 13:22:46 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=6oojGScxH_2ndJw2HrgNomFkaNWTO8WXQxHtJiCiwAg-1754398366806-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[versa-networks-detect] Dumped HTTP request for http://techsupport.bitpanda.com/images/versalogo2.png
+
+
+GET /images/versalogo2.png HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[versa-networks-detect] Dumped HTTP response http://techsupport.bitpanda.com/images/versalogo2.png
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f0d0c96f24a-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:48 GMT
+Expires: Tue, 05 Aug 2025 13:52:48 GMT
+Location: https://techsupport.bitpanda.com/images/versalogo2.png
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=54PkhvYOlEjxO3DhM2Qr97N%2B%2B6kruFinUJ8DhT6e9hAxF%2Fr5O3CtyrDzqa%2FkQOeubHa9NnJg%2F9FPboXsxAmI1Y0i%2BYJGbF43VRTyhQXDR73B6l3GFl%2FxPrCPFC%2Ba4l9XigQIkJCFe4u8Kg%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=hD6zI6OinmLOGPhpyKrcIivdwLU1nvHHXkM4RyOy5W4-1754398368-1.0.1.1-.BpGfNZnIEMcsmA27UGjoIxzRbgr6.NZpxlIYK1UB4lYcMJCGWRyN.WR.ma7J2XFGGIrSnKBrQ4IWayNNazToajH15GaGY_QWYKRSLG7h2s; path=/; expires=Tue, 05-Aug-25 13:22:48 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=NpjH2P1x8qAbCxLuTCEAZIEcrF4Pa2tINV1VezNANsg-1754398368823-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[versa-networks-detect] Dumped HTTP request for http://techsupport.bitpanda.com/common/images/Logo.png
+
+
+GET /common/images/Logo.png HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[versa-networks-detect] Dumped HTTP response http://techsupport.bitpanda.com/common/images/Logo.png
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f134d0de5e5-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:49 GMT
+Expires: Tue, 05 Aug 2025 13:52:49 GMT
+Location: https://techsupport.bitpanda.com/common/images/Logo.png
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=1s%2BWV6rfAvlgMIqSiAFv%2BebXw0z%2FcQ8hyDLRxy4000KfSSkGodnnSSSMFoOvAenl%2BtaFTli4kRIa0%2B4%2Fqhus2YMaw586m43tjsh7RNw1978sBiTcpD0vJey6XTS3CZli2UyrX4cP06%2BC%2FA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=P3Rt2OIzTDMiCZQrX_nVr7EK.oTv.kRAy.W2EElFNHA-1754398369-1.0.1.1-lwVBRsS36nX385EkpTouUQPMYCOPSTHlCmn5hxX.lfsFktwnFhCR1b51BBtyLQ4N7vzwrnUYTIUHB9XMnQN88CNfatRxWZxOqB86Bb3cAvc; path=/; expires=Tue, 05-Aug-25 13:22:49 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=MCwYeRQ1xdHJBuB8ORrSTiAJXEPO.GvGgUlJi6IGHrk-1754398369814-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[versa-networks-detect] Dumped HTTP request for http://techsupport.bitpanda.com/versa/dist/images/versa-logo.png
+
+
+GET /versa/dist/images/versa-logo.png HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; he-IL) AppleWebKit/528+ (KHTML, like Gecko) Version/4.0 Safari/528.16
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[versa-networks-detect] Dumped HTTP response http://techsupport.bitpanda.com/versa/dist/images/versa-logo.png
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f198c90e5e6-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:50 GMT
+Expires: Tue, 05 Aug 2025 13:52:50 GMT
+Location: https://techsupport.bitpanda.com/versa/dist/images/versa-logo.png
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=WwsNV%2BseXXrQECQDW6E4ougmit99t4QCK78%2Buc4F%2FXoJmuZUOgh3QkDnyHChN3%2FJNFklsxixdQ%2B%2B%2BWWOQp34KePSW9Eh8WNhVXIbFy1jJjIJVmtI0E8JUwrwu8iiWrk7L39USrMqzUnJuQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=SZ273x6BDKcQfM.pbxWAYFrQwGMArAD0c1NQL1PCvrI-1754398370-1.0.1.1-hp5mmwwukO8gmknCFw4n9YSlR8iWwfAWuEb9DMMDvlJzqhqbzPzoEgsHW46FIzLc.oSRZisOAeSRRg55BQP0HkF8B_V6ohA3XYrdBqypREA; path=/; expires=Tue, 05-Aug-25 13:22:50 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=ewWx50yx5HI4fXAyxQjfvBVfsDvYqJnABndOLchj7BQ-1754398370827-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[versa-networks-detect] Dumped HTTP request for http://techsupport.bitpanda.com/versa/styles/img/versa-logo.png
+
+
+GET /versa/styles/img/versa-logo.png HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: __cf_bm=y97ttWQQo3xpIzmOk3.9A8mpdojHXJA0uQeTpFndl2c-1754398370-1.0.1.1-_36yuAcQ8VKEJOiGrCL_N87zbSMWXlFPfeMsuqyl6uno31aHvWQxecRXOIQmFv_c3RPcCCfYBsiDWwuuYy0J.TxPM48adnVhL9Yl0Xhw1qA; _cfuvid=_SO3TOd8T8UdFKAaPNznGdvAmXmJ05CdY3q_ELJipvU-1754398370847-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[versa-networks-detect] Dumped HTTP response http://techsupport.bitpanda.com/versa/styles/img/versa-logo.png
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f1fc8b105de-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:51 GMT
+Expires: Tue, 05 Aug 2025 13:52:51 GMT
+Location: https://techsupport.bitpanda.com/versa/styles/img/versa-logo.png
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=S2NMOzwPNFXQCVVQ4GXHzpLL95BwbDf7%2FnM82YGQF1iWoDoGfCoTY9FU27wagYhaDSdfjnpv0Jks3Z35VP9H94Zh8%2BPeA0SX1si8Ed4djbHok2r2mCtuq4I11B5BuN5xt%2B9%2FTaWWx%2FPPMA%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=J9tDkTlZlfAG_OpJeKhxoK9xaOe1qjq26CqvzFWC56o-1754398371-1.0.1.1-pWKxo3mOTFs_ouHyERycRWIBlZky5IikfBmFDA65lD8lQoHN5WER4T18dspkuO9mf0rT49iz3WiJndP6WWvJeDeR14AA0XW2Ut8wEDLSrwg; path=/; expires=Tue, 05-Aug-25 13:22:51 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=UG1KWWJ0krCEsZjuF3kaE3nOCNDbdQb7uyt8iwxCFSA-1754398371825-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[versa-networks-detect] Dumped HTTP request for http://techsupport.bitpanda.com/versa/app/img/versa-logo.png
+
+
+GET /versa/app/img/versa-logo.png HTTP/1.1
+Host: techsupport.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: __cf_bm=J9tDkTlZlfAG_OpJeKhxoK9xaOe1qjq26CqvzFWC56o-1754398371-1.0.1.1-pWKxo3mOTFs_ouHyERycRWIBlZky5IikfBmFDA65lD8lQoHN5WER4T18dspkuO9mf0rT49iz3WiJndP6WWvJeDeR14AA0XW2Ut8wEDLSrwg; _cfuvid=UG1KWWJ0krCEsZjuF3kaE3nOCNDbdQb7uyt8iwxCFSA-1754398371825-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[versa-networks-detect] Dumped HTTP response http://techsupport.bitpanda.com/versa/app/img/versa-logo.png
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f25feaac98c-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:52 GMT
+Expires: Tue, 05 Aug 2025 13:52:52 GMT
+Location: https://techsupport.bitpanda.com/versa/app/img/versa-logo.png
+Nel: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=nZyBw%2BZh9yxv3gQx9cOTVwwPfZunYCzD7jBR%2B1jEMi%2BE7j8fSkwskG88oCAtA56FN6PN0qgZrMj5DmIeTvt1BcNz3J%2BYo%2BZ5u%2Fp9r2UqNuzhWFQbCw5g2zwhMk51nBA5DEYDlxTcTZ4uiQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Server: cloudflare
+Set-Cookie: __cf_bm=cMerFHYATu21CjWiSuL84opPXlp85NAZPVjzXOLuVfI-1754398372-1.0.1.1-UtCSNzr30TT3_6Gp7_eR_hfTGKvSX6a8VjKLnTwlXnDQOq9DBxvzIokkrCMB76HZVTefJUbN12xmtZdRI48jzpWbiMPcKvkuN_B5VtbEIos; path=/; expires=Tue, 05-Aug-25 13:22:52 GMT; domain=.techsupport.bitpanda.com; HttpOnly
+Set-Cookie: _cfuvid=ppja7MknacSg9ES5XKXnGeQbFwkrGGRLFSjVaiNqfyU-1754398372829-0.0.1.1-604800000; path=/; domain=.techsupport.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

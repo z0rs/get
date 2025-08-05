@@ -1,0 +1,55 @@
+[canon-iradv-c3325] Dumped HTTP request for https://app.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[canon-iradv-c3325] Dumped HTTP response https://app.bitpanda.com
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669592a1e3922-IAD
+Date: Tue, 05 Aug 2025 12:48:57 GMT
+Location: https://account.bitpanda.com/authorization/oauth/authorize?response_type=code&client_id=19&redirect_uri=https%3A%2F%2Fapp.bitpanda.com%2Fapi%2Fauth%2Fcallback%2Fbitpanda&state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiZWpxYWRMU1dJdlhub0IyS2VPc3d3a2U2eWhRZDN4aFhGX2hiSGEyTEZCSnJxaklObWRzZnU0WWRERi1icXlkRVMyX1Npal9HamM5RjgxZE94VnBhU1EifQ..bR7Gpnctv9qN8r9SXi3IIw.QGvm3MajP9Docct3CWMFZ7JNjjzfBDWWfmq5SAyD6grDq0QXj-m_LTxHYXQv1pqojfAhTpHaGRW7s0ZQO8DRXAxLYIyE1HP7XJOm-F0HlOf3c4wNba6r2fipjGLWmxQ5pNbNFaqTolpARXVQ_2NHadQIzsNUc2EUh-LmCFA75fKDmS0LD5w0XMrKQr5oQjYU.9ZkxpsV91YuxvCAiThs4aeXtb9BPNSlvySzrJdWf2ao&scope=openid+profile+email
+Server: cloudflare
+Set-Cookie: __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2F; Path=/; Secure; HttpOnly; SameSite=lax
+Set-Cookie: __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..hVJZ8QwMvUG6nfHbdhXgaQ.HRY8iDyGzR4Z2aWRircTWS7AlhNUgi58ulBdV5upuKiLOOeWv3WLuEXlI4uFqskkUeJ_HdqvnQKXsVbThS4bx_ky7955m4AJvZZeyUzaptdXHSZKJz9WzyA0t7wQT5kzpq6uTKt_ixJ7jOS05CS3s8TOiePJ6oGNGmJVDGegw7F-UBkD0jdurrqFh7ddxELnsbaoxiJgx8AM1DAq6nrN5mc6rXRSQbN9UrTZKLTKX6jSIEU0YdqCw5stBW79vyOf5RnZHlQk36u5xrLMkYHU3mnlDsDao3raREOu6E5we4Ng2ZR8-Xf_7Ynvce41QXssAfF0I5X_4Fjw46tWP25nXCqpimj9ZavbDr_gUvo2DbjvOr_ev6-13vuPY4y1UKX-jiJWF5pmypJxP_9IuD5nJJxCF9RQuo53gR6HEbkaEWnf7H3yTffB5YP1V0sf1l0CzxOxLV7pjlAnzHNk7BQEiw6nw1cL6zcYLWN6nWXpGSzAwfj26v5_HMPjM4yx_GGmlDoVQf_YXgbWzzPe2Ef10ttqeCS_lZOIU6dODKdjryOYZdnp08ixsDnsHA4mgKOVq9j5utKylQmBYB18x0hUIgSDjPZ_xtaoFKyoIm-6vu_SMJngdUZJlP2ma8FB8ZtCJArbyLkzuqib8xJ94094yC4f3Z3pPf20gs_SCrJiXBKfsPn5HBfQRxVKzaBV4CYk.DWW2oOqKLFb0-o0T6DJ3pg22WhbSIcOwqu2wnX_CxAA; Path=/; Expires=Tue, 05 Aug 2025 13:03:57 GMT; Max-Age=900; Secure; HttpOnly; SameSite=lax
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+X-Content-Type-Options: nosniff
+X-Matched-Path: /api/auth/login
+X-Vercel-Cache: MISS
+X-Vercel-Id: iad1::dub1::b8qdg-1754398135304-0cc35df78a96
+Content-Length: 0
+
+
+[canon-iradv-c3325] Dumped HTTP response https://app.bitpanda.com
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669509be3d684-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:48:55 GMT
+Location: /api/auth/login?callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2F
+Server: cloudflare
+Set-Cookie: __Host-authjs.csrf-token=efa4281adc4ef73c369eeb1f4178435d54009fce3a83a9af7e5f267e88c3bd3e%7Cda5190584dcda995e2a25aca603133d56a7308cee0799e6ef3d2b1f9c6f1f2f9; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: _cfuvid=yNduy49fzEkmFxjTUqXGli_xQGldrVMUVwAt.kcHa5Q-1754398135205-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::8xmts-1754398133914-02fdc2467d3b
+
+

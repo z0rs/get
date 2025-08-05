@@ -1,0 +1,261 @@
+[joomla-detect] Dumped HTTP request for http://ff.bitpanda.com/administrator/manifests/files/joomla.xml
+
+
+GET /administrator/manifests/files/joomla.xml HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=uByI6XLmvhVmxGFpye88Cd0z8ki5xyTrhyZ6SG.wtck-1754398424945-0.0.1.1-604800000; GCLB="acff9309ea3a6d11"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[joomla-detect] Dumped HTTP response http://ff.bitpanda.com/administrator/manifests/files/joomla.xml
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 19
+Access-Control-Allow-Methods: GET,HEAD,POST,OPTIONS
+Access-Control-Allow-Origin: *
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6706c4a3adda7-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:45 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: GCLB="598e2de226efdd7f"; Max-Age=1; Path=/; HttpOnly
+Set-Cookie: _cfuvid=RP81WKSZXntHKE.qf5fj.a2r5PqcrfeS2UC6KQFtKp4-1754398425065-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Statsig-Region: gke-us-east5
+
+RBAC: access denied
+[joomla-detect] Dumped HTTP response http://ff.bitpanda.com/administrator/manifests/files/joomla.xml
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6706bfc8a170d-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:44 GMT
+Expires: Tue, 05 Aug 2025 13:53:44 GMT
+Location: https://ff.bitpanda.com/administrator/manifests/files/joomla.xml
+Server: cloudflare
+Set-Cookie: _cfuvid=9H.m03K3o37HYSTmtB5B_M6OsI2LvRiUTXaWBsY2hDY-1754398424988-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[joomla-detect] Dumped HTTP request for http://ff.bitpanda.com/language/en-GB/en-GB.xml
+
+
+GET /language/en-GB/en-GB.xml HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: GCLB="598e2de226efdd7f"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[joomla-detect] Dumped HTTP response http://ff.bitpanda.com/language/en-GB/en-GB.xml
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 19
+Access-Control-Allow-Methods: GET,HEAD,POST,OPTIONS
+Access-Control-Allow-Origin: *
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6706cfdc7e5e6-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:45 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: GCLB="3e96e4ea1e31dce5"; Max-Age=1; Path=/; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Statsig-Region: gke-us-east5
+
+RBAC: access denied
+[joomla-detect] Dumped HTTP response http://ff.bitpanda.com/language/en-GB/en-GB.xml
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6706cba1fdb71-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:45 GMT
+Expires: Tue, 05 Aug 2025 13:53:45 GMT
+Location: https://ff.bitpanda.com/language/en-GB/en-GB.xml
+Server: cloudflare
+Set-Cookie: _cfuvid=YXZZO8k4TtwUlHmpLd9YMIz7NDpf4PdXG._tdOjDBRA-1754398425099-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[joomla-detect] Dumped HTTP request for http://ff.bitpanda.com/README.txt
+
+
+GET /README.txt HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.75 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=l5l_3JdriEFKYL3xDppAa.wDKcf3qkd.HJ2OeqDTvE0-1754398425161-0.0.1.1-604800000; GCLB="3e96e4ea1e31dce5"; _cfuvid=Mi14DX_vD6LBtsrFUSbfla08u3Umz2gysXfGAn2AMvg-1754398441123-0.0.1.1-604800000; GCLB="dabb80ed04dc7d60"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[joomla-detect] Dumped HTTP response http://ff.bitpanda.com/README.txt
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 19
+Access-Control-Allow-Methods: GET,HEAD,POST,OPTIONS
+Access-Control-Allow-Origin: *
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a671181f250575-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:54:12 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: GCLB="5300ca8850789611"; Max-Age=1; Path=/; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Statsig-Region: gke-us-east5
+
+RBAC: access denied
+[joomla-detect] Dumped HTTP response http://ff.bitpanda.com/README.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67117ac1b205d-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:12 GMT
+Expires: Tue, 05 Aug 2025 13:54:12 GMT
+Location: https://ff.bitpanda.com/README.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=7mFuDUpF2Uj3ikXQO3CXPdYP4jUdhalU0E6.G_6uEb8-1754398452469-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[joomla-detect] Dumped HTTP request for http://ff.bitpanda.com/modules/custom.xml
+
+
+GET /modules/custom.xml HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=7mFuDUpF2Uj3ikXQO3CXPdYP4jUdhalU0E6.G_6uEb8-1754398452469-0.0.1.1-604800000; GCLB="5300ca8850789611"; _cfuvid=7anz.okzzC28dbAWj9H2cDferTW4OrUupisX8bYbROc-1754398468374-0.0.1.1-604800000; GCLB="fa0cb35d1126a58a"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[joomla-detect] Dumped HTTP response http://ff.bitpanda.com/modules/custom.xml
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 19
+Access-Control-Allow-Methods: GET,HEAD,POST,OPTIONS
+Access-Control-Allow-Origin: *
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6717cefd437a2-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:54:28 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: GCLB="1872b0bc9b6afb75"; Max-Age=1; Path=/; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Statsig-Region: gke-us-east5
+
+RBAC: access denied
+[joomla-detect] Dumped HTTP response http://ff.bitpanda.com/modules/custom.xml
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6717cab99c942-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:28 GMT
+Expires: Tue, 05 Aug 2025 13:54:28 GMT
+Location: https://ff.bitpanda.com/modules/custom.xml
+Server: cloudflare
+Set-Cookie: _cfuvid=E_Qm4VS2vbOF9QDkMRcyww7L5JPoMmkThrpcXOs1vHs-1754398468605-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[joomla-detect] Dumped HTTP request for http://ff.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=E_Qm4VS2vbOF9QDkMRcyww7L5JPoMmkThrpcXOs1vHs-1754398468605-0.0.1.1-604800000; GCLB="1872b0bc9b6afb75"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[joomla-detect] Dumped HTTP response http://ff.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 19
+Access-Control-Allow-Methods: GET,HEAD,POST,OPTIONS
+Access-Control-Allow-Origin: *
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a67183dce33b41-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:54:29 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: GCLB="273aa3a0b3c894dc"; Max-Age=1; Path=/; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Statsig-Region: gke-us-east5
+
+RBAC: access denied
+[joomla-detect] Dumped HTTP response http://ff.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67183ae6546fd-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:29 GMT
+Expires: Tue, 05 Aug 2025 13:54:29 GMT
+Location: https://ff.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=X_PbrhCce8B5q.mzwsiLEcS6Ah2ytJ3tU7gmnIb0be4-1754398469716-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

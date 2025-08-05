@@ -1,0 +1,35 @@
+[CVE-2020-14181] Dumped HTTP request for https://status.techsolutions.bitpanda.com/secure/ViewUserHover.jspa
+
+
+GET /secure/ViewUserHover.jspa HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2020-14181] Dumped HTTP response https://status.techsolutions.bitpanda.com/secure/ViewUserHover.jspa
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 71536e60-e6d4-49b0-bcfa-6983bf27eadd
+Atl-Traceid: 71536e60e6d449b0bcfa6983bf27eadd
+Date: Tue, 05 Aug 2025 12:53:15 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=63,atl-edge-internal;dur=3,atl-edge-upstream;dur=61,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 649b4de6ebe50fb3c542f3d95c8ed8ba.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: RveRHPNJWskl_3weDv2ufaa7R32fqFLFHlT_njJ8ocYRLDPWEBg91Q==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 93121995
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

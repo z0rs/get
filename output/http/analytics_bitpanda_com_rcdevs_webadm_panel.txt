@@ -1,0 +1,104 @@
+[rcdevs-webadm-panel] Dumped HTTP request for https://analytics.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=J0lwVtPJTVF8B_S9o8gXupw9OvmPcj9dZgGPyEJjOHc-1754398160561-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[rcdevs-webadm-panel] Dumped HTTP response https://analytics.bitpanda.com
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Content-Length: 19
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669ff4b943b53-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:21 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=SxpzxPwnlBe8p4IfB0s0ktx1sFe2xjaESy7AvG2B9f0-1754398161927-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+
+no healthy upstream
+[rcdevs-webadm-panel] Dumped HTTP request for https://analytics.bitpanda.com/webapps/index.php
+
+
+GET /webapps/index.php HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2486.0 Safari/537.36 Edge/13.10586
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=1Eh44TlS8mSf9YdSYdxC4zsJKbNylSI_lt4gCzasobk-1754398166499-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[rcdevs-webadm-panel] Dumped HTTP response https://analytics.bitpanda.com/webapps/index.php
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Content-Length: 19
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a1e8e670611-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:27 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=dDnF3q2ee9zmaYjueeW7b_TtIgK6JNZJ_aMSpUHTac8-1754398167136-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+
+no healthy upstream
+[rcdevs-webadm-panel] Dumped HTTP request for https://analytics.bitpanda.com/websrvs/index.php
+
+
+GET /websrvs/index.php HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=RpCh1AVxW7JcYM5SxQg8k5.f1DARstVSwSloTy5FNHU-1754398172045-0.0.1.1-604800000; _cfuvid=M9MyHT.fsn6PGsRxVk7BZAS8Jbclq6nPiEVEa9MqLSo-1754398172919-0.0.1.1-604800000; _cfuvid=WTHLNZzNTMTSpXKdWszauKQiuhCKys8vnKW7I_GIzMI-1754398175166-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[rcdevs-webadm-panel] Dumped HTTP response https://analytics.bitpanda.com/websrvs/index.php
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a56df77082e-IAD
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:35 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=_Vr_9LlUUNvSfKFxbahBYS2L12GKf0rgFKRiQsQIVak-1754398175963-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Powered-By: Express
+
+Bad request
+[rcdevs-webadm-panel] Dumped HTTP request for https://analytics.bitpanda.com/admin/login_uid.php
+
+
+GET /admin/login_uid.php HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=aDrEh7kXfrmQNZdBq2pJV7DWlyZ4JEppzHeDp20J3b8-1754398181243-0.0.1.1-604800000; _cfuvid=Gs43.MyaOVYgQiHjjFQxX7ZKw5X6j8EcjXC_KvZqKpo-1754398196130-0.0.1.1-604800000; _cfuvid=y1gQLveCi9eWk_QidymBEEfQccCF7PGsscZc_AVR7_8-1754398211983-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

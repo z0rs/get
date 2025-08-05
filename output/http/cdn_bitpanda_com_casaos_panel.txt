@@ -1,0 +1,65 @@
+[casaos-panel] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=tlELLouwAdT60uN4GxTCiJznlpx5cDTIUg3Qxs_a_ig-1754398136882-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[casaos-panel] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66969ae43e5eb-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:48:58 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=SB7TDLb0co2etKktk820JE7HL6psHWrs9bqKRmnkoBk-1754398138133-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 09028890675e48687e2855f3bdad98ea.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: WIitHtxPWr5rK45CI_-20ugBJ41M7-7Xm6c34GlZn1XlW8NL44Fv0w==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[casaos-panel] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669694cd28e40-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:48:57 GMT
+Expires: Tue, 05 Aug 2025 13:48:57 GMT
+Location: https://cdn.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=bbfgZ47DPwjW_YYiXIRXDbryDdTHylFL6kfW8l.NwtM-1754398137826-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[casaos-panel] Dumped HTTP request for http://cdn.bitpanda.com/#/login
+
+
+GET / HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Hh44_x1mMcyXcj2bRb_sZ.uEH0qx2kBu9gg8DlljtZQ-1754398161934-0.0.1.1-604800000; _cfuvid=dOksv9.pcht7cYC8LXKb4WExe3ScdmpVEhuwjg0ta7w-1754398177830-0.0.1.1-604800000; _cfuvid=0IpYwIqnxoSz5TNAdBvKmfRQUOaMpKXeFUDR3.ZWz_0-1754398177907-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

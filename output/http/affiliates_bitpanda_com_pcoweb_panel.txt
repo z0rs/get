@@ -1,0 +1,58 @@
+[pcoweb-panel] Dumped HTTP request for http://affiliates.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[pcoweb-panel] Dumped HTTP response http://affiliates.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669ecb9e83913-IAD
+Date: Tue, 05 Aug 2025 12:49:18 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[pcoweb-panel] Dumped HTTP response http://affiliates.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669ec7b89d6d4-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:18 GMT
+Expires: Tue, 05 Aug 2025 13:49:18 GMT
+Location: https://affiliates.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=A3SndeuonFTs7fLt0N_DNAPPoW8FS6OFWbTJFHslgxY-1754398158811-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[pcoweb-panel] Dumped HTTP request for http://affiliates.bitpanda.com/http/index.html
+
+
+GET /http/index.html HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=gQlrRPxdRhpDCBbjQDLnUol64aIjigPx5kVbK2lzyJ4-1754398163872-0.0.1.1-604800000; _cfuvid=fWtWxHSCvnJS3bd_RF8mWdeDLu0TwUHe1ns3A2o6zZY-1754398177986-0.0.1.1-604800000; _cfuvid=XEUGkwabFOxYYOOdb5e26bY17yr9bYavEHfnU1vRYuI-1754398182919-0.0.1.1-604800000; _cfuvid=1cgJIkGq7O8sBl2_thKCt7DFuPhujFMfAAuNtxS6pGY-1754398197810-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

@@ -1,0 +1,32 @@
+[akamai-cache-detect] Dumped HTTP request for https://account.bts.bitpanda.com
+
+
+HEAD / HTTP/1.1
+Host: account.bts.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Pragma: akamai-x-cache-on
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+
+
+[akamai-cache-detect] Dumped HTTP response https://account.bts.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 4517
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 96a66a1e7a68084c-IAD
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:26 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+Via: 1.1 d5710f445906ae917df909d01c495c9e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: ZMnmDddmIZdefZusnbNaAlbwmXl-GIspSXXhV8nxoX_UHD22mlCTJQ==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Frame-Options: SAMEORIGIN
+
+

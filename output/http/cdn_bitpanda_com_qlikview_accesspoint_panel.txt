@@ -1,0 +1,50 @@
+[qlikview-accesspoint-panel] Dumped HTTP request for http://cdn.bitpanda.com/qlikview/FormLogin.htm
+
+
+GET /qlikview/FormLogin.htm HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686; rv:130.0) Gecko/20100101 Firefox/130.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[qlikview-accesspoint-panel] Dumped HTTP response http://cdn.bitpanda.com/qlikview/FormLogin.htm
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669f31cf80621-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:20 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=M6EN1vWFQHQX0iaOPsCh_arB_8NalIG44sFh1S5xfmE-1754398160131-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 6306947fb6ab60dc617ca2e025941652.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: iFTM2qJmayebwHYFBBwQQUCgSlo2ChqYeVYCJNP5eVhGCXky5M7ZzQ==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[qlikview-accesspoint-panel] Dumped HTTP response http://cdn.bitpanda.com/qlikview/FormLogin.htm
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669f2cff1e623-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:19 GMT
+Expires: Tue, 05 Aug 2025 13:49:19 GMT
+Location: https://cdn.bitpanda.com/qlikview/FormLogin.htm
+Server: cloudflare
+Set-Cookie: _cfuvid=cQmtq3sRNnP9r_JnWvhmizVXfRuib1D.gqsyjMcZ4Ro-1754398159828-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

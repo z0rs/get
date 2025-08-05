@@ -1,0 +1,62 @@
+[harbor-panel] Dumped HTTP request for https://raiffeisen.bitpanda.com/api/v2.0/systeminfo
+
+
+GET /api/v2.0/systeminfo HTTP/1.1
+Host: raiffeisen.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=AmbLF8O03ahSXV1PZDbFj7DqHn1H0EzLihSn5WDm8qU-1754398308951-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[harbor-panel] Dumped HTTP response https://raiffeisen.bitpanda.com/api/v2.0/systeminfo
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 24
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66d9c39515001-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:51:49 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=9kfLsaylW8ixDpdGc6vTH_sH.IJI0NOEIXy38JiyME8-1754398309953-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 5
+
+{"message":"Not Found"}
+
+[harbor-panel] Dumped HTTP request for https://raiffeisen.bitpanda.com/api/systeminfo
+
+
+GET /api/systeminfo HTTP/1.1
+Host: raiffeisen.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=4pPyd1525UjGTqXs7jJmEQzhb6FreWEfF2Vgy7suSDQ-1754398311712-0.0.1.1-604800000; _cfuvid=U5CfcFiPl92yh2uax4mY33BuM6WbVMlHXy96BJfPxhw-1754398325146-0.0.1.1-604800000; _cfuvid=wO3_pYB24tksS3UoCHWjdtyfwPIioDH69W_eUIGzc9A-1754398339891-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[harbor-panel] Dumped HTTP response https://raiffeisen.bitpanda.com/api/systeminfo
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 24
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66e6a997d241a-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:52:22 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=yxz0NXKtRTQyoBOnE2_ga1vxdKK7yxUJ8xu7sevzXg4-1754398342937-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Envoy-Upstream-Service-Time: 1
+
+{"message":"Not Found"}
+

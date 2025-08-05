@@ -1,0 +1,30 @@
+[graphql-tartiflette-detect] Dumped HTTP request for http://maintenance.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: maintenance.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3 Safari/605.1.15
+Connection: close
+Content-Length: 35
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query @a { __typename }"}
+[graphql-tartiflette-detect] Dumped HTTP request for http://maintenance.bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: maintenance.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.4 Safari/605.1.15
+Connection: close
+Content-Length: 35
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query @a { __typename }"}

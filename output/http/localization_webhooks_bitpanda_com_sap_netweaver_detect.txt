@@ -1,0 +1,48 @@
+[sap-netweaver-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/112.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=8Gsq0iQQVT8ZfnBQNOK8tSBWXxmf5wNfuo0QM.rY2nY-1754398432803-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[sap-netweaver-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 22
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670b0ee9e6e25-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:53:56 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TDsGDSjoEEdLA=
+X-Amzn-Requestid: a8425ae0-e3ac-4e3e-b7e0-ec9e1a2e77ff
+X-Amzn-Trace-Id: Root=1-6891fee4-43ab29167dd94d88351ad707
+X-Content-Type-Options: nosniff
+
+{"message": "success"}
+[sap-netweaver-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6709d1b0105f9-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:52 GMT
+Expires: Tue, 05 Aug 2025 13:53:52 GMT
+Location: https://localization.webhooks.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=0nPBHIzEwT1uKsPZks9qjx61fVq2p9WLLcpWxirPIKg-1754398432876-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

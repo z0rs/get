@@ -1,0 +1,28 @@
+[akamai-cache-detect] Dumped HTTP request for http://builder.cms.bitpanda.com
+
+
+HEAD / HTTP/1.1
+Host: builder.cms.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Pragma: akamai-x-cache-on
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+
+
+[akamai-cache-detect] Dumped HTTP response http://builder.cms.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 96a669ff29e8c960-IAD
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:21 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+Server: cloudflare
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+

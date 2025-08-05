@@ -1,0 +1,43 @@
+[cobbler-version] Dumped HTTP request for http://web.bitpanda.com/cobbler_api
+
+
+POST /cobbler_api HTTP/1.1
+Host: web.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0
+Connection: close
+Content-Length: 114
+Accept: */*
+Accept-Language: en
+Content-Type: text/xml
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+<?xml version='1.0'?>
+<methodCall>
+<methodName>extended_version</methodName>
+<params></params>
+</methodCall>
+
+[cobbler-version] Dumped HTTP response http://web.bitpanda.com/cobbler_api
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670c53b8fd46d-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:59 GMT
+Expires: Tue, 05 Aug 2025 13:53:59 GMT
+Location: https://web.bitpanda.com/cobbler_api
+Server: cloudflare
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

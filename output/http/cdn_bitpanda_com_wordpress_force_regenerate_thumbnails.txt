@@ -1,0 +1,37 @@
+[wordpress-force-regenerate-thumbnails] Dumped HTTP request for http://cdn.bitpanda.com/wp-content/plugins/force-regenerate-thumbnails/readme.txt
+
+
+GET /wp-content/plugins/force-regenerate-thumbnails/readme.txt HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0  Macintosh  Intel Mac OS X 10_15_7  AppleWebKit/605.1.15  KHTML  like Gecko  Version/18.4 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=beFmjoxxDhAqSDiUJoT7rfb1e4dXGK8wj735GSMzjFA-1754398321872-0.0.1.1-604800000; _cfuvid=Bev_yv7stIFJDosCTdfxTLY9F5CmZzgqPvhWGG0WKKk-1754398338855-0.0.1.1-604800000; _cfuvid=KsgnKLRDCrwGEByHEcN4fsX0.jMWh3KAavSAZdk9jpY-1754398351835-0.0.1.1-604800000; _cfuvid=rglJnmwLlJVg2JUDZBLaeYPfjriuS6s6jCh2fEw37Go-1754398367846-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-force-regenerate-thumbnails] Dumped HTTP response http://cdn.bitpanda.com/wp-content/plugins/force-regenerate-thumbnails/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f13489b64aa-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:49 GMT
+Expires: Tue, 05 Aug 2025 13:52:49 GMT
+Location: https://cdn.bitpanda.com/wp-content/plugins/force-regenerate-thumbnails/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=yFbd2N9QGv1YIUq3FFa8iQL_Wf0NppayEgkWKigDVYs-1754398369819-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

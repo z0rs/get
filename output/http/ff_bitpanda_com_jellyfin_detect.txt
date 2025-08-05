@@ -1,0 +1,190 @@
+[jellyfin-detect] Dumped HTTP request for http://ff.bitpanda.com/home.html
+
+
+GET /home.html HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=5TwDQdbS62cYtQogG4ZNcujfJFWyDo.lwwJa7eCd_C0-1754398424896-0.0.1.1-604800000; GCLB="acff9309ea3a6d11"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jellyfin-detect] Dumped HTTP response http://ff.bitpanda.com/home.html
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6706baf62255f-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:44 GMT
+Expires: Tue, 05 Aug 2025 13:53:44 GMT
+Location: https://ff.bitpanda.com/home.html
+Server: cloudflare
+Set-Cookie: _cfuvid=og5n1LvlKwMtYTBd6BWfnXRWeDoD6u9yW59Jprv9Zs4-1754398424929-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[jellyfin-detect] Dumped HTTP request for http://ff.bitpanda.com/web/home.html
+
+
+GET /web/home.html HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:124.0) Gecko/20100101 Firefox/124.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=og5n1LvlKwMtYTBd6BWfnXRWeDoD6u9yW59Jprv9Zs4-1754398424929-0.0.1.1-604800000; GCLB="acff9309ea3a6d11"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jellyfin-detect] Dumped HTTP response http://ff.bitpanda.com/web/home.html
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6706bef93d65b-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:44 GMT
+Expires: Tue, 05 Aug 2025 13:53:44 GMT
+Location: https://ff.bitpanda.com/web/home.html
+Server: cloudflare
+Set-Cookie: _cfuvid=Tuqa8QI5tqhdjXMzDsa6Z.tW71qYmH6kMM3XZWqdxTU-1754398424964-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[jellyfin-detect] Dumped HTTP request for http://ff.bitpanda.com/index.html
+
+
+GET /index.html HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:104.0) Gecko/20100101 Firefox/104.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Tuqa8QI5tqhdjXMzDsa6Z.tW71qYmH6kMM3XZWqdxTU-1754398424964-0.0.1.1-604800000; GCLB="acff9309ea3a6d11"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jellyfin-detect] Dumped HTTP response http://ff.bitpanda.com/index.html
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6706c1aca5fa6-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:45 GMT
+Expires: Tue, 05 Aug 2025 13:53:45 GMT
+Location: https://ff.bitpanda.com/index.html
+Server: cloudflare
+Set-Cookie: _cfuvid=dcz1CjHVc0Qy_XQQh1qKOFOcVkurJtwRoHgs0pVK_p4-1754398425001-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[jellyfin-detect] Dumped HTTP request for http://ff.bitpanda.com/web/index.html
+
+
+GET /web/index.html HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=dcz1CjHVc0Qy_XQQh1qKOFOcVkurJtwRoHgs0pVK_p4-1754398425001-0.0.1.1-604800000; GCLB="acff9309ea3a6d11"; _cfuvid=aP4tFkePBtHsp7vcCcL.EXgEaRATTsfEf6BjPeQMhsw-1754398440912-0.0.1.1-604800000; GCLB="b337c6505527df51"; _cfuvid=r.vf6.gM4nBdsvjAL0iwgu..3_wFWfnEDiap2uy6T9A-1754398456003-0.0.1.1-604800000; GCLB="f9a761e12002283c"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jellyfin-detect] Dumped HTTP response http://ff.bitpanda.com/web/index.html
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a671740f78d634-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:27 GMT
+Expires: Tue, 05 Aug 2025 13:54:27 GMT
+Location: https://ff.bitpanda.com/web/index.html
+Server: cloudflare
+Set-Cookie: _cfuvid=Ck2YFM7e1cEL_p.H7zmkJda5.5tAWJW7mVskxpq.CEw-1754398467226-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[jellyfin-detect] Dumped HTTP request for http://ff.bitpanda.com/web/manifest.json
+
+
+GET /web/manifest.json HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Ck2YFM7e1cEL_p.H7zmkJda5.5tAWJW7mVskxpq.CEw-1754398467226-0.0.1.1-604800000; GCLB="4277a240e6bf1dcd"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jellyfin-detect] Dumped HTTP response http://ff.bitpanda.com/web/manifest.json
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67181394a07ec-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:29 GMT
+Expires: Tue, 05 Aug 2025 13:54:29 GMT
+Location: https://ff.bitpanda.com/web/manifest.json
+Server: cloudflare
+Set-Cookie: _cfuvid=86Dog7gOUOMC0anix7QfZ2GxQhr8a5FMpm.GeVpGULA-1754398469358-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

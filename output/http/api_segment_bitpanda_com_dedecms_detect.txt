@@ -1,0 +1,43 @@
+[dedecms-detect] Dumped HTTP request for https://api-segment.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=jOtf4LNebtCwIj2kfZw2YArLyV234Ig5NwJj1PKZSGY-1754398171079-0.0.1.1-604800000; _cfuvid=AFwMBCGY.5e7hClf9n8Yx1_d9K6WrzJdh5v6HXBk2pI-1754398171973-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[dedecms-detect] Dumped HTTP response https://api-segment.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a440fc2c9bf-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:32 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=ZSJNZRiitY.RYch1L6ercbQU7bq4oOvqOg0.yab4WK8-1754398172894-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[dedecms-detect] Dumped HTTP request for https://api-segment.bitpanda.com/robots.txt
+
+
+GET /robots.txt HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/117.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=st5eQwNc3nYhR8XawQ27XMDJGe23EZK0i3Lx_EkiNFU-1754398177091-0.0.1.1-604800000; _cfuvid=X7rWh.t4.9Bgs7upShNmGEFgsyhmPG4_3N3cszJuGak-1754398192937-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

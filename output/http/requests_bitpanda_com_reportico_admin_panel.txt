@@ -1,0 +1,46 @@
+[reportico-admin-panel] Dumped HTTP request for http://requests.bitpanda.com/run.php?project=admin&execute_mode=ADMIN&clear_session=1
+
+
+GET /run.php?project=admin&execute_mode=ADMIN&clear_session=1 HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[reportico-admin-panel] Dumped HTTP response http://requests.bitpanda.com/run.php?project=admin&execute_mode=ADMIN&clear_session=1
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:03 GMT
+Location: https://requests.bitpanda.com/run.php?project=admin&execute_mode=ADMIN&clear_session=1
+
+Moved Permanently
+[reportico-admin-panel] Dumped HTTP request for http://requests.bitpanda.com/reportico/run.php?project=admin&execute_mode=ADMIN&clear_session=1
+
+
+GET /reportico/run.php?project=admin&execute_mode=ADMIN&clear_session=1 HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[reportico-admin-panel] Dumped HTTP response http://requests.bitpanda.com/reportico/run.php?project=admin&execute_mode=ADMIN&clear_session=1
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:05 GMT
+Location: https://requests.bitpanda.com/reportico/run.php?project=admin&execute_mode=ADMIN&clear_session=1
+
+Moved Permanently

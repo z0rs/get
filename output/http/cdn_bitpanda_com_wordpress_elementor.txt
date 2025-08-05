@@ -1,0 +1,37 @@
+[wordpress-elementor] Dumped HTTP request for http://cdn.bitpanda.com/wp-content/plugins/elementor/readme.txt
+
+
+GET /wp-content/plugins/elementor/readme.txt HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/127.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=V0GKtTjTYm4Zn5oKnI8xA3tfsaQPD6DMuV3fOkIu_VE-1754398317854-0.0.1.1-604800000; _cfuvid=NfRSuoY_V0MLHJTW6.x9fqg9IdI_QUdEJKDdJuTjJvM-1754398335819-0.0.1.1-604800000; _cfuvid=KsgnKLRDCrwGEByHEcN4fsX0.jMWh3KAavSAZdk9jpY-1754398351835-0.0.1.1-604800000; _cfuvid=3wxVkMkJJgNf31c76frMauWoK4W.wz8V_yQtTAIMKa0-1754398365818-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-elementor] Dumped HTTP response http://cdn.bitpanda.com/wp-content/plugins/elementor/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f06baf3c792-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:47 GMT
+Expires: Tue, 05 Aug 2025 13:52:47 GMT
+Location: https://cdn.bitpanda.com/wp-content/plugins/elementor/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=uSn.DnWaFco2FCt_Oe5_2yEOnQWd6aC2JcRqzkQIM88-1754398367823-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

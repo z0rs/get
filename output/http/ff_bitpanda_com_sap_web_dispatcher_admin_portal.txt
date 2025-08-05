@@ -1,0 +1,52 @@
+[sap-web-dispatcher-admin-portal] Dumped HTTP request for http://ff.bitpanda.com/sap/wdisp/admin/public/default.html
+
+
+GET /sap/wdisp/admin/public/default.html HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=7k2v4iTnlMhkld7w9Wpco8XaYjjuOjf9dqqkMFSN6No-1754398440644-0.0.1.1-604800000; GCLB="207f3eb0cbf36e44"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[sap-web-dispatcher-admin-portal] Dumped HTTP response http://ff.bitpanda.com/sap/wdisp/admin/public/default.html
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 19
+Access-Control-Allow-Methods: GET,HEAD,POST,OPTIONS
+Access-Control-Allow-Origin: *
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670dacbc5825c-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:54:02 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: GCLB="f70770fde54d0876"; Max-Age=1; Path=/; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Statsig-Region: gke-us-east5
+
+RBAC: access denied
+[sap-web-dispatcher-admin-portal] Dumped HTTP response http://ff.bitpanda.com/sap/wdisp/admin/public/default.html
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670d9fdc32d08-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:02 GMT
+Expires: Tue, 05 Aug 2025 13:54:02 GMT
+Location: https://ff.bitpanda.com/sap/wdisp/admin/public/default.html
+Server: cloudflare
+Set-Cookie: _cfuvid=QJflYhidNpNlEk.e4326wEfxyEmmcAihEyxhoTtHoHM-1754398442652-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

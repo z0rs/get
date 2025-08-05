@@ -1,0 +1,37 @@
+[wordpress-wp-fastest-cache] Dumped HTTP request for http://localization.webhooks.bitpanda.com/wp-content/plugins/wp-fastest-cache/readme.txt
+
+
+GET /wp-content/plugins/wp-fastest-cache/readme.txt HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686; rv:127.0) Gecko/20100101 Firefox/127.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=XmYI5ltsXSyzlbCbriftrdBCa9P9yF9l_qeaTkc6f6k-1754398526201-0.0.1.1-604800000; _cfuvid=TzDtZ9P4oZ2l_1enKiVkwEFGzQG9wnqU8psVNpKrC8A-1754398542080-0.0.1.1-604800000; _cfuvid=Cx1U7sHFLXgx6OtRtOQRdNQ0DtijJoO7nEQeTXqR8so-1754398556356-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-wp-fastest-cache] Dumped HTTP response http://localization.webhooks.bitpanda.com/wp-content/plugins/wp-fastest-cache/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a673b3ad0dc3b1-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:55:59 GMT
+Expires: Tue, 05 Aug 2025 13:55:59 GMT
+Location: https://localization.webhooks.bitpanda.com/wp-content/plugins/wp-fastest-cache/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=Mby5ultmmqjemO0TgCzJFhQ7rm30h6zr6A.Te1SLYuI-1754398559326-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

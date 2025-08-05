@@ -1,0 +1,37 @@
+[wordpress-custom-post-type-ui] Dumped HTTP request for http://affiliates.bitpanda.com/wp-content/plugins/custom-post-type-ui/readme.txt
+
+
+GET /wp-content/plugins/custom-post-type-ui/readme.txt HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; rv:102.0) Gecko/20100101 Firefox/102.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=9UnXmQF4_C9OpQTOi3EKePF0SS.7kBSpUjo3cITq0L0-1754398311898-0.0.1.1-604800000; _cfuvid=0c_uryZ2y6cZmuprzaLMll.MTvQP94wMOeaFZZFwMQA-1754398331835-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-custom-post-type-ui] Dumped HTTP response http://affiliates.bitpanda.com/wp-content/plugins/custom-post-type-ui/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66e2bfa9dc9ab-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:12 GMT
+Expires: Tue, 05 Aug 2025 13:52:12 GMT
+Location: https://affiliates.bitpanda.com/wp-content/plugins/custom-post-type-ui/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=pzV2bPss3OjRZv094aqUcPqIERSJLQYih2wY9F4j0wU-1754398332812-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

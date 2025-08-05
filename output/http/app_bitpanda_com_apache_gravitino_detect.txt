@@ -1,0 +1,33 @@
+[apache-gravitino-detect] Dumped HTTP request for https://app.bitpanda.com/ui/metalakes
+
+
+GET /ui/metalakes HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:131.0) Gecko/20100101 Firefox/131.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2Flibs%2Fgranite%2Fcore%2Fcontent%2Flogin%2Ffavicon.ico; _cfuvid=bWYge5dspdVXIsdvCJjtoSZK6DIcu_889ShjtMv5s8U-1754398164289-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..tvzkvLuMnVK-IMlOAhE5vA.JlcZH4ooa9J5ZTmL-QGUSyFIs8Xq9d622PxGq1Dt3fxniQV4geA2tHOQ0X4zhU5G_rpmm0ZSuEQu7_KFBTWS8MC5Qn8tH53iUD7A26C8KeOlw0F6rwiccCQvFCVrWNGT3oMIY7N8147DP6L4O1tz4-kQOzGOluTmmUVHeYlEqvNldWUsvuKO1-onk2UNwn6DBuDGG45Fca0LjIXFuvav-QW4Vaui9GuvX7wfo5op_eJB1jczebkafp2ZP09cFNbAqb1RC8aiiri_k4zFD9UHudSpl_SCVSB97LWt63jCFkRZXMe4cIdcozJw0pDIuxc9GwlVaqU_bzR-D9wK8gOR7ouFrf9VmZKAovB8Fd7DWBkRKJ4BundyMIvr4DK-x--YHlbWzg6UvobwMt1XQrSDRigliLvstN9moWxl7MLUCsljDicS-pGqg4EyG3vGVXXA_yJ9JzvBSN5zwkQsJNVu_HHVpxzGgzHXz0yt-QrEaGKSddlwX_lomZL4weSy4NWvfqOCxc__65MyjUyx5Zu1mdZGKnyERUNAeKhFzvjpq-fytYGmEDBA8Nx5-Vn064GzW2HOHH0T234D0YDp09TzsyQcIrGhCEqgviVB0MaNMm3JgauuS8lrculD9t5_zd_n6qAaZNikFAA6_7-OjnVjDiOj9vmMz_A84MZRaNrvFNRMEH-ewV6ctrWRga09SCEB.qqcDfO2CnxClMuKTi2BGn4Zqm9Xwokvc1PUqMGdQ_Ak
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-gravitino-detect] Dumped HTTP response https://app.bitpanda.com/ui/metalakes
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a1219e2079c-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:24 GMT
+Location: /api/auth/login?callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2Fui%2Fmetalakes
+Server: cloudflare
+Set-Cookie: _cfuvid=3jR1NHPRq7bQHejV8Fqwb7_Y3tDuz255sFuyjnto6.A-1754398164901-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::7tqkb-1754398164865-427e36c985bd
+
+Redirecting...
+

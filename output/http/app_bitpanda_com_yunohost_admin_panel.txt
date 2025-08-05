@@ -1,0 +1,54 @@
+[yunohost-admin-panel] Dumped HTTP request for https://app.bitpanda.com/yunohost/admin
+
+
+GET /yunohost/admin HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2F; _cfuvid=gf_gx9DmfXJ3NYJtW71uIpp2ow4XL5wILHdE3J7S_iw-1754398160987-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..rcxjrXE12Hc2N9E_qfv0AQ.ulJn0Py7NLngtcH0dgR5NAX6-mTSJbxRUTd27w8PGKj-W9JubdPqiUxy1VJQoVkGkRV6rJrubbt5Qg6IfAWZAFzd-UhOquD137mJaga2ziJAR0HgL49axpeNaVi1B6vgu3Oy_b0tVtVRyqqrcY9fTRBSt-Mj1KaV-cSk1j--owONkFMu2H8-VagHxMSN1jSP9eiw0RZjoYzBrm7-bp4EQKr5PObFsyuLUMtu9KIHX6s29pC7R9e3PnIlYyJcPYVrhScoH8Fq_gs9irdB9J77g5xpOcZAPe6CizdlyMDNOwwun_o5zrhVZqFaGETBoAkiR0kAhyMmisn_ypiI6DbbL68w5686J4lEll-FdLBExDgEQ5G0rCU_RrSJO_YIEXjkj2ewHN-kDOBIgj8bHOpDZAMzuxe1HhW61gjc6dAquSLiAZvUlRdD0EkdcV3hANcE7b2lYWNmdu1aGtbPLfBikLeqf0GdsqorksGe1XqNipGh3CZcYXfA0RiBeQIny5fyAFKoZZGhHtGoXVuGETeXdI-qp7Pj_ftf1SQMy-eixMTg54o8URUvAii3rq43zKpn0Wm9tOMcyvJ1nEA7dDyp_2e4fIGErzSSBRIyNaZYBQtGidgPYy1mb3YQISPRXhFVCsUNsB551oWQGg5G5DdtglPm7QNxjbwQ1vj8EGBL_fu-mAU_t312nDqQPIEbR7zQ.7EVkAQbJ84ccKVF5N-nuvF6c6aONF0hQ15FXuUFzfOI
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[yunohost-admin-panel] Dumped HTTP response https://app.bitpanda.com/yunohost/admin
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a061f24b4ba-IAD
+Date: Tue, 05 Aug 2025 12:49:23 GMT
+Location: https://account.bitpanda.com/authorization/oauth/authorize?response_type=code&client_id=19&redirect_uri=https%3A%2F%2Fapp.bitpanda.com%2Fapi%2Fauth%2Fcallback%2Fbitpanda&state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiZWpxYWRMU1dJdlhub0IyS2VPc3d3a2U2eWhRZDN4aFhGX2hiSGEyTEZCSnJxaklObWRzZnU0WWRERi1icXlkRVMyX1Npal9HamM5RjgxZE94VnBhU1EifQ..54bGNDNOgz-hv5ojK4N7_g.Qb8wGW6Bo3EE7_MFY5fDZat9yhiNbFnAMOuszfXVxHqAw6rqP1S3eAOHVevZ74Up_IHrOsCSrTVu9oaTTnJvT3Qa4fxcEgHbNaqSnS1BlluyqAVHEHo9x3_L3Jm772G8br8oojg9zpC2ouRR-w5ZTkDorQOeJ5_nV1ZmcdYmUT4ZwrVChIBHRqoiB4ljODDT.3yRlqivpqSmIfuu7tP1KTa8zWhUpvSEVEMSx_eMLWLs&scope=openid+profile+email
+Server: cloudflare
+Set-Cookie: __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2Fyunohost%2Fadmin; Path=/; Secure; HttpOnly; SameSite=lax
+Set-Cookie: __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..fW8i2VIf4Pv-B8CQ5ewomw.aAqieoO55rmLX0HHRu38fUIK7g-LtGvUOCbI0ZmGjVmJX2BLfyTvjHSdbkH7r2zS51ZjLaY38mfW2OvMBOtI7nEx8USt6A58rtoRMfIxnJn4ElxPxinB8Xg2J_9vI5fVVvaP6W76RjLKzknNX6g7Er201leKeyN6MPknggQyek7mei09mDPZEns_JNKR_Yl3CO0SnBKo7SQ5d0aqOVUd6BKQQ5cTrnznLJNXCAsQ7cHzvu2In8ceyl4nOhtrc3MlHfqY0HE2mUNhIDiWpGMDsuP-9RUKR7CN9jWi-GIW9C5HLQDYogrzg0nsVFsaqQe1qs5fhcnT-ybGTOSdLi_lxYpi8QEU0sC3AvOiYOjH5cVIx2kZshJ9rJGTU-1ZBwjgFmUFtVPW8wrUtxIzZvbOXv-qKkUBQQ3w0jHrqkCs6OPFMTB2B6_rhDZB0lHV-lZXdrPha1Lei6vGLHpLduS1QCuXEcr2dzaOE5rrvUM9NF-RRJE9bprz_ur1sfRV_AwXNZXBP7iO_cdMX_jaroYL7LTDHrL9CPqS_zSYqByXnd7jhScUS7LxZqrCdTzgFMwdiJT91AoC5uHKGcMdk300sM8Xhul-D9C90Py-WlZ065QLPVsl15pf9PK_j283Tli-td_7AhzqzFOX0qz5L-NP_kaf_FLmCdwO0XqTIHjahl6CuTtXsp1pQrRpRSURC5N_.BJozFLcfIVWq9OBloPONGl3zbO_P328XzjisiaM0_ys; Path=/; Expires=Tue, 05 Aug 2025 13:04:23 GMT; Max-Age=900; Secure; HttpOnly; SameSite=lax
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+X-Content-Type-Options: nosniff
+X-Matched-Path: /api/auth/login
+X-Vercel-Cache: MISS
+X-Vercel-Id: iad1::dub1::d9d7b-1754398162938-0493a48c8b1e
+Content-Length: 0
+
+
+[yunohost-admin-panel] Dumped HTTP response https://app.bitpanda.com/yunohost/admin
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a058ecbc5bb-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:22 GMT
+Location: /api/auth/login?callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2Fyunohost%2Fadmin
+Server: cloudflare
+Set-Cookie: _cfuvid=yA1JHUJs7SuaiLrf9dpuEqajUukjClQhJRa0FAA17c4-1754398162879-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::kl4sb-1754398162844-21090ef6292e
+
+

@@ -1,0 +1,76 @@
+[moveit-transfer-detect] Dumped HTTP request for http://ff.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=W9SCAQuvcHuEdUY3jPJ5Tno9SxxUqZ9f3GgzZxlU8m4-1754398430969-0.0.1.1-604800000; GCLB="95876412888b5e9f"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[moveit-transfer-detect] Dumped HTTP response http://ff.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670d9fa236ffe-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:02 GMT
+Expires: Tue, 05 Aug 2025 13:54:02 GMT
+Location: https://ff.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=0j1OAdtgvGa2i2RPenixnTbYEdWInImOB_VwtpP03aU-1754398442608-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[moveit-transfer-detect] Dumped HTTP request for http://ff.bitpanda.com/human.aspx
+
+
+GET /human.aspx HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/104.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=0j1OAdtgvGa2i2RPenixnTbYEdWInImOB_VwtpP03aU-1754398442608-0.0.1.1-604800000; GCLB="0bfaecc54556bbe6"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[moveit-transfer-detect] Dumped HTTP response http://ff.bitpanda.com/human.aspx
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670e09d8bd6cb-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:03 GMT
+Expires: Tue, 05 Aug 2025 13:54:03 GMT
+Location: https://ff.bitpanda.com/human.aspx
+Server: cloudflare
+Set-Cookie: _cfuvid=vKUTzCF7uC2NcLCuTodxZ7OG26b6oqUcKN.1lDMzlHQ-1754398443641-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

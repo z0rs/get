@@ -1,0 +1,182 @@
+[apache-nifi-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/access/config
+
+
+GET /access/config HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-nifi-detect] Dumped HTTP response https://techsolutions.bitpanda.com/access/config
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:42 GMT
+Location: ./config/
+Via: 1.1 7ed6222f7e560bc392fd7d47d98df770.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: jy_k6N4kHH23J0pesx0uWMYZZeMBCkSsHGuNa67BFFpu4PveL2njkA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[apache-nifi-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/controller/config
+
+
+GET /controller/config HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.75.14 (KHTML, like Gecko) Version/7.0.3 Safari/E7FBAF
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-nifi-detect] Dumped HTTP response https://techsolutions.bitpanda.com/controller/config
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:45 GMT
+Location: ./config/
+Via: 1.1 232d9e401eb3600ef80d948c2dc546b8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: ETuApqL5FtInLWJDe1ApegnX1W1SPOs9BBRdnqoXKZn8Itf7-hRmWQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[apache-nifi-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/controller/registry-clients
+
+
+GET /controller/registry-clients HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-nifi-detect] Dumped HTTP response https://techsolutions.bitpanda.com/controller/registry-clients
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:48 GMT
+Location: ./registry-clients/
+Via: 1.1 5d22d4cd27d82c133b77117809cd93b4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: oCjs66UoZN6xbR0PLmSHlvxn9TVs6xwsr6bxEwm4AGHXGBmpDRRs6Q==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[apache-nifi-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/counters
+
+
+GET /counters HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-nifi-detect] Dumped HTTP response https://techsolutions.bitpanda.com/counters
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:50 GMT
+Location: ./counters/
+Via: 1.1 556fb8386f039ca8ee6a5b3f9ad1828c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: jpuBc_LDa6XK1QVLe3YzA8gcL9JJ4tJ7T2hqYl0hGUrhFrde-D-pgQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[apache-nifi-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/flow/registries
+
+
+GET /flow/registries HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-nifi-detect] Dumped HTTP response https://techsolutions.bitpanda.com/flow/registries
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:51 GMT
+Location: ./registries/
+Via: 1.1 de8b5f44ffbaf97a58ad36dbe4a4a7c0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: gkq2ATYIbbLBZOGQqj6dqd3oKM1Q7BLHrEBGXq98cZYlHu52HARyDw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[apache-nifi-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/system-diagnostics
+
+
+GET /system-diagnostics HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-nifi-detect] Dumped HTTP response https://techsolutions.bitpanda.com/system-diagnostics
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:52 GMT
+Location: ./system-diagnostics/
+Via: 1.1 f28664317eb9628b30397afa3d6b821c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: -E726ZWP6AHXcCvFsVE0SvX0yEQzEaQS-f4-g-FaLzEIgI-96ktgPg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[apache-nifi-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/nifi-api/access/config
+
+
+GET /nifi-api/access/config HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-nifi-detect] Dumped HTTP response https://techsolutions.bitpanda.com/nifi-api/access/config
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:52 GMT
+Location: ./config/
+Via: 1.1 0fad2b2f93c2ade9df8e31249e9938a2.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: zjQkwETne9G7Udcnw-Vpi1LCS45IdJmSy3M8tTwQsXF6JCswGJX81g==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

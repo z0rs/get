@@ -1,0 +1,26 @@
+[txadmin-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/auth
+
+
+GET /auth HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[txadmin-panel] Dumped HTTP response https://techsolutions.bitpanda.com/auth
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:26 GMT
+Location: ./auth/
+Via: 1.1 5087d38c8ed37f537ec0c78e2aeecec8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: PZ0x0GMRfR-7iibVzAIGtc5g4TPWiR5SKnWjQ0CSwy3VIwM8pZjq7g==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

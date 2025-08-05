@@ -1,0 +1,59 @@
+[bmc-remedy-sso-panel] Dumped HTTP request for https://api.bitpanda.com/arsys/
+
+
+GET /arsys/ HTTP/1.1
+Host: api.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[bmc-remedy-sso-panel] Dumped HTTP response https://api.bitpanda.com/arsys/
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6696fb9fa87a9-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:48:58 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=x9OIGfevnqE7RbNviscOfi4KA0xjJd18bSvEMFTKydw-1754398138966-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}
+[bmc-remedy-sso-panel] Dumped HTTP request for https://api.bitpanda.com/webUI/userHome.do
+
+
+GET /webUI/userHome.do HTTP/1.1
+Host: api.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=4tsX3tvQRQffeD9WYQmLlC9GIleq.YQLJxbxzqsOEeY-1754398146934-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[bmc-remedy-sso-panel] Dumped HTTP response https://api.bitpanda.com/webUI/userHome.do
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669a7ca23c768-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:07 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=5FjhXucpG8jSEz8hgLO41aGcDcpaUNZrXEdxEecFXDI-1754398147904-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin,Access-Control-Request-Method,Access-Control-Request-Headers, Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}

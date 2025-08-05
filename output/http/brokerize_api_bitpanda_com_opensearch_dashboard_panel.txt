@@ -1,0 +1,30 @@
+[opensearch-dashboard-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/app/login
+
+
+GET /app/login HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686; rv:123.0) Gecko/20100101 Firefox/123.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000; _cfuvid=K1F1Z.3IxXiqdcwvMIULVdvvsXjRaRIDAMzW9TcgUs4-1754398166133-0.0.1.1-604800000; _cfuvid=3PKavczuo6lNFDHxb.p9XozuA.wOp71M3EaQOdR6dEs-1754398180963-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[opensearch-dashboard-panel] Dumped HTTP response https://brokerize-api.bitpanda.com/app/login
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a7c4a260631-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:42 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=fkJK.kfmqVasMxWmF.Nnrv0miDRyAdOVL4MGRnafc0A-1754398182153-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}

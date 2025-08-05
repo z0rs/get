@@ -1,0 +1,26 @@
+[sap-netweaver-cet-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/rep/start/index.jsp
+
+
+GET /rep/start/index.jsp HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[sap-netweaver-cet-detect] Dumped HTTP response https://techsolutions.bitpanda.com/rep/start/index.jsp
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:25 GMT
+Location: ./index.jsp/
+Via: 1.1 caa5dc507511eeb90523a221b2bd19b4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: OVGm4djZ1hOOo_hmjVwm7jAPB45ZJl8SEvSF-4Dmp2IO95xUEY44nw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

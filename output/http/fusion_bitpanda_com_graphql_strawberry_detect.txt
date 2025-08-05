@@ -1,0 +1,30 @@
+[graphql-strawberry-detect] Dumped HTTP request for http://fusion.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: fusion.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 44
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query @deprecated { __typename }"}
+[graphql-strawberry-detect] Dumped HTTP request for http://fusion.bitpanda.com/query
+
+
+POST /query HTTP/1.1
+Host: fusion.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 44
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query @deprecated { __typename }"}

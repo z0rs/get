@@ -1,0 +1,33 @@
+[uptime-kuma-panel] Dumped HTTP request for https://app.bitpanda.com/dashboard
+
+
+GET /dashboard HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: __Host-authjs.csrf-token=96500ec313c12197c7d3d0f27f8b5b71ac8de973a21f1d9ea011ef016f2b57a3%7Cff37f1d1a861361d24c426f15692d039197483152815eac198ac6451ede5e79d; __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2FOperaLogin%2FWelcome.do; _cfuvid=t0.o5HqfyfCrMWk8Ul0O8guC_7u7Bs9Q3BDmc_iYpug-1754398158281-0.0.1.1-604800000; __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..bcpXRgkv59K1d2BTIzmllQ.9v2NTB5Ap6tuipzLeKmqKFyjVBzG-pAt6z_R1Nr-z-HPgw64viB7hegIMwWZdDvtqAgfehGj8BkPcE3BW0rs9fZk_9Lve-6TWgopMeJhtdjueXBr-k7-OzXeeUIxg79xFo44ipTd8c9C4guTbfGhrDZjyZGjrljdCmxuPe3HhDGAgpiUZEJzxkNgkGlYBAIXc7ed1ybpu3YUaQeU-xWca5eia9j6-Bdw40k6GFuN7OibcYrMQjKT3b-zBikcfcOON_BYcfhoYnL9tvrWeNUXCx0lbYxNB51sbVJ5wXzJjHVoCBq_rviLeIa7eZ0ZnRsFFUnC7gxKeGpNoMRUBDunRed_sB-Xgdyhx0sMTZyWpiLcDt5gzCXz3CNzIkH649-vJok8GVPA_QL1G-eKjcmfgrmTwbq3PGbPzMKZxZ9vPpDP-e9uQ-YwvTGWxOP6wl6e3-7uO4ZyIKI4N5u5M67wh7TPCTVxClgejnIvpN8gV0LNdq18p09qRZxQEIFdfpWlXUektPX-6CtYzgdY-AFQpwUqV-PGuwbJMKPbFA-9MwadA-Zss5mpwm1i3ICtBoPY5TAjNAhAQF6YnX3XZM1NMdwulGG4PpxumcTPXb92U8FMdtSp__t0xjM_GymeeTJptTDr74SYWejghR_DeF7-K_7f_hvOM7N-8ENdsILeBZlnePpMSonJVzpS1HGYOyvp.B_KgZU83xIEy9gzkeAGtVwodxs4Ic8jqfaMTm5oUZCc
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[uptime-kuma-panel] Dumped HTTP response https://app.bitpanda.com/dashboard
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669ec8f22b41c-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:18 GMT
+Location: /api/auth/login?callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2Fdashboard
+Server: cloudflare
+Set-Cookie: _cfuvid=rawqES74KoxoT9GDepPIpla83t0h9I2sX1vEH3yx8A0-1754398158859-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::4lkh6-1754398158822-475bb77f857a
+
+Redirecting...
+

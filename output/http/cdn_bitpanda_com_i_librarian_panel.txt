@@ -1,0 +1,50 @@
+[i-librarian-panel] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=JrpMD3auRS0aQw6liNbLWwODmOhUtFH3hGY39W8j2bI-1754398144828-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[i-librarian-panel] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669a1bf435722-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:07 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 165ed32c12154887fba331169c8022ee.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: rD-NLhEkbbf22IYsElEFOGicg50rqPtLg0aKFucHLeLLnSiVgRiEdw==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[i-librarian-panel] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6699b38518b3e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:05 GMT
+Expires: Tue, 05 Aug 2025 13:49:05 GMT
+Location: https://cdn.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=1n9aNZqCqsittd2GMt0aHfFdoVoKAC08YulVC5SUW.A-1754398145808-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

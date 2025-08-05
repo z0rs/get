@@ -1,0 +1,45 @@
+[graphql-juniper-detect] Dumped HTTP request for http://fusion.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: fusion.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686; rv:125.0) Gecko/20100101 Firefox/125.0
+Connection: close
+Content-Length: 33
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"queryy { __typename }"}
+[graphql-juniper-detect] Dumped HTTP request for http://fusion.bitpanda.com/query
+
+
+POST /query HTTP/1.1
+Host: fusion.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.1.1 Safari/605.1.15
+Connection: close
+Content-Length: 33
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"queryy { __typename }"}
+[graphql-juniper-detect] Dumped HTTP request for http://fusion.bitpanda.com/
+
+
+POST / HTTP/1.1
+Host: fusion.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0
+Connection: close
+Content-Length: 33
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"queryy { __typename }"}

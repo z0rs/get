@@ -1,0 +1,39 @@
+[traccar-panel] Dumped HTTP request for https://bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64; rv:123.0) Gecko/20100101 Firefox/123.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=teflE_UljaxjE3_ixWTHWcN7q4eQmq09RIBoniTfdDI-1754398161981-0.0.1.1-604800000; _cfuvid=fLeRRFLNGbRidtzaVA4YSKsJJ_wUP6c5s_0OnhggLak-1754398177838-0.0.1.1-604800000; _cfuvid=Fyd.eMgydkpozrKrpQpXPmx.eceP41HyUpjoilGphv0-1754398180542-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[traccar-panel] Dumped HTTP response https://bitpanda.com/login
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66a760edc3b14-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:40 GMT
+Expires: Tue, 05 Aug 2025 13:49:40 GMT
+Location: https://www.bitpanda.com/login
+Server: cloudflare
+Set-Cookie: _cfuvid=Q2vW_Ts33GJ5TvHorm1YAYdcP4wMNLGA6GnLhJbJQZk-1754398180819-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

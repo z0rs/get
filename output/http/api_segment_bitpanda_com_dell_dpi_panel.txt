@@ -1,0 +1,29 @@
+[dell-dpi-panel] Dumped HTTP request for https://api-segment.bitpanda.com/index2.html
+
+
+GET /index2.html HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; en-us) AppleWebKit/534.50 (KHTML, like Gecko) Version/5.1 Safari/534.50
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qxFXHuEFs5zCXdC.eFDw5Yon5qJu_sbwJDUK0IOU_Vg-1754398175439-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[dell-dpi-panel] Dumped HTTP response https://api-segment.bitpanda.com/index2.html
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a56b8ffd6ac-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:35 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=5dtbXi327NXxvKZSxDL3aPlMIh39D4Qaa4r7EcK_vmk-1754398175902-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

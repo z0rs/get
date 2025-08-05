@@ -1,0 +1,29 @@
+[wordpress-templately] Dumped HTTP request for https://techsolutions.bitpanda.com/wp-content/plugins/templately/readme.txt
+
+
+GET /wp-content/plugins/templately/readme.txt HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-templately] Dumped HTTP response https://techsolutions.bitpanda.com/wp-content/plugins/templately/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:51 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 f28664317eb9628b30397afa3d6b821c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 3xcq9QbzojJF7pvQY33pf99uXe_J0RGubBshxj8ltBALbLcMQD7bmA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: lsg1j9xkVYmG9TzBSsh0YScvxzThxA+PG5BAdmPVqD8UIOmj9rYEsTxEwETd+pWakS/oziUl93A=
+X-Amz-Request-Id: 9V96NZC6DG3243TD
+X-Cache: Error from cloudfront
+
+Not Found

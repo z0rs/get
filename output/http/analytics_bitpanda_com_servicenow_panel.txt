@@ -1,0 +1,29 @@
+[servicenow-panel] Dumped HTTP request for https://analytics.bitpanda.com/login.do
+
+
+GET /login.do HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Ly8HvxHDuwlmZUxahb4gea4wAv3cqvG5dgfPI0IAa90-1754398163261-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[servicenow-panel] Dumped HTTP response https://analytics.bitpanda.com/login.do
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Content-Length: 19
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a0c1f96e6e8-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:23 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=EmOyw2hyydIwgP0t4gzkk_8jqSAGWuojCau1owxSRa4-1754398163965-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+
+no healthy upstream

@@ -1,0 +1,166 @@
+[graphql-go-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 12
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=4BF13zONtMn7UJ5rqGd37iF5kp.CZQgYi3O2iH5pwNY-1754398390841-0.0.1.1-604800000; _cfuvid=jbe5xyYp.3FC6uw7VYtEkHQKPZXME57PSViAKl4Gq4M-1754398404756-0.0.1.1-604800000; _cfuvid=O9AYtrytIyr3OZloxZ2FM4CgLbkmrxELUHe2WuQHwf8-1754398421925-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":""}
+[graphql-go-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/graphql
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6707eec94066c-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:53:48 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TCcEm2DoEEBQQ=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 5e6f28b9-a643-4e84-b9e0-39eecc132b7d
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[graphql-go-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670780cf0e8c5-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:46 GMT
+Expires: Tue, 05 Aug 2025 13:53:46 GMT
+Location: https://localization.webhooks.bitpanda.com/graphql
+Server: cloudflare
+Set-Cookie: _cfuvid=fZgl6MUrUFsjzPAxPImRc8fCkLv0V6Svy4JSiF1Xesw-1754398426906-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[graphql-go-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686; rv:127.0) Gecko/20100101 Firefox/127.0
+Connection: close
+Content-Length: 12
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=8yBiCD5XUmkKiqffZPITgSkvOQYuBSnQ5784Z.dc1Lo-1754398428069-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":""}
+[graphql-go-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/api/graphql
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670b9bc923946-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:53:57 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TD6HRTjoEEk2g=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: 46a918f1-8e2f-4bad-b096-ccbbbae3ed22
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[graphql-go-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/api/graphql
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6709faedec489-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:53 GMT
+Expires: Tue, 05 Aug 2025 13:53:53 GMT
+Location: https://localization.webhooks.bitpanda.com/api/graphql
+Server: cloudflare
+Set-Cookie: _cfuvid=OVcDes5XycxqizE79sC4KrSbWqSoYJB6Ky1bZQRa2dc-1754398433261-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[graphql-go-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/query
+
+
+POST /query HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0
+Connection: close
+Content-Length: 12
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=5Q1.6IS1kf1hWzxyWDR4ccbxBpwPN6_mBsxgHeWPVK8-1754398437468-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":""}
+[graphql-go-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/query
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670badbf6c946-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:53:57 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TD-HRUDoEEdjQ=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: ca378e5d-51f4-4ed2-8e94-2dd4a09012a8
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[graphql-go-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/query
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670ba8b71ea22-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:57 GMT
+Expires: Tue, 05 Aug 2025 13:53:57 GMT
+Location: https://localization.webhooks.bitpanda.com/query
+Server: cloudflare
+Set-Cookie: _cfuvid=QzLqvuafZ4bJRVtm17ThPATrSae9w3q9xyqmKPEVk1Y-1754398437556-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[graphql-go-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/
+
+
+POST / HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0
+Connection: close
+Content-Length: 12
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=nuiaeFSeRXcXe0G0mpRoqwTWV0YeONlxrVLWNPhHyYM-1754398437852-0.0.1.1-604800000; _cfuvid=iBX.UdVyePpZZ3UxmUEfgdF3vDmPpQf6j2HJKj6QcCw-1754398448346-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":""}

@@ -1,0 +1,30 @@
+[doorgets-info-disclosure] Dumped HTTP request for https://techsolutions.bitpanda.com/v12/setup/temp/admin.php
+
+
+GET /v12/setup/temp/admin.php HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[doorgets-info-disclosure] Dumped HTTP response https://techsolutions.bitpanda.com/v12/setup/temp/admin.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:24 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 05ad9135b3542476ff321f9aab1eb6ae.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: pn_THilEnc9qwCTsjPmex30ZkVsnB41l0Oe66-8PPaw4SElMlXfqtQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: SwwQJJDNHCVDa5jRQ3CEowxAc8elFvneZojG26w6V/0z9glsh9xxQysrc8bGOtm5KG9BhGOvwcI=
+X-Amz-Request-Id: 74N3SFQ6DZEBRPFE
+X-Cache: Error from cloudfront
+
+Not Found

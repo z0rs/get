@@ -1,0 +1,37 @@
+[wordpress-wp-mail-smtp] Dumped HTTP request for http://localization.webhooks.bitpanda.com/wp-content/plugins/wp-mail-smtp/readme.txt
+
+
+GET /wp-content/plugins/wp-mail-smtp/readme.txt HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=CZCb94dTEvVpbvWanLZettGd2S_SvnnYSqQByPvYJGM-1754398526694-0.0.1.1-604800000; _cfuvid=TiALx8auU.JvBt3eH9rUNhVnh73woTd1PfpEKdqr.hs-1754398542387-0.0.1.1-604800000; _cfuvid=EgqQDu7Uho9tLDC.JwEpkfOXu9BcrzCU1BlGUvmMTn8-1754398557398-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-wp-mail-smtp] Dumped HTTP response http://localization.webhooks.bitpanda.com/wp-content/plugins/wp-mail-smtp/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a673a9ae99586e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:55:57 GMT
+Expires: Tue, 05 Aug 2025 13:55:57 GMT
+Location: https://localization.webhooks.bitpanda.com/wp-content/plugins/wp-mail-smtp/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=2k84onMuuV67lUDJtpY3lBzAB_zpHa6HdK9m1.1RsT8-1754398557729-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

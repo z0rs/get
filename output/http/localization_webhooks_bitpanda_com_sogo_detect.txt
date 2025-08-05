@@ -1,0 +1,96 @@
+[sogo-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=6R1azA.Chmk8qfWqPHhwj7rk2kJmUIzbMEffcpuOx38-1754398434132-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[sogo-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 22
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670a5ae61f685-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:53:54 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TDaH0mDoEEu3g=
+X-Amzn-Requestid: b0c04066-cd88-4bb9-aa8a-c06e6fc1c58a
+X-Amzn-Trace-Id: Root=1-6891fee2-726c17212cf9e1067368268c
+X-Content-Type-Options: nosniff
+
+{"message": "success"}
+[sogo-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670a56cd5e619-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:54 GMT
+Expires: Tue, 05 Aug 2025 13:53:54 GMT
+Location: https://localization.webhooks.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=Cl3_roojyGwhQIABIBnLw9SQz5t5nyG6aln2sTjn.Rk-1754398434162-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[sogo-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/SOGo
+
+
+GET /SOGo HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/536.26.17 (KHTML, like Gecko) Version/6.0.2 Safari/536.26.17
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=bwkyXgMsyFjTIDAXegHVtoKHGVuz96HWnHaHooqSe1M-1754398434274-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[sogo-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/SOGo
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 42
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670c0b9811625-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:53:58 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1TEFEwsjoEEI9g=
+X-Amzn-Errortype: MissingAuthenticationTokenException
+X-Amzn-Requestid: a2f17b94-fe92-48d7-9d1c-25751409f826
+X-Content-Type-Options: nosniff
+
+{"message":"Missing Authentication Token"}
+[sogo-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/SOGo
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670c06f3e868a-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:58 GMT
+Expires: Tue, 05 Aug 2025 13:53:58 GMT
+Location: https://localization.webhooks.bitpanda.com/SOGo
+Server: cloudflare
+Set-Cookie: _cfuvid=2b_rNBhnXzqNq8fjEBsA_3LooFcWaS.dY2VGepR_KUM-1754398438490-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

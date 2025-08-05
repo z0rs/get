@@ -1,0 +1,26 @@
+[trendmicro-apexone-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/officescan/console/html/cgi/cgiChkMasterPwd.exe
+
+
+GET /officescan/console/html/cgi/cgiChkMasterPwd.exe HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[trendmicro-apexone-panel] Dumped HTTP response https://techsolutions.bitpanda.com/officescan/console/html/cgi/cgiChkMasterPwd.exe
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:26 GMT
+Location: ./cgiChkMasterPwd.exe/
+Via: 1.1 8a2526db76c9941bb9c29974d0546474.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 2qMNeiewyO6X652aDJK53qFuRqag8pTfgfSQDLfj6KlxzoSkhdl12Q==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

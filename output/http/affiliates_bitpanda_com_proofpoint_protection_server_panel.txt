@@ -1,0 +1,90 @@
+[proofpoint-protection-server-panel] Dumped HTTP request for http://affiliates.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=kz_pX6BhYhE4RcJPRxbXEUWV.Map_mxevTAgFHmvQzc-1754398158960-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[proofpoint-protection-server-panel] Dumped HTTP response http://affiliates.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669f339958797-IAD
+Date: Tue, 05 Aug 2025 12:49:19 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[proofpoint-protection-server-panel] Dumped HTTP response http://affiliates.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a669f2ac818843-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:19 GMT
+Expires: Tue, 05 Aug 2025 13:49:19 GMT
+Location: https://affiliates.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=0k6tsvZK2F5XeVlmKPs2RPeC26.BD.U2zkdAm73rYwc-1754398159853-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[proofpoint-protection-server-panel] Dumped HTTP request for http://affiliates.bitpanda.com/euweb/login
+
+
+GET /euweb/login HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/114.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=20Joq7IrkJZX7ge68vM8S9JILcKvKA1RjuK4jv2_Pj0-1754398164883-0.0.1.1-604800000; _cfuvid=Dp4YFspAy5zB5KmS79otqM9CLvlZNAOvbJ_AdCwvskg-1754398180940-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[proofpoint-protection-server-panel] Dumped HTTP response http://affiliates.bitpanda.com/euweb/login
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a7ce9dd6fb3-IAD
+Date: Tue, 05 Aug 2025 12:49:42 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[proofpoint-protection-server-panel] Dumped HTTP response http://affiliates.bitpanda.com/euweb/login
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66a7c8cfcd6af-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:41 GMT
+Expires: Tue, 05 Aug 2025 13:49:41 GMT
+Location: https://affiliates.bitpanda.com/euweb/login
+Server: cloudflare
+Set-Cookie: _cfuvid=S9ha5FngWkakj_2Zct3NTNtHv2e9o0gjzqqWcAI9iss-1754398181887-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

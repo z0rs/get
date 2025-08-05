@@ -1,0 +1,26 @@
+[jira-serverinfo] Dumped HTTP request for https://techsolutions.bitpanda.com/rest/api/latest/serverInfo
+
+
+GET /rest/api/latest/serverInfo HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686; rv:128.0) Gecko/20100101 Firefox/128.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jira-serverinfo] Dumped HTTP response https://techsolutions.bitpanda.com/rest/api/latest/serverInfo
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:38 GMT
+Location: ./serverInfo/
+Via: 1.1 cb2d413167decc675714b9b5dec4ad88.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: DsBZcTZ2_0dG9ik5yi0u2bwIo9l8ZN3xpHA5kBsNT5c0xfWE3a-ewQ==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

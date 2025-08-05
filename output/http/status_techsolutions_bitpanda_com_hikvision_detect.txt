@@ -1,0 +1,72 @@
+[hikvision-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/favicon.ico
+
+
+GET /favicon.ico HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=Z1JVeWRDTWNOL09GR0lrdmRrbHlNTWZzMXZZeFdBaG9ha01jZ3VwUVJuMTV4bnRXZEg0dVY5UzNKOGxTdzI3LzBPL3piUFhzNkJOMmdmK0IyRG42Z1pMMTdxWkR6a1pmMnZGZFBVR0VjbnRxLzVxT21YYTErUThNRXQ2a0tNWVRUR1kvcXFndEVoQ1NTYU1aU0djZVB5Nm5uR2gya2hTMmRnNy9iQUNEamxkV2l4NHlGbEYrbUxqY1lmZkVVengzY09JSEFzcmZ4SldKdTVpM2puSHU0Mjh1SnVuaEZmZ1VqcDRURG84U1lQRT0tLWZpbW1hQTNKVDVseTYvWStrL0hDWnc9PQ%3D%3D--032e4a810364b54f997cbde0f2a56e2afb7d7fb0
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[hikvision-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Age: 4
+Atl-Request-Id: 59927fd1-0ffc-4a0d-ade2-a7a1b7fa893c
+Atl-Traceid: 59927fd10ffc4a0dade2a7a1b7fa893c
+Date: Tue, 05 Aug 2025 12:52:23 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 c37f72766931ae9c3f146ffa54018d1c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: xPwlqIrOx5ecw5c6NsACOJ6zNkA4TsCCDvo_vilm-lx41WnFq7OmYA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 765236539
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[hikvision-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/doc/page/login.asp
+
+
+GET /doc/page/login.asp HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:133.0) Gecko/20100101 Firefox/133.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=STB6UXNpOHpGdFJkSUhMV2VwTndJZDZLU0M5TiswSGxOd05xdlllV2MzYUhwU2NsaktsRHNxdTltTnNKaEF1NGcvM2h2MFByK3QwejlaTTR6WVZwSnZNd3VKL01HRnBBTjI2emRmczEzaFkvY1g2M2ZYY3ZDWXpPbFJMeEZucnJDSi9BaSswZEFmcStKVXJkUHJaV2FaVHFSQ0VGcENqK2VQQVpEemxGbjFyT3VnYXNsdSsrMXdtRGJIYnNYYjBmdDZMQXRxZGtyVDJVY1JpcUpvRUlMeGpOLzRUNE1xbzgzcmIwT2piYTNkYz0tLXRIeHhmSU9ibXJqdngwMUxYb0FKK2c9PQ%3D%3D--acc6fddeaa83c7032cf90c817b31b7280fc0db09
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[hikvision-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/doc/page/login.asp
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 4c6f9036-cc77-4729-8f20-7f7366505afd
+Atl-Traceid: 4c6f9036cc7747298f207f7366505afd
+Date: Tue, 05 Aug 2025 12:52:29 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=3,atl-edge-upstream;dur=65,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 c37f72766931ae9c3f146ffa54018d1c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: zcah5NedTc8nqgBrRNKD7aj5M0TGFkyfbku-kpRdr0qtv1LtO6gMVg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 117762391
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

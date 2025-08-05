@@ -1,0 +1,80 @@
+[powerbi-report-server-detect] Dumped HTTP request for https://account.bts.bitpanda.com/reports/api/v2.0/System
+
+
+GET /reports/api/v2.0/System HTTP/1.1
+Host: account.bts.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686; rv:130.0) Gecko/20100101 Firefox/130.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[powerbi-report-server-detect] Dumped HTTP response https://account.bts.bitpanda.com/reports/api/v2.0/System
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 83
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66aa8081b7ad2-IAD
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:49 GMT
+Frontegg-Trace-Id: f032a7ad136142e2db0021ae8fc5719c
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Server: cloudflare
+Set-Cookie: _cfuvid=QhRRdW2EEwk_OUOUAJoXyU_KJKn2AKzNlj8PMyY0zQs-1754398189220-0.0.1.1-604800000; path=/; domain=.frontegg.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Via: 1.1 65515d7b1028cd133489fb761d35fa06.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: O5E10XPLrXYH_wMh2ziYQUXKIyFx2m44UHHL3d5okPQefGpRZ2BmNw==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+{"errors":["User authentication was not provided","Bearer token was not provided"]}
+[powerbi-report-server-detect] Dumped HTTP request for https://account.bts.bitpanda.com/reports/browse
+
+
+GET /reports/browse HTTP/1.1
+Host: account.bts.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/117.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[powerbi-report-server-detect] Dumped HTTP response https://account.bts.bitpanda.com/reports/browse
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 83
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66acd98ec74e8-IAD
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:54 GMT
+Frontegg-Trace-Id: faac4bff64ff56cb1fb53c59c53ba27c
+Origin-Agent-Cluster: ?1
+Referrer-Policy: no-referrer
+Server: cloudflare
+Set-Cookie: _cfuvid=CBsc4SF9J6sxRSkfELzZ.KbluBM6XsRNS3TaDva6O88-1754398194927-0.0.1.1-604800000; path=/; domain=.frontegg.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Via: 1.1 ec22576e88e707bf58c11e0ee75d019c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 8inH9ang-ohuw9wFPxGNaOxSnzAm1dANZ5E3r0kJWmbbNgy4P_Ecdw==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+
+{"errors":["User authentication was not provided","Bearer token was not provided"]}

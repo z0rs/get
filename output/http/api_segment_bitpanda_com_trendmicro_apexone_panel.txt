@@ -1,0 +1,32 @@
+[trendmicro-apexone-panel] Dumped HTTP request for https://api-segment.bitpanda.com/officescan/console/html/cgi/cgiChkMasterPwd.exe
+
+
+GET /officescan/console/html/cgi/cgiChkMasterPwd.exe HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=V9uTqDZ_jI0hrOErcNPmsODlmMi_37rW44pCK2vZCzc-1754398158159-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[trendmicro-apexone-panel] Dumped HTTP response https://api-segment.bitpanda.com/officescan/console/html/cgi/cgiChkMasterPwd.exe
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cache-Control: public, max-age=300
+Cf-Cache-Status: EXPIRED
+Cf-Ray: 96a669ec8d0a05e9-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:18 GMT
+Expires: Tue, 05 Aug 2025 12:54:18 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=Tdubrtvvuth51lL4vPo1elPxsAsE_BvEG61IraztXqI-1754398158934-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

@@ -1,0 +1,35 @@
+[ricoh-webimagemonitor-panel] Dumped HTTP request for https://status.techsolutions.bitpanda.com/web/guest/en/websys/webArch/header.cgi
+
+
+GET /web/guest/en/websys/webArch/header.cgi HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ricoh-webimagemonitor-panel] Dumped HTTP response https://status.techsolutions.bitpanda.com/web/guest/en/websys/webArch/header.cgi
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: c52d2df5-ee5c-423f-a3d8-d61f98efa42c
+Atl-Traceid: c52d2df5ee5c423fa3d8d61f98efa42c
+Date: Tue, 05 Aug 2025 12:52:16 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 6c2e384f59feb64a0c739aee7f890066.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: _h2XD__5KJHxsxGdygs1Ecp4OgTdH8rycuy7XjwoOYNqTCPA-cx0bQ==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 517190091
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

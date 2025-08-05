@@ -1,0 +1,14 @@
+[dmarc-detect] Dumped DNS response for _dmarc.bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 41841
+;; flags: qr rd ra ad; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 1232
+
+;; QUESTION SECTION:
+;_dmarc.bitpanda.com.	IN	 TXT
+
+;; ANSWER SECTION:
+_dmarc.bitpanda.com.	300	IN	TXT	"v=DMARC1; p=reject; pct=100; rua=mailto:re+b2utw9u2f6t@dmarc.postmarkapp.com; sp=reject; aspf=r;"
+

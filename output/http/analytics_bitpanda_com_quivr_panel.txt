@@ -1,0 +1,30 @@
+[quivr-panel] Dumped HTTP request for https://analytics.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Um1tFXzRc9lw.De7NCk56al5KkifrZflymxpYI8W2mk-1754398159645-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[quivr-panel] Dumped HTTP response https://analytics.bitpanda.com/login
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669f2fd5a7a11-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:20 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=MXvAvTfgM2duPbQ2hPxrGOE7uYGXl6eNMUtGLIADGQE-1754398160550-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+upstream connect error or disconnect/reset before headers. reset reason: connection termination

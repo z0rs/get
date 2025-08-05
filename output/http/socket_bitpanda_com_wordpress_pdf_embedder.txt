@@ -1,0 +1,37 @@
+[wordpress-pdf-embedder] Dumped HTTP request for https://socket.bitpanda.com/wp-content/plugins/pdf-embedder/readme.txt
+
+
+GET /wp-content/plugins/pdf-embedder/readme.txt HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/101.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=vfFpVuGokGUlFEXdh7cRmCYaJppxCh7ojxqb93beJXUiRakP3qV2zmA20YfGiTKYbzgwc2ZF7JjgeqaQx/gzGgD4a1N4gjB82WM2qf33Mwkl/LAhANIbzyZpmiUn; AWSALBCORS=vfFpVuGokGUlFEXdh7cRmCYaJppxCh7ojxqb93beJXUiRakP3qV2zmA20YfGiTKYbzgwc2ZF7JjgeqaQx/gzGgD4a1N4gjB82WM2qf33Mwkl/LAhANIbzyZpmiUn
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-pdf-embedder] Dumped HTTP response https://socket.bitpanda.com/wp-content/plugins/pdf-embedder/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:44 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=jQa90UzP+xl6x7a5uKbEje9aU2jiGorP9qIKRHyi/NyT5Jl0DUlCm4b5CV9kQuglnR9T+RkE+9P4GmTCfLuO/DTkVu6u5XgU+E6VafxRNgiA4G2bqXTsTqjaTPvT; Expires=Tue, 12 Aug 2025 12:52:44 GMT; Path=/
+Set-Cookie: AWSALBCORS=jQa90UzP+xl6x7a5uKbEje9aU2jiGorP9qIKRHyi/NyT5Jl0DUlCm4b5CV9kQuglnR9T+RkE+9P4GmTCfLuO/DTkVu6u5XgU+E6VafxRNgiA4G2bqXTsTqjaTPvT; Expires=Tue, 12 Aug 2025 12:52:44 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 689115ff2de1803f311819422d2bbc9e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: HCpfU8McTRn0Lvn7ujfgQveBdPXrK6EW1S9VfRm8YFlifqs2bqpKuw==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 1
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

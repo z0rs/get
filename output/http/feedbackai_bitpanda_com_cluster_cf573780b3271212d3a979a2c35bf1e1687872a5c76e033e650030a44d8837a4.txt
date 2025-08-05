@@ -1,0 +1,45 @@
+[cluster-cf573780b3271212d3a979a2c35bf1e1687872a5c76e033e650030a44d8837a4] Dumped HTTP request for http://feedbackai.bitpanda.com/welcome
+
+
+GET /welcome HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko)Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=2Mt280AOxgqWLqyVYweM_1ajcpX4M7061MpWTVbwSP4-1754398407808-0.0.1.1-604800000; _cfuvid=Li7BWTCDIAfeJKq6vkzJl33YkmOkTZiwPuyVmHKtxss-1754398423110-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-cf573780b3271212d3a979a2c35bf1e1687872a5c76e033e650030a44d8837a4] Dumped HTTP response http://feedbackai.bitpanda.com/welcome
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670ab5f2c0808-IAD
+Date: Tue, 05 Aug 2025 12:53:55 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+
+[cluster-cf573780b3271212d3a979a2c35bf1e1687872a5c76e033e650030a44d8837a4] Dumped HTTP response http://feedbackai.bitpanda.com/welcome
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a67064e92ad6dc-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:43 GMT
+Expires: Tue, 05 Aug 2025 13:53:43 GMT
+Location: https://feedbackai.bitpanda.com/welcome
+Server: cloudflare
+Set-Cookie: _cfuvid=KxFYb0Ibk6FUB1oId8TpDnHZQ6y0K_Lmdl3GbOPcgFY-1754398423839-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

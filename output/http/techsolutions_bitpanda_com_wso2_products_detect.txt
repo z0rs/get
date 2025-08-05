@@ -1,0 +1,26 @@
+[wso2-products-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/services/Version
+
+
+GET /services/Version HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/127.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wso2-products-detect] Dumped HTTP response https://techsolutions.bitpanda.com/services/Version
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:52 GMT
+Location: ./Version/
+Via: 1.1 5d22d4cd27d82c133b77117809cd93b4.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: vvRfJ6CHne9M2sgXGSy8UV9CrAYjFQ1OrHSCPHCu8zxcTqUhTYhj7Q==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

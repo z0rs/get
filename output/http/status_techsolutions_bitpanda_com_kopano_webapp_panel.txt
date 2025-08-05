@@ -1,0 +1,35 @@
+[kopano-webapp-panel] Dumped HTTP request for https://status.techsolutions.bitpanda.com/webapp/
+
+
+GET /webapp/ HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[kopano-webapp-panel] Dumped HTTP response https://status.techsolutions.bitpanda.com/webapp/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 4902575b-c196-4917-9c3d-6df48de1ed94
+Atl-Traceid: 4902575bc19649179c3d6df48de1ed94
+Date: Tue, 05 Aug 2025 12:52:12 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=3,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 c307613fe3146dad6950808dc74f82f6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: oZZx089Fk_rHE2bMoj3Q6zNpOBZL3KJMW3C3CUhQ_Hn4IrI-ZsTs5w==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 739271395
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

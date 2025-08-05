@@ -1,0 +1,34 @@
+[gradle-cache-node-detect] Dumped HTTP request for https://www.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: www.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=VNvg227gd8O58LTAG8RRRgDUrD560IIm9Hw6Bjtwwek-1754398375014-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[gradle-cache-node-detect] Dumped HTTP response https://www.bitpanda.com
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66f38b99ac5ce-IAD
+Content-Security-Policy: frame-ancestors 'self' https://app.storyblok.com;
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:55 GMT
+Location: /en
+Server: cloudflare
+Set-Cookie: _cfuvid=YIp.IiKhWhrLwd.jYUiRsg.vZCNUhdBQ7vp4nQkY04M-1754398375860-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::nx6h9-1754398375824-47df72e76151
+
+Redirecting...
+

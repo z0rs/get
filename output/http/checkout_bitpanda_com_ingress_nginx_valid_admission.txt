@@ -1,0 +1,58 @@
+[ingress-nginx-valid-admission] Dumped HTTP request for http://checkout.bitpanda.com/validate
+
+
+POST /validate HTTP/1.1
+Host: checkout.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686; rv:131.0) Gecko/20100101 Firefox/131.0
+Connection: close
+Content-Length: 555
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{
+  "kind": "AdmissionReview",
+  "apiVersion": "admission.k8s.io/v1",
+  "request": {
+    "uid": "wiybh",
+    "kind": {
+      "group": "networking.k8s.io",
+      "version": "v1",
+      "kind": "Ingress"
+    },
+    "operation": "CREATE",
+    "object": {
+      "metadata": {
+        "name": "test-wiybh",
+        "namespace": "default"
+      },
+      "spec": {
+        "rules": [
+          {
+            "host": "example.com",
+            "http": {
+              "paths": []
+            }
+          }
+        ]
+      }
+    }
+  }
+}
+[ingress-nginx-valid-admission] Dumped HTTP response http://checkout.bitpanda.com/validate
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:27 GMT
+Location: https://checkout.bitpanda.com/validate
+
+<html>
+<head><title>308 Permanent Redirect</title></head>
+<body>
+<center><h1>308 Permanent Redirect</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+

@@ -1,0 +1,38 @@
+[wms-server-detect] Dumped HTTP request for http://ff.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=zBx7tIxUUDryjkd0Ub4nePbq04_xw5.LIvCwYawAttg-1754398445643-0.0.1.1-604800000; GCLB="d54b31bbffa5ac2c"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wms-server-detect] Dumped HTTP response http://ff.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a671006cb32ade-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:54:08 GMT
+Expires: Tue, 05 Aug 2025 13:54:08 GMT
+Location: https://ff.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=D1Xdhb4gVoDfeu1XF4PZjZSI1uqq1CpFqbE5XvIanjA-1754398448748-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

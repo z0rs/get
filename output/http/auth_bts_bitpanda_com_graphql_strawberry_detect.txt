@@ -1,0 +1,15 @@
+[graphql-strawberry-detect] Dumped HTTP request for https://auth-bts.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: auth-bts.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Content-Length: 44
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query @deprecated { __typename }"}

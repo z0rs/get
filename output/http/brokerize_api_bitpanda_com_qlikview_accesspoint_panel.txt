@@ -1,0 +1,30 @@
+[qlikview-accesspoint-panel] Dumped HTTP request for https://brokerize-api.bitpanda.com/qlikview/FormLogin.htm
+
+
+GET /qlikview/FormLogin.htm HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.140 Safari/537.36 Edge/18.17763
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=qLQBcZHauSisBDzLBLuK3i4nHUxtQ54fpqHUWisVoio-1754398150114-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[qlikview-accesspoint-panel] Dumped HTTP response https://brokerize-api.bitpanda.com/qlikview/FormLogin.htm
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669ba8e55c979-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:49:10 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=2c48.0RHHo1QyDsE0uopVV1jRitsJehLzq6I2RsjVbo-1754398150921-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}

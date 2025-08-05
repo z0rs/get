@@ -1,0 +1,35 @@
+[seafile-api] Dumped HTTP request for https://status.techsolutions.bitpanda.com/api2/server-info/
+
+
+GET /api2/server-info/ HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/108.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[seafile-api] Dumped HTTP response https://status.techsolutions.bitpanda.com/api2/server-info/
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 7b9e8892-fdb6-402a-94eb-7f5d850afabd
+Atl-Traceid: 7b9e8892fdb6402a94eb7f5d850afabd
+Date: Tue, 05 Aug 2025 12:52:20 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=3,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 966d01179c7098b0cf2a20ba8c352dee.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: W0DYyPblJWiemyPbTHbUlpqL1nalwWxlSMyQA8l42oGqr20WMzS3ZA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 111979863
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

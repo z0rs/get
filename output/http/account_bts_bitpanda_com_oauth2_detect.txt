@@ -1,0 +1,44 @@
+[oauth2-detect] Dumped HTTP request for https://account.bts.bitpanda.com/oauth/token
+
+
+POST /oauth/token HTTP/1.1
+Host: account.bts.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64; rv:132.0) Gecko/20100101 Firefox/132.0
+Connection: close
+Content-Length: 117
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+grant_type=authorization_code&client_id=xxx&redirect_uri=https%3A%2F%2Fprojectdiscovery.io&code=xxx&client_secret=xxx
+[oauth2-detect] Dumped HTTP response https://account.bts.bitpanda.com/oauth/token
+
+HTTP/1.1 415 Unsupported Media Type
+Connection: close
+Content-Length: 60
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66ac73c9e0587-IAD
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:53 GMT
+Frontegg-Trace-Id: 165059343abe29a6760dbb638ef8bc54
+Origin-Agent-Cluster: ?1
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: _cfuvid=Q6b550zFn0ZDqsgkMwLF.gM4mK.ppNSAzRpgLBdPacU-1754398193919-0.0.1.1-604800000; path=/; domain=.frontegg.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Via: 1.1 8d0bf2975485a7f0e4b8d82ddd378292.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: PzgdemTmctS38OagHnx5aP4Yp5VLo6c7aWEgkBkA_LSoMd3kcQbSUw==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Rate-Limit-Limit: 500
+X-Rate-Limit-Remaining: 499
+X-Rate-Limit-Reset: 2025-08-05T12:50:53.865Z
+X-Xss-Protection: 0
+
+{"errors":["Unsupported media type"],"errorCode":"ER-00005"}

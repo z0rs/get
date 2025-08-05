@@ -1,0 +1,35 @@
+[apache-guacamole] Dumped HTTP request for https://status.techsolutions.bitpanda.com/translations/en.json
+
+
+GET /translations/en.json HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686; rv:123.0) Gecko/20100101 Firefox/123.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-guacamole] Dumped HTTP response https://status.techsolutions.bitpanda.com/translations/en.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 7e51f0ab-1cbc-430e-9985-fb17076fee96
+Atl-Traceid: 7e51f0ab1cbc430e9985fb17076fee96
+Date: Tue, 05 Aug 2025 12:52:20 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=63,atl-edge-internal;dur=3,atl-edge-upstream;dur=61,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 c37f72766931ae9c3f146ffa54018d1c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: w0booFQgG7UEY2xjKsk7vzKsfhaLuzED-JHOKaAgosghDlqwwbWYTw==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 1063952831
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

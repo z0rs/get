@@ -1,0 +1,24 @@
+[oauth2-detect] Dumped HTTP request for http://requests.bitpanda.com/oauth/token
+
+
+POST /oauth/token HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15
+Connection: close
+Content-Length: 117
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+grant_type=authorization_code&client_id=xxx&redirect_uri=https%3A%2F%2Fprojectdiscovery.io&code=xxx&client_secret=xxx
+[oauth2-detect] Dumped HTTP response http://requests.bitpanda.com/oauth/token
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 18
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:11 GMT
+Location: https://requests.bitpanda.com/oauth/token
+
+Permanent Redirect

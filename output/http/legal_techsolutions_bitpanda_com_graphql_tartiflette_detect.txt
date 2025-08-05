@@ -1,0 +1,64 @@
+[graphql-tartiflette-detect] Dumped HTTP request for http://legal.techsolutions.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: legal.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 35
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=CnvWNjP9eJbjX1DMbSL0k8GojMhwoZ.89lYkjhotyqs-1754398253908-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query @a { __typename }"}
+[graphql-tartiflette-detect] Dumped HTTP request for http://legal.techsolutions.bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: legal.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/113.0 Safari/537.36
+Connection: close
+Content-Length: 35
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=CnvWNjP9eJbjX1DMbSL0k8GojMhwoZ.89lYkjhotyqs-1754398253908-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query @a { __typename }"}
+[graphql-tartiflette-detect] Dumped HTTP request for http://legal.techsolutions.bitpanda.com/query
+
+
+POST /query HTTP/1.1
+Host: legal.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 35
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=CnvWNjP9eJbjX1DMbSL0k8GojMhwoZ.89lYkjhotyqs-1754398253908-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query @a { __typename }"}
+[graphql-tartiflette-detect] Dumped HTTP request for http://legal.techsolutions.bitpanda.com/
+
+
+POST / HTTP/1.1
+Host: legal.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 35
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=CnvWNjP9eJbjX1DMbSL0k8GojMhwoZ.89lYkjhotyqs-1754398253908-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query @a { __typename }"}

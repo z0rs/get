@@ -1,0 +1,38 @@
+[waf-detect] Dumped HTTP request for https://socket.bitpanda.com
+
+
+POST / HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 27
+Content-Type: application/x-www-form-urlencoded
+Cookie: AWSALB=jQOjzARrHArU6TaW9DBMWKTTGF8tDxlVptQRbph6WSA/75V26yrf2+zl/Xw0RRk4IYgc4wfk3O7kJuRVv0DMVzu80NMW9t0ZDrLaSb7FLm+ZC1b5+f3lapIFpOss; AWSALBCORS=jQOjzARrHArU6TaW9DBMWKTTGF8tDxlVptQRbph6WSA/75V26yrf2+zl/Xw0RRk4IYgc4wfk3O7kJuRVv0DMVzu80NMW9t0ZDrLaSb7FLm+ZC1b5+f3lapIFpOss
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+_=<script>alert(1)</script>
+[waf-detect] Dumped HTTP response https://socket.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:41 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=wHb+7ggCKfzhowAq4w9jt+d1LTpW4ObS/2rVQW4/wvcFpdjL8NlCQV/GsEr+EXUR50iOI1tdo1OAjdSt8ysS4o5HNT1beHkiyiPepv/zROyI+8/SL68ObsTobiio; Expires=Tue, 12 Aug 2025 12:52:41 GMT; Path=/
+Set-Cookie: AWSALBCORS=wHb+7ggCKfzhowAq4w9jt+d1LTpW4ObS/2rVQW4/wvcFpdjL8NlCQV/GsEr+EXUR50iOI1tdo1OAjdSt8ysS4o5HNT1beHkiyiPepv/zROyI+8/SL68ObsTobiio; Expires=Tue, 12 Aug 2025 12:52:41 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 ded2db8c78a1ad7377261200a0bb44fa.[32mc[0m[32ml[0m[32mo[0m[32mu[0m[32md[0m[32mf[0m[32mr[0m[32mo[0m[32mn[0m[32mt[0m.net ([32mC[0m[32ml[0m[32mo[0m[32mu[0m[32md[0m[32mF[0m[32mr[0m[32mo[0m[32mn[0m[32mt[0m)
+X-Amz-Cf-Id: Uqa4g2XlW_ZuuKhMG7PSqLxb7ezq8Tr3aoxor4TzZ7rzWzpDsTkThA==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from [32mc[0m[32ml[0m[32mo[0m[32mu[0m[32md[0m[32mf[0m[32mr[0m[32mo[0m[32mn[0m[32mt[0m
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 2
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

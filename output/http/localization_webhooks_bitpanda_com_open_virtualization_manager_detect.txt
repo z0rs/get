@@ -1,0 +1,38 @@
+[open-virtualization-manager-detect] Dumped HTTP request for http://localization.webhooks.bitpanda.com/ovirt-engine/
+
+
+GET /ovirt-engine/ HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=71Tkc.hJ_YZzbb7JIUuJeK8DHyHOaAW7dhAP8Kw5pc0-1754398424925-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[open-virtualization-manager-detect] Dumped HTTP response http://localization.webhooks.bitpanda.com/ovirt-engine/
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a6706bdd6b2099-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:44 GMT
+Expires: Tue, 05 Aug 2025 13:53:44 GMT
+Location: https://localization.webhooks.bitpanda.com/ovirt-engine/
+Server: cloudflare
+Set-Cookie: _cfuvid=zF4PlF1bkGOM8UlaM1nMlpzYK_O_iXAvuuw9bf5f11Q-1754398424964-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

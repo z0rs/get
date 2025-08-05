@@ -1,0 +1,10 @@
+[ec2-detection] Dumped DNS request for account.bts.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 20340
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;account.bts.bitpanda.com.	IN	 CNAME
+

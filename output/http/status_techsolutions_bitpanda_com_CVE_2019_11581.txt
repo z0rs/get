@@ -1,0 +1,35 @@
+[CVE-2019-11581] Dumped HTTP request for https://status.techsolutions.bitpanda.com/secure/ContactAdministrators!default.jspa
+
+
+GET /secure/ContactAdministrators!default.jspa HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686; rv:121.0) Gecko/20100101 Firefox/121.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2019-11581] Dumped HTTP response https://status.techsolutions.bitpanda.com/secure/ContactAdministrators!default.jspa
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: d0d23f28-cdc0-4970-b624-2b21ac297c70
+Atl-Traceid: d0d23f28cdc04970b6242b21ac297c70
+Date: Tue, 05 Aug 2025 12:53:15 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=3,atl-edge-upstream;dur=62,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 966d01179c7098b0cf2a20ba8c352dee.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: JA3Siuc0PZcBSLD-yIfqj0mxJNzWl3W2X7zBDeNfYBFeuXr7yGTjbA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 1058594149
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

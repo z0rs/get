@@ -1,0 +1,20 @@
+[dns-waf-detect] Dumped DNS request for api-segment.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 42264
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;api-segment.bitpanda.com.	IN	 CNAME
+
+[dns-waf-detect] Dumped DNS request for api-segment.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 11778
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;api-segment.bitpanda.com.	IN	 NS
+

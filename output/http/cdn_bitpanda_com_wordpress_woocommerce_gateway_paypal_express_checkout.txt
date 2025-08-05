@@ -1,0 +1,37 @@
+[wordpress-woocommerce-gateway-paypal-express-checkout] Dumped HTTP request for http://cdn.bitpanda.com/wp-content/plugins/woocommerce-gateway-paypal-express-checkout/readme.txt
+
+
+GET /wp-content/plugins/woocommerce-gateway-paypal-express-checkout/readme.txt HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=Ekeh_dh7S6MhnNJzSXwDt0HgzWPSsQdthehEeBgpzeU-1754398349827-0.0.1.1-604800000; _cfuvid=3wxVkMkJJgNf31c76frMauWoK4W.wz8V_yQtTAIMKa0-1754398365818-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-woocommerce-gateway-paypal-express-checkout] Dumped HTTP response http://cdn.bitpanda.com/wp-content/plugins/woocommerce-gateway-paypal-express-checkout/readme.txt
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f06b8705bff-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:47 GMT
+Expires: Tue, 05 Aug 2025 13:52:47 GMT
+Location: https://cdn.bitpanda.com/wp-content/plugins/woocommerce-gateway-paypal-express-checkout/readme.txt
+Server: cloudflare
+Set-Cookie: _cfuvid=wsngkaPFs8BGXdz8Ga0ibhTwjwor7l5vwGgG4Xvl6ls-1754398367818-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

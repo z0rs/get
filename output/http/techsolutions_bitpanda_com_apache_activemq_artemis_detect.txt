@@ -1,0 +1,30 @@
+[apache-activemq-artemis-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/console/hawtconfig.json
+
+
+GET /console/hawtconfig.json HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh, Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[apache-activemq-artemis-detect] Dumped HTTP response https://techsolutions.bitpanda.com/console/hawtconfig.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:29 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 7ba8238566c8641cae9d38ebcb67e0e8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: SYZuI6nGxTytzQmLirTU19E4h1FWFWUhOM7tNP0WSMa0UUCK5UL-SA==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: LB3RbUUNv0jeX65EW+YYBCKF2DNVI1DWJreOOeSvLicYef4e+ipS+p62uL3oKex+e7aS/vEDv3w=
+X-Amz-Request-Id: D6NZBNJNK88Z4RDG
+X-Cache: Error from cloudfront
+
+Not Found

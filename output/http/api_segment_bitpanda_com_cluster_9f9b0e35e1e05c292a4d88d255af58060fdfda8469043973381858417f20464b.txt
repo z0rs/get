@@ -1,0 +1,29 @@
+[cluster-9f9b0e35e1e05c292a4d88d255af58060fdfda8469043973381858417f20464b] Dumped HTTP request for https://api-segment.bitpanda.com/ui/login.action
+
+
+GET /ui/login.action HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=YOrQJSdvC11NVtvtIUVVt05Vv7xxvNBA2M9lqz7NgQg-1754398159091-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-9f9b0e35e1e05c292a4d88d255af58060fdfda8469043973381858417f20464b] Dumped HTTP response https://api-segment.bitpanda.com/ui/login.action
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669f2cb3ec9b3-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:19 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=TT1vcPOxZeP5WeBcgJ4LJ_56rw3R8Stb.Jaxf3DHmag-1754398159906-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

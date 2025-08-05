@@ -1,0 +1,50 @@
+[tiny-file-manager-unauth] Dumped HTTP request for http://cdn.bitpanda.com/index.php
+
+
+GET /index.php HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=MY4HCPwk5TzX3b1sQQub_KS_VTDQtvF38.cdDZSAk5c-1754398168818-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[tiny-file-manager-unauth] Dumped HTTP response http://cdn.bitpanda.com/index.php
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Transfer-Encoding: chunked
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a318c1a5a1b-IAD
+Content-Type: application/xml
+Date: Tue, 05 Aug 2025 12:49:30 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Via: 1.1 165ed32c12154887fba331169c8022ee.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: YNNfIr7MTYBAgm75gGKyKaySzzc81bxiAs1LuYYKzyxQ3-xgrnq08w==
+X-Amz-Cf-Pop: IAD50-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message></Error>
+[tiny-file-manager-unauth] Dumped HTTP response http://cdn.bitpanda.com/index.php
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66a313e54c93b-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:29 GMT
+Expires: Tue, 05 Aug 2025 13:49:29 GMT
+Location: https://cdn.bitpanda.com/index.php
+Server: cloudflare
+Set-Cookie: _cfuvid=y1RH88eZiojV37pThh8yhLj0RkBsFZZDovZ5qi0VUiA-1754398169816-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

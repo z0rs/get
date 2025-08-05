@@ -1,0 +1,62 @@
+[bonobo-server-panel] Dumped HTTP request for http://localization.webhooks.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/114.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=.7pSM9z7vEGcfXgmt.mBmVcmGpbXAvCVwybQIwFRloA-1754398270847-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[bonobo-server-panel] Dumped HTTP response http://localization.webhooks.bitpanda.com
+
+HTTP/1.1 200 OK
+Connection: close
+Content-Length: 22
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66caeedfaea36-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:51:12 GMT
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Amz-Apigw-Id: O1SqDFuFjoEEdZA=
+X-Amzn-Requestid: 17de1d88-f168-4ee7-ae38-5ea052ff2cb7
+X-Amzn-Trace-Id: Root=1-6891fe3f-4cdea0515bfdc49100b50e40
+X-Content-Type-Options: nosniff
+
+{"message": "success"}
+[bonobo-server-panel] Dumped HTTP response http://localization.webhooks.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66caeac80f508-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:51:11 GMT
+Expires: Tue, 05 Aug 2025 13:51:11 GMT
+Location: https://localization.webhooks.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=OgwDcuk_DD3dyhIt83ZCDxG.lIdEpt53IRiJyR8MMuo-1754398271804-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+
+[bonobo-server-panel] Dumped HTTP request for http://localization.webhooks.bitpanda.com/git
+
+
+GET /git HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11_3) AppleWebKit/537.36 (KHTML, like Gecko) Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=q44zv5xR1fj84yD7dHaQ8eqVseATsWdxqr60nCs1CQg-1754398271864-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

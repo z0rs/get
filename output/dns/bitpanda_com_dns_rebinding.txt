@@ -1,0 +1,50 @@
+[dns-rebinding] Dumped DNS request for bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 12195
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 A
+
+[dns-rebinding] Dumped DNS response for bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 12195
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 512
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 A
+
+;; ANSWER SECTION:
+bitpanda.com.	300	IN	A	172.64.154.186
+bitpanda.com.	300	IN	A	104.18.33.70
+
+[dns-rebinding] Dumped DNS request for bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 54024
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 AAAA
+
+[dns-rebinding] Dumped DNS response for bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 54024
+;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 1232
+
+;; QUESTION SECTION:
+;bitpanda.com.	IN	 AAAA
+
+;; ANSWER SECTION:
+bitpanda.com.	300	IN	AAAA	2606:4700:4400::6812:2146
+bitpanda.com.	300	IN	AAAA	2606:4700:4400::ac40:9aba
+

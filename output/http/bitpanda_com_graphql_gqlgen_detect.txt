@@ -1,0 +1,48 @@
+[graphql-gqlgen-detect] Dumped HTTP request for https://bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Safari/605.1.15
+Connection: close
+Content-Length: 34
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=FB_9wY3t4tIVYjLrOSFhzoD2g2LSE96uPXH5x88jEAk-1754398240878-0.0.1.1-604800000; _cfuvid=FNUrsNdyRv0Tzv9Zk3o64hmw3XaRqVgBmeYvwezlyKE-1754398241932-0.0.1.1-604800000; _cfuvid=KjGDjLQJCUnrJ88IKq8A8zw1XB.KjsaVqTLhhijEjhY-1754398258959-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query { __typename { }"}
+[graphql-gqlgen-detect] Dumped HTTP request for https://bitpanda.com/query
+
+
+POST /query HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/104.0 Safari/537.36
+Connection: close
+Content-Length: 34
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=FJfFEFlsQOIsV5BqZ2pte5jYEtm4NHMQ3xZa7Jaa894-1754398275807-0.0.1.1-604800000; _cfuvid=I9FDDLv.QGOQkTx0uxC4YulnDQz8P.Gdkgh5GI0Ns70-1754398287959-0.0.1.1-604800000; _cfuvid=2uOkEtuRHfkusTHPQPaPs.qqwCed6yvZiKZbjELh3z8-1754398307904-0.0.1.1-604800000; _cfuvid=2uOkEtuRHfkusTHPQPaPs.qqwCed6yvZiKZbjELh3z8-1754398307904-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query { __typename { }"}
+[graphql-gqlgen-detect] Dumped HTTP request for https://bitpanda.com/
+
+
+POST / HTTP/1.1
+Host: bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14.5) AppleWebKit/618.3.5 (KHTML, like Gecko) Version/17.4 Safari/618.3.5
+Connection: close
+Content-Length: 34
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=.LMYaC0GHbkbpCsA0puzAIgau4F7RSpA4FXjwIJm33M-1754398309640-0.0.1.1-604800000; _cfuvid=3QUvhUhTayuUp2963J_GEEcqM6bU2Hs56ZDiZmEuSjo-1754398323019-0.0.1.1-604800000; _cfuvid=4uZevjG.YGO8_mDf.sJIy2id1_lCk4H4B0VllOFWNpE-1754398339051-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query { __typename { }"}

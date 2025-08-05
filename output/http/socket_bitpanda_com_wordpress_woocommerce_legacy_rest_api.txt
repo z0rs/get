@@ -1,0 +1,37 @@
+[wordpress-woocommerce-legacy-rest-api] Dumped HTTP request for https://socket.bitpanda.com/wp-content/plugins/woocommerce-legacy-rest-api/readme.txt
+
+
+GET /wp-content/plugins/woocommerce-legacy-rest-api/readme.txt HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686; rv:128.0) Gecko/20100101 Firefox/128.0
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=iPfHVv5nI+aitT6dVNkaE9nOAkB5RgnCcRAfZZ/ar7jZPlFhLkn1Bh+O0G2mLVQu70Nq+2vttxPC74L20Q8LQDJvMB0typrR/jDc6h+PgnBEtxxi41B2OfX+9TJ0; AWSALBCORS=iPfHVv5nI+aitT6dVNkaE9nOAkB5RgnCcRAfZZ/ar7jZPlFhLkn1Bh+O0G2mLVQu70Nq+2vttxPC74L20Q8LQDJvMB0typrR/jDc6h+PgnBEtxxi41B2OfX+9TJ0
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-woocommerce-legacy-rest-api] Dumped HTTP response https://socket.bitpanda.com/wp-content/plugins/woocommerce-legacy-rest-api/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:46 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=gSUBeVgRoHH7r0vNB+giTVcLQLBdEzkzk7wWQMyBLig0DBQ07PVQ+aDtg4omW/QLjMVG8Xp7FlV842qJKzVYRPP6tGaAejcttGNlMmGhssLmWgvOirkZBovRM7xv; Expires=Tue, 12 Aug 2025 12:52:46 GMT; Path=/
+Set-Cookie: AWSALBCORS=gSUBeVgRoHH7r0vNB+giTVcLQLBdEzkzk7wWQMyBLig0DBQ07PVQ+aDtg4omW/QLjMVG8Xp7FlV842qJKzVYRPP6tGaAejcttGNlMmGhssLmWgvOirkZBovRM7xv; Expires=Tue, 12 Aug 2025 12:52:46 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 9a7233ae68a3338294c89b1bf53bc426.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: _rseBVtBY9PREk1sQDx_7gF6g_PTo00NUzBVvWdIt5V83JRUoxghNw==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 17
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

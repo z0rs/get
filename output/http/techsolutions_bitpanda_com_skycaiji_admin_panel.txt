@@ -1,0 +1,31 @@
+[skycaiji-admin-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/index.php?s=/admin/Index/index
+
+
+GET /index.php?s=/admin/Index/index HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[skycaiji-admin-panel] Dumped HTTP response https://techsolutions.bitpanda.com/index.php?s=/admin/Index/index
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Age: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:25 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 453fca9bdf51d1b9cd544a035e75d92c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: BeyRSK9KZprjGxMR328ufIpmOWNkbBNzdaE-3gh525FY1fWUlhIoOg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: 721QULd5wCPJE7ntbyQwTR0Se6taMCiJ/ZHngbM4dmBM8VbS8iwc4bFeWbwbeeuW4QkagcVxUwM=
+X-Amz-Request-Id: XY86N53EQ04W1ARF
+X-Cache: Error from cloudfront
+
+Not Found

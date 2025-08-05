@@ -1,0 +1,33 @@
+[busybox-repository-browser] Dumped HTTP request for https://www.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: www.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:130.0) Gecko/20100101 Firefox/130.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[busybox-repository-browser] Dumped HTTP response https://www.bitpanda.com
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66f59595b9c46-IAD
+Content-Security-Policy: frame-ancestors 'self' https://app.storyblok.com;
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:01 GMT
+Location: /en
+Server: cloudflare
+Set-Cookie: _cfuvid=0GdOtw74mA9A9MtNBiKUm3Twt4zzEz07LTGryKGxq.w-1754398381126-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::62sbk-1754398381065-15fe186a9ae4
+
+Redirecting...
+

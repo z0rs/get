@@ -1,0 +1,48 @@
+[cacti-panel] Dumped HTTP request for https://raiffeisen.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: raiffeisen.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=ystBtCe8OO2Z0Dim71QgyJh9Oe2kc44ppZG57ynKANY-1754398307122-0.0.1.1-604800000; _cfuvid=AmbLF8O03ahSXV1PZDbFj7DqHn1H0EzLihSn5WDm8qU-1754398308951-0.0.1.1-604800000; _cfuvid=YeY7jRUNxhCMfF9eqdumdAC5jhorUbS2136jY7DbAOY-1754398313020-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cacti-panel] Dumped HTTP request for https://raiffeisen.bitpanda.com/cacti/
+
+
+GET /cacti/ HTTP/1.1
+Host: raiffeisen.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=PHNJAx7HEnd6XApHdBovAEjale_rjoV_.BGfSzPmczI-1754398314163-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cacti-panel] Dumped HTTP response https://raiffeisen.bitpanda.com/cacti/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66dc1bbe4e619-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:51:55 GMT
+Location: /cacti
+Refresh: 0;url=/cacti
+Server: cloudflare
+Set-Cookie: _cfuvid=vV3bBNIbGVbfhy.b5Puo_IZcsWFUgJSbNtaYVANMI6w-1754398315857-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::dtbtl-1754398315843-418e3d4cb837
+
+Redirecting...
+

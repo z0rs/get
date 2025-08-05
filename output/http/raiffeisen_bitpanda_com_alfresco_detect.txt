@@ -1,0 +1,35 @@
+[alfresco-detect] Dumped HTTP request for https://raiffeisen.bitpanda.com/alfresco/api/-default-/public/cmis/versions/1.1/atom
+
+
+GET /alfresco/api/-default-/public/cmis/versions/1.1/atom HTTP/1.1
+Host: raiffeisen.bitpanda.com
+User-Agent: Mozilla/5.0  Macintosh  Intel Mac OS X 10_15_7  AppleWebKit/605.1.15  KHTML  like Gecko  Version/18.3.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=ystBtCe8OO2Z0Dim71QgyJh9Oe2kc44ppZG57ynKANY-1754398307122-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[alfresco-detect] Dumped HTTP response https://raiffeisen.bitpanda.com/alfresco/api/-default-/public/cmis/versions/1.1/atom
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66d8fe99f46fd-IAD
+Content-Security-Policy: frame-src https://docs.google.com/viewer *.bitpanda.com *.staging.waskurzes.com *.bitpanda.dev vercel.live; frame-ancestors 'none'
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:51:48 GMT
+Location: /auth/error
+Server: cloudflare
+Set-Cookie: _cfuvid=GIh5dIwRRqUsOVwGiL3qQaSmEUXoRWItQAtdkLQJANc-1754398308030-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Immediate-Return: 1
+X-Vercel-Id: iad1::d5qvh-1754398307868-b4ca1f6c1ec7
+
+Redirecting...
+

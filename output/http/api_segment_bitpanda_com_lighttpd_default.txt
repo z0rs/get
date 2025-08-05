@@ -1,0 +1,29 @@
+[lighttpd-default] Dumped HTTP request for https://api-segment.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=AFwMBCGY.5e7hClf9n8Yx1_d9K6WrzJdh5v6HXBk2pI-1754398171973-0.0.1.1-604800000; _cfuvid=ZQCByHfERZBfHwXZ06G41wmCEklQ.YlIFvCSMWzGhL4-1754398173071-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[lighttpd-default] Dumped HTTP response https://api-segment.bitpanda.com
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a4a4ba5c998-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:33 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=vN8mnPnIbRj6PNWTfsq9i0ZXH7zUxDDy.rwg5HOEH2k-1754398173902-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

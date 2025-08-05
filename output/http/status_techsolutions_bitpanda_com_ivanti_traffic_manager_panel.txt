@@ -1,0 +1,35 @@
+[ivanti-traffic-manager-panel] Dumped HTTP request for https://status.techsolutions.bitpanda.com/apps/zxtm/login.cgi
+
+
+GET /apps/zxtm/login.cgi HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36 Edge/15.15063
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[ivanti-traffic-manager-panel] Dumped HTTP response https://status.techsolutions.bitpanda.com/apps/zxtm/login.cgi
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 08ec8f8c-6641-472c-91a4-f1fb054f04f9
+Atl-Traceid: 08ec8f8c6641472c91a4f1fb054f04f9
+Date: Tue, 05 Aug 2025 12:52:12 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=4,atl-edge-upstream;dur=61,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 8ad5a9cbb864898c238f716c1a12623c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: jUH0OROQGkbo871XR-VrvSFdccJr6RIjSKky9FvhWyP-odTY2EBKBg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 103374682
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

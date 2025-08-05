@@ -1,0 +1,32 @@
+[cluster-290ec864e6a62bde8787ede4874ab2c756fda426360789299de6081d6da399aa] Dumped HTTP request for https://analytics.bitpanda.com/data?get=prodServerGen
+
+
+GET /data?get=prodServerGen HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=pmY3IXytTpq4PzHYxPekokLlzxZ6SOxlAYaZfHuQU3o-1754398193249-0.0.1.1-604800000; _cfuvid=md38xkk6RkjqYJR3rHs9_rgwqBCaD8kmrsCvUEDqRLw-1754398206937-0.0.1.1-604800000; _cfuvid=ZII6jBxKp0U4HmIKbWQ.3fLsmYpCSUYXerDLt2ai5ec-1754398222993-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-290ec864e6a62bde8787ede4874ab2c756fda426360789299de6081d6da399aa] Dumped HTTP response https://analytics.bitpanda.com/data?get=prodServerGen
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Credentials: true
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66b88fe8405ef-IAD
+Content-Type: text/html; charset=utf-8
+Date: Tue, 05 Aug 2025 12:50:24 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=Km6lK7m3Rod4AeoBXwnC1gRR39C753hpmcy8iVcqCtQ-1754398224941-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Origin
+X-Content-Type-Options: nosniff
+X-Powered-By: Express
+
+Bad request

@@ -1,0 +1,38 @@
+[dns-waf-detect] Dumped DNS request for socket.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 32724
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;socket.bitpanda.com.	IN	 CNAME
+
+[dns-waf-detect] Dumped DNS request for socket.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 63404
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;socket.bitpanda.com.	IN	 NS
+
+[dns-waf-detect] Dumped DNS response for socket.bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 63404
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 1232
+
+;; QUESTION SECTION:
+;socket.bitpanda.com.	IN	 NS
+
+;; ANSWER SECTION:
+socket.bitpanda.com.	300	IN	CNAME	d3psbw2342r39t.cloudfront.net.
+d3psbw2342r39t.cloudfront.net.	172800	IN	NS	ns-1406.awsdns-47.org.
+d3psbw2342r39t.cloudfront.net.	172800	IN	NS	ns-1729.awsdns-24.co.uk.
+d3psbw2342r39t.cloudfront.net.	172800	IN	NS	ns-33.awsdns-04.com.
+d3psbw2342r39t.cloudfront.net.	172800	IN	NS	ns-845.awsdns-41.net.
+

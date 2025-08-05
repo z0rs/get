@@ -1,0 +1,53 @@
+[onlyoffice-login-panel] Dumped HTTP request for https://custody.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=gv4sCxvZYo2w19gvGODVeWkRwe19UqASvLcIAoJcZGk-1754398339835-0.0.1.1-604800000; _cfuvid=ecOBotYgcVWm_Z2JZXx7zocXYMCmsdsACm8rKAxqgmY-1754398357656-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[onlyoffice-login-panel] Dumped HTTP request for https://custody.bitpanda.com/auth.aspx
+
+
+GET /auth.aspx HTTP/1.1
+Host: custody.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:107.0) Gecko/20100101 Firefox/107.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=rEWFIKPTFNvH9ULSv9p9wHOVWI7iX76ScAZsbE070uI-1754398371925-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[onlyoffice-login-panel] Dumped HTTP response https://custody.bitpanda.com/auth.aspx
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66f262f4bd6e4-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:52:52 GMT
+Expires: Tue, 05 Aug 2025 13:52:52 GMT
+Location: https://www.bitpanda.com/en/tech/custody-solutions
+Server: cloudflare
+Set-Cookie: _cfuvid=J6x9UjpagdJkk9_F6MHH5geJpGiDYBIGhvRiQyHwyto-1754398372847-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

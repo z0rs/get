@@ -1,0 +1,34 @@
+[dns-waf-detect] Dumped DNS request for ff.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 47016
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;ff.bitpanda.com.	IN	 CNAME
+
+[dns-waf-detect] Dumped DNS response for ff.bitpanda.com
+
+;; opcode: QUERY, status: NOERROR, id: 47016
+;; flags: qr rd ra; QUERY: 1, ANSWER: 0, AUTHORITY: 1, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 1232
+
+;; QUESTION SECTION:
+;ff.bitpanda.com.	IN	 CNAME
+
+;; AUTHORITY SECTION:
+bitpanda.com.	1800	IN	SOA	jake.ns.cloudflare.com. dns.cloudflare.com. 2379628093 10000 2400 604800 1800
+
+[dns-waf-detect] Dumped DNS request for ff.bitpanda.com
+;; opcode: QUERY, status: NOERROR, id: 56405
+;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version 0; flags:; udp: 4096
+
+;; QUESTION SECTION:
+;ff.bitpanda.com.	IN	 NS
+

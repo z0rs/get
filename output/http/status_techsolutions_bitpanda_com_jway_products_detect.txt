@@ -1,0 +1,36 @@
+[jway-products-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/generatedHomepage.html
+
+
+GET /generatedHomepage.html HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.0; he-IL) AppleWebKit/528+ (KHTML, like Gecko) Version/4.0 Safari/528.16
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=bnc1M1VhcHZqUTNrY3lDNmZTRlhFNExhSklFWm8xUzJGMU5yNjlNeENMc1JuRG9RTHkzRWlwRlZHT3ZIalhuSEszTmZMd090amF4cCtJVGJibXU1dE5CYTBzc2p0N0UxYmVTdjRRTS9IamR1OUtnY1VaUWY1aStBNVV2L2s3WCtVcElJUUQzRTlBano1NkpVbHo0TlBiai9zRWE1WEI3QzBONUc1S1p0aVZsMWJXWHhlVEorajhuaE1IemowUUhqajlUUUdGa1dDdk5nMEVCcEdZTmQwUmlWOFpITnZTRDJ6RWE3OGdtNGFXbz0tLWdDYlRvMTgvRVNLTGNxaDJSZnJNZ1E9PQ%3D%3D--9d4d4750ee87aee9447a3cd0ebe9c9bc0885a466
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[jway-products-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/generatedHomepage.html
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: a163f2e9-bc38-4e13-beeb-d1d27dc4e045
+Atl-Traceid: a163f2e9bc384e13beebd1d27dc4e045
+Date: Tue, 05 Aug 2025 12:52:28 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=3,atl-edge-upstream;dur=62,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 c5bb940b2890383b4ca2d8b74b68699a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: XdpW2tvdavFn7y_djBrRlMDjCIFyn9GtqRFR01WktwnnwzzAS_ASOA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 683668196
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

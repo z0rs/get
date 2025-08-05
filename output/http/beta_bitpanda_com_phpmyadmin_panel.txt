@@ -1,0 +1,299 @@
+[phpmyadmin-panel] Dumped HTTP request for https://beta.bitpanda.com/administrator/components/com_joommyadmin/phpmyadmin/
+
+
+GET /administrator/components/com_joommyadmin/phpmyadmin/ HTTP/1.1
+Host: beta.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.3.1 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: CF_AppSession=n063dd65a04ac2c1e; _cfuvid=094YxX5ur28OCysaLJXFpjAUOmcgXXjtb6e3a80Day4-1754398145759-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://beta.bitpanda.com/administrator/components/com_joommyadmin/phpmyadmin/
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 143
+Access-Control-Allow-Credentials: true
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 96a6699b3efa6fb3-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:05 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://bitpanda-gate.cloudflareaccess.com/cdn-cgi/access/login/beta.bitpanda.com?kid=0ca506b0194b79b07437443821678862b0fc2c1e1a8cb6d26b1a8c52a0bc1420&redirect_url=%2Fadministrator%2Fcomponents%2Fcom_joommyadmin%2Fphpmyadmin%2F&meta=eyJraWQiOiIwOTY4MTE1OWQ4NmM1NDQ2YzlhZmFiM2ZjMzExNzU5ZDdiM2FmZDkyNjA2ZDAyYzdjYmM5YTkzMDMwMjJiOTYyIiwiYWxnIjoiUlMyNTYiLCJ0eXAiOiJKV1QifQ.eyJzZXJ2aWNlX3Rva2VuX3N0YXR1cyI6ZmFsc2UsImlhdCI6MTc1NDM5ODE0NSwic2VydmljZV90b2tlbl9pZCI6IiIsImF1ZCI6IjBjYTUwNmIwMTk0Yjc5YjA3NDM3NDQzODIxNjc4ODYyYjBmYzJjMWUxYThjYjZkMjZiMWE4YzUyYTBiYzE0MjAiLCJob3N0bmFtZSI6ImJldGEuYml0cGFuZGEuY29tIiwiYXBwX3Nlc3Npb25faGFzaCI6IjkxM2FkNjQ1Y2IzN2EyMTJhM2UzZDRhOTM4OTllYzg2MmM1OWExMTJhNDY0NGQ3YWJiOWU3OTY3NWM2NTU3MGIiLCJuYmYiOjE3NTQzOTgxNDUsImlzX3dhcnAiOmZhbHNlLCJpc19nYXRld2F5IjpmYWxzZSwidHlwZSI6Im1ldGEiLCJyZWRpcmVjdF91cmwiOiJcL2FkbWluaXN0cmF0b3JcL2NvbXBvbmVudHNcL2NvbV9qb29tbXlhZG1pblwvcGhwbXlhZG1pblwvIiwibXRsc19hdXRoIjp7ImNlcnRfaXNzdWVyX3NraSI6IiIsImNlcnRfcHJlc2VudGVkIjpmYWxzZSwiY2VydF9zZXJpYWwiOiIiLCJjZXJ0X2lzc3Vlcl9kbiI6IiIsImF1dGhfc3RhdHVzIjoiTk9ORSJ9LCJhdXRoX3N0YXR1cyI6Ik5PTkUifQ.NKTfUoDmBGUtchVju1wPTyrlgXCU-WCg4EmvJrRFHjsk2ncM5IjT-gfhVm3dJ5ACTkVVTAZJUK2frLy4mbMTf2z4t4IsHR5Wvqn8UlbcIdi39eg8BMNsYVnsEUI9gecxIHetNx3XlWaq0M7zdvZPvc7LJzLgAm602r_YgdUTQtHEC0HRmIkkI-la59Qz6O4wte5Y0HwVp6JJNYZONHcM9InGs8T_8kMA4VFIMW4tH25LSOBNbQqlI2c-n_7uXvgF0XFeRb-wQB0EoABs2g17HGibHRwTbBV9cOc5Gowm5AmhVksdGUAGyhVcbDe8lHeAH-grOdjjBf8fZGVkpAcXsg
+Server: cloudflare
+Set-Cookie: _cfuvid=a1MpYTGTTbb7P7qNLEl36nIe70IN2SaR9ucx_bcbJTM-1754398145816-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[phpmyadmin-panel] Dumped HTTP request for https://beta.bitpanda.com/admin/phpmyadmin/
+
+
+GET /admin/phpmyadmin/ HTTP/1.1
+Host: beta.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: CF_AppSession=n063dd65a04ac2c1e; _cfuvid=094YxX5ur28OCysaLJXFpjAUOmcgXXjtb6e3a80Day4-1754398145759-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://beta.bitpanda.com/admin/phpmyadmin/
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 143
+Access-Control-Allow-Credentials: true
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 96a6699b3b4ed1bc-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:05 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://bitpanda-gate.cloudflareaccess.com/cdn-cgi/access/login/beta.bitpanda.com?kid=0ca506b0194b79b07437443821678862b0fc2c1e1a8cb6d26b1a8c52a0bc1420&redirect_url=%2Fadmin%2Fphpmyadmin%2F&meta=eyJraWQiOiIwOTY4MTE1OWQ4NmM1NDQ2YzlhZmFiM2ZjMzExNzU5ZDdiM2FmZDkyNjA2ZDAyYzdjYmM5YTkzMDMwMjJiOTYyIiwiYWxnIjoiUlMyNTYiLCJ0eXAiOiJKV1QifQ.eyJzZXJ2aWNlX3Rva2VuX3N0YXR1cyI6ZmFsc2UsImlhdCI6MTc1NDM5ODE0NSwic2VydmljZV90b2tlbl9pZCI6IiIsImF1ZCI6IjBjYTUwNmIwMTk0Yjc5YjA3NDM3NDQzODIxNjc4ODYyYjBmYzJjMWUxYThjYjZkMjZiMWE4YzUyYTBiYzE0MjAiLCJob3N0bmFtZSI6ImJldGEuYml0cGFuZGEuY29tIiwiYXBwX3Nlc3Npb25faGFzaCI6IjkxM2FkNjQ1Y2IzN2EyMTJhM2UzZDRhOTM4OTllYzg2MmM1OWExMTJhNDY0NGQ3YWJiOWU3OTY3NWM2NTU3MGIiLCJuYmYiOjE3NTQzOTgxNDUsImlzX3dhcnAiOmZhbHNlLCJpc19nYXRld2F5IjpmYWxzZSwidHlwZSI6Im1ldGEiLCJyZWRpcmVjdF91cmwiOiJcL2FkbWluXC9waHBteWFkbWluXC8iLCJtdGxzX2F1dGgiOnsiY2VydF9pc3N1ZXJfc2tpIjoiIiwiY2VydF9wcmVzZW50ZWQiOmZhbHNlLCJjZXJ0X3NlcmlhbCI6IiIsImNlcnRfaXNzdWVyX2RuIjoiIiwiYXV0aF9zdGF0dXMiOiJOT05FIn0sImF1dGhfc3RhdHVzIjoiTk9ORSJ9.Gj9sybWvfZyS-efQH5n5C-atZyXbiA2fx8cId3stbS7S6i4zCn1wxqf5fEmSAon81SEuOcAZ1R7vW1aVeA3HPWsJtIRjm3DxJ8KF-B1em6skSsy6WG5S0Q9ghuMo7MlfJRzjDDRTHuTHXRIqMeDY6Z5E2PAEylKdIjRDNrt3JiDBfCvxWYR_DqrRC6ETnuOaL6swWs_IYBypbGcp9Am-CAOc0Gm67Jh0AMIPUhgBJFMXg8v0zkdGwplFk-R4zSPHvKo2ViEYec4Sblz1fpR2WykPjBIBcQFmOg2dc-cK27KTul5RGPVC9vZxOubLIXDKE7iDxbRh5Bw0bvFz6yaEhQ
+Server: cloudflare
+Set-Cookie: _cfuvid=o5HBJDlkqdg35CFdxWnCPn5hTWEIP8YMy_qjS7yhvlw-1754398145818-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[phpmyadmin-panel] Dumped HTTP request for https://beta.bitpanda.com/blog/phpmyadmin/
+
+
+GET /blog/phpmyadmin/ HTTP/1.1
+Host: beta.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: CF_AppSession=n063dd65a04ac2c1e; _cfuvid=094YxX5ur28OCysaLJXFpjAUOmcgXXjtb6e3a80Day4-1754398145759-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://beta.bitpanda.com/blog/phpmyadmin/
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 143
+Access-Control-Allow-Credentials: true
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 96a6699b3e73d63d-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:05 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://bitpanda-gate.cloudflareaccess.com/cdn-cgi/access/login/beta.bitpanda.com?kid=0ca506b0194b79b07437443821678862b0fc2c1e1a8cb6d26b1a8c52a0bc1420&redirect_url=%2Fblog%2Fphpmyadmin%2F&meta=eyJraWQiOiIwOTY4MTE1OWQ4NmM1NDQ2YzlhZmFiM2ZjMzExNzU5ZDdiM2FmZDkyNjA2ZDAyYzdjYmM5YTkzMDMwMjJiOTYyIiwiYWxnIjoiUlMyNTYiLCJ0eXAiOiJKV1QifQ.eyJzZXJ2aWNlX3Rva2VuX3N0YXR1cyI6ZmFsc2UsImlhdCI6MTc1NDM5ODE0NSwic2VydmljZV90b2tlbl9pZCI6IiIsImF1ZCI6IjBjYTUwNmIwMTk0Yjc5YjA3NDM3NDQzODIxNjc4ODYyYjBmYzJjMWUxYThjYjZkMjZiMWE4YzUyYTBiYzE0MjAiLCJob3N0bmFtZSI6ImJldGEuYml0cGFuZGEuY29tIiwiYXBwX3Nlc3Npb25faGFzaCI6IjkxM2FkNjQ1Y2IzN2EyMTJhM2UzZDRhOTM4OTllYzg2MmM1OWExMTJhNDY0NGQ3YWJiOWU3OTY3NWM2NTU3MGIiLCJuYmYiOjE3NTQzOTgxNDUsImlzX3dhcnAiOmZhbHNlLCJpc19nYXRld2F5IjpmYWxzZSwidHlwZSI6Im1ldGEiLCJyZWRpcmVjdF91cmwiOiJcL2Jsb2dcL3BocG15YWRtaW5cLyIsIm10bHNfYXV0aCI6eyJjZXJ0X2lzc3Vlcl9za2kiOiIiLCJjZXJ0X3ByZXNlbnRlZCI6ZmFsc2UsImNlcnRfc2VyaWFsIjoiIiwiY2VydF9pc3N1ZXJfZG4iOiIiLCJhdXRoX3N0YXR1cyI6Ik5PTkUifSwiYXV0aF9zdGF0dXMiOiJOT05FIn0.rJl34qVHmalG08MK99TMSkHcHmcRIG-cZ85k_C2zoqEUCBC1Tt3dJGGzD58QXHZFVqhl02bZegLmGIEIjP9Et4jzuVdTNGC7pa75qU3_T9J4FIa09bbsnMVU3ooSRHYFxwtViXUABuP5gjMat24hzucOlWnhFSASWuA1Tj2tiecwYcP6NnzHbzLVYfKlIUgbhwG333Z-73fVwE50GZuBAB7ykRsmtBhFaFw6ejcu3v9_KTXAs6PCaHVZirpyksE50iuKE1Vuj3chDULZRCVa48sIAF8FFKMTjPhKrBCl68Ui41CYADQ-GaczDXCWjMoAerdTgjTbnycihHfu06q_Qw
+Server: cloudflare
+Set-Cookie: _cfuvid=SqN_wyCZWxGZXg.YEWCsUVpNjy_GuJXwTFu19BZLJkQ-1754398145822-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[phpmyadmin-panel] Dumped HTTP request for https://beta.bitpanda.com/forum/phpmyadmin/
+
+
+GET /forum/phpmyadmin/ HTTP/1.1
+Host: beta.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.5 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: CF_AppSession=n063dd65a04ac2c1e; _cfuvid=094YxX5ur28OCysaLJXFpjAUOmcgXXjtb6e3a80Day4-1754398145759-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP request for https://beta.bitpanda.com/web/phpmyadmin/
+
+
+GET /web/phpmyadmin/ HTTP/1.1
+Host: beta.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686; rv:127.0) Gecko/20100101 Firefox/127.0
+Accept: */*
+Accept-Language: en
+Cookie: CF_AppSession=n063dd65a04ac2c1e; _cfuvid=094YxX5ur28OCysaLJXFpjAUOmcgXXjtb6e3a80Day4-1754398145759-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP request for https://beta.bitpanda.com/xampp/phpmyadmin/
+
+
+GET /xampp/phpmyadmin/ HTTP/1.1
+Host: beta.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux i686; rv:126.0) Gecko/20100101 Firefox/126.0
+Accept: */*
+Accept-Language: en
+Cookie: CF_AppSession=n063dd65a04ac2c1e; _cfuvid=094YxX5ur28OCysaLJXFpjAUOmcgXXjtb6e3a80Day4-1754398145759-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP request for https://beta.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: beta.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: CF_AppSession=n063dd65a04ac2c1e; _cfuvid=094YxX5ur28OCysaLJXFpjAUOmcgXXjtb6e3a80Day4-1754398145759-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP request for https://beta.bitpanda.com/apache-default/phpmyadmin/
+
+
+GET /apache-default/phpmyadmin/ HTTP/1.1
+Host: beta.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.11 Mobile/15E148 Safari/604.1
+Accept: */*
+Accept-Language: en
+Cookie: CF_AppSession=n063dd65a04ac2c1e; _cfuvid=094YxX5ur28OCysaLJXFpjAUOmcgXXjtb6e3a80Day4-1754398145759-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP request for https://beta.bitpanda.com/phpMyAdmin/
+
+
+GET /phpMyAdmin/ HTTP/1.1
+Host: beta.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: CF_AppSession=n063dd65a04ac2c1e; _cfuvid=094YxX5ur28OCysaLJXFpjAUOmcgXXjtb6e3a80Day4-1754398145759-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP request for https://beta.bitpanda.com/php/phpmyadmin/
+
+
+GET /php/phpmyadmin/ HTTP/1.1
+Host: beta.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36
+Accept: */*
+Accept-Language: en
+Cookie: CF_AppSession=n063dd65a04ac2c1e; _cfuvid=094YxX5ur28OCysaLJXFpjAUOmcgXXjtb6e3a80Day4-1754398145759-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP request for https://beta.bitpanda.com/_phpmyadmin/
+
+
+GET /_phpmyadmin/ HTTP/1.1
+Host: beta.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: CF_AppSession=n063dd65a04ac2c1e; _cfuvid=094YxX5ur28OCysaLJXFpjAUOmcgXXjtb6e3a80Day4-1754398145759-0.0.1.1-604800000; CF_AppSession=n063dd65a04ac2c1e; _cfuvid=Ow4NA2RKt.kYja.Kdl7.oTpdQXLGdxbeJWnAgqR2nnA-1754398160872-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP response https://beta.bitpanda.com/_phpmyadmin/
+
+HTTP/1.1 302 Moved Temporarily
+Connection: close
+Content-Length: 143
+Access-Control-Allow-Credentials: true
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cf-Ray: 96a669ff3e5bd630-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:21 GMT
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Location: https://bitpanda-gate.cloudflareaccess.com/cdn-cgi/access/login/beta.bitpanda.com?kid=0ca506b0194b79b07437443821678862b0fc2c1e1a8cb6d26b1a8c52a0bc1420&redirect_url=%2F_phpmyadmin%2F&meta=eyJraWQiOiIwOTY4MTE1OWQ4NmM1NDQ2YzlhZmFiM2ZjMzExNzU5ZDdiM2FmZDkyNjA2ZDAyYzdjYmM5YTkzMDMwMjJiOTYyIiwiYWxnIjoiUlMyNTYiLCJ0eXAiOiJKV1QifQ.eyJzZXJ2aWNlX3Rva2VuX3N0YXR1cyI6ZmFsc2UsImlhdCI6MTc1NDM5ODE2MSwic2VydmljZV90b2tlbl9pZCI6IiIsImF1ZCI6IjBjYTUwNmIwMTk0Yjc5YjA3NDM3NDQzODIxNjc4ODYyYjBmYzJjMWUxYThjYjZkMjZiMWE4YzUyYTBiYzE0MjAiLCJob3N0bmFtZSI6ImJldGEuYml0cGFuZGEuY29tIiwiYXBwX3Nlc3Npb25faGFzaCI6IjkxM2FkNjQ1Y2IzN2EyMTJhM2UzZDRhOTM4OTllYzg2MmM1OWExMTJhNDY0NGQ3YWJiOWU3OTY3NWM2NTU3MGIiLCJuYmYiOjE3NTQzOTgxNjEsImlzX3dhcnAiOmZhbHNlLCJpc19nYXRld2F5IjpmYWxzZSwidHlwZSI6Im1ldGEiLCJyZWRpcmVjdF91cmwiOiJcL19waHBteWFkbWluXC8iLCJtdGxzX2F1dGgiOnsiY2VydF9pc3N1ZXJfc2tpIjoiIiwiY2VydF9wcmVzZW50ZWQiOmZhbHNlLCJjZXJ0X3NlcmlhbCI6IiIsImNlcnRfaXNzdWVyX2RuIjoiIiwiYXV0aF9zdGF0dXMiOiJOT05FIn0sImF1dGhfc3RhdHVzIjoiTk9ORSJ9.fG1kvPnVNPYrTkg_2sVhzEyixVMZi1ZsF1CgceupdbWUb5HDRoMoMitXl0610T2myGBr9WaWSPmEkwNQR39FR5cZnyX5nTyvlx5aOdbfJk0Fzln3DVRfsRFLLmz2Tb-gsLELkQuw8KfiCScdR5ywonVQR5iGIgg5UroDnzt9NgbmEO9ew9pvYGaZKPNv2Vx8lTM6xDzZZPBmj32r63Az7vAhinmHV2GVh5ByV7oK4JG8oHztxrgDJxS8nHO3k1cONf6IRk1ZfeA3pEIUJRflYrGfMctszDFUlIu2zob-vJksq16MWW9rQRFP1D-i853Nz6bphE9tdnEb48oXfxFFzg
+Server: cloudflare
+Set-Cookie: _cfuvid=_6fRdWEzPGaBKG46fmVIvke7XKRpLyeYK3u0eyHnogw-1754398161827-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[phpmyadmin-panel] Dumped HTTP request for https://beta.bitpanda.com/phpma/
+
+
+GET /phpma/ HTTP/1.1
+Host: beta.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:109.0) Gecko/20100101 Firefox/115.0
+Accept: */*
+Accept-Language: en
+Cookie: CF_AppSession=n063dd65a04ac2c1e; _cfuvid=094YxX5ur28OCysaLJXFpjAUOmcgXXjtb6e3a80Day4-1754398145759-0.0.1.1-604800000; CF_AppSession=n063dd65a04ac2c1e; _cfuvid=Ow4NA2RKt.kYja.Kdl7.oTpdQXLGdxbeJWnAgqR2nnA-1754398160872-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP request for https://beta.bitpanda.com/phpMyAdmin/index.php
+
+
+GET /phpMyAdmin/index.php HTTP/1.1
+Host: beta.bitpanda.com
+User-Agent: Mozilla/5.0 (Kubuntu; Linux i686; rv:123.0) Gecko/20100101 Firefox/123.0
+Accept: */*
+Accept-Language: en
+Cookie: CF_AppSession=n063dd65a04ac2c1e; _cfuvid=094YxX5ur28OCysaLJXFpjAUOmcgXXjtb6e3a80Day4-1754398145759-0.0.1.1-604800000; CF_AppSession=n063dd65a04ac2c1e; _cfuvid=Ow4NA2RKt.kYja.Kdl7.oTpdQXLGdxbeJWnAgqR2nnA-1754398160872-0.0.1.1-604800000; CF_AppSession=n063dd65a04ac2c1e; _cfuvid=U2l4MIetaKV52.OLTt9BhT5yomGSLhW4yhz64doqCV0-1754398175838-0.0.1.1-604800000; CF_AppSession=n063dd65a04ac2c1e; _cfuvid=U2l4MIetaKV52.OLTt9BhT5yomGSLhW4yhz64doqCV0-1754398175838-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP request for https://beta.bitpanda.com/phpmyadmin/
+
+
+GET /phpmyadmin/ HTTP/1.1
+Host: beta.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: CF_AppSession=n063dd65a04ac2c1e; _cfuvid=094YxX5ur28OCysaLJXFpjAUOmcgXXjtb6e3a80Day4-1754398145759-0.0.1.1-604800000; CF_AppSession=n063dd65a04ac2c1e; _cfuvid=Ow4NA2RKt.kYja.Kdl7.oTpdQXLGdxbeJWnAgqR2nnA-1754398160872-0.0.1.1-604800000; CF_AppSession=n063dd65a04ac2c1e; _cfuvid=U2l4MIetaKV52.OLTt9BhT5yomGSLhW4yhz64doqCV0-1754398175838-0.0.1.1-604800000; CF_AppSession=n063dd65a04ac2c1e; _cfuvid=MRLDpvKGsP9NmEGgIZESaYKwit388WIGxHji4TAHOiY-1754398189829-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[phpmyadmin-panel] Dumped HTTP request for https://beta.bitpanda.com/typo3/phpmyadmin/
+
+
+GET /typo3/phpmyadmin/ HTTP/1.1
+Host: beta.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15
+Accept: */*
+Accept-Language: en
+Cookie: CF_AppSession=n063dd65a04ac2c1e; _cfuvid=094YxX5ur28OCysaLJXFpjAUOmcgXXjtb6e3a80Day4-1754398145759-0.0.1.1-604800000; CF_AppSession=n063dd65a04ac2c1e; _cfuvid=Ow4NA2RKt.kYja.Kdl7.oTpdQXLGdxbeJWnAgqR2nnA-1754398160872-0.0.1.1-604800000; CF_AppSession=n063dd65a04ac2c1e; _cfuvid=U2l4MIetaKV52.OLTt9BhT5yomGSLhW4yhz64doqCV0-1754398175838-0.0.1.1-604800000; CF_AppSession=n063dd65a04ac2c1e; _cfuvid=MRLDpvKGsP9NmEGgIZESaYKwit388WIGxHji4TAHOiY-1754398189829-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

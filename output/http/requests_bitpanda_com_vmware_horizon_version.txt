@@ -1,0 +1,23 @@
+[vmware-horizon-version] Dumped HTTP request for http://requests.bitpanda.com/portal/info.jsp
+
+
+GET /portal/info.jsp HTTP/1.1
+Host: requests.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 11.0) AppleWebKit/537.36 (KHTML, like Gecko) Safari/125.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[vmware-horizon-version] Dumped HTTP response http://requests.bitpanda.com/portal/info.jsp
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 17
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:16 GMT
+Location: https://requests.bitpanda.com/portal/info.jsp
+
+Moved Permanently

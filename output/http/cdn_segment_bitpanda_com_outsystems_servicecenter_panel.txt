@@ -1,0 +1,88 @@
+[outsystems-servicecenter-panel] Dumped HTTP request for https://cdn-segment.bitpanda.com/Login.aspx
+
+
+GET /Login.aspx HTTP/1.1
+Host: cdn-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.10 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=BtgX0AULNAnZF3.fEl0xd1dqKhZl_XxDbu0qbDJZLzU-1754398157217-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[outsystems-servicecenter-panel] Dumped HTTP response https://cdn-segment.bitpanda.com/Login.aspx
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Methods: GET, HEAD
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 3000
+Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669e67ce3d6b4-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:18 GMT
+Etag: W/"328257380186d550f96adf638ff85092"
+Last-Modified: Fri, 27 Jun 2025 03:51:28 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=LXPPiZfoa9GSJvzBSQ4DtaHIKCFq7UE6uShVBiBVUt4-1754398158205-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: accept-encoding
+Via: 1.1 e1cdefd358f463eaddffcac2b749d60e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: hhx-n1Thpy2o5hAmdec0_Q_1KYyz_0EaOcn_xxl9_qPCX-ZCG7Lq4w==
+X-Amz-Cf-Pop: IAD79-C3
+X-Amz-Replication-Status: COMPLETED
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: 6NYlJnma9WPyl0MUFm2tNo8C1GzqJZih
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+Cannot GET - Invalid path or write key provided.
+
+[outsystems-servicecenter-panel] Dumped HTTP request for https://cdn-segment.bitpanda.com/ServiceCenter/Login.aspx
+
+
+GET /ServiceCenter/Login.aspx HTTP/1.1
+Host: cdn-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=WYsIZnOe_uMZNVJfq8T.PbJxJ39m6KlkUxBWHAfug9Y-1754398160105-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[outsystems-servicecenter-panel] Dumped HTTP response https://cdn-segment.bitpanda.com/ServiceCenter/Login.aspx
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Access-Control-Allow-Methods: GET, HEAD
+Access-Control-Allow-Origin: *
+Access-Control-Max-Age: 3000
+Cache-Control: no-store, no-cache, must-revalidate, max-age=0
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a0c3eaa05df-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:24 GMT
+Etag: W/"328257380186d550f96adf638ff85092"
+Last-Modified: Fri, 27 Jun 2025 03:51:28 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=QswtZsYFXlWDfUgmejawrNuzZH0D6NW0udh6AWLH6XM-1754398164212-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: accept-encoding
+Via: 1.1 15cde442051269a0307a638d23683c8c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: OdxjR2viS1ATEPDpaSeHdGYsNBtVAu1RXsJn49vlYis2RQdFc89Rvw==
+X-Amz-Cf-Pop: IAD79-C3
+X-Amz-Replication-Status: COMPLETED
+X-Amz-Server-Side-Encryption: AES256
+X-Amz-Version-Id: 6NYlJnma9WPyl0MUFm2tNo8C1GzqJZih
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+
+Cannot GET - Invalid path or write key provided.
+

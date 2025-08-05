@@ -1,0 +1,72 @@
+[dell-idrac8-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/data?get=prodServerGen
+
+
+GET /data?get=prodServerGen HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686; rv:132.0) Gecko/20100101 Firefox/132.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=NU5HWEJiUXhZbFFSNmNzTS9BMlFJMHBNT1Y4dnBtRnFJUVRZR1QvdHIxdVJ4T1Q4OGpYcW1ta3ZyRTBJR1k0bTg2RGtXS2dEOGZiRTNnWWRvQWh5QkFlQWtFRm1sc0ZaVW90d1pLV1I5N1pYNWd6bHBWVTZXN0pZdEFkaldDNzFHUlBQSFdUTDNGYndLcTFkZi9EQWo4MHJ6WFhoR2p6TVJBUitwOGI4SEl5Uyt2Yk1WbVIycDY2d3o3a3RUbndlbFg2a3liRGg5WWJ5T1FKZExpeHNTTGQwemhXRm42cUFYamlMOVdIYy9XOD0tLW5OL3pNL3I5VWFTWTBxcTA2NzE2WVE9PQ%3D%3D--726eff3134d60bef097ce35e87dc0abb19f92afc
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[dell-idrac8-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/data?get=prodServerGen
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 6475b9b4-223f-48e4-bfb5-eacfdafa9626
+Atl-Traceid: 6475b9b4223f48e4bfb5eacfdafa9626
+Date: Tue, 05 Aug 2025 12:52:25 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=65,atl-edge-internal;dur=4,atl-edge-upstream;dur=63,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 ae3759c8dc48487a424a60bd577ad554.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: YE6I1cUGpYMOvVDG-lgYDhJgP4j2CEoK5bqlIzCuSc6J6iyWcgH9Zg==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 684019956
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+
+[dell-idrac8-detect] Dumped HTTP request for https://status.techsolutions.bitpanda.com/session?aimGetProp=fwVersionFull
+
+
+GET /session?aimGetProp=fwVersionFull HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _spsess=Z1JVeWRDTWNOL09GR0lrdmRrbHlNTWZzMXZZeFdBaG9ha01jZ3VwUVJuMTV4bnRXZEg0dVY5UzNKOGxTdzI3LzBPL3piUFhzNkJOMmdmK0IyRG42Z1pMMTdxWkR6a1pmMnZGZFBVR0VjbnRxLzVxT21YYTErUThNRXQ2a0tNWVRUR1kvcXFndEVoQ1NTYU1aU0djZVB5Nm5uR2gya2hTMmRnNy9iQUNEamxkV2l4NHlGbEYrbUxqY1lmZkVVengzY09JSEFzcmZ4SldKdTVpM2puSHU0Mjh1SnVuaEZmZ1VqcDRURG84U1lQRT0tLWZpbW1hQTNKVDVseTYvWStrL0hDWnc9PQ%3D%3D--032e4a810364b54f997cbde0f2a56e2afb7d7fb0
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[dell-idrac8-detect] Dumped HTTP response https://status.techsolutions.bitpanda.com/session?aimGetProp=fwVersionFull
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 2a8367b8-5f71-49ea-876f-a1755a0ef962
+Atl-Traceid: 2a8367b85f7149ea876fa1755a0ef962
+Date: Tue, 05 Aug 2025 12:52:27 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=64,atl-edge-internal;dur=3,atl-edge-upstream;dur=62,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 5bbbde7889bb9c7247f5924a32d2fdf0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: th8QqOV1T5Y18yJAI1Q9OSg6bVg201WDJo05d2FlFJJ0RO2Vd-Sw7Q==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 964190622
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

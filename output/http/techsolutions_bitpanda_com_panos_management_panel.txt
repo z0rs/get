@@ -1,0 +1,30 @@
+[panos-management-panel] Dumped HTTP request for https://techsolutions.bitpanda.com/php/login.php
+
+
+GET /php/login.php HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_2) AppleWebKit/601.3.9 (KHTML, like Gecko) Version/9.0.2 Safari/601.3.9
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[panos-management-panel] Dumped HTTP response https://techsolutions.bitpanda.com/php/login.php
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:23 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 e96ed109dde78412c6b4651755281804.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: yCifE-Q4PwgjyXlWiUZqOuq5Sex9cX2qQvPDq6EoO4u9KOEXsPW_ng==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: gJRDpZZ65dhX9SFmM8h67tEJIpMLf+HKGh54/EAx5wAaWTsKVo7rH8rKNSqDk/re/Jf3Y8TPD/w=
+X-Amz-Request-Id: NFAXZ2MEW6JXX4V0
+X-Cache: Error from cloudfront
+
+Not Found

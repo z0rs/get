@@ -1,0 +1,52 @@
+[wordpress-detect] Dumped HTTP request for https://o1.ptr4085.info.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: o1.ptr4085.info.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Safari/129.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-detect] Dumped HTTP request for https://o1.ptr4085.info.bitpanda.com/wp-admin/install.php
+
+
+GET /wp-admin/install.php HTTP/1.1
+Host: o1.ptr4085.info.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-detect] Dumped HTTP request for https://o1.ptr4085.info.bitpanda.com/feed/
+
+
+GET /feed/ HTTP/1.1
+Host: o1.ptr4085.info.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux i686; rv:126.0) Gecko/20100101 Firefox/126.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-detect] Dumped HTTP request for https://o1.ptr4085.info.bitpanda.com/?feed=rss2
+
+
+GET /?feed=rss2 HTTP/1.1
+Host: o1.ptr4085.info.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

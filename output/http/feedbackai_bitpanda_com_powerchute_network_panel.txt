@@ -1,0 +1,38 @@
+[powerchute-network-panel] Dumped HTTP request for http://feedbackai.bitpanda.com/login
+
+
+GET /login HTTP/1.1
+Host: feedbackai.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=i.zaFea0pcBDMlwU1IM6BbOot9aYwY_qnxLEKzBuBMk-1754398302884-0.0.1.1-604800000; _cfuvid=X9cU0unbtLs4X_ifuezZnCuEuFQq4GDmFnenKlFN2Hg-1754398316827-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[powerchute-network-panel] Dumped HTTP response http://feedbackai.bitpanda.com/login
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66ddaaf00061e-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:51:59 GMT
+Expires: Tue, 05 Aug 2025 13:51:59 GMT
+Location: https://feedbackai.bitpanda.com/login
+Server: cloudflare
+Set-Cookie: _cfuvid=D8f7JjpaXMcvAv3JBT.McCbDgU2_IitKa0nZKXPcILo-1754398319841-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+

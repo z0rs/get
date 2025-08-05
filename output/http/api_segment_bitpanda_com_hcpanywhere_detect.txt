@@ -1,0 +1,29 @@
+[hcpanywhere-detect] Dumped HTTP request for https://api-segment.bitpanda.com/userportal/documentation/mapping.json
+
+
+GET /userportal/documentation/mapping.json HTTP/1.1
+Host: api-segment.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=bfwfbGGER3EY2wWeXEna9mNS6yMN6CveAgRyK67HkuY-1754398187141-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[hcpanywhere-detect] Dumped HTTP response https://api-segment.bitpanda.com/userportal/documentation/mapping.json
+
+HTTP/1.1 404 Not Found
+Connection: close
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66aa1bb3939b0-IAD
+Content-Type: text/plain; charset=utf-8
+Date: Tue, 05 Aug 2025 12:49:47 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=oXwOql4FsXo7.DsSXAVaqe2OrH3in2BqD8SBiM1prI4-1754398187887-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+Content-Length: 0
+
+

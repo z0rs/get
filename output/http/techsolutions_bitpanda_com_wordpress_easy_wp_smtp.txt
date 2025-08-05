@@ -1,0 +1,29 @@
+[wordpress-easy-wp-smtp] Dumped HTTP request for https://techsolutions.bitpanda.com/wp-content/plugins/easy-wp-smtp/readme.txt
+
+
+GET /wp-content/plugins/easy-wp-smtp/readme.txt HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:132.0) Gecko/20100101 Firefox/132.0
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[wordpress-easy-wp-smtp] Dumped HTTP response https://techsolutions.bitpanda.com/wp-content/plugins/easy-wp-smtp/readme.txt
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 9
+Cache-Control: max-age=30
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:52:49 GMT
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 5b0b018dc5d72a42f205b24b17f4f56e.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: C7pvPkkOZiqVmecFzt9OCNm7F3nnJ5r3ndjqm5WRBi8RGCfSG36lyw==
+X-Amz-Cf-Pop: IAD55-P8
+X-Amz-Id-2: 9q9brEPxj6/EVO9rEfesKsQVArjaejkpdHKZ2pXBWyUCEgjA6lohbLiAUJUsPCzJHhrTEmHTBkw=
+X-Amz-Request-Id: 6GQQN4JZ1N8REQ6J
+X-Cache: Error from cloudfront
+
+Not Found

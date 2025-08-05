@@ -1,0 +1,72 @@
+[appsuite-panel] Dumped HTTP request for https://app.bitpanda.com/appsuite/
+
+
+GET /appsuite/ HTTP/1.1
+Host: app.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/114.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[appsuite-panel] Dumped HTTP response https://app.bitpanda.com/appsuite/
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Age: 0
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669590dfd398c-IAD
+Date: Tue, 05 Aug 2025 12:48:56 GMT
+Location: https://account.bitpanda.com/authorization/oauth/authorize?response_type=code&client_id=19&redirect_uri=https%3A%2F%2Fapp.bitpanda.com%2Fapi%2Fauth%2Fcallback%2Fbitpanda&state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiZWpxYWRMU1dJdlhub0IyS2VPc3d3a2U2eWhRZDN4aFhGX2hiSGEyTEZCSnJxaklObWRzZnU0WWRERi1icXlkRVMyX1Npal9HamM5RjgxZE94VnBhU1EifQ..y5KO8y_dQffs_b6_A0MQbg.ANYAHrnD2NMsYhKGFEv51vczAw-_78-ma94pM9PEUvFdk4sFnUnn9Xh9KV_Uba7RaZBXtarqNeXSfiozJeuZlPEE0gnDHVypIf9ZWm8LGkN3td-lQk1nsZ4Iuqd-VspeQ5G0B4O25G_Ib3PTmIyktx6bCJzP3NIWoq4zejiEMAd6G_YcywOp41nRlVcP7DBu.ySqycMs2dPFPv5gbFfvRLFMj-HPu2r0hq1nVUArd9zo&scope=openid+profile+email
+Server: cloudflare
+Set-Cookie: __Secure-authjs.callback-url=https%3A%2F%2Fapp.bitpanda.com%2Fappsuite; Path=/; Secure; HttpOnly; SameSite=lax
+Set-Cookie: __Secure-authjs.state=eyJhbGciOiJkaXIiLCJlbmMiOiJBMjU2Q0JDLUhTNTEyIiwia2lkIjoiSXR1bHkwZzhGYWlvbF9naExMR2k0VVY2WE9DODh3UVZMNWxoSGFmNThKV2FkMGMweGJfeG13NHZKUGlJNnZXQ0VHVlF3eXFaWWpKQU9YVGFud2M5Q0EifQ..fYgxyX5FjGsIh_e_54BFtQ.V6oKC3ltFbLaJINM1JTKJSNLAYIcLvSzkXi4On5VO0sK8lmf75fEDEAuzqivniuf8VhiRDKGRa43e6NAPBkt3k1tussXUCPHn2VF3Ai5hiMblo93Ji3H5nx1fp1WilIf9j9IzHHxWVlOIkOkRSLNmiWTXpIhgFRmIWuGxPzK6Z5eEq1s2dlapJrdsNAkUIoeAkRr2VFIVCcDw8MG4T82aETlyoqRWfw_9JhmCbTLBLwivGtmj6DuXS1yUt9LN0Yj156PC-iLsqVCgXA-2r3GQuV9dVJ1cMCsSZvjmbKLFWXP5XhFOTgw-HfCDsYOnv2Sd7QjFP-fgDesZUQE5lz-V8Cqf9-MqqAY14Ax10dj3ZjGDu01BiadanAOThRvL7arPClt59LJ_-fw09eODmHXzfVJUa3Brvd8RMX_ZduuZyaVoeozdAdkDzKkjOOC7SoDDYa_Hb99GRZcZ835O9vvOehrEmPtFKt5iRZFESb-FRPO4d6kZ_swqH9PYWevtT6c3VI2qiw1DlIAHUWwQJ0WudqGUsoUIfh3Jt4ZKFIFU-VTV4FUj0M1jW5g87v5PNbuihs7IVHnOrlxSb6NesPZBsvUWFWH72YOiLRswkJudVDQtSuSHKWWrOdEXglV0P-1k38MLfrAVTqs5iNQ7Cmheg7dZg1vnk_HJdlsqds08U3HjGg9oe_XDfjBgSaa6h6c.0vL0WN8IA9Vsv894VHKlCxLH5LTTrITy_qjqMbCMByU; Path=/; Expires=Tue, 05 Aug 2025 13:03:56 GMT; Max-Age=900; Secure; HttpOnly; SameSite=lax
+Set-Cookie: _cfuvid=y6Bfv7n19EwJyPcoVf0YVNMUmVLhZHSAAVDyQYr0Bow-1754398136590-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch
+X-Content-Type-Options: nosniff
+X-Matched-Path: /api/auth/login
+X-Vercel-Cache: MISS
+X-Vercel-Id: iad1::dub1::kc92v-1754398135259-e0c3f8fc0d9d
+Content-Length: 0
+
+
+[appsuite-panel] Dumped HTTP response https://app.bitpanda.com/appsuite/
+
+HTTP/1.1 307 Temporary Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66950fc94d692-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:48:55 GMT
+Location: /api/auth/login?callbackUrl=https%3A%2F%2Fapp.bitpanda.com%2Fappsuite
+Server: cloudflare
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::cbqqv-1754398133947-c459880f468e
+
+
+[appsuite-panel] Dumped HTTP response https://app.bitpanda.com/appsuite/
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: public, max-age=0, must-revalidate
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a669508be7ec0a-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:48:53 GMT
+Location: /appsuite
+Refresh: 0;url=/appsuite
+Server: cloudflare
+Set-Cookie: _cfuvid=ETf8co3L2_hl6C3Qcz4ma_zdqWfXSQrCC_44Dk7VFEs-1754398133897-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+X-Vercel-Id: iad1::f8jkb-1754398133884-3f141fa3e373
+
+

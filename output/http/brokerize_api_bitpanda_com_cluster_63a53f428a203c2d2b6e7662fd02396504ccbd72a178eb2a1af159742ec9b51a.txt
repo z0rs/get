@@ -1,0 +1,29 @@
+[cluster-63a53f428a203c2d2b6e7662fd02396504ccbd72a178eb2a1af159742ec9b51a] Dumped HTTP request for https://brokerize-api.bitpanda.com/index.php5
+
+
+GET /index.php5 HTTP/1.1
+Host: brokerize-api.bitpanda.com
+User-Agent: Mozilla/5.0 (Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[cluster-63a53f428a203c2d2b6e7662fd02396504ccbd72a178eb2a1af159742ec9b51a] Dumped HTTP response https://brokerize-api.bitpanda.com/index.php5
+
+HTTP/1.1 401 Unauthorized
+Connection: close
+Content-Length: 92
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a6694a2832e63d-IAD
+Content-Type: application/json
+Date: Tue, 05 Aug 2025 12:48:52 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=MvX9FKPKyEnCd4MMoK_Fzwb1S79hypQbBFPpNudbj4Y-1754398132951-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+{"errors":[{"code":"unauthorized","status":401,"title":"Credentials / Access token wrong"}]}

@@ -1,0 +1,21 @@
+[cobbler-version] Dumped HTTP request for http://localization.webhooks.bitpanda.com/cobbler_api
+
+
+POST /cobbler_api HTTP/1.1
+Host: localization.webhooks.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/601.7.7 (KHTML, like Gecko) Version/9.1.2 Safari/601.7.7
+Connection: close
+Content-Length: 114
+Accept: */*
+Accept-Language: en
+Content-Type: text/xml
+Cookie: _cfuvid=RKaWrDn2c70eu0xlNbdhnr4sBuu7LmGAQ9YSVfYKWU0-1754398370860-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+<?xml version='1.0'?>
+<methodCall>
+<methodName>extended_version</methodName>
+<params></params>
+</methodCall>
+

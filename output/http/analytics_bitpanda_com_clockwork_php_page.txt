@@ -1,0 +1,29 @@
+[clockwork-php-page] Dumped HTTP request for https://analytics.bitpanda.com/__clockwork/app
+
+
+GET /__clockwork/app HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=hfI1ZkpzbcdGcCW.Mt00nANwTmxX0KMQarl03YAzPqU-1754398168330-0.0.1.1-604800000; _cfuvid=__SePyCJKQK9mUbTUczoshXOs6tMI_tVIJKeUL7uWOk-1754398169347-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[clockwork-php-page] Dumped HTTP response https://analytics.bitpanda.com/__clockwork/app
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Content-Length: 19
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a315d4bf4e2-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:29 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=8scY3PB_D7TIvfPE425a4twI8oL.cvTqw1sJNsJt2Rs-1754398169924-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+
+no healthy upstream

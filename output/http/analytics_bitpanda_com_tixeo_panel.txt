@@ -1,0 +1,57 @@
+[tixeo-panel] Dumped HTTP request for https://analytics.bitpanda.com/meet/services/json/v1/settings
+
+
+GET /meet/services/json/v1/settings HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 11_3) AppleWebKit/537.36 (KHTML, like Gecko) Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=cTL6UYD.n7C9h0QjdRGT.7jJYaBYzyrCC6RcfeQrziU-1754398165321-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[tixeo-panel] Dumped HTTP response https://analytics.bitpanda.com/meet/services/json/v1/settings
+
+HTTP/1.1 503 Service Unavailable
+Connection: close
+Content-Length: 19
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a66a1e8c650621-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:49:26 GMT
+Server: cloudflare
+Set-Cookie: _cfuvid=OqkqvcakrWhF3OWCyQzgdi_3mV3FQQgmy6lTdadaPBE-1754398166928-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly; Secure; SameSite=None
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+X-Content-Type-Options: nosniff
+
+no healthy upstream
+[tixeo-panel] Dumped HTTP request for https://analytics.bitpanda.com/meet/login.html
+
+
+GET /meet/login.html HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=RpCh1AVxW7JcYM5SxQg8k5.f1DARstVSwSloTy5FNHU-1754398172045-0.0.1.1-604800000; _cfuvid=M9MyHT.fsn6PGsRxVk7BZAS8Jbclq6nPiEVEa9MqLSo-1754398172919-0.0.1.1-604800000; _cfuvid=WTHLNZzNTMTSpXKdWszauKQiuhCKys8vnKW7I_GIzMI-1754398175166-0.0.1.1-604800000; _cfuvid=MVcu6ZH6o_Nf1ELEvxxyjoD9U1WBVyyKb6ViAbiXHGA-1754398179288-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[tixeo-panel] Dumped HTTP request for https://analytics.bitpanda.com/meet/
+
+
+GET /meet/ HTTP/1.1
+Host: analytics.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=JOVvY4CCUgo03V9_fgugtF3qH1ea6ub4kq_qLc8Evew-1754398185054-0.0.1.1-604800000; _cfuvid=Gs43.MyaOVYgQiHjjFQxX7ZKw5X6j8EcjXC_KvZqKpo-1754398196130-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

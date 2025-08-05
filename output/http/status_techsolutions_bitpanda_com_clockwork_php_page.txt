@@ -1,0 +1,35 @@
+[clockwork-php-page] Dumped HTTP request for https://status.techsolutions.bitpanda.com/__clockwork/app
+
+
+GET /__clockwork/app HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Ubuntu; Linux x86_64; rv:135.0) Gecko/20100101 Firefox/135.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[clockwork-php-page] Dumped HTTP response https://status.techsolutions.bitpanda.com/__clockwork/app
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: 3476687f-d312-45ea-b39b-a02851a1ba71
+Atl-Traceid: 3476687fd31245eab39ba02851a1ba71
+Date: Tue, 05 Aug 2025 12:52:20 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=62,atl-edge-internal;dur=2,atl-edge-upstream;dur=61,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 dd6a13d6510988eea7236b9a3cd830fe.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 6ti83VADy4IOeI9wWu4Gs5YtiomL-CTYJ-m6NispHDMokzOUmfhaaA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 101896319
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

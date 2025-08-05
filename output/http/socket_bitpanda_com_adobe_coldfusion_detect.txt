@@ -1,0 +1,228 @@
+[adobe-coldfusion-detect] Dumped HTTP request for https://socket.bitpanda.com/CFIDE/administrator/images/mx_login.gif
+
+
+GET /CFIDE/administrator/images/mx_login.gif HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Mac OS X 13_2) AppleWebKit/537.36 (KHTML, like Gecko) Edge/109.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=NtPgjv9vbky52BLiqUgGEdjXMMT3Hghyc43AfM22+JSN523biySjTcLMzOleBz4qnSYPQVJ5WdC/d/JnaWLvQ73rGHC57bsDx7d1qPZGF0oaMjG4OFI4l80oHPT6; AWSALBCORS=NtPgjv9vbky52BLiqUgGEdjXMMT3Hghyc43AfM22+JSN523biySjTcLMzOleBz4qnSYPQVJ5WdC/d/JnaWLvQ73rGHC57bsDx7d1qPZGF0oaMjG4OFI4l80oHPT6
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[adobe-coldfusion-detect] Dumped HTTP response https://socket.bitpanda.com/CFIDE/administrator/images/mx_login.gif
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:23 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=Q3jc8VWk6r9mv0bAWvyJHYgRV5wcQh5sKAwRdB4ky19ya7lRdDShGj9jM9P/1CJAJroIW1yH0RlwX2bQVSA+o/Zee+DL5H1oKsykiwFz6pF0WewhKWnKrmPcLvY2; Expires=Tue, 12 Aug 2025 12:52:23 GMT; Path=/
+Set-Cookie: AWSALBCORS=Q3jc8VWk6r9mv0bAWvyJHYgRV5wcQh5sKAwRdB4ky19ya7lRdDShGj9jM9P/1CJAJroIW1yH0RlwX2bQVSA+o/Zee+DL5H1oKsykiwFz6pF0WewhKWnKrmPcLvY2; Expires=Tue, 12 Aug 2025 12:52:23 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 7c52bc60e0da5f557ed6047264a41c18.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: OpHeK6wHjTI6Dxzeq8QfDGzrUg2QBK98c00EOETTq6qAaGHl14WzXw==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 14
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[adobe-coldfusion-detect] Dumped HTTP request for https://socket.bitpanda.com/cfide/administrator/images/mx_login.gif
+
+
+GET /cfide/administrator/images/mx_login.gif HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; Linux i686; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=yTLEoalEGSfAC3IbEOeDWe74R9GB251wFz42gb11p+fShJv9w5cox8s88dipCEZjn+3/1k3pWO9k+/ZVx6Xy7WlOPylq1QdcuITa0uXp0y7wINfMwE86rchqKZFD; AWSALBCORS=yTLEoalEGSfAC3IbEOeDWe74R9GB251wFz42gb11p+fShJv9w5cox8s88dipCEZjn+3/1k3pWO9k+/ZVx6Xy7WlOPylq1QdcuITa0uXp0y7wINfMwE86rchqKZFD
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[adobe-coldfusion-detect] Dumped HTTP response https://socket.bitpanda.com/cfide/administrator/images/mx_login.gif
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:26 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=XhczLDWE1IVS6ZN4LOuFd5Ho9k2dBJPwHUH55ZBviNhHz5YrJybXudM8jyN6YvyWB+unES8hxHh8G2eA+FEJGpbczc4VR5wS8fLV3zc0U92a1TwREe1dYe+GAhsa; Expires=Tue, 12 Aug 2025 12:52:26 GMT; Path=/
+Set-Cookie: AWSALBCORS=XhczLDWE1IVS6ZN4LOuFd5Ho9k2dBJPwHUH55ZBviNhHz5YrJybXudM8jyN6YvyWB+unES8hxHh8G2eA+FEJGpbczc4VR5wS8fLV3zc0U92a1TwREe1dYe+GAhsa; Expires=Tue, 12 Aug 2025 12:52:26 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 87e6563b344d9d0eb9b5aa233652bc74.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: a0bAqZiClY-iF1-1MXXNLPn9L5b9ASpXYJGtrrw_BeRvIdANtd2dLw==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 2
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[adobe-coldfusion-detect] Dumped HTTP request for https://socket.bitpanda.com/CFIDE/administrator/images/background.jpg
+
+
+GET /CFIDE/administrator/images/background.jpg HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 13_0) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=ax25Kcr+chraxYZnj6y+PONvGqPrlqd6aUyH5MssLSK5TR5MT/C52gvhH3Nc5+XruFRr0D4VsxM2KjQZx4pfopCxFU84TsVDCaIlzzI7WTOJUE2ntHUuBTs3TONQ; AWSALBCORS=ax25Kcr+chraxYZnj6y+PONvGqPrlqd6aUyH5MssLSK5TR5MT/C52gvhH3Nc5+XruFRr0D4VsxM2KjQZx4pfopCxFU84TsVDCaIlzzI7WTOJUE2ntHUuBTs3TONQ
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[adobe-coldfusion-detect] Dumped HTTP response https://socket.bitpanda.com/CFIDE/administrator/images/background.jpg
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:28 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=bYMTlNI8bRsgsiHUhpqbkI44HbdboJWUZoJzzjK4TpOXC2XuYQPPxBSosskcxzwdM4WQ3ds7a49yaVZ8/XfD2ISGv4VhTEQH224ZojY9qURdLWiG3ZWA8WCmJyo2; Expires=Tue, 12 Aug 2025 12:52:28 GMT; Path=/
+Set-Cookie: AWSALBCORS=bYMTlNI8bRsgsiHUhpqbkI44HbdboJWUZoJzzjK4TpOXC2XuYQPPxBSosskcxzwdM4WQ3ds7a49yaVZ8/XfD2ISGv4VhTEQH224ZojY9qURdLWiG3ZWA8WCmJyo2; Expires=Tue, 12 Aug 2025 12:52:28 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 a1b25b0d3d9a8dc90e047cb69c24f48c.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: exsP1OjW5xWg4M5rHTpIr1zGx2C1cczOfC9fSYPumkCWs7naDza8pg==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 5
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[adobe-coldfusion-detect] Dumped HTTP request for https://socket.bitpanda.com/cfide/administrator/images/background.jpg
+
+
+GET /cfide/administrator/images/background.jpg HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (SS; Linux x86_64; rv:121.0) Gecko/20100101 Firefox/121.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=iOS6NIDXWhrqGHUA5icHl0WnlsibOBmYPOEmxDk+1LA89xuZpQ/CxI23z11pZVv6QeJO+EgkCgNWqWfvlg/M9K9rrJEeC5HX58qXxfe8Gr9E+jrqBumbIikG1bmk; AWSALBCORS=iOS6NIDXWhrqGHUA5icHl0WnlsibOBmYPOEmxDk+1LA89xuZpQ/CxI23z11pZVv6QeJO+EgkCgNWqWfvlg/M9K9rrJEeC5HX58qXxfe8Gr9E+jrqBumbIikG1bmk
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[adobe-coldfusion-detect] Dumped HTTP response https://socket.bitpanda.com/cfide/administrator/images/background.jpg
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:30 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=yFtoVlgQFgk8y718foRZ0LE5lVDrcBNS4apAuL/nRAAKqQY4UDvZiUcKnWxy+zErQaTgUnxcBHLo2DnqhiVs237Zm/+yDlas6hv1At1YWWf6As0Jv/uMoFXnJiTE; Expires=Tue, 12 Aug 2025 12:52:30 GMT; Path=/
+Set-Cookie: AWSALBCORS=yFtoVlgQFgk8y718foRZ0LE5lVDrcBNS4apAuL/nRAAKqQY4UDvZiUcKnWxy+zErQaTgUnxcBHLo2DnqhiVs237Zm/+yDlas6hv1At1YWWf6As0Jv/uMoFXnJiTE; Expires=Tue, 12 Aug 2025 12:52:30 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 9cd85e528eb96b937681f7f81aea46c8.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: f4zzOee539WN94-wrclUEdiHKC2UPVNnW2_raC7f9KLhHUkXYiMZlg==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 1
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[adobe-coldfusion-detect] Dumped HTTP request for https://socket.bitpanda.com/CFIDE/administrator/images/componentutilslogin.jpg
+
+
+GET /CFIDE/administrator/images/componentutilslogin.jpg HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10.14; rv:109.0) Gecko/20100101 Firefox/115.0
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=VJyJtAc+4/Fu99yDzsS025Jdj/fbKVErXEdJwAX+gJ8+vMo9AaW+zf9kFcgrpPfpmhrV54TZJTFSn8FO0/14MIwbuTecyaCEaspV4V1z0U0gI8UkwdLxLkxTALFH; AWSALBCORS=VJyJtAc+4/Fu99yDzsS025Jdj/fbKVErXEdJwAX+gJ8+vMo9AaW+zf9kFcgrpPfpmhrV54TZJTFSn8FO0/14MIwbuTecyaCEaspV4V1z0U0gI8UkwdLxLkxTALFH
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[adobe-coldfusion-detect] Dumped HTTP response https://socket.bitpanda.com/CFIDE/administrator/images/componentutilslogin.jpg
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:32 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=ORK4Rpb6RMs5cL+LZeAr+sP1QZzwO6Ymxzb4DSfgkLcj1m26xat4VUN8sMtRB4cOIq1IVZa988FnwtjmKQ6G1e+9aFThUcP6keaZpBTGAWIBo4gVDEiL7Oy03omx; Expires=Tue, 12 Aug 2025 12:52:32 GMT; Path=/
+Set-Cookie: AWSALBCORS=ORK4Rpb6RMs5cL+LZeAr+sP1QZzwO6Ymxzb4DSfgkLcj1m26xat4VUN8sMtRB4cOIq1IVZa988FnwtjmKQ6G1e+9aFThUcP6keaZpBTGAWIBo4gVDEiL7Oy03omx; Expires=Tue, 12 Aug 2025 12:52:32 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 ee9b452ef78932123abe17295c8c65be.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: jlBF6Jmq6apLwP1YBTCRzOOaLI3mauHBSa5TDgcEOp7U6w6oc0AiRQ==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 14
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}
+[adobe-coldfusion-detect] Dumped HTTP request for https://socket.bitpanda.com/cfide/administrator/images/componentutilslogin.jpg
+
+
+GET /cfide/administrator/images/componentutilslogin.jpg HTTP/1.1
+Host: socket.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 12_5) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: AWSALB=ZEbCM/lh8QhcDZZ6e4zNV1ELIw+CuRepZvnEmLoGvAl6xoI3cvPMWZVY1D8AVnBImJODoJXVya25JQUgKsSDu4Xx4recLM5bHYQ6g5PFczpiNOCNN7vgEukr6rwB; AWSALBCORS=ZEbCM/lh8QhcDZZ6e4zNV1ELIw+CuRepZvnEmLoGvAl6xoI3cvPMWZVY1D8AVnBImJODoJXVya25JQUgKsSDu4Xx4recLM5bHYQ6g5PFczpiNOCNN7vgEukr6rwB
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[adobe-coldfusion-detect] Dumped HTTP response https://socket.bitpanda.com/cfide/administrator/images/componentutilslogin.jpg
+
+HTTP/1.1 404 Not Found
+Connection: close
+Content-Length: 28
+Content-Type: application/json; charset=utf-8
+Date: Tue, 05 Aug 2025 12:52:35 GMT
+Etag: W/"1c-MOxLziJPE3pYclichFPQin1Cisg"
+Referrer-Policy: strict-origin-when-cross-origin
+Server: istio-envoy
+Set-Cookie: AWSALB=DKurzEr6YM7KDbkBfckk7/HazPI9l2hnPMnJ4NCFE9cOvckadmqCjlzY+FYuGoupkFb7wMrJ4ZHikEJoWgc399GqKfMH52C+P/WbCA8NjAh1tj0zyhMXM7yGmmWu; Expires=Tue, 12 Aug 2025 12:52:35 GMT; Path=/
+Set-Cookie: AWSALBCORS=DKurzEr6YM7KDbkBfckk7/HazPI9l2hnPMnJ4NCFE9cOvckadmqCjlzY+FYuGoupkFb7wMrJ4ZHikEJoWgc399GqKfMH52C+P/WbCA8NjAh1tj0zyhMXM7yGmmWu; Expires=Tue, 12 Aug 2025 12:52:35 GMT; Path=/; SameSite=None; Secure
+Strict-Transport-Security: max-age=31536000
+Via: 1.1 d45137f973d454db77c647196f56613a.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: pizAlqEDC0lDx4dVeuha6-t6MaX0TjGG46_Ymfd3prjgWYBhB0rofg==
+X-Amz-Cf-Pop: IAD61-P2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Envoy-Decorator-Operation: socket-server.socket-server.svc.cluster.local:80/*
+X-Envoy-Upstream-Service-Time: 15
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+
+{"message":"Page not found"}

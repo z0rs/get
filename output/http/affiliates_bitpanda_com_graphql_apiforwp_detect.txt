@@ -1,0 +1,64 @@
+[graphql-apiforwp-detect] Dumped HTTP request for http://affiliates.bitpanda.com/graphql
+
+
+POST /graphql HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.5 Mobile/15E148 Safari/604.1
+Connection: close
+Content-Length: 38
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ufNLKaIRVM4BgqC_O7A9G6MDM9qieR86b5LUeTPu9ks-1754398223800-0.0.1.1-604800000; _cfuvid=McFyxTAXxeUq0AnW6TpKZGQIP2AqTc.V1RRw_TsfqIA-1754398233786-0.0.1.1-604800000; _cfuvid=bDyr_t1i8A4DIDIwBE2.T6ATx3qbs3PHJeyYCNtcs5M-1754398257845-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query aa#aa { __typename }"}
+[graphql-apiforwp-detect] Dumped HTTP request for http://affiliates.bitpanda.com/api/graphql
+
+
+POST /api/graphql HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Connection: close
+Content-Length: 38
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=iM1lIwL5xErsi7Q6SI_Pik3YpV2xdBj5EAwAN0SwFzs-1754398270814-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query aa#aa { __typename }"}
+[graphql-apiforwp-detect] Dumped HTTP request for http://affiliates.bitpanda.com/query
+
+
+POST /query HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393
+Connection: close
+Content-Length: 38
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=ltpcRZZZHiOknEDn5kMmoeV4p3NpHVxkW2CK5m_C8A8-1754398290839-0.0.1.1-604800000; _cfuvid=NGm2AzrZjXHx9EUhZD5PXhYB5kMqFDb.9vxK1eskgO8-1754398305829-0.0.1.1-604800000; _cfuvid=uw5rwU0DqmhLVwbFOcYHKSAPxSLZj6_wBcHdoaW_YIk-1754398308873-0.0.1.1-604800000; _cfuvid=9UnXmQF4_C9OpQTOi3EKePF0SS.7kBSpUjo3cITq0L0-1754398311898-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query aa#aa { __typename }"}
+[graphql-apiforwp-detect] Dumped HTTP request for http://affiliates.bitpanda.com/
+
+
+POST / HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux i686; rv:132.0) Gecko/20100101 Firefox/132.0
+Connection: close
+Content-Length: 38
+Accept: */*
+Accept-Language: en
+Content-Type: application/json
+Cookie: _cfuvid=9UnXmQF4_C9OpQTOi3EKePF0SS.7kBSpUjo3cITq0L0-1754398311898-0.0.1.1-604800000; _cfuvid=tq1tZYvyWRqhFBvbCsZQNJ28D.NFviN6wv9QkcYZ8Go-1754398330818-0.0.1.1-604800000; _cfuvid=kzhxlRlgKRPaD5Fly1EiGeK9.KRC0z8gx4D_4nt2Sb8-1754398345834-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+{"query":"query aa#aa { __typename }"}

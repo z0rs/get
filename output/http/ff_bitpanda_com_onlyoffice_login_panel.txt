@@ -1,0 +1,66 @@
+[onlyoffice-login-panel] Dumped HTTP request for http://ff.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=vH07zt1zCXALqraZ8AYOvo81Mh1Kx7jg5pisWNqqoXI-1754398329819-0.0.1.1-604800000; _cfuvid=hO5GAodAOKBzJK6QM7EzIS3fyCGjLYYpKdinbuEsCRA-1754398342832-0.0.1.1-604800000; _cfuvid=.Z0hFdAiDJyYU7po8cTl.kgwGwhu05YsCHdCD6EhE4w-1754398368858-0.0.1.1-604800000; GCLB="143d3e2fbfda9a48"
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[onlyoffice-login-panel] Dumped HTTP request for http://ff.bitpanda.com/auth.aspx
+
+
+GET /auth.aspx HTTP/1.1
+Host: ff.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=sRmHgXYzgKHRYBBVIJGaecO4XLgdgy0gqOmbGAgh8Ok-1754398379947-0.0.1.1-604800000; _cfuvid=b6ej7iBBmbjKmLwR5HB6ET9RUZOdnWxj2zp5xSmfTZc-1754398383873-0.0.1.1-604800000; _cfuvid=6VAiQX4ByG7TKeiilA8z52MKz0dCcaKF1oeam5H6JdE-1754398385870-0.0.1.1-604800000; _cfuvid=GuxB2X9aM9oFx8RUhnEpxs3QQjqDtPIjc0ej48Vsvj4-1754398404676-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[onlyoffice-login-panel] Dumped HTTP response http://ff.bitpanda.com/auth.aspx
+
+HTTP/1.1 403 Forbidden
+Connection: close
+Content-Length: 19
+Access-Control-Allow-Methods: GET,HEAD,POST,OPTIONS
+Access-Control-Allow-Origin: *
+Cf-Cache-Status: DYNAMIC
+Cf-Ray: 96a670019be7ed75-IAD
+Content-Type: text/plain
+Date: Tue, 05 Aug 2025 12:53:28 GMT
+Referrer-Policy: strict-origin-when-cross-origin
+Server: cloudflare
+Set-Cookie: GCLB="c89313f557a5add5"; Max-Age=1; Path=/; HttpOnly
+Strict-Transport-Security: max-age=15552000; includeSubDomains; preload
+Vary: Accept-Encoding
+Via: 1.1 google
+X-Content-Type-Options: nosniff
+X-Statsig-Region: gke-us-east5
+
+RBAC: access denied
+[onlyoffice-login-panel] Dumped HTTP response http://ff.bitpanda.com/auth.aspx
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a670013e05e63a-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:53:27 GMT
+Expires: Tue, 05 Aug 2025 13:53:27 GMT
+Location: https://ff.bitpanda.com/auth.aspx
+Server: cloudflare
+Set-Cookie: _cfuvid=79k4ki41olilRudEtRAC7iLJWGtr7iMCndby34LUJ5w-1754398407912-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+

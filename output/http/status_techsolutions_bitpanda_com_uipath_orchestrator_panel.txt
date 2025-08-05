@@ -1,0 +1,35 @@
+[uipath-orchestrator-panel] Dumped HTTP request for https://status.techsolutions.bitpanda.com/Account/Login
+
+
+GET /Account/Login HTTP/1.1
+Host: status.techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1.2 Mobile/15E148 Safari/604.1
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[uipath-orchestrator-panel] Dumped HTTP response https://status.techsolutions.bitpanda.com/Account/Login
+
+HTTP/1.1 404 Not Found
+Connection: close
+Atl-Request-Id: f06a77c1-7a2a-4fa2-998d-b35c1aa476b8
+Atl-Traceid: f06a77c17a2a4fa2998db35c1aa476b8
+Date: Tue, 05 Aug 2025 12:52:17 GMT
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Server: AtlassianEdge
+Server-Timing: atl-edge;dur=66,atl-edge-internal;dur=3,atl-edge-upstream;dur=64,atl-edge-pop;desc="aws-us-east-1"
+Strict-Transport-Security: max-age=63072000; preload
+Via: 1.1 c307613fe3146dad6950808dc74f82f6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: EcHgNDJ3oOJyebr6RnpAOq9KlxT5DFnwbloIs5S51mcrse49CeaVcA==
+X-Amz-Cf-Pop: IAD89-C2
+X-Cache: Error from cloudfront
+X-Content-Type-Options: nosniff
+X-Varnish: 60548891
+X-Xss-Protection: 1; mode=block
+Content-Length: 0
+
+

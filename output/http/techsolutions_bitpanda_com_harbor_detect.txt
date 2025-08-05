@@ -1,0 +1,26 @@
+[harbor-detect] Dumped HTTP request for https://techsolutions.bitpanda.com/api/v2.0/systeminfo
+
+
+GET /api/v2.0/systeminfo HTTP/1.1
+Host: techsolutions.bitpanda.com
+User-Agent: Mozilla/5.0 (ZZ; Linux x86_64; rv:124.0) Gecko/20100101 Firefox/124.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[harbor-detect] Dumped HTTP response https://techsolutions.bitpanda.com/api/v2.0/systeminfo
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Date: Tue, 05 Aug 2025 12:52:37 GMT
+Location: ./systeminfo/
+Via: 1.1 31467e378930bcac2417aea59659f7e6.cloudfront.net (CloudFront)
+X-Amz-Cf-Id: rRk7CNa2LYBj2aiwO9NLpD0PVkPzVhLMVEmnEyyUtBSICJ12t6Dk3w==
+X-Amz-Cf-Pop: IAD55-P8
+X-Cache: LambdaGeneratedResponse from cloudfront
+Content-Length: 0
+
+

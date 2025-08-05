@@ -1,0 +1,65 @@
+[joomla-detect] Dumped HTTP request for http://web.bitpanda.com/administrator/manifests/files/joomla.xml
+
+
+GET /administrator/manifests/files/joomla.xml HTTP/1.1
+Host: web.bitpanda.com
+User-Agent: Mozilla/5.0 (CentOS; Linux x86_64; rv:134.0) Gecko/20100101 Firefox/134.0
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[joomla-detect] Dumped HTTP request for http://web.bitpanda.com/language/en-GB/en-GB.xml
+
+
+GET /language/en-GB/en-GB.xml HTTP/1.1
+Host: web.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 14.6) AppleWebKit/620.30 (KHTML, like Gecko) Version/17.0 Safari/620.30
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[joomla-detect] Dumped HTTP request for http://web.bitpanda.com/README.txt
+
+
+GET /README.txt HTTP/1.1
+Host: web.bitpanda.com
+User-Agent: Mozilla/5.0 (Debian; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[joomla-detect] Dumped HTTP request for http://web.bitpanda.com/modules/custom.xml
+
+
+GET /modules/custom.xml HTTP/1.1
+Host: web.bitpanda.com
+User-Agent: Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[joomla-detect] Dumped HTTP request for http://web.bitpanda.com
+
+
+GET / HTTP/1.1
+Host: web.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+

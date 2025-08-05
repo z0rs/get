@@ -1,0 +1,126 @@
+[carestream-vue-detect] Dumped HTTP request for http://akurateco.bitpanda.com/portal/favicon.ico
+
+
+GET /portal/favicon.ico HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (Knoppix; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[carestream-vue-detect] Dumped HTTP response http://akurateco.bitpanda.com/portal/favicon.ico
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache, private
+Content-Security-Policy: default-src 'self'; block-all-mixed-content; connect-src 'self' https://*.zendesk.com wss://*.zendesk.com wss://*.zopim.com https://*.sentry.io https://*:9090; font-src 'self' https://*.gstatic.com; form-action 'self'; frame-ancestors 'none'; frame-src *; img-src 'self' https://*.google-analytics.com data:;; object-src 'none'; script-src 'self' 'unsafe-eval' https://*.google-analytics.com https://*.googleapis.com https://*.gstatic.com https://*.smooch.io https://*.sentry.io https://*.zdassets.com https://*.zendesk.com https://*.zopim.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-hashes' 'unsafe-eval' https://cdn.jsdelivr.net https://*.googleapis.com; upgrade-insecure-requests
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:34 GMT
+Referrer-Policy: no-referrer, strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Security-Policy: default-src 'self'; block-all-mixed-content; connect-src 'self' https://*.zendesk.com wss://*.zendesk.com wss://*.zopim.com https://*.sentry.io https://*:9090; font-src 'self' https://*.gstatic.com; form-action 'self'; frame-ancestors 'none'; frame-src *; img-src 'self' https://*.google-analytics.com data:;; object-src 'none'; script-src 'self' 'unsafe-eval' https://*.google-analytics.com https://*.googleapis.com https://*.gstatic.com https://*.smooch.io https://*.sentry.io https://*.zdassets.com https://*.zendesk.com https://*.zopim.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-hashes' 'unsafe-eval' https://cdn.jsdelivr.net https://*.googleapis.com; upgrade-insecure-requests
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+    <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>An Error Occurred: Not Found</title>
+        <style>
+            body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+            .container { margin: 30px; max-width: 600px; }
+            h1 { color: #dc3545; font-size: 24px; }
+            h2 { font-size: 18px; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Oops! An Error Occurred</h1>
+            <h2>The server returned a "404 Not Found".</h2>
+
+            <p>
+                Something is broken. Please let us know what you were doing when this error occurred.
+                We will fix it as soon as possible. Sorry for any inconvenience caused.
+            </p>
+        </div>
+    </body>
+</html>
+
+[carestream-vue-detect] Dumped HTTP response http://akurateco.bitpanda.com/portal/favicon.ico
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:33 GMT
+Location: https://akurateco.bitpanda.com/portal/favicon.ico
+
+
+[carestream-vue-detect] Dumped HTTP request for http://akurateco.bitpanda.com/portal/images/MyVue/MyVueHelp.png
+
+
+GET /portal/images/MyVue/MyVueHelp.png HTTP/1.1
+Host: akurateco.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[carestream-vue-detect] Dumped HTTP response http://akurateco.bitpanda.com/portal/images/MyVue/MyVueHelp.png
+
+HTTP/1.1 404 Not Found
+Connection: close
+Transfer-Encoding: chunked
+Cache-Control: no-cache, private
+Content-Security-Policy: default-src 'self'; block-all-mixed-content; connect-src 'self' https://*.zendesk.com wss://*.zendesk.com wss://*.zopim.com https://*.sentry.io https://*:9090; font-src 'self' https://*.gstatic.com; form-action 'self'; frame-ancestors 'none'; frame-src *; img-src 'self' https://*.google-analytics.com data:;; object-src 'none'; script-src 'self' 'unsafe-eval' https://*.google-analytics.com https://*.googleapis.com https://*.gstatic.com https://*.smooch.io https://*.sentry.io https://*.zdassets.com https://*.zendesk.com https://*.zopim.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-hashes' 'unsafe-eval' https://cdn.jsdelivr.net https://*.googleapis.com; upgrade-insecure-requests
+Content-Type: text/html; charset=UTF-8
+Date: Tue, 05 Aug 2025 12:49:40 GMT
+Referrer-Policy: no-referrer, strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=15724800; includeSubDomains
+X-Content-Security-Policy: default-src 'self'; block-all-mixed-content; connect-src 'self' https://*.zendesk.com wss://*.zendesk.com wss://*.zopim.com https://*.sentry.io https://*:9090; font-src 'self' https://*.gstatic.com; form-action 'self'; frame-ancestors 'none'; frame-src *; img-src 'self' https://*.google-analytics.com data:;; object-src 'none'; script-src 'self' 'unsafe-eval' https://*.google-analytics.com https://*.googleapis.com https://*.gstatic.com https://*.smooch.io https://*.sentry.io https://*.zdassets.com https://*.zendesk.com https://*.zopim.com https://cdn.jsdelivr.net; style-src 'self' 'unsafe-hashes' 'unsafe-eval' https://cdn.jsdelivr.net https://*.googleapis.com; upgrade-insecure-requests
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+
+    <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>An Error Occurred: Not Found</title>
+        <style>
+            body { background-color: #fff; color: #222; font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; margin: 0; }
+            .container { margin: 30px; max-width: 600px; }
+            h1 { color: #dc3545; font-size: 24px; }
+            h2 { font-size: 18px; }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Oops! An Error Occurred</h1>
+            <h2>The server returned a "404 Not Found".</h2>
+
+            <p>
+                Something is broken. Please let us know what you were doing when this error occurred.
+                We will fix it as soon as possible. Sorry for any inconvenience caused.
+            </p>
+        </div>
+    </body>
+</html>
+
+[carestream-vue-detect] Dumped HTTP response http://akurateco.bitpanda.com/portal/images/MyVue/MyVueHelp.png
+
+HTTP/1.1 308 Permanent Redirect
+Connection: close
+Content-Length: 164
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:49:39 GMT
+Location: https://akurateco.bitpanda.com/portal/images/MyVue/MyVueHelp.png
+
+

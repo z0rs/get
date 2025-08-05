@@ -1,0 +1,38 @@
+[mitel-version-detect] Dumped HTTP request for http://affiliates.bitpanda.com/ucs/micollab/version.json
+
+
+GET /ucs/micollab/version.json HTTP/1.1
+Host: affiliates.bitpanda.com
+User-Agent: Mozilla/5.0 (Macintosh, Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.1.1 Safari/605.1.15
+Connection: close
+Accept: */*
+Accept-Language: en
+Cookie: _cfuvid=iOrdVQwnslnxjjQPov3YFk8HxBJ5cva3w5FgYLlb6dY-1754398260828-0.0.1.1-604800000
+X-Bug-Bounty: Bugcrowd-eno@bugcrowdninja.com
+Accept-Encoding: gzip
+
+
+[mitel-version-detect] Dumped HTTP response http://affiliates.bitpanda.com/ucs/micollab/version.json
+
+HTTP/1.1 301 Moved Permanently
+Connection: close
+Content-Length: 167
+Cache-Control: max-age=3600
+Cf-Ray: 96a66c702cf09c58-IAD
+Content-Type: text/html
+Date: Tue, 05 Aug 2025 12:51:01 GMT
+Expires: Tue, 05 Aug 2025 13:51:01 GMT
+Location: https://affiliates.bitpanda.com/ucs/micollab/version.json
+Server: cloudflare
+Set-Cookie: _cfuvid=EMg7UX._3WeDstpwN6Z2ogVM5gvxYkDhvc6VSlFtaGI-1754398261857-0.0.1.1-604800000; path=/; domain=.bitpanda.com; HttpOnly
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>cloudflare</center>
+</body>
+</html>
+
